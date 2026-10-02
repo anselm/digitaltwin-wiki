@@ -5,7 +5,13 @@ deploy) comes from the harness and is not repeated here.
 
 ## What this is
 
-(one paragraph: what the project is, who it is for, where it is deployed)
+A free, open reference for people who build digital twins of places (cities,
+watersheds, regions): a catalogue of tools and techniques, a playbook for
+building one, worked cases and reusable material, readable by people and by
+their LLMs. Intended as a civic good for practitioners, not a sales site.
+Seeded from Anselm's survey draft at
+https://digital-twins-survey.anselm52491.chatgpt.site. Not deployed. As of
+2026-10-02 it is at the approach stage; see `devlog/20261002-approach-sketch.md`.
 
 ## Where things are
 
