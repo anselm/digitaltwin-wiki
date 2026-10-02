@@ -154,6 +154,8 @@ body.plain .dn { display: none; }
 .facts span:last-child { font-size: 0.88rem; }
 .unk { color: var(--muted); font-style: italic; }
 details { font-size: 0.88rem; color: var(--muted); }
+details.intent { font-size: 0.95rem; }
+details.intent p { color: var(--ink); max-width: 36rem; }
 details summary { cursor: pointer; color: var(--accent); }
 details p { padding-top: 6px; }
 
@@ -185,16 +187,22 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
     <a href="#build">How to build one</a>
     <a href="#machine">For your AI</a>
     <a href="#changes">What changed</a>
+    <a href="#top">Who this is for</a>
     <label><input type="checkbox" id="notes-toggle" checked> Show design notes</label>
   </nav>
 </div>
 
-<main class="page">
+<main class="page" id="top">
 
   <section class="open">
     <p class="label">A public guide to digital twins</p>
     <h1>Model Your Place</h1>
     <p class="dek">Tools for seeing how a farm, a town, a watershed or a region behaves, and what would change if you did something differently. What you can use today, what it costs, and how others have done it.</p>
+    <details class="intent"><summary>Who this is for, and what it is trying to do</summary>
+      <p>For people who want to understand a place they care about: someone who farms or manages land, someone at a town or agency, a group of neighbours with a question, and the people who build these models. The aim is to help you see your own place better and leave with a next step, including when the answer is that you do not need a model.</p>
+      <p>The full statement lives in the guide's repository as <span class="mono">corpus/about/audience-and-goals.md</span>, and every page can be checked against it.</p>
+    </details>
+    <p class="dn"><b>Design note</b>The guide states its intended audience and goals in a document in its own repository and links to it from the first screen. On the real site this is a link to that page; the repository is not public yet, so the mockup shows a summary and the file path.</p>
 
     <ul class="stories">
       <li><span class="dom" style="--theme:#79C6C5"><img src="themes/mobility.svg" alt="">A late bus</span>
