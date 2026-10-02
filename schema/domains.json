@@ -1,0 +1,30 @@
+{
+  "_note": "Anselm's visual vocabulary, copied from the survey's visual-language page on 2026-10-02. Names, order, colours, symbols and credits are his decisions. Do not rename or recolour without him.",
+  "_source": "https://digital-twins-survey.anselm52491.chatgpt.site/visual-language/",
+  "_rules": [
+    "One symbol per domain, reused everywhere.",
+    "Colour identifies the theme: a distinct pastel hue per pictogram, carried through its rules and outgoing relationships. Keep labels dark.",
+    "Match visual weight: 48-72px symbols beside text, 80-96px in diagrams; judge apparent size.",
+    "Keep the words: colour and shape reinforce a visible domain label.",
+    "Connect the symbols: whole-system modeling is shown by relationships among domains; arrow labels describe the exchange or influence."
+  ],
+  "domains": [
+    {"id": "places",   "name": "Cities & places",      "symbol": "City blocks",          "colour": "#E79595", "colour_name": "Pastel coral",      "icon": "media/themes/places.svg",   "credit": "\"city block\" by Savannah Vize, Noun Project, CC BY 3.0"},
+    {"id": "mobility", "name": "Movement & logistics", "symbol": "Rail junction",        "colour": "#79C6C5", "colour_name": "Pastel aqua",       "icon": "media/themes/mobility.svg", "credit": "\"train junction\" by Worakamon Saykajarn, Noun Project, CC BY 3.0"},
+    {"id": "energy",   "name": "Energy",               "symbol": "Transmission tower",   "colour": "#D9BC70", "colour_name": "Pastel gold",       "icon": "media/themes/energy.svg",   "credit": "\"Transmission Tower\" by Masha Eizner, Noun Project, CC BY 3.0"},
+    {"id": "water",    "name": "Water",                "symbol": "River",                "colour": "#79B4DE", "colour_name": "Pastel blue",       "icon": "media/themes/water.svg",    "credit": "\"river\" by Creative Mahira, Noun Project, CC BY 3.0"},
+    {"id": "food",     "name": "Food & land",          "symbol": "Cultivated landscape", "colour": "#B3C779", "colour_name": "Pastel lime",       "icon": "media/themes/food.svg",     "credit": "\"farm crops\" by Made, Noun Project, CC BY 3.0"},
+    {"id": "ecology",  "name": "Living systems",       "symbol": "Habitat",              "colour": "#82C39F", "colour_name": "Pastel mint",       "icon": "media/themes/ecology.svg",  "credit": "\"biodiversity\" by Ali Khamdan, Noun Project, CC BY 3.0"},
+    {"id": "climate",  "name": "Weather & climate",    "symbol": "Atmosphere",           "colour": "#BE9BDC", "colour_name": "Pastel lavender",   "icon": "media/themes/climate.svg",  "credit": "\"atmosphere\" by rendicon, Noun Project, CC BY 3.0"},
+    {"id": "people",   "name": "People & society",     "symbol": "People at a table",    "colour": "#D692BE", "colour_name": "Pastel rose",       "icon": "media/themes/people.svg",   "credit": "\"Meeting\" by Creative Stall, Noun Project, CC BY 3.0"},
+    {"id": "fire",     "name": "Fire",                 "symbol": "Flame",                "colour": "#E8A071", "colour_name": "Pastel apricot",    "icon": "media/themes/fire.svg",     "credit": "\"Fire\" by Gregor Cresnar, Noun Project, CC BY 3.0"},
+    {"id": "sensory",  "name": "Sensory landscape",    "symbol": "Senses",               "colour": "#969BD8", "colour_name": "Pastel periwinkle", "icon": "media/themes/sensory.svg",  "credit": "\"sensory\" by mangunkarsa, Noun Project, CC BY 3.0"}
+  ],
+  "page": {
+    "ink": "#17333b", "muted": "#45616a", "paper": "#fafbf9", "white": "#fff",
+    "line": "#cbd8d9", "accent": "#256768", "wash": "#eef4f4", "brand": "#ddeeea",
+    "display_face": "Georgia, serif (weight 400, tight tracking)",
+    "body_face": "system-ui sans, 17px/1.65",
+    "focus_ring": "#b66c20"
+  }
+}

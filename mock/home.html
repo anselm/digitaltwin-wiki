@@ -4,41 +4,50 @@
    four doors, then the questions, the ladder, three instruments, the build
    stages, the machine door, what changed. Floating menu, no header or footer. */
 :root {
-  --bg: #f3f5f8;
-  --surface: #ffffff;
-  --ink: #131a26;
-  --muted: #5a6577;
-  --line: #d3d9e3;
-  --accent: #1d4fc4;
-  --accent-soft: #e4ebfb;
-  --note: #7a5a00;
-  --note-bg: #fff6d6;
-  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  /* light values are the survey's own page tokens */
+  --bg: #fafbf9; --surface: #ffffff; --ink: #17333b; --muted: #45616a; --line: #cbd8d9;
+  --accent: #256768; --accent-soft: #ddeeea; --wash: #eef4f4;
+  --note: #6b4e00; --note-bg: #fbf3d4;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0d1320; --surface: #151d2e; --ink: #e6ebf4; --muted: #94a0b5;
-    --line: #2a3550; --accent: #8fb0ff; --accent-soft: #1b2a4d;
-    --note: #f0d27a; --note-bg: #2e2810; color-scheme: dark;
+    --bg: #0f2228; --surface: #16303a; --ink: #e8f0ef; --muted: #a3b9bd; --line: #2c4a54;
+    --accent: #8fd0cf; --accent-soft: #1d4047; --wash: #132a31;
+    --note: #f0d98a; --note-bg: #2d2a14; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0d1320; --surface: #151d2e; --ink: #e6ebf4; --muted: #94a0b5;
-  --line: #2a3550; --accent: #8fb0ff; --accent-soft: #1b2a4d;
-  --note: #f0d27a; --note-bg: #2e2810; color-scheme: dark;
+  --bg: #0f2228; --surface: #16303a; --ink: #e8f0ef; --muted: #a3b9bd; --line: #2c4a54;
+  --accent: #8fd0cf; --accent-soft: #1d4047; --wash: #132a31;
+  --note: #f0d98a; --note-bg: #2d2a14; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
-body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--sans); margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 17px/1.6 var(--sans); margin: 0; }
 .page { max-width: 44rem; margin: 0 auto; padding-inline: 20px; padding-block: 28px 96px;
   display: flex; flex-direction: column; gap: 56px; }
 a { color: var(--accent); }
 h1, h2, h3, p, ul, ol { margin: 0; }
-h1 { font-size: clamp(2.1rem, 8vw, 3.1rem); line-height: 1.05; letter-spacing: -0.02em; text-wrap: balance; }
-h2 { font-size: 1.3rem; line-height: 1.25; text-wrap: balance; }
+h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(2.3rem, 9vw, 3.6rem); line-height: 1.08; letter-spacing: -0.035em; text-wrap: balance; }
+h2 { font-family: var(--serif); font-weight: 400; font-size: 1.6rem; line-height: 1.25; text-wrap: balance; }
 h3 { font-size: 1rem; }
-.label { font: 0.72rem/1.2 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.label { font: 600 0.72rem/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+/* a domain label: his symbol, his pastel as a rule under dark text */
+.dom { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.9rem; line-height: 1.3;
+  padding-bottom: 3px; border-bottom: 3px solid var(--theme); align-self: flex-start; }
+.dom img { width: 30px; height: 30px; object-fit: contain; flex: none; }
+/* theme key */
+.key { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 18px 8px; padding: 18px 0;
+  border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.key button { background: none; border: 0; padding: 4px 0 6px; cursor: pointer; display: flex; flex-direction: column;
+  align-items: center; gap: 6px; text-align: center; font-size: 0.74rem; line-height: 1.25; font-weight: 600; min-width: 0;
+  border-bottom: 3px solid transparent; }
+.key img { width: 52px; height: 52px; object-fit: contain; }
+.key button[aria-pressed="true"] { border-bottom-color: var(--theme); }
+@media (min-width: 560px) { .key button { font-size: 0.88rem; } .key img { width: 72px; height: 72px; } }
 .muted { color: var(--muted); }
 .mono { font-family: var(--mono); font-size: 0.82rem; }
 section { display: flex; flex-direction: column; gap: 16px; }
@@ -46,7 +55,7 @@ button { font: inherit; color: inherit; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 /* floating chrome */
-.mark { position: fixed; top: calc(env(safe-area-inset-top, 0px) + 12px); left: 16px; z-index: 5;
+.mark { position: fixed; color: var(--muted); top: calc(env(safe-area-inset-top, 0px) + 12px); left: 16px; z-index: 5;
   font: 0.72rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase;
   background: var(--surface); border: 1px solid var(--line); border-radius: 3px; padding: 8px 10px; }
 .menu { position: fixed; top: calc(env(safe-area-inset-top, 0px) + 12px); right: 16px; z-index: 6;
@@ -81,6 +90,7 @@ body.plain .dn { display: none; }
 .chips button { background: none; border: 1px solid var(--line); border-radius: 3px; padding: 6px 10px;
   font-size: 0.85rem; cursor: pointer; text-align: left; }
 .chips button:hover { border-color: var(--accent); }
+.focusring:focus-visible { outline-color: #b66c20; }
 
 /* stories */
 .stories { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0; }
@@ -99,14 +109,11 @@ body.plain .dn { display: none; }
 
 /* questions */
 .qs { list-style: none; padding: 0; display: flex; flex-direction: column; }
-.qs li { border-top: 1px solid var(--line); padding: 14px 0; display: grid;
-  grid-template-columns: 6.5rem minmax(0, 1fr); gap: 4px 14px; }
+.qs li { border-top: 1px solid var(--line); padding: 16px 0; display: flex; flex-direction: column; gap: 6px; }
 .qs li:last-child { border-bottom: 1px solid var(--line); }
-.qs .label { padding-top: 4px; }
 .qs a { color: var(--ink); text-decoration: none; font-weight: 600; line-height: 1.35; }
 .qs a:hover { color: var(--accent); }
-.qs .with { grid-column: 2; font-size: 0.85rem; color: var(--muted); }
-@media (max-width: 420px) { .qs li { grid-template-columns: 1fr; } .qs .with { grid-column: 1; } }
+.qs .with { font-size: 0.85rem; color: var(--muted); }
 .count { font: 0.8rem var(--mono); color: var(--muted); }
 
 /* ladder */
@@ -173,13 +180,13 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
     <p class="dek">Tools for seeing how a farm, a town, a watershed or a region behaves, and what would change if you did something differently. What you can use today, what it costs, and how others have done it.</p>
 
     <ul class="stories">
-      <li><span class="label">A late bus</span>
+      <li><span class="dom" style="--theme:#79C6C5"><img src="themes/mobility.svg" alt="">A late bus</span>
         <p>In Tees Valley, the traffic centre runs a live model of the roads. It spots a bus falling behind and helps staff change the signals ahead of it.</p>
         <span class="src">Tees Valley Combined Authority, August 2025</span></li>
-      <li><span class="label">A flooded substation</span>
+      <li><span class="dom" style="--theme:#79B4DE"><img src="themes/water.svg" alt="">A flooded substation</span>
         <p>Water reaches one electrical substation. Water pumping and communications can go down with it. A connected model shows the damage spreading before it happens.</p>
         <span class="src">CReDO, Connected Places Catapult</span></li>
-      <li><span class="label">A frog chorus</span>
+      <li><span class="dom" style="--theme:#969BD8"><img src="themes/sensory.svg" alt="">A frog chorus</span>
         <p>Aircraft noise changes how Pedregal frogs call and thins out their chorus. A flight path is part of a pond's surroundings too.</p>
         <span class="src">Serrano and Ochoa-Ochoa, cited in the survey</span></li>
     </ul>
@@ -214,39 +221,51 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
       <h2>What do you want to see?</h2>
       <span class="count" id="q-count"></span>
     </div>
+    <div class="key" id="key">
+      <button type="button" data-dom="places" aria-pressed="false" style="--theme:#E79595"><img src="themes/places.svg" alt="">Cities & places</button>
+      <button type="button" data-dom="mobility" aria-pressed="false" style="--theme:#79C6C5"><img src="themes/mobility.svg" alt="">Movement & logistics</button>
+      <button type="button" data-dom="energy" aria-pressed="false" style="--theme:#D9BC70"><img src="themes/energy.svg" alt="">Energy</button>
+      <button type="button" data-dom="water" aria-pressed="false" style="--theme:#79B4DE"><img src="themes/water.svg" alt="">Water</button>
+      <button type="button" data-dom="food" aria-pressed="false" style="--theme:#B3C779"><img src="themes/food.svg" alt="">Food & land</button>
+      <button type="button" data-dom="ecology" aria-pressed="false" style="--theme:#82C39F"><img src="themes/ecology.svg" alt="">Living systems</button>
+      <button type="button" data-dom="climate" aria-pressed="false" style="--theme:#BE9BDC"><img src="themes/climate.svg" alt="">Weather & climate</button>
+      <button type="button" data-dom="people" aria-pressed="false" style="--theme:#D692BE"><img src="themes/people.svg" alt="">People & society</button>
+      <button type="button" data-dom="fire" aria-pressed="false" style="--theme:#E8A071"><img src="themes/fire.svg" alt="">Fire</button>
+      <button type="button" data-dom="sensory" aria-pressed="false" style="--theme:#969BD8"><img src="themes/sensory.svg" alt="">Sensory landscape</button>
+    </div>
     <ul class="qs" id="qs">
-      <li data-doors="town community builder" data-k="traffic closure road bus transport street cars">
-        <span class="label">Movement</span><a href="#questions">Where will vehicles go after a closure, and can signal changes help a late bus?</a>
+      <li data-doors="town community builder" data-dom="mobility" data-k="traffic closure road bus transport street cars">
+        <span class="dom" style="--theme:#79C6C5"><img src="themes/mobility.svg" alt="">Traffic and public transport</span><a href="#questions">Where will vehicles go after a closure, and can signal changes help a late bus?</a>
         <span class="with">Aimsun · SUMO · MATSim · Tees Valley's traffic twin</span></li>
-      <li data-doors="town builder" data-k="crowd evacuation station emergency people">
-        <span class="label">People</span><a href="#questions">How will people move through a station or leave an area during an emergency?</a>
+      <li data-doors="town builder" data-dom="people" data-k="crowd evacuation station emergency people">
+        <span class="dom" style="--theme:#D692BE"><img src="themes/people.svg" alt="">Crowds and evacuation</span><a href="#questions">How will people move through a station or leave an area during an emergency?</a>
         <span class="with">AnyLogic · GAMA</span></li>
-      <li data-doors="town builder" data-k="electricity energy grid power electrification solar">
-        <span class="label">Energy</span><a href="#questions">Where will electrification require more network capacity, storage or generation?</a>
+      <li data-doors="town builder" data-dom="energy" data-k="electricity energy grid power electrification solar">
+        <span class="dom" style="--theme:#D9BC70"><img src="themes/energy.svg" alt="">Electricity and energy transitions</span><a href="#questions">Where will electrification require more network capacity, storage or generation?</a>
         <span class="with">Neara · PyPSA · Isle of Wight energy demonstrator</span></li>
-      <li data-doors="land town community builder" data-k="flood river water drainage pump rain">
-        <span class="label">Water</span><a href="#questions">Which areas will flood, and how will changes to rivers, drainage or pumps affect them?</a>
+      <li data-doors="land town community builder" data-dom="water" data-k="flood river water drainage pump rain">
+        <span class="dom" style="--theme:#79B4DE"><img src="themes/water.svg" alt="">Flooding, rivers and water services</span><a href="#questions">Which areas will flood, and how will changes to rivers, drainage or pumps affect them?</a>
         <span class="with">Deltares Delft3D · DHI · Xylem Vue</span></li>
-      <li data-doors="land community builder" data-k="fire wildfire burn smoke">
-        <span class="label">Fire</span><a href="#questions">Where might a fire spread, which assets are exposed, and where would mitigation help?</a>
+      <li data-doors="land community builder" data-dom="fire" data-k="fire wildfire burn smoke">
+        <span class="dom" style="--theme:#E8A071"><img src="themes/fire.svg" alt="">Wildfire and exposure</span><a href="#questions">Where might a fire spread, which assets are exposed, and where would mitigation help?</a>
         <span class="with">Technosylva</span></li>
-      <li data-doors="town community builder" data-k="housing zoning development land-use homes">
-        <span class="label">Places</span><a href="#questions">How might zoning or transport investment change development and household location?</a>
+      <li data-doors="town community builder" data-dom="places" data-k="housing zoning development land-use homes">
+        <span class="dom" style="--theme:#E79595"><img src="themes/places.svg" alt="">Housing and land use</span><a href="#questions">How might zoning or transport investment change development and household location?</a>
         <span class="with">UrbanSim · Urbanly CityCompass</span></li>
-      <li data-doors="land builder" data-k="land-use crops farm soil habitat carbon agriculture water food">
-        <span class="label">Food and land</span><a href="#questions">How might land-use changes affect water, habitat, carbon or agricultural production?</a>
+      <li data-doors="land builder" data-dom="food" data-k="land-use crops farm soil habitat carbon agriculture water food">
+        <span class="dom" style="--theme:#B3C779"><img src="themes/food.svg" alt="">Ecosystems and land management</span><a href="#questions">How might land-use changes affect water, habitat, carbon or agricultural production?</a>
         <span class="with">InVEST · DSSAT · GCAM · Earth Index</span></li>
-      <li data-doors="land builder" data-k="weather climate forecast rain drought heat">
-        <span class="label">Weather</span><a href="#questions">What conditions are likely next week, and how might a region's climate change over decades?</a>
+      <li data-doors="land builder" data-dom="climate" data-k="weather climate forecast rain drought heat">
+        <span class="dom" style="--theme:#BE9BDC"><img src="themes/climate.svg" alt="">Weather and climate</span><a href="#questions">What conditions are likely next week, and how might a region's climate change over decades?</a>
         <span class="with">WeatherNext · NVIDIA Earth-2 · Destination Earth</span></li>
-      <li data-doors="community town builder" data-k="noise light smell walk wildlife crossing sensory">
-        <span class="label">Senses</span><a href="#questions">How do sound, light, smell and barriers affect people and other animals?</a>
+      <li data-doors="community town builder" data-dom="sensory" data-k="noise light smell walk wildlife crossing sensory">
+        <span class="dom" style="--theme:#969BD8"><img src="themes/sensory.svg" alt="">Sensory landscape</span><a href="#questions">How do sound, light, smell and barriers affect people and other animals?</a>
         <span class="with">Walk Score · CadnaA · Radiance · GRAL · Circuitscape</span></li>
-      <li data-doors="town community builder" data-k="policy climate proposal planning discussion workshop">
-        <span class="label">Deciding together</span><a href="#questions">What changes when we combine different climate policies or land-use proposals?</a>
+      <li data-doors="town community builder" data-dom="people" data-k="policy climate proposal planning discussion workshop">
+        <span class="dom" style="--theme:#D692BE"><img src="themes/people.svg" alt="">Public discussion and learning</span><a href="#questions">What changes when we combine different climate policies or land-use proposals?</a>
         <span class="with">En-ROADS · Geodesignhub</span></li>
     </ul>
-    <p class="dn"><b>Design note</b>These ten questions and the tools beside them are taken as written from the survey's applications table. For this audience they need rewriting in plainer words. Each one opens a page listing the instruments, data and examples behind that answer.</p>
+    <p class="dn"><b>Design note</b>The ten domains, their names, symbols and colours are the survey's visual vocabulary, used unchanged: one symbol per domain, colour as a rule under a dark label. Tapping a symbol narrows the list. Living systems has no question of its own in the survey's table yet. The questions and the tools beside them are also taken as written from the survey. For this audience they need rewriting in plainer words. Each one opens a page listing the instruments, data and examples behind that answer.</p>
   </section>
 
   <section id="ladder">
@@ -265,7 +284,7 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
     <p class="muted">Every tool, dataset and programme gets the same card. Plain facts on top, the machinery underneath.</p>
     <div class="cards">
       <article class="card">
-        <span class="label">Deciding together · public tool</span>
+        <span class="dom" style="--theme:#D692BE"><img src="themes/people.svg" alt="">People & society</span><span class="label">Public tool</span>
         <h3>En-ROADS</h3>
         <p class="see">See what happens to energy, emissions and temperature when you combine different climate policies.</p>
         <div class="facts">
@@ -276,7 +295,7 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
         <details><summary>How it works, evidence, sources</summary><p>Public climate scenario tool from Climate Interactive. Free browser access and facilitated learning materials. Source: climateinteractive.org/en-roads. Reviewed September 2026, survey draft.</p></details>
       </article>
       <article class="card">
-        <span class="label">Food and land · open models</span>
+        <span class="dom" style="--theme:#B3C779"><img src="themes/food.svg" alt="">Food & land</span><span class="label">Open models</span>
         <h3>InVEST</h3>
         <p class="see">Map and value what land, rivers and coasts provide, and compare land-management choices.</p>
         <div class="facts">
@@ -287,7 +306,7 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
         <details><summary>How it works, evidence, sources</summary><p>Open ecosystem-service models for terrestrial, freshwater, coastal and urban settings. Source: Natural Capital Alliance, Stanford. Reviewed September 2026, survey draft.</p></details>
       </article>
       <article class="card">
-        <span class="label">Movement · open engine</span>
+        <span class="dom" style="--theme:#79C6C5"><img src="themes/mobility.svg" alt="">Movement & logistics</span><span class="label">Open engine</span>
         <h3>Eclipse SUMO</h3>
         <p class="see">Simulate road vehicles, public transport and pedestrians across a large street network.</p>
         <div class="facts">
@@ -338,6 +357,7 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
     </ul>
     <p class="dn"><b>Design note</b>A dated feed is what makes the page feel kept. A curating agent drafts these from watched sources and a person approves each one. The three items are real, from the survey's sources.</p>
     <p class="colophon">Free to read, free to reuse, open to correction. Kept by people who build these tools and people who use them.</p>
+    <p class="colophon" style="border:0;padding-top:0">Symbols from the Noun Project, CC BY 3.0, recoloured: city block by Savannah Vize; train junction by Worakamon Saykajarn; Transmission Tower by Masha Eizner; river by Creative Mahira; farm crops by Made; biodiversity by Ali Khamdan; atmosphere by rendicon; Meeting by Creative Stall; Fire by Gregor Cresnar; sensory by mangunkarsa.</p>
   </section>
 
 </main>
@@ -356,12 +376,13 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
   var items = Array.prototype.slice.call(document.querySelectorAll('#qs li'));
   var input = document.getElementById('ask-input'), count = document.getElementById('q-count');
   var doors = Array.prototype.slice.call(document.querySelectorAll('#doors button'));
-  var door = null;
+  var door = null, domf = null;
+  var keys = Array.prototype.slice.call(document.querySelectorAll('#key button'));
   function apply() {
     var words = input.value.toLowerCase().split(/\s+/).filter(Boolean), shown = 0;
     items.forEach(function (li) {
       var hay = (li.dataset.k + ' ' + li.textContent).toLowerCase();
-      var ok = (!door || li.dataset.doors.split(' ').indexOf(door) >= 0) &&
+      var ok = (!door || li.dataset.doors.split(' ').indexOf(door) >= 0) && (!domf || li.dataset.dom === domf) &&
         words.every(function (w) { return hay.indexOf(w) >= 0; });
       li.hidden = !ok; if (ok) shown++;
     });
@@ -373,6 +394,13 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
     var b = e.target.closest('button'); if (!b) return;
     input.value = b.dataset.q; apply();
     document.getElementById('questions').scrollIntoView({ behavior: 'smooth' });
+  });
+  keys.forEach(function (b) {
+    b.addEventListener('click', function () {
+      domf = domf === b.dataset.dom ? null : b.dataset.dom;
+      keys.forEach(function (k) { k.setAttribute('aria-pressed', String(k.dataset.dom === domf)); });
+      apply();
+    });
   });
   doors.forEach(function (b) {
     b.addEventListener('click', function () {
