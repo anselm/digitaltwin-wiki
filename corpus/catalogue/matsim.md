@@ -2,6 +2,7 @@
 id: matsim
 title: "MATSim"
 kind: catalogue
+visibility: hidden
 group: "Transport and crowds"
 form: "Open simulation framework"
 summary: "Large-scale agent-based transport modeling, including travel demand and replanning."

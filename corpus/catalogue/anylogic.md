@@ -2,6 +2,7 @@
 id: anylogic
 title: "AnyLogic"
 kind: catalogue
+visibility: hidden
 group: "Simulation engines"
 form: "Commercial modeling environment"
 summary: "Agent-based, discrete-event and system-dynamics modeling; pedestrian and transport libraries."

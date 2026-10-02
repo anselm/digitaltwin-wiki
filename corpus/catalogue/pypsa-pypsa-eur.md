@@ -2,6 +2,7 @@
 id: pypsa-pypsa-eur
 title: "PyPSA / PyPSA-Eur"
 kind: catalogue
+visibility: hidden
 group: "Energy and utilities"
 form: "Open energy-system models"
 summary: "Models power systems and energy transitions; PyPSA-Eur also represents transport, buildings and industry."

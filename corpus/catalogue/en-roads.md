@@ -2,6 +2,7 @@
 id: en-roads
 title: "En-ROADS"
 kind: catalogue
+visibility: proposed
 group: "Public learning"
 form: "Public climate scenario tool"
 summary: "Explores combinations of climate policies and their modeled effects."

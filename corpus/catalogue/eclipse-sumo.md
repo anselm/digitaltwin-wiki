@@ -2,6 +2,7 @@
 id: eclipse-sumo
 title: "Eclipse SUMO"
 kind: catalogue
+visibility: hidden
 group: "Transport and crowds"
 form: "Open simulation engine"
 summary: "Simulates road vehicles, public transport and pedestrians on large networks."

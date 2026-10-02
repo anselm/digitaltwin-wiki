@@ -2,6 +2,7 @@
 id: earth-genome-earth-index
 title: "Earth Genome / Earth Index"
 kind: catalogue
+visibility: proposed
 group: "Earth observation"
 form: "Nonprofit application and research"
 summary: "Finds environmental features in satellite imagery through examples, search and review."

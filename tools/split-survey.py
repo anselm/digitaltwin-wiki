@@ -41,7 +41,7 @@ for row in rows:
     if path.exists():
         skipped += 1
         continue
-    fm = ["---", f"id: {slug}", f"title: {q(title)}", "kind: catalogue",
+    fm = ["---", f"id: {slug}", f"title: {q(title)}", "kind: catalogue", "visibility: hidden",
           f"group: {q(group)}", f"form: {q(form)}", f"summary: {q(unlink(does))}",
           "audiences: [" + ", ".join(a.strip().lower() for a in aud.split(",")) + "]",
           "homepages:"]

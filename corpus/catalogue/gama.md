@@ -2,6 +2,7 @@
 id: gama
 title: "GAMA"
 kind: catalogue
+visibility: hidden
 group: "Simulation engines"
 form: "Open modeling platform"
 summary: "Spatial agent-based models for urban mobility, evacuation, environmental and other applications."

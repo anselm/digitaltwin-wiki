@@ -2,6 +2,7 @@
 id: weathernext-nvidia-earth-2
 title: "WeatherNext / NVIDIA Earth-2"
 kind: catalogue
+visibility: hidden
 group: "Weather and climate"
 form: "Forecast models and services"
 summary: "Weather prediction and supporting components, with different distribution and developer options."

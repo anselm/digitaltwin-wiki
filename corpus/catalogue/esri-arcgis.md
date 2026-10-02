@@ -2,6 +2,7 @@
 id: esri-arcgis
 title: "Esri ArcGIS"
 kind: catalogue
+visibility: hidden
 group: "Geographic platforms"
 form: "Commercial platform"
 summary: "Maps, spatial analysis and geographic data for city and infrastructure applications."

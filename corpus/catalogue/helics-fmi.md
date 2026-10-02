@@ -2,6 +2,7 @@
 id: helics-fmi
 title: "HELICS / FMI"
 kind: catalogue
+visibility: hidden
 group: "Assembly infrastructure"
 form: "Co-simulation framework and standard"
 summary: "Coordinate model execution or exchange model information."

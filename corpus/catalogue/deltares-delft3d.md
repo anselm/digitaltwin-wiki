@@ -2,6 +2,7 @@
 id: deltares-delft3d
 title: "Deltares Delft3D"
 kind: catalogue
+visibility: proposed
 group: "Water and flooding"
 form: "Modeling suite"
 summary: "Models coastal, estuarine and river systems, including water flow and related processes."

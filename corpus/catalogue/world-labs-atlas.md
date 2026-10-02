@@ -2,6 +2,7 @@
 id: world-labs-atlas
 title: "World Labs / Atlas"
 kind: catalogue
+visibility: hidden
 group: "Research frontier"
 form: "Spatial world model"
 summary: "Learns spatial representations for scene reconstruction, generation and robotics simulation."

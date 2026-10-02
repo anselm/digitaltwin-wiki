@@ -2,6 +2,7 @@
 id: geodesignhub
 title: "Geodesignhub"
 kind: catalogue
+visibility: proposed
 group: "Public participation"
 form: "Collaborative planning application"
 summary: "Organizes spatial proposals, alternatives and stakeholder negotiation."

@@ -2,6 +2,7 @@
 id: azure-digital-twins-aws-iot-twinmaker
 title: "Azure Digital Twins / AWS IoT TwinMaker"
 kind: catalogue
+visibility: hidden
 group: "Assembly infrastructure"
 form: "Cloud application services"
 summary: "Represent entities and relationships and connect data within twin applications."

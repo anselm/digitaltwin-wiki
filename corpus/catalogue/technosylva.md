@@ -2,6 +2,7 @@
 id: technosylva
 title: "Technosylva"
 kind: catalogue
+visibility: hidden
 group: "Wildfire and risk"
 form: "Operational and planning applications"
 summary: "Models wildfire behavior and exposure for fire agencies and electric utilities."

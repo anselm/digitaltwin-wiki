@@ -2,6 +2,7 @@
 id: credo
 title: "CReDO"
 kind: catalogue
+visibility: hidden
 group: "Connected infrastructure"
 form: "Cross-network resilience program"
 summary: "Models hazards and infrastructure dependencies to examine cascading impacts."

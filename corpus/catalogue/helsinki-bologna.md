@@ -2,6 +2,7 @@
 id: helsinki-bologna
 title: "Helsinki / Bologna"
 kind: catalogue
+visibility: proposed
 group: "National and territorial"
 form: "Municipal programs"
 summary: "Helsinki publishes city-model data and an energy atlas; Bologna is developing civic twin infrastructure."

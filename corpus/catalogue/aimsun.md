@@ -2,6 +2,7 @@
 id: aimsun
 title: "Aimsun"
 kind: catalogue
+visibility: hidden
 group: "Transport and crowds"
 form: "Commercial simulation platform"
 summary: "Transport simulation and operational traffic prediction."

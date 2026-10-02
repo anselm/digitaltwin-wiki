@@ -2,6 +2,7 @@
 id: xylem-vue
 title: "Xylem Vue"
 kind: catalogue
+visibility: hidden
 group: "Water and flooding"
 form: "Operational platform"
 summary: "Combines utility data and water-system modeling for network operations."

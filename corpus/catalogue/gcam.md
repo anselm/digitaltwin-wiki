@@ -2,6 +2,7 @@
 id: gcam
 title: "GCAM"
 kind: catalogue
+visibility: hidden
 group: "Ecosystems and land"
 form: "Integrated assessment model"
 summary: "Connects energy, water, land, economy and climate in regional and global scenarios."

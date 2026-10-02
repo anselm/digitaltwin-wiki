@@ -2,6 +2,7 @@
 id: dassault-virtual-singapore
 title: "Dassault / Virtual Singapore"
 kind: catalogue
+visibility: hidden
 group: "Geographic platforms"
 form: "Platform and national project"
 summary: "A shared 3D city representation with associated data and simulation applications."

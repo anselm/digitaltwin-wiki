@@ -2,6 +2,7 @@
 id: dafni-asu-cici-and-sparc
 title: "DAFNI / ASU CICI and SPARC"
 kind: catalogue
+visibility: hidden
 group: "Research infrastructure"
 form: "Research infrastructure and methods"
 summary: "DAFNI supports infrastructure modeling; Wenwen Li’s research addresses GeoAI and geospatial integration."

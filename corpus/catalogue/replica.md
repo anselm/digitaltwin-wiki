@@ -2,6 +2,7 @@
 id: replica
 title: "Replica"
 kind: catalogue
+visibility: hidden
 group: "Transport and crowds"
 form: "Data and scenario platform"
 summary: "Modeled travel activity and scenario tools for transport and regional planning."

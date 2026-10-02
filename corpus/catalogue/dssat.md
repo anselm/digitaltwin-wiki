@@ -2,6 +2,7 @@
 id: dssat
 title: "DSSAT"
 kind: catalogue
+visibility: hidden
 group: "Ecosystems and land"
 form: "Crop-model suite"
 summary: "Simulates crop growth under specified weather, soil and management conditions."

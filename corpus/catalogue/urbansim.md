@@ -2,6 +2,7 @@
 id: urbansim
 title: "UrbanSim"
 kind: catalogue
+visibility: hidden
 group: "Housing and urban form"
 form: "Urban modeling platform"
 summary: "Models location choice, development and urban growth, with transport-model integration."

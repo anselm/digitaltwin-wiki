@@ -2,6 +2,7 @@
 id: uk-ndtp
 title: "UK NDTP"
 kind: catalogue
+visibility: hidden
 group: "National and territorial"
 form: "National program and demonstrators"
 summary: "Develops approaches for applying connected data and twins to public and infrastructure questions."

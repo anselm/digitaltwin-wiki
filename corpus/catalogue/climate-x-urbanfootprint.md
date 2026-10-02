@@ -2,6 +2,7 @@
 id: climate-x-urbanfootprint
 title: "Climate X / UrbanFootprint"
 kind: catalogue
+visibility: hidden
 group: "Wildfire and risk"
 form: "Risk and spatial analytics"
 summary: "Analyzes climate exposure, vulnerability and investment choices."

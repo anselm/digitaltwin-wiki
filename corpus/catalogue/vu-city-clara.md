@@ -2,6 +2,7 @@
 id: vu-city-clara
 title: "VU.CITY / CLARA"
 kind: catalogue
+visibility: hidden
 group: "Housing and urban form"
 form: "Planning and environmental applications"
 summary: "VU.CITY supplies 3D planning context; CLARA models urban environmental conditions."

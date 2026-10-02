@@ -2,6 +2,7 @@
 id: invest
 title: "InVEST"
 kind: catalogue
+visibility: proposed
 group: "Ecosystems and land"
 form: "Open ecosystem-service models"
 summary: "Maps and values ecosystem services in terrestrial, freshwater, coastal and urban settings."

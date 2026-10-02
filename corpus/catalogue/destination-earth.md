@@ -2,6 +2,7 @@
 id: destination-earth
 title: "Destination Earth"
 kind: catalogue
+visibility: hidden
 group: "Weather and climate"
 form: "Public scientific program"
 summary: "Climate and extremes twins with supporting computing and data workflows."

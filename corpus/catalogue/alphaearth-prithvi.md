@@ -2,6 +2,7 @@
 id: alphaearth-prithvi
 title: "AlphaEarth / Prithvi"
 kind: catalogue
+visibility: hidden
 group: "Earth observation"
 form: "Reusable data and models"
 summary: "Geospatial representations and foundation models for downstream mapping tasks."

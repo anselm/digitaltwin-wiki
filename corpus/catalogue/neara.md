@@ -2,6 +2,7 @@
 id: neara
 title: "Neara"
 kind: catalogue
+visibility: hidden
 group: "Energy and utilities"
 form: "Commercial infrastructure platform"
 summary: "Models electricity-network geometry and physical behavior using asset and spatial data."

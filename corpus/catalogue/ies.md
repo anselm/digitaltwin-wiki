@@ -2,6 +2,7 @@
 id: ies
 title: "IES"
 kind: catalogue
+visibility: hidden
 group: "Energy and utilities"
 form: "Commercial modeling platform"
 summary: "Building and district energy modeling, performance analysis and retrofit scenarios."

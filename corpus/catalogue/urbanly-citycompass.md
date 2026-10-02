@@ -2,6 +2,7 @@
 id: urbanly-citycompass
 title: "Urbanly CityCompass"
 kind: catalogue
+visibility: hidden
 group: "Housing and urban form"
 form: "Urban simulation application"
 summary: "Explores linked urban scenarios using a simulation engine and browser interfaces."

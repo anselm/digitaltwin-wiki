@@ -2,6 +2,7 @@
 id: dhi
 title: "DHI"
 kind: catalogue
+visibility: hidden
 group: "Water and flooding"
 form: "Water-modeling applications"
 summary: "Combines water-system modeling with operational data, including wastewater treatment twins."

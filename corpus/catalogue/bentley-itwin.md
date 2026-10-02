@@ -2,6 +2,7 @@
 id: bentley-itwin
 title: "Bentley iTwin"
 kind: catalogue
+visibility: hidden
 group: "Geographic platforms"
 form: "Platform and SDK"
 summary: "Integrates infrastructure engineering, geographic, reality and sensor data."
