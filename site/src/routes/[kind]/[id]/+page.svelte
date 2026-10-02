@@ -22,7 +22,7 @@
   {#if m.flow}
     <p class="muted">{m.summary}</p>
     <Flow flow={m.flow} />
-  {:else}
+  {:else if m.kind !== 'questions'}
     <div class="prose plain">{@html m.plain}</div>
   {/if}
 
