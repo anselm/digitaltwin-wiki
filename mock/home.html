@@ -1,0 +1,366 @@
+<title>Model Your Place</title>
+<style>
+/* Layout: one narrow reading column, phone first. An ask box at the top, then
+   four doors, then the questions, the ladder, three instruments, the build
+   stages, the machine door, what changed. Floating menu, no header or footer. */
+:root {
+  --bg: #f3f5f8;
+  --surface: #ffffff;
+  --ink: #131a26;
+  --muted: #5a6577;
+  --line: #d3d9e3;
+  --accent: #1d4fc4;
+  --accent-soft: #e4ebfb;
+  --note: #7a5a00;
+  --note-bg: #fff6d6;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1320; --surface: #151d2e; --ink: #e6ebf4; --muted: #94a0b5;
+    --line: #2a3550; --accent: #8fb0ff; --accent-soft: #1b2a4d;
+    --note: #f0d27a; --note-bg: #2e2810; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d1320; --surface: #151d2e; --ink: #e6ebf4; --muted: #94a0b5;
+  --line: #2a3550; --accent: #8fb0ff; --accent-soft: #1b2a4d;
+  --note: #f0d27a; --note-bg: #2e2810; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--sans); margin: 0; }
+.page { max-width: 44rem; margin: 0 auto; padding-inline: 20px; padding-block: 28px 96px;
+  display: flex; flex-direction: column; gap: 56px; }
+a { color: var(--accent); }
+h1, h2, h3, p, ul, ol { margin: 0; }
+h1 { font-size: clamp(2.1rem, 8vw, 3.1rem); line-height: 1.05; letter-spacing: -0.02em; text-wrap: balance; }
+h2 { font-size: 1.3rem; line-height: 1.25; text-wrap: balance; }
+h3 { font-size: 1rem; }
+.label { font: 0.72rem/1.2 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.muted { color: var(--muted); }
+.mono { font-family: var(--mono); font-size: 0.82rem; }
+section { display: flex; flex-direction: column; gap: 16px; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* floating chrome */
+.mark { position: fixed; top: calc(env(safe-area-inset-top, 0px) + 12px); left: 16px; z-index: 5;
+  font: 0.72rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 3px; padding: 8px 10px; }
+.menu { position: fixed; top: calc(env(safe-area-inset-top, 0px) + 12px); right: 16px; z-index: 6;
+  display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.menu > button { width: 38px; height: 34px; background: var(--surface); border: 1px solid var(--line);
+  border-radius: 3px; cursor: pointer; display: grid; place-items: center; }
+.menu > button span, .menu > button span::before, .menu > button span::after {
+  display: block; width: 16px; height: 2px; background: var(--ink); content: ""; position: relative; }
+.menu > button span::before { position: absolute; top: -5px; }
+.menu > button span::after { position: absolute; top: 5px; }
+.menu nav { background: var(--surface); border: 1px solid var(--line); border-radius: 3px;
+  display: flex; flex-direction: column; min-width: 13rem; }
+.menu nav a { padding: 9px 14px; text-decoration: none; color: var(--ink); border-bottom: 1px solid var(--line); font-size: 0.92rem; }
+.menu nav a:last-child { border-bottom: 0; }
+.menu nav label { padding: 9px 14px; font-size: 0.85rem; color: var(--muted); display: flex; gap: 8px; align-items: center; }
+
+/* design notes */
+.dn { font-size: 0.82rem; line-height: 1.45; color: var(--note); background: var(--note-bg);
+  border-left: 3px solid var(--note); padding: 8px 12px; }
+.dn b { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; display: block; }
+body.plain .dn { display: none; }
+
+/* opening */
+.open { padding-top: 56px; gap: 20px; }
+.dek { font-size: 1.12rem; max-width: 36rem; }
+.ask { display: flex; flex-direction: column; gap: 10px; }
+.ask label { font-weight: 600; }
+.ask input { width: 100%; font: inherit; color: var(--ink); background: var(--surface);
+  border: 1.5px solid var(--ink); border-radius: 3px; padding: 14px; }
+.ask input::placeholder { color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips button { background: none; border: 1px solid var(--line); border-radius: 3px; padding: 6px 10px;
+  font-size: 0.85rem; cursor: pointer; text-align: left; }
+.chips button:hover { border-color: var(--accent); }
+
+/* doors */
+.doors { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.doors button { background: var(--surface); border: 1px solid var(--line); border-radius: 3px;
+  padding: 14px; text-align: left; cursor: pointer; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.doors button small { color: var(--muted); font-size: 0.82rem; line-height: 1.35; }
+.doors button[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+@media (max-width: 420px) { .doors { grid-template-columns: 1fr; } }
+
+/* questions */
+.qs { list-style: none; padding: 0; display: flex; flex-direction: column; }
+.qs li { border-top: 1px solid var(--line); padding: 14px 0; display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr); gap: 4px 14px; }
+.qs li:last-child { border-bottom: 1px solid var(--line); }
+.qs .label { padding-top: 4px; }
+.qs a { color: var(--ink); text-decoration: none; font-weight: 600; line-height: 1.35; }
+.qs a:hover { color: var(--accent); }
+.qs .with { grid-column: 2; font-size: 0.85rem; color: var(--muted); }
+@media (max-width: 420px) { .qs li { grid-template-columns: 1fr; } .qs .with { grid-column: 1; } }
+.count { font: 0.8rem var(--mono); color: var(--muted); }
+
+/* ladder */
+.ladder { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0; counter-reset: rung; }
+.ladder li { counter-increment: rung; display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 0 12px;
+  padding: 14px 0 14px 0; border-left: 2px solid var(--line); margin-left: 0.9rem; padding-left: 0; position: relative; }
+.ladder li::before { content: counter(rung); font: 600 0.85rem var(--mono); width: 1.8rem; height: 1.8rem;
+  display: grid; place-items: center; background: var(--bg); border: 2px solid var(--ink); border-radius: 50%;
+  margin-left: -0.95rem; }
+.ladder li:first-child::before { border-color: var(--accent); color: var(--accent); }
+.ladder p { font-size: 0.92rem; color: var(--muted); }
+.ladder div { display: flex; flex-direction: column; gap: 2px; }
+
+/* instruments */
+.cards { display: flex; flex-direction: column; gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 3px; padding: 16px;
+  display: flex; flex-direction: column; gap: 10px; }
+.card .see { font-size: 1.02rem; }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.facts div { display: flex; flex-direction: column; gap: 2px; border-top: 1px solid var(--line); padding-top: 8px; min-width: 0; }
+.facts span:last-child { font-size: 0.88rem; }
+.unk { color: var(--muted); font-style: italic; }
+details { font-size: 0.88rem; color: var(--muted); }
+details summary { cursor: pointer; color: var(--accent); }
+details p { padding-top: 6px; }
+
+/* stages */
+.stages { list-style: none; padding: 0; display: flex; gap: 8px; overflow-x: auto; padding-bottom: 8px; counter-reset: st; }
+.stages li { counter-increment: st; flex: 0 0 8.6rem; border: 1px solid var(--line); background: var(--surface);
+  border-radius: 3px; padding: 10px; font-size: 0.86rem; line-height: 1.3; display: flex; flex-direction: column; gap: 6px; }
+.stages li::before { content: counter(st); font: 0.72rem var(--mono); color: var(--muted); }
+
+/* machine door */
+pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 3px; padding: 14px; overflow-x: auto; }
+
+/* changes */
+.log { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.log li { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 14px; font-size: 0.92rem; }
+.log time { font: 0.8rem var(--mono); color: var(--muted); padding-top: 2px; font-variant-numeric: tabular-nums; }
+.colophon { font-size: 0.88rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+
+<div class="mark">Mockup · 2 Oct 2026</div>
+
+<div class="menu">
+  <button id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="menu-nav"><span></span></button>
+  <nav id="menu-nav" hidden>
+    <a href="#questions">Questions</a>
+    <a href="#instruments">Instruments</a>
+    <a href="#build">How to build one</a>
+    <a href="#ladder">Do you need one?</a>
+    <a href="#machine">For your AI</a>
+    <a href="#changes">What changed</a>
+    <label><input type="checkbox" id="notes-toggle" checked> Show design notes</label>
+  </nav>
+</div>
+
+<main class="page">
+
+  <section class="open">
+    <p class="label">A public guide to digital twins</p>
+    <h1>Model Your Place</h1>
+    <p class="dek">Tools for seeing how a farm, a town, a watershed or a region behaves, and what would change if you did something differently. What you can use today, what it costs, and how others have done it.</p>
+
+    <div class="ask">
+      <label for="ask-input">What do you want to understand about your place?</label>
+      <input id="ask-input" type="text" autocomplete="off" placeholder="Try: flood, traffic, crops, fire">
+      <div class="chips" id="chips">
+        <button type="button" data-q="flood">Which areas will flood?</button>
+        <button type="button" data-q="closure">Where does traffic go after a closure?</button>
+        <button type="button" data-q="land-use">What does a land-use change do to water?</button>
+        <button type="button" data-q="fire">Where might a fire spread?</button>
+      </div>
+    </div>
+    <p class="dn"><b>Design note</b>The question box is the first thing on the page because someone who does not know the vocabulary cannot browse a catalogue. In this mockup it filters the question list below by keyword. On the real site it would answer from the guide's entries and cite them, and say so when the guide has nothing.</p>
+  </section>
+
+  <section id="doors-sec">
+    <h2>Start from where you stand</h2>
+    <div class="doors" id="doors">
+      <button type="button" data-door="land" aria-pressed="false"><strong>I farm or manage land</strong><small>Water, soil, crops, habitat, weather</small></button>
+      <button type="button" data-door="town" aria-pressed="false"><strong>I work for a town or agency</strong><small>Showing residents what a proposal would do</small></button>
+      <button type="button" data-door="community" aria-pressed="false"><strong>My community has a question</strong><small>Testing a claim about a road, a flood, a development</small></button>
+      <button type="button" data-door="builder" aria-pressed="false"><strong>I build these</strong><small>Engines, data, methods, sources</small></button>
+    </div>
+    <p class="dn"><b>Design note</b>Four doors by situation, not by technology. Choosing one narrows the questions below; the page stays one page. Which questions belong to which door is a first guess.</p>
+  </section>
+
+  <section id="questions">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap">
+      <h2>What do you want to see?</h2>
+      <span class="count" id="q-count"></span>
+    </div>
+    <ul class="qs" id="qs">
+      <li data-doors="town community builder" data-k="traffic closure road bus transport street cars">
+        <span class="label">Movement</span><a href="#questions">Where will vehicles go after a closure, and can signal changes help a late bus?</a>
+        <span class="with">Aimsun · SUMO · MATSim · Tees Valley's traffic twin</span></li>
+      <li data-doors="town builder" data-k="crowd evacuation station emergency people">
+        <span class="label">People</span><a href="#questions">How will people move through a station or leave an area during an emergency?</a>
+        <span class="with">AnyLogic · GAMA</span></li>
+      <li data-doors="town builder" data-k="electricity energy grid power electrification solar">
+        <span class="label">Energy</span><a href="#questions">Where will electrification require more network capacity, storage or generation?</a>
+        <span class="with">Neara · PyPSA · Isle of Wight energy demonstrator</span></li>
+      <li data-doors="land town community builder" data-k="flood river water drainage pump rain">
+        <span class="label">Water</span><a href="#questions">Which areas will flood, and how will changes to rivers, drainage or pumps affect them?</a>
+        <span class="with">Deltares Delft3D · DHI · Xylem Vue</span></li>
+      <li data-doors="land community builder" data-k="fire wildfire burn smoke">
+        <span class="label">Fire</span><a href="#questions">Where might a fire spread, which assets are exposed, and where would mitigation help?</a>
+        <span class="with">Technosylva</span></li>
+      <li data-doors="town community builder" data-k="housing zoning development land-use homes">
+        <span class="label">Places</span><a href="#questions">How might zoning or transport investment change development and household location?</a>
+        <span class="with">UrbanSim · Urbanly CityCompass</span></li>
+      <li data-doors="land builder" data-k="land-use crops farm soil habitat carbon agriculture water food">
+        <span class="label">Food and land</span><a href="#questions">How might land-use changes affect water, habitat, carbon or agricultural production?</a>
+        <span class="with">InVEST · DSSAT · GCAM · Earth Index</span></li>
+      <li data-doors="land builder" data-k="weather climate forecast rain drought heat">
+        <span class="label">Weather</span><a href="#questions">What conditions are likely next week, and how might a region's climate change over decades?</a>
+        <span class="with">WeatherNext · NVIDIA Earth-2 · Destination Earth</span></li>
+      <li data-doors="community town builder" data-k="noise light smell walk wildlife crossing sensory">
+        <span class="label">Senses</span><a href="#questions">How do sound, light, smell and barriers affect people and other animals?</a>
+        <span class="with">Walk Score · CadnaA · Radiance · GRAL · Circuitscape</span></li>
+      <li data-doors="town community builder" data-k="policy climate proposal planning discussion workshop">
+        <span class="label">Deciding together</span><a href="#questions">What changes when we combine different climate policies or land-use proposals?</a>
+        <span class="with">En-ROADS · Geodesignhub</span></li>
+    </ul>
+    <p class="dn"><b>Design note</b>These ten questions and the tools beside them are taken as written from the survey's applications table. For this audience they need rewriting in plainer words. Each one opens a page listing the instruments, data and examples behind that answer.</p>
+  </section>
+
+  <section id="ladder">
+    <h2>You may not need to build anything</h2>
+    <ol class="ladder">
+      <li><div><h3>Look at a model that already exists for your place</h3><p>Helsinki publishes its city model and an energy atlas in the browser.</p></div></li>
+      <li><div><h3>Use a free tool</h3><p>En-ROADS lets anyone combine climate policies and see the modeled effect.</p></div></li>
+      <li><div><h3>Adapt an open model</h3><p>SUMO, MATSim, PyPSA and InVEST are open and can be set up for a new place.</p></div></li>
+      <li><div><h3>Commission a build</h3><p>Tees Valley worked with Aimsun on a traffic twin now used in its traffic management centre.</p></div></li>
+    </ol>
+    <p class="dn"><b>Design note</b>The ladder tells a visitor how much effort their answer needs before they read a single tool page. The first two rungs are where most people should stop. Examples are from the survey; whether each belongs on its rung has not been checked against the tools' own sites.</p>
+  </section>
+
+  <section id="instruments">
+    <h2>Instruments</h2>
+    <p class="muted">Every tool, dataset and programme gets the same card. Plain facts on top, the machinery underneath.</p>
+    <div class="cards">
+      <article class="card">
+        <span class="label">Deciding together · public tool</span>
+        <h3>En-ROADS</h3>
+        <p class="see">See what happens to energy, emissions and temperature when you combine different climate policies.</p>
+        <div class="facts">
+          <div><span class="label">Cost</span><span>Free</span></div>
+          <div><span class="label">You need</span><span>A browser</span></div>
+          <div><span class="label">Used by</span><span class="unk">not yet reviewed</span></div>
+        </div>
+        <details><summary>How it works, evidence, sources</summary><p>Public climate scenario tool from Climate Interactive. Free browser access and facilitated learning materials. Source: climateinteractive.org/en-roads. Reviewed September 2026, survey draft.</p></details>
+      </article>
+      <article class="card">
+        <span class="label">Food and land · open models</span>
+        <h3>InVEST</h3>
+        <p class="see">Map and value what land, rivers and coasts provide, and compare land-management choices.</p>
+        <div class="facts">
+          <div><span class="label">Cost</span><span>Open</span></div>
+          <div><span class="label">You need</span><span class="unk">not yet reviewed</span></div>
+          <div><span class="label">Used by</span><span class="unk">not yet reviewed</span></div>
+        </div>
+        <details><summary>How it works, evidence, sources</summary><p>Open ecosystem-service models for terrestrial, freshwater, coastal and urban settings. Source: Natural Capital Alliance, Stanford. Reviewed September 2026, survey draft.</p></details>
+      </article>
+      <article class="card">
+        <span class="label">Movement · open engine</span>
+        <h3>Eclipse SUMO</h3>
+        <p class="see">Simulate road vehicles, public transport and pedestrians across a large street network.</p>
+        <div class="facts">
+          <div><span class="label">Cost</span><span>Open</span></div>
+          <div><span class="label">You need</span><span class="unk">not yet reviewed</span></div>
+          <div><span class="label">Used by</span><span class="unk">not yet reviewed</span></div>
+        </div>
+        <details><summary>How it works, evidence, sources</summary><p>Open simulation engine. Supports detailed traffic and multimodal scenarios. Source: eclipse.dev/sumo. Reviewed September 2026, survey draft.</p></details>
+      </article>
+    </div>
+    <p class="dn"><b>Design note</b>"Not yet reviewed" is shown, not hidden. A guide that admits what it has not checked is easier to trust, and each gap is an invitation to the people who build the tool to fill it in.</p>
+  </section>
+
+  <section id="build">
+    <h2>If you do build one</h2>
+    <p class="muted">Nine stages, each with a checklist, what you can do yourselves, and when to bring in help.</p>
+    <ol class="stages">
+      <li>Name the question</li>
+      <li>Talk to the people affected</li>
+      <li>Find the data</li>
+      <li>Choose the kind of model</li>
+      <li>Build the smallest version</li>
+      <li>Check it against what happened</li>
+      <li>Protect people's privacy</li>
+      <li>Put it in front of its users</li>
+      <li>Keep it alive</li>
+    </ol>
+    <p class="dn"><b>Design note</b>The stages are a proposal and have not been checked against how real projects ran. Each opens a page with a small flow diagram and a checklist. The same checklists are packaged for an AI assistant to walk a group through.</p>
+  </section>
+
+  <section id="machine">
+    <h2>Point your own AI at the guide</h2>
+    <p class="muted">Everything here is also plain text that an assistant can read and use.</p>
+<pre>/llms.txt              index of every entry
+/entry/en-roads.md     any entry as plain markdown
+/index.json            the whole catalogue as data
+/skill/scoping         a guided interview that ends in a
+                       one-page brief for your project</pre>
+    <p class="dn"><b>Design note</b>Small on the home page on purpose. Most visitors will never look at it; their assistant will.</p>
+  </section>
+
+  <section id="changes">
+    <h2>What changed lately</h2>
+    <ul class="log">
+      <li><time datetime="2026-09-21">21 Sep 2026</time><span>Earth Genome reports combining two foundation models to find cattle facilities in satellite imagery.</span></li>
+      <li><time datetime="2026-09-17">17 Sep 2026</time><span>CReDO shows its first working version for modeling how a flood spreads through power, water and telecom networks.</span></li>
+      <li><time datetime="2026-09-03">3 Sep 2026</time><span>Google introduces WeatherNext 3, with hourly forecast updates.</span></li>
+    </ul>
+    <p class="dn"><b>Design note</b>A dated feed is what makes the page feel kept. A curating agent drafts these from watched sources and a person approves each one. The three items are real, from the survey's sources.</p>
+    <p class="colophon">Free to read, free to reuse, open to correction. Kept by people who build these tools and people who use them.</p>
+  </section>
+
+</main>
+
+<script>
+(function () {
+  var btn = document.getElementById('menu-btn'), nav = document.getElementById('menu-nav');
+  btn.addEventListener('click', function () {
+    nav.hidden = !nav.hidden; btn.setAttribute('aria-expanded', String(!nav.hidden));
+  });
+  nav.addEventListener('click', function (e) { if (e.target.tagName === 'A') { nav.hidden = true; btn.setAttribute('aria-expanded', 'false'); } });
+  document.getElementById('notes-toggle').addEventListener('change', function (e) {
+    document.body.classList.toggle('plain', !e.target.checked);
+  });
+
+  var items = Array.prototype.slice.call(document.querySelectorAll('#qs li'));
+  var input = document.getElementById('ask-input'), count = document.getElementById('q-count');
+  var doors = Array.prototype.slice.call(document.querySelectorAll('#doors button'));
+  var door = null;
+  function apply() {
+    var words = input.value.toLowerCase().split(/\s+/).filter(Boolean), shown = 0;
+    items.forEach(function (li) {
+      var hay = (li.dataset.k + ' ' + li.textContent).toLowerCase();
+      var ok = (!door || li.dataset.doors.split(' ').indexOf(door) >= 0) &&
+        words.every(function (w) { return hay.indexOf(w) >= 0; });
+      li.hidden = !ok; if (ok) shown++;
+    });
+    count.textContent = shown === items.length ? items.length + ' questions' :
+      shown ? shown + ' of ' + items.length + ' questions' : 'Nothing in the guide matches yet';
+  }
+  input.addEventListener('input', apply);
+  document.getElementById('chips').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    input.value = b.dataset.q; apply();
+    document.getElementById('questions').scrollIntoView({ behavior: 'smooth' });
+  });
+  doors.forEach(function (b) {
+    b.addEventListener('click', function () {
+      door = door === b.dataset.door ? null : b.dataset.door;
+      doors.forEach(function (d) { d.setAttribute('aria-pressed', String(d.dataset.door === door)); });
+      apply();
+    });
+  });
+  apply();
+})();
+</script>
