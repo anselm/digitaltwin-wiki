@@ -1,6 +1,6 @@
 name = "twin-compendium"
 horizon = "2026"
-repo = ""
+repo = "anselm/twin-compendium"
 code = "local"
 deploy = "none"
 status = "active"        # active | parked (struck through on the dashboard) | archived (hidden)
