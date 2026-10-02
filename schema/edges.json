@@ -1,0 +1,21 @@
+{
+  "_note": "The only link types a morsel may carry in its header. Reverse links are generated. Add a type here before using it.",
+  "edges": {
+    "answers": "helps answer this question",
+    "needs": "requires this data or input",
+    "built_on": "uses this engine or technique",
+    "example_of": "is an instance of this concept or technique",
+    "alternative_to": "does a similar job",
+    "stage": "is relevant at this playbook stage",
+    "tells": "is a story that shows this"
+  },
+  "reverse": {
+    "answers": "answered with",
+    "needs": "needed by",
+    "built_on": "used by",
+    "example_of": "examples",
+    "alternative_to": "alternative to",
+    "stage": "useful at this stage",
+    "tells": "told in"
+  }
+}

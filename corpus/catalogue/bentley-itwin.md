@@ -1,29 +1,32 @@
 ---
 id: bentley-itwin
-title: "Bentley iTwin"
 kind: catalogue
-visibility: hidden
-group: "Geographic platforms"
-form: "Platform and SDK"
+title: "Bentley iTwin"
+visibility: "hidden"
 summary: "Integrates infrastructure engineering, geographic, reality and sensor data."
-audiences: [government, corporate]
-homepages:
-  - {name: "Bentley iTwin", url: https://www.itwinjs.org/}
-plain: unknown
-cost: unknown
-skill: unknown
-try: unknown
-bring: unknown
-like: unknown
-evidence: unknown
-sources:
-  - {title: "Bentley: iTwin.js", url: https://www.itwinjs.org/}
+form: "Platform and SDK"
+group: "Geographic platforms"
+audiences: ["government", "corporate"]
+domain: []
+answers: []
+homepages: [{"name": "Bentley iTwin", "url": "https://www.itwinjs.org/"}]
+cost: "unknown"
+skill: "unknown"
+try: "unknown"
+bring: "unknown"
+like: "unknown"
+evidence: "unknown"
+sources: [{"title": "Bentley: iTwin.js", "url": "https://www.itwinjs.org/"}]
 reviewed: "2026-09"
 reviewed_by: "survey draft, not yet rechecked"
 ---
 
-# Bentley iTwin
+## Plain
 
 Integrates infrastructure engineering, geographic, reality and sensor data.
 
+## Detail
+
 iTwin.js provides an open SDK for building applications.
+
+Platform and SDK. Listed in the survey under "Geographic platforms". Audiences named there: government, corporate.

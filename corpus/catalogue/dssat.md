@@ -1,29 +1,32 @@
 ---
 id: dssat
-title: "DSSAT"
 kind: catalogue
-visibility: hidden
-group: "Ecosystems and land"
-form: "Crop-model suite"
+title: "DSSAT"
+visibility: "hidden"
 summary: "Simulates crop growth under specified weather, soil and management conditions."
-audiences: [research, government, corporate]
-homepages:
-  - {name: "DSSAT", url: https://dssat.net/about/}
-plain: unknown
-cost: unknown
-skill: unknown
-try: unknown
-bring: unknown
-like: unknown
-evidence: unknown
-sources:
-  - {title: "DSSAT: crop modeling overview", url: https://dssat.net/about/}
+form: "Crop-model suite"
+group: "Ecosystems and land"
+audiences: ["research", "government", "corporate"]
+domain: ["food"]
+answers: ["land-use-change"]
+homepages: [{"name": "DSSAT", "url": "https://dssat.net/about/"}]
+cost: "unknown"
+skill: "unknown"
+try: "unknown"
+bring: "unknown"
+like: "unknown"
+evidence: "unknown"
+sources: [{"title": "DSSAT: crop modeling overview", "url": "https://dssat.net/about/"}]
 reviewed: "2026-09"
 reviewed_by: "survey draft, not yet rechecked"
 ---
 
-# DSSAT
+## Plain
 
 Simulates crop growth under specified weather, soil and management conditions.
 
+## Detail
+
 Models agricultural responses to environmental and management changes.
+
+Crop-model suite. Listed in the survey under "Ecosystems and land". Audiences named there: research, government, corporate.

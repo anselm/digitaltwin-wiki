@@ -1,29 +1,32 @@
 ---
 id: anylogic
-title: "AnyLogic"
 kind: catalogue
-visibility: hidden
-group: "Simulation engines"
-form: "Commercial modeling environment"
+title: "AnyLogic"
+visibility: "hidden"
 summary: "Agent-based, discrete-event and system-dynamics modeling; pedestrian and transport libraries."
-audiences: [corporate, government, research]
-homepages:
-  - {name: "AnyLogic", url: https://www.anylogic.com/}
-plain: unknown
-cost: unknown
-skill: unknown
-try: unknown
-bring: unknown
-like: unknown
-evidence: unknown
-sources:
-  - {title: "AnyLogic: simulation methods and libraries", url: https://www.anylogic.com/}
+form: "Commercial modeling environment"
+group: "Simulation engines"
+audiences: ["corporate", "government", "research"]
+domain: ["people"]
+answers: ["crowds-and-evacuation"]
+homepages: [{"name": "AnyLogic", "url": "https://www.anylogic.com/"}]
+cost: "unknown"
+skill: "unknown"
+try: "unknown"
+bring: "unknown"
+like: "unknown"
+evidence: "unknown"
+sources: [{"title": "AnyLogic: simulation methods and libraries", "url": "https://www.anylogic.com/"}]
 reviewed: "2026-09"
 reviewed_by: "survey draft, not yet rechecked"
 ---
 
-# AnyLogic
+## Plain
 
 Agent-based, discrete-event and system-dynamics modeling; pedestrian and transport libraries.
 
+## Detail
+
 Custom models for operations, movement and human behavior.
+
+Commercial modeling environment. Listed in the survey under "Simulation engines". Audiences named there: corporate, government, research.

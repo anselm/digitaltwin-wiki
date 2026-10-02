@@ -1,29 +1,32 @@
 ---
 id: urbansim
-title: "UrbanSim"
 kind: catalogue
-visibility: hidden
-group: "Housing and urban form"
-form: "Urban modeling platform"
+title: "UrbanSim"
+visibility: "hidden"
 summary: "Models location choice, development and urban growth, with transport-model integration."
-audiences: [government, research, corporate]
-homepages:
-  - {name: "UrbanSim", url: https://cloud.urbansim.com/docs/general/documentation/urbansim.html}
-plain: unknown
-cost: unknown
-skill: unknown
-try: unknown
-bring: unknown
-like: unknown
-evidence: unknown
-sources:
-  - {title: "UrbanSim: model documentation", url: https://cloud.urbansim.com/docs/general/documentation/urbansim.html}
+form: "Urban modeling platform"
+group: "Housing and urban form"
+audiences: ["government", "research", "corporate"]
+domain: ["places"]
+answers: ["housing-and-land-use"]
+homepages: [{"name": "UrbanSim", "url": "https://cloud.urbansim.com/docs/general/documentation/urbansim.html"}]
+cost: "unknown"
+skill: "unknown"
+try: "unknown"
+bring: "unknown"
+like: "unknown"
+evidence: "unknown"
+sources: [{"title": "UrbanSim: model documentation", "url": "https://cloud.urbansim.com/docs/general/documentation/urbansim.html"}]
 reviewed: "2026-09"
 reviewed_by: "survey draft, not yet rechecked"
 ---
 
-# UrbanSim
+## Plain
 
 Models location choice, development and urban growth, with transport-model integration.
 
+## Detail
+
 A research-derived engine for regional land-use scenarios.
+
+Urban modeling platform. Listed in the survey under "Housing and urban form". Audiences named there: government, research, corporate.

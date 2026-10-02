@@ -1,0 +1,30 @@
+# digitaltwin.guide — static site server.
+# Runs inside a Caddy container on the exe.dev VM. exe.dev terminates TLS at its
+# proxy, so we serve plain HTTP on :80 (container) -> :8000 (host = proxy port).
+
+{
+	admin off
+	auto_https off
+}
+
+:80 {
+	root * /srv/site
+
+	# Staging: keep search engines out until Anselm launches it.
+	header X-Robots-Tag "noindex, nofollow"
+
+	# SvelteKit fingerprints these — safe to cache forever.
+	@immutable path /_app/immutable/*
+	header @immutable Cache-Control "public, max-age=31536000, immutable"
+
+	# The machine-readable copies are plain text for people and assistants alike.
+	@md path *.md
+	header @md Content-Type "text/markdown; charset=utf-8"
+
+	encode gzip zstd
+	try_files {path} {path}/index.html {path}/
+	file_server
+	handle_errors {
+		respond "Not in the guide." 404
+	}
+}
