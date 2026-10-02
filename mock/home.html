@@ -82,6 +82,13 @@ body.plain .dn { display: none; }
   font-size: 0.85rem; cursor: pointer; text-align: left; }
 .chips button:hover { border-color: var(--accent); }
 
+/* stories */
+.stories { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0; }
+.stories li { border-top: 1px solid var(--line); padding: 14px 0; display: flex; flex-direction: column; gap: 4px; }
+.stories li:last-child { border-bottom: 1px solid var(--line); }
+.stories p { font-size: 1.02rem; line-height: 1.5; }
+.stories .src { font-size: 0.8rem; color: var(--muted); }
+
 /* doors */
 .doors { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 .doors button { background: var(--surface); border: 1px solid var(--line); border-radius: 3px;
@@ -165,6 +172,19 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
     <h1>Model Your Place</h1>
     <p class="dek">Tools for seeing how a farm, a town, a watershed or a region behaves, and what would change if you did something differently. What you can use today, what it costs, and how others have done it.</p>
 
+    <ul class="stories">
+      <li><span class="label">A late bus</span>
+        <p>In Tees Valley, the traffic centre runs a live model of the roads. It spots a bus falling behind and helps staff change the signals ahead of it.</p>
+        <span class="src">Tees Valley Combined Authority, August 2025</span></li>
+      <li><span class="label">A flooded substation</span>
+        <p>Water reaches one electrical substation. Water pumping and communications can go down with it. A connected model shows the damage spreading before it happens.</p>
+        <span class="src">CReDO, Connected Places Catapult</span></li>
+      <li><span class="label">A frog chorus</span>
+        <p>Aircraft noise changes how Pedregal frogs call and thins out their chorus. A flight path is part of a pond's surroundings too.</p>
+        <span class="src">Serrano and Ochoa-Ochoa, cited in the survey</span></li>
+    </ul>
+    <p class="dn"><b>Design note</b>Campfire stories come first: three short true ones that most readers half know already. They say what a model of a place is for, faster than a definition does. Each opens its full story page. These three are from the survey and its sources; my wording, to be rewritten.</p>
+
     <div class="ask">
       <label for="ask-input">What do you want to understand about your place?</label>
       <input id="ask-input" type="text" autocomplete="off" placeholder="Try: flood, traffic, crops, fire">
@@ -175,7 +195,7 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
         <button type="button" data-q="fire">Where might a fire spread?</button>
       </div>
     </div>
-    <p class="dn"><b>Design note</b>The question box is the first thing on the page because someone who does not know the vocabulary cannot browse a catalogue. In this mockup it filters the question list below by keyword. On the real site it would answer from the guide's entries and cite them, and say so when the guide has nothing.</p>
+    <p class="dn"><b>Design note</b>The question box follows the stories and sits above everything else because someone who does not know the vocabulary cannot browse a catalogue. In this mockup it filters the question list below by keyword. On the real site it would answer from the guide's entries and cite them, and say so when the guide has nothing.</p>
   </section>
 
   <section id="doors-sec">
