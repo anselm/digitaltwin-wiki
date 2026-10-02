@@ -116,6 +116,23 @@ body.plain .dn { display: none; }
 .qs .with { font-size: 0.85rem; color: var(--muted); }
 .count { font: 0.8rem var(--mono); color: var(--muted); }
 
+/* flow diagram */
+.flow { width: 100%; max-width: 440px; height: auto; display: block; }
+.flow .d { fill: var(--surface); stroke: var(--ink); stroke-width: 1.5; }
+.flow .st { fill: var(--wash); stroke: var(--line); stroke-width: 1.5; }
+.flow .o { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.5; }
+.flow .a { stroke: var(--muted); stroke-width: 1.5; fill: none; }
+.flow .ahp { fill: var(--muted); }
+.flow text { font-family: var(--sans); fill: var(--ink); }
+.flow .t { font-size: 13.5px; }
+.flow .tb { font-size: 13.5px; font-weight: 600; }
+.flow .s { font-size: 11px; fill: var(--muted); font-style: italic; }
+.flow .s2 { font-size: 11.5px; fill: var(--muted); }
+.flow .go { cursor: pointer; }
+.flow .go:hover .o, .flow .go.on .o { stroke-width: 3; }
+.flow .go:focus-visible { outline: 2px solid #b66c20; outline-offset: 2px; }
+.flow-out { border-left: 3px solid var(--accent); padding: 4px 0 4px 12px; min-height: 3.2em; }
+
 /* ladder */
 .ladder { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0; counter-reset: rung; }
 .ladder li { counter-increment: rung; display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 0 12px;
@@ -162,10 +179,10 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
 <div class="menu">
   <button id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="menu-nav"><span></span></button>
   <nav id="menu-nav" hidden>
+    <a href="#ladder">So you want a digital twin?</a>
     <a href="#questions">Questions</a>
     <a href="#instruments">Instruments</a>
     <a href="#build">How to build one</a>
-    <a href="#ladder">Do you need one?</a>
     <a href="#machine">For your AI</a>
     <a href="#changes">What changed</a>
     <label><input type="checkbox" id="notes-toggle" checked> Show design notes</label>
@@ -203,6 +220,31 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
       </div>
     </div>
     <p class="dn"><b>Design note</b>The question box follows the stories and sits above everything else because someone who does not know the vocabulary cannot browse a catalogue. In this mockup it filters the question list below by keyword. On the real site it would answer from the guide's entries and cite them, and say so when the guide has nothing.</p>
+  </section>
+
+  <section id="ladder">
+    <h2>So you want to make a digital twin?</h2>
+    <p class="muted">Five questions. Most people get off before the last one.</p>
+    <svg class="flow" viewBox="0 0 362 580" role="img" aria-label="A flow of five yes or no questions leading to: start with a story, look at an existing model, use a map or spreadsheet, use a free tool, adapt an open model, or commission a build.">
+      <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="ahp" d="M0 0L10 5L0 10z"/></marker></defs>
+      <rect class="st" x="10" y="6" width="196" height="38" rx="19"/><text class="tb" x="108" y="30" text-anchor="middle">You have a place in mind</text>
+      <line class="a" x1="108" y1="44" x2="108" y2="68" marker-end="url(#ah)"/>
+      <rect class="d" x="10" y="70" width="196" height="58" rx="3"/>
+      <text class="t" x="108" y="95" text-anchor="middle">Not sure what to</text><text class="t" x="108" y="113" text-anchor="middle">ask yet?</text><line class="a" x1="206" y1="99" x2="234" y2="99" marker-end="url(#ah)"/><text class="s" x="220" y="93" text-anchor="middle">yes</text>
+      <g class="go" data-go="story" tabindex="0" role="button"><rect class="o" x="240" y="75" width="112" height="48" rx="3"/><text class="tb" x="296" y="96" text-anchor="middle">Start with</text><text class="tb" x="296" y="113" text-anchor="middle">a story</text></g><line class="a" x1="108" y1="128" x2="108" y2="154" marker-end="url(#ah)"/><text class="s" x="118" y="146">no</text><rect class="d" x="10" y="160" width="196" height="58" rx="3"/>
+      <text class="t" x="108" y="185" text-anchor="middle">Has someone already</text><text class="t" x="108" y="203" text-anchor="middle">modeled your place?</text><line class="a" x1="206" y1="189" x2="234" y2="189" marker-end="url(#ah)"/><text class="s" x="220" y="183" text-anchor="middle">yes</text>
+      <g class="go" data-go="look" tabindex="0" role="button"><rect class="o" x="240" y="165" width="112" height="48" rx="3"/><text class="tb" x="296" y="186" text-anchor="middle">Look at</text><text class="tb" x="296" y="203" text-anchor="middle">theirs</text></g><line class="a" x1="108" y1="218" x2="108" y2="244" marker-end="url(#ah)"/><text class="s" x="118" y="236">no</text><rect class="d" x="10" y="250" width="196" height="58" rx="3"/>
+      <text class="t" x="108" y="275" text-anchor="middle">Would a map or a</text><text class="t" x="108" y="293" text-anchor="middle">spreadsheet answer it?</text><line class="a" x1="206" y1="279" x2="234" y2="279" marker-end="url(#ah)"/><text class="s" x="220" y="273" text-anchor="middle">yes</text>
+      <g class="go" data-go="instead" tabindex="0" role="button"><rect class="o" x="240" y="255" width="112" height="48" rx="3"/><text class="tb" x="296" y="276" text-anchor="middle">Do that</text><text class="tb" x="296" y="293" text-anchor="middle">instead</text></g><line class="a" x1="108" y1="308" x2="108" y2="334" marker-end="url(#ah)"/><text class="s" x="118" y="326">no</text><rect class="d" x="10" y="340" width="196" height="58" rx="3"/>
+      <text class="t" x="108" y="365" text-anchor="middle">Is there a free tool for</text><text class="t" x="108" y="383" text-anchor="middle">this kind of question?</text><line class="a" x1="206" y1="369" x2="234" y2="369" marker-end="url(#ah)"/><text class="s" x="220" y="363" text-anchor="middle">yes</text>
+      <g class="go" data-go="use" tabindex="0" role="button"><rect class="o" x="240" y="345" width="112" height="48" rx="3"/><text class="tb" x="296" y="366" text-anchor="middle">Use it</text><text class="tb" x="296" y="383" text-anchor="middle">today</text></g><line class="a" x1="108" y1="398" x2="108" y2="424" marker-end="url(#ah)"/><text class="s" x="118" y="416">no</text><rect class="d" x="10" y="430" width="196" height="58" rx="3"/>
+      <text class="t" x="108" y="455" text-anchor="middle">Have data, and someone</text><text class="t" x="108" y="473" text-anchor="middle">who can code a little?</text><line class="a" x1="206" y1="459" x2="234" y2="459" marker-end="url(#ah)"/><text class="s" x="220" y="453" text-anchor="middle">yes</text>
+      <g class="go" data-go="adapt" tabindex="0" role="button"><rect class="o" x="240" y="435" width="112" height="48" rx="3"/><text class="tb" x="296" y="456" text-anchor="middle">Adapt an</text><text class="tb" x="296" y="473" text-anchor="middle">open model</text></g><line class="a" x1="108" y1="488" x2="108" y2="514" marker-end="url(#ah)"/><text class="s" x="118" y="506">no</text>
+      <g class="go" data-go="build" tabindex="0" role="button"><rect class="o" x="10" y="516" width="196" height="54" rx="3"/>
+      <text class="tb" x="108" y="539" text-anchor="middle">Build one, or have it built</text><text class="s2" x="108" y="558" text-anchor="middle">follow the nine stages</text></g>
+    </svg>
+    <p class="flow-out" id="flow-out" aria-live="polite">Tap a box on the right to see an example.</p>
+    <p class="dn"><b>Design note</b>A flow diagram instead of a paragraph: it asks what you want and sends you somewhere. Every guide page that involves a choice gets one in this style, and the same flow is the script an assistant follows in conversation. The five questions and their order are mine, to be argued with. Examples shown on tap are from the survey, except the map-or-spreadsheet one, which is my own claim.</p>
   </section>
 
   <section id="doors-sec">
@@ -266,17 +308,6 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
         <span class="with">En-ROADS · Geodesignhub</span></li>
     </ul>
     <p class="dn"><b>Design note</b>The ten domains, their names, symbols and colours are the survey's visual vocabulary, used unchanged: one symbol per domain, colour as a rule under a dark label. Tapping a symbol narrows the list. Living systems has no question of its own in the survey's table yet. The questions and the tools beside them are also taken as written from the survey. For this audience they need rewriting in plainer words. Each one opens a page listing the instruments, data and examples behind that answer.</p>
-  </section>
-
-  <section id="ladder">
-    <h2>You may not need to build anything</h2>
-    <ol class="ladder">
-      <li><div><h3>Look at a model that already exists for your place</h3><p>Helsinki publishes its city model and an energy atlas in the browser.</p></div></li>
-      <li><div><h3>Use a free tool</h3><p>En-ROADS lets anyone combine climate policies and see the modeled effect.</p></div></li>
-      <li><div><h3>Adapt an open model</h3><p>SUMO, MATSim, PyPSA and InVEST are open and can be set up for a new place.</p></div></li>
-      <li><div><h3>Commission a build</h3><p>Tees Valley worked with Aimsun on a traffic twin now used in its traffic management centre.</p></div></li>
-    </ol>
-    <p class="dn"><b>Design note</b>The ladder tells a visitor how much effort their answer needs before they read a single tool page. The first two rungs are where most people should stop. Examples are from the survey; whether each belongs on its rung has not been checked against the tools' own sites.</p>
   </section>
 
   <section id="instruments">
@@ -408,6 +439,21 @@ pre { margin: 0; font: 0.8rem/1.6 var(--mono); background: var(--surface); borde
       doors.forEach(function (d) { d.setAttribute('aria-pressed', String(d.dataset.door === door)); });
       apply();
     });
+  });
+  var out = document.getElementById('flow-out');
+  var GO = {
+    story: 'Start with a story. Three are at the top of this page; each one shows what a model of a place let someone see.',
+    look: 'Look at theirs. Helsinki publishes its city model and an energy atlas that anyone can open in a browser.',
+    instead: 'Do that instead. A model earns its keep when things interact and keep changing. A one-off question often needs less.',
+    use: 'Use it today. En-ROADS is free in a browser: combine climate policies and see the modeled effect.',
+    adapt: 'Adapt an open model. SUMO, MATSim, PyPSA and InVEST are open and can be set up for a new place.',
+    build: 'Build one, or have it built. Tees Valley worked with Aimsun on a traffic model now used in its traffic management centre.'
+  };
+  var gos = Array.prototype.slice.call(document.querySelectorAll('.flow .go'));
+  function pick(g) { gos.forEach(function (x) { x.classList.toggle('on', x === g); }); out.textContent = GO[g.dataset.go]; }
+  gos.forEach(function (g) {
+    g.addEventListener('click', function () { pick(g); });
+    g.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(g); } });
   });
   apply();
 })();
