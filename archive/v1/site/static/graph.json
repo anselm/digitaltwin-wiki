@@ -1,0 +1,37 @@
+[
+ {
+  "from": "deltares-delft3d",
+  "type": "answers",
+  "to": "flooding"
+ },
+ {
+  "from": "dhi",
+  "type": "answers",
+  "to": "flooding"
+ },
+ {
+  "from": "earth-genome-earth-index",
+  "type": "answers",
+  "to": "land-use-change"
+ },
+ {
+  "from": "en-roads",
+  "type": "answers",
+  "to": "combining-proposals"
+ },
+ {
+  "from": "geodesignhub",
+  "type": "answers",
+  "to": "combining-proposals"
+ },
+ {
+  "from": "invest",
+  "type": "answers",
+  "to": "land-use-change"
+ },
+ {
+  "from": "xylem-vue",
+  "type": "answers",
+  "to": "flooding"
+ }
+]

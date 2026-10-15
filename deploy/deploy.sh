@@ -16,7 +16,7 @@ SSH="ssh -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=/dev/null -o 
 echo "› checking corpus and building site (showing: $SHOW)"
 ( cd "$ROOT" && npm run -s build )
 
-echo "› syncing site/dist/ → $HOST:/srv/site"
-rsync -ah --delete -e "$SSH" "$ROOT/site/dist/" "$DEST:/srv/site/"
+echo "› syncing packages/site/dist/ → $HOST:/srv/site"
+rsync -ah --delete -e "$SSH" "$ROOT/packages/site/dist/" "$DEST:/srv/site/"
 
 echo "✓ deployed → https://$HOST"

@@ -1,0 +1,45 @@
+# digitaltwin.guide
+
+> A public guide to digital twins. Tools for seeing how a farm, a town, a watershed or a region behaves, and what would change if you did something differently. What you can use today, what it costs, and how others have done it.
+
+Every entry is one small markdown file. /index.json lists them all; /graph.json lists the typed links between them; /pack/<question>.md gathers everything one link from a question.
+
+## about
+
+- [Who this is for, and what it is trying to do](/m/about/audience-and-goals.md): The intended audience and the goals behind the guide, stated so that anyone can check the guide against them.
+
+## catalogue
+
+- [Deltares Delft3D](/m/catalogue/deltares-delft3d.md): Models coastal, estuarine and river systems, including water flow and related processes.
+- [DHI](/m/catalogue/dhi.md): Combines water-system modeling with operational data, including wastewater treatment twins.
+- [Earth Genome / Earth Index](/m/catalogue/earth-genome-earth-index.md): Finds environmental features in satellite imagery through examples, search and review.
+- [En-ROADS](/m/catalogue/en-roads.md): Explores combinations of climate policies and their modeled effects.
+- [Geodesignhub](/m/catalogue/geodesignhub.md): Organizes spatial proposals, alternatives and stakeholder negotiation.
+- [Helsinki / Bologna](/m/catalogue/helsinki-bologna.md): Helsinki publishes city-model data and an energy atlas; Bologna is developing civic twin infrastructure.
+- [InVEST](/m/catalogue/invest.md): Maps and values ecosystem services in terrestrial, freshwater, coastal and urban settings.
+- [Xylem Vue](/m/catalogue/xylem-vue.md): Combines utility data and water-system modeling for network operations.
+
+## concepts
+
+- [What is a digital twin?](/m/concepts/digital-twin.md): A computational representation of a real object, place or system, linked to information about its real-world counterpart.
+
+## data
+
+- [Copernicus Data Space](/m/data/copernicus-data-space.md): Satellite observations and Earth-observation processing.
+- [USGS Water Data](/m/data/usgs-water-data.md): Stream, groundwater and other water observations.
+
+## flows
+
+- [So you want to make a digital twin?](/m/flows/so-you-want-a-digital-twin.md): Five questions. Most people get off before the last one.
+
+## questions
+
+- [Public discussion and learning](/m/questions/combining-proposals.md): What changes when we combine different climate policies or land-use proposals?
+- [Flooding, rivers and water services](/m/questions/flooding.md): Which areas will flood, and how will changes to rivers, drainage or pumps affect them?
+- [Ecosystems and land management](/m/questions/land-use-change.md): How might land-use changes affect water, habitat, carbon or agricultural production?
+
+## stories
+
+- [A flooded substation](/m/stories/a-flooded-substation.md): Water reaches one substation; water pumping and communications can go down with it.
+- [A frog chorus](/m/stories/a-frog-chorus.md): Aircraft noise changes how Pedregal frogs call and thins out their chorus.
+- [A late bus](/m/stories/a-late-bus.md): A live model of the roads spots a bus falling behind and helps staff change the signals ahead of it.

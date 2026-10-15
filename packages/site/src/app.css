@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Page palette from the survey (light). Dark values are Claude's, derived from the light palette; not designed by Anselm. */
+:root { --ink: #17333b; --muted: #45616a; --paper: #fafbf9; --line: #cbd8d9; --accent: #256768; --wash: #eef4f4; --focus: #b66c20; }
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #e4edec; --muted: #9fb4b6; --paper: #0f1b1e; --line: #27393d; --accent: #7cc3c0; --wash: #15262a; --focus: #e2a25f; }
+}
+@theme inline {
+  --color-ink: var(--ink); --color-muted: var(--muted); --color-paper: var(--paper);
+  --color-line: var(--line); --color-accent: var(--accent); --color-wash: var(--wash); --color-focus: var(--focus);
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+html { font-family: var(--font-sans); font-size: 17px; line-height: 1.65; }
+h1, h2, h3, .display { font-family: var(--font-display); font-weight: 400; letter-spacing: -0.01em; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.prose p { margin: 0 0 1em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.25em; }
+.prose li { margin: 0.25em 0; }
+.prose h2 { font-size: 1.35rem; margin: 1.5em 0 0.5em; }
+.prose h3 { font-size: 1.1rem; margin: 1.25em 0 0.4em; }
+.prose code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; background: var(--wash); padding: 0 0.25em; }
+.prose blockquote { border-left: 3px solid var(--line); padding-left: 1em; color: var(--muted); margin: 0 0 1em; }
+.tabular { font-variant-numeric: tabular-nums; }

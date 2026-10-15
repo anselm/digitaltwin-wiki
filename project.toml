@@ -5,4 +5,4 @@ code = "local"
 deploy = "exe:twinguide"
 status = "active"        # active | parked (struck through on the dashboard) | archived (hidden)
 autodeploy = false
-notes = "staging at twinguide.exe.xyz; manual deploy via deploy/deploy.sh; domain digitaltwin.guide being tried"
+notes = "staging at twinguide.exe.xyz still serves the v1 site; manual deploy via deploy/deploy.sh (SHOW=public for production); domain digitaltwin.guide being tried"

@@ -1,0 +1,10 @@
+{
+  "name": "@twins/knowledge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A small knowledge store: a folder tree of entities (markdown + frontmatter components), a validator, a query API and machine exports. Knows nothing about any one domain.",
+  "main": "index.js",
+  "exports": { ".": "./index.js" },
+  "dependencies": { "gray-matter": "^4.0.3" }
+}

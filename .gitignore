@@ -1,12 +1,7 @@
 node_modules/
 dist/
-.env
 build/
 .svelte-kit/
-site/static/m/
-site/static/pack/
-site/static/themes/
-site/static/index.json
-site/static/graph.json
-site/static/llms.txt
+.env
 shots/
+packages/site/static/

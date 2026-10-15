@@ -1,18 +1,16 @@
 {
   "name": "twin-compendium",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "A public guide to digital twins of places: small linked morsels in corpus/, composed into a site and into LLM context.",
+  "description": "A digital twins wiki: an evergreen, machine-readable resource built on a small generic knowledge store (packages/knowledge) over a folder tree of entities (data/).",
   "engines": { "node": ">=22" },
+  "workspaces": ["packages/*"],
   "scripts": {
-    "check": "node modules/corpus/cli.js check",
-    "machine": "node modules/corpus/cli.js machine site/static",
-    "dev": "npm run machine && npm --prefix site run dev",
-    "build": "npm run check && npm run machine && npm --prefix site run build"
-  },
-  "dependencies": {
-    "gray-matter": "^4.0.3",
-    "marked": "^14.1.2"
+    "check": "node packages/knowledge/cli.js check data",
+    "machine": "node packages/knowledge/cli.js machine data packages/site/static",
+    "migrate": "node tools/migrate-v1.js",
+    "dev": "npm run machine && npm --workspace packages/site run dev",
+    "build": "npm run check && npm run machine && npm --workspace packages/site run build"
   }
 }

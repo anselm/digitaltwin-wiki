@@ -1,0 +1,202 @@
+[
+ {
+  "id": "audience-and-goals",
+  "kind": "about",
+  "title": "Who this is for, and what it is trying to do",
+  "summary": "The intended audience and the goals behind the guide, stated so that anyone can check the guide against them.",
+  "url": "/about/audience-and-goals/",
+  "domain": [],
+  "reviewed": "2026-10-02"
+ },
+ {
+  "id": "deltares-delft3d",
+  "kind": "catalogue",
+  "title": "Deltares Delft3D",
+  "summary": "Models coastal, estuarine and river systems, including water flow and related processes.",
+  "url": "/catalogue/deltares-delft3d/",
+  "domain": [
+   "water"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "dhi",
+  "kind": "catalogue",
+  "title": "DHI",
+  "summary": "Combines water-system modeling with operational data, including wastewater treatment twins.",
+  "url": "/catalogue/dhi/",
+  "domain": [
+   "water"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "earth-genome-earth-index",
+  "kind": "catalogue",
+  "title": "Earth Genome / Earth Index",
+  "summary": "Finds environmental features in satellite imagery through examples, search and review.",
+  "url": "/catalogue/earth-genome-earth-index/",
+  "domain": [
+   "food"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "en-roads",
+  "kind": "catalogue",
+  "title": "En-ROADS",
+  "summary": "Explores combinations of climate policies and their modeled effects.",
+  "url": "/catalogue/en-roads/",
+  "domain": [
+   "people"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "geodesignhub",
+  "kind": "catalogue",
+  "title": "Geodesignhub",
+  "summary": "Organizes spatial proposals, alternatives and stakeholder negotiation.",
+  "url": "/catalogue/geodesignhub/",
+  "domain": [
+   "people"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "helsinki-bologna",
+  "kind": "catalogue",
+  "title": "Helsinki / Bologna",
+  "summary": "Helsinki publishes city-model data and an energy atlas; Bologna is developing civic twin infrastructure.",
+  "url": "/catalogue/helsinki-bologna/",
+  "domain": [],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "invest",
+  "kind": "catalogue",
+  "title": "InVEST",
+  "summary": "Maps and values ecosystem services in terrestrial, freshwater, coastal and urban settings.",
+  "url": "/catalogue/invest/",
+  "domain": [
+   "food"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "xylem-vue",
+  "kind": "catalogue",
+  "title": "Xylem Vue",
+  "summary": "Combines utility data and water-system modeling for network operations.",
+  "url": "/catalogue/xylem-vue/",
+  "domain": [
+   "water"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "digital-twin",
+  "kind": "concepts",
+  "title": "What is a digital twin?",
+  "summary": "A computational representation of a real object, place or system, linked to information about its real-world counterpart.",
+  "url": "/concepts/digital-twin/",
+  "domain": [],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "copernicus-data-space",
+  "kind": "data",
+  "title": "Copernicus Data Space",
+  "summary": "Satellite observations and Earth-observation processing.",
+  "url": "/data/copernicus-data-space/",
+  "domain": [],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "usgs-water-data",
+  "kind": "data",
+  "title": "USGS Water Data",
+  "summary": "Stream, groundwater and other water observations.",
+  "url": "/data/usgs-water-data/",
+  "domain": [
+   "water"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "so-you-want-a-digital-twin",
+  "kind": "flows",
+  "title": "So you want to make a digital twin?",
+  "summary": "Five questions. Most people get off before the last one.",
+  "url": "/flows/so-you-want-a-digital-twin/",
+  "domain": [],
+  "reviewed": "2026-10-02"
+ },
+ {
+  "id": "combining-proposals",
+  "kind": "questions",
+  "title": "Public discussion and learning",
+  "summary": "What changes when we combine different climate policies or land-use proposals?",
+  "url": "/questions/combining-proposals/",
+  "domain": [
+   "people"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "flooding",
+  "kind": "questions",
+  "title": "Flooding, rivers and water services",
+  "summary": "Which areas will flood, and how will changes to rivers, drainage or pumps affect them?",
+  "url": "/questions/flooding/",
+  "domain": [
+   "water"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "land-use-change",
+  "kind": "questions",
+  "title": "Ecosystems and land management",
+  "summary": "How might land-use changes affect water, habitat, carbon or agricultural production?",
+  "url": "/questions/land-use-change/",
+  "domain": [
+   "food"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "a-flooded-substation",
+  "kind": "stories",
+  "title": "A flooded substation",
+  "summary": "Water reaches one substation; water pumping and communications can go down with it.",
+  "url": "/stories/a-flooded-substation/",
+  "domain": [
+   "water",
+   "energy"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "a-frog-chorus",
+  "kind": "stories",
+  "title": "A frog chorus",
+  "summary": "Aircraft noise changes how Pedregal frogs call and thins out their chorus.",
+  "url": "/stories/a-frog-chorus/",
+  "domain": [
+   "sensory"
+  ],
+  "reviewed": "2026-09"
+ },
+ {
+  "id": "a-late-bus",
+  "kind": "stories",
+  "title": "A late bus",
+  "summary": "A live model of the roads spots a bus falling behind and helps staff change the signals ahead of it.",
+  "url": "/stories/a-late-bus/",
+  "domain": [
+   "mobility"
+  ],
+  "reviewed": "2026-09"
+ }
+]
