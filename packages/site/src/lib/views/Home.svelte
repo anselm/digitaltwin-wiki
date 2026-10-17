@@ -3,27 +3,25 @@
   import { onMount } from 'svelte'
   let { data } = $props()
   // The live scene is a 7 MB WebGL download, so the prerendered page carries only a still;
-  // wide screens that have not asked for reduced motion swap in the live backdrop after load.
+  // wide screens that have not asked for reduced motion swap in the live, orbitable scene after load.
   let live = $state(false)
   onMount(() => { live = window.innerWidth >= 768 && !matchMedia('(prefers-reduced-motion: reduce)').matches })
 </script>
 
-{#if data.backdrop}
-  <div class="relative -mx-4 sm:mx-0 mt-2 h-56 sm:h-80 lg:h-96 overflow-hidden" style="background:#071019">
-    {#if data.backdrop.poster}<img src={data.backdrop.poster} alt="" class="absolute inset-0 w-full h-full object-cover" />{/if}
-    {#if live}<iframe src={data.backdrop.src} title="" aria-hidden="true" tabindex="-1" class="absolute inset-0 w-full h-full border-0 pointer-events-none"></iframe>{/if}
-    <div class="absolute inset-x-0 bottom-0 px-4 sm:px-6 pb-5 pt-16" style="background:linear-gradient(0deg,#071019e6,#07101900)">
-      <h1 class="text-4xl" style="color:#e6e9dd">{data.label}</h1>
-      <p class="text-lg mt-1" style="color:#a4cebd">{data.description}</p>
-    </div>
-  </div>
-  <p class="text-xs text-muted mt-1.5"><a href={data.backdrop.url}>{data.backdrop.label}</a>, {data.backdrop.credit.replace(/^[^·]*·\s*/, '')}</p>
-{:else}
-  <h1 class="text-4xl mt-6">{data.label}</h1>
-  <p class="text-muted text-lg mt-1">{data.description}</p>
-{/if}
+<h1 class="text-4xl mt-6">{data.label}</h1>
+<p class="text-muted text-lg mt-1">{data.description}</p>
 
 <div class="prose mt-6 max-w-prose">{@html data.content}</div>
+
+{#if data.figure}
+  <figure class="mt-2 max-w-prose">
+    <div class="relative aspect-video overflow-hidden" style="background:#071019">
+      {#if data.figure.poster}<img src={data.figure.poster} alt="" class="absolute inset-0 w-full h-full object-cover" />{/if}
+      {#if live}<iframe src={data.figure.src} title="Bay Layers: drag to orbit, scroll to zoom" class="absolute inset-0 w-full h-full border-0"></iframe>{/if}
+    </div>
+    <figcaption class="text-xs text-muted mt-1.5"><a href={data.figure.url}>{data.figure.label}</a>, a digital twin unfolded.{#if live}{' '}Drag to orbit, scroll to zoom.{/if}{#if data.figure.full}{' '}The <a href={data.figure.full} rel="noopener">full version</a> explains each layer{#if data.figure.repo}, and the <a href={data.figure.repo} rel="noopener">source is on GitHub</a>{/if}.{/if}{' '}{data.figure.credit.replace(/^[^·]*·\s*/, '')}</figcaption>
+  </figure>
+{/if}
 
 {#if data.pinned.length}
   <section class="mt-8">

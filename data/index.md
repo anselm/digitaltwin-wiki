@@ -5,9 +5,11 @@ about:
   aliases:
     - "Decision models for watersheds, cities, and bioregions"
   view: home
-backdrop:
-  src: "https://anselm.github.io/bay-area-twin/?backdrop=1"
+figure:
+  src: "https://anselm.github.io/bay-area-twin/?backdrop=1&orbit=1"
   entry: twins/bay-layers
+  full: "https://anselm.github.io/bay-area-twin/"
+  repo: "https://github.com/anselm/bay-area-twin"
   credit: "Bay Layers by Anselm Hook · NOAA, Marin vegetation map, municipal data, © OpenStreetMap contributors"
 provenance:
   origin: human
