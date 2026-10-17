@@ -1,7 +1,9 @@
 <script>
   let { item, date = false } = $props()
 </script>
-<li class="py-3 border-t border-line">
+<li class="py-3 border-t border-line flex gap-3">
+  {#if item.depiction && !item.kinds.includes("domain")}<a href={item.url} class="shrink-0"><img src={item.depiction} alt="" class="w-12 h-16 object-cover bg-wash" /></a>{/if}
+  <div class="min-w-0 flex-1">
   <div class="flex items-baseline gap-2 flex-wrap">
     <a href={item.url} class="text-ink hover:text-accent font-medium">{item.label}</a>
     {#if item.kinds?.length}<span class="text-xs text-muted">{item.kinds.join(', ')}</span>{/if}
@@ -14,4 +16,5 @@
       {#each item.chips as c}<a href={c.url} class="text-xs text-ink px-1.5 rounded-sm" style="background:{c.colour}55">{c.label}</a>{/each}
     </p>
   {/if}
+  </div>
 </li>

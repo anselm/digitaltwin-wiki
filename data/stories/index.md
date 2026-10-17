@@ -1,10 +1,11 @@
 ---
 about:
   label: Stories
-  description: Short true accounts of what a model let someone see.
+  description: "Short true accounts of what a model let someone see."
   view: list
 section:
-  order: 46
+  order: 210
+  nav: false
 provenance:
   origin: human
   status: public

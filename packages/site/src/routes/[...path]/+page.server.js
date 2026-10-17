@@ -4,7 +4,17 @@ import { store, html, viewOf, card, domainCards } from '$lib/store.server.js'
 export const prerender = true
 export const entries = () => store.entities.map((e) => ({ path: e.id }))
 
-const kindLabel = (k) => ({ datasource: 'data source', usecase: 'use case' })[k] || k
+// Relative time at build time; the site is rebuilt on every deploy.
+function ago(d) {
+  if (!d) return ''
+  const days = Math.round((Date.now() - new Date(d).getTime()) / 864e5)
+  if (days < 1) return 'today'
+  if (days < 14) return `${days} day${days === 1 ? '' : 's'} ago`
+  if (days < 60) return `${Math.round(days / 7)} weeks ago`
+  if (days < 365) return `${Math.round(days / 30)} months ago`
+  return `${Math.round(days / 365)} years ago`
+}
+const kindLabel = (k) => ({ datasource: 'data source', twin: 'digital twin' })[k] || k
 const plural = (k) => ({ story: 'stories', 'data source': 'data sources' })[k] || `${k}s`
 
 export function load({ params }) {
@@ -19,9 +29,9 @@ export function load({ params }) {
 
   if (view === 'home') {
     return { ...base, aliases: e.about.aliases || [],
-      pinned: store.find({ kind: 'article' }).filter((a) => a.about.pinned).sort((a, b) => a.about.pinned - b.about.pinned).map(card),
+      pinned: store.entities.filter((a) => a.about?.pinned).sort((a, b) => a.about.pinned - b.about.pinned).map((a) => ({ ...card(a), author: a.provenance?.author || '', ago: ago(a.provenance?.updated || a.provenance?.created) })),
       recent: store.recent(6).filter((r) => r.id && !r.section && !('domain' in r)).map(card),
-      sections: store.children('').filter((s) => s.section).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), count: store.descendants(s.id).length })),
+      sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), count: store.descendants(s.id).length })),
       domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
   }
   if (view === 'list') return { ...base, items: store.children(id).map((c) => ({ ...card(c), chips: chips(c) })) }

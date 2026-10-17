@@ -1,10 +1,11 @@
 ---
 about:
   label: Articles
-  description: Longer pieces written here.
+  description: "Pieces written here and elsewhere."
   view: list
 section:
-  order: 85
+  order: 60
+  nav: true
 provenance:
   origin: human
   status: public

@@ -1,10 +1,11 @@
 ---
 about:
   label: People
-  description: Practitioners and thinkers.
+  description: "Practitioners and thinkers."
   view: list
 section:
-  order: 60
+  order: 220
+  nav: false
 provenance:
   origin: human
   status: public

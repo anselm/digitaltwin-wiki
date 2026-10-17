@@ -1,10 +1,11 @@
 ---
 about:
   label: Books
-  description: Books and long reports.
+  description: "Literature on modelling places and systems."
   view: list
 section:
-  order: 70
+  order: 30
+  nav: true
 provenance:
   origin: human
   status: public

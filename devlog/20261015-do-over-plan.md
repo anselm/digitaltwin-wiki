@@ -123,3 +123,29 @@ Not deployed. The deploy script now syncs `packages/site/dist` and takes
 `SHOW=public` for a production build; the staging VM still serves v1 until
 he says otherwise. The snap Chromium failed silently again; Playwright's
 Chrome did the shots.
+
+## 2026-10-17: his first review
+
+Anselm: "This revision is feeling better." Changes he asked for, done:
+
+- Table of contents floats at the left, open by default on wide screens
+  and behind a button on phones, carrying the colophon; pages still never
+  lay out around it. He wants the density of cyborganthropology.com: more
+  directions to go from the first screen.
+- Home intro replaced with his new text verbatim ("atlas of computational
+  representations of the world").
+- Pinned entries are one-line bylines: title, author, relative time, kind
+  and status tags. No body text.
+- Sections cut to the nine he listed plus Recent: Digital twins (real
+  projects; folder `twins/`, kind `twin`), Engines (`engines/`, was
+  `tools/`), Books, Events, Organizations, Articles, Guides, Data,
+  Terminology. Questions, stories, people, sites, domains, flows and about
+  are kept but out of the menu (`section.nav: false`). He wants things left
+  a bit empty so others feel invited to contribute, through GitHub for now.
+- Cards show a thumbnail when an entry has a depiction, for book jackets
+  with real art.
+
+Open: the repo is private, so the GitHub link in the sidebar 404s for
+anyone else until he makes it public or invites them. Several entries under
+Engines are twins, not engines (Virtual Singapore, Helsinki / Bologna) and
+should move to `twins/` when they are rechecked.

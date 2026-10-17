@@ -1,10 +1,11 @@
 ---
 about:
   label: Recent
-  description: New entries and links, newest first.
+  description: "New entries, newest first."
   view: recent
 section:
-  order: 90
+  order: 100
+  nav: true
 provenance:
   origin: human
   status: public

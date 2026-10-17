@@ -1,7 +1,7 @@
 {
   "_note": "Kind components for the digital-twins use case. Presence of the component is the kind; the folder is only where such entities usually live. See meta/data-design.md.",
   "components": {
-    "tool":         { "folder": "tools",        "fields": ["form", "group", "cost", "skill", "try", "bring", "like", "evidence", "homepage", "licence", "audiences"] },
+    "tool":         { "folder": "engines",      "fields": ["form", "group", "cost", "skill", "try", "bring", "like", "evidence", "homepage", "licence", "audiences"] },
     "datasource":   { "folder": "data-sources", "fields": ["coverage", "resolution", "cadence", "access", "format", "homepage", "cost", "skill"] },
     "person":       { "folder": "people",       "fields": ["affiliation", "role", "homepage", "handles"] },
     "organization": { "folder": "organizations","fields": ["form", "homepage", "country"] },
@@ -10,12 +10,12 @@
     "article":      { "folder": "posts",        "fields": ["url", "published", "publisher", "authors"] },
     "guide":        { "folder": "guides",       "fields": ["stage", "audience"] },
     "term":         { "folder": "terms",        "fields": ["aka"] },
-    "usecase":      { "folder": "use-cases",    "fields": ["sector", "scale", "operational"] },
+    "twin":         { "folder": "twins",        "fields": ["place", "sector", "scale", "operational", "homepage"] },
     "question":     { "folder": "questions",    "fields": [] },
     "event":        { "folder": "events",       "fields": ["url", "venue"] },
     "story":        { "folder": "stories",      "fields": [] },
     "flow":         { "folder": "flows",        "fields": ["start", "steps", "end"] },
     "domain":       { "folder": "domains",      "fields": ["symbol", "colour", "colour_name", "credit", "order"] },
-    "section":      { "folder": "",             "fields": ["order"] }
+    "section":      { "folder": "",             "fields": ["order", "nav"] }
   }
 }

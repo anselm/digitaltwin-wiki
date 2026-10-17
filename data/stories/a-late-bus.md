@@ -10,7 +10,7 @@ domains:
   - mobility
 relations:
   - predicate: tells
-    target: tools/aimsun
+    target: engines/aimsun
 provenance:
   origin: survey
   sources:

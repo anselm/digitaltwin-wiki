@@ -11,7 +11,7 @@ flow:
       note: Each story shows what a model of a place let someone see.
     - ask: Has someone already modeled your place?
       'yes': Look at theirs
-      to: /tools/helsinki-bologna
+      to: /engines/helsinki-bologna
       note: >-
         Helsinki publishes its city model and an energy atlas that anyone can
         open in a browser.
@@ -23,13 +23,13 @@ flow:
         question often needs less.
     - ask: Is there a free tool for this kind of question?
       'yes': Use it today
-      to: /tools/en-roads
+      to: /engines/en-roads
       note: >-
         En-ROADS is free in a browser: combine climate policies and see the
         modeled effect.
     - ask: 'Have data, and someone who can code a little?'
       'yes': Adapt an open model
-      to: /tools/invest
+      to: /engines/invest
       note: InVEST is a suite of open models that can be set up for a new place.
   end:
     label: 'Build one, or have it built'

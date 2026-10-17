@@ -1,10 +1,11 @@
 ---
 about:
   label: Flows
-  description: Decision paths drawn as diagrams.
+  description: "Decision paths drawn as diagrams."
   view: list
 section:
-  order: 130
+  order: 250
+  nav: false
 provenance:
   origin: human
   status: public

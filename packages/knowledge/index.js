@@ -182,7 +182,8 @@ export class Store {
   }
 }
 
-const stamp = (e) => String(e.provenance?.updated || e.provenance?.created || e.provenance?.reviewed || '')
+const day = (d) => (d instanceof Date ? d.toISOString().slice(0, 10) : d ? String(d) : '')
+const stamp = (e) => day(e.provenance?.updated || e.provenance?.created || e.provenance?.reviewed)
 const hay = (e) => [e.about?.label, e.about?.description, (e.about?.tags || []).join(' '), e.content].join(' ').toLowerCase()
 const sorters = {
   label: (a, b) => (a.about?.label || '').localeCompare(b.about?.label || ''),

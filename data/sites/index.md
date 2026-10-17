@@ -1,10 +1,11 @@
 ---
 about:
   label: Sites
-  description: Blogs, newsletters, communities and directories worth following.
+  description: "Blogs, newsletters, communities and directories."
   view: list
 section:
-  order: 80
+  order: 230
+  nav: false
 provenance:
   origin: human
   status: public

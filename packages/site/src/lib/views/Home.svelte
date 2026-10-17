@@ -11,7 +11,16 @@
 {#if data.pinned.length}
   <section class="mt-8">
     <h2 class="text-sm uppercase tracking-wide text-muted">Start here</h2>
-    <ul class="mt-1">{#each data.pinned as p}<Card item={p} />{/each}</ul>
+    <ul class="mt-1">
+      {#each data.pinned as p}
+        <li class="py-1.5 border-t border-line leading-snug">
+          <a href={p.url} class="text-ink hover:text-accent">‘{p.label}’</a>
+          <span class="text-muted">{#if p.author} by {p.author}{/if}{#if p.ago}, {p.ago}{/if}</span>
+          {#each [...p.kinds, ...p.tags] as t} <span class="text-xs text-muted border border-line px-1">{t}</span>{/each}
+          {#if p.status !== 'public'} <span class="text-xs text-muted border border-line px-1">{p.status}</span>{/if}
+        </li>
+      {/each}
+    </ul>
   </section>
 {/if}
 
@@ -26,7 +35,7 @@
   </ul>
 </section>
 
-<section class="mt-8">
+<section class="mt-8 lg:hidden">
   <h2 class="text-sm uppercase tracking-wide text-muted">Contents</h2>
   <ul class="mt-2 grid sm:grid-cols-2 gap-x-6">
     {#each data.sections as s}
