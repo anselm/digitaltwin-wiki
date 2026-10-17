@@ -37,10 +37,8 @@ provenance:
         WeatherNext family, including WeatherNext 2 and Cyclones: primary
         repository indexed
       url: 'https://github.com/google-deepmind/weathernext'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gxt9EfqB'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/e4amukZW'
+    - title: 2026 Earth AI Interest Form
+      url: 'https://forms.gle/3kp1t9zq7BqvYxwNA'
     - title: 'Link in the LinkedIn post (short link, unresolved)'
       url: 'https://goo.gle/4s13F25'
   reviewed: 2026-09

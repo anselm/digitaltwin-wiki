@@ -23,8 +23,8 @@ provenance:
       url: 'https://research.urbantech.info/projects/adaptbase/'
     - title: 'AdaptBase / Adaptbase Search: primary search result'
       url: 'https://github.com/Cornell-Tech-Urban-Tech-Hub/adaptbase-plans'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/giRsQ9Em'
+    - title: Search the Graph — AdaptBase
+      url: 'https://search.adaptbase.us'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

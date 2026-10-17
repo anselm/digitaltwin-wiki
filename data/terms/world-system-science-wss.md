@@ -14,8 +14,8 @@ term: {}
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eG7J_fkm'
+    - title: The Anthropocene Crisis
+      url: 'https://doi.org/10.1017/9781009863995'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

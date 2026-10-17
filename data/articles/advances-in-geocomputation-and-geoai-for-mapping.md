@@ -14,10 +14,12 @@ provenance:
   sources:
     - title: 'Advances in geocomputation and GeoAI for mapping: primary search result'
       url: 'https://eprints.gla.ac.uk/317154/'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eyhDDAj7'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/d8t7bDZt'
+    - title: >-
+        GeoAI Learning Path &mdash; Deep Learning on Satellite Data &mdash; THE
+        NEW SCIENCE OF MAPS
+      url: 'https://www.thenewscienceofmaps.com/learning-journeys/geoai'
+    - title: ScienceDirect
+      url: 'https://www.sciencedirect.com/science/article/pii/S156984322300122X'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

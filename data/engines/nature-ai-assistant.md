@@ -13,10 +13,13 @@ tool:
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gxWpnhZt.'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gA35kyvq.'
+    - title: >-
+        [2609.03210] Improving global precipitation forecasts with an AI weather
+        model trained on satellite observations
+      url: 'https://arxiv.org/abs/2609.03210'
+    - title: Just a moment...
+      url: >-
+        https://www.environmental-finance.com/content/analysis/how-ai-can-mainstream-investments-in-natural-capital.html
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

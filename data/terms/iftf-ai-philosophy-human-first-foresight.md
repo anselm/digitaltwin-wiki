@@ -14,8 +14,9 @@ term: {}
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gcdpCUnk.'
+    - title: IFTF - Foresight in the Age of AI
+      url: >-
+        https://www.iftf.org/insights/foresight-in-the-age-of-ai-iftf-philosophy-and-principles/
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

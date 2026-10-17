@@ -15,8 +15,8 @@ tool:
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gTGm_DK4'
+    - title: Protecting the Amazon with Spatial Intelligence | Vantor
+      url: 'https://vantor.com/blog/protecting-the-amazon-with-spatial-intelligence/'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

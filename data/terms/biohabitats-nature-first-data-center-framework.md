@@ -14,8 +14,9 @@ term: {}
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/ebVYupwn.'
+    - title: A Nature First Approach Will Lead to Better Data Centers
+      url: >-
+        https://www.asla.org/news-insights/dirt/a-nature-first-approach-will-lead-to-better-data-centers
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

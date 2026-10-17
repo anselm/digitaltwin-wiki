@@ -20,8 +20,9 @@ provenance:
     - title: 'Extinction Explorer: primary page indexed'
       url: >-
         https://community.esri.com/cs/discussion/1720571/from-points-on-a-map-to-a-living-biological-network
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gW4pjkuq.'
+    - title: From Points on a Map to a Living Biological Network - Esri Community
+      url: >-
+        https://community.esri.com/en/discussion/1720571/from-points-on-a-map-to-a-living-biological-network
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

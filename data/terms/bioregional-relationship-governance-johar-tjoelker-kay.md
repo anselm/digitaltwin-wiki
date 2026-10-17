@@ -15,14 +15,19 @@ term: {}
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/e99kftQf'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/e8MhfYR5'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eSukpwdh'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/e2tZBXjQ'
+    - title: Bioregioning through Bindings and Knots - Indy Johar
+      url: >-
+        https://indyjohar.substack.com/p/bioregioning-through-bindings-and?r=8anod&utm_medium=ios
+    - title: South America River Basins
+      url: 'https://python-maps-vis.vercel.app/'
+    - title: >-
+        Does the Mississippi River have rights? A growing legal movement says
+        yes | WWNO
+      url: >-
+        https://www.wwno.org/coastal-desk/2023-06-06/does-the-mississippi-river-have-rights-a-growing-legal-movement-says-yes
+    - title: data.hydrosheds.org
+      url: >-
+        https://data.hydrosheds.org/file/technical-documentation/HydroRIVERS_TechDoc_v10.pdf
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

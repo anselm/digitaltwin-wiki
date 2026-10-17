@@ -11,8 +11,8 @@ story: {}
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gQ2A48Hh'
+    - title: Biennale Cinema 2026 | Empire at Sea
+      url: 'https://www.labiennale.org/en/cinema/2026/venice-immersive/empire-sea'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

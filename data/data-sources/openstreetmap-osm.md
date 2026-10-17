@@ -16,14 +16,16 @@ datasource:
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gntpRdqb'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gKbSyUrG'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gBRQnGjQ'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/g7BuaDnV'
+    - title: New dataset connects OpenStreetMap to Wikimedia data
+      url: 'https://enterprise.wikimedia.com/blog/geospatial-wikidata-dataset/'
+    - title: Moved - a Hugging Face Space by mehmetkeremturkcan
+      url: 'https://huggingface.co/spaces/mehmetkeremturkcan/boundless-nyc'
+    - title: >-
+        GitHub - mkturkcan/valdrada: Valdrada is a real-time digital twin of New
+        York City built from public data. · GitHub
+      url: 'https://github.com/mkturkcan/boundless-nyc'
+    - title: mehmetkeremturkcan/valdrada · Datasets at Hugging Face
+      url: 'https://huggingface.co/datasets/mehmetkeremturkcan/boundless-nyc'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

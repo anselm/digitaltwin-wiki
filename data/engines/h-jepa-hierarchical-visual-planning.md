@@ -19,14 +19,14 @@ provenance:
       url: 'https://h-jepa.com/'
     - title: 'H-JEPA (hierarchical visual planning): primary search result'
       url: 'https://arxiv.org/abs/2610.06805'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gwCPbQUb'
+    - title: arxiv.org
+      url: 'https://arxiv.org/pdf/2610.06805'
     - title: 'Link in the LinkedIn post (short link, unresolved)'
       url: 'https://h-jepa.com'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gnk9wsqg'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gi5HtiRs'
+    - title: GitHub - kevinghst/H-JEPA · GitHub
+      url: 'https://github.com/kevinghst/H-JEPA'
+    - title: x.com
+      url: 'https://x.com/BasileTerv987/status/2107551177718284773'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

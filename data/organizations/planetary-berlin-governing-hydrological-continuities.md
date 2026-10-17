@@ -17,8 +17,8 @@ provenance:
   sources:
     - title: 'Link in the LinkedIn post (short link, unresolved)'
       url: 'https://luma.com/izwljp4m'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/dSK93t2t'
+    - title: Public Vitality Camp - Teufelsberg Berlin 2026 | Sept 17–19
+      url: 'https://www.publicvitality.camp/en/'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

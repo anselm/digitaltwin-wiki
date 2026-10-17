@@ -13,13 +13,13 @@ tool:
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/exq-xG4h'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
+    - title: Jobs &mdash; The Knowledge Graph Guys
+      url: 'https://www.knowledge-graph-guys.com/jobs'
+    - title: 'Link in the LinkedIn post (short link, could not be resolved)'
       url: 'https://lnkd.in/eNEHASXh'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
+    - title: 'Link in the LinkedIn post (short link, could not be resolved)'
       url: 'https://lnkd.in/eH8DBQ4v'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
+    - title: 'Link in the LinkedIn post (short link, could not be resolved)'
       url: 'https://lnkd.in/ebRYiP3C'
   created: '2026-10-17'
   reviewed_by: >-

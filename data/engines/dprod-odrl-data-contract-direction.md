@@ -15,12 +15,14 @@ tool:
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
+    - title: 'Link in the LinkedIn post (short link, could not be resolved)'
       url: 'https://lnkd.in/eAr-iD-b'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
+    - title: 'Link in the LinkedIn post (short link, could not be resolved)'
       url: 'https://lnkd.in/er_HjtWg'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eSrYRybk'
+    - title: >-
+        Knowledge Graph Consultancy, Strategy & Transformation Services &mdash;
+        The Knowledge Graph Guys
+      url: 'https://knowledge-graph-guys.com/services'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

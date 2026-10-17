@@ -24,20 +24,24 @@ provenance:
         https://research.google/blog/google-earth-ai-unlocking-geospatial-insights-with-foundation-models-and-cross-modal-reasoning/
     - title: 'Link in the LinkedIn post (short link, unresolved)'
       url: 'https://goo.gle/4s13F25'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gxt9EfqB'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/dqyMJg88'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gHWQCHQn'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gXwUduYn'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gnPivMKM'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gwkQA-dx'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gmKXtAY8'
+    - title: 2026 Earth AI Interest Form
+      url: 'https://forms.gle/3kp1t9zq7BqvYxwNA'
+    - title: >-
+        Putting Earth AI to work: Geospatial agents for our planet&#x27;s
+        biggest challenges
+      url: >-
+        https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+    - title: 2026 Earth AI Interest Form
+      url: 'https://forms.gle/Rj8RopdSFekCxfFA9'
+    - title: >-
+        [2610.15750] Google Earth AI Geospatial Reasoning Agent: Capabilities
+        and a Systematic Evaluation
+      url: 'https://arxiv.org/abs/2610.15750'
+    - title: Geospatial Reasoning
+      url: 'https://sites.research.google/gr/geospatial-reasoning/'
+    - title: 'Planetary prediction engine: Automating global models via Earth AI'
+      url: >-
+        https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

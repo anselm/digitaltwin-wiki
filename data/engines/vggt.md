@@ -13,10 +13,8 @@ provenance:
   sources:
     - title: 'VGGT-Ω: primary integrator documentation'
       url: 'https://github.com/eceo-epfl/deepreefmap'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/e5R5-hsn)'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eb9JHRwA)!'
+    - title: CoralscapesV2
+      url: 'https://josauder.github.io/coralscapesv2/'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

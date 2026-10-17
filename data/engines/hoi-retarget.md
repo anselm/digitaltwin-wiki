@@ -20,18 +20,20 @@ provenance:
       url: 'https://github.com/leggedrobotics/hoi-retarget/blob/main/README.md'
     - title: 'HOI-Retarget: primary search result'
       url: 'https://arxiv.org/abs/2609.34674'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eKknVtEE'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/e4MCQ_Y5'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/ehYFSEmA'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/e5MyEbQH'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/e4VfTMkV'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/e5SZftTr'
+    - title: 'HOI-Retarget: Contact-Centric Retargeting for Human-Object Interaction'
+      url: 'https://shinben0327.github.io/hoi-retarget/'
+    - title: arxiv.org
+      url: 'https://arxiv.org/pdf/2609.34674'
+    - title: >-
+        GitHub - leggedrobotics/hoi-retarget: HOI-Retarget: Contact-Centric
+        Retargeting for Human-Object Interaction · GitHub
+      url: 'https://github.com/shinben0327/hoi-retarget'
+    - title: leggedrobotics/hoi-retarget · Datasets at Hugging Face
+      url: 'https://huggingface.co/datasets/shinben0327/hoi-retarget'
+    - title: HOI-Retarget Contact Playback - a Hugging Face Space by leggedrobotics
+      url: 'https://huggingface.co/spaces/shinben0327/hoi-retarget-viewer'
+    - title: youtube.com
+      url: 'https://www.youtube.com/watch?v=7J-2QV3piIk'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

@@ -17,8 +17,8 @@ provenance:
   sources:
     - title: 'Community Fish Detector (CFD): primary search result'
       url: 'https://github.com/filippovarini/community-fish-detector'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eATVtVjx'
+    - title: Community Fish Detector · Filippo Varini
+      url: 'https://www.fvarini.com/community-fish-detector'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

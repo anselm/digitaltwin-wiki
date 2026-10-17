@@ -22,10 +22,12 @@ provenance:
       url: 'https://www.coastalassembly.ai/'
     - title: 'Coastal Assembly / Growing Islands lineage: primary search result'
       url: 'https://www.coastalassembly.ai/about'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gg-JXmNj'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gurZhCMF'
+    - title: AI-powered reefs may help beaches rebuild as erosion worsens
+      url: >-
+        https://www.accuweather.com/en/climate/ai-powered-reefs-may-help-beaches-rebuild-as-erosion-worsens/1943054
+    - title: fastcompany.com
+      url: >-
+        https://www.fastcompany.com/91611039/coastal-assembly-beach-erosion-solution-maldives
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

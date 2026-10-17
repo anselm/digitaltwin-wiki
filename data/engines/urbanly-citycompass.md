@@ -28,8 +28,10 @@ provenance:
       url: 'https://urbanly.org/platform/'
     - title: 'CityCompass / URBANLY: primary page read'
       url: 'https://urbanly.org/'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gk3ztimy'
+    - title: >-
+        What If? Time Machines - looking closer at the proposal on Natural
+        General Intelligence
+      url: 'https://anselm.substack.com/p/what-if-time-machines-looking-closer'
   reviewed: 2026-09
   reviewed_by: 'survey draft, not yet rechecked'
   status: draft

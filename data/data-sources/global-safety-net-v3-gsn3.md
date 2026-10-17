@@ -22,8 +22,10 @@ provenance:
     - title: 'Global Safety Net v3 (GSN3): primary issued release'
       url: >-
         https://www.prnewswire.com/news-releases/global-safety-net-v3-launched-to-monitor-the-global-extent-and-condition-of-natural-land-annually-302887426.html
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/e8gzjR9H'
+    - title: >-
+        Global Safety Net v3 offers a new way to monitor nature worldwide | One
+        Earth
+      url: 'https://www.oneearth.org/global-safety-net-3/'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

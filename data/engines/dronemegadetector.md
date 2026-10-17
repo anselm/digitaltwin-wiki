@@ -21,10 +21,10 @@ provenance:
     - title: 'DroneMegaDetector: primary author announcement'
       url: >-
         https://wildlabs.net/en/article/introducing-dronemegadetector?language=es
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gtE-_nBD'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gVcd56er'
+    - title: Attention Required | Cloudflare
+      url: 'https://www.biorxiv.org/content/10.64898/2026.10.12.758430v2'
+    - title: github.com
+      url: 'https://github.com/microsoft/MegaDetector-Overhead'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

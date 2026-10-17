@@ -22,12 +22,13 @@ provenance:
       url: 'https://climate-indices.readthedocs.io/en/latest/index.html'
     - title: 'climate_indices / climate-indices: linked from primary'
       url: 'https://github.com/monocongo/climate_indices'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eG3wxYk6'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eq577e3c'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eTbbQ6wh'
+    - title: climate-indices · PyPI
+      url: 'https://pypi.org/project/climate-indices/'
+    - title: >-
+        climate_indices/docs/release-notes-3.0.0.md at v3.0.0 ·
+        monocongo/climate_indices · GitHub
+      url: >-
+        https://github.com/monocongo/climate_indices/blob/v3.0.0/docs/release-notes-3.0.0.md
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

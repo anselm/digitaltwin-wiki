@@ -65,6 +65,8 @@ for (const x of cat.entities) {
   const file = fs.existsSync(`data/${id}/index.md`) ? `data/${id}/index.md` : `data/${id}.md`
   const prior = fs.existsSync(file) ? matter(fs.readFileSync(file, 'utf8')) : null
   if (prior && prior.data.import?.source !== SOURCE && !merge[x.entity_id]) { collided.push([x.entity_id, id]); continue }
+  // An imported entry that a person or agent has since rewritten (origin no longer "import") is theirs now.
+  if (prior && prior.data.import?.source === SOURCE && prior.data.provenance?.origin !== 'import' && !merge[x.entity_id]) { collided.push([x.entity_id, `${id} (rewritten, kept)`]); continue }
 
   const posters = [...new Set((x.attribution_by_post || []).flatMap((a) => a.visible_posters || []))]
   const sources = []

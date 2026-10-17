@@ -14,8 +14,9 @@ term: {}
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gHaSaifZ'
+    - title: African Parks’ $4.6m deal tests a new way of paying for nature
+      url: >-
+        https://businessamlive.com/african-parks-4-6m-deal-tests-a-new-way-of-paying-for-nature/
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

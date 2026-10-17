@@ -16,8 +16,9 @@ tool:
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eUQsVp-w'
+    - title: Proving extinction is hard. But we can do so now. | The 3D lab
+      url: >-
+        https://the3dlab.org/2026/09/03/proving-extinction-is-hard-but-we-can-do-so-now/
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

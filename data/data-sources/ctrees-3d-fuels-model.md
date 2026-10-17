@@ -19,8 +19,6 @@ provenance:
       url: 'https://ctrees.org/news/map-forest-fire-fuels-in-3D'
     - title: 'CTrees 3D fuels model: lead seen in the post, not yet opened'
       url: 'https://3dfuels.ctrees.org'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/dkgpmfxH'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

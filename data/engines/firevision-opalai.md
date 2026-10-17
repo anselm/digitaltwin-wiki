@@ -18,8 +18,8 @@ provenance:
   sources:
     - title: 'FireVision / OpalAI: primary search result'
       url: 'https://www.sbir.gov/portfolio/1694937'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gQi7FRsE'
+    - title: opal-ai.com
+      url: 'https://www.opal-ai.com/firevision'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

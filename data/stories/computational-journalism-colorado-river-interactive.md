@@ -17,8 +17,8 @@ provenance:
         Computational Journalism / Colorado River interactive: lead seen in the
         post, not yet opened
       url: 'https://colorado.exe.xyz'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/ehheXFBm.'
+    - title: 'Computational Journalism: The Futures Desk - by Anselm Hook'
+      url: 'https://anselm.substack.com/p/computational-journalism'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

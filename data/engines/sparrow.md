@@ -24,8 +24,11 @@ provenance:
     - title: 'SPARROW: primary search result'
       url: >-
         https://www.microsoft.com/en-us/research/publication/project-sparrow-and-the-future-of-conservation-technology/
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gip3D6gH'
+    - title: >-
+        How AI helps gather remote biodiversity data: Interview with Microsoft’s
+        Juan Lavista Ferres
+      url: >-
+        https://news.mongabay.com/2026/08/how-ai-helps-gather-remote-biodiversity-data-interview-with-microsofts-juan-lavista-ferres/
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

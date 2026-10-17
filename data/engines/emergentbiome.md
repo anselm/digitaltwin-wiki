@@ -15,12 +15,12 @@ tool:
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eSCShzYb'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/emfrV6Fn'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/esiZvu9f'
+    - title: Ecosphere Blue
+      url: 'https://www.ecosphereblue.earth/'
+    - title: youtube.com
+      url: 'https://www.youtube.com/watch?v=DOLYDpeEGvA'
+    - title: EmergentBiome Molecular Atlas | Blue-carbon methane evidence
+      url: 'https://emergentbiome.earth/'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

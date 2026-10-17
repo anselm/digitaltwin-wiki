@@ -18,12 +18,10 @@ provenance:
   sources:
     - title: 'PHASE (MHD operator): primary search result'
       url: 'https://arxiv.org/abs/2609.37609'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gCYrG8Qx'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gGGMzWkm'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gtqzgRpU'
+    - title: phaseMHD (PHASE-MHD)
+      url: 'https://huggingface.co/phaseMHD'
+    - title: github.com
+      url: 'https://github.com/PHASE-MHD/PHASE'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

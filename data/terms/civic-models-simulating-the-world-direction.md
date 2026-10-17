@@ -17,22 +17,30 @@ term: {}
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gHWQCHQn'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gXwUduYn'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gnPivMKM'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gwkQA-dx'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gmKXtAY8'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gBrSScDJ'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gk3ztimy'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/ehheXFBm.'
+    - title: >-
+        Putting Earth AI to work: Geospatial agents for our planet&#x27;s
+        biggest challenges
+      url: >-
+        https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+    - title: 2026 Earth AI Interest Form
+      url: 'https://forms.gle/Rj8RopdSFekCxfFA9'
+    - title: >-
+        [2610.15750] Google Earth AI Geospatial Reasoning Agent: Capabilities
+        and a Systematic Evaluation
+      url: 'https://arxiv.org/abs/2610.15750'
+    - title: Geospatial Reasoning
+      url: 'https://sites.research.google/gr/geospatial-reasoning/'
+    - title: 'Planetary prediction engine: Automating global models via Earth AI'
+      url: >-
+        https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/
+    - title: youtu.be
+      url: 'https://youtu.be/en0GuyhieQk?si=3sJw53THGawoSaff'
+    - title: >-
+        What If? Time Machines - looking closer at the proposal on Natural
+        General Intelligence
+      url: 'https://anselm.substack.com/p/what-if-time-machines-looking-closer'
+    - title: 'Computational Journalism: The Futures Desk - by Anselm Hook'
+      url: 'https://anselm.substack.com/p/computational-journalism'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

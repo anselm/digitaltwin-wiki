@@ -12,7 +12,7 @@ organization: {}
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
+    - title: 'Link in the LinkedIn post (short link, could not be resolved)'
       url: 'https://lnkd.in/guV-M9hW'
   created: '2026-10-17'
   reviewed_by: >-

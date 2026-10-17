@@ -18,10 +18,8 @@ provenance:
   sources:
     - title: 'Odyssey-3: primary search result'
       url: 'https://odyssey.systems/meet-odyssey-3'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gtBJN4b5'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gJZSJEb6'
+    - title: Odyssey
+      url: 'https://experience.odyssey.systems/'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

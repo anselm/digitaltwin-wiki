@@ -13,11 +13,14 @@ organization: {}
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/ebymhVp9'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
+    - title: >-
+        [external]_v4_BFF Risk & Value Sharing_DiscoveryArc#3_08.10.2026 -
+        Google Docs
+      url: >-
+        https://docs.google.com/document/d/1wrCozYK7R3uOCe0mZM43ZO7gpOwx1vx2Fzi5t08UgtU/edit?usp=sharing
+    - title: 'Link in the LinkedIn post (short link, could not be resolved)'
       url: 'https://lnkd.in/eMB7H6c7),'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
+    - title: 'Link in the LinkedIn post (short link, could not be resolved)'
       url: 'https://lnkd.in/evavACWt),'
   created: '2026-10-17'
   reviewed_by: >-

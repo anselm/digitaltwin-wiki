@@ -17,8 +17,6 @@ provenance:
   sources:
     - title: 'Orcapelago: lead seen in the post, not yet opened'
       url: 'https://orcapelago.brightrain.com'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gGtvAtfy'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

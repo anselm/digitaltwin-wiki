@@ -18,10 +18,13 @@ provenance:
   sources:
     - title: 'Delft-FEWS Flood Hub integration: primary search result'
       url: 'https://oss.deltares.nl/web/delft-fews/'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gsFZ8-DV'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gEwRGt7D'
+    - title: >-
+        Delft-FEWS now supports direct import of Google FloodHub forecasts -
+        Delft-FEWS - Deltares Community Portal
+      url: >-
+        https://oss.deltares.nl/web/delft-fews/-/delft-fews-now-supports-direct-import-of-google-floodhub-forecasts
+    - title: Flood Forecasting
+      url: 'https://sites.research.google/gr/floodforecasting/'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

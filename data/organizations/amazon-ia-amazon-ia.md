@@ -16,16 +16,14 @@ provenance:
   sources:
     - title: 'Amazon.ia / Amazon.IA: primary search result'
       url: 'https://www.amazoniainteligenciaambiental.org/en-us/'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gnaCEiZM'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/dtmsHEUp'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/dFDp_qjA'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/dyt98-_7'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/dn44Hajp'
+    - title: Just a moment...
+      url: >-
+        https://investors.planet.com/news/news-details/2026/Planet-Announces-Amazon-ia--A-New-Tool-That-Combines-Satellite-Data-Science-and-AI-to-Protect-the-Amazon/default.aspx
+    - title: youtube.com
+      url: 'https://www.youtube.com/watch?v=Q728aj_EWeg'
+    - title: Just a moment...
+      url: >-
+        https://www.science.org/content/article/project-will-harness-technology-track-amazon-biodiversity-real-time
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

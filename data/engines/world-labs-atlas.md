@@ -20,8 +20,8 @@ provenance:
       url: 'https://www.worldlabs.ai/blog/atlas'
     - title: 'World Labs: World Labs is joining AMD, September 28, 2026'
       url: 'https://www.worldlabs.ai/blog/amd-announcement'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gpY_gNUF'
+    - title: youtube.com
+      url: 'https://www.youtube.com/watch?v=qn1QDDBnTA0'
   reviewed: 2026-09
   reviewed_by: 'survey draft, not yet rechecked'
   status: draft

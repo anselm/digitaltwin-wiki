@@ -19,10 +19,9 @@ provenance:
   sources:
     - title: 'Laxmi: primary page read'
       url: 'https://arxiv.org/abs/2609.03210'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gxWpnhZt.'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gA35kyvq.'
+    - title: Just a moment...
+      url: >-
+        https://www.environmental-finance.com/content/analysis/how-ai-can-mainstream-investments-in-natural-capital.html
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

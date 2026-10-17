@@ -20,8 +20,11 @@ provenance:
     - title: 'FLAIM / EarthDaily Fire Likelihood AI Model: primary search result'
       url: >-
         https://earthdaily.com/blog/earthdaily-expands-ai-powered-wildfire-risk-intelligence-across-the-western-u.s.-with-north-american-insurance-major?hs_amp=true
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gEry7hHE'
+    - title: >-
+        EarthDaily Expands AI-Powered Wildfire Risk Intelligence Across the
+        Western U.S. With North American Insurance Major
+      url: >-
+        https://earthdaily.com/blog/earthdaily-expands-ai-powered-wildfire-risk-intelligence-across-the-western-u.s.-with-north-american-insurance-major
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

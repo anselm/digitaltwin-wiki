@@ -14,8 +14,9 @@ tool:
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gHU2eE2M'
+    - title: wsj.com
+      url: >-
+        https://www.wsj.com/tech/openai-buys-startup-developing-smartphone-camera-63590370
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

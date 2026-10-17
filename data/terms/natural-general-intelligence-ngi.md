@@ -15,8 +15,10 @@ provenance:
   sources:
     - title: 'Natural General Intelligence (NGI): primary search result'
       url: 'https://naturalgeneralintelligence.ai/'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gk3ztimy'
+    - title: >-
+        What If? Time Machines - looking closer at the proposal on Natural
+        General Intelligence
+      url: 'https://anselm.substack.com/p/what-if-time-machines-looking-closer'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

@@ -16,8 +16,8 @@ provenance:
       url: 'https://sites.research.google/gr/geospatial-reasoning/'
     - title: 'Link in the LinkedIn post (short link, unresolved)'
       url: 'https://goo.gle/4s13F25'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gxt9EfqB'
+    - title: 2026 Earth AI Interest Form
+      url: 'https://forms.gle/3kp1t9zq7BqvYxwNA'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

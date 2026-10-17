@@ -20,14 +20,16 @@ provenance:
       url: 'https://yang-ai-lab.github.io/OpenSLA/'
     - title: 'OpenSLA / Sensor-Language-Action: primary search result'
       url: 'https://arxiv.org/abs/2610.08244'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/ge7AjYaK'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/g37UeBi6'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/gBZsy2Ax'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/ghS6xS8c'
+    - title: arxiv.org
+      url: 'https://arxiv.org/pdf/2610.08244'
+    - title: OpenSLA &mdash; Sensor-Language-Action Models
+      url: 'https://yang-ai-lab.github.io/OpenSLA'
+    - title: >-
+        GitHub - yang-ai-lab/OpenSLA: Open Sensor-Language-Action (SLA) Models ·
+        GitHub
+      url: 'https://github.com/yang-ai-lab/OpenSLA'
+    - title: yang-ai-lab/OpenSLA · Hugging Face
+      url: 'https://huggingface.co/yang-ai-lab/OpenSLA'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked

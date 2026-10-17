@@ -17,16 +17,16 @@ article: {}
 provenance:
   origin: import
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/e2acppqv'
+    - title: Call for Papers-SI on UCF-AI | Sustainability in Smart Cities
+      url: 'https://ojs.bonviewpress.com/index.php/SSC/UCF-AI'
     - title: 'Link in the LinkedIn post (short link, unresolved)'
       url: 'https://www.sbd.uliege.be'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/diTVT5eq'
+    - title: Shady Attia
+      url: 'https://www.shadyattia.org/#/portal/signup'
     - title: 'Link in the LinkedIn post (short link, unresolved)'
       url: 'https://www.shadyattia.org'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://lnkd.in/eN3xZhhZ'
+    - title: tapni.com
+      url: 'https://tapni.com/t/0dezaqni6t9v'
   created: '2026-10-17'
   reviewed_by: >-
     OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
