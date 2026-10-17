@@ -291,3 +291,13 @@ pair of renders on those two colours chosen by a `picture` element; the
 credit line names only the data sources; the Bay Layers entry has no
 author field. On paper the scene reads as a translucent model, which is
 what blending costs; dark is the scene's native look.
+
+## 2026-10-17, late night: wiki feel
+
+Anselm: names off the front-page links ("I wanted a wiki feel"); tags
+back, colour coded; an off-white cream for light mode. Done: the one-line
+entries show title, age, kind, domain chips in their domain colour, the
+entry's own tags in a soft wash, and status; no byline anywhere on the
+front page. Light paper is now cream (#f8f4ec, wash #efe9dc, line
+#d8d1c3); the Bay Layers scene takes the same colour, so it blends. The
+survey's original paper was #fafbf9.

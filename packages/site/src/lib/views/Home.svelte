@@ -5,7 +5,7 @@
   // The live scene is a 7 MB WebGL download, so the prerendered page carries only a still.
   // After load the live, orbitable scene replaces it, drawn on the page's own colour for the
   // current theme, unless the reader has asked for reduced motion.
-  const bg = { light: 'fafbf9', dark: '0f1b1e' }
+  const bg = { light: 'f8f4ec', dark: '0f1b1e' }  // must match --paper in app.css
   let src = $state(null)
   onMount(() => {
     if (!data.figure || matchMedia('(prefers-reduced-motion: reduce)').matches) return

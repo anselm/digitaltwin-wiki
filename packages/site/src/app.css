@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-/* Page palette from the survey (light). Dark values are Claude's, derived from the light palette; not designed by Anselm. */
-:root { --ink: #17333b; --muted: #45616a; --paper: #fafbf9; --line: #cbd8d9; --accent: #256768; --wash: #eef4f4; --focus: #b66c20; }
+/* Page palette from the survey (light), with the paper changed to an off-white cream on Anselm's say (2026-10-17) so the Bay Layers scene and the page share one colour. Dark values are Claude's, derived from the light palette; not designed by Anselm. */
+:root { --ink: #17333b; --muted: #45616a; --paper: #f8f4ec; --line: #d8d1c3; --accent: #256768; --wash: #efe9dc; --focus: #b66c20; }
 @media (prefers-color-scheme: dark) {
   :root { --ink: #e4edec; --muted: #9fb4b6; --paper: #0f1b1e; --line: #27393d; --accent: #7cc3c0; --wash: #15262a; --focus: #e2a25f; }
 }

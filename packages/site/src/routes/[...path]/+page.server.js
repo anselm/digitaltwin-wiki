@@ -26,7 +26,7 @@ export function load({ params }) {
   const base = { view, id, label: e.about.label, description: e.about.description || '', content: html(e.content), status: e.provenance?.status || 'draft', tags: e.about.tags || [] }
   const domains = domainCards()
   const chips = (e) => (e.domains || []).map((d) => domains.find((x) => x.short === d)).filter(Boolean)
-  const line = (e) => ({ ...card(e), author: e.provenance?.author || '', ago: ago(e.provenance?.updated || e.provenance?.created) })
+  const line = (e) => ({ ...card(e), chips: chips(e), ago: ago(e.provenance?.updated || e.provenance?.created) })
 
   if (view === 'home') {
     // The figure is an entry of its own; the home only borrows its still and links back to it.
