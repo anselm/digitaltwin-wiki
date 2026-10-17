@@ -1,26 +1,27 @@
 ---
 about:
-  label: ReForest Latam / TNC Gran Chaco drone restoration
+  label: Gran Chaco drone reforestation pilot
   description: >-
-    The Nature Conservancy describes drone-assisted seed dispersal alongside
-    conventional planting in agricultural landscapes.
+    Pilot by The Nature Conservancy Argentina and the startup ReForest Latam
+    that seeds native trees from drones on degraded farmland in Argentina's
+    Gran Chaco.
   tags:
-    - forest
-    - restoration
-    - agriculture
-    - site
-    - landscape
+    - reforestation
+    - drone seeding
+    - gran chaco
+    - argentina
+    - native trees
 tool:
-  form: field intervention
+  form: field restoration pilot
+  homepage: 'https://blog.nature.org/2026/08/17/reforesting-the-gran-chaco-with-drones/'
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://nature.ly/4j06yxQ'
+    - title: Reforesting the Gran Chaco with Drones
+      url: 'https://blog.nature.org/2026/08/17/reforesting-the-gran-chaco-with-drones/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -35,12 +36,9 @@ import:
     - The Nature Conservancy
 domains:
   - ecology
-  - food
 ---
-**Caveats.** Physical restoration and ecosystem analysis are adjacent; no named digital model or twin described. Tree counts are reported, not independently verified.
+A restoration pilot in which The Nature Conservancy Argentina and ReForest Latam, a startup that supplies the drones and seed technology, test aerial seeding on degraded farmland near Tostado (Santa Fe) and Bandera (Santiago del Estero) in the Gran Chaco. It is part of a TNC Argentina initiative supported by the John Deere Foundation.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+Drones drop biodegradable capsules holding native seeds and biostimulants. Sites are characterised beforehand with GIS, an ecosystem-analysis platform and AI, and flights are timed around expected rain. White carob is the main species, with yellow floss silk tree, guayacán and Santiago red quebracho. The pilot targets 13 hectares and about 8,000 trees; the wider project aims at 100,000 trees, and more than 300 hectares had already been planted with seedlings by hand.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by The Nature Conservancy.
+Control plots are checked every 45 days, and about 120 days after the flights the team compares seedlings in treated and untreated areas. As of August 2026 the drone seeding was a pilot still under test, with no germination or survival results published.

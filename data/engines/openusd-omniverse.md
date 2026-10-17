@@ -1,24 +1,32 @@
 ---
 about:
-  label: OpenUSD / Omniverse
+  label: OpenUSD
   description: >-
-    OpenUSD is explicitly used; Omniverse occurs in the developer's profile as
-    broader ecosystem context.
+    Universal Scene Description, the open 3D scene format and software
+    platform created by Pixar and now stewarded by the Alliance for OpenUSD;
+    the scene layer under NVIDIA Omniverse and many simulation pipelines.
   tags:
     - 3d
-    - robotics
+    - scene format
     - interoperability
-    - scene
-    - multiscale
+    - usd
+    - omniverse
 tool:
-  form: enabling standard platform
+  form: open scene-description standard and library
+  homepage: 'https://openusd.org/release/index.html'
+  cost: free
 provenance:
-  origin: import
-  sources: []
+  origin: agent
+  sources:
+    - title: 'USD Home — Universal Scene Description 26.08 documentation'
+      url: 'https://openusd.org/release/index.html'
+    - title: Alliance for OpenUSD
+      url: 'https://aousd.org/'
+    - title: 'Develop Physical AI Applications | NVIDIA Omniverse'
+      url: 'https://www.nvidia.com/en-us/omniverse/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -34,10 +42,10 @@ import:
 domains:
   - sensory
 ---
-**Caveats.** OpenUSD and Omniverse are related but not aliases. A scene representation does not supply physical model validity.
+OpenUSD (Universal Scene Description) is a software platform and file format for building animated 3D scenes collaboratively, created by Pixar Animation Studios for film and visual-effects production. Its documentation describes a schema set for geometry, shading, lighting and physics, and a composition system for assembling many assets into one scene so that several tools and people can work on it at once. The Alliance for OpenUSD, a non-profit under the Joint Development Foundation whose founding members are Pixar, Adobe, Apple, Autodesk and NVIDIA, now promotes it and publishes a core specification.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+For digital-twin work it is mainly a way to exchange scene data between content tools and simulators. NVIDIA Omniverse, a set of libraries for building simulation-ready worlds for robotics and industrial digital twins, lists OpenUSD as one of its core library areas, so Omniverse scenes are USD scenes; the two are related but not the same thing.
 
-**Twin status.** adjacent; no functional twin inferred
+OpenUSD is open-source software with documentation and releases at openusd.org; the pages read do not name the licence. Omniverse libraries are obtained through NVIDIA's developer site and GitHub, some of them pre-release, with enterprise support sold separately.
 
-Seen on LinkedIn in a post by Daniel Sebastian Moreno.
+Status: operational; the documentation read is for release 26.08.

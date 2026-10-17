@@ -1,31 +1,32 @@
 ---
 about:
-  label: Blue Corridors / BlueCorridors.org
+  label: Protecting Blue Corridors
   description: >-
-    Chris Johnson describes pooled whale telemetry with citations and
-    contributor information across 14 species.
+    Web map from WWF and partners of whale migration routes built from pooled
+    satellite telemetry, with threat and protection layers alongside; free to
+    browse at bluecorridors.org.
   tags:
     - whales
-    - marine conservation
-    - animal
-    - ocean basin
-    - global
+    - satellite tracking
+    - migration
+    - ocean
+    - conservation
 datasource:
-  coverage: 'animal, ocean basin, global'
-  homepage: 'https://bluecorridors.org/sources'
+  coverage: global oceans, tagged whales across about fourteen species groups
+  cadence: unknown
+  access: free web map, no login; data contributions by contact with the initiative
+  format: interactive map with species, threat and protection layers
+  homepage: 'https://bluecorridors.org'
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'Blue Corridors / BlueCorridors.org: primary search result'
-      url: 'https://bluecorridors.org/sources'
-    - title: >-
-        Blue Corridors / BlueCorridors.org: lead seen in the post, not yet
-        opened
+    - title: Protecting Blue Corridors — Home
       url: 'https://bluecorridors.org'
+    - title: Protecting Blue Corridors — Data Sources
+      url: 'https://bluecorridors.org/sources'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -41,10 +42,8 @@ import:
 domains:
   - ecology
 ---
-**Caveats.** Observed tracks sample tagged animals and study periods, not a complete real-time population twin or automatically validated shipping intervention model.
+Protecting Blue Corridors is an initiative of WWF with a group of marine mammal research partners, among them Oregon State University, the Center for Coastal Studies, the University of Southampton, UC Santa Cruz, the University of Washington, MarEcoTel, the Tethys Research Institute and the University of Auckland. Its website, launched in June 2025, maps the ocean habitats whales use and the migratory routes that join them, which the initiative calls blue corridors.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+The map draws on pooled satellite telemetry: the home page cites 2051 satellite tags, about 3.75 million kilometres of analysed whale tracks over three decades, and more than fifty collaborators. A sources page credits each contributed dataset by species, region, track count, institution and citation, covering about fourteen species groups including blue, fin, humpback, sperm, southern right, bowhead, gray and Bryde's whales, narwhal and orca. Alongside the tracks sit layers for marine protected areas, Important Marine Mammal Areas, Key Biodiversity Areas, exclusive economic zones, fishing effort, ship traffic, underwater noise, pollution and offshore oil and gas.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by Chris Johnson.
+The site is free to browse and has sections for species, threats, protections and conservation action. It publishes a recommended citation for the dataset (Palacios et al., 2026) and points to the 2022 Protecting Blue Corridors report (Johnson et al.). No reuse licence is stated on the pages read; the tracks shown sample tagged animals and study periods rather than whole populations.

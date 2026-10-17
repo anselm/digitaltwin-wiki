@@ -1,22 +1,29 @@
 ---
 about:
   label: r.avaflow
-  description: Named engine used for the Rasuwa reconstruction.
+  description: >-
+    Open-source, GIS-supported simulator by Martin Mergili and Shiva P.
+    Pudasaini for rapid mass flows such as landslides, debris flows and glacial
+    lake outburst floods, including chains of one process feeding the next.
   tags:
     - landslide
     - debris flow
-    - flood
-    - slope
-    - valley
+    - mass flow
+    - outburst flood
+    - simulation
+    - grass gis
 tool:
-  form: enabling simulator
+  form: open-source simulation tool
+  homepage: 'https://www.landslidemodels.org/r.avaflow/'
+  cost: 'non-commercial; no regular support'
 provenance:
-  origin: import
-  sources: []
+  origin: agent
+  sources:
+    - title: 'r.avaflow | The mass flow simulation tool'
+      url: 'https://www.landslidemodels.org/r.avaflow/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -30,13 +37,12 @@ import:
   posters:
     - 'Kshitij Dahal, PhD'
 domains:
-  - climate
   - water
 ---
-**Caveats.** Engine capability does not validate this case's source volume, calibration or compound-process assumptions.
+r.avaflow simulates complex, cascading mass flows of up to three phases over any topography. Martin Mergili (University of Graz, Austria) and Shiva P. Pudasaini are the authors named for citation. The solver uses the NOC-TVD numerical scheme and offers a Voellmy-type model, a simplified multi-phase flow model, or an equilibrium-of-motion model for less rapid flows, with entrainment, deformation control, fragmentation, dispersion and phase transformations.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+It is built for process chains: a landslide that becomes a debris flow, a flood, a rock glacier or glacial lake outburst flood, each stage feeding the next. The training material walks through such chains in a landscape called Cascadia. Starting mass comes from raster maps or hydrographs, several simulations can run in parallel for sensitivity analysis and optimisation, and output can be rendered in 3D or virtual reality.
 
-**Twin status.** adjacent; no functional twin inferred
+It is open source and runs with GRASS GIS; the 4.0G variant installs the Python-based companion module r.lakefill, and a 4.0W variant also exists. The makers describe it as non-commercial software without regular support. An integrated user interface, a manual, training data with start scripts, a publications list and older versions are provided from the project page.
 
-Seen on LinkedIn in a post by Kshitij Dahal, PhD.
+The current release is r.avaflow 4.0 Revision 7, released 2025-09-02.

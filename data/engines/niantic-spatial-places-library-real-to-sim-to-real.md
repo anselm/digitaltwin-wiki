@@ -1,26 +1,29 @@
 ---
 about:
-  label: Niantic Spatial Places Library / real-to-sim-to-real
+  label: Niantic Spatial Places Library
   description: >-
-    Anvith E. describes an existing Places Library and early-stage
-    robot-learning product direction, reposted by Pierre Fite-Georgel.
+    Catalogue from Niantic Spatial of 100 real-world environments captured as
+    simulation-ready USDZ scenes, for training and testing robot policies in
+    Isaac Sim and other OpenUSD simulators.
   tags:
+    - gaussian splat
+    - simulation
     - robotics
-    - spatial computing
-    - place
-    - scene
+    - 3d capture
+    - usd
 tool:
+  form: hosted asset catalogue
   homepage: 'https://www.nianticspatial.com/blog/introducing-places-library-usdz'
-  form: enabling platform
+  cost: 'by plan; one free sample scene'
+  licence: unknown
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'Niantic Spatial Places Library / real-to-sim-to-real: primary page read'
+    - title: Introducing the Places Library
       url: 'https://www.nianticspatial.com/blog/introducing-places-library-usdz'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -40,10 +43,8 @@ domains:
   - sensory
   - places
 ---
-**Caveats.** Readiness checklist is an advertisement; hiring roadmap is not evidence that the proposed learning stack has shipped.
+The Places Library is a curated set of 100 real places, reconstructed by Niantic Spatial's embodied AI team and packaged for simulation. Each place is one USDZ file that pairs a photorealistic Gaussian splat with a collision mesh aligned to it, both derived from the same capture, gravity-aligned and at metric scale. The first catalogue covers industrial, logistics, commercial and residential settings, and the team says it will grow on request.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+The intended use is what Niantic calls real-to-sim-to-real: reconstruct the site a robot will work in, train and evaluate its policy there in NVIDIA Isaac Sim, Isaac Lab or another OpenUSD simulator, find where it fails, and feed that back. Real places are also offered as a base for domain randomisation, and selected scenes can be relit to produce lighting and weather variants, a feature in beta.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in posts by Niantic Spatial, Inc., Pierre Fite-Georgel, Anvith E..
+Access is through Niantic Spatial's embodied AI plans, which also include capture minutes for reconstructing a customer's own sites; the number of places depends on the plan, and one sample scene is free. Prices and licence terms are not on the page. Status: operational, announced 25 September 2026.

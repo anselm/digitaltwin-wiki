@@ -1,26 +1,26 @@
 ---
 about:
-  label: climate_indices / climate-indices
+  label: climate_indices
   description: >-
-    James Adams describes version 3.0 with drought, fire and flood index
-    families, vectorized computation and optional Rust kernels.
+    Open-source Python library by James Adams that computes drought, fire and
+    flood-potential indices such as SPI, SPEI, the Palmer family and KBDI from
+    station or gridded precipitation and temperature.
   tags:
-    - climate
     - drought
     - wildfire
     - flood
-    - station
-    - grid
-    - regional
+    - indices
+    - python
+    - climate
 tool:
-  homepage: 'https://climate-indices.readthedocs.io/en/latest/index.html'
-  form: enabling library
+  form: open-source Python library
+  homepage: 'https://github.com/monocongo/climate_indices'
+  licence: BSD-3-Clause
+  cost: free
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'climate_indices / climate-indices: primary search result'
-      url: 'https://climate-indices.readthedocs.io/en/latest/index.html'
-    - title: 'climate_indices / climate-indices: linked from primary'
+    - title: monocongo/climate_indices
       url: 'https://github.com/monocongo/climate_indices'
     - title: climate-indices · PyPI
       url: 'https://pypi.org/project/climate-indices/'
@@ -29,10 +29,11 @@ provenance:
         monocongo/climate_indices · GitHub
       url: >-
         https://github.com/monocongo/climate_indices/blob/v3.0.0/docs/release-notes-3.0.0.md
+    - title: Climate Indices in Python
+      url: 'https://climate-indices.readthedocs.io/en/latest/index.html'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -50,10 +51,10 @@ domains:
   - water
   - fire
 ---
-**Caveats.** Version, speedups and validation are post claims; the post itself says flood-family external reference validation is missing. Indices are not physical twins.
+climate_indices is a Python package of reference implementations of climate indices, developed by James Adams from code that began at NOAA's NCEI and NIDIS. Version 3.0.0 describes itself as covering multi-hazard monitoring: drought and moisture balance (SPI, SPEI, PNP, PCI, EDDI and the Palmer indices PDSI, PHDI, PMDI, Z-Index and scPDSI), potential evapotranspiration by Thornthwaite, Hargreaves or FAO-56 Penman-Monteith, a wildfire family (KBDI, the Canadian FWI system, Fosberg, Hot-Dry-Windy and Haines) and a flood-potential family (effective precipitation, EDI, the Flood Index and the Antecedent Precipitation Index). An energy family is listed as still in development.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+For a watershed or regional twin it turns precipitation and temperature series, from stations or NetCDF grids, into standard hazard indicators. The release notes are explicit that the flood indices measure potential rather than observed flooding and that their external validation is still a gap.
 
-**Twin status.** adjacent; no functional twin inferred
+It installs from PyPI and runs on Python 3.10 to 3.14, with an optional Rust backend that speeds up eligible calculations without changing the Python API; gridded runs are vectorised over time-major blocks. The NumPy API is the stable surface and the xarray API is marked beta. Licence is BSD-3-Clause.
 
-Seen on LinkedIn in a post by James Adams.
+Maintained; 3.0.0 was released on PyPI on 12 October 2026. The Read the Docs site still documents version 2.0.1.

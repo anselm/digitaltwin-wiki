@@ -1,28 +1,33 @@
 ---
 about:
-  label: CTrees 3D fuels model
+  label: CTrees 3D Fuels
   description: >-
-    Models canopy, ladder and ground fuels from lidar at reported one-meter
-    scale; examples include Tahoe, San Jacinto and Georgia Piedmont.
+    Lidar-derived model from CTrees of forest fire fuels as one-metre voxels
+    carrying canopy, ladder and ground fuel properties, demonstrated at three
+    US sites and published as open 3D arrays for fire models to read.
   tags:
     - wildfire
-    - forestry
-    - tree
-    - landscape
+    - fuels
+    - lidar
+    - forest structure
+    - voxels
 datasource:
-  coverage: 'tree, landscape'
-  homepage: 'https://ctrees.org/news/map-forest-fire-fuels-in-3D'
+  coverage: three demonstration sites, near South Lake Tahoe (mixed conifer), the San Jacinto Mountains (chamise chaparral) and the Georgia Piedmont (loblolly pine and sweetgum plantation)
+  resolution: one-metre voxels
+  cadence: unknown
+  access: public arrays, validation and interactive 3D models at 3dfuels.ctrees.org
+  format: 3D voxel arrays with bulk density, moisture, live fraction and surface area to volume
+  homepage: 'https://3dfuels.ctrees.org'
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'CTrees 3D fuels model: primary search result'
-      url: 'https://ctrees.org/news/map-forest-fire-fuels-in-3D'
-    - title: 'CTrees 3D fuels model: lead seen in the post, not yet opened'
+    - title: CTrees · 3D Fuels
       url: 'https://3dfuels.ctrees.org'
+    - title: 'A new way to map fire fuels, in 3D and at scale'
+      url: 'https://ctrees.org/news/map-forest-fire-fuels-in-3D'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -39,10 +44,8 @@ domains:
   - fire
   - ecology
 ---
-**Caveats.** A fuel-structure input layer, not an end-to-end fire simulator. Moisture and behavior forecasting belong to broader work and need separate evidence.
+A fuel-mapping method from CTrees, the non-profit led by Sassan Saatchi, that describes vegetation fuels in three dimensions rather than as a surface class. Each one-metre voxel holds bulk density, moisture, live fraction and surface-area-to-volume ratio, and the canopy, ladder and ground fuel layers are combined in the same array. The arrays are delivered in a form that next-generation physics-based fire models can read directly.
 
-**Maturity, as the catalogue judged it.** derived representation or inventory; dynamical behavior not established
+The model is built on the public USGS 3DEP airborne lidar, which is what lets it be applied across ecosystems. CTrees demonstrated it on mixed conifer forest near South Lake Tahoe, chamise chaparral in the San Jacinto Mountains, and a loblolly pine and sweetgum plantation in the Georgia Piedmont. The work took third place in the 3D Surface Fuels and Vegetation Modeling Prize Challenge run by SERDP/ESTCP with the Naval Air Warfare Center Training Systems Division and the Central Florida Tech Grove; the team was Saatchi, Zhihua Liu, Bryan Shaddy, Chris Mihiar and Aijing Li.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by CTrees.
+The arrays, validation and interactive 3D models for the demonstration sites are public at 3dfuels.ctrees.org, which describes itself as a prize-challenge demo. It is a fuel-structure input layer, not a fire-behaviour simulator; CTrees announced it on 7 October 2026 and no wider coverage is stated.

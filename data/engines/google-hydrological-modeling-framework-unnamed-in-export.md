@@ -1,18 +1,33 @@
 ---
 about:
-  label: Google hydrological modeling framework (unnamed in export)
-  description: Rothenberg refers to an earlier open-source hydrological framework.
+  label: OpenHydroNet
+  description: >-
+    Google Research's open-source hydrology framework, a Python package that
+    replicates the LSTM river-flow models behind Flood Hub so forecasters can
+    train or fine-tune them on their own watersheds.
   tags:
-    - water
     - hydrology
+    - flood
+    - forecast
+    - lstm
+    - open source
     - river
-    - basin
-    - global
 tool:
-  form: enabling framework
+  homepage: 'https://github.com/google-research/flood-forecasting'
+  form: open-source library
+  licence: Apache-2.0
+  cost: free
 provenance:
-  origin: import
+  origin: agent
   sources:
+    - title: 'GitHub - google-research/flood-forecasting'
+      url: 'https://github.com/google-research/flood-forecasting'
+    - title: 'The next chapter in flood resilience: Open sourcing Google''s hydrology framework'
+      url: >-
+        https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/
+    - title: 'Google opens its hydrology framework — what does this mean for Delft-FEWS users?'
+      url: >-
+        https://oss.deltares.nl/web/delft-fews/-/google-opens-its-hydrology-framework-what-does-this-mean-for-delft-fews-users-
     - title: >-
         Delft-FEWS now supports direct import of Google FloodHub forecasts -
         Delft-FEWS - Deltares Community Portal
@@ -21,9 +36,8 @@ provenance:
     - title: Flood Forecasting
       url: 'https://sites.research.google/gr/floodforecasting/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -39,10 +53,10 @@ import:
 domains:
   - water
 ---
-**Caveats.** No framework name or direct repository is given; do not guess a repository or equate code with all Flood Hub services.
+OpenHydroNet is the name the repository gives to the hydrology modelling framework Google Research released on GitHub on 3 June 2026 (the announcement, by Grey Nearing and Deborah Cohen, calls it Google's hydrology framework). It is a Python package on PyTorch, forked from NeuralHydrology and reworked for forecast sequences, and it replicates the river-flow models that run in Flood Hub. Two architectures are included: Mean-Embedding-Forecast-LSTM, the production model as of December 2025, which uses separate embedding networks for hindcast and forecast inputs and combines GraphCast, ECMWF IFS, NASA IMERG and NOAA CPC precipitation; and Handoff-Forecast-LSTM, the earlier production model described in a 2024 Nature paper. An optional data assimilation step adjusts the model's latent state against recent streamflow observations without retraining. Training uses the open Caravan dataset, and the package ships tools to delineate catchments from gauge coordinates and to pull static attributes from HydroATLAS and ERA5-Land for a user's own watersheds. The README says it is not an officially supported Google product.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+The stated purpose is to let hydrologists test new models and data, and to let national forecasting services add local data and knowledge while keeping control of that data. The Czech Hydrometeorological Institute tested the framework and found its forecasts comparable in quality to locally calibrated conceptual models; it also built a Python adapter connecting the framework to Delft-FEWS, which it provides on request. Deltares and Google are working on a model adapter to embed the framework in Delft-FEWS workflows, still in progress in October 2026.
 
-**Twin status.** adjacent; no functional twin inferred
+It is free under Apache 2.0 and installs locally; documentation is at openhydronet.readthedocs.io, with a tutorial notebook and video.
 
-Seen on LinkedIn in a post by Juliet Rothenberg.
+Status: released June 2026. Google states that the newer model extends the reliable forecast horizon by six days in gauged basins and one day in ungauged basins compared with its predecessor.

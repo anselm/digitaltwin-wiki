@@ -1,29 +1,34 @@
 ---
 about:
-  label: Advances in geocomputation and GeoAI for mapping
+  label: Advances in geocomputation and geospatial artificial intelligence (GeoAI) for mapping
   description: >-
-    Review by Yongze Song, Margaret Kalacska, Mateo Gašparović, Jing Yao and
-    Nasser Najibi provides a broad mapping application taxonomy.
+    2023 editorial review by Yongze Song and colleagues of how geocomputation
+    and GeoAI are used in mapping, with a taxonomy of mapping applications and
+    of the data types that feed them.
   tags:
-    - geospatial
-    - earth observation
-    - multiscale
-article: {}
+    - geoai
+    - geocomputation
+    - mapping
+    - remote sensing
+    - review
+article:
+  url: 'https://doi.org/10.1016/j.jag.2023.103300'
+  published: '2023-04-28'
+  publisher: International Journal of Applied Earth Observation and Geoinformation (Elsevier)
+  authors:
+    - Yongze Song
+    - Margaret Kalacska
+    - Mateo Gašparović
+    - Jing Yao
+    - Nasser Najibi
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'Advances in geocomputation and GeoAI for mapping: primary search result'
+    - title: Advances in geocomputation and geospatial artificial intelligence (GeoAI) for mapping
       url: 'https://eprints.gla.ac.uk/317154/'
-    - title: >-
-        GeoAI Learning Path &mdash; Deep Learning on Satellite Data &mdash; THE
-        NEW SCIENCE OF MAPS
-      url: 'https://www.thenewscienceofmaps.com/learning-journeys/geoai'
-    - title: ScienceDirect
-      url: 'https://www.sciencedirect.com/science/article/pii/S156984322300122X'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -39,10 +44,8 @@ import:
 domains:
   - places
 ---
-**Caveats.** Published in 2023 despite a recent repost; listed use cases are not individually named implemented twins. Preserve original paper date separately from post age.
+An editorial in the International Journal of Applied Earth Observation and Geoinformation (volume 120, article 103300, published online 28 April 2023) by Yongze Song, Margaret Kalacska, Mateo Gašparović, Jing Yao and Nasser Najibi. It reviews how geocomputation and geospatial artificial intelligence have changed mapping work.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+The paper sorts mapping applications into four groups: buildings and infrastructure, land use analysis, natural environment and hazards, and social issues and human activities. It sorts the data that feed them into seven types: in-situ data, geospatial datasets, crowdsourced geospatial data, remote sensing, photogrammetry, lidar and statistical data. It closes with challenges and opportunities, including the difficulty of building the particular properties of geospatial data into GeoAI models.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by Milan Janosov.
+The published version is openly available from the University of Glasgow's Enlighten repository under a CC BY-NC-ND 4.0 licence.

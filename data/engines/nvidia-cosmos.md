@@ -2,21 +2,28 @@
 about:
   label: NVIDIA Cosmos
   description: >-
-    The agriculture developer says Cosmos is being explored for a reasoning
-    layer.
+    NVIDIA's family of world foundation models and tools for physical AI;
+    generates and reasons over video of the physical world for robot
+    training, simulation and synthetic sensor data.
   tags:
-    - robotics
+    - world model
     - physical ai
-    - scene
+    - synthetic data
+    - robotics
+    - video generation
 tool:
-  form: enabling world model
+  form: foundation models and tooling
+  homepage: 'https://www.nvidia.com/en-us/ai/cosmos/'
+  licence: 'OpenMDW 1.1 (Linux Foundation), as stated for the world foundation models'
+  cost: 'models downloadable; hosted inference through NVIDIA services'
 provenance:
-  origin: import
-  sources: []
+  origin: agent
+  sources:
+    - title: Physical AI with World Foundation Models | NVIDIA Cosmos
+      url: 'https://www.nvidia.com/en-us/ai/cosmos/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -32,10 +39,8 @@ import:
 domains:
   - sensory
 ---
-**Caveats.** Exploration is not established integration or closed-loop field control.
+Cosmos is NVIDIA's platform of world foundation models for physical AI. The current flagship, Cosmos 3, is described as a single model that combines reasoning, world generation and action generation on a mixture-of-transformers architecture; around it sit Cosmos Curator for filtering and annotating sensor data, Cosmos Evaluator for scoring generated video, and scripts for post-training, optimisation and inference.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+NVIDIA lists four uses: as a vision-language model that reasons over video, for tasks such as quality inspection and traffic monitoring; as a backbone to post-train into robot policies on a specific camera and body; as a controllable simulator that predicts outcomes in a closed loop; and as a generator of synthetic video from text, images, video, sound or actions, including sensor data for autonomous-vehicle testing.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by Daniel Sebastian Moreno.
+The models are released under the OpenMDW 1.1 licence from the Linux Foundation and can be downloaded from Hugging Face, with code on GitHub and recipes in a cookbook; NVIDIA also hosts them in its build.nvidia.com catalogue and as NIM microservices. Status: operational.

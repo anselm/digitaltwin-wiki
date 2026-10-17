@@ -1,21 +1,31 @@
 ---
 about:
   label: NVIDIA Isaac Sim
-  description: Named simulation environment supporting the agricultural prototype.
+  description: >-
+    NVIDIA's open-source robotics simulator built on Omniverse and OpenUSD;
+    used to train, test and validate robots in physically based virtual
+    environments and to generate synthetic training data.
   tags:
     - robotics
-    - agriculture
-    - robot
-    - scene
+    - simulation
+    - synthetic data
+    - openusd
+    - open source
 tool:
-  form: enabling simulator
+  form: open-source simulation framework
+  homepage: 'https://developer.nvidia.com/isaac/sim'
+  licence: 'Apache-2.0, with an NVIDIA additional software and materials licence'
+  cost: free
 provenance:
-  origin: import
-  sources: []
+  origin: agent
+  sources:
+    - title: >-
+        Isaac Sim - Robotics Simulation and Synthetic Data Generation | NVIDIA
+        Developer
+      url: 'https://developer.nvidia.com/isaac/sim'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -30,12 +40,9 @@ import:
     - Daniel Sebastian Moreno
 domains:
   - sensory
-  - food
 ---
-**Caveats.** Separate platform availability from the prototype's maturity.
+Isaac Sim is NVIDIA's reference framework for simulating robots. It is built on Omniverse libraries and OpenUSD, imports robots and scenes from CAD, URDF and real-world captures, and is extensible enough that developers build their own OpenUSD-based simulators on it.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+NVIDIA describes it as the place to train, test and validate a robot before it exists or before it is let loose: software-in-the-loop and hardware-in-the-loop testing, robot learning through the companion Isaac Lab, and synthetic data pipelines that can be augmented with Cosmos world models. It talks to ROS and ROS 2 through bridge extensions.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by Daniel Sebastian Moreno.
+The code is on GitHub under Apache 2.0, subject to an additional NVIDIA software and materials licence, and is free to use; containers are on NGC and the AWS Marketplace, and cloud instances are offered through Brev, where the cloud provider's own fees apply. Vendors who redistribute Omniverse Kit with their product need an Omniverse Enterprise subscription. Status: operational.

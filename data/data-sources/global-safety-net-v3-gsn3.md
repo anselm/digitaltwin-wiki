@@ -1,35 +1,36 @@
 ---
 about:
-  label: Global Safety Net v3 (GSN3)
+  label: Global Safety Net v3
   description: >-
-    One Earth and Nature Data Lab map ecologically important lands, conservation
-    and Indigenous/Traditional Territories with annual changes.
+    Global map from One Earth and Nature Data Lab of lands and inland waters
+    important for biodiversity, ecosystem services and climate, with land cover
+    and conservation status, designed to be updated every year; launched
+    September 2026 as a free web viewer.
   tags:
     - conservation
     - biodiversity
-    - land use
-    - regional
-    - country
-    - planetary
+    - land cover
+    - protected areas
+    - global
 datasource:
-  coverage: 'regional, country, planetary'
+  coverage: global lands and inland waters, reported by nation, state and county
+  resolution: unknown
+  cadence: annual
+  access: free web viewer, no login; rare and threatened species layers need an IBAT licence; data download not stated
+  format: web map with ecological group, land cover class and conservation status views
   homepage: 'https://www.globalsafetynet.app/'
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'Global Safety Net v3 (GSN3): primary page read'
+    - title: Global Safety Net
       url: 'https://www.globalsafetynet.app/'
-    - title: 'Global Safety Net v3 (GSN3): primary issued release'
-      url: >-
-        https://www.prnewswire.com/news-releases/global-safety-net-v3-launched-to-monitor-the-global-extent-and-condition-of-natural-land-annually-302887426.html
-    - title: >-
-        Global Safety Net v3 offers a new way to monitor nature worldwide | One
-        Earth
+    - title: Global Safety Net v3 offers a new way to monitor nature worldwide
       url: 'https://www.oneearth.org/global-safety-net-3/'
+    - title: Global Safety Net v3 launched to monitor the global extent and condition of natural land annually
+      url: 'https://www.prnewswire.com/news-releases/global-safety-net-v3-launched-to-monitor-the-global-extent-and-condition-of-natural-land-annually-302887426.html'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -46,10 +47,8 @@ domains:
   - ecology
   - places
 ---
-**Caveats.** Annual state assessment and conservation planning layers do not establish a dynamical biodiversity twin; separate v3 from prior static versions.
+The Global Safety Net is an open scientific initiative of One Earth and Nature Data Lab, with collaborators including The Nature Conservancy, IIASA, Pristine Seas, Google Earth Engine, ESA and Global Mangrove Watch. Version 3, launched 23 September 2026, maps Areas of Importance for Biodiversity and Ecosystem Services across the world's lands and inland waters by combining thirteen datasets and removing land converted to intensive human use, using The Nature Conservancy's Human Modification time series. Geospatial computation runs on Google Earth Engine; the UK firm Octophin built the application.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+The viewer offers three views: ecological group (five priority categories such as rare and threatened species and wild and intact areas), land cover class (thirteen types from the ESA CCI land cover series plus inland surface water), and conservation status (protected areas, OECMs, documented conservation areas, and Indigenous and Traditional Territories). It reports conservation status and the rate of ecological degradation for each nation, state and county, framed against the Kunming-Montreal target of conserving 30% of land and inland waters by 2030.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by One Earth.
+The platform is free and needs no login; the rare and threatened species layers require an IBAT licence. This version is the first designed to be refreshed annually. Spatial resolution and bulk data download are not stated on the pages read.

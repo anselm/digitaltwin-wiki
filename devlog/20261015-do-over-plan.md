@@ -216,3 +216,48 @@ should move to `twins/` when they are rechecked.
   The 28 the catalogue marked high priority are the place to start.
 - The checker now fails on a source url without a scheme, after a bare
   `goo.gle/...` token rendered as a page of this site and broke prerender.
+
+## 2026-10-17, late: the imported entries rewritten from their sources
+
+Anselm: "the literal quotes are not useful - the goal is to build a digital
+twins resource or wiki." The imported entries read as catalogue records:
+post paraphrases, "Caveats", "as the catalogue judged it", "seen on
+LinkedIn". So:
+
+- `meta/curation.md` now says how an entry is written: what it is, who
+  makes it, where it applies, how it runs, status; nothing about how we
+  heard of it; only facts a listed source states; sources are pages
+  actually read, titled as they title themselves.
+- `tools/resolve-links.js` turned 85 of the 100 LinkedIn short links into
+  their real targets (LinkedIn's interstitial page carries the
+  destination); 15 would not resolve.
+- Ten agents, one per batch of about twelve files, read every source and
+  rewrote the entries to those rules, with the order never to invent a
+  fact. Each returned a report. Result: 77 entries rewritten with real
+  maker pages as sources; 21 had no readable source at all (nothing but
+  a LinkedIn post, or a maker site that is an empty JS shell); 17 were
+  rewritten but are plainly off-topic for twins of places and ecosystems
+  (enterprise data-governance layers, robot motion retargeting, a plasma
+  operator, a clinical sensor model, identity protocols, an AR drama).
+- The 38 sourceless and off-topic entries were deleted; their catalogue
+  ids are in the importer's skip list so a rerun does not bring them
+  back, and they are recoverable from git (commit before this one). Two
+  of them the catalogue had rated high priority: OSMosis (BVR's tool, no
+  page found) and Cedar Vista (site is an empty shell). Worth a lead
+  file if Anselm knows where they live.
+- Nine entries moved to the folder and kind the sources support: Coastal
+  Assembly and GLORIA to organizations; friGIS and Wildflow Coral to
+  engines; the Planetary Berlin workshop and two calls for papers to
+  events; GeoExpertQueries and GeoKTools to data sources. Relations were
+  retargeted.
+- Things the agents found that the catalogue had wrong or unsupported,
+  now fixed: BoundlessNYC is now called Valdrada; Google's unnamed
+  hydrological framework is OpenHydroNet; several claims (a Bouquet Fire
+  example, a Colombia pilot, a "new GPU engine", Three.js pipelines,
+  co-authors) appeared on no page and were dropped.
+- Names of people who posted on LinkedIn remain only in the `import`
+  component, not in the prose.
+
+Counts after this pass: 176 entities. Engines 78, Data 15, Terminology 9,
+Organizations 7, Articles 7, Digital twins 4, Events 3. All imports still
+draft; promotion is Anselm's.

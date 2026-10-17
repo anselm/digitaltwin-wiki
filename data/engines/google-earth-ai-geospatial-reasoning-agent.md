@@ -2,49 +2,45 @@
 about:
   label: Google Earth AI Geospatial Reasoning agent
   description: >-
-    Gemini-powered system orchestrates specialized spatial tools and models.
-    Multiple posts describe the same technical report and access expansion.
+    Experimental Gemini-based agent from Google Research that plans a
+    multi-step spatial analysis, calls Earth AI models and geospatial data
+    sources, and returns the result with its plan and sources shown.
   tags:
     - geospatial
-    - public health
-    - disaster
-    - energy
-    - local
-    - regional
-    - planetary
+    - agent
+    - gemini
+    - satellite
+    - analysis
+    - gis
 tool:
-  homepage: >-
-    https://research.google/blog/google-earth-ai-unlocking-geospatial-insights-with-foundation-models-and-cross-modal-reasoning/
-  form: research agent
+  homepage: 'https://sites.research.google/gr/geospatial-reasoning/'
+  form: experimental agent
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'Google Earth AI Geospatial Reasoning agent: primary search result'
-      url: >-
-        https://research.google/blog/google-earth-ai-unlocking-geospatial-insights-with-foundation-models-and-cross-modal-reasoning/
-    - title: 'Google Earth AI Geospatial Reasoning agent: primary search result'
-      url: >-
-        https://research.google/pubs/google-earth-ai-geospatial-reasoning-agent-capabilities-and-a-systematic-evaluation/
-    - title: 'Google Earth AI Geospatial Reasoning agent: primary search result'
-      url: >-
-        https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
-    - title: 'Google Earth AI Geospatial Reasoning agent: primary search result'
-      url: 'https://arxiv.org/abs/2610.15750'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://goo.gle/4s13F25'
-    - title: 2026 Earth AI Interest Form
-      url: 'https://forms.gle/3kp1t9zq7BqvYxwNA'
-    - title: 2026 Earth AI Interest Form
-      url: 'https://forms.gle/Rj8RopdSFekCxfFA9'
     - title: Geospatial Reasoning
       url: 'https://sites.research.google/gr/geospatial-reasoning/'
+    - title: 'Putting Earth AI to work: Geospatial agents for our planet''s biggest challenges'
+      url: >-
+        https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
+    - title: >-
+        [2610.15750] Google Earth AI Geospatial Reasoning Agent: Capabilities
+        and a Systematic Evaluation
+      url: 'https://arxiv.org/abs/2610.15750'
+    - title: 'Google Earth AI Geospatial Reasoning Agent: Capabilities and a Systematic Evaluation'
+      url: >-
+        https://research.google/pubs/google-earth-ai-geospatial-reasoning-agent-capabilities-and-a-systematic-evaluation/
+    - title: 'Google Earth AI: Unlocking geospatial insights with foundation models and cross-modal reasoning'
+      url: >-
+        https://research.google/blog/google-earth-ai-unlocking-geospatial-insights-with-foundation-models-and-cross-modal-reasoning/
     - title: 'Planetary prediction engine: Automating global models via Earth AI'
       url: >-
         https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/
+    - title: Google Earth AI — Google AI
+      url: 'https://ai.google/earth-ai'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -86,10 +82,10 @@ relations:
       uses component (source_claim; exact implementation not independently
       tested)
 ---
-**Caveats.** Vendor benchmarks and partner outcomes support a research system, not universal reliable reasoning or independently validated whole-system causality.
+The Geospatial Reasoning agent is the orchestrating part of Google Earth AI, built by Google Research on Gemini. Given a question in plain language it drafts a step-by-step plan, then calls a set of modular skills that wrap Earth AI models (WeatherNext, flood forecasting, the Population Dynamics Foundation Model, AlphaEarth Foundations, Remote Sensing Foundations) and data sources such as Earth Engine, Data Commons and BigQuery public datasets, and combines what comes back. Answers show the plan and the data used so a specialist can check them. Users can add their own data as CSV files, GeoJSON boundaries or cloud tables. A companion piece, the Planetary Prediction Engine, takes a user's local outcome data and trains predictive models for spatial prediction, downscaling and forecasting.
 
-**Maturity, as the catalogue judged it.** experimental agent; partner trials reported
+Google's October 2026 account gives several uses. During the 2026 Ebola outbreak in the Democratic Republic of the Congo, WHO AFRO used the agent to map mining corridors with high exposure and mobility risk, finding 48 exposed settlements and more than 45,500 people at risk; the INRB used the Planetary Prediction Engine for weekly estimates of spread into uninfected health zones. People in Need analysed 14 historical cyclone tracks to find high-exposure villages. GiveDirectly uploaded its own boundaries to estimate population exposure by wind-speed zone during Tropical Cyclone Maila and to benchmark tornado damage in Mississippi. The Milken Institute screened over 1,500 candidate buildings for community resilience hubs.
 
-**Twin status.** adjacent; no functional twin inferred
+It runs as a hosted Google service. Access in October 2026 is by limited early-access programme through three tracks: Ask Google Earth, an experimental headless Agent-to-Agent API for developers building their own workflows, and the Planetary Prediction Engine. Applicants express interest through a form on the Geospatial Reasoning page. Pricing and terms are not stated.
 
-Seen on LinkedIn in posts by Yossi Matias, Luke Barrington, Shravya Shetty.
+Status: experimental. A prototype was introduced with Earth AI in October 2025. A technical report (arXiv 2610.15750, submitted 11 October 2026) compares four configurations on Gemini 3.1 Pro and 3.8 Flash and introduces two benchmarks, GeoExpertQueries and GeoKTools, whose development sets are released on GitHub; the authors describe the agent's output on open-ended problems as a first draft for expert review.

@@ -1,31 +1,33 @@
 ---
 about:
-  label: Overhead Wildlife Locator (OWL) / MegaDetector-Overhead
+  label: MegaDetector-Overhead (OWL)
   description: >-
-    Microsoft aerial wildlife detector; Juan M. Lavista Ferres discusses
-    independent DroneMegaDetector comparisons.
+    Open-source detector from the Microsoft AI for Good Lab that finds
+    wildlife in aerial and drone survey imagery; ships the OWL model family
+    and extends MegaDetector from camera traps to overhead views.
   tags:
     - wildlife
-    - biodiversity
-    - animal
-    - survey
-    - landscape
+    - drone
+    - aerial survey
+    - detection
+    - counting
 tool:
   homepage: 'https://github.com/microsoft/MegaDetector-Overhead'
-  form: enabling detector
+  form: open-source detection model
+  licence: 'MIT (code); CC BY-NC-SA 4.0 (models and data)'
+  cost: free
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: >-
-        Overhead Wildlife Locator (OWL) / MegaDetector-Overhead: primary page
-        read
+    - title: 'GitHub - microsoft/MegaDetector-Overhead'
       url: 'https://github.com/microsoft/MegaDetector-Overhead'
-    - title: Attention Required | Cloudflare
+    - title: 'Overhead Wildlife Locator (OWL): Benchmarking Weakly Supervised Learning for Aerial Wildlife Surveys'
+      url: 'https://arxiv.org/abs/2606.13911'
+    - title: 'DroneMegaDetector, A Generalised Model For Detecting Large Mammals In Aerial Imagery'
       url: 'https://www.biorxiv.org/content/10.64898/2026.10.12.758430v2'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -41,10 +43,10 @@ import:
 domains:
   - ecology
 ---
-**Caveats.** OWL and MegaDetector-Overhead are treated as aliases in this post. Reported count errors are dataset-specific and are not a universal wildlife census accuracy.
+MegaDetector-Overhead is the Microsoft AI for Good Lab's open-source model for spotting animals in overhead imagery from drones and aircraft. It extends the MegaDetector framework, which was built for camera-trap photos, to the small targets, varying altitude and straight-down views of aerial surveys, and it is part of the PyTorch-Wildlife ecosystem. The repository ships training, evaluation and inference code for the OWL (Overhead Wildlife Locator) family: OWL-C, a fast convolutional baseline; OWL-T, which adds a Swin transformer branch for cluttered backgrounds; and OWL-D, built on a DINOv3 vision transformer.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+The OWL paper (Chacón and others, June 2026) describes it as weakly supervised density estimation, trained from point labels rather than bounding boxes, and benchmarks it on five public aerial datasets plus a caribou census transfer test. A separate preprint by Elchik and others compares a general-purpose box detector, DroneMegaDetector, against OWL and finds performance varies by dataset and altitude.
 
-**Twin status.** adjacent; no functional twin inferred
+Code is MIT-licensed and runs locally in Python; the OWL-D checkpoint is about 3.5 GB and needs a CUDA GPU, while OWL-C runs on CPU. Model weights and the caribou datasets are on Zenodo under CC BY-NC-SA 4.0.
 
-Seen on LinkedIn in a post by Juan M. Lavista Ferres.
+Status: released; the README records a full local run on 8 September 2026.

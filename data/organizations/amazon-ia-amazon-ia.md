@@ -1,33 +1,34 @@
 ---
 about:
-  label: Amazon.ia / Amazon.IA
+  label: Amazon.ia
   description: >-
-    Planet and many scientific and local partners combine field sensing and AI
-    for Amazon biodiversity intelligence.
+    Multi-partner initiative, launching in 2026 with founding support from the
+    Bezos Earth Fund, that combines field sensors, environmental DNA and
+    satellite data with AI to report on biodiversity and ecosystem condition
+    across the Amazon.
   tags:
-    - biodiversity
-    - forest
     - amazon
-    - field site
-    - biome
-organization: {}
+    - biodiversity
+    - camera traps
+    - bioacoustics
+    - edna
+    - satellite
+organization:
+  form: consortium
+  homepage: 'https://www.amazoniainteligenciaambiental.org/en-us/'
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'Amazon.ia / Amazon.IA: primary search result'
+    - title: Amazon.ia | Actionable Biodiversity Intelligence for the Amazon
       url: 'https://www.amazoniainteligenciaambiental.org/en-us/'
-    - title: Just a moment...
+    - title: >-
+        Planet Announces Amazon.ia – A New Tool That Combines Satellite Data,
+        Science and AI to Protect the Amazon
       url: >-
         https://investors.planet.com/news/news-details/2026/Planet-Announces-Amazon-ia--A-New-Tool-That-Combines-Satellite-Data-Science-and-AI-to-Protect-the-Amazon/default.aspx
-    - title: youtube.com
-      url: 'https://www.youtube.com/watch?v=Q728aj_EWeg'
-    - title: Just a moment...
-      url: >-
-        https://www.science.org/content/article/project-will-harness-technology-track-amazon-biodiversity-real-time
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -45,10 +46,10 @@ import:
 domains:
   - ecology
 ---
-**Caveats.** Near-real-time every-hectare language states an ambition; distinguish announced initiative and ongoing work from achieved comprehensive biome monitoring or prediction.
+Amazon.ia (Inteligencia Ambiental) is a biodiversity-monitoring initiative for the whole Amazon basin, about six million square kilometres, developed by a group of field stations, government institutes, companies, universities and NGOs. Its site lists 28 partners, among them the Andes Amazon Fund, Brazil's INPA, Colombia's Instituto Humboldt, the Mamirauá Institute, the Microsoft AI for Good Lab, Planet Labs, Smithsonian ForestGEO, the Tiputini Biodiversity Station, WWF and the World Resources Institute; Planet calls itself a founding partner, and the Bezos Earth Fund is the founding funder, with more than US$14 million granted through the Andes Amazon Fund and WRI.
 
-**Maturity, as the catalogue judged it.** initiative underway; full stated coverage not established
+The stated aim is to answer conservation questions with evidence: whether biodiversity in a place is getting better or worse, whether protected areas are working, whether an ecosystem is recovering, and where change is happening, delivered as change alerts and indicators for conservationists, communities, researchers and policymakers.
 
-**Twin status.** adjacent; no functional twin inferred
+It combines ground sensing with Earth observation: camera traps with on-device compute, solar-powered acoustic recorders, DNA sequencing including eDNA, and satellite imagery, with cloud computing and AI for species classification and for fusing the different data streams. Planet is training AI on its own imagery and analytics for the project. The site refers to five monitoring sites at present.
 
-Seen on LinkedIn in posts by Planet, Andrew Zolli.
+Announced on 23 September 2026 and described as launching in 2026; the partners say they are building the core data infrastructure and testing integrated models, and no results are reported yet.

@@ -2,28 +2,28 @@
 about:
   label: Odyssey-3
   description: >-
-    Sarah Rizk describes interactive video, robot policy and autonomous-driving
-    simulation uses of the model.
+    World model from Odyssey that generates an interactive 3D environment from
+    a prompt and predicts how it changes as a person or agent moves and acts
+    in it.
   tags:
-    - physical ai
+    - world model
+    - simulation
     - robotics
-    - autonomous driving
-    - scene
-    - action sequence
+    - driving
+    - video
 tool:
   homepage: 'https://odyssey.systems/meet-odyssey-3'
-  form: enabling world model
+  form: hosted world model
+  cost: unknown
+  licence: unknown
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'Odyssey-3: primary search result'
+    - title: 'Meet Odyssey-3: Our Most Powerful Foundation World Model'
       url: 'https://odyssey.systems/meet-odyssey-3'
-    - title: Odyssey
-      url: 'https://experience.odyssey.systems/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -40,10 +40,10 @@ domains:
   - sensory
   - mobility
 ---
-**Caveats.** Reported benchmark leadership is task-bound; no verified physical asset coupling, control safety or universal dynamical accuracy.
+Odyssey-3 is a world model made by Odyssey, a company whose founders came from driverless-car work. Odyssey describes it as a learned dynamical system built as an autoregressive diffusion transformer: it is trained on visual data to pick up physics, motion and cause and effect, then generates an environment from a prompt and predicts what happens as someone navigates or acts in it. The current preview supports first- and third-person navigation. A larger variant, Odyssey-3 Pro, runs at 1280 by 720; the base model runs at 832 by 480.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+Odyssey's own page gives examples of the model adapted to robot arms and humanoids (the robotics company Flexion built policies on it), to a car driving on real roads in India, and to generating multi-sensor driving data for training agents. It reports benchmark results on Physics-IQ and on Odyssey's own WorldMark evaluation.
 
-**Twin status.** adjacent; no functional twin inferred
+It is a hosted service. A research preview is open at experience.odyssey.systems; developers who want to build on it are asked to contact the company. The page does not state pricing, licensing or an API.
 
-Seen on LinkedIn in a post by Sarah Rizk.
+Status: research preview, announced October 2026.

@@ -2,22 +2,28 @@
 about:
   label: LocalScale
   description: >-
-    Describes a stack of geography, social networks, bioregional systems and
-    interoperable technology for local economies.
+    Public benefit organization, based in San Francisco, that connects the
+    communities of a bioregion with regenerative-economy actors and local
+    governments, using blockchain-based tools, a playbook, a funding hub and a
+    seed-exchange programme.
   tags:
-    - bioregional economy
-    - coordination
-    - neighborhood
     - bioregion
-    - global network
-organization: {}
+    - local economy
+    - regenerative
+    - community
+    - blockchain
+organization:
+  form: public benefit organization
+  homepage: 'https://localscale.org/'
+  country: United States
 provenance:
-  origin: import
-  sources: []
+  origin: agent
+  sources:
+    - title: LocalScale | Globalizing Local Resilience
+      url: 'https://localscale.org/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -31,10 +37,8 @@ import:
   posters:
     - LocalScale
 ---
-**Caveats.** Framework description does not demonstrate implemented coupled economic/ecological simulation or measurable outcomes.
+LocalScale describes itself as a public benefit organization working on resilient local economies through technology, science and regenerative activity, and says it will be owned collectively by its members. Its approach has three parts: connect the inhabitants of a bioregion to strengthen local communities, bring in the organizations of the regenerative economy to run measurable projects locally, and help local governments and institutions take part in regenerative projects. It cites third-generation blockchain technology as the basis for transparency in these economies.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+The site offers a playbook, a bioregion explorer, a research section, a developer API, a FundingHub introduced in March 2026, and an organic seed-exchange project. Membership is free. It lists corporate and non-profit partners and names Eduard Müller, Rieki Gordon and Kate Raworth as mentors or inspirations. There is no simulation, model or digital twin.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by LocalScale.
+Operational status beyond the website is unknown; its articles run from October 2025 to June 2026.

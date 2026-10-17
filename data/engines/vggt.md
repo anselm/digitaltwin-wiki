@@ -1,24 +1,32 @@
 ---
 about:
   label: VGGT-Ω
-  description: Named DeepReefMap reconstruction backend.
+  description: >-
+    Feed-forward 3D vision model from Meta AI and Oxford's Visual Geometry
+    Group that predicts camera poses, depth and point clouds from video; used as
+    a reconstruction backend in DeepReefMap for coral reef mapping.
   tags:
-    - computer vision
     - 3d reconstruction
-    - scene
+    - computer vision
+    - depth
+    - camera pose
+    - coral reef
+    - video
 tool:
-  form: enabling model
+  form: research model
+  homepage: 'https://github.com/facebookresearch/vggt-omega'
+  licence: noncommercial research licence
+  cost: free
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'VGGT-Ω: primary integrator documentation'
+    - title: 'GitHub - facebookresearch/vggt-omega: [CVPR 2026 Oral] VGGT Omega'
+      url: 'https://github.com/facebookresearch/vggt-omega'
+    - title: 'GitHub - eceo-epfl/deepreefmap: Tools for reconstructing and mapping coral reef scenes from underwater images'
       url: 'https://github.com/eceo-epfl/deepreefmap'
-    - title: CoralscapesV2
-      url: 'https://josauder.github.io/coralscapesv2/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -34,10 +42,10 @@ import:
 domains:
   - sensory
 ---
-**Caveats.** Repository documentation flags noncommercial licensing for the extra; inspect upstream terms before reuse.
+VGGT-Ω (VGGT-Omega) is a family of one-billion-parameter models from Meta AI and the Visual Geometry Group at the University of Oxford, presented as an oral paper at CVPR 2026 (arXiv 2605.15195). Given a set of frames it returns camera poses and intrinsics, per-pixel depth with confidence, and tokens that can be unprojected into a point cloud; variants are trained at 512, 416 and 256 pixel resolution, and one checkpoint adds a text-alignment embedding.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+Its place in this wiki is as one of four reconstruction backends in DeepReefMap, the EPFL and MIT tool that turns handheld underwater video into a semantic 3D point cloud, an ortho-mosaic and benthic cover statistics for a reef. DeepReefMap's README rates it high quality and notes that, unlike its streaming alternative, it looks at the whole clip at once, so the length of video it can handle is capped by GPU memory; the README quotes upstream figures of roughly 6 GB for the model plus about 75 MB per frame on an A100.
 
-**Twin status.** adjacent; no functional twin inferred
+The code is on GitHub and the weights are hosted at facebook/VGGT-Omega on Hugging Face behind an access request that is reviewed automatically. DeepReefMap describes the licence as the FAIR Noncommercial Research License and keeps the backend as an opt-in extra for that reason; the VGGT-Ω repository itself refers readers to its LICENSE file. It runs on NVIDIA, AMD and Apple Silicon GPUs.
 
-Seen on LinkedIn in a post by Jonathan Sauder.
+Released; the repository lists updates from September 2026.

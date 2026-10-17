@@ -1,29 +1,33 @@
 ---
 about:
-  label: FireVision / OpalAI
+  label: FireVision
   description: >-
-    Modeled fire spread incorporates environmental conditions and selected
-    suppression assumptions. A Bouquet Fire example compares modeled spread with
-    an observed perimeter.
+    Wildfire risk platform from Opal AI Inc. of Marina del Rey, California,
+    that combines imagery, lidar, GIS, weather and field data into risk
+    rankings and mitigation recommendations for utilities, fire agencies and
+    insurers.
   tags:
     - wildfire
-    - disaster
-    - landscape
-    - regional
+    - risk
+    - utilities
+    - insurance
+    - fuel
+    - mitigation
 tool:
-  homepage: 'https://www.sbir.gov/portfolio/1694937'
-  form: scenario platform
+  form: commercial platform
+  homepage: 'https://www.opal-ai.com/firevision'
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'FireVision / OpalAI: primary search result'
-      url: 'https://www.sbir.gov/portfolio/1694937'
-    - title: opal-ai.com
+    - title: >-
+        FireVision | AI Wildfire Risk Management, Intelligence & Decision
+        Support Platform
       url: 'https://www.opal-ai.com/firevision'
+    - title: Firm | SBIR
+      url: 'https://www.sbir.gov/portfolio/1694937'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -38,12 +42,11 @@ import:
     - OpalAI
 domains:
   - fire
-  - climate
 ---
-**Caveats.** One displayed scenario is not a forecast guarantee. NASA awards verify funded development, not the operational accuracy of each spread model.
+FireVision is a wildfire intelligence platform from Opal AI Inc., a small company in the Los Angeles area (the SBIR register lists eight employees and a first award in 2022). It builds one picture of communities, infrastructure, vegetation and terrain from satellite, aerial, drone and street-level imagery, lidar, GIS layers, weather and field observations, then ranks risk and recommends actions such as inspections, vegetation management and resource placement.
 
-**Maturity, as the catalogue judged it.** implemented scenario product described; use-specific validity unestablished
+The company pitches it to electric utilities (circuit-level risk ranking and public safety power shutoff planning), fire agencies (shared situational picture, time-to-impact and evacuation context) and insurers (parcel-level scoring and portfolio exposure). A 2025 NASA SBIR Phase II award of $899,845, titled "FireVision: An AI-Powered Decision-Support Platform Leveraging NASA Earth Science Data for Wildfire Risk, Mitigation, and Response", funds extending the platform's fuel maps, fire potential indices and fire spread simulations to wildland-urban interface areas, with testing in California and Texas.
 
-**Twin status.** adjacent; no functional twin inferred
+It is a commercial product offered by demo request; the pages read do not say how it is hosted or what it costs, and name no customers.
 
-Seen on LinkedIn in a post by OpalAI.
+Status: offered commercially as of 2026, with the NASA-funded extension under way.

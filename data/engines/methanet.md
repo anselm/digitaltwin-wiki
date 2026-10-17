@@ -2,30 +2,30 @@
 about:
   label: MethaNet
   description: >-
-    First EmergentBiome application concerns microbial methane evidence and a
-    proposed Colombian mangrove field study.
+    Ecosphere Blue's planned assessment service for blue-carbon projects,
+    rating project performance with methane-risk projections drawn from
+    microbial genomic evidence in mangrove sediment.
   tags:
-    - wetland
-    - methane
     - blue carbon
-    - genome
-    - sediment
+    - methane
     - mangrove
+    - microbiome
+    - carbon credits
 tool:
-  form: research application
+  form: hosted assessment service
+  homepage: 'https://www.ecosphereblue.earth/'
+  cost: unknown
+  licence: unknown
 provenance:
-  origin: import
+  origin: agent
   sources:
     - title: Ecosphere Blue
       url: 'https://www.ecosphereblue.earth/'
-    - title: youtube.com
-      url: 'https://www.youtube.com/watch?v=DOLYDpeEGvA'
     - title: EmergentBiome Molecular Atlas | Blue-carbon methane evidence
       url: 'https://emergentbiome.earth/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -49,10 +49,8 @@ relations:
       application of (source_claim; exact implementation not independently
       tested)
 ---
-**Caveats.** Holdout predictive value beyond environmental conditions and established gene markers is an explicitly open question. Not a verified carbon-credit system.
+MethaNet is the core offering of Ecosphere Blue, a company that calls itself a molecular-surveillance and intelligence platform for carbon projects. The pitch is to assess how a blue-carbon project is performing, and to project its methane risk, from genomic and geochemical data rather than from vegetation surveys alone, so that credits can be priced against that risk.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+It is built on EmergentBiome, the company's molecular evidence atlas, which it says was validated by identifying previously unaccounted-for microbial biomarkers of methane flux in mangrove sediment samples. The atlas itself links genes and genome records to sampling context and review questions, and is explicit that it is not a credit or tonnage estimate.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by Jay Gutierrez, Ph.D..
+Pricing, licence and how the service is delivered are not stated. Status: proposed. The Ecosphere Blue page carries a "coming soon" label, and the EmergentBiome page describes its current stage as molecular diligence and measurement planning, with the internal model not yet independently reviewed and a field test as the next step.

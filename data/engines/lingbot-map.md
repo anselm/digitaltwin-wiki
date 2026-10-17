@@ -1,24 +1,33 @@
 ---
 about:
   label: LingBot-Map
-  description: Named DeepReefMap reconstruction backend.
+  description: >-
+    Open-source streaming 3D reconstruction model from the Robbyant team at
+    Ant Group; turns a video or image sequence into camera poses, depth and
+    point clouds in one feed-forward pass.
   tags:
-    - computer vision
     - 3d reconstruction
-    - scene
+    - computer vision
+    - point cloud
+    - video
+    - open source
 tool:
-  form: enabling model
+  form: open-source model
+  homepage: 'https://github.com/robbyant/lingbot-map'
+  licence: Apache-2.0
+  cost: free
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'LingBot-Map: primary integrator documentation'
+    - title: 'LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction'
+      url: 'https://github.com/robbyant/lingbot-map'
+    - title: >-
+        GitHub - eceo-epfl/deepreefmap: Tools for reconstructing and mapping
+        coral reef scenes from underwater images
       url: 'https://github.com/eceo-epfl/deepreefmap'
-    - title: CoralscapesV2
-      url: 'https://josauder.github.io/coralscapesv2/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -34,10 +43,8 @@ import:
 domains:
   - sensory
 ---
-**Caveats.** Main pipeline support does not establish ecological measurement accuracy; dependency and checkpoint terms remain separate.
+LingBot-Map is a 3D foundation model for streaming reconstruction, published by the Robbyant team under the paper "Geometric Context Transformer for Streaming 3D Reconstruction" (arXiv 2604.14141). It takes a video file or a folder of images and produces camera poses, depth and a point cloud frame by frame, without the iterative optimisation of classical structure-from-motion. The repository claims about 20 frames per second at 518 by 378 pixels on sequences of more than 10,000 frames.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+One documented use is as a reconstruction backend in DeepReefMap, the EPFL toolkit for mapping coral reefs from handheld underwater video; its README recommends LingBot-Map for long videos on a modest GPU because memory use stays flat however long the dive is, and notes that the weights are public with no access request.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by Jonathan Sauder.
+Code is on GitHub under the Apache 2.0 licence and the checkpoint is on Hugging Face and ModelScope; it needs an NVIDIA or AMD GPU and runs on CPU only on Apple Silicon. A browser viewer and an offline rendering pipeline are included. Status: released, with repository updates through June 2026; a stronger model for longer sequences is announced as coming.

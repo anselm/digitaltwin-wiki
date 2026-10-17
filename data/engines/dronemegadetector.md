@@ -2,33 +2,33 @@
 about:
   label: DroneMegaDetector
   description: >-
-    Independent preprint and detector attributed to Lancaster, Liverpool John
-    Moores, Florida and Google Research in the OWL post. Author Chaim Elchik's
-    announcement supplies a repository and preprint DOI.
+    Open object detector from the ConservationDronesAI group, built on RF-DETR,
+    that finds people, mammals and vehicles in drone imagery for wildlife
+    surveys and counts.
   tags:
+    - drone
     - wildlife
+    - detection
+    - aerial
     - computer vision
-    - animal
     - survey
 tool:
-  homepage: 'https://github.com/ConservationDronesAI/DroneMegaDetector'
   form: research model
+  homepage: 'https://github.com/ConservationDronesAI/DroneMegaDetector'
+  licence: MIT
+  cost: free
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'DroneMegaDetector: primary page read'
+    - title: GitHub - ConservationDronesAI/DroneMegaDetector
       url: 'https://github.com/ConservationDronesAI/DroneMegaDetector'
-    - title: 'DroneMegaDetector: primary author announcement'
-      url: >-
-        https://wildlabs.net/en/article/introducing-dronemegadetector?language=es
-    - title: Attention Required | Cloudflare
+    - title: >-
+        DroneMegaDetector, A Generalised Model For Detecting Large Mammals In
+        Aerial Imagery
       url: 'https://www.biorxiv.org/content/10.64898/2026.10.12.758430v2'
-    - title: github.com
-      url: 'https://github.com/microsoft/MegaDetector-Overhead'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -45,10 +45,10 @@ domains:
   - ecology
   - sensory
 ---
-**Caveats.** Manuscript is described as under review. Detection and counting metrics remain dataset-specific. Keep separate from OWL and from standard camera-trap MegaDetector; do not transfer code licensing automatically to training data.
+DroneMegaDetector is a general-purpose detector for aerial wildlife monitoring. It is an RF-DETR Medium model with three classes, person, animal and vehicle, where "animal" in practice means mammal. The authors are Chaim Chai Elchik, Steven Longmore, Dan Morris, Ben Weinstein, Josh Veitch-Michaelis, Camee Knops, Freya Richards and Serge Wich; the pages read do not give their institutions.
 
-**Maturity, as the catalogue judged it.** research benchmark/prototype; deployment not established
+Because it outputs bounding boxes rather than points, it can support counting and tracking as well as detection. The training data is mostly drone flights at roughly 50 to 120 m above ground, which the authors call the principal operating range; detection falls off as animals get smaller at higher altitude. In the preprint it matched the OWL model on a cattle dataset and performed almost identically on caribou, transferred poorly to birds, and degraded along with every other method on high-altitude SAVMAP imagery.
 
-**Twin status.** adjacent; no functional twin inferred
+The code is MIT-licensed Python: scripts for single images, folders (writing MegaDetector-format JSON), sampled video frames and ByteTrack tracking, with tiled inference for large images. A hosted copy is on Hugging Face as ConservationDrones/DroneMegaDetector.
 
-Seen on LinkedIn in a post by Juan M. Lavista Ferres.
+Status: research; weights and code are released, and the paper is a bioRxiv preprint posted 14 October 2026 (version 2).

@@ -46,7 +46,8 @@ const slug = (s) => { const t = s.toLowerCase().replace(/&/g, ' and ').replace(/
 // Catalogue records that are hand-written entries already: the import component and any new
 // sources are added to the existing entry, nothing else is touched. DT071 is this wiki itself.
 const merge = { DT004: 'engines/urbanly-citycompass', DT015: 'engines/alphaearth-prithvi', DT017: 'engines/weathernext-nvidia-earth-2', DT086: 'engines/world-labs-atlas' }
-const skip = new Set(['DT071'])
+// Pruned after the 2026-10-17 rewrite (off-topic or no readable source) or moved to another folder and kind; see devlog.
+const skip = new Set(['DT071', 'DT105', 'DT112', 'DT107', 'DT090', 'DT089', 'DT096', 'DT063', 'DT088', 'DT091', 'DT118', 'DT106', 'DT108', 'DT085', 'DT111', 'DT110', 'DT113', 'DT115', 'DT008', 'DT101', 'DT031', 'DT007', 'DT009', 'DT028', 'DT098', 'DT097', 'DT099', 'DT025', 'DT119', 'DT032', 'DT092', 'DT100', 'DT103', 'DT104', 'DT053', 'DT109', 'DT120', 'DT114', 'DT102', 'DT035', 'DT005', 'DT045', 'DT073', 'DT013', 'DT014', 'DT003', 'DT002', 'DT064'])
 const human = (s) => s.replace(/_/g, ' ')
 const existing = new Set()
 const walk = (d, p = '') => { for (const n of fs.readdirSync(d)) { const f = path.join(d, n); const st = fs.statSync(f); if (st.isDirectory()) walk(f, p ? `${p}/${n}` : n); else if (n.endsWith('.md')) existing.add(n === 'index.md' ? p : (p ? `${p}/` : '') + n.slice(0, -3)) } }

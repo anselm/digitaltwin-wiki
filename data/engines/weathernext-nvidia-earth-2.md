@@ -28,19 +28,6 @@ provenance:
       url: 'https://arxiv.org/abs/2609.03582'
     - title: 'NVIDIA: Earth-2 open weather models, January 2026'
       url: 'https://blogs.nvidia.com/blog/nvidia-earth-2-open-models/'
-    - title: >-
-        WeatherNext family, including WeatherNext 2 and Cyclones: primary search
-        result
-      url: >-
-        https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
-    - title: >-
-        WeatherNext family, including WeatherNext 2 and Cyclones: primary
-        repository indexed
-      url: 'https://github.com/google-deepmind/weathernext'
-    - title: 2026 Earth AI Interest Form
-      url: 'https://forms.gle/3kp1t9zq7BqvYxwNA'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://goo.gle/4s13F25'
   reviewed: 2026-09
   reviewed_by: 'survey draft, not yet rechecked'
   status: draft

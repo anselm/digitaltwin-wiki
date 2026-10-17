@@ -1,25 +1,35 @@
 ---
 about:
-  label: Open Agroecology Lab
-  description: Nano Castro presents the lab at a DWeb virtual meetup.
+  label: Open Agroecology Laboratory
+  description: >-
+    Argentine network of rural organizations, technicians and researchers,
+    grown out of Cooperativa Ayllu, CEFIC and reGOSH in Mendoza, that builds
+    open-hardware instruments and a soil-data web app so farmers can track soil
+    health through agroecological transitions.
   tags:
     - agroecology
-    - decentralized tech
-    - community
-    - farm unspecified
-organization: {}
+    - soil health
+    - open hardware
+    - farmers
+    - argentina
+organization:
+  form: network
+  homepage: 'https://regosh.libres.cc/en/projects/open-agroecology-lab/'
+  country: Argentina
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://Gather.town'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: >-
-        https://archive.org/details/dweb-virtual-meetup-sep-2026-camp-jomo-fomo/DWebMeetup-Sep2026_video.mp4
+    - title: Open Agroecology Laboratory – REGOSH
+      url: 'https://regosh.libres.cc/en/projects/open-agroecology-lab/'
+    - title: Agriculture - The OpenFlexure Project
+      url: 'https://openflexure.org/about/agriculture'
+    - title: >-
+        DWeb Virtual Meetup — DWeb Camp JOMO (or FOMO, in case you missed it)
+        PART II (September 2026) : DWeb SF : Internet Archive
+      url: 'https://archive.org/details/dweb-virtual-meetup-sep-2026-camp-jomo-fomo'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -35,10 +45,10 @@ import:
 domains:
   - food
 ---
-**Caveats.** Mention-only lead; no model, twin or implementation details in the export.
+The Open Agroecology Laboratory (Laboratorio Agroecológico Abierto) is a loose organization of rural groups, technical teams, researchers and activists in Argentina that builds open tools and participatory processes for farms moving to agroecology. Its backers and partners include CEFIC–UST Somos Tierra, Cooperativa Ayllu, the Latin American open-hardware network reGOSH, Crece desde el Pie, two faculties of the Universidad Nacional de Cuyo, INTA, and funders such as the Shuttleworth Foundation, CYTED and Code for Science and Society. Fernando "Nano" Castro of Cooperativa Ayllu teaches at the lab.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+Its main product is an Open Source Soil Health Monitoring Kit: a set of open laboratory instruments and protocols plus a companion app that walks a user through the tests, records results with standard metadata, and lets groups compare and interpret soil indicators together. Earlier work used OpenFlexure microscopes with farmers in Mendoza to look at soil organisms, and soil chromatography workshops. The lab frames this as collective learning among farmers and technicians as much as data collection.
 
-**Twin status.** adjacent; no functional twin inferred
+The tools are open hardware and open software; the kit, its protocols and its data recording were the subject of workshops with INTA Junín and the agronomy faculty in 2026.
 
-Seen on LinkedIn in a post by DWeb Community.
+Active; listed activities run from 2021 in Mendoza to DWeb Camp and the Kompost Festival in Germany in 2026, and the kit was presented at the DWeb virtual meetup of September 2026.

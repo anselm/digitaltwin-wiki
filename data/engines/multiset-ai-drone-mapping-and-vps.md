@@ -1,24 +1,30 @@
 ---
 about:
-  label: MultiSet AI drone mapping and VPS
+  label: MultiSet AI Drone to VPS
   description: >-
-    Nikhil Sawlani credits Justin Ryan's drone demo that produces visual
-    representations and a localization map for future devices.
+    Hosted mapping and visual positioning service from MultiSet AI that turns
+    one drone flight over a site into a localisation map which drones, phones,
+    headsets and robots then query for their position.
   tags:
+    - visual positioning
+    - drone mapping
+    - localization
     - robotics
-    - navigation
     - spatial computing
-    - site
-    - scene
 tool:
-  form: enabling mapping
+  form: hosted service with SDKs
+  homepage: 'https://multiset.ai/drone-to-vps'
+  cost: 'free tier; usage-based pricing for production'
 provenance:
-  origin: import
-  sources: []
+  origin: agent
+  sources:
+    - title: 'Drone to VPS: Turn One Flight into a Localization Map | MultiSet AI'
+      url: 'https://multiset.ai/drone-to-vps'
+    - title: 'Human & Machine Readable Maps For Physical AI | MultiSet AI'
+      url: 'https://multiset.ai/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -35,10 +41,8 @@ domains:
   - sensory
   - places
 ---
-**Caveats.** A localization/reconstruction stack, not a demonstrated predictive twin. No source link or accuracy evaluation provided.
+MultiSet AI, a San Francisco company, sells a visual positioning system: a map of a site against which any camera-equipped device can find its six-degree-of-freedom pose. Drone to VPS is the workflow that builds such a map from a single drone flight carrying a 360 camera; 360 video, panoramas and point clouds are uploaded through a developer portal, and the company says stitching and scale are handled without a separate photogrammetry step. The output is a queryable map rather than a model to inspect, and the map belongs to the site, so a phone or headset can later localise against a map a drone made.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+Stated uses are inspection, frontline operations and navigation where GNSS is unavailable; ArduPilot and PX4 can take the VPS pose as an external position estimate, and RTK control points tie the map to real-world coordinates. The company claims sub-5 cm median localisation accuracy, which is its own figure, not an independent one.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by Nikhil Sawlani.
+Positions come back over a REST API with a confidence value, from a managed cloud, a private cloud or on-device; SDKs cover Unity, Web, iOS, Android, Quest and ROS2. There is a free tier for prototyping and usage-based pricing after that. Status: operational.

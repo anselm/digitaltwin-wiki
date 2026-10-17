@@ -2,28 +2,32 @@
 about:
   label: iNaturalist
   description: >-
-    Community observations form an important biodiversity evidence substrate and
-    appear in the Esri integration.
+    Community platform where people photograph plants, animals and fungi and
+    others identify them; the observations are published as open biodiversity
+    data for research and conservation.
   tags:
     - biodiversity
+    - species
+    - observations
     - community science
-    - observation
-    - local
-    - global
+    - open data
 datasource:
-  coverage: 'observation, local, global'
+  coverage: global
+  resolution: individual georeferenced observations with photos or sound
+  access: open data; website, app, GBIF Darwin Core archive and an AWS S3 extract
+  homepage: 'https://www.inaturalist.org/'
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: New iNaturalist Service Now Available in ArcGIS Living Atlas
-      url: >-
-        https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/announcements/new-inaturalist-service-now-available-in-arcgis-living-atlas?adumkts=social&utm_source=social&aduc=social&adum=external&adusf=linkedin&sf_id=7015x000000aYlKAAU&aduca=mi_employee_advocacy_hootsuite_amplify_soc_ex&adut=c14679d6-42ba-4fec-8b6b-74a4ed5acdcd
-    - title: Peering Into The Invisible Present — LONG NOW IDEAS
-      url: 'https://na2.hubs.ly/H07hyln0'
+    - title: A Community for Naturalists · iNaturalist
+      url: 'https://www.inaturalist.org/'
+    - title: iNaturalist Species Observations
+      url: 'https://www.arcgis.com/home/item.html?id=996576ae63d4499c924aabea1c3d3768'
+    - title: Peering Into The Invisible Present
+      url: 'https://longnow.org/ideas/peering-into-the-invisible-present/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -42,10 +46,10 @@ domains:
   - ecology
   - people
 ---
-**Caveats.** Sampling bias, observation effort, location obscuration and record-level licenses affect reuse; sightings are not exhaustive species occupancy.
+iNaturalist is a nonprofit, community-run platform and app. People upload photographs or recordings of organisms with a place and time, and the community identifies them. Its own site reports more than 300 million observations, more than 550,000 species documented and more than 7,000 papers citing its data. An observation becomes "research grade" once more than one person has agreed on the species.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+For a twin of a place the data gives a dense but uneven record of what has been seen where. A 2022 Long Now essay describes studies built on it, including a 17-year analysis of dragonfly colouration drawn from iNaturalist and GBIF records, and notes the known biases: sightings cluster near cities and roads, and growth in users can look like growth in populations.
 
-**Twin status.** adjacent; no functional twin inferred
+The observations are open data. Beyond the website and app they are distributed as a GBIF Darwin Core archive and an AWS S3 open-data extract, which is what Esri's Living Atlas layer is derived from. Research-grade records require a date, coordinates, at least one photo or sound, and a wild rather than captive organism.
 
-Seen on LinkedIn in posts by Galen Oettel, The Long Now Foundation.
+Operational; the platform has run since at least 2012 and is still growing.

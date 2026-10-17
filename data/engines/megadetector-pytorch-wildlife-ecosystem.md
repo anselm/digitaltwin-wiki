@@ -1,30 +1,35 @@
 ---
 about:
-  label: MegaDetector / PyTorch-Wildlife ecosystem
-  description: Supporting ecosystem referenced around OWL and SPARROW.
+  label: PyTorch-Wildlife and MegaDetector
+  description: >-
+    Open-source family of wildlife detection models and tools from Microsoft's
+    AI for Good Lab; MegaDetector finds animals, people and vehicles in
+    camera-trap images, and PyTorch-Wildlife is the framework that runs it and
+    its siblings for aerial and acoustic data.
   tags:
-    - biodiversity
+    - wildlife
+    - camera trap
+    - detection
+    - conservation
+    - open source
     - computer vision
-    - image
-    - sensor network
 tool:
-  form: enabling platform
+  form: open-source framework and models
+  homepage: 'https://microsoft.github.io/Biodiversity/'
+  licence: 'MIT for the code; model weights vary by variant (MIT, Apache-2.0, AGPL-3.0 or CC BY-NC-SA 4.0)'
+  cost: free
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: Attention Required | Cloudflare
-      url: 'https://www.biorxiv.org/content/10.64898/2026.10.12.758430v2'
-    - title: github.com
+    - title: 'Microsoft Biodiversity: Open-Source AI for Conservation | AI for Good Lab'
+      url: 'https://microsoft.github.io/Biodiversity/'
+    - title: microsoft/MegaDetector
+      url: 'https://github.com/microsoft/MegaDetector'
+    - title: microsoft/MegaDetector-Overhead
       url: 'https://github.com/microsoft/MegaDetector-Overhead'
-    - title: >-
-        How AI helps gather remote biodiversity data: Interview with Microsoft’s
-        Juan Lavista Ferres
-      url: >-
-        https://news.mongabay.com/2026/08/how-ai-helps-gather-remote-biodiversity-data-interview-with-microsofts-juan-lavista-ferres/
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -44,10 +49,8 @@ domains:
   - ecology
   - sensory
 ---
-**Caveats.** Keep camera-trap models distinct from overhead detection and from SPARROW hardware.
+PyTorch-Wildlife is the Microsoft AI for Good Lab's framework for building, sharing and running conservation models; the lab's Biodiversity hub gathers it with MegaDetector, the detector most people know it for, plus MegaDetector-Acoustic for sound and MegaDetector-Overhead for drone and aerial imagery, and a model zoo of species classifiers. MegaDetector is an animal detector, not a species classifier: it draws boxes around animals, people and vehicles with a confidence score, and researchers use it mainly to discard empty camera-trap frames before review. Versions 1 to 5 were developed by Dan Morris at Microsoft; version 6 uses YOLOv9, YOLOv10 and RT-DETR architectures.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+MegaDetector-Overhead extends the same approach to survey imagery from drones, where targets are small and altitude and perspective vary; it ships the OWL model family (formerly Overhead Wildlife Locator), including a caribou-specific checkpoint. The models can also be loaded through no-code front ends such as AddaxAI, SPARROW Studio and a Hugging Face demo.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in posts by Juan M. Lavista Ferres, Amy Rosenthal, Rhett Ayers Butler.
+Everything is installed locally: `pip install PytorchWildlife` gives a Python API and a command line that write JSON detections per image. Code is MIT-licensed; weights carry their own licences per variant, and the overhead model and data release is CC BY-NC-SA 4.0. Status: operational and maintained.

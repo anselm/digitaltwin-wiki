@@ -21,10 +21,6 @@ provenance:
         https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/
     - title: 'NASA: expanded Prithvi geospatial foundation model'
       url: 'https://science.nasa.gov/science-research/ai-geospatial-model-earth/'
-    - title: 2026 Earth AI Interest Form
-      url: 'https://forms.gle/3kp1t9zq7BqvYxwNA'
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://goo.gle/4s13F25'
   reviewed: 2026-09
   reviewed_by: 'survey draft, not yet rechecked'
   status: draft

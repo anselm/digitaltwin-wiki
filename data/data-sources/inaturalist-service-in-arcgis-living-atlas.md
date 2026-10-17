@@ -1,26 +1,31 @@
 ---
 about:
-  label: iNaturalist service in ArcGIS Living Atlas
+  label: iNaturalist Species Observations
   description: >-
-    Galen Oettel points to an Esri service that exposes observations for GIS
-    analysis without manual download/conversion.
+    Esri feature service in ArcGIS Living Atlas that serves iNaturalist's
+    research-grade observations worldwide, refreshed monthly, with hexagon
+    summaries at small scales.
   tags:
     - biodiversity
     - gis
-    - observation
-    - global
+    - observations
+    - living atlas
+    - feature service
 datasource:
-  coverage: 'observation, global'
+  coverage: global
+  resolution: individual observation points above 1:144k, H3 hexagon summaries below
+  cadence: monthly
+  access: ArcGIS Living Atlas feature service under the Esri Master License Agreement
+  format: ArcGIS feature service
+  homepage: 'https://www.arcgis.com/home/item.html?id=996576ae63d4499c924aabea1c3d3768'
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: New iNaturalist Service Now Available in ArcGIS Living Atlas
-      url: >-
-        https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/announcements/new-inaturalist-service-now-available-in-arcgis-living-atlas?adumkts=social&utm_source=social&aduc=social&adum=external&adusf=linkedin&sf_id=7015x000000aYlKAAU&aduca=mi_employee_advocacy_hootsuite_amplify_soc_ex&adut=c14679d6-42ba-4fec-8b6b-74a4ed5acdcd
+    - title: iNaturalist Species Observations
+      url: 'https://www.arcgis.com/home/item.html?id=996576ae63d4499c924aabea1c3d3768'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -43,10 +48,8 @@ relations:
       integrates data from (source_claim; exact implementation not independently
       tested)
 ---
-**Caveats.** Service access and underlying record rights are separate; an integration is not a new ecological model.
+A hosted feature layer published by Esri in ArcGIS Living Atlas. It carries the verifiable and research-grade observations contributed through iNaturalist, each with its photos or audio, the observer's name and the local date and time, so that GIS users can map species records without downloading and converting the archive themselves. Esri credits iNaturalist as the data source.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+The layer is built for fast visualisation rather than bulk analysis. Points are only drawn at scales larger than 1:144k; at smaller scales H3 hexagons summarise the twelve predominant taxon groups. Small subsets of around 100,000 observations can be copied out of the service; larger extracts are meant to come from iNaturalist's own site, its AWS S3 open-data extract or the GBIF archive, which is what the service is derived from.
 
-**Twin status.** adjacent; no functional twin inferred
-
-Seen on LinkedIn in a post by Galen Oettel.
+Coverage is worldwide in WGS84, with a time extent from 1768 to the present and a monthly refresh. Use is under the Esri Master License Agreement. Esri's item record gives a publication date of 7 July 2026; an earlier beta layer, "iNaturalist Observations", is marked as retiring.

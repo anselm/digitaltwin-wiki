@@ -1,35 +1,37 @@
 ---
 about:
-  label: OpenStreetMap (OSM)
+  label: OpenStreetMap
   description: >-
-    Common spatial substrate for city tooling, semantic joins and
-    reconstruction.
+    Volunteer-built open map database of the world, covering roads, buildings,
+    land use and places; the base layer most digital twins of places start
+    from.
   tags:
+    - map
+    - open data
+    - roads
+    - buildings
     - geospatial
-    - urban
-    - transport
-    - feature
-    - local
-    - global
+  aliases:
+    - OSM
 datasource:
-  coverage: 'feature, local, global'
+  coverage: global
+  resolution: individual map features with geometry and tags
+  access: 'open data under the ODbL, with attribution and share-alike'
+  homepage: 'https://www.openstreetmap.org/'
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: New dataset connects OpenStreetMap to Wikimedia data
+    - title: OpenStreetMap
+      url: 'https://www.openstreetmap.org/about'
+    - title: Copyright and License
+      url: 'https://www.openstreetmap.org/copyright'
+    - title: Geospatial Wikidata Dataset Connects OpenStreetMap and Wikimedia for Reuse
       url: 'https://enterprise.wikimedia.com/blog/geospatial-wikidata-dataset/'
-    - title: Moved - a Hugging Face Space by mehmetkeremturkcan
-      url: 'https://huggingface.co/spaces/mehmetkeremturkcan/boundless-nyc'
-    - title: >-
-        GitHub - mkturkcan/valdrada: Valdrada is a real-time digital twin of New
-        York City built from public data. · GitHub
-      url: 'https://github.com/mkturkcan/boundless-nyc'
-    - title: mehmetkeremturkcan/valdrada · Datasets at Hugging Face
-      url: 'https://huggingface.co/datasets/mehmetkeremturkcan/boundless-nyc'
+    - title: valdrada
+      url: 'https://github.com/mkturkcan/valdrada'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -52,10 +54,10 @@ domains:
   - places
   - mobility
 ---
-**Caveats.** Coverage, height fields and update quality vary. OSM data alone are neither zoning law nor live traffic.
+OpenStreetMap is a map of the world built and maintained by volunteer mappers, who add roads, trails, railway stations, cafés and much else. The OpenStreetMap Foundation operates the site on the community's behalf; hosting is supported by Fastly and the foundation's corporate members.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+City and regional twins use it as a geometric and semantic substrate. Valdrada, an open real-time model of New York City, fills gaps in the city's own building-footprint records from OpenStreetMap and licenses its compiled city under the ODbL for that reason. Wikimedia Enterprise's 2026 dataset joins about 17 million OpenStreetMap elements to Wikidata, Wikipedia and Wikivoyage so that geometry and encyclopaedic facts can be queried together.
 
-**Twin status.** adjacent; no functional twin inferred
+The data is open under the Open Data Commons Open Database License (ODbL): it may be used for any purpose with credit to OpenStreetMap and its contributors, and derived databases must be shared under the same licence. The site offers in-browser and desktop editors, an export page and GPS traces.
 
-Seen on LinkedIn in posts by Said Turksever, Michal Migurski, B Venkateswara Raja (BVR), Mehmet Kerem Turkcan.
+Operational and continuously edited.

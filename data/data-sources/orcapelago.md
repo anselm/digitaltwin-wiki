@@ -2,25 +2,33 @@
 about:
   label: Orcapelago
   description: >-
-    David Puckett maps Orca Network narrative sightings using Claude and
-    landmark anchors.
+    Web map of orca and other whale sightings in the Salish Sea, placed on the
+    map from the narrative reports in Orca Network newsletters.
   tags:
+    - orca
     - whales
-    - marine
-    - biodiversity
-    - sighting
+    - sightings
     - salish sea
+    - map
 datasource:
-  coverage: 'sighting, salish sea'
+  coverage: Salish Sea
+  resolution: one point per reported sighting, with the original location text
+  cadence: follows Orca Network newsletters
+  access: public web map; GeoJSON from the site's own API
+  format: GeoJSON
+  homepage: 'https://orcapelago.brightrain.com/'
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'Orcapelago: lead seen in the post, not yet opened'
-      url: 'https://orcapelago.brightrain.com'
+    - title: 'Orcapelago: Salish Sea Whale Sightings'
+      url: 'https://orcapelago.brightrain.com/'
+    - title: Orcapelago sightings API (GeoJSON, untitled)
+      url: 'https://orcapelago.brightrain.com/api/sightings'
+    - title: 'Bright Rain Solutions | Custom GIS and Web Mapping Development, Fort Collins CO'
+      url: 'https://brightrain.com/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -36,10 +44,10 @@ import:
 domains:
   - ecology
 ---
-**Caveats.** Inferred positions need error estimates and human review; convincing explanations do not establish geocoding accuracy. Sensitive wildlife locations merit access design.
+Orcapelago is a map of whale sightings in the Salish Sea as reported by the Orca Network. It runs on the domain of Bright Rain Solutions, a GIS and web-mapping firm in Fort Collins, Colorado, founded by David Puckett; the site itself does not name its author. The map shows the sightings from the latest Orca Network newsletter by default and can be filtered by date range and species.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+Each sighting record keeps the newsletter it came from, the date and time, species, group or pod, individual identifiers, count, direction, behaviours and how it was detected. Acoustic detections are drawn at the hydrophone rather than at the whales. The original location text is stored alongside the derived coordinates, with a field recording the geocoding method and a flag marking records that still need review.
 
-**Twin status.** adjacent; no functional twin inferred
+The site is public and needs no account. Its sightings endpoint returns GeoJSON. No licence or terms are stated.
 
-Seen on LinkedIn in a post by David Puckett.
+Live; records in the feed are dated October 2026.

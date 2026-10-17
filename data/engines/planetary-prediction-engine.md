@@ -2,27 +2,27 @@
 about:
   label: Planetary Prediction Engine
   description: >-
-    Described as combining satellite and population representations to train
-    task-specific prediction models.
+    Part of Google Earth AI; given a user's local outcome data such as disease
+    rates or crop yields, it picks relevant population and satellite signals
+    and trains models for spatial prediction, downscaling and forecasting.
   tags:
-    - environment
+    - geospatial
+    - prediction
     - public health
-    - agriculture
-    - regional
-    - planetary
+    - satellite
+    - population
 tool:
-  form: research model
+  form: hosted service
+  homepage: 'https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/'
+  cost: unknown
 provenance:
-  origin: import
+  origin: agent
   sources:
-    - title: 'Link in the LinkedIn post (short link, unresolved)'
-      url: 'https://goo.gle/4s13F25'
-    - title: 2026 Earth AI Interest Form
-      url: 'https://forms.gle/3kp1t9zq7BqvYxwNA'
+    - title: "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges"
+      url: 'https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -43,10 +43,10 @@ relations:
     target: engines/google-earth-ai
     note: component of (source_claim; exact implementation not independently tested)
 ---
-**Caveats.** A component/workflow within Earth AI, not a separately established general Earth simulator; disease and crop performance is task-specific.
+The Planetary Prediction Engine is a capability within Google Earth AI, Google Research's suite of geospatial foundation models and agents. A user brings local outcome data, for example regional disease rates, crop yields or grid outages, and the engine selects relevant population and environmental signals from Earth AI's models and trains task-specific models for spatial prediction, super-resolution downscaling and forecasting.
 
-**Maturity, as the catalogue judged it.** research benchmark/prototype; deployment not established
+Google's announcement names one deployed use: the World Health Organization's Africa office and the DRC's National Institute for Biomedical Research used it during the 2026 Ebola outbreak to estimate the risk of spread into uninfected zones. It also reports that in public-health research, combining population and satellite signals improved health-outcome predictions by 12 percent over demographic baselines and allowed mapping at eight times finer resolution.
 
-**Twin status.** adjacent; no functional twin inferred
+It is a hosted Google service, reached through an interactive interface and through the Geospatial Reasoning Agent API. Pricing is not stated.
 
-Seen on LinkedIn in a post by Yossi Matias.
+Status: early preview for selected partners, announced 14 October 2026.

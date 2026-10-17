@@ -1,19 +1,31 @@
 ---
 about:
   label: ParaView
-  description: Named visualization tool for the WANSEC simulations.
+  description: >-
+    Open-source data analysis and visualization application from Kitware,
+    used to look at the output of simulations from laptop to supercomputer
+    scale.
   tags:
-    - scientific visualization
-    - multiscale
+    - visualization
+    - scientific
+    - post-processing
+    - open source
+    - cfd
 tool:
-  form: enabling tool
+  form: open-source visualization application
+  homepage: 'https://www.paraview.org/'
+  licence: BSD 3-Clause
+  cost: free
 provenance:
-  origin: import
-  sources: []
+  origin: agent
+  sources:
+    - title: 'ParaView - Open-source, multi-platform data analysis and visualization application'
+      url: 'https://www.paraview.org/'
+    - title: ParaView License
+      url: 'https://www.paraview.org/license/'
   created: '2026-10-17'
-  reviewed_by: >-
-    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
-    by a person
+  reviewed: '2026-10-17'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
   source: openai-linkedin-scrape 2026-10-17
@@ -27,10 +39,10 @@ import:
   posters:
     - Michael Beck
 ---
-**Caveats.** Rendering is separate from simulation accuracy.
+ParaView is a post-processing visualization application developed by Kitware with contributions from the Lawrence Livermore, Sandia and Los Alamos national laboratories, the Army Research Laboratory and the DOD HPC Modernization Program. It loads the results of simulations and other large datasets and lets the user slice, filter and render them.
 
-**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+Kitware's page lists computational fluid dynamics, engineering, materials science, medical science and sensor data as its main uses. It scales from a laptop to supercomputer-sized datasets, can run in a browser through trame, and can process data in situ while a simulation runs through ParaView Catalyst.
 
-**Twin status.** adjacent; no functional twin inferred
+It is free software under a permissive BSD 3-Clause licence, installed locally; Kitware sells customization and support.
 
-Seen on LinkedIn in a post by Michael Beck.
+Status: operational, long established.
