@@ -261,3 +261,20 @@ LinkedIn". So:
 Counts after this pass: 176 entities. Engines 78, Data 15, Terminology 9,
 Organizations 7, Articles 7, Digital twins 4, Events 3. All imports still
 draft; promotion is Anselm's.
+
+## 2026-10-17, later still: Books
+
+Anselm: "can you find some books and fill out the books area". One agent,
+briefed never to invent a title, author, publisher, year, ISBN or cover,
+wrote twenty entries under `data/books/`, each verified on Google Books,
+Open Library, Crossref or the publisher's page (MIT Press, OUP, Springer,
+SAGE and others block fetching, so most rest on Google Books plus Open
+Library). Threads: the origin (Mirror Worlds, 1991); city modelling
+(Batty ×3, Forrester's Urban Dynamics); agent-based and geographical
+simulation; system dynamics (World Dynamics, Limits to Growth, Thinking
+in Systems); planetary modelling (Manual of Digital Earth, A Vast
+Machine, The Weather Machine); recent edited volumes on urban digital
+twins (2019, 2021, 2024, 2025); critical perspectives (Seeing Like a
+State, The Smart Enough City). Thirteen have jackets from Open Library's
+cover service; where Open Library only had a title-page scan the cover
+was left out rather than faked. All draft.
