@@ -9,6 +9,7 @@
     "domains":    { "list": true },
     "redirect":   { "fields": ["to"] },
     "backdrop":   { "fields": ["src", "entry", "credit"] },
+    "import":     { "fields": ["source", "id", "kind", "family", "priority", "verified", "posts", "posters"] },
     "relation":   { "fields": ["subject", "predicate", "object", "begins", "ends"] }
   },
   "statuses": ["draft", "proposed", "public"],

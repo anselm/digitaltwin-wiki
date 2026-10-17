@@ -21,9 +21,24 @@ provenance:
         https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/
     - title: 'NASA: expanded Prithvi geospatial foundation model'
       url: 'https://science.nasa.gov/science-research/ai-geospatial-model-earth/'
+    - title: 'Link in the LinkedIn post (short link, unresolved)'
+      url: 'https://lnkd.in/gxt9EfqB'
+    - title: 'Link in the LinkedIn post (short link, unresolved)'
+      url: 'https://goo.gle/4s13F25'
   reviewed: 2026-09
   reviewed_by: 'survey draft, not yet rechecked'
   status: draft
+import:
+  source: openai-linkedin-scrape 2026-10-17
+  id: DT015
+  kind: enabling_model
+  family: enabling_technology_and_adjacent_work
+  priority: supporting
+  verified: false
+  posts:
+    - P003
+  posters:
+    - Yossi Matias
 ---
 Building blocks used within more specialized applications.
 

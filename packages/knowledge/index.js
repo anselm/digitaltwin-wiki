@@ -126,6 +126,7 @@ export class Store {
       const st = e.provenance?.status
       if (st && !base.statuses.includes(st)) p(e.id, 'error', `provenance.status "${st}" is not one of ${base.statuses.join(', ')}`)
       if (st === 'public' && !(e.provenance?.sources || []).length && !e.section && !e.about?.view) p(e.id, 'warn', 'public entity has no sources')
+      for (const s of e.provenance?.sources || []) if (s.url && !/^https?:\/\//.test(s.url)) p(e.id, 'error', `source url "${s.url}" has no scheme; it would render as a page of this site`)
       if (e.about?.depiction && !/^https?:/.test(e.about.depiction) && e.dir !== null && !fs.existsSync(path.join(this.root, e.dir || '', e.about.depiction))) p(e.id, 'warn', `depiction "${e.about.depiction}" not found beside the entity`)
       for (const r of e.relations || []) {
         if (!predicates[r.predicate]) p(e.id, 'error', `undeclared predicate "${r.predicate}"`)

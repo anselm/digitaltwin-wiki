@@ -26,9 +26,26 @@ provenance:
       url: 'https://urbanly.org/ai/'
     - title: 'Urbanly: CityCompass platform'
       url: 'https://urbanly.org/platform/'
+    - title: 'CityCompass / URBANLY: primary page read'
+      url: 'https://urbanly.org/'
+    - title: 'Link in the LinkedIn post (short link, unresolved)'
+      url: 'https://lnkd.in/gk3ztimy'
   reviewed: 2026-09
   reviewed_by: 'survey draft, not yet rechecked'
   status: draft
+import:
+  source: openai-linkedin-scrape 2026-10-17
+  id: DT004
+  kind: scenario_platform
+  family: models_simulations_and_forecasts
+  priority: high
+  verified: true
+  posts:
+    - P098
+    - P101
+  posters:
+    - Anselm Hook
+    - URBANLY
 ---
 Published housing backcasts and an assistant for setting up experiments.
 

@@ -191,3 +191,28 @@ should move to `twins/` when they are rechecked.
   `~/openai-linkedin-scrape.tar.gz` on canada1: 120 catalogue records from
   150 feed blocks, 44 with primary-source verification, with posts,
   relationships and a source audit. Next: import it as drafts.
+
+## 2026-10-17, night: digitaltwins.wiki live on staging; LinkedIn catalogue imported
+
+- https://digitaltwins.wiki and www now serve the staging VM (twinguide):
+  Cloudflare CNAMEs plus `exe.dev domain add`, done with the harness
+  `exe-domain` tool once the registrar's nameservers propagated. Still
+  noindex, still `SHOW=draft,proposed,public`.
+- `tools/import-linkedin.js <outputs-dir>` turns the OpenAI catalogue into
+  entities: 115 new drafts and 4 merges into hand-written entries
+  (CityCompass, AlphaEarth, WeatherNext, World Labs Atlas), the catalogue's
+  own record about this wiki skipped. Mapping: catalogue kind → our kind
+  (twin, tool, datasource, term, organization, article, story); its
+  application domains → our ten domains; its relationships → declared
+  predicates where one fits; its evidence links, unopened leads and
+  LinkedIn short links → sources, titled by how they were found. Every
+  import carries an `import` component (catalogue id, family, priority,
+  verified flag, post ids, visible posters) so a rerun overwrites only
+  what it wrote. The catalogue itself and the LinkedIn export stay out of
+  the repo: they quote other people's posts verbatim. The tarball is
+  `~/openai-linkedin-scrape.tar.gz` on canada1.
+- Status is draft throughout. Production (`SHOW=public,proposed`) shows
+  none of it until a person promotes an entry; that is the review step.
+  The 28 the catalogue marked high priority are the place to start.
+- The checker now fails on a source url without a scheme, after a bare
+  `goo.gle/...` token rendered as a page of this site and broke prerender.

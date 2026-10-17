@@ -1,0 +1,45 @@
+---
+about:
+  label: VGGT-Ω
+  description: Named DeepReefMap reconstruction backend.
+  tags:
+    - computer vision
+    - 3d reconstruction
+    - scene
+tool:
+  form: enabling model
+provenance:
+  origin: import
+  sources:
+    - title: 'VGGT-Ω: primary integrator documentation'
+      url: 'https://github.com/eceo-epfl/deepreefmap'
+    - title: 'Link in the LinkedIn post (short link, unresolved)'
+      url: 'https://lnkd.in/e5R5-hsn)'
+    - title: 'Link in the LinkedIn post (short link, unresolved)'
+      url: 'https://lnkd.in/eb9JHRwA)!'
+  created: '2026-10-17'
+  reviewed_by: >-
+    OpenAI catalogue of Anselm's LinkedIn posts, 2026-10-17; not yet rechecked
+    by a person
+  status: draft
+import:
+  source: openai-linkedin-scrape 2026-10-17
+  id: DT042
+  kind: enabling_model
+  family: enabling_technology_and_adjacent_work
+  priority: supporting
+  verified: true
+  posts:
+    - P107
+  posters:
+    - Jonathan Sauder
+domains:
+  - sensory
+---
+**Caveats.** Repository documentation flags noncommercial licensing for the extra; inspect upstream terms before reuse.
+
+**Maturity, as the catalogue judged it.** adjacent component/workflow/method; assess its own implementation and terms
+
+**Twin status.** adjacent; no functional twin inferred
+
+Seen on LinkedIn in a post by Jonathan Sauder.

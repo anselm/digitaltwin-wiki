@@ -28,9 +28,39 @@ provenance:
       url: 'https://arxiv.org/abs/2609.03582'
     - title: 'NVIDIA: Earth-2 open weather models, January 2026'
       url: 'https://blogs.nvidia.com/blog/nvidia-earth-2-open-models/'
+    - title: >-
+        WeatherNext family, including WeatherNext 2 and Cyclones: primary search
+        result
+      url: >-
+        https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
+    - title: >-
+        WeatherNext family, including WeatherNext 2 and Cyclones: primary
+        repository indexed
+      url: 'https://github.com/google-deepmind/weathernext'
+    - title: 'Link in the LinkedIn post (short link, unresolved)'
+      url: 'https://lnkd.in/gxt9EfqB'
+    - title: 'Link in the LinkedIn post (short link, unresolved)'
+      url: 'https://lnkd.in/e4amukZW'
+    - title: 'Link in the LinkedIn post (short link, unresolved)'
+      url: 'https://goo.gle/4s13F25'
   reviewed: 2026-09
   reviewed_by: 'survey draft, not yet rechecked'
   status: draft
+import:
+  source: openai-linkedin-scrape 2026-10-17
+  id: DT017
+  kind: forecast_model
+  family: models_simulations_and_forecasts
+  priority: high
+  verified: true
+  posts:
+    - P003
+    - P131
+    - P146
+  posters:
+    - Yossi Matias
+    - Emma Scharfmann
+    - David Carlin
 ---
 Inputs to weather-sensitive operations, risk and planning.
 

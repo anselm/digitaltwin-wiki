@@ -20,9 +20,22 @@ provenance:
       url: 'https://www.worldlabs.ai/blog/atlas'
     - title: 'World Labs: World Labs is joining AMD, September 28, 2026'
       url: 'https://www.worldlabs.ai/blog/amd-announcement'
+    - title: 'Link in the LinkedIn post (short link, unresolved)'
+      url: 'https://lnkd.in/gpY_gNUF'
   reviewed: 2026-09
   reviewed_by: 'survey draft, not yet rechecked'
   status: draft
+import:
+  source: openai-linkedin-scrape 2026-10-17
+  id: DT086
+  kind: enabling_world_model
+  family: enabling_technology_and_adjacent_work
+  priority: supporting
+  verified: true
+  posts:
+    - P086
+  posters:
+    - Andreessen Horowitz
 ---
 Adjacent foundation-model work; ecological forecasting remains a separate research challenge.
 
