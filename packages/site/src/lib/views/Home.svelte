@@ -2,10 +2,16 @@
   import Line from '$lib/Line.svelte'
   import { onMount } from 'svelte'
   let { data } = $props()
-  // The live scene is a 7 MB WebGL download, so the prerendered page carries only a still;
-  // wide screens that have not asked for reduced motion swap in the live, orbitable scene after load.
-  let live = $state(false)
-  onMount(() => { live = window.innerWidth >= 768 && !matchMedia('(prefers-reduced-motion: reduce)').matches })
+  // The live scene is a 7 MB WebGL download, so the prerendered page carries only a still.
+  // After load the live, orbitable scene replaces it, drawn on the page's own colour for the
+  // current theme, unless the reader has asked for reduced motion.
+  const bg = { light: 'fafbf9', dark: '0f1b1e' }
+  let src = $state(null)
+  onMount(() => {
+    if (!data.figure || matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const dark = matchMedia('(prefers-color-scheme: dark)').matches
+    src = `${data.figure.src}&bg=${dark ? bg.dark : bg.light}`
+  })
 </script>
 
 <h1 class="text-4xl mt-6">{data.label}</h1>
@@ -15,11 +21,16 @@
 
 {#if data.figure}
   <figure class="mt-2 max-w-prose">
-    <div class="relative aspect-video overflow-hidden" style="background:#071019">
-      {#if data.figure.poster}<img src={data.figure.poster} alt="" class="absolute inset-0 w-full h-full object-cover" />{/if}
-      {#if live}<iframe src={data.figure.src} title="Bay Layers: drag to orbit, scroll to zoom, right-drag to pan" class="absolute inset-0 w-full h-full border-0"></iframe>{/if}
+    <div class="relative aspect-video overflow-hidden bg-paper">
+      {#if data.figure.posters}
+        <picture>
+          <source srcset={data.figure.posters.dark} media="(prefers-color-scheme: dark)" />
+          <img src={data.figure.posters.light} alt="" class="absolute inset-0 w-full h-full object-cover" />
+        </picture>
+      {:else if data.figure.poster}<img src={data.figure.poster} alt="" class="absolute inset-0 w-full h-full object-cover" />{/if}
+      {#if src}<iframe {src} title="Bay Layers: drag to orbit, scroll to zoom, right-drag to pan" class="absolute inset-0 w-full h-full border-0"></iframe>{/if}
     </div>
-    <figcaption class="text-xs text-muted mt-1.5"><a href={data.figure.url}>{data.figure.label}</a>, a digital twin unfolded.{#if live}{' '}Drag to orbit, scroll to zoom.{/if}{#if data.figure.full}{' '}The <a href={data.figure.full} rel="noopener">full version</a> explains each layer{#if data.figure.repo}, and the <a href={data.figure.repo} rel="noopener">source is on GitHub</a>{/if}.{/if}{' '}{data.figure.credit.replace(/^[^·]*·\s*/, '')}</figcaption>
+    <figcaption class="text-xs text-muted mt-1.5"><a href={data.figure.url}>{data.figure.label}</a>, a digital twin unfolded.{#if src}{' '}Drag to orbit, scroll to zoom.{/if}{#if data.figure.full}{' '}The <a href={data.figure.full} rel="noopener">full version</a> explains each layer{#if data.figure.repo}, and the <a href={data.figure.repo} rel="noopener">source is on GitHub</a>{/if}.{/if}{' '}{data.figure.credit}</figcaption>
   </figure>
 {/if}
 

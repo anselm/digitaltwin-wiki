@@ -8,7 +8,7 @@
     "relations":  { "list": true },
     "domains":    { "list": true },
     "redirect":   { "fields": ["to"] },
-    "figure":     { "fields": ["src", "entry", "credit", "full", "repo"] },
+    "figure":     { "fields": ["src", "entry", "credit", "full", "repo", "posters"] },
     "import":     { "fields": ["source", "id", "kind", "family", "priority", "verified", "posts", "posters"] },
     "relation":   { "fields": ["subject", "predicate", "object", "begins", "ends"] }
   },

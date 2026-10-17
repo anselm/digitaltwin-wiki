@@ -14,7 +14,6 @@ twin:
   homepage: 'https://anselm.github.io/bay-area-twin/'
 provenance:
   origin: human
-  author: Anselm Hook
   sources:
     - title: 'anselm/bay-area-twin on GitHub'
       url: 'https://github.com/anselm/bay-area-twin'

@@ -10,7 +10,10 @@ figure:
   entry: twins/bay-layers
   full: "https://anselm.github.io/bay-area-twin/"
   repo: "https://github.com/anselm/bay-area-twin"
-  credit: "Bay Layers by Anselm Hook · NOAA, Marin vegetation map, municipal data, © OpenStreetMap contributors"
+  credit: "NOAA, Marin vegetation map, municipal data, © OpenStreetMap contributors"
+  posters:
+    light: /twins/bay-layers/poster-light.jpg
+    dark: /twins/bay-layers/poster-dark.jpg
 provenance:
   origin: human
   author: Anselm Hook

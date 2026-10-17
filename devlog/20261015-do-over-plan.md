@@ -278,3 +278,16 @@ twins (2019, 2021, 2024, 2025); critical perspectives (Seeing Like a
 State, The Smart Enough City). Thirteen have jackets from Open Library's
 cover service; where Open Library only had a title-page scan the cover
 was left out rather than faked. All draft.
+
+## 2026-10-17, night: the figure blends in; no author on it
+
+Anselm updated Bay Layers (interaction on by default in backdrop mode,
+`bg=` page colour, `camera=` modes, a postMessage API) and asked that the
+author be left off and the scene blend into the page instead of sitting
+in a dark box. Now: the live scene mounts on every screen size (phones
+too) unless reduced motion is set, with `bg=` set to the page colour for
+the current theme (paper fafbf9, dark 0f1b1e); the prerendered still is a
+pair of renders on those two colours chosen by a `picture` element; the
+credit line names only the data sources; the Bay Layers entry has no
+author field. On paper the scene reads as a translucent model, which is
+what blending costs; dark is the scene's native look.
