@@ -4,7 +4,9 @@ about:
   description: >-
     A shared 3D city representation with associated data and simulation
     applications.
-tool:
+domains: [places]
+twin:
+  place: Singapore
   form: Platform and national project
   group: Geographic platforms
   audiences:

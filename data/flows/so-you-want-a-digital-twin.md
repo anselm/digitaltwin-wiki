@@ -11,7 +11,7 @@ flow:
       note: Each story shows what a model of a place let someone see.
     - ask: Has someone already modeled your place?
       'yes': Look at theirs
-      to: /engines/helsinki-bologna
+      to: /twins/helsinki-bologna
       note: >-
         Helsinki publishes its city model and an energy atlas that anyone can
         open in a browser.

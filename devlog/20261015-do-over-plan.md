@@ -149,3 +149,18 @@ Open: the repo is private, so the GitHub link in the sidebar 404s for
 anyone else until he makes it public or invites them. Several entries under
 Engines are twins, not engines (Virtual Singapore, Helsinki / Bologna) and
 should move to `twins/` when they are rechecked.
+
+## 2026-10-17, later: public repo, twins moved, art, welcome, recent lines
+
+- Repo anselm/twin-compendium made public on his say. That publishes the
+  devlog too, including his brief and the names in it.
+- Virtual Singapore and Helsinki / Bologna moved from `engines/` to
+  `twins/` with the `twin` component and the domains their own text names.
+- Art: where an entry has no depiction of its own, cards show its first
+  domain's symbol at 48px in the domain colour, following the survey's
+  visual grammar. Real book jackets and project images still have to be
+  found and credited one by one; nothing invented.
+- "Welcome to the Digital Twins Wiki!" opens the home body, the pattern he
+  likes from cyborganthropology.com.
+- Recent is one-line wiki links like Start here, on the home page and on
+  the Recent section; pinned entries are kept out of Recent.

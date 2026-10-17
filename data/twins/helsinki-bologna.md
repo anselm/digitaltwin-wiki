@@ -4,7 +4,9 @@ about:
   description: >-
     Helsinki publishes city-model data and an energy atlas; Bologna is
     developing civic twin infrastructure.
-tool:
+domains: [places, energy]
+twin:
+  place: Helsinki and Bologna
   form: Municipal programs
   group: National and territorial
   audiences:

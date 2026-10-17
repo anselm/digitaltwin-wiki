@@ -26,16 +26,17 @@ export function load({ params }) {
   const base = { view, id, label: e.about.label, description: e.about.description || '', content: html(e.content), status: e.provenance?.status || 'draft', tags: e.about.tags || [] }
   const domains = domainCards()
   const chips = (e) => (e.domains || []).map((d) => domains.find((x) => x.short === d)).filter(Boolean)
+  const line = (e) => ({ ...card(e), author: e.provenance?.author || '', ago: ago(e.provenance?.updated || e.provenance?.created) })
 
   if (view === 'home') {
     return { ...base, aliases: e.about.aliases || [],
-      pinned: store.entities.filter((a) => a.about?.pinned).sort((a, b) => a.about.pinned - b.about.pinned).map((a) => ({ ...card(a), author: a.provenance?.author || '', ago: ago(a.provenance?.updated || a.provenance?.created) })),
-      recent: store.recent(6).filter((r) => r.id && !r.section && !('domain' in r)).map(card),
+      pinned: store.entities.filter((a) => a.about?.pinned).sort((a, b) => a.about.pinned - b.about.pinned).map(line),
+      recent: store.recent(12).filter((r) => r.id && !r.section && !('domain' in r) && !r.about?.pinned).slice(0, 8).map(line),
       sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), count: store.descendants(s.id).length })),
       domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
   }
   if (view === 'list') return { ...base, items: store.children(id).map((c) => ({ ...card(c), chips: chips(c) })) }
-  if (view === 'recent') return { ...base, items: store.recent(50).filter((r) => r.id && !r.section && !('domain' in r)).map((c) => ({ ...card(c), chips: chips(c) })) }
+  if (view === 'recent') return { ...base, items: store.recent(50).filter((r) => r.id && !r.section && !('domain' in r)).map(line) }
   if (view === 'domains') return { ...base, domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
   if (view === 'domain') {
     const short = id.split('/').pop()

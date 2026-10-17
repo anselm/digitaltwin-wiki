@@ -1,5 +1,5 @@
 <script>
-  import Card from '$lib/Card.svelte'
+  import Line from '$lib/Line.svelte'
   let { data } = $props()
 </script>
 
@@ -11,16 +11,7 @@
 {#if data.pinned.length}
   <section class="mt-8">
     <h2 class="text-sm uppercase tracking-wide text-muted">Start here</h2>
-    <ul class="mt-1">
-      {#each data.pinned as p}
-        <li class="py-1.5 border-t border-line leading-snug">
-          <a href={p.url} class="text-ink hover:text-accent">‘{p.label}’</a>
-          <span class="text-muted">{#if p.author} by {p.author}{/if}{#if p.ago}, {p.ago}{/if}</span>
-          {#each [...p.kinds, ...p.tags] as t} <span class="text-xs text-muted border border-line px-1">{t}</span>{/each}
-          {#if p.status !== 'public'} <span class="text-xs text-muted border border-line px-1">{p.status}</span>{/if}
-        </li>
-      {/each}
-    </ul>
+    <ul class="mt-1">{#each data.pinned as p}<Line item={p} />{/each}</ul>
   </section>
 {/if}
 
@@ -47,7 +38,7 @@
 {#if data.recent.length}
   <section class="mt-8">
     <h2 class="text-sm uppercase tracking-wide text-muted">Recent</h2>
-    <ul class="mt-1">{#each data.recent as r}<Card item={r} date />{/each}</ul>
+    <ul class="mt-1">{#each data.recent as r}<Line item={r} />{/each}</ul>
     <p class="text-sm mt-2"><a href="/posts">More recent entries</a></p>
   </section>
 {/if}
