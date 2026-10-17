@@ -17,7 +17,7 @@
   <figure class="mt-2 max-w-prose">
     <div class="relative aspect-video overflow-hidden" style="background:#071019">
       {#if data.figure.poster}<img src={data.figure.poster} alt="" class="absolute inset-0 w-full h-full object-cover" />{/if}
-      {#if live}<iframe src={data.figure.src} title="Bay Layers: drag to orbit, scroll to zoom" class="absolute inset-0 w-full h-full border-0"></iframe>{/if}
+      {#if live}<iframe src={data.figure.src} title="Bay Layers: drag to orbit, scroll to zoom, right-drag to pan" class="absolute inset-0 w-full h-full border-0"></iframe>{/if}
     </div>
     <figcaption class="text-xs text-muted mt-1.5"><a href={data.figure.url}>{data.figure.label}</a>, a digital twin unfolded.{#if live}{' '}Drag to orbit, scroll to zoom.{/if}{#if data.figure.full}{' '}The <a href={data.figure.full} rel="noopener">full version</a> explains each layer{#if data.figure.repo}, and the <a href={data.figure.repo} rel="noopener">source is on GitHub</a>{/if}.{/if}{' '}{data.figure.credit.replace(/^[^·]*·\s*/, '')}</figcaption>
   </figure>

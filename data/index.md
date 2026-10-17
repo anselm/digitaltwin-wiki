@@ -6,7 +6,7 @@ about:
     - "Decision models for watersheds, cities, and bioregions"
   view: home
 figure:
-  src: "https://anselm.github.io/bay-area-twin/?backdrop=1&orbit=1"
+  src: "https://anselm.github.io/bay-area-twin/?backdrop=1"
   entry: twins/bay-layers
   full: "https://anselm.github.io/bay-area-twin/"
   repo: "https://github.com/anselm/bay-area-twin"
