@@ -29,7 +29,10 @@ export function load({ params }) {
   const line = (e) => ({ ...card(e), author: e.provenance?.author || '', ago: ago(e.provenance?.updated || e.provenance?.created) })
 
   if (view === 'home') {
-    return { ...base, aliases: e.about.aliases || [],
+    // The backdrop is an entry of its own; the home only borrows its still and links back to it.
+    const b = e.backdrop && store.get(e.backdrop.entry)
+    const backdrop = b ? { src: e.backdrop.src, credit: e.backdrop.credit || '', url: card(b).url, label: b.about.label, poster: b.about.depiction ? `/${b.dir ? b.dir + '/' : ''}${b.about.depiction}` : null } : null
+    return { ...base, aliases: e.about.aliases || [], backdrop,
       pinned: store.entities.filter((a) => a.about?.pinned).sort((a, b) => a.about.pinned - b.about.pinned).map(line),
       recent: store.recent(12).filter((r) => r.id && !r.section && !('domain' in r) && !r.about?.pinned).slice(0, 8).map(line),
       sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), count: store.descendants(s.id).length })),

@@ -164,3 +164,30 @@ should move to `twins/` when they are rechecked.
   likes from cyborganthropology.com.
 - Recent is one-line wiki links like Start here, on the home page and on
   the Recent section; pinned entries are kept out of Recent.
+
+## 2026-10-17, evening: Bay Layers backdrop, digitaltwins.wiki
+
+- Anselm built https://github.com/anselm/bay-area-twin ("Bay Layers"), a
+  Three.js portrait of San Francisco Bay as four layers on shared
+  geography, with a `?backdrop=1` mode made for this wiki. It is now the
+  home page's band: the title and subtitle sit over it in the scene's own
+  colours. The band is data, not code: the home entity carries a
+  `backdrop` component (src, entry, credit) and the scene has its own
+  entry at `twins/bay-layers` (proposed) with a poster still taken from
+  the live scene and the mapped-versus-illustrated caveat from his README.
+- Weight: backdrop mode downloads about 7.5 MB of gzipped geometry plus
+  Three.js, so the prerendered page carries only the poster; the live
+  iframe is mounted after load on screens 768px and wider that do not ask
+  for reduced motion. Phones get the still. Credit line under the band
+  carries the OpenStreetMap attribution the ODbL requires, since backdrop
+  mode hides the scene's own sources panel.
+- He bought digitaltwins.wiki. Cloudflare holds the zone; CNAMEs for the
+  apex and www now point at twinguide.exe.xyz, but the domain's
+  nameservers had not propagated at the time of writing, so
+  `exe.dev domain add` refused. Rerun
+  `~/projects/2027/harness/bin/exe-domain twinguide digitaltwins.wiki`
+  once `dig NS digitaltwins.wiki` answers.
+- He asked OpenAI to mine his recent LinkedIn posts; the result is
+  `~/openai-linkedin-scrape.tar.gz` on canada1: 120 catalogue records from
+  150 feed blocks, 44 with primary-source verification, with posts,
+  relationships and a source audit. Next: import it as drafts.

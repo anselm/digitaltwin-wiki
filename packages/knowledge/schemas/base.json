@@ -8,6 +8,7 @@
     "relations":  { "list": true },
     "domains":    { "list": true },
     "redirect":   { "fields": ["to"] },
+    "backdrop":   { "fields": ["src", "entry", "credit"] },
     "relation":   { "fields": ["subject", "predicate", "object", "begins", "ends"] }
   },
   "statuses": ["draft", "proposed", "public"],
