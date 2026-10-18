@@ -4,8 +4,8 @@ about:
   description: "Where the news comes from: papers, code, data, press, communities, video and podcasts. The ones with a feed are polled for the inbox."
   view: list
 section:
-  order: 93
-  nav: true
+  order: 230
+  nav: false
 vocabulary:
   terms:
     - digital twin

@@ -1,7 +1,8 @@
 # Writing an entry
 
 Rules for anyone, person or agent, who writes or rewrites an entry in `data/`.
-The data model is in `data-design.md`; this is about the words.
+Who the entry is for, and the bar it must clear, is in `patrons.md`; the
+data model is in `data-design.md`; this is about the words.
 
 ## What an entry is for
 

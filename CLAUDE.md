@@ -27,6 +27,8 @@ Three things Anselm said on 2026-10-18 that shape every choice here:
 ## Where things are
 
 - Code: this folder. Repo: `anselm/twin-compendium`.
+- Who the site is for and the bar an entry must clear: `meta/patrons.md`.
+  Read it before writing or promoting anything.
 - Devlog: `devlog/` (dated entries; read the tail first).
 - Deploy: see `project.toml`.
 
