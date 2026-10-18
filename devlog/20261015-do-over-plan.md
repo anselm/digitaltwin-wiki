@@ -565,29 +565,12 @@ Honest count of what a guest sees on staging today: 79 engines, of which
 guides, all draft, and they are the best thing on the site for the first
 patron. Production (`SHOW=public,proposed`) would show about thirty
 entries. So: staging is overwhelming and production is empty, and both are
-the same fact, that promotion has not happened and the bar for it was never
-written down.
+the same fact, that promotion has not happened and nobody had written down
+who the site is for.
 
-`meta/patrons.md` now holds the rule: three patrons in order (the person
-with a mandate, the builder, the practitioner keeping up), the bar an entry
-of each kind must clear before it is promoted, and what follows (fewer,
-better; plain words first; start by need, not by kind; everything cites).
-`curation.md` and `CLAUDE.md` point at it. The Sites section is out of the
-nav: it is the editors' plumbing, reachable but not a guest's business.
-
-What this implies, for Anselm to decide:
-
-- A promotion pass. I rewrite each draft that can meet its kind's bar from
-  its sources, in batches by section, and he promotes; the ones that cannot
-  stay draft or are deleted. Engines first, since that is where a builder
-  lands; then data sources; then books. The guides and questions should be
-  read by him for the first patron's ear before anything else is promoted,
-  since they are the entry point.
-- The home page's "Start here" becomes three doors by need rather than
-  pinned entries by kind.
-- The Engines list is grouped by what a guest is trying to do (model
-  water, model traffic, model a city in 3D, run agents) rather than one
-  alphabetical list of eighty. The `group` field exists for this.
-- Production stays unpublished until the first door works end to end for
-  the first patron: mandate, guide, question, a twin that did it, the
-  engine it used, the data it needed.
+The Sites section is out of the nav: it is the editors' plumbing, reachable
+but not a guest's business. The thinking about who the site is for, told
+as stories about seven people and benchmarked against the data, is its own
+entry: `20261018-patrons.md`. (A first draft sat in `meta/patrons.md` for
+a few hours with a stiff per-kind test; Anselm pulled both the location and
+the bar, and the entry says why.)
