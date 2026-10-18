@@ -172,6 +172,28 @@ export class Store {
     return { entities: this.entities.length, edges: edges.length }
   }
 
+  /**
+   * Write an entity: components as frontmatter, `content` as the body. A new id becomes `<id>.md`,
+   * or `<id>/index.md` when that folder already exists; an existing entity keeps its file. The
+   * in-memory store is updated so later reads see it. This is the one write path; tools that
+   * create entries should use it rather than writing markdown themselves.
+   */
+  put(id, { content = "", ...components }) {
+    const prior = this.byId.get(id)
+    const rel = prior?.file || (fs.existsSync(path.join(this.root, id)) ? `${id}/index.md` : `${id}.md`)
+    const file = path.join(this.root, rel)
+    fs.mkdirSync(path.dirname(file), { recursive: true })
+    fs.writeFileSync(file, matter.stringify(content.trim() + "\n", components))
+    const e = { id, file: rel, dir: rel.endsWith("index.md") ? path.dirname(rel) : null, ...components, content: content.trim() }
+    if (prior) { Object.keys(prior).forEach((k) => delete prior[k]); Object.assign(prior, e); return prior }
+    this.all.push(e); this.byId.set(id, e)
+    if (!this.statuses || this.statuses.includes(e.provenance?.status || "draft")) { this.entities.push(e); this.visible.add(id) }
+    return e
+  }
+
+  /** Change an entity in place: `fn` receives a copy to edit and the result is written. */
+  patch(id, fn) { const e = this.byId.get(id); if (!e) throw new Error(`no entity ${id}`); const { id: _, file, dir, ...rest } = structuredClone(e); const next = fn(rest) || rest; return this.put(id, next) }
+
   /** A small serialisable summary of an entity, for lists and indexes. */
   card(e) {
     return {

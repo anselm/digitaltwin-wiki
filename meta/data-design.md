@@ -92,6 +92,9 @@ Every entity may carry these; `about` is required.
 | `relations` | list of `{predicate, target, note?}` | `target` is an entity id. Predicates are declared below. Reverse links are computed, never written. |
 | `domains` | list of domain ids | The survey's ten themes. Kept as its own component because the whole visual grammar hangs off it. |
 | `redirect` | `to` | Left at an old path after a move. |
+| `figure` | `src`, `entry`, `credit`, `full`, `repo`, `posters` | A live figure the home page borrows from another entry. |
+| `vitals` | `series[]` | The order of the running series the Vitals view draws from JSON beside the entity. |
+| `feed` | `url`, `format` (rss, arxiv, openalex, hn, github, zenodo), `filter`, `match`, `terms` | Makes the entity a source `tools/scan.js` polls. `filter` applies the topic words to a general feed; `match` is the entity's own regex. |
 
 ## Kind components
 
@@ -123,6 +126,14 @@ When does something deserve a component rather than a tag? When it brings
 fields of its own that other entities do not have (the Noy and McGuinness
 test from Ontology Development 101). "pinned" is a tag; "book" is a
 component because it has an ISBN.
+
+## Writing
+
+The loader is also the writer. `store.put(id, {content, ...components})` writes
+one entity file and updates the open store; `store.patch(id, fn)` edits one in
+place. Tools that create or change entries go through these rather than
+writing markdown themselves, so the file layout stays one piece of code. The
+site never writes.
 
 ## Relations
 

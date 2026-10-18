@@ -339,3 +339,59 @@ Also asked, not yet built: a page listing topics worth modelling, legacy
 and new. The existing Questions section (`data/questions`, nav off, nine
 entries) is the nearest thing; whether to grow it or start a Topics section
 beside it is for him.
+
+## 2026-10-18, small hours: sources and the scanner
+
+Anselm, speculating: maintaining the wiki by hand (he notices a citation,
+tells the session, the session writes the entry) will not scale; his
+ontology.monster and matchmaker.monster scan media themselves. Two parts:
+a collection of sources to scan, and the fetching of fuel. A cron cannot
+spend interactive credits, so he is content to run an aggregator by hand
+and have the interactive session do the reading and the writing. He also
+asked for good sources, for a script that fetches them, whether to lean on
+ontology-scraper, and for a database-like API over the file store.
+
+Done:
+
+- **Sources are entities.** A `website` entity in `data/sites/` that
+  carries a `feed` component (`url`, `format`, `filter`, `match`, `terms`)
+  is a source. Eighteen written, all draft: arXiv, OpenAlex, Zenodo and
+  GitHub searches for "digital twin"; Hacker News and Google News searches;
+  r/digitaltwin and #digitaltwin on Mastodon; Digital Twin Consortium,
+  Digital Twin Hub, Living-in.EU, TU Delft 3D geoinformation, CityJSON,
+  NVIDIA's Omniverse tag; GOV.UK, OGC, weeklyOSM and Smart Cities Dive with
+  the topic filter. The Sites section is now in the nav (order 93) as
+  "where news about digital twins comes from". Every feed was fetched and
+  read before being written; probed and rejected: CDBB (feed ends 2022),
+  Destination Earth (ends 2023), Bluesky search (403), Cesium, Bentley,
+  Esri, Geospatial World, MDPI, Nature, Smart Cities World, GovTech, ECMWF
+  (404 or bot wall), Semantic Scholar (429), a ScienceDirect journal feed
+  that turned out not to be about twins. LinkedIn and X have no feeds;
+  Anselm stays the sensor there.
+- **`tools/scan.js`** polls every source (zero dependencies, its own
+  tolerant RSS/Atom parser plus the JSON shapes of arXiv, OpenAlex, HN,
+  GitHub, Zenodo), keeps etags and seen ids in `inbox/state.json`, and
+  writes `inbox/<date>.md`: new items grouped by source, items that mention
+  a place starred and first. `--all` ignores seen, `--only id` prints to
+  stdout. It writes nothing into `data/`; the inbox is for a person or the
+  interactive session to triage, which is the credit constraint Anselm
+  described. First run: 18 sources, about 200 items in 30 days, a third
+  starred. Noise is real: arXiv and GitHub twins of welding robots and
+  shunt trajectories; the star is the first cut.
+- **Write side of the store.** `store.put(id, {content, ...components})`
+  and `store.patch(id, fn)` in `packages/knowledge`: the one write path,
+  documented in `meta/data-design.md` under "Writing". The importer and
+  the vitals fetcher still write files directly; moving them over is a
+  chore for later.
+
+On reusing ontology-scraper: its inhale layer is small (a feed-parser
+dependency, Mongo, a worker, Readability extraction) and built for a
+service with a database and LLM tiers. The wiki wants files, no daemon,
+and a person in the loop, so the scanner was redone small here rather
+than imported. ontology.monster could become a *source* for this wiki
+later, if it exposes what it discovers as a feed; that is a cleaner
+coupling than a shared library.
+
+Not done, Anselm's call: promoting the sources; a `npm run scan` habit
+before a session ("run the scan, then triage the inbox"); a cron that only
+scans (no credits needed) so the inbox is ready when he sits down.
