@@ -19,4 +19,4 @@ A short record of how the site has changed, newest first. The full reasoning beh
 
 **15 October.** The site is rebuilt from scratch on a small, generic knowledge store: every entry a markdown file whose frontmatter keys are its components, with a validator, a query API and machine exports. The first build is archived.
 
-**2 October.** The project begins. A September survey of the digital-twins field is split into its first entries; the ten domains and their visual vocabulary are adopted from it; the audience is stated as ordinary people with a real question about a place; a first static site goes to staging.
+**2 October.** The project begins. A September survey of the field, [Digital Twins: A Survey](https://digital-twins-survey.anselm52491.chatgpt.site/), is split into its first entries; the ten domains and their visual vocabulary are adopted from it; the audience is stated as ordinary people with a real question about a place; a first static site goes to staging.
