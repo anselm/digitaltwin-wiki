@@ -40,7 +40,8 @@ const parse = {
   arxiv(body) { return parse.rss(body).map((i) => ({ ...i, url: i.url.replace(/v\d+$/, '') })) },
   openalex(body) { return (JSON.parse(body).results || []).map((w) => ({ title: w.title || w.display_name, url: w.doi || w.primary_location?.landing_page_url || w.id, date: w.publication_date, snippet: [w.primary_location?.source?.display_name, w.open_access?.is_oa ? 'open access' : ''].filter(Boolean).join(', '), by: (w.authorships || []).slice(0, 3).map((a) => a.author?.display_name).filter(Boolean).join(', ') })) },
   hn(body) { return (JSON.parse(body).hits || []).map((h) => ({ title: h.title, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, date: h.created_at, snippet: `${h.points || 0} points, ${h.num_comments || 0} comments`, by: h.author })) },
-  github(body) { return (JSON.parse(body).items || []).map((r) => ({ title: r.full_name, url: r.html_url, date: r.pushed_at || r.updated_at, snippet: `${r.description || ''} (${r.stargazers_count} stars, ${r.language || 'no language'})`, by: r.owner?.login })) },
+  // Repositories: only ones a reader could use. Forks, archived and undescribed repos are dropped; stars, licence and age go in the snippet and stars decide the order.
+  github(body) { return (JSON.parse(body).items || []).filter((r) => !r.fork && !r.archived && r.description).map((r) => ({ title: r.full_name, url: r.html_url, date: r.pushed_at || r.updated_at, rank: r.stargazers_count, snippet: `${r.description} · ${r.stargazers_count} stars, ${r.license?.spdx_id && r.license.spdx_id !== 'NOASSERTION' ? r.license.spdx_id : 'no licence'}, ${r.language || 'no language'}, since ${(r.created_at || '').slice(0, 7)}${r.topics?.length ? ', ' + r.topics.slice(0, 5).join(' ') : ''}`, by: r.owner?.login })) },
   zenodo(body) { return (JSON.parse(body).hits?.hits || []).map((r) => ({ title: r.metadata?.title, url: r.links?.self_html || r.doi_url, date: r.created, snippet: `${r.metadata?.resource_type?.title || ''}; ${text(r.metadata?.description || '').slice(0, 160)}`, by: (r.metadata?.creators || []).slice(0, 3).map((c) => c.name).join(', ') })) },
 }
 
@@ -55,9 +56,11 @@ const phrase = { arxiv: (t) => `all:"${t}"` }
 // Google News ranks a long OR query by relevance and reaches back years, so four phrases a request keeps it recent.
 const perRequest = { github: 6, hn: 1, 'news.google.com': 4 }
 function urlsOf(f) {
-  if (!f.url.includes('{query}')) return [f.url]
+  // {since:N} is the date N days ago, for queries such as GitHub's created:>.
+  const base = f.url.replace(/\{since:(\d+)\}/g, (_, d) => new Date(Date.now() - d * 864e5).toISOString().slice(0, 10))
+  if (!base.includes('{query}')) return [base]
   const n = perRequest[f.format] || perRequest[new URL(f.url).hostname] || VOCAB.length, out = []
-  for (let i = 0; i < VOCAB.length; i += n) out.push(f.url.replace('{query}', encodeURIComponent(VOCAB.slice(i, i + n).map(phrase[f.format] || ((t) => `"${t}"`)).join(' OR '))))
+  for (let i = 0; i < VOCAB.length; i += n) out.push(base.replace('{query}', encodeURIComponent(VOCAB.slice(i, i + n).map(phrase[f.format] || ((t) => `"${t}"`)).join(' OR '))))
   return out
 }
 let sources = store.all.filter((e) => e.feed?.url).sort((a, b) => a.id.localeCompare(b.id))
@@ -107,9 +110,9 @@ for (const { s, items, unchanged } of results) {
   fresh += news.length
   report.push(`\n## ${s.about.label} (${news.length} new of ${items.length})\n`)
   const place = (i) => PLACE.test(`${i.title} ${i.snippet}`) ? 1 : 0
-  for (const i of news.sort((a, b) => place(b) - place(a) || new Date(b.date || 0) - new Date(a.date || 0))) report.push(`- ${place(i) ? '★ ' : ''}[${i.title}](${i.url})${i.date ? ` · ${new Date(i.date).toLocaleDateString('sv')}` : ''}${i.by ? ` · ${i.by}` : ''}${i.snippet ? `\n  ${i.snippet}` : ''}`)
+  for (const i of news.sort((a, b) => place(b) - place(a) || (b.rank || 0) - (a.rank || 0) || new Date(b.date || 0) - new Date(a.date || 0))) report.push(`- ${place(i) ? '★ ' : ''}[${i.title}](${i.url})${i.date ? ` · ${new Date(i.date).toLocaleDateString('sv')}` : ''}${i.by ? ` · ${i.by}` : ''}${i.snippet ? `\n  ${i.snippet}` : ''}`)
 }
-const head = `# Scan ${today}\n\n${sources.length} sources, ${fresh} new items in the last ${days} days${errors.length ? `, ${errors.length} failed` : ''}.\nStarred items mention a place, this wiki's subject, and are listed first. Triage: open what looks like a tool, twin, data source, organization, event, book or paper worth an entry; write it from its own page under meta/curation.md; leave the rest.\n`
+const head = `# Scan ${today}\n\n${sources.length} sources, ${fresh} new items in the last ${days} days${errors.length ? `, ${errors.length} failed` : ''}.\nStarred items mention a place, this wiki's subject, and are listed first. Triage: the wiki showcases what a person could use to model their own issue, not everything that mentions the subject. Open what looks like a usable tool, a working twin, a data source, an organization, an event, a book or a paper that sets a practice; write it from its own page under meta/curation.md; leave the rest.\n`
 const body = [head, ...report, errors.length ? `\n## Failed\n\n${errors.map((e) => `- ${e}`).join('\n')}` : ''].join('\n') + '\n'
 if (only.length) { console.log(body); process.exit(0) }
 const outFile = `inbox/${today}.md`

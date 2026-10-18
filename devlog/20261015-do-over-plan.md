@@ -512,3 +512,40 @@ it is data.
 
 Memory: `digital-twin-is-a-synecdoche` (feedback) so no session narrows
 the wiki to the phrase again.
+
+## 2026-10-18: repos filtered for use, and the three principles
+
+Anselm: "Let's filter much better on repos. Generally: 1) this site is
+meant to be an evergreen site collecting real resources that real people
+can use to build models of their own issues. Some of those visitors may be
+technically ignorant. It's somewhat less that we want coverage of every
+single thing and more that we want to showcase best practices, illuminate
+the space. 2) because it is very hard for a human to track the space I feel
+like consuming external news is helpful, provides fuel, and can help fill
+out the wiki as a whole. 3) I happen to use the term digital twin, but we
+don't want to fixate on that term on the web copy."
+
+The three now sit in `CLAUDE.md` so every session starts from them.
+
+Repositories were the noisiest source (ninety-odd in ten days, mostly
+course work) and the one where "usable" is measurable. GitHub's search
+accepts qualifiers alongside the OR phrases, tested: `stars:>=20
+fork:false archived:false` with the six-phrase batch returns Mesa, SUMO,
+legoESM, Valdrada; `created:>date stars:>=5` sorted by stars returns
+tellux, Auto-ABM, Valdrada again. So two sources now:
+
+- **GitHub: active projects**: twenty stars or more, not forks, not
+  archived, most recently pushed first. The established tools as they move.
+- **GitHub: new projects**: created in the last 120 days (`{since:120}`,
+  a placeholder the scanner fills with the date), five stars or more,
+  ordered by stars. What is new and already being used.
+
+The scanner drops forks, archived and undescribed repositories regardless,
+puts stars, licence, language, age and topics in the snippet, and orders
+a source's items by stars when it has them. The inbox header now says what
+triage is for: what a person could use to model their own issue, not every
+mention.
+
+Papers (arXiv, OpenAlex) stay wide; a new paper has no citation count to
+filter on, and the star for place-related items is the only cut. If they
+tire, OpenAlex can be limited to open-access articles in its url.
