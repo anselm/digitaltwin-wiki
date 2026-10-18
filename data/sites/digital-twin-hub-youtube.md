@@ -1,0 +1,30 @@
+---
+about:
+  label: 'Digital Twin Hub on YouTube'
+  description: >-
+    Recordings of the Gemini Call, the Digital Twin Hub's weekly stand-up, with a guest project each week; UK infrastructure and the National Digital Twin programme.
+  tags:
+    - video
+    - uk
+    - infrastructure
+website:
+  url: 'https://www.youtube.com/channel/UCp0gxDzHxkMFMS8c_W5qk6A'
+  kind: video
+feed:
+  url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCp0gxDzHxkMFMS8c_W5qk6A'
+  format: rss
+provenance:
+  origin: agent
+  sources:
+    - title: 'Digital Twin Hub on YouTube (feed)'
+      url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCp0gxDzHxkMFMS8c_W5qk6A'
+    - title: 'Digital Twin Hub on YouTube'
+      url: 'https://www.youtube.com/channel/UCp0gxDzHxkMFMS8c_W5qk6A'
+  created: '2026-10-17'
+  reviewed: '2026-10-17'
+  reviewed_by: Claude; the feed was fetched and read on 2026-10-17
+  status: draft
+---
+The weekly Feature Focus talks are the most regular spoken record of digital twin work in the UK: in October 2026 the guests were TransiT at the University of Glasgow and the AMRC. The channel's name is Digital Twin Hub at CPC, since the hub moved to the Connected Places Catapult.
+
+Polled by `tools/scan.js`; new items land in the inbox for a person to triage.

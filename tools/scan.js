@@ -25,7 +25,7 @@ const state = fs.existsSync(stateFile) ? JSON.parse(fs.readFileSync(stateFile, '
 const today = new Date().toLocaleDateString('sv')
 const since = Date.now() - days * 864e5
 const sha = (s) => createHash('sha256').update(s).digest('hex').slice(0, 16)
-const text = (s = '') => s.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&nbsp;/g, ' ').replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(n)).replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/\s+/g, ' ').trim()
+const text = (s = '') => s.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&nbsp;/g, ' ').replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(n)).replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() // tags again: Google News escapes its HTML
 const tag = (block, name) => { const m = block.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${name}>`, 'i')); return m ? text(m[1]) : '' }
 
 // Feed formats. Each returns [{title, url, date, snippet, by}].
@@ -55,7 +55,9 @@ async function scan(s) {
   const headers = { ...UA, accept: json ? 'application/json' : 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.5' }
   if (!all && v.etag) headers['if-none-match'] = v.etag
   if (!all && v.lastModified) headers['if-modified-since'] = v.lastModified
-  const res = await fetch(f.url, { headers, redirect: 'follow', signal: AbortSignal.timeout(25000) })
+  // YouTube's feed endpoint answers 500 now and then and 200 a moment later; one retry covers it.
+  let res = await fetch(f.url, { headers, redirect: 'follow', signal: AbortSignal.timeout(25000) })
+  if (res.status >= 500 || res.status === 429) { await new Promise((r) => setTimeout(r, 4000)); res = await fetch(f.url, { headers, redirect: 'follow', signal: AbortSignal.timeout(25000) }) }
   if (res.status === 304) return { s, items: [], unchanged: true }
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
   state.validators[s.id] = { etag: res.headers.get('etag') || '', lastModified: res.headers.get('last-modified') || '' }
@@ -85,7 +87,10 @@ const head = `# Scan ${today}\n\n${sources.length} sources, ${fresh} new items i
 const body = [head, ...report, errors.length ? `\n## Failed\n\n${errors.map((e) => `- ${e}`).join('\n')}` : ''].join('\n') + '\n'
 if (only.length) { console.log(body); process.exit(0) }
 const outFile = `inbox/${today}.md`
-fs.writeFileSync(outFile, body)
+// A second run on the same day adds to the day's file rather than replacing the morning's report.
+if (fs.existsSync(outFile) && !all) {
+  if (fresh || errors.length) fs.appendFileSync(outFile, `\n---\n\n## Later the same day: ${fresh} new items${errors.length ? `, ${errors.length} failed` : ''}\n${report.filter((r) => r.startsWith('\n## ') || r.startsWith('- [') || r.startsWith('- ★')).join('\n')}${errors.length ? `\n\n### Failed\n\n${errors.map((e) => `- ${e}`).join('\n')}` : ''}\n`)
+} else fs.writeFileSync(outFile, body)
 // Forget seen ids older than a year so the state file does not grow without bound.
 const cutoff = new Date(Date.now() - 365 * 864e5).toLocaleDateString('sv')
 for (const [k, d] of Object.entries(state.seen)) if (d < cutoff) delete state.seen[k]

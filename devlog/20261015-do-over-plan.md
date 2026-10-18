@@ -395,3 +395,74 @@ coupling than a shared library.
 Not done, Anselm's call: promoting the sources; a `npm run scan` habit
 before a session ("run the scan, then triage the inbox"); a cron that only
 scans (no credits needed) so the inbox is ready when he sits down.
+
+## 2026-10-18, small hours: rich media sources, and TimeLike
+
+Anselm asked whether podcasts and video channels about digital twins and
+large-scale modelling were being ignored. They were; the first eighteen
+sources were all text. Every candidate below was fetched and its feed read;
+dates are the newest item on 2026-10-17.
+
+Added as draft sources, seven:
+
+- **Digital Twin Hub on YouTube**: the weekly Gemini Call "Feature Focus"
+  recordings (13 Oct 2026). The one steady spoken record of UK twin work.
+- **ECMWF on YouTube** (13 Oct 2026), with the topic filter; busy with
+  project deliverables, but DestinE items surface (sea-ice AI component).
+- **Santa Fe Institute on YouTube** (31 Aug 2026), topic filter; the
+  Complexity podcast itself ended December 2024.
+- **The WeatherPod** (8 Sep 2026): Global Weather Enterprise Forum; its AI
+  series has the DestinE episode with Irina Sandu.
+- **The Flux by Epistemix** (11 Mar 2026): the only podcast found that is
+  about agent-based modelling as such (Crooks, Epstein, Crabtree).
+- **MapScaping** (1 Oct 2026) and **Geomob** (12 Oct 2026): weekly geo
+  podcasts, each with its own `match` word list so only twin, 3D, city,
+  flood and climate episodes come through. Geomob's Mike Batty episode on
+  city modelling is exactly the kind of thing.
+
+Podcast feed URLs came from Apple's directory search API
+(`itunes.apple.com/search?media=podcast&term=`), which also returns the last
+release date; that beats guessing hosts. YouTube channel ids came from the
+`<link rel="canonical">` of the `@handle` page; the feed is
+`youtube.com/feeds/videos.xml?channel_id=`. YouTube's feed endpoint answers
+500 intermittently (the same URL gave 500, 200, 200, 500 within minutes), so
+the scanner now retries once after four seconds. A second scan on the same
+day now appends a "Later the same day" section instead of replacing the
+morning's inbox file.
+
+Looked at and left out, with reasons:
+
+- YouTube feeds that answered 404 or 500 on three tries from here and once
+  from another network although the channels exist and are active: Cesium,
+  OGC, Destination Earth, Climate Change AI, FOSS4G, TUM GIS, Geo Week,
+  Bentley. After about forty feed fetches in an hour YouTube began
+  answering 404 for the feeds that had worked minutes earlier (DT Hub,
+  ECMWF, SFI), so the endpoint rate-limits, and the eight above may only
+  have been caught by that. Retry them on a quiet day before concluding
+  anything. Digital Twin Consortium's and EUMETSAT's channel feeds answer
+  200 with zero entries.
+- Esri Events on YouTube: last upload November 2022.
+- Smart City Expo World Congress on YouTube: live (Sep 2026) but promotion
+  and interviews rather than talks; no.
+- Connected Places (Connected Places Catapult podcast): last episode July
+  2025. IOTICS Podcast: November 2024. Digital Twin Fan Club: three
+  episodes, June 2024. buildingSMART podcast: November 2024.
+- Future Digital Twin podcast (Sep 2026): live, but process-industry
+  conference recordings (DEXPI, IDTA), not places.
+- Digital Built Forum (Australia, Aug 2026), Project Geospatial (GEOINT
+  interviews, Jul 2026), Geospatial FM (foundation models and equities,
+  Oct 2026), Climate Reveal (general climate, May 2026), Earthly Machine
+  Learning (NotebookLM-generated paper summaries, Sep 2026): adjacent, not
+  added; the papers behind the last one arrive through arXiv anyway.
+- ECMWF's "DestinE Digital Twin Dialogues" podcast: referred to on
+  destine.ecmwf.int but no feed found in Apple's directory; the videos are
+  on the ECMWF channel, which is covered.
+- No dedicated digital-twin YouTuber or independent show was found; the
+  field's spoken record is institutional (hubs, centres, congresses).
+
+Also written, at Anselm's word ("Timelike.systems should be in this"):
+`engines/timelike`, Steve Coy's event-driven simulation platform, from the
+company's two sites, the Foresight bio and Anselm's 2026-10-16 essay on it.
+The ResearchGate paper and the WIPO patent page are both behind bot walls;
+the patent title is quoted from the company site, and neither is listed as
+a source.
