@@ -466,3 +466,49 @@ company's two sites, the Foresight bio and Anselm's 2026-10-16 essay on it.
 The ResearchGate paper and the WIPO patent page are both behind bot walls;
 the patent title is quoted from the company site, and neither is listed as
 a source.
+
+## 2026-10-18: "digital twin" is a synecdoche
+
+Anselm, on the Sites section and the scanner: "too maniacally focused on
+the word digital twins... It's just one term used to refer to models or
+simulations. It creates alarm in the reader because it makes the reader
+think we have an overly narrow focus and will not capture the general
+domain well. I use the term digital twins as a synecdoche for a broader
+topic."
+
+He is right, and the labels were the loudest part: "arXiv: digital twin",
+"GitHub: digital twin repositories" announce a keyword search. Changes:
+
+- **A `vocabulary` component** on the Sites section entity
+  (`data/sites/index.md`): nineteen phrases that stand behind the
+  shorthand, from "urban simulation" and "agent-based model" to "earth
+  system model", "flood model", "wildfire simulation", "land use model",
+  "integrated assessment model", "participatory modelling", "geospatial
+  foundation model". It is data: add a phrase there and every search
+  widens.
+- **Search feeds carry `{query}`** in their url and the scanner fills it
+  with the vocabulary OR-combined in each API's syntax: `all:"…"` for
+  arXiv, quoted phrases for OpenAlex, Zenodo, GitHub and Google News.
+  GitHub allows five operators a query, so six phrases a request with a
+  pause between; Algolia has no OR, so Hacker News gets one request a
+  phrase. Google News ranks a nineteen-phrase OR query by relevance and
+  reaches back to 2025, so it gets four phrases a request, which brought
+  back NASA's new earth system model and a Seongnam city-model story that
+  the single phrase never would have. Results are merged and deduplicated by url. All five APIs were
+  tested with the combined query before the change.
+- **The topic filter** for general feeds (GOV.UK, OGC, weeklyOSM, ECMWF
+  and SFI on YouTube) is now built from the same vocabulary, loosely
+  matched (hyphen or space, any ending), plus a few stems.
+- Labels are now just "arXiv", "OpenAlex", "Zenodo", "GitHub
+  repositories", "Hacker News", "Google News", with descriptions that say
+  "matching the wiki's vocabulary". The Sites page says in prose what the
+  shorthand stands for.
+
+First run with the vocabulary over ten days: arXiv 43, OpenAlex 50,
+Zenodo 25, GitHub 95 (SUMO, CESM, E3SM, the CliMA packages, a Vancouver
+living atlas, a 3Di flood model of Hanoi). GitHub is now mostly student
+traffic simulators; if that tires, `stars:>=3` in its url is the knob, and
+it is data.
+
+Memory: `digital-twin-is-a-synecdoche` (feedback) so no session narrows
+the wiki to the phrase again.

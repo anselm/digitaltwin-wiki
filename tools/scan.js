@@ -3,7 +3,9 @@
 // --all ignores what has been seen; --only scans a few sources and prints to stdout without touching the inbox or state.
 // A source is any entity carrying a `feed` component (see meta/data-design.md): the url to poll,
 // its format, whether to filter general feeds by the topic words, and an optional `match` regex
-// of its own. Nothing is written into data/: the inbox at inbox/<date>.md is for a person or an
+// of its own. "Digital twin" is shorthand for the wiki's subject, models and simulations of places,
+// so a search feed's url carries a {query} placeholder and the vocabulary comes from the Sites
+// section entity (`vocabulary.terms` on data/sites/index.md), combined with OR in each API's syntax. Nothing is written into data/: the inbox at inbox/<date>.md is for a person or an
 // interactive session to read, and inbox/state.json remembers what has been seen and feed validators.
 import fs from 'node:fs'
 import path from 'node:path'
@@ -14,10 +16,8 @@ const args = process.argv.slice(2)
 const flag = (n, d) => { const i = args.indexOf(n); return i < 0 ? d : args[i + 1] }
 const days = Number(flag('--days', 30)), all = args.includes('--all'), only = flag('--only', '')?.split(',').filter(Boolean)
 const UA = { 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) digitaltwins-wiki-scan/0.1 (+https://digitaltwins.wiki)' }
-// Words that make an item from a general feed worth a look. Topic-specific feeds skip this.
 // Words that say the twin is of a place, which is this wiki's subject; such items are starred and listed first.
 const PLACE = /\b(city|cities|urban|town|region|municipal|neighbou?rhood|campus|port|harbou?r|watershed|river|flood|coast|ocean|marine|reef|estuary|wetland|forest|wildfire|fire|climate|weather|earth|planet|ecosystem|ecolog|biodivers|habitat|land ?use|landscape|terrain|transport|traffic|mobility|infrastructure|grid|energy system|water system|agricultur|farm|crop|soil|air quality|heat|population|public health|geospatial|gis|3d city|satellite|remote sensing)\b/i
-const TOPIC = /digital[ -]twin|\btwins?\b|simulat|geospatial|3d city|city ?model|cityjson|citygml|earth system|reanalysis|omniverse|agent[- ]based|flood model|urban model|what[- ]if|scenario/i
 
 fs.mkdirSync('inbox', { recursive: true })
 const stateFile = 'inbox/state.json'
@@ -45,26 +45,52 @@ const parse = {
 }
 
 const store = await openStore('data')
+const VOCAB = store.byId.get('sites')?.vocabulary?.terms || ['digital twin']
+// Words that make an item from a general feed worth a look: the vocabulary, loosely matched
+// (hyphen or space between words, any ending on the last word), plus a few stems. Topic-specific feeds skip this.
+const loose = (t) => t.trim().split(/[\s-]+/).map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('[ -]?') + '\\w*'
+const TOPIC = new RegExp([...VOCAB.map(loose), '\\btwins?\\b', 'simulat', 'cityjson', 'citygml', 'reanalysis', 'omniverse', 'what[- ]if', 'scenario'].join('|'), 'i')
+// How each API wants a list of phrases. GitHub allows five operators a query, so six terms a request; Algolia has no OR, so one term a request.
+const phrase = { arxiv: (t) => `all:"${t}"` }
+// Google News ranks a long OR query by relevance and reaches back years, so four phrases a request keeps it recent.
+const perRequest = { github: 6, hn: 1, 'news.google.com': 4 }
+function urlsOf(f) {
+  if (!f.url.includes('{query}')) return [f.url]
+  const n = perRequest[f.format] || perRequest[new URL(f.url).hostname] || VOCAB.length, out = []
+  for (let i = 0; i < VOCAB.length; i += n) out.push(f.url.replace('{query}', encodeURIComponent(VOCAB.slice(i, i + n).map(phrase[f.format] || ((t) => `"${t}"`)).join(' OR '))))
+  return out
+}
 let sources = store.all.filter((e) => e.feed?.url).sort((a, b) => a.id.localeCompare(b.id))
 if (only.length) sources = sources.filter((s) => only.includes(s.id) || only.includes(s.id.split('/').pop()))
 const report = [], errors = []
 let fresh = 0
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+async function get(url, headers) {
+  // YouTube's feed endpoint answers 500 now and then and 200 a moment later; one retry covers it.
+  let res = await fetch(url, { headers, redirect: 'follow', signal: AbortSignal.timeout(25000) })
+  if (res.status >= 500 || res.status === 429) { await sleep(4000); res = await fetch(url, { headers, redirect: 'follow', signal: AbortSignal.timeout(25000) }) }
+  return res
+}
 async function scan(s) {
   const f = s.feed, v = state.validators[s.id] || {}
   const json = ['openalex', 'hn', 'github', 'zenodo'].includes(f.format)
   const headers = { ...UA, accept: json ? 'application/json' : 'application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.5' }
-  if (!all && v.etag) headers['if-none-match'] = v.etag
-  if (!all && v.lastModified) headers['if-modified-since'] = v.lastModified
-  // YouTube's feed endpoint answers 500 now and then and 200 a moment later; one retry covers it.
-  let res = await fetch(f.url, { headers, redirect: 'follow', signal: AbortSignal.timeout(25000) })
-  if (res.status >= 500 || res.status === 429) { await new Promise((r) => setTimeout(r, 4000)); res = await fetch(f.url, { headers, redirect: 'follow', signal: AbortSignal.timeout(25000) }) }
-  if (res.status === 304) return { s, items: [], unchanged: true }
-  if (!res.ok) throw new Error(`HTTP ${res.status}`)
-  state.validators[s.id] = { etag: res.headers.get('etag') || '', lastModified: res.headers.get('last-modified') || '' }
-  const body = await res.text()
+  const urls = urlsOf(f)
+  // Conditional requests only for plain feeds; a vocabulary search is several requests and changes anyway.
+  if (urls.length === 1 && !f.url.includes('{query}') && !all) { if (v.etag) headers['if-none-match'] = v.etag; if (v.lastModified) headers['if-modified-since'] = v.lastModified }
   const fmt = parse[f.format] ? f.format : 'rss'
   const own = f.match ? new RegExp(f.match, 'i') : null
-  const items = parse[fmt](body).filter((i) => i.title && i.url).map((i) => ({ ...i, id: sha(i.url) }))
+  let raw = []
+  for (const [k, url] of urls.entries()) {
+    if (k) await sleep(f.format === 'github' ? 7000 : 1500)
+    const res = await get(url, headers)
+    if (res.status === 304) return { s, items: [], unchanged: true }
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
+    if (urls.length === 1) state.validators[s.id] = { etag: res.headers.get('etag') || '', lastModified: res.headers.get('last-modified') || '' }
+    raw.push(...parse[fmt](await res.text()))
+  }
+  const seenUrl = new Set()
+  const items = raw.filter((i) => i.title && i.url && !seenUrl.has(i.url) && seenUrl.add(i.url)).map((i) => ({ ...i, id: sha(i.url) }))
     .filter((i) => !i.date || isNaN(new Date(i.date)) || new Date(i.date).getTime() >= since)
     .filter((i) => !(f.filter || own) || (own || TOPIC).test(`${i.title} ${i.snippet}`))
   return { s, items }

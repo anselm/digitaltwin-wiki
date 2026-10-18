@@ -94,7 +94,8 @@ Every entity may carry these; `about` is required.
 | `redirect` | `to` | Left at an old path after a move. |
 | `figure` | `src`, `entry`, `credit`, `full`, `repo`, `posters` | A live figure the home page borrows from another entry. |
 | `vitals` | `series[]` | The order of the running series the Vitals view draws from JSON beside the entity. |
-| `feed` | `url`, `format` (rss, arxiv, openalex, hn, github, zenodo), `filter`, `match`, `terms` | Makes the entity a source `tools/scan.js` polls. `filter` applies the topic words to a general feed; `match` is the entity's own regex. |
+| `feed` | `url`, `format` (rss, arxiv, openalex, hn, github, zenodo), `filter`, `match`, `terms` | Makes the entity a source `tools/scan.js` polls. A `{query}` in the url is filled from the vocabulary, OR-combined in that API's syntax. `filter` applies the vocabulary loosely to a general feed; `match` is the entity's own regex; `terms` is the feed's terms of use. |
+| `vocabulary` | `terms[]` | On the Sites section: the phrases that stand behind the shorthand "digital twin" (urban simulation, agent-based model, flood model, …). The scanner searches for all of them. |
 
 ## Kind components
 

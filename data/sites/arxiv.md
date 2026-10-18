@@ -1,9 +1,8 @@
 ---
 about:
-  label: 'arXiv: digital twin'
+  label: 'arXiv'
   description: >-
-    Preprints on arXiv that mention digital twins, newest first, through the
-    arXiv API.
+    Preprints matching the wiki's vocabulary, from digital twins to urban, agent-based, earth-system, flood and fire models; newest first, through the arXiv API.
   tags:
     - papers
     - preprints
@@ -11,23 +10,21 @@ website:
   url: 'https://arxiv.org/'
   kind: directory
 feed:
-  url: >-
-    http://export.arxiv.org/api/query?search_query=all:%22digital+twin%22&sortBy=submittedDate&sortOrder=descending&max_results=50
+  url: 'http://export.arxiv.org/api/query?search_query={query}&sortBy=submittedDate&sortOrder=descending&max_results=50'
   format: arxiv
   terms: arXiv API terms of use; one request every three seconds
 provenance:
   origin: agent
   sources:
-    - title: 'arXiv: digital twin (feed)'
-      url: >-
-        http://export.arxiv.org/api/query?search_query=all:%22digital+twin%22&sortBy=submittedDate&sortOrder=descending&max_results=50
-    - title: 'arXiv: digital twin'
+    - title: 'arXiv (feed)'
+      url: 'http://export.arxiv.org/api/query?search_query={query}&sortBy=submittedDate&sortOrder=descending&max_results=50'
+    - title: 'arXiv'
       url: 'https://arxiv.org/'
   created: '2026-10-17'
-  reviewed: '2026-10-17'
-  reviewed_by: Claude; the feed was fetched and read on 2026-10-17
+  reviewed: '2026-10-18'
+  reviewed_by: Claude; the search was run with the full vocabulary and read on 2026-10-18
   status: draft
 ---
-Most new twin papers appear here first. Volume is high and uneven in quality; the title and abstract decide whether a paper deserves an entry.
+Newest fifty across all fields, so the welding-robot and antenna twins come too; the star marks the ones about a place.
 
-Polled by `tools/scan.js`; new items land in the inbox for a person to triage.
+Polled by `tools/scan.js` with the vocabulary on the Sites page; new items land in the inbox for a person to triage.
