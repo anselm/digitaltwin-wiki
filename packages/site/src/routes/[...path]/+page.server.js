@@ -1,5 +1,6 @@
 import { error } from '@sveltejs/kit'
 import { store, html, viewOf, card, domainCards } from '$lib/store.server.js'
+import { charts, W, H, P } from '$lib/vitals.server.js'
 
 export const prerender = true
 export const entries = () => store.entities.map((e) => ({ path: e.id }))
@@ -38,6 +39,7 @@ export function load({ params }) {
       sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), count: store.descendants(s.id).length })),
       domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
   }
+  if (view === 'vitals') return { ...base, vitals: charts(e.vitals?.series || []), dims: { W, H, P } }
   if (view === 'list') return { ...base, items: store.children(id).map((c) => ({ ...card(c), chips: chips(c) })) }
   if (view === 'recent') return { ...base, items: store.recent(50).filter((r) => r.id && !r.section && !('domain' in r)).map(line) }
   if (view === 'domains') return { ...base, domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }

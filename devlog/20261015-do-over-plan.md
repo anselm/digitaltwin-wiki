@@ -301,3 +301,41 @@ entry's own tags in a soft wash, and status; no byline anywhere on the
 front page. Light paper is now cream (#f8f4ec, wash #efe9dc, line
 #d8d1c3); the Bay Layers scene takes the same colour, so it blends. The
 survey's original paper was #fafbf9.
+
+## 2026-10-18, small hours: vitals
+
+Anselm liked the vitals page on The Future Times (his
+computational-journalism project, `scripts/etl-vitals.mjs` there) and
+pointed at figure 1 of Ripple et al., "The 2026 state of the climate
+report" (BioScience, 2026-10-14): sixteen planetary vital signs. The wiki
+now has `/vitals`: the same six running series (CO₂ at Mauna Loa, global
+2 m air temperature, global and Niño 3.4 sea surface temperature, Arctic
+and Antarctic sea ice extent), drawn the same way (past years faint, the
+1991–2020 mean in ink, this year in the accent, preliminary days dashed).
+
+How it is built: `tools/fetch-vitals.js` is a port of the Future Times
+ETL, writes `data/vitals/<id>.json` beside the Vitals entry, so the
+machine export publishes the series at `/vitals/<id>.json` with source,
+licence, citation, fetch date and sha256 of the raw download. The JSON is
+committed (about 800 KB for six series) so a build never needs the
+network; `deploy/deploy.sh` refetches before every build and keeps the
+previous file when a feed is down. `packages/site/src/lib/vitals.server.js`
+turns the arrays into SVG paths at build time; the view is
+`views/Vitals.svelte`, chosen by `about.view: vitals`; a new base component
+`vitals` carries the series order. The fetch date is the local date of the
+box, not UTC, after a 2026-10-18 stamp showed up on the evening of the 17th.
+
+Entries added, all draft: the BioScience report as an article (its
+sixteen series listed from the figure; the figure itself stays with the
+publisher), and three data sources it reads: Climate Reanalyzer, NOAA GML
+Trends in CO2, NSIDC Sea Ice Index v4. The Vitals entry links to them with
+`needs`.
+
+Not done, Anselm's call: a cron that refetches and redeploys daily (today
+the numbers move only when someone deploys), and a strip of the latest
+values on the home page.
+
+Also asked, not yet built: a page listing topics worth modelling, legacy
+and new. The existing Questions section (`data/questions`, nav off, nine
+entries) is the nearest thing; whether to grow it or start a Topics section
+beside it is for him.

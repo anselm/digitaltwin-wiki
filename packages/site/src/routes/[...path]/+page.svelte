@@ -4,9 +4,10 @@
   import Domains from '$lib/views/Domains.svelte'
   import Domain from '$lib/views/Domain.svelte'
   import Prose from '$lib/views/Prose.svelte'
+  import Vitals from '$lib/views/Vitals.svelte'
   let { data } = $props()
   // The entity chose its view; the URL did not. Unknown views fall back to prose.
-  const views = { home: Home, list: List, recent: List, domains: Domains, domain: Domain, prose: Prose, flow: Prose }
+  const views = { home: Home, list: List, recent: List, domains: Domains, domain: Domain, prose: Prose, flow: Prose, vitals: Vitals }
   const View = $derived(views[data.view] || Prose)
 </script>
 

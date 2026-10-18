@@ -13,6 +13,9 @@ export SHOW="${SHOW:-public,proposed}"
 
 SSH="ssh -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR -o ServerAliveInterval=5 -o ServerAliveCountMax=3"
 
+echo "› refreshing the vitals series from their sources"
+( cd "$ROOT" && node tools/fetch-vitals.js ) || echo "  vitals refresh failed; previous series kept"
+
 echo "› checking corpus and building site (showing: $SHOW)"
 ( cd "$ROOT" && npm run -s build )
 

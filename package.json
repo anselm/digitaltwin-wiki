@@ -10,6 +10,7 @@
     "check": "node packages/knowledge/cli.js check data",
     "machine": "node packages/knowledge/cli.js machine data packages/site/static",
     "migrate": "node tools/migrate-v1.js",
+    "vitals": "node tools/fetch-vitals.js",
     "dev": "npm run machine && npm --workspace packages/site run dev",
     "build": "npm run check && npm run machine && npm --workspace packages/site run build"
   }

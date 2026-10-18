@@ -9,6 +9,7 @@
     "domains":    { "list": true },
     "redirect":   { "fields": ["to"] },
     "figure":     { "fields": ["src", "entry", "credit", "full", "repo", "posters"] },
+    "vitals":     { "fields": ["series"] },
     "import":     { "fields": ["source", "id", "kind", "family", "priority", "verified", "posts", "posters"] },
     "relation":   { "fields": ["subject", "predicate", "object", "begins", "ends"] }
   },
