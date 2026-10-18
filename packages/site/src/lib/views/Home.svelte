@@ -54,11 +54,17 @@
 
 <section class="mt-8 lg:hidden">
   <h2 class="text-sm uppercase tracking-wide text-muted">Contents</h2>
-  <ul class="mt-2 grid sm:grid-cols-2 gap-x-6">
-    {#each data.sections as s}
-      <li class="py-1.5 border-t border-line flex justify-between gap-3"><a href={s.url} class="text-ink hover:text-accent">{s.label}</a><span class="text-muted text-sm tabular">{s.count || ''}</span></li>
-    {/each}
-  </ul>
+  {#each data.areas as [area, label]}
+    {@const ss = data.sections.filter((s) => s.area === area)}
+    {#if ss.length}
+      <p class="mt-3 text-[0.65rem] uppercase tracking-wider text-muted">{label}</p>
+      <ul class="grid sm:grid-cols-2 gap-x-6">
+        {#each ss as s}
+          <li class="py-1.5 border-t border-line flex justify-between gap-3"><a href={s.url} class="text-ink hover:text-accent">{s.label}</a><span class="text-muted text-sm tabular">{s.count || ''}</span></li>
+        {/each}
+      </ul>
+    {/if}
+  {/each}
 </section>
 
 {#if data.recent.length}

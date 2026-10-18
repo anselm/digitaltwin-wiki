@@ -37,6 +37,7 @@ export function load({ params }) {
       pinned: store.entities.filter((a) => a.about?.pinned).sort((a, b) => a.about.pinned - b.about.pinned).map(line),
       recent: store.recent(12).filter((r) => r.id && !r.section && !('domain' in r) && !r.about?.pinned).slice(0, 8).map(line),
       sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), area: s.section.area || 'resources', count: store.descendants(s.id).length })),
+      areas: [['new', 'New'], ['practice', 'Practice'], ['technologies', 'Technologies'], ['theory', 'Theory'], ['resources', 'Resources']],
       domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
   }
   if (view === 'vitals') return { ...base, vitals: charts(e.vitals?.series || []), dims: { W, H, P } }

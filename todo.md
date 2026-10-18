@@ -29,8 +29,13 @@ One list for the project, kept current. Decisions and reasoning live in
 - Move `tools/import-linkedin.js` and `tools/fetch-vitals.js` onto `store.put`.
 - Prune or extend the search vocabulary in `data/sites/index.md`.
 - Scan-only cron, and a daily vitals refetch and redeploy.
-- Figures from the survey site worth carrying over as entry depictions,
-  with their credits.
+- Fuel for later, noted by Anselm 2026-10-18: a great many people are
+  trying to explain digital twins with layered pictures, which is what
+  inspired the Bay Layers scene on the home page. An image search for
+  "several layers digital twin" shows the genre:
+  https://www.google.com/search?udm=2&q=several+layers+digital+twin
+  Possible uses: a terminology entry on the layered-diagram convention, or
+  credited examples beside the Bay Layers entry.
 
 ## Done
 
