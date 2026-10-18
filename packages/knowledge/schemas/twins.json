@@ -1,5 +1,5 @@
 {
-  "_note": "Kind components for the digital-twins use case. Presence of the component is the kind; the folder is only where such entities usually live. See meta/data-design.md.",
+  "_note": "Kind components for the digital-twins use case. Presence of the component is the kind; the folder is only where such entities usually live. See devlog/20261015-data-design.md.",
   "components": {
     "tool":         { "folder": "engines",      "fields": ["form", "group", "cost", "skill", "try", "bring", "like", "evidence", "homepage", "licence", "audiences"] },
     "datasource":   { "folder": "data-sources", "fields": ["coverage", "resolution", "cadence", "access", "format", "homepage", "cost", "skill"] },

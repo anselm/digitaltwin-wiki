@@ -1,7 +1,7 @@
 // Scan the sources the wiki knows about and write an inbox of items not seen before.
 // Usage: node tools/scan.js [--days N] [--all] [--only id,id]
 // --all ignores what has been seen; --only scans a few sources and prints to stdout without touching the inbox or state.
-// A source is any entity carrying a `feed` component (see meta/data-design.md): the url to poll,
+// A source is any entity carrying a `feed` component (see devlog/20261015-data-design.md): the url to poll,
 // its format, whether to filter general feeds by the topic words, and an optional `match` regex
 // of its own. "Digital twin" is shorthand for the wiki's subject, models and simulations of places,
 // so a search feed's url carries a {query} placeholder and the vocabulary comes from the Sites
@@ -112,7 +112,7 @@ for (const { s, items, unchanged } of results) {
   const place = (i) => PLACE.test(`${i.title} ${i.snippet}`) ? 1 : 0
   for (const i of news.sort((a, b) => place(b) - place(a) || (b.rank || 0) - (a.rank || 0) || new Date(b.date || 0) - new Date(a.date || 0))) report.push(`- ${place(i) ? '★ ' : ''}[${i.title}](${i.url})${i.date ? ` · ${new Date(i.date).toLocaleDateString('sv')}` : ''}${i.by ? ` · ${i.by}` : ''}${i.snippet ? `\n  ${i.snippet}` : ''}`)
 }
-const head = `# Scan ${today}\n\n${sources.length} sources, ${fresh} new items in the last ${days} days${errors.length ? `, ${errors.length} failed` : ''}.\nStarred items mention a place, this wiki's subject, and are listed first. Triage: the wiki showcases what a person could use to model their own issue, not everything that mentions the subject. Open what looks like a usable tool, a working twin, a data source, an organization, an event, a book or a paper that sets a practice; write it from its own page under meta/curation.md; leave the rest.\n`
+const head = `# Scan ${today}\n\n${sources.length} sources, ${fresh} new items in the last ${days} days${errors.length ? `, ${errors.length} failed` : ''}.\nStarred items mention a place, this wiki's subject, and are listed first. Triage: the wiki showcases what a person could use to model their own issue, not everything that mentions the subject. Open what looks like a usable tool, a working twin, a data source, an organization, an event, a book or a paper that sets a practice; write it from its own page under devlog/20261015-principles.md; leave the rest.\n`
 const body = [head, ...report, errors.length ? `\n## Failed\n\n${errors.map((e) => `- ${e}`).join('\n')}` : ''].join('\n') + '\n'
 if (only.length) { console.log(body); process.exit(0) }
 const outFile = `inbox/${today}.md`

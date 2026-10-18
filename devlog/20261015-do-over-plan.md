@@ -20,7 +20,7 @@ the machine door (`llms.txt`, markdown per entry); provenance on everything.
 ## Shape (his point 1, 2, 3 and the UX section, in order)
 
 ```
-meta/            data design: the ECS model written up, best practices, the
+devlog/          data design and principles (was meta/ until 2026-10-18), the
                  reserved component names. Prose, versioned, for humans and
                  contributors. (his "/meta or /data-design")
 packages/
@@ -40,7 +40,7 @@ Monorepo with npm workspaces. He asked whether `packages/` is the best way;
 I kept it because it matches social-knowledge-service and the house
 modular-architecture rule (each package extractable to npm later).
 
-## The data model (my write-up of his ECS pattern; full text in meta/)
+## The data model (my write-up of his ECS pattern; full text in `20261015-data-design.md`)
 
 - An **entity** is a file: `data/<path>/index.md` or `data/<path>.md`. Its
   **id is the path** (`tools/matsim`), which is also its URL. The folder tree
@@ -55,7 +55,7 @@ modular-architecture rule (each package extractable to npm later).
   person, organization, book, website, article, guide, term, usecase,
   question, event, story, flow. A kind component may be empty.
 - **Relations** are `{predicate, target}` pairs on the entity, with the
-  predicate vocabulary declared in `meta/`; reverse links are computed.
+  predicate vocabulary declared in `packages/knowledge/schemas`; reverse links are computed.
   Separate edge entities are allowed for relations that need their own
   provenance. This is the "relationships table or on the object" question
   from his DESIGN.md answered pragmatically: both, object form by default.
@@ -103,7 +103,7 @@ store.exportMachine(dir)         // llms.txt, index.json, graph.json, m/<id>.md
 
 ## First build, this entry's scope
 
-meta/data-design.md; packages/knowledge with loader, validator, query and
+devlog/20261015-data-design.md; packages/knowledge with loader, validator, query and
 machine export; the 64 v1 entries migrated by `tools/migrate-v1.js` into
 `data/`; the site with home, section, entry, recent and domain views;
 screenshots in both themes. Not done: agents, comments, map and timeline
@@ -224,7 +224,7 @@ twins resource or wiki." The imported entries read as catalogue records:
 post paraphrases, "Caveats", "as the catalogue judged it", "seen on
 LinkedIn". So:
 
-- `meta/curation.md` now says how an entry is written: what it is, who
+- `devlog/20261015-principles.md` now says how an entry is written: what it is, who
   makes it, where it applies, how it runs, status; nothing about how we
   heard of it; only facts a listed source states; sources are pages
   actually read, titled as they title themselves.
@@ -380,7 +380,7 @@ Done:
   shunt trajectories; the star is the first cut.
 - **Write side of the store.** `store.put(id, {content, ...components})`
   and `store.patch(id, fn)` in `packages/knowledge`: the one write path,
-  documented in `meta/data-design.md` under "Writing". The importer and
+  documented in `devlog/20261015-data-design.md` under "Writing". The importer and
   the vitals fetcher still write files directly; moving them over is a
   chore for later.
 

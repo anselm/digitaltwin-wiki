@@ -1,5 +1,5 @@
 {
-  "_note": "Declared relation predicates and their computed reverse labels. Add here before using. See meta/data-design.md.",
+  "_note": "Declared relation predicates and their computed reverse labels. Add here before using. See devlog/20261015-data-design.md.",
   "predicates": {
     "answers":        { "means": "helps answer this question",                      "reverse": "answered with" },
     "needs":          { "means": "requires this data or input",                     "reverse": "needed by" },

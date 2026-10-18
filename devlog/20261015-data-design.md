@@ -6,7 +6,9 @@ brief (`devlog/20261015-do-over-brief-from-anselm.md`), his earlier design
 note for social-knowledge-service
 (https://github.com/anselm/social-knowledge-service/blob/main/packages/knowledge/DESIGN.md,
 November 2025) and the ontology survey done for ontology-scraper on
-2026-10-14. This file is the current rule; the devlog holds the history.
+2026-10-14. This is the current rule, revised in place as the model changes; it
+was `meta/data-design.md` until 2026-10-18, when Anselm ruled that thinking
+lives only in dated devlog entries.
 
 ## Why this shape
 

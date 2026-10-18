@@ -27,9 +27,12 @@ Three things Anselm said on 2026-10-18 that shape every choice here:
 ## Where things are
 
 - Code: this folder. Repo: `anselm/twin-compendium`.
-- Who the site is for, as stories, and the bar an entry must clear:
-  `devlog/20261018-patrons.md`.
-  Read it before writing or promoting anything.
+- Principles, the bar an entry must clear, and how to write one:
+  `devlog/20261015-principles.md`. Who the site is for, as stories:
+  `devlog/20261018-patrons.md`. The data model:
+  `devlog/20261015-data-design.md`. Read them before writing or promoting
+  anything. There is no `meta/` folder; thinking goes in dated devlog
+  entries, revised in place.
 - Devlog: `devlog/` (dated entries; read the tail first).
 - Deploy: see `project.toml`.
 

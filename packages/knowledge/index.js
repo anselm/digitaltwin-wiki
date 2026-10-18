@@ -1,7 +1,7 @@
 // @twins/knowledge: a folder tree of entities, loaded into memory, queried
 // through plain functions. The loader is the only code that reads files;
 // anything that can produce the same entity objects (a database, a server)
-// can stand behind the same API. Design: meta/data-design.md.
+// can stand behind the same API. Design: devlog/20261015-data-design.md.
 
 import fs from 'node:fs'
 import path from 'node:path'

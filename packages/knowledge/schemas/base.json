@@ -1,5 +1,5 @@
 {
-  "_note": "Base components any entity may carry. Field lists are documentation and validation hints, not a closed schema: unknown fields are reported, not rejected. See meta/data-design.md.",
+  "_note": "Base components any entity may carry. Field lists are documentation and validation hints, not a closed schema: unknown fields are reported, not rejected. See devlog/20261015-data-design.md.",
   "components": {
     "about":      { "required": true, "fields": ["label", "description", "tags", "depiction", "view", "pinned", "aliases", "kid"], "required_fields": ["label"] },
     "provenance": { "fields": ["origin", "author", "sources", "created", "updated", "reviewed", "reviewed_by", "status"] },
