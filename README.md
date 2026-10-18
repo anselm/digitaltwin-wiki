@@ -77,9 +77,10 @@ arrive, and are not who the site is for.
   it has an API, so a reader can see what is reusable and what is closed.
 - **Data.** Sources a model can be fed with: what they cover, how to get
   them, on what terms.
-- **Books, articles, terminology, organizations, events, stories.** The
-  practice, the words, the people and the short true accounts of what a
-  model let someone see.
+- **Media.** Books, podcasts and video channels on modelling places and
+  systems; the channels are also polled for the inbox.
+- **Articles, terminology, organizations, events, stories.** The words, the
+  people and the short true accounts of what a model let someone see.
 - **Vitals.** Six running measurements of the planet, refreshed at every
   deploy.
 
@@ -90,7 +91,7 @@ Everything is also published for machines: `llms.txt`, `index.json` and
 ## How it is made
 
 The sidebar reads in areas: what is new, practice (guides, use cases,
-notable twins), technologies (engines, data), theory (books, articles,
+notable twins), technologies (engines, data), theory (media, articles,
 terminology) and resources.
 
 Entries live in `data/` as markdown with YAML frontmatter. Each top-level

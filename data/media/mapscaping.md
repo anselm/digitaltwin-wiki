@@ -6,9 +6,8 @@ about:
   tags:
     - podcast
     - geospatial
-website:
+podcast:
   url: 'https://mapscaping.com/podcasts/'
-  kind: podcast
 feed:
   url: 'https://feed.podbean.com/mapscaping/feed.xml'
   format: rss

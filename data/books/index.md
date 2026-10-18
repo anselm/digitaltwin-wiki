@@ -1,14 +1,11 @@
 ---
 about:
   label: Books
-  description: Literature on modelling places and systems.
-  view: list
-section:
-  order: 30
-  nav: true
-  area: theory
+  description: Moved to Media.
+  view: redirect
+redirect:
+  to: media
 provenance:
   origin: human
   status: public
 ---
-

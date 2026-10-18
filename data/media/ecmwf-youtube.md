@@ -7,9 +7,8 @@ about:
     - video
     - weather
     - earth system
-website:
+video:
   url: 'https://www.youtube.com/channel/UChpGvNdQPdI7EI75z6oelTw'
-  kind: video
 feed:
   url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UChpGvNdQPdI7EI75z6oelTw'
   format: rss

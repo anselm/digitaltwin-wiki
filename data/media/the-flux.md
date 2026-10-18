@@ -6,9 +6,8 @@ about:
   tags:
     - podcast
     - agent-based modelling
-website:
+podcast:
   url: 'https://www.epistemix.com/'
-  kind: podcast
 feed:
   url: 'https://feeds.buzzsprout.com/2343304.rss'
   format: rss

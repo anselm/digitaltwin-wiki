@@ -7,9 +7,8 @@ about:
     - video
     - complexity
     - lectures
-website:
+video:
   url: 'https://www.youtube.com/channel/UC9rHXgUE9pikzYcGrAujMXQ'
-  kind: video
 feed:
   url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC9rHXgUE9pikzYcGrAujMXQ'
   format: rss

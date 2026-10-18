@@ -15,7 +15,7 @@ function ago(d) {
   if (days < 365) return `${Math.round(days / 30)} months ago`
   return `${Math.round(days / 365)} years ago`
 }
-const kindLabel = (k) => ({ datasource: 'data source', twin: 'digital twin' })[k] || k
+const kindLabel = (k) => ({ datasource: 'data source', twin: 'digital twin', video: 'video channel' })[k] || k
 const plural = (k) => ({ story: 'stories', 'data source': 'data sources' })[k] || `${k}s`
 
 export function load({ params }) {
@@ -45,7 +45,8 @@ export function load({ params }) {
     // Guides read in stage order; engines are shelved by the task a guest is trying to do (tool.group).
     const kids = store.children(id)
     const staged = kids.every((c) => c.guide?.stage !== undefined)
-    const items = (staged ? [...kids].sort((a, b) => a.guide.stage - b.guide.stage) : kids).map((c) => ({ ...card(c), chips: chips(c), group: c.tool?.group || null }))
+    const mixed = new Set(kids.map((c) => store.kindsOf(c)[0])).size > 1
+    const items = (staged ? [...kids].sort((a, b) => a.guide.stage - b.guide.stage) : kids).map((c) => ({ ...card(c), chips: chips(c), group: c.tool?.group || (mixed ? plural(kindLabel(store.kindsOf(c)[0] || 'entry')).replace(/^./, (ch) => ch.toUpperCase()) : null) }))
     const grouped = items.length > 12 && items.filter((i) => i.group).length > items.length / 2
     const groups = grouped ? [...new Set(items.map((i) => i.group || 'Other'))].sort((a, b) => (a === 'Other') - (b === 'Other') || a.localeCompare(b)).map((g) => ({ label: g, items: items.filter((i) => (i.group || 'Other') === g) })) : null
     return { ...base, items, groups }

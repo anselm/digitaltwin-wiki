@@ -7,9 +7,8 @@ about:
     - video
     - uk
     - infrastructure
-website:
+video:
   url: 'https://www.youtube.com/channel/UCp0gxDzHxkMFMS8c_W5qk6A'
-  kind: video
 feed:
   url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCp0gxDzHxkMFMS8c_W5qk6A'
   format: rss

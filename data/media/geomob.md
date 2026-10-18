@@ -7,9 +7,8 @@ about:
     - podcast
     - geospatial
     - community
-website:
+podcast:
   url: 'https://thegeomob.com/podcast'
-  kind: podcast
 feed:
   url: 'https://geomob-podcast.castos.com/feed'
   format: rss
