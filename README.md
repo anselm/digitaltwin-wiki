@@ -61,6 +61,9 @@ arrive, and are not who the site is for.
 
 - **Guides.** Nine stages, in order, from naming the question to keeping
   the model alive, written for the person with a mandate.
+- **Mandates.** The targets, laws and pledges that send people to a model:
+  who issued each, whom it binds, what it requires by when, how progress is
+  counted, and the use case it turns into.
 - **Use cases.** Questions people bring to a model of a place, each split
   into what it is really asking, the kind of model that answers it, the
   data it needs, what to do without a model, and what to do next.

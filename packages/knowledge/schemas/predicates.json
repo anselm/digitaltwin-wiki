@@ -2,6 +2,8 @@
   "_note": "Declared relation predicates and their computed reverse labels. Add here before using. See devlog/20261015-data-design.md.",
   "predicates": {
     "answers":        { "means": "helps answer this question",                      "reverse": "answered with" },
+    "raises":         { "means": "creates this question for the people it binds",   "reverse": "raised by" },
+    "measured_with":  { "means": "progress against it is counted with this data",   "reverse": "measures" },
     "needs":          { "means": "requires this data or input",                     "reverse": "needed by" },
     "built_on":       { "means": "uses this engine, platform or technique",         "reverse": "used by" },
     "example_of":     { "means": "is an instance of this concept or technique",     "reverse": "examples" },

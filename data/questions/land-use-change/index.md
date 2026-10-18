@@ -39,6 +39,10 @@ On this site: [InVEST](/engines/invest/) for ecosystem services, [DSSAT](/engine
 - Species records: [iNaturalist](/data-sources/inaturalist/) holds observations people have made in your area.
 - What the land yields now, from the people who farm it.
 
+## If a mandate sent you
+
+The [30 by 30 target](/mandates/thirty-by-thirty/) turns this question into a counting one first: which land counts as conserved, where the gaps by habitat are, and what a change of use would do to coverage and connectivity. [Protected Planet](/data-sources/protected-planet/) is the record it is measured against.
+
 ## Without a model
 
 Overlay the plan on the land-cover map and list what each parcel changes from and to. Walk it with an ecologist and a farmer. Most of the trade-offs are visible from that table.
