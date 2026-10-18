@@ -17,6 +17,11 @@ tool:
   group: Participation and learning
   homepage: 'https://awana.digital/comapeo'
   cost: free
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: partly
 provenance:
   origin: agent
   sources:

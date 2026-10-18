@@ -1,11 +1,14 @@
 ---
 about:
   label: Sites
-  description: "Where the news comes from: papers, code, data, press, communities, video and podcasts. The ones with a feed are polled for the inbox."
+  description: >-
+    Where the news comes from: papers, code, data, press, communities, video and
+    podcasts. The ones with a feed are polled for the inbox.
   view: list
 section:
   order: 230
   nav: false
+  area: resources
 vocabulary:
   terms:
     - digital twin

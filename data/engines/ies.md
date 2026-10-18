@@ -14,6 +14,11 @@ tool:
   form: Commercial modeling platform
   group: Energy and utilities
   homepage: 'https://www.iesve.com/digital-twins'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - energy
 provenance:

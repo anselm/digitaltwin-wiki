@@ -17,6 +17,11 @@ tool:
   group: Wildfire and risk
   homepage: 'https://www.landslidemodels.org/r.avaflow/'
   cost: 'non-commercial; no regular support'
+open:
+  source: partly
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

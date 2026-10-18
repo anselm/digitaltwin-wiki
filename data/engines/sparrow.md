@@ -19,6 +19,12 @@ tool:
   group: Wildlife and oceans
   licence: MIT
   cost: 'free software; hardware per the published bill of materials'
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: unknown
+  licence: 'MIT'
 provenance:
   origin: agent
   sources:

@@ -43,3 +43,7 @@ For a short closure, a map of the alternative routes and a count on each one bef
 ## Next
 
 [A late bus](/stories/a-late-bus/) is the story version of this question. [Build the smallest version](/guides/build-the-smallest-version/) is the guide that applies.
+
+![Building a transport twin: real-world inputs, shared geographic data, transport simulation, scenario runs, and professional and public interfaces, with connected models alongside.](/questions/after-a-closure/stack.svg)
+
+*The stages of a transport twin, with the example of comparing a proposed cycle lane with the existing layout.*

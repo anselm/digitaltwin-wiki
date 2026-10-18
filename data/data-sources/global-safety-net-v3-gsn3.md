@@ -19,6 +19,11 @@ datasource:
   access: free web viewer, no login; rare and threatened species layers need an IBAT licence; data download not stated
   format: web map with ecological group, land cover class and conservation status views
   homepage: 'https://www.globalsafetynet.app/'
+open:
+  source: unknown
+  data: partly
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

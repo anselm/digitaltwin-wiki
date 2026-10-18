@@ -1,8 +1,8 @@
-name = "twin-compendium"
+name = "twin-compendium"   # folder name; the GitHub repo is digitaltwin-wiki since 2026-10-18
 horizon = "2026"
-repo = "anselm/twin-compendium"
+repo = "anselm/digitaltwin-wiki"
 code = "local"
-deploy = "exe:twinguide"
+deploy = "exe:digitaltwin"
 status = "active"        # active | parked (struck through on the dashboard) | archived (hidden)
 autodeploy = false
-notes = "staging at twinguide.exe.xyz still serves the v1 site; manual deploy via deploy/deploy.sh (SHOW=public for production); domain digitaltwin.guide being tried"
+notes = "VM renamed twinguide → digitaltwin 2026-10-18; manual deploy via deploy/deploy.sh (SHOW=public,proposed for production); domain digitaltwins.wiki bound"

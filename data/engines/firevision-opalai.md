@@ -17,6 +17,11 @@ tool:
   form: commercial platform
   group: Wildfire and risk
   homepage: 'https://www.opal-ai.com/firevision'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

@@ -18,6 +18,12 @@ tool:
   homepage: 'https://github.com/facebookresearch/vggt-omega'
   licence: noncommercial research licence
   cost: free
+open:
+  source: partly
+  data: unknown
+  api: unknown
+  participation: unknown
+  licence: 'FAIR Noncommercial Research License'
 provenance:
   origin: agent
   sources:

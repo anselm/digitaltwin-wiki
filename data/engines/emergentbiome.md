@@ -17,6 +17,11 @@ tool:
   form: research platform
   group: Ecosystems and land
   homepage: 'https://emergentbiome.earth/'
+open:
+  source: unknown
+  data: partly
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

@@ -16,6 +16,11 @@ tool:
   group: 3D cities and mapping
   homepage: 'https://multiset.ai/drone-to-vps'
   cost: 'free tier; usage-based pricing for production'
+open:
+  source: closed
+  data: unknown
+  api: 'yes'
+  participation: unknown
 provenance:
   origin: agent
   sources:

@@ -18,6 +18,11 @@ datasource:
   access: public arrays, validation and interactive 3D models at 3dfuels.ctrees.org
   format: 3D voxel arrays with bulk density, moisture, live fraction and surface area to volume
   homepage: 'https://3dfuels.ctrees.org'
+open:
+  source: unknown
+  data: open
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

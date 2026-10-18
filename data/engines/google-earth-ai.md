@@ -16,6 +16,11 @@ tool:
   homepage: 'https://ai.google/earth-ai'
   form: model family
   group: Earth observation and AI
+open:
+  source: partly
+  data: partly
+  api: 'yes'
+  participation: unknown
 provenance:
   origin: agent
   sources:

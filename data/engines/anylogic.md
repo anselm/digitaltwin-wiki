@@ -13,6 +13,11 @@ tool:
   form: Commercial modeling environment
   group: Agents and system dynamics
   homepage: 'https://www.anylogic.com/'
+open:
+  source: closed
+  data: unknown
+  api: 'yes'
+  participation: unknown
 domains:
   - people
 relations:

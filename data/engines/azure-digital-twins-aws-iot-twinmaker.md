@@ -13,6 +13,11 @@ tool:
   form: Cloud application services
   group: Infrastructure and assets
   homepage: 'https://azure.microsoft.com/en-us/products/digital-twins'
+open:
+  source: closed
+  data: unknown
+  api: 'yes'
+  participation: unknown
 provenance:
   origin: agent
   sources:

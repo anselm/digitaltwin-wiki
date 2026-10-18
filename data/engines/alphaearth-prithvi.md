@@ -15,6 +15,11 @@ tool:
   group: Earth observation and AI
   homepage: >-
     https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/
+open:
+  source: partly
+  data: partly
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

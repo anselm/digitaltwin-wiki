@@ -13,6 +13,11 @@ tool:
   form: Commercial infrastructure platform
   group: Energy and utilities
   homepage: 'https://neara.com/our-platform/'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - energy
 relations:

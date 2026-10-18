@@ -15,6 +15,11 @@ tool:
   form: Urban simulation application
   group: Land use and housing
   homepage: 'https://urbanly.org/'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - places
 relations:

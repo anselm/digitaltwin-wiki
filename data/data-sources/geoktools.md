@@ -13,6 +13,12 @@ about:
     - evaluation
 datasource:
   homepage: 'https://github.com/google-research/geospatial-reasoning-benchmarks'
+open:
+  source: open
+  data: partly
+  api: unknown
+  participation: unknown
+  licence: 'Apache 2.0 (code); CC BY 4.0 (data)'
 provenance:
   origin: agent
   sources:

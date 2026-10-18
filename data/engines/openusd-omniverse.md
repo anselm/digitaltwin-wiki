@@ -16,6 +16,11 @@ tool:
   group: 3D cities and mapping
   homepage: 'https://openusd.org/release/index.html'
   cost: free
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

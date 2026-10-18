@@ -17,6 +17,12 @@ tool:
   homepage: 'https://www.paraview.org/'
   licence: BSD 3-Clause
   cost: free
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: unknown
+  licence: 'BSD-3-Clause'
 provenance:
   origin: agent
   sources:

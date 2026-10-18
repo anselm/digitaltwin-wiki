@@ -16,6 +16,11 @@ datasource:
   resolution: individual georeferenced observations with photos or sound
   access: open data; website, app, GBIF Darwin Core archive and an AWS S3 extract
   homepage: 'https://www.inaturalist.org/'
+open:
+  source: unknown
+  data: open
+  api: unknown
+  participation: open
 provenance:
   origin: agent
   sources:

@@ -15,6 +15,11 @@ about:
 tool:
   form: monitoring programme
   group: Earth observation and AI
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

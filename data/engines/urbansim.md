@@ -15,6 +15,11 @@ tool:
   form: Urban modeling platform
   group: Land use and housing
   homepage: 'https://urbansim.com/'
+open:
+  source: partly
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - places
 relations:

@@ -8,7 +8,7 @@ import path from 'node:path'
 import matter from 'gray-matter'
 
 const root = process.argv[2] || 'data'
-const UA = 'Mozilla/5.0 (X11; Linux x86_64) twin-compendium/resolve-links'
+const UA = 'Mozilla/5.0 (X11; Linux x86_64) digitaltwin-wiki/resolve-links'
 const files = []
 const walk = (d) => { for (const n of fs.readdirSync(d)) { const f = path.join(d, n); if (fs.statSync(f).isDirectory()) walk(f); else if (n.endsWith('.md')) files.push(f) } }
 walk(root)

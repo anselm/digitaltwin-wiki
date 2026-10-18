@@ -13,6 +13,11 @@ tool:
   form: Public climate scenario tool
   group: Participation and learning
   homepage: 'https://www.climateinteractive.org/en-roads/'
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - people
 relations:
@@ -36,3 +41,7 @@ Climate Interactive aims it at policymakers, business and finance, advocates and
 Under the interface is an integrated assessment model built with system dynamics: eighteen linked submodels run from 1990 to 2100 and use behavioural decision rules and feedback loops rather than optimisation with perfect foresight. Starting values come from historical data such as UN population figures and measured greenhouse-gas concentrations, and outputs are compared with other integrated assessment models. A technical reference lists the equations and sources. The interface is offered in more than 20 languages. Licence and price are not stated on the pages read.
 
 Operational and still being extended: updates in July 2026 added ocean alkalinity enhancement and the energy demand of data centres and AI.
+
+![En-ROADS in a 2023 demonstration: policy controls beside energy, emissions and temperature results.](/engines/en-roads/enroads.jpg)
+
+*En-ROADS in a 2023 demonstration; the numbers shown belong to that example scenario. Credit and licence as recorded in the survey's image credits (`archive/v1/seed/survey-site/downloads/images/CREDITS.md`).*

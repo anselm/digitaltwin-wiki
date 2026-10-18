@@ -13,6 +13,11 @@ tool:
   form: Open ecosystem-service models
   group: Ecosystems and land
   homepage: 'https://naturalcapitalalliance.stanford.edu/software'
+open:
+  source: open
+  data: open
+  api: unknown
+  participation: open
 domains:
   - food
 relations:

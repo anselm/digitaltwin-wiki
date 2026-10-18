@@ -18,6 +18,11 @@ tool:
   form: hosted forecast service
   group: Water and flooding
   cost: free
+open:
+  source: partly
+  data: open
+  api: 'yes'
+  participation: unknown
 provenance:
   origin: agent
   sources:

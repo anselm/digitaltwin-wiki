@@ -2,10 +2,10 @@
 # Check the corpus, build the site and rsync it to its exe.dev VM. This is a
 # manual deploy: updating GitHub does not change the live site.
 # SHOW picks which entries are shown. Staging shows proposed ones too.
-# Usage: deploy/deploy.sh <vm-name>         (default vm: twinguide)
+# Usage: deploy/deploy.sh <vm-name>         (default vm: digitaltwin)
 set -euo pipefail
 
-VM="${1:-${VM:-twinguide}}"
+VM="${1:-${VM:-digitaltwin}}"
 HOST="$VM.exe.xyz"
 DEST="exedev@$HOST"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"

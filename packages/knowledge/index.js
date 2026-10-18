@@ -198,7 +198,7 @@ export class Store {
   card(e) {
     return {
       id: e.id, label: e.about?.label, description: e.about?.description || '', tags: e.about?.tags || [],
-      kinds: this.kindsOf(e), domains: e.domains || [], pinned: !!e.about?.pinned, view: e.about?.view || null,
+      kinds: this.kindsOf(e), domains: e.domains || [], pinned: !!e.about?.pinned, view: e.about?.view || null, open: e.open || null,
       depiction: e.about?.depiction ? (/^https?:/.test(e.about.depiction) ? e.about.depiction : `/${e.dir ? e.dir + '/' : ''}${e.about.depiction}`) : null,
       status: e.provenance?.status || 'draft', updated: stamp(e), url: e.id ? `/${e.id}/` : '/'
     }

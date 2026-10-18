@@ -13,6 +13,11 @@ tool:
   form: Collaborative planning application
   group: Participation and learning
   homepage: 'https://www.geodesignhub.com/'
+open:
+  source: closed
+  data: unknown
+  api: 'yes'
+  participation: unknown
 domains:
   - people
 relations:

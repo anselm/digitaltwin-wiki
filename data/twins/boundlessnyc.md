@@ -19,6 +19,12 @@ twin:
   scale: city
   operational: 'yes'
   homepage: 'https://mehmetkeremturkcan.com/valdrada/'
+open:
+  source: open
+  data: partly
+  api: 'yes'
+  participation: unknown
+  licence: 'MIT (code); CC BY 4.0 (documentation); ODbL 1.0 (compiled city)'
 provenance:
   origin: agent
   sources:

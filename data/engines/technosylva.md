@@ -15,6 +15,11 @@ tool:
   form: Operational and planning applications
   group: Wildfire and risk
   homepage: 'https://technosylva.com/'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - fire
 relations:

@@ -15,6 +15,11 @@ tool:
   form: Spatial world model
   group: 3D cities and mapping
   homepage: 'https://www.worldlabs.ai/blog/atlas'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

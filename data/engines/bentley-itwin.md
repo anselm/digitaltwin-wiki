@@ -13,6 +13,11 @@ tool:
   form: Platform and SDK
   group: Infrastructure and assets
   homepage: 'https://www.bentley.com/software/itwin-platform/'
+open:
+  source: partly
+  data: unknown
+  api: 'yes'
+  participation: unknown
 provenance:
   origin: agent
   sources:

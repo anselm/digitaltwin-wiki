@@ -18,6 +18,11 @@ tool:
     https://www.mona.uwi.edu/mori/research-spotlight/wave-attenuation-natural-solutions-elkhorn-coral-wansec
   form: research project
   group: Wildlife and oceans
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

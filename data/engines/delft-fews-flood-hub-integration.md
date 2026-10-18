@@ -18,6 +18,11 @@ tool:
   group: Water and flooding
   homepage: >-
     https://oss.deltares.nl/web/delft-fews/-/delft-fews-now-supports-direct-import-of-google-floodhub-forecasts
+open:
+  source: unknown
+  data: unknown
+  api: 'yes'
+  participation: unknown
 provenance:
   origin: agent
   sources:

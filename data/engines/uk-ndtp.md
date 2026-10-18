@@ -17,6 +17,11 @@ tool:
   group: Infrastructure and assets
   homepage: >-
     https://www.gov.uk/government/collections/the-national-digital-twin-programme-ndtp
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: partly
 domains:
   - energy
 relations:

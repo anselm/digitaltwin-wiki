@@ -46,3 +46,11 @@ Overlay the plan on the land-cover map and list what each parcel changes from an
 ## Next
 
 [Find the data](/guides/find-the-data/). [Who Drinks the River?](/stories/computational-journalism-colorado-river-interactive/) shows a land-and-water question told as a playable story.
+
+![A landscape is several systems at once: energy, water, living systems and food and land, and the relationships between them.](/questions/land-use-change/landscape.svg)
+
+*A conceptual map of relationships a coupled model could examine. Connections vary by place, technology and season; arrow widths carry no quantities. Icons via Noun Project, CC BY 3.0.*
+
+![A national crop-type map of Czechia assembled from 2015 Sentinel and Landsat observations.](/questions/land-use-change/crops.jpg)
+
+*Crop types across Czechia from 2015 Sentinel and Landsat observations: classification that turns imagery into data a land-use model can use. Credit: ESA / DUE Sentinel-2 for Agriculture project; contains modified Copernicus Sentinel data (2015), [CC BY-SA 3.0 IGO](https://creativecommons.org/licenses/by-sa/3.0/igo/), [source](https://commons.wikimedia.org/wiki/File:Czech_Agriculture_from_Space_ESA360858.jpg).*

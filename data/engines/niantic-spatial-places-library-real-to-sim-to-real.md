@@ -17,6 +17,11 @@ tool:
   homepage: 'https://www.nianticspatial.com/blog/introducing-places-library-usdz'
   cost: 'by plan; one free sample scene'
   licence: unknown
+open:
+  source: unknown
+  data: partly
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

@@ -13,6 +13,11 @@ tool:
   group: Water and flooding
   homepage: >-
     https://www.deltares.nl/en/software-and-data/products/delft3d-flexible-mesh-suite
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - water
 relations:

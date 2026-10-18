@@ -16,6 +16,12 @@ tool:
   homepage: 'https://huggingface.co/ecmwf/aifs-single-1.0'
   licence: 'model weights CC BY 4.0; notebooks and scripts Apache 2.0'
   cost: free
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: unknown
+  licence: 'CC BY 4.0 (weights); Apache 2.0 (notebooks and scripts)'
 provenance:
   origin: agent
   sources:

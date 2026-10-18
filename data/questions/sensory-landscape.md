@@ -27,7 +27,7 @@ A road, a runway, a lit car park or a fence changes a place for everyone who can
 
 Noise and light propagate in ways that are well understood, and **propagation models** map them from sources across terrain and buildings. The harder half is the effect: what a given level does to a species or a neighbourhood, which comes from field studies rather than physics. Agent-based models of animal movement are used to ask what a barrier or a corridor does to where animals can go.
 
-This site does not yet list an engine for this question. [A frog chorus](/stories/a-frog-chorus/) is a short story of what one such study found, and [Blue Corridors](/data-sources/blue-corridors-bluecorridors-org/) is a map of whale migration routes with the threats laid alongside, the ocean version of the same question.
+On this site: [CadnaA](/engines/cadnaa/) for noise, [Radiance](/engines/radiance/) for light, [GRAL](/engines/gral/) for odour and pollutant dispersion, [Circuitscape](/engines/circuitscape/) for habitat connectivity and barriers, and [Walk Score](/engines/walk-score/) for how a place reads on foot. Each entry says what is open and what is not. [A frog chorus](/stories/a-frog-chorus/) is a short story of what one such study found, and [Blue Corridors](/data-sources/blue-corridors-bluecorridors-org/) is a map of whale migration routes with the threats laid alongside, the ocean version of the same question.
 
 ## What you need
 

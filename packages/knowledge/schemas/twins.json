@@ -16,6 +16,6 @@
     "story":        { "folder": "stories",      "fields": [] },
     "flow":         { "folder": "flows",        "fields": ["start", "steps", "end"] },
     "domain":       { "folder": "domains",      "fields": ["symbol", "colour", "colour_name", "credit", "order"] },
-    "section":      { "folder": "",             "fields": ["order", "nav"] }
+    "section":      { "folder": "",             "fields": ["order", "nav", "area"] }
   }
 }

@@ -17,6 +17,12 @@ tool:
   homepage: 'https://github.com/robbyant/lingbot-map'
   licence: Apache-2.0
   cost: free
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: unknown
+  licence: 'Apache-2.0'
 provenance:
   origin: agent
   sources:

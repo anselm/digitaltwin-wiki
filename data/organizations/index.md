@@ -1,12 +1,14 @@
 ---
 about:
   label: Organizations
-  description: "Companies, agencies, labs, programmes and the sites they run."
+  description: 'Companies, agencies, labs, programmes and the sites they run.'
   view: list
 section:
   order: 50
   nav: true
+  area: resources
 provenance:
   origin: human
   status: public
 ---
+

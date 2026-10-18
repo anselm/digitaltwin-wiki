@@ -17,6 +17,12 @@ tool:
   group: Wildlife and oceans
   licence: 'MIT (code); CC BY-NC-SA 4.0 (models and data)'
   cost: free
+open:
+  source: open
+  data: partly
+  api: unknown
+  participation: unknown
+  licence: 'MIT (code); CC BY-NC-SA 4.0 (models and data)'
 provenance:
   origin: agent
   sources:

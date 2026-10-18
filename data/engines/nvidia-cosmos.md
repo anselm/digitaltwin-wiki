@@ -17,6 +17,12 @@ tool:
   homepage: 'https://www.nvidia.com/en-us/ai/cosmos/'
   licence: 'OpenMDW 1.1 (Linux Foundation), as stated for the world foundation models'
   cost: 'models downloadable; hosted inference through NVIDIA services'
+open:
+  source: open
+  data: unknown
+  api: 'yes'
+  participation: unknown
+  licence: 'OpenMDW 1.1'
 provenance:
   origin: agent
   sources:

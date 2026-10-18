@@ -18,6 +18,12 @@ tool:
   group: 3D cities and mapping
   licence: 'CC BY-NC-SA 4.0 stated on the project page; the repositories show no licence file'
   cost: free
+open:
+  source: partly
+  data: open
+  api: unknown
+  participation: unknown
+  licence: 'CC BY-NC-SA 4.0 (project page); repositories show no licence file'
 provenance:
   origin: agent
   sources:

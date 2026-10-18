@@ -16,6 +16,11 @@ tool:
   group: Earth observation and AI
   homepage: 'https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/'
   cost: unknown
+open:
+  source: closed
+  data: unknown
+  api: 'yes'
+  participation: unknown
 provenance:
   origin: agent
   sources:

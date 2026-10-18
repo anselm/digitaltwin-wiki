@@ -12,6 +12,7 @@
     "vitals":     { "fields": ["series"] },
     "feed":       { "fields": ["url", "format", "filter", "match", "terms"] },
     "vocabulary": { "fields": ["terms"] },
+    "open":       { "fields": ["source", "data", "api", "participation", "licence", "note"] },
     "import":     { "fields": ["source", "id", "kind", "family", "priority", "verified", "posts", "posters"] },
     "relation":   { "fields": ["subject", "predicate", "object", "begins", "ends"] }
   },

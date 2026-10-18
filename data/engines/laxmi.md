@@ -17,6 +17,11 @@ tool:
   group: Weather and climate
   licence: unknown
   cost: unknown
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

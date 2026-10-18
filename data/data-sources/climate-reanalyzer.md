@@ -19,6 +19,12 @@ datasource:
   format: JSON, PNG charts
   homepage: 'https://climatereanalyzer.org/'
   cost: free, CC BY 4.0, source labels must stay visible
+open:
+  source: unknown
+  data: open
+  api: unknown
+  participation: unknown
+  licence: 'CC BY 4.0'
 domains:
   - climate
   - water

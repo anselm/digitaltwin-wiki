@@ -13,6 +13,11 @@ tool:
   form: Commercial platform
   group: 3D cities and mapping
   homepage: 'https://www.esri.com/en-us/arcgis/about-arcgis/overview'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

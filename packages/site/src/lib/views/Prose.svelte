@@ -1,11 +1,13 @@
 <script>
   import Card from '$lib/Card.svelte'
+  import Open from '$lib/Open.svelte'
   let { data } = $props()
 </script>
 <p class="mt-6 text-xs text-muted">{#each data.kinds as k, i}{i ? ', ' : ''}{k.label}{/each}{#if data.status !== 'public'} · {data.status}{/if}</p>
 <h1 class="text-3xl mt-1">{data.label}</h1>
 {#if data.description}<p class="text-muted text-lg mt-1">{data.description}</p>{/if}
 {#if data.chips.length}<p class="mt-2 flex gap-1 flex-wrap">{#each data.chips as c}<a href={c.url} class="text-xs text-ink px-1.5 rounded-sm" style="background:{c.colour}55">{c.label}</a>{/each}</p>{/if}
+{#if data.open}<p class="mt-2 text-xs text-muted">What is reusable: <Open open={data.open} full={true} />{#if data.open.note} <span>{data.open.note}</span>{/if}</p>{/if}
 {#if data.depiction}<img src={data.depiction} alt="" class="mt-4 max-w-full" />{/if}
 
 {#if data.flow}

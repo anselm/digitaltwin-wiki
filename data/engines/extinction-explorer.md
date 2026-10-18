@@ -18,6 +18,11 @@ tool:
   group: Wildlife and oceans
   homepage: >-
     https://community.esri.com/en/discussion/1720571/from-points-on-a-map-to-a-living-biological-network
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

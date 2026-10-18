@@ -18,6 +18,12 @@ datasource:
   access: ArcGIS Living Atlas feature service under the Esri Master License Agreement
   format: ArcGIS feature service
   homepage: 'https://www.arcgis.com/home/item.html?id=996576ae63d4499c924aabea1c3d3768'
+open:
+  source: unknown
+  data: partly
+  api: 'yes'
+  participation: unknown
+  licence: 'Esri Master License Agreement'
 provenance:
   origin: agent
   sources:

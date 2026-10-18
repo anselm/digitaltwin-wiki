@@ -18,6 +18,11 @@ tool:
   group: Wildfire and risk
   homepage: >-
     https://earthdaily.com/blog/earthdaily-expands-ai-powered-wildfire-risk-intelligence-across-the-western-u.s.-with-north-american-insurance-major
+open:
+  source: closed
+  data: closed
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

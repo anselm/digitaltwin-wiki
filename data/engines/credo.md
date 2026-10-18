@@ -14,6 +14,11 @@ tool:
   group: Infrastructure and assets
   homepage: >-
     https://cp.catapult.org.uk/project/climate-resilience-demonstrator-credo/
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

@@ -19,6 +19,12 @@ datasource:
   access: open; dataset on Zenodo (10.5281/zenodo.17654184), code on GitHub, browsable map
   format: tree crown polygons with genus labels; interactive web map
   homepage: 'https://nyctreegenusmap.com'
+open:
+  source: open
+  data: open
+  api: unknown
+  participation: unknown
+  licence: 'CC BY-NC-ND 4.0 (paper); dataset and code licences not stated'
 provenance:
   origin: agent
   sources:

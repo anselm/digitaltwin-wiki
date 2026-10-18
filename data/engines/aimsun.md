@@ -13,6 +13,11 @@ tool:
   form: Commercial simulation platform
   group: Transport and crowds
   homepage: 'https://www.aimsun.com/aimsun-live/'
+open:
+  source: closed
+  data: closed
+  api: unknown
+  participation: unknown
 domains:
   - mobility
 relations:

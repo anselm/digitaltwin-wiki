@@ -16,6 +16,11 @@ about:
 tool:
   form: survey vehicle
   group: Wildlife and oceans
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

@@ -15,6 +15,11 @@ tool:
   form: Operational platform
   group: Water and flooding
   homepage: 'https://www.xylem.com/en-us/brand/xylem-vue/'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - water
 relations:

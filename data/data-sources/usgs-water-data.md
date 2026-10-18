@@ -4,6 +4,11 @@ about:
   description: 'Stream, groundwater and other water observations.'
 datasource:
   homepage: 'https://waterdata.usgs.gov/'
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - water
 provenance:

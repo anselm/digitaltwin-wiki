@@ -14,6 +14,11 @@ tool:
   form: simulation framework
   group: Agents and system dynamics
   homepage: 'https://timelike.systems/'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: partly
 provenance:
   origin: agent
   sources:

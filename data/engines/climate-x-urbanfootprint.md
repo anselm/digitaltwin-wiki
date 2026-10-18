@@ -14,6 +14,11 @@ tool:
   form: Risk and spatial analytics
   group: Wildfire and risk
   homepage: 'https://www.climate-x.com/spectra'
+open:
+  source: closed
+  data: closed
+  api: 'yes'
+  participation: unknown
 domains:
   - fire
 provenance:

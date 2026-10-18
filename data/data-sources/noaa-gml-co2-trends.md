@@ -17,6 +17,12 @@ datasource:
   format: CSV, text, JSON
   homepage: 'https://gml.noaa.gov/ccgg/trends/'
   cost: free, US public domain; NOAA asks for a citation
+open:
+  source: unknown
+  data: open
+  api: unknown
+  participation: unknown
+  licence: 'US public domain'
 domains:
   - climate
 provenance:

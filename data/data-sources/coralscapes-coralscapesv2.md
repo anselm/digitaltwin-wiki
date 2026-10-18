@@ -19,6 +19,12 @@ datasource:
   access: open; V2 under Apache 2.0, V1 licence not stated; both on Hugging Face
   format: annotated images and video sequences, Hugging Face datasets
   homepage: 'https://josauder.github.io/coralscapesv2/'
+open:
+  source: unknown
+  data: open
+  api: unknown
+  participation: unknown
+  licence: 'Apache 2.0 (V2); V1 licence not stated'
 provenance:
   origin: agent
   sources:

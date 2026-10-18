@@ -13,6 +13,12 @@ tool:
   form: Open modeling platform
   group: Agents and system dynamics
   homepage: 'https://gama-platform.org/'
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: open
+  licence: 'GPL-3.0'
 domains:
   - people
 relations:

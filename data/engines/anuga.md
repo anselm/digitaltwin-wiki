@@ -17,6 +17,12 @@ tool:
   homepage: 'https://anuga.readthedocs.io/en/latest/'
   licence: Apache 2.0
   cost: free
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: open
+  licence: 'Apache 2.0'
 provenance:
   origin: agent
   sources:

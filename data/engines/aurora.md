@@ -17,6 +17,12 @@ tool:
   homepage: 'https://www.microsoft.com/en-us/research/project/aurora-forecasting/'
   licence: MIT
   cost: free
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: unknown
+  licence: 'MIT'
 provenance:
   origin: agent
   sources:

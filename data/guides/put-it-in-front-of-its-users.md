@@ -2,8 +2,8 @@
 about:
   label: Put it in front of its users
   description: >-
-    A model earns its keep when someone uses it to decide. Make the output fit
-    the meeting, the screen and the person, and watch them use it.
+    Make the output fit the meeting, the screen and the person who will use it,
+    then watch them use it.
 guide:
   stage: 8
 provenance:

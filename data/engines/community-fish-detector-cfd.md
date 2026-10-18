@@ -18,6 +18,12 @@ tool:
   homepage: 'https://github.com/filippovarini/community-fish-detector'
   licence: 'Apache 2.0 for the RF-DETR models; AGPL-3.0 for YOLOv12x'
   cost: free
+open:
+  source: open
+  data: open
+  api: unknown
+  participation: open
+  licence: 'Apache 2.0 (RF-DETR models); AGPL-3.0 (YOLOv12x)'
 provenance:
   origin: agent
   sources:

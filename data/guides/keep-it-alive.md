@@ -2,8 +2,8 @@
 about:
   label: Keep it alive
   description: >-
-    Most models should be retired after the decision. The few that live on need
-    an owner, a data feed, a check, and a budget, in writing.
+    Decide whether the model should live on after the decision. If it does, it
+    needs an owner, a data feed, a check and a budget, in writing.
 guide:
   stage: 9
 provenance:

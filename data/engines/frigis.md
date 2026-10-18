@@ -15,6 +15,11 @@ about:
 tool:
   group: Weather and climate
   homepage: 'https://frigis.eu/'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

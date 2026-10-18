@@ -13,6 +13,11 @@ tool:
   form: Public scientific program
   group: Weather and climate
   homepage: 'https://destination-earth.eu/'
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - climate
 relations:

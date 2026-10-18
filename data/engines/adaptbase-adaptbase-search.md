@@ -15,6 +15,11 @@ tool:
   homepage: 'https://www.adaptbase.us/'
   form: hosted knowledge graph with search, ontology viewer, API and MCP
   group: Weather and climate
+open:
+  source: partly
+  data: partly
+  api: 'yes'
+  participation: unknown
 provenance:
   origin: agent
   sources:

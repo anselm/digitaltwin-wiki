@@ -13,6 +13,11 @@ tool:
   form: Water-modeling applications
   group: Water and flooding
   homepage: 'https://www.dhigroup.com/sg/technologies/dhi-cityflow-live-treatment-plant'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - water
 relations:

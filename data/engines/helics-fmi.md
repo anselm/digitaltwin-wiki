@@ -14,6 +14,12 @@ tool:
   form: Co-simulation framework and standard
   group: Research infrastructure
   homepage: 'https://helics.org/'
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: unknown
+  licence: 'BSD-3-Clause (HELICS); CC BY-SA 4.0 (FMI specification); BSD-2-Clause (FMI reference code)'
 provenance:
   origin: agent
   sources:

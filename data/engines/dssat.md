@@ -13,6 +13,11 @@ tool:
   form: Crop-model suite
   group: Ecosystems and land
   homepage: 'https://dssat.net/'
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - food
 relations:

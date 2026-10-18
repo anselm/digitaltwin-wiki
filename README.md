@@ -59,17 +59,19 @@ arrive, and are not who the site is for.
 
 ## How it is arranged
 
-- **Questions.** The questions a model of a place can help answer, each
-  split into what it is really asking, the kind of model that answers it,
-  the data it needs, what to do without a model, and what to do next.
-  Start here if you have a problem.
 - **Guides.** Nine stages, in order, from naming the question to keeping
   the model alive, written for the person with a mandate.
+- **Use cases.** Questions people bring to a model of a place, each split
+  into what it is really asking, the kind of model that answers it, the
+  data it needs, what to do without a model, and what to do next.
 - **Engines.** Tools, platforms and models, shelved by the task a guest is
   trying to do: water and flooding, transport and crowds, weather and
   climate, 3D cities and mapping, and so on. Each entry says who makes it,
   what it is used for, how it runs and whether it is open.
-- **Digital twins.** Real projects for real places, and whether they run.
+- **Notable twins.** Models of real places that people run and publish.
+  Every twin, engine and data source carries an `open` block on the three
+  Open³ axes (opencubed.org), source, data and participation, plus whether
+  it has an API, so a reader can see what is reusable and what is closed.
 - **Data.** Sources a model can be fed with: what they cover, how to get
   them, on what terms.
 - **Books, articles, terminology, organizations, events, stories.** The
@@ -83,6 +85,10 @@ Everything is also published for machines: `llms.txt`, `index.json` and
 `/m/<id>.md`.
 
 ## How it is made
+
+The sidebar reads in areas: what is new, practice (guides, use cases,
+notable twins), technologies (engines, data), theory (books, articles,
+terminology) and resources.
 
 Entries live in `data/` as markdown with YAML frontmatter. Each top-level
 key is a component; the kind of a thing (tool, twin, datasource, guide,
@@ -116,6 +122,7 @@ write anything, in this order:
    the benchmark the site is measured against.
 4. The tail of `devlog/`: the most recent entries say what is in flight
    and what is the owner's to decide.
+5. `todo.md`: the one open list, who each item waits on.
 
 The devlog is the project's memory and its method. Thinking goes in dated
 entries, `devlog/YYYYMMDD-topic.md`, never in an undated "canonical" file,

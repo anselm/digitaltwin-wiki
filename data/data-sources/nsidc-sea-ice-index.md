@@ -18,6 +18,11 @@ datasource:
   format: CSV, GeoTIFF, PNG
   homepage: 'https://nsidc.org/data/g02135/versions/4'
   cost: free; cite the Sea Ice Index, DOI 10.7265/a98x-0f50
+open:
+  source: unknown
+  data: open
+  api: unknown
+  participation: unknown
 domains:
   - climate
   - water

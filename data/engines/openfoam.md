@@ -17,6 +17,12 @@ tool:
   homepage: 'https://www.openfoam.com/'
   licence: GPL v3
   cost: free
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: unknown
+  licence: 'GPL-3.0'
 provenance:
   origin: agent
   sources:

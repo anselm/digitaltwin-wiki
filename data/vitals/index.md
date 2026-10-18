@@ -1,7 +1,9 @@
 ---
 about:
   label: Vitals
-  description: "Six running measurements of the planet's state, refreshed from their sources at every deploy."
+  description: >-
+    Six running measurements of the planet's state, refreshed from their sources
+    at every deploy.
   view: vitals
   tags:
     - climate
@@ -12,6 +14,7 @@ about:
 section:
   order: 95
   nav: true
+  area: resources
 vitals:
   series:
     - co2
@@ -36,12 +39,12 @@ relations:
 provenance:
   origin: agent
   sources:
-    - title: Climate Reanalyzer, Daily Sea Surface Temperature
-      url: https://climatereanalyzer.org/clim/sst_daily/
-    - title: NOAA GML, Trends in CO2
-      url: https://gml.noaa.gov/ccgg/trends/
-    - title: NSIDC Sea Ice Index, Version 4
-      url: https://nsidc.org/data/g02135/versions/4
+    - title: 'Climate Reanalyzer, Daily Sea Surface Temperature'
+      url: 'https://climatereanalyzer.org/clim/sst_daily/'
+    - title: 'NOAA GML, Trends in CO2'
+      url: 'https://gml.noaa.gov/ccgg/trends/'
+    - title: 'NSIDC Sea Ice Index, Version 4'
+      url: 'https://nsidc.org/data/g02135/versions/4'
   created: '2026-10-17'
   reviewed: '2026-10-17'
   reviewed_by: 'Claude, from the sources listed'

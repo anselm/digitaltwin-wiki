@@ -1,4 +1,4 @@
-# twin-compendium
+# digitaltwin-wiki (folder: twin-compendium)
 
 Project-specific orientation only. House policy (devlog, git, UX, writing,
 deploy) comes from the harness and is not repeated here.
@@ -26,7 +26,7 @@ Three things Anselm said on 2026-10-18 that shape every choice here:
 
 ## Where things are
 
-- Code: this folder. Repo: `anselm/twin-compendium`.
+- Code: this folder. Repo: `anselm/digitaltwin-wiki` (renamed from twin-compendium on 2026-10-18; the local folder keeps the old name).
 - Principles, the bar an entry must clear, and how to write one:
   `devlog/20261015-principles.md`. Who the site is for, as stories:
   `devlog/20261018-patrons.md`. The data model:

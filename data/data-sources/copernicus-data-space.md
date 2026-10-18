@@ -4,6 +4,11 @@ about:
   description: Satellite observations and Earth-observation processing.
 datasource:
   homepage: 'https://dataspace.copernicus.eu/'
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: survey
   sources:

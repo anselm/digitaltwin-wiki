@@ -17,6 +17,11 @@ tool:
   homepage: 'https://www.ecosphereblue.earth/'
   cost: unknown
   licence: unknown
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

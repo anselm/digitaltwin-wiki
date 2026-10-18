@@ -16,6 +16,11 @@ tool:
   form: Planning and environmental applications
   group: 3D cities and mapping
   homepage: 'https://www.vu.city/'
+open:
+  source: closed
+  data: partly
+  api: 'yes'
+  participation: unknown
 domains:
   - places
 provenance:

@@ -14,6 +14,11 @@ tool:
   form: Research infrastructure and methods
   group: Research infrastructure
   homepage: 'https://www.dafni.ac.uk/'
+open:
+  source: unknown
+  data: partly
+  api: unknown
+  participation: partly
 provenance:
   origin: agent
   sources:

@@ -17,6 +17,11 @@ tool:
   group: 3D cities and mapping
   cost: unknown
   licence: unknown
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

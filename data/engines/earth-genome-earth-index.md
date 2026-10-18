@@ -13,6 +13,11 @@ tool:
   form: Nonprofit application and research
   group: Earth observation and AI
   homepage: 'https://www.earthgenome.org/earth-index'
+open:
+  source: closed
+  data: unknown
+  api: unknown
+  participation: unknown
 domains:
   - food
 relations:

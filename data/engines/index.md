@@ -1,12 +1,14 @@
 ---
 about:
   label: Engines
-  description: "Engines, platforms and models that twins are built with."
+  description: 'Engines, platforms and models that twins are built with.'
   view: list
 section:
   order: 20
   nav: true
+  area: technologies
 provenance:
   origin: human
   status: public
 ---
+

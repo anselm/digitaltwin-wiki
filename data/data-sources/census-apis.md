@@ -4,6 +4,11 @@ about:
   description: Demographic and socioeconomic datasets.
 datasource:
   homepage: 'https://www.census.gov/data/developers/data-sets.html'
+open:
+  source: unknown
+  data: unknown
+  api: 'yes'
+  participation: unknown
 provenance:
   origin: survey
   sources:

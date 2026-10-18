@@ -18,6 +18,12 @@ tool:
   homepage: 'https://github.com/ConservationDronesAI/DroneMegaDetector'
   licence: MIT
   cost: free
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: unknown
+  licence: 'MIT'
 provenance:
   origin: agent
   sources:

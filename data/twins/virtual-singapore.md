@@ -18,6 +18,11 @@ twin:
   operational: 'yes'
   form: Platform and national project
   homepage: 'https://www.3ds.com/insights/customer-stories/virtual-singapore'
+open:
+  source: closed
+  data: closed
+  api: unknown
+  participation: closed
 provenance:
   origin: agent
   sources:

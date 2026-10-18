@@ -15,6 +15,12 @@ about:
 tool:
   group: Wildlife and oceans
   homepage: 'https://wildflow.ai/'
+open:
+  source: open
+  data: partly
+  api: unknown
+  participation: unknown
+  licence: 'MIT'
 provenance:
   origin: agent
   sources:

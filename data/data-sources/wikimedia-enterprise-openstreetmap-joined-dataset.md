@@ -22,6 +22,12 @@ datasource:
   format: Parquet and GeoParquet
   homepage: >-
     https://huggingface.co/datasets/wikimedia/linked-openstreetmap-wikidata-wikipedia-wikivoyage
+open:
+  source: unknown
+  data: open
+  api: unknown
+  participation: unknown
+  licence: 'CC0 (links and Wikidata tables); ODbL (OpenStreetMap table); CC BY-SA 4.0 (Wikipedia and Wikivoyage tables)'
 provenance:
   origin: agent
   sources:

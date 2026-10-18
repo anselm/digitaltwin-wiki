@@ -18,6 +18,12 @@ tool:
   homepage: 'https://github.com/google-research/population-dynamics'
   licence: 'Apache 2.0 (code); embeddings under Google Terms of Service'
   cost: 'free for approved research use; paid early access for commercial and public-sector use'
+open:
+  source: partly
+  data: partly
+  api: unknown
+  participation: unknown
+  licence: 'Apache 2.0 (code); embeddings under Google Terms of Service'
 provenance:
   origin: agent
   sources:

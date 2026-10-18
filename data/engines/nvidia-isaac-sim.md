@@ -17,6 +17,12 @@ tool:
   homepage: 'https://developer.nvidia.com/isaac/sim'
   licence: 'Apache-2.0, with an NVIDIA additional software and materials licence'
   cost: free
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: unknown
+  licence: 'Apache-2.0, with an NVIDIA additional software and materials licence'
 provenance:
   origin: agent
   sources:

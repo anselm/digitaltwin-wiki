@@ -18,6 +18,12 @@ tool:
   homepage: 'https://github.com/monocongo/climate_indices'
   licence: BSD-3-Clause
   cost: free
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: unknown
+  licence: 'BSD-3-Clause'
 provenance:
   origin: agent
   sources:

@@ -15,6 +15,12 @@ tool:
   form: Open energy-system models
   group: Energy and utilities
   homepage: 'https://pypsa.org/'
+open:
+  source: open
+  data: open
+  api: unknown
+  participation: open
+  licence: 'MIT'
 domains:
   - energy
 relations:
@@ -38,3 +44,7 @@ The framework covers economic dispatch, linear and security-constrained optimal 
 Both are free under the MIT licence for academic and commercial use. PyPSA-Eur restricts itself to freely available data and ships an automated workflow that assembles the model from the original datasets; it is tested on Linux, macOS and Windows (WSL). Open-source solvers such as HiGHS work, though the project recommends commercial solvers for very large problems. Paid support is available from several consultancies.
 
 Status: in active development; the PyPSA-Eur documentation warns that the model has known limitations and is under active development, and the community held a user meeting in June 2026.
+
+![European electricity infrastructure as represented in PyPSA-Eur: transmission links and generation technologies.](/engines/pypsa-pypsa-eur/power.png)
+
+*European electricity infrastructure in PyPSA-Eur (2022): the network on which energy scenarios are calculated. Credit: Fabian Hofmann, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [source](https://commons.wikimedia.org/wiki/File:European_power_system_infrastructure.png).*

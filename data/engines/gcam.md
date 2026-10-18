@@ -13,6 +13,11 @@ tool:
   form: Integrated assessment model
   group: Ecosystems and land
   homepage: 'https://jgcri.github.io/gcam-doc/'
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: open
 domains:
   - food
 relations:

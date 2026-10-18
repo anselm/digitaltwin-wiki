@@ -36,7 +36,7 @@ export function load({ params }) {
     return { ...base, aliases: e.about.aliases || [], figure,
       pinned: store.entities.filter((a) => a.about?.pinned).sort((a, b) => a.about.pinned - b.about.pinned).map(line),
       recent: store.recent(12).filter((r) => r.id && !r.section && !('domain' in r) && !r.about?.pinned).slice(0, 8).map(line),
-      sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), count: store.descendants(s.id).length })),
+      sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), area: s.section.area || 'resources', count: store.descendants(s.id).length })),
       domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
   }
   if (view === 'vitals') return { ...base, vitals: charts(e.vitals?.series || []), dims: { W, H, P } }
@@ -60,6 +60,6 @@ export function load({ params }) {
   }
   // prose and flow: the entry itself, its kind fields, relations and provenance
   const kinds = store.kindsOf(e).map((k) => ({ label: kindLabel(k), fields: Object.entries(e[k] || {}).filter(([f, v]) => v !== undefined && v !== null && v !== '' && !['steps', 'start', 'end', 'order'].includes(f)).map(([f, v]) => ({ field: f.replace(/_/g, ' '), value: Array.isArray(v) ? v.join(', ') : String(v), url: /^https?:/.test(String(v)) ? String(v) : null })) }))
-  return { ...base, kinds, chips: chips(e), related: store.related(id).map((g) => ({ label: g.label, items: g.items.map((i) => ({ ...card(i.entity), note: i.note })) })),
+  return { ...base, kinds, chips: chips(e), open: e.open || null, related: store.related(id).map((g) => ({ label: g.label, items: g.items.map((i) => ({ ...card(i.entity), note: i.note })) })),
     provenance: e.provenance || {}, flow: e.flow || null, depiction: e.about.depiction ? (/^https?:/.test(e.about.depiction) ? e.about.depiction : `/${e.dir ? e.dir + '/' : ''}${e.about.depiction}`) : null }
 }

@@ -17,6 +17,11 @@ datasource:
   access: public web map; GeoJSON from the site's own API
   format: GeoJSON
   homepage: 'https://orcapelago.brightrain.com/'
+open:
+  source: unknown
+  data: open
+  api: 'yes'
+  participation: unknown
 provenance:
   origin: agent
   sources:

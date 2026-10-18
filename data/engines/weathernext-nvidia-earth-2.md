@@ -16,6 +16,11 @@ tool:
   form: Forecast models and services
   group: Weather and climate
   homepage: 'https://deepmind.google/science/weathernext/'
+open:
+  source: partly
+  data: open
+  api: 'yes'
+  participation: unknown
 domains:
   - climate
 relations:

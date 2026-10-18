@@ -3,7 +3,7 @@ about:
   label: Name the question
   description: >-
     Write down the one question the model must answer, who will act on the
-    answer, and what they will do differently. Most projects fail here.
+    answer, and what they will do differently.
   pinned: 2
 guide:
   stage: 1

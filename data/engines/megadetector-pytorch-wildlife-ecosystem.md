@@ -19,6 +19,12 @@ tool:
   homepage: 'https://microsoft.github.io/Biodiversity/'
   licence: 'MIT for the code; model weights vary by variant (MIT, Apache-2.0, AGPL-3.0 or CC BY-NC-SA 4.0)'
   cost: free
+open:
+  source: open
+  data: partly
+  api: unknown
+  participation: unknown
+  licence: 'MIT (code); weights vary by variant (MIT, Apache-2.0, AGPL-3.0 or CC BY-NC-SA 4.0)'
 provenance:
   origin: agent
   sources:

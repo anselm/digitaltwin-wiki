@@ -15,6 +15,11 @@ tool:
   form: field restoration pilot
   group: Ecosystems and land
   homepage: 'https://blog.nature.org/2026/08/17/reforesting-the-gran-chaco-with-drones/'
+open:
+  source: unknown
+  data: unknown
+  api: unknown
+  participation: unknown
 provenance:
   origin: agent
   sources:

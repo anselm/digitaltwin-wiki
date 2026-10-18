@@ -19,6 +19,12 @@ twin:
   form: Municipal programs
   homepage: >-
     https://www.hel.fi/en/decision-making/information-on-helsinki/maps-and-geospatial-data/helsinki-3d
+open:
+  source: unknown
+  data: partly
+  api: unknown
+  participation: partly
+  licence: 'CC BY 4.0 (Helsinki 3D mesh)'
 provenance:
   origin: agent
   sources:

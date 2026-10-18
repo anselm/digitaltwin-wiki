@@ -17,6 +17,12 @@ tool:
   form: hosted platform
   group: Water and flooding
   cost: 'free for public models; paid for private collaboration and expert review'
+open:
+  source: partly
+  data: partly
+  api: unknown
+  participation: unknown
+  licence: 'MIT (run_anuga)'
 provenance:
   origin: agent
   sources:

@@ -2,8 +2,8 @@
 about:
   label: Check it against what happened
   description: >-
-    Run the model on a past event and compare it with what actually happened. A
-    model nobody has checked is a drawing.
+    Run the model on a past event and compare it with what actually happened,
+    before anyone decides on it.
 guide:
   stage: 6
 provenance:

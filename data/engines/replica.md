@@ -14,6 +14,11 @@ tool:
   form: Data and scenario platform
   group: Transport and crowds
   homepage: 'https://replicahq.com/'
+open:
+  source: closed
+  data: closed
+  api: unknown
+  participation: unknown
 domains:
   - mobility
 provenance:

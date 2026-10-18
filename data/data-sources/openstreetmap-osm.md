@@ -18,6 +18,12 @@ datasource:
   resolution: individual map features with geometry and tags
   access: 'open data under the ODbL, with attribution and share-alike'
   homepage: 'https://www.openstreetmap.org/'
+open:
+  source: unknown
+  data: open
+  api: unknown
+  participation: open
+  licence: 'ODbL'
 provenance:
   origin: agent
   sources:

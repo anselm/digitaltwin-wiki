@@ -15,13 +15,19 @@
 <nav id="contents" class="{panel} fixed top-0 left-0 bottom-0 z-30 w-64 overflow-auto bg-paper/95 backdrop-blur border-r border-line px-4 pt-12 pb-6 text-sm">
   <a href="/" class="display text-lg text-ink leading-tight block">{data.site.label}</a>
   <p class="text-muted text-xs mt-0.5 leading-snug">{data.site.description}</p>
-  <ul class="mt-5">
-    {#each data.sections as s}
-      <li><a href={s.url} class="flex justify-between py-1 text-ink hover:text-accent"><span>{s.label}</span><span class="text-muted tabular">{s.count || ''}</span></a></li>
-    {/each}
-  </ul>
+  {#each data.areas as [area, label]}
+    {@const ss = data.sections.filter((s) => s.area === area)}
+    {#if ss.length}
+      <p class="mt-4 text-[0.65rem] uppercase tracking-wider text-muted">{label}</p>
+      <ul>
+        {#each ss as s}
+          <li><a href={s.url} class="flex justify-between py-1 text-ink hover:text-accent"><span>{s.label}</span><span class="text-muted tabular">{s.count || ''}</span></a></li>
+        {/each}
+      </ul>
+    {/if}
+  {/each}
   <p class="mt-6 pt-3 border-t border-line text-xs text-muted leading-relaxed">
-    Contributions come in through <a href="https://github.com/anselm/twin-compendium">GitHub</a>.<br />
+    Contributions come in through <a href="https://github.com/anselm/digitaltwin-wiki">GitHub</a>.<br />
     For AI assistants: <a href="/llms.txt">llms.txt</a>, <a href="/index.json">index.json</a>, <a href="/graph.json">graph.json</a>; every entry is markdown at /m/&lt;id&gt;.md.
   </p>
 </nav>

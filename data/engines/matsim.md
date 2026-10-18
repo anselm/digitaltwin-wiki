@@ -13,6 +13,11 @@ tool:
   form: Open simulation framework
   group: Transport and crowds
   homepage: 'https://matsim.org/'
+open:
+  source: open
+  data: unknown
+  api: unknown
+  participation: open
 domains:
   - mobility
 relations:

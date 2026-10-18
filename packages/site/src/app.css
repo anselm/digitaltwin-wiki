@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 /* Page palette from the survey (light), with the paper changed to an off-white cream on Anselm's say (2026-10-17) so the Bay Layers scene and the page share one colour. Dark values are Claude's, derived from the light palette; not designed by Anselm. */
-:root { --ink: #17333b; --muted: #45616a; --paper: #f8f4ec; --line: #d8d1c3; --accent: #256768; --wash: #efe9dc; --focus: #b66c20; }
+:root { --ink: #17333b; --muted: #45616a; --paper: #f8f4ec; --line: #d8d1c3; --accent: #256768; --wash: #efe9dc; --focus: #b66c20; --open: #d7e8cf; }
 @media (prefers-color-scheme: dark) {
-  :root { --ink: #e4edec; --muted: #9fb4b6; --paper: #0f1b1e; --line: #27393d; --accent: #7cc3c0; --wash: #15262a; --focus: #e2a25f; }
+  :root { --ink: #e4edec; --muted: #9fb4b6; --paper: #0f1b1e; --line: #27393d; --accent: #7cc3c0; --wash: #15262a; --focus: #e2a25f; --open: #1f3a2a; }
 }
 @theme inline {
   --color-ink: var(--ink); --color-muted: var(--muted); --color-paper: var(--paper);
-  --color-line: var(--line); --color-accent: var(--accent); --color-wash: var(--wash); --color-focus: var(--focus);
+  --color-line: var(--line); --color-accent: var(--accent); --color-wash: var(--wash); --color-focus: var(--focus); --color-open: var(--open);
   --font-display: Georgia, "Times New Roman", serif;
   --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }

@@ -17,6 +17,11 @@ datasource:
   access: free web map, no login; data contributions by contact with the initiative
   format: interactive map with species, threat and protection layers
   homepage: 'https://bluecorridors.org'
+open:
+  source: unknown
+  data: partly
+  api: unknown
+  participation: partly
 provenance:
   origin: agent
   sources:

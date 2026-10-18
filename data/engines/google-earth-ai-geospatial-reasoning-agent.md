@@ -16,6 +16,11 @@ tool:
   homepage: 'https://sites.research.google/gr/geospatial-reasoning/'
   form: experimental agent
   group: Earth observation and AI
+open:
+  source: closed
+  data: unknown
+  api: 'yes'
+  participation: unknown
 provenance:
   origin: agent
   sources:
