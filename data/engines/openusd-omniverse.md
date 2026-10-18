@@ -13,6 +13,7 @@ about:
     - omniverse
 tool:
   form: open scene-description standard and library
+  group: 3D cities and mapping
   homepage: 'https://openusd.org/release/index.html'
   cost: free
 provenance:

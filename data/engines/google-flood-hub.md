@@ -16,6 +16,7 @@ about:
 tool:
   homepage: 'https://sites.research.google/floods/'
   form: hosted forecast service
+  group: Water and flooding
   cost: free
 provenance:
   origin: agent

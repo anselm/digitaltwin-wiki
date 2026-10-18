@@ -13,6 +13,7 @@ about:
     - native trees
 tool:
   form: field restoration pilot
+  group: Ecosystems and land
   homepage: 'https://blog.nature.org/2026/08/17/reforesting-the-gran-chaco-with-drones/'
 provenance:
   origin: agent

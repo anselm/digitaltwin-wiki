@@ -15,6 +15,7 @@ about:
     - marshall islands
 tool:
   form: survey vehicle
+  group: Wildlife and oceans
 provenance:
   origin: agent
   sources:

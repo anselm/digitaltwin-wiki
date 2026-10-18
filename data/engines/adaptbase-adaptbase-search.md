@@ -14,6 +14,7 @@ about:
 tool:
   homepage: 'https://www.adaptbase.us/'
   form: hosted knowledge graph with search, ontology viewer, API and MCP
+  group: Weather and climate
 provenance:
   origin: agent
   sources:

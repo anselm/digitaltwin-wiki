@@ -14,6 +14,7 @@ about:
     - video
 tool:
   form: research model
+  group: 3D cities and mapping
   homepage: 'https://github.com/facebookresearch/vggt-omega'
   licence: noncommercial research licence
   cost: free

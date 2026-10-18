@@ -15,6 +15,7 @@ about:
     - google
 tool:
   form: platform feature
+  group: Water and flooding
   homepage: >-
     https://oss.deltares.nl/web/delft-fews/-/delft-fews-now-supports-direct-import-of-google-floodhub-forecasts
 provenance:

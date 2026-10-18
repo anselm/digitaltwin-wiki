@@ -13,6 +13,7 @@ about:
     - spatial computing
 tool:
   form: hosted service with SDKs
+  group: 3D cities and mapping
   homepage: 'https://multiset.ai/drone-to-vps'
   cost: 'free tier; usage-based pricing for production'
 provenance:

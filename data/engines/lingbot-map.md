@@ -13,6 +13,7 @@ about:
     - open source
 tool:
   form: open-source model
+  group: 3D cities and mapping
   homepage: 'https://github.com/robbyant/lingbot-map'
   licence: Apache-2.0
   cost: free

@@ -14,6 +14,7 @@ about:
     - foundation model
 tool:
   form: geospatial foundation model with released embeddings
+  group: Earth observation and AI
   homepage: 'https://github.com/google-research/population-dynamics'
   licence: 'Apache 2.0 (code); embeddings under Google Terms of Service'
   cost: 'free for approved research use; paid early access for commercial and public-sector use'

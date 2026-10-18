@@ -13,6 +13,7 @@ about:
     - usd
 tool:
   form: hosted asset catalogue
+  group: 3D cities and mapping
   homepage: 'https://www.nianticspatial.com/blog/introducing-places-library-usdz'
   cost: 'by plan; one free sample scene'
   licence: unknown

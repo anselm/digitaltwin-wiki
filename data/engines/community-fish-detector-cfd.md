@@ -14,6 +14,7 @@ about:
     - open weights
 tool:
   form: open-source detection model
+  group: Wildlife and oceans
   homepage: 'https://github.com/filippovarini/community-fish-detector'
   licence: 'Apache 2.0 for the RF-DETR models; AGPL-3.0 for YOLOv12x'
   cost: free

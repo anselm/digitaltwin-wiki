@@ -15,6 +15,7 @@ about:
 tool:
   homepage: 'https://umfieldrobotics.github.io/SurfSLAM/'
   form: research code
+  group: 3D cities and mapping
   licence: 'CC BY-NC-SA 4.0 stated on the project page; the repositories show no licence file'
   cost: free
 provenance:

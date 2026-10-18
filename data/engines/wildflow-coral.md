@@ -13,6 +13,7 @@ about:
     - monitoring
     - open source
 tool:
+  group: Wildlife and oceans
   homepage: 'https://wildflow.ai/'
 provenance:
   origin: agent

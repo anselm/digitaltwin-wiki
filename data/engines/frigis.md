@@ -13,6 +13,7 @@ about:
     - germany
     - planning
 tool:
+  group: Weather and climate
   homepage: 'https://frigis.eu/'
 provenance:
   origin: agent

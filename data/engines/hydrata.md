@@ -15,6 +15,7 @@ about:
 tool:
   homepage: 'https://hydrata.com/'
   form: hosted platform
+  group: Water and flooding
   cost: 'free for public models; paid for private collaboration and expert review'
 provenance:
   origin: agent

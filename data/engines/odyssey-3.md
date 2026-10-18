@@ -14,6 +14,7 @@ about:
 tool:
   homepage: 'https://odyssey.systems/meet-odyssey-3'
   form: hosted world model
+  group: 3D cities and mapping
   cost: unknown
   licence: unknown
 provenance:

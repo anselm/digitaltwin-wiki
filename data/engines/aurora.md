@@ -13,6 +13,7 @@ about:
     - waves
 tool:
   form: open-source foundation model
+  group: Weather and climate
   homepage: 'https://www.microsoft.com/en-us/research/project/aurora-forecasting/'
   licence: MIT
   cost: free

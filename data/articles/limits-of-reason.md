@@ -2,7 +2,6 @@
 about:
   label: "The limits of reason: ecological frontiers"
   description: ""
-  pinned: 3
 article: {}
 provenance:
   origin: human

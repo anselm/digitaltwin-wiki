@@ -2,11 +2,15 @@
 about:
   label: Bay Layers
   description: >-
-    A layered portrait of San Francisco Bay that explains a digital twin as
-    four shared geographic layers: earth and seabed, natural forces, living
-    systems and the built world.
+    A layered portrait of San Francisco Bay that explains a digital twin as four
+    shared geographic layers: earth and seabed, natural forces, living systems
+    and the built world.
   depiction: poster.jpg
-domains: [places, water, ecology]
+  pinned: 5
+domains:
+  - places
+  - water
+  - ecology
 twin:
   place: San Francisco Bay
   scale: Bay Area
@@ -15,11 +19,11 @@ twin:
 provenance:
   origin: human
   sources:
-    - title: 'anselm/bay-area-twin on GitHub'
+    - title: anselm/bay-area-twin on GitHub
       url: 'https://github.com/anselm/bay-area-twin'
-    - title: 'Source manifest for the scene'
+    - title: Source manifest for the scene
       url: 'https://anselm.github.io/bay-area-twin/assets/sources.json'
-  created: 2026-10-17
+  created: 2026-10-17T00:00:00.000Z
   status: proposed
 ---
 

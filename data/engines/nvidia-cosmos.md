@@ -13,6 +13,7 @@ about:
     - video generation
 tool:
   form: foundation models and tooling
+  group: 3D cities and mapping
   homepage: 'https://www.nvidia.com/en-us/ai/cosmos/'
   licence: 'OpenMDW 1.1 (Linux Foundation), as stated for the world foundation models'
   cost: 'models downloadable; hosted inference through NVIDIA services'

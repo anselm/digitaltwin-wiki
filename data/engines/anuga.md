@@ -13,6 +13,7 @@ about:
     - python
 tool:
   form: open-source hydrodynamic solver (Python with C extensions)
+  group: Water and flooding
   homepage: 'https://anuga.readthedocs.io/en/latest/'
   licence: Apache 2.0
   cost: free

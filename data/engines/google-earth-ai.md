@@ -15,6 +15,7 @@ about:
 tool:
   homepage: 'https://ai.google/earth-ai'
   form: model family
+  group: Earth observation and AI
 provenance:
   origin: agent
   sources:

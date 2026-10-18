@@ -13,6 +13,7 @@ about:
     - open source
 tool:
   form: open-source simulation framework
+  group: 3D cities and mapping
   homepage: 'https://developer.nvidia.com/isaac/sim'
   licence: 'Apache-2.0, with an NVIDIA additional software and materials licence'
   cost: free

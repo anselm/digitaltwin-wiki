@@ -13,6 +13,7 @@ about:
     - carbon credits
 tool:
   form: hosted assessment service
+  group: Ecosystems and land
   homepage: 'https://www.ecosphereblue.earth/'
   cost: unknown
   licence: unknown

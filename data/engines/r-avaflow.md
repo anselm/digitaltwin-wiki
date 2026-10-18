@@ -14,6 +14,7 @@ about:
     - grass gis
 tool:
   form: open-source simulation tool
+  group: Wildfire and risk
   homepage: 'https://www.landslidemodels.org/r.avaflow/'
   cost: 'non-commercial; no regular support'
 provenance:

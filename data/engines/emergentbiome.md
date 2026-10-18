@@ -15,6 +15,7 @@ about:
     - mrv
 tool:
   form: research platform
+  group: Ecosystems and land
   homepage: 'https://emergentbiome.earth/'
 provenance:
   origin: agent

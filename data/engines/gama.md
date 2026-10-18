@@ -2,29 +2,37 @@
 about:
   label: GAMA
   description: >-
-    Spatial agent-based models for urban mobility, evacuation, environmental and
-    other applications.
+    Open-source environment for building and running spatially explicit
+    agent-based simulations; used for urban mobility, evacuation, epidemics,
+    climate adaptation and planning.
+  tags:
+    - agent-based
+    - GIS
+    - simulation
 tool:
   form: Open modeling platform
-  group: Simulation engines
-  audiences:
-    - research
-    - government
-  homepage: 'https://gama-platform.org/wiki/Home'
+  group: Agents and system dynamics
+  homepage: 'https://gama-platform.org/'
 domains:
   - people
 relations:
   - predicate: answers
     target: questions/crowds-and-evacuation
 provenance:
-  origin: survey
+  origin: agent
   sources:
-    - title: 'GAMA: spatial agent-based modeling'
+    - title: GAMA Platform
+      url: 'https://gama-platform.org/'
+    - title: GAMA
       url: 'https://gama-platform.org/wiki/Home'
-  reviewed: 2026-09
-  reviewed_by: 'survey draft, not yet rechecked'
+  reviewed: '2026-10-18'
+  reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Model construction and experimentation using geographic data.
+GAMA is an open-source environment for writing and running agent-based simulations in which agents live in a geographic space. Models are written in GAML, an agent-oriented language that runs on Java and is meant to be usable by people who are not computer scientists; the platform ships with hundreds of example models and tutorials, and its developers have answered a mailing list since 2007. The reference paper is Taillandier et al., Geoinformatica 2019.
 
-Open modeling platform. Listed in the survey under "Simulation engines". Audiences named there: research, government.
+Its users build models for urban mobility, climate-change adaptation, epidemiology, evacuation planning and urban planning, both as scientific simulations and as scenario explorers, negotiation aids, serious games and communication tools. A model can load GIS data (shapefiles, OpenStreetMap, grids, images, CSV, 3D files) directly as the agents' environment, connect to databases and to R or Python, and run batch explorations and calibrations across its parameter space. Displays can be 2D or 3D with interactive panels, and plugins extend the platform.
+
+Free software under GPL v3, downloaded as a desktop application or built from source on GitHub.
+
+Maintained; the current version is labelled 2025-06, and a GAMA Days online meeting is scheduled for 23-25 November 2026.

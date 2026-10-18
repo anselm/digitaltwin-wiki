@@ -25,8 +25,8 @@ flow:
       'yes': Use it today
       to: /engines/en-roads
       note: >-
-        En-ROADS is free in a browser: combine climate policies and see the
-        modeled effect.
+        En-ROADS runs in a browser: move the sliders for climate policies and
+        see the modeled effect.
     - ask: 'Have data, and someone who can code a little?'
       'yes': Adapt an open model
       to: /engines/invest
@@ -35,7 +35,7 @@ flow:
     label: 'Build one, or have it built'
     sub: follow the nine stages
     to: /guides
-    note: The nine stages are not written yet.
+    note: 'Nine guides, read in order.'
 provenance:
   origin: agent
   reviewed: '2026-10-02'

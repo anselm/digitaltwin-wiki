@@ -40,7 +40,15 @@ export function load({ params }) {
       domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
   }
   if (view === 'vitals') return { ...base, vitals: charts(e.vitals?.series || []), dims: { W, H, P } }
-  if (view === 'list') return { ...base, items: store.children(id).map((c) => ({ ...card(c), chips: chips(c) })) }
+  if (view === 'list') {
+    // Guides read in stage order; engines are shelved by the task a guest is trying to do (tool.group).
+    const kids = store.children(id)
+    const staged = kids.every((c) => c.guide?.stage !== undefined)
+    const items = (staged ? [...kids].sort((a, b) => a.guide.stage - b.guide.stage) : kids).map((c) => ({ ...card(c), chips: chips(c), group: c.tool?.group || null }))
+    const grouped = items.length > 12 && items.filter((i) => i.group).length > items.length / 2
+    const groups = grouped ? [...new Set(items.map((i) => i.group || 'Other'))].sort((a, b) => (a === 'Other') - (b === 'Other') || a.localeCompare(b)).map((g) => ({ label: g, items: items.filter((i) => (i.group || 'Other') === g) })) : null
+    return { ...base, items, groups }
+  }
   if (view === 'recent') return { ...base, items: store.recent(50).filter((r) => r.id && !r.section && !('domain' in r)).map(line) }
   if (view === 'domains') return { ...base, domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
   if (view === 'domain') {

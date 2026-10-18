@@ -15,6 +15,7 @@ about:
     - earthdaily
 tool:
   form: commercial risk model
+  group: Wildfire and risk
   homepage: >-
     https://earthdaily.com/blog/earthdaily-expands-ai-powered-wildfire-risk-intelligence-across-the-western-u.s.-with-north-american-insurance-major
 provenance:

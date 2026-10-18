@@ -5,7 +5,7 @@ about:
   view: list
 section:
   order: 260
-  nav: false
+  nav: true
 provenance:
   origin: human
   status: public

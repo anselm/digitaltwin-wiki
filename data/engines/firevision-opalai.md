@@ -15,6 +15,7 @@ about:
     - mitigation
 tool:
   form: commercial platform
+  group: Wildfire and risk
   homepage: 'https://www.opal-ai.com/firevision'
 provenance:
   origin: agent

@@ -15,6 +15,7 @@ about:
 tool:
   homepage: 'https://sites.research.google/gr/geospatial-reasoning/'
   form: experimental agent
+  group: Earth observation and AI
 provenance:
   origin: agent
   sources:

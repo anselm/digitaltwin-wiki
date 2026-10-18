@@ -14,6 +14,7 @@ about:
     - video
 tool:
   form: open-source pipeline
+  group: Wildlife and oceans
   homepage: 'https://github.com/eceo-epfl/deepreefmap'
   licence: Apache 2.0
   cost: free

@@ -14,6 +14,7 @@ about:
 tool:
   homepage: 'https://github.com/microsoft/MegaDetector-Overhead'
   form: open-source detection model
+  group: Wildlife and oceans
   licence: 'MIT (code); CC BY-NC-SA 4.0 (models and data)'
   cost: free
 provenance:

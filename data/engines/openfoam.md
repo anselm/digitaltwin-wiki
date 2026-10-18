@@ -13,6 +13,7 @@ about:
     - waves
 tool:
   form: open-source simulation code
+  group: Agents and system dynamics
   homepage: 'https://www.openfoam.com/'
   licence: GPL v3
   cost: free

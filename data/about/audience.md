@@ -4,6 +4,7 @@ about:
   description: >-
     The intended audience and the goals behind the guide, stated so that anyone
     can check the guide against them.
+  pinned: 1
 provenance:
   origin: survey
   reviewed: '2026-10-02'

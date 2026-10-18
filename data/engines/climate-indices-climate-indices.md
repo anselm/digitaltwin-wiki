@@ -14,6 +14,7 @@ about:
     - climate
 tool:
   form: open-source Python library
+  group: Weather and climate
   homepage: 'https://github.com/monocongo/climate_indices'
   licence: BSD-3-Clause
   cost: free

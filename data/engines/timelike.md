@@ -12,6 +12,7 @@ about:
     - event-driven
 tool:
   form: simulation framework
+  group: Agents and system dynamics
   homepage: 'https://timelike.systems/'
 provenance:
   origin: agent

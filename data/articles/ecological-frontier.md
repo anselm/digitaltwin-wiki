@@ -2,7 +2,6 @@
 about:
   label: "The ecological frontier"
   description: ""
-  pinned: 5
 article: {}
 provenance:
   origin: human

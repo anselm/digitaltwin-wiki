@@ -14,6 +14,7 @@ about:
 tool:
   homepage: 'https://arxiv.org/abs/2609.03210'
   form: research model
+  group: Weather and climate
   licence: unknown
   cost: unknown
 provenance:

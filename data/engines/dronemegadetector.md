@@ -14,6 +14,7 @@ about:
     - survey
 tool:
   form: research model
+  group: Wildlife and oceans
   homepage: 'https://github.com/ConservationDronesAI/DroneMegaDetector'
   licence: MIT
   cost: free

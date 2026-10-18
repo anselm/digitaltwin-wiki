@@ -14,6 +14,7 @@ about:
     - river
 tool:
   form: monitoring programme
+  group: Earth observation and AI
 provenance:
   origin: agent
   sources:

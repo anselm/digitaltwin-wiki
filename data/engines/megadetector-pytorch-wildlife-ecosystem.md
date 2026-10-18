@@ -15,6 +15,7 @@ about:
     - computer vision
 tool:
   form: open-source framework and models
+  group: Wildlife and oceans
   homepage: 'https://microsoft.github.io/Biodiversity/'
   licence: 'MIT for the code; model weights vary by variant (MIT, Apache-2.0, AGPL-3.0 or CC BY-NC-SA 4.0)'
   cost: free

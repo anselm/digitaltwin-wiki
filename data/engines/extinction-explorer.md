@@ -15,6 +15,7 @@ about:
     - 3d
 tool:
   form: prototype web app
+  group: Wildlife and oceans
   homepage: >-
     https://community.esri.com/en/discussion/1720571/from-points-on-a-map-to-a-living-biological-network
 provenance:

@@ -15,6 +15,7 @@ about:
 tool:
   homepage: 'https://github.com/google-research/flood-forecasting'
   form: open-source library
+  group: Water and flooding
   licence: Apache-2.0
   cost: free
 provenance:

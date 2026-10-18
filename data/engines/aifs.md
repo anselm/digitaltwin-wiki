@@ -12,6 +12,7 @@ about:
     - global
 tool:
   form: machine-learning weather forecast model
+  group: Weather and climate
   homepage: 'https://huggingface.co/ecmwf/aifs-single-1.0'
   licence: 'model weights CC BY 4.0; notebooks and scripts Apache 2.0'
   cost: free

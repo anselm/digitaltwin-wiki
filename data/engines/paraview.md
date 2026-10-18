@@ -13,6 +13,7 @@ about:
     - cfd
 tool:
   form: open-source visualization application
+  group: Research infrastructure
   homepage: 'https://www.paraview.org/'
   licence: BSD 3-Clause
   cost: free

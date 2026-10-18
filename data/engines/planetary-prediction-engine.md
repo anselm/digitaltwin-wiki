@@ -13,6 +13,7 @@ about:
     - population
 tool:
   form: hosted service
+  group: Earth observation and AI
   homepage: 'https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/'
   cost: unknown
 provenance:

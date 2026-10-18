@@ -16,6 +16,7 @@ about:
 tool:
   homepage: 'https://microsoft.github.io/SPARROW/'
   form: open-source hardware and software platform
+  group: Wildlife and oceans
   licence: MIT
   cost: 'free software; hardware per the published bill of materials'
 provenance:

@@ -14,6 +14,7 @@ about:
     - community
 tool:
   form: open-source mobile app
+  group: Participation and learning
   homepage: 'https://awana.digital/comapeo'
   cost: free
 provenance:
