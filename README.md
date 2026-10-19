@@ -67,16 +67,27 @@ arrive, and are not who the site is for.
 - **Use cases.** Questions people bring to a model of a place, each split
   into what it is really asking, the kind of model that answers it, the
   data it needs, what to do without a model, and what to do next.
-- **Engines.** Tools, platforms and models, shelved by the task a guest is
-  trying to do: water and flooding, transport and crowds, weather and
-  climate, 3D cities and mapping, and so on. Each entry says who makes it,
-  what it is used for, how it runs and whether it is open.
 - **Notable twins.** Models of real places that people run and publish.
   Every twin, engine and data source carries an `open` block on the three
   Open³ axes (opencubed.org), source, data and participation, plus whether
   it has an API, so a reader can see what is reusable and what is closed.
-- **Data.** Sources a model can be fed with: what they cover, how to get
-  them, on what terms.
+- **Technologies, as a stack.** A running twin is four layers, built and
+  bought separately, and the shelves follow them in order (the article
+  "The parts of a digital twin" walks them):
+  - **Data.** Sources a model can be fed with: what they cover, how to
+    get them, on what terms.
+  - **Ontologies.** How the data is cut into things and relations a model
+    can reason about: standards and data models, the papers that propose
+    ways to order the subsystems of a place, and tools that build
+    vocabularies. The thinnest shelf, deliberately kept, because every
+    engine carries an ontology and joining two models means reconciling
+    two of them.
+  - **Engines.** Tools, platforms and models that move a place forward in
+    time, shelved by the task a guest is trying to do: water and flooding,
+    transport and crowds, weather and climate, 3D cities and mapping, and
+    so on. Each entry says who makes it, what it is used for, how it runs
+    and whether it is open.
+  - **Presentation.** Globes, maps and viewers that show what a model did.
 - **Media.** Books, podcasts and video channels on modelling places and
   systems; the channels are also polled for the inbox.
 - **Articles, terminology, organizations, events, stories.** The words, the
@@ -91,8 +102,8 @@ Everything is also published for machines: `llms.txt`, `index.json` and
 ## How it is made
 
 The sidebar reads in areas: what is new, practice (guides, use cases,
-notable twins), technologies (engines, data), theory (media, articles,
-terminology) and resources.
+mandates, notable twins), technologies (data, ontologies, engines,
+presentation), theory (media, articles, terminology) and resources.
 
 Entries live in `data/` as markdown with YAML frontmatter. Each top-level
 key is a component; the kind of a thing (tool, twin, datasource, guide,

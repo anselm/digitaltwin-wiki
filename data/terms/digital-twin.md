@@ -24,3 +24,5 @@ A traffic twin, for example, combines a road network with traffic counts, signal
 This guide is about large-scale systems with public consequences: cities and regions, electricity and water networks, transport and crowds, watersheds and ecosystems.
 
 People define the term in different ways, and the differences matter when reading a vendor's page or a tender. The UK government's definition, above, leans on the link to the real counterpart: a model that is updated from the thing it represents. Esri's page defines it more broadly, as "a virtual representation of reality, including physical objects, processes, and relationships", and presents GIS as the way to assemble one. Others reserve the word for a model fed by live sensors, and call everything else a model or a simulation. This wiki uses "digital twin" as shorthand for all of these: models and simulations of real places, whether or not they are live.
+
+Whatever the definition, a running twin is made of the same four parts, data, an ontology, an engine and a presentation; see [The parts of a digital twin](/articles/parts-of-a-twin/).

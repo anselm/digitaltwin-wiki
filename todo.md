@@ -25,6 +25,13 @@ One list for the project, kept current. Decisions and reasoning live in
 - Mary's tools from their own pages: i-Tree, ENVI-met, PALM-4U, UMEP; and
   A/B Street for Ben.
 - The "there is no one tool" guide.
+- Ontologies shelf: more papers and observations on how models cut up a
+  place (Anselm, 2026-10-19, expects to add them); each from a page read,
+  bar as in `devlog/20261018-patrons.md`. Whether engines get a `layer`
+  field, and whether twins name their four parts, is in
+  `devlog/20261019-stack.md`.
+- kepler.gl: the home page is a script shell; find a readable page (docs or
+  the repository README) and rewrite the body.
 - Retry the eight YouTube channel feeds on a quiet day.
 - Move `tools/import-linkedin.js` and `tools/fetch-vitals.js` onto `store.put`.
 - Prune or extend the search vocabulary in `data/sites/index.md`.

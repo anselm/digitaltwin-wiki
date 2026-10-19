@@ -55,7 +55,7 @@ relations:
     target: engines/openfoam
     note: uses solver (source_claim; exact implementation not independently tested)
   - predicate: built_on
-    target: engines/paraview
+    target: presentation/paraview
     note: >-
       visualizes with (source_claim; exact implementation not independently
       tested)
