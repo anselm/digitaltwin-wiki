@@ -39,6 +39,8 @@ Live models drift from the question they were built for, and begin to be asked t
 
 The users change, the operators change, the people affected stay. Tell them, once a year, what the model is doing with their place and their data. That is the [privacy note](/guides/protect-people-s-privacy/) kept current.
 
+An ontology is part of what drifts. Jessica Talisman's point that the day a vocabulary is deployed is the day it starts to drift, and that maintenance is the project rather than a phase at its end, is in the review of [The Ontology Pipeline](/ontologies/the-ontology-pipeline/).
+
 ## This site
 
 The same rule applies here. Entries carry a date and a source so that a reader can see when they were last checked, and nothing is promoted from draft until a person has read its sources.

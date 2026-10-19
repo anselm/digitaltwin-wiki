@@ -10,7 +10,7 @@
 </script>
 {#if axes.length}
   <span class="inline-flex gap-1 flex-wrap">
-    {#each axes as a}<span class="text-xs px-1.5 rounded-sm whitespace-nowrap {tone(a.v)}" title="{a.k}: {word[a.v] || a.v}">{a.k === 'API' ? (a.v === 'open' ? 'API' : 'no API') : a.v === 'open' ? `open ${a.k}` : `${word[a.v] || a.v} ${a.k}`}</span>{/each}
+    {#each axes as a}<span class="text-xs px-1.5 rounded-sm whitespace-nowrap {tone(a.v)}" title="{a.k}: {word[a.v] || a.v}">{a.k === 'API' ? (a.v === 'open' ? 'API' : a.v === 'closed' ? 'no API' : 'API unknown') : a.v === 'open' ? `open ${a.k}` : `${word[a.v] || a.v} ${a.k}`}</span>{/each}
     {#if full && open?.licence}<span class="text-xs px-1.5 rounded-sm bg-wash text-muted whitespace-nowrap">{open.licence}</span>{/if}
   </span>
 {/if}
