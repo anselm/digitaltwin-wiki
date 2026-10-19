@@ -30,6 +30,9 @@ One list for the project, kept current. Decisions and reasoning live in
   bar as in `devlog/20261018-patrons.md`. Whether engines get a `layer`
   field, and whether twins name their four parts, is in
   `devlog/20261019-stack.md`.
+- ontology.monster is drawing itself an SVG icon (Anselm, 2026-10-19); when it
+  exists, fetch it beside the entry as `depiction`. Cards without an image
+  now show an empty box so lists align.
 - kepler.gl: the home page is a script shell; find a readable page (docs or
   the repository README) and rewrite the body.
 - Retry the eight YouTube channel feeds on a quiet day.

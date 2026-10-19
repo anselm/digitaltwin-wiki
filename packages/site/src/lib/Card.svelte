@@ -3,7 +3,7 @@
   let { item, date = false } = $props()
 </script>
 <li class="py-3 border-t border-line flex gap-3">
-  {#if item.depiction && !item.kinds.includes("domain")}<a href={item.url} class="shrink-0"><img src={item.depiction} alt="" class="w-12 h-16 object-cover bg-wash" /></a>{:else if item.chips?.length}<a href={item.chips[0].url} class="shrink-0 w-12 h-12 p-1 rounded-sm bg-wash border-b-2" style="border-color:{item.chips[0].colour}" title={item.chips[0].label}><img src={item.chips[0].depiction} alt="" class="w-full h-full" /></a>{/if}
+  {#if item.depiction && !item.kinds.includes("domain")}<a href={item.url} class="shrink-0"><img src={item.depiction} alt="" class="w-12 h-16 object-cover bg-wash" /></a>{:else if item.chips?.length}<a href={item.chips[0].url} class="shrink-0 w-12 h-12 p-1 rounded-sm bg-wash border-b-2" style="border-color:{item.chips[0].colour}" title={item.chips[0].label}><img src={item.chips[0].depiction} alt="" class="w-full h-full" /></a>{:else}<span class="shrink-0 w-12 h-12 rounded-sm border border-line" aria-hidden="true"></span>{/if}
   <div class="min-w-0 flex-1">
   <div class="flex items-baseline gap-2 flex-wrap">
     <a href={item.url} class="text-ink hover:text-accent font-medium">{item.label}</a>

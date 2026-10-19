@@ -15,6 +15,7 @@ about:
     - skos
     - review
     - method
+  depiction: cover.jpg
 book:
   authors:
     - Jessica Talisman
@@ -30,7 +31,7 @@ provenance:
   sources:
     - title: 'Ontology Pipeline — A Framework for Building Knowledge Infrastructures (book page)'
       url: 'https://www.ontologypipeline.com/bookpage'
-    - title: 'Ontology Pipeline – Technics Publications'
+    - title: 'Ontology Pipeline – Technics Publications (the cover image is the publisher''s)'
       url: 'https://technicspub.com/ontology-pipeline/'
     - title: 'Ontology Pipeline (home)'
       url: 'https://www.ontologypipeline.com/'
@@ -57,7 +58,7 @@ provenance:
 
 **The method.** Six stages in a fixed order, each preparing the next: controlled vocabulary (align labels, definitions and synonyms), metadata schema (describe the structure and context of a record), taxonomy (a navigable hierarchy), thesaurus (richer relations between terms, and mappings to outside vocabularies), ontology (formal classes, properties and rules, started from competency questions), and knowledge graph (the stages brought together and queried). The claim is that the order cannot be skipped: a taxonomy built on an undefined vocabulary is not sound, and a knowledge graph built without the stages beneath it will not reason reliably. Talisman first published the framework [as a post](https://jessicatalisman.substack.com/p/the-ontology-pipeline) in 2025, drawing on library and information science and the Semantic Web, and says it was codified from implementations at six institutions over ten years. A [2026 refresh](https://moderndata101.substack.com/p/the-ontology-pipeline-refresh), on Modern Data 101 and [on her own newsletter](https://jessicatalisman.substack.com/p/the-ontology-pipeline-refreshed), keeps the stages and adds two disciplines around them: governance, the practice that keeps an ontology coherent as the organisation changes, and AI partnership, in which a model surfaces candidate terms, flags inconsistencies and runs tests while a person keeps the modelling judgement. The refresh is also a plain-spoken reckoning with the field: AI-generated taxonomies sold as strategy, the word ontology attached to product category trees, and a shortage of people who know the method rather than the vocabulary.
 
-**The tools beside it.** [Ontology Pipeline Studio](https://jesstalisman-ia.github.io/ontology-pipeline/) is a browser app that walks the six stages with the book's own worked example and a second domain, shows the RDF being built, and exports it; work stays in the browser. [Intentional Arrangement](/ontologies/intentional-arrangement-skos/) is a SKOS taxonomy editor that runs as a single static page, validates as you type, and exports to seven formats. Both are free to use without an account.
+**The tools beside it.** [Ontology Pipeline Studio](https://jesstalisman-ia.github.io/ontology-pipeline/) is a browser app that walks the six stages with the book's own worked example and a second domain, shows the RDF being built, and exports it; work stays in the browser. [Intentional Arrangement](https://www.ontologypipeline.com/intentional-arrangement) is a SKOS taxonomy editor that runs as a single static page in the browser, validates as you type, and exports to seven formats; it is source-available rather than open source, free for organisations under 75 people. Both are free to use without an account.
 
 **What it offers someone modelling a place.** Nothing in the book is about places; the setting is enterprise content, product data and retrieval. The transfer is still direct. A twin of a city or a watershed joins data from several owners who name the same things differently, and the six stages are a plain description of the reconciliation that has to happen before an engine can run over the joined data: agree what the words mean, agree the fields, agree the hierarchy, agree the synonyms, then write down the kinds and relations. Standards such as [CityJSON](/ontologies/cityjson/) are the ontology stage done once for everyone in a domain. The refresh's five closing questions, what problem this solves, what the system is designed to answer, who can change what and when, how disciplines will collaborate, how the work will be sustained, are a good checklist for the [Name the question](/guides/name-the-question/) stage of a twin, and the point that an ontology starts to drift the day it is deployed belongs beside [Keep it alive](/guides/keep-it-alive/). The AI-partnership chapter describes, in enterprise terms, what [ontology.monster](/ontologies/ontology-monster/) tries from the other end: a machine proposes kinds and parts from text, and the proposals are recorded for review rather than applied.
 
