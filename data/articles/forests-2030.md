@@ -17,9 +17,9 @@ about:
     - degradation
     - report
 article:
-  url: '/articles/forests-2030.pdf'
+  url: 'https://primaryforestsandclimate.org/publications/forests-2030-protecting-restoring-ecosystem-integrity/'
   published: '2026-10'
-  publisher: Wild Heritage and Griffith University (the authors' affiliations; the PDF names no publisher)
+  publisher: Wild Heritage and Griffith University
   authors:
     - Cyril Kormos
     - Brendan Mackey
@@ -36,17 +36,18 @@ relations:
 provenance:
   origin: agent
   sources:
-    - title: 'Forests 2030: Protecting & restoring ecosystem integrity (the PDF as shared by its author; a copy is kept beside this entry at /articles/forests-2030.pdf)'
-      url: 'https://media.licdn.com/dms/document/media/v2/D561FAQGHHKcGP_b89A/feedshare-document-url-metadata-scrapper-pdf/B56aFQjmAVI4A4-/0/1792352872215?e=1793124000&v=beta&t=t60ec218btU9ShBk7Bhy0uytiRomZCsmX8E0CCwMWIM'
+    - title: 'Forests 2030: Protecting & restoring ecosystem integrity, publication page at the Primary Forests & Climate Program'
+      url: 'https://primaryforestsandclimate.org/publications/forests-2030-protecting-restoring-ecosystem-integrity/'
+    - title: 'Forest 2030 report (PDF, 19 pages)'
+      url: 'https://primaryforestsandclimate.org/wp-content/uploads/2026/10/Forest-2030-report-Oct26.pdf'
   created: '2026-10-20'
   reviewed: '2026-10-20'
   reviewed_by: >-
-    Claude, from the PDF read in full on 2026-10-20. The PDF was shared by
-    Cyril Kormos as a LinkedIn document post; LinkedIn's signed link expires,
-    so a copy is kept beside this entry and the url points at it until the
-    authors publish the report at an address of their own. The report is not yet published on
-    wild-heritage.org or primaryforestsandclimate.org. What the post said
-    about the report was relayed by Anselm, who read it.
+    Claude, from the PDF read in full on 2026-10-20, first as the document
+    Cyril Kormos posted on LinkedIn, then as the copy the Primary Forests &
+    Climate Program published on 21 October 2026, which has the same text
+    word for word. What the post said about the report was relayed by Anselm,
+    who read it.
   status: draft
 ---
 Forests 2030 is a short illustrated report by Cyril Kormos of Wild Heritage with Brendan Mackey, Andrew Buckwell, Virginia Young, Sonia Hugh and Pat Norman of Griffith University. Its purpose, in its own words, is to help explain why forest policies for 2030 and beyond must embrace ecosystem integrity as a core guiding principle, particularly with respect to forests and climate change. Ecosystem integrity it defines as a measure of ecosystem wholeness. High integrity means an ecosystem that has not been significantly modified by industrialised activity and still has most, if not all, of its native species, its vegetation structure and its functions; a primary forest sits at the high end of that scale. The report uses the term to cover stable, old-growth, mature and virgin forest too.

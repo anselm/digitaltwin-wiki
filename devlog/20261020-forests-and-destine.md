@@ -119,3 +119,15 @@ carries it.
 - The Rogers and colleagues 2022 paper in Frontiers in Forests and Global
   Change is the scientific root of the integrity argument and could be
   its own article entry.
+
+## Later the same day: the report has a home
+
+Anselm found it: the Primary Forests & Climate Program published the
+report on 21 October 2026 at
+primaryforestsandclimate.org/publications/forests-2030-protecting-restoring-ecosystem-integrity/,
+with the PDF beside it. The hosted PDF differs from the LinkedIn copy in
+bytes but not in a single word (pdftotext of both, 7,684 words, no
+diff), so the entry stands as written. The entry's url now points at
+their page, the sources list the page and the PDF, and our copy of the
+PDF is out of the repo: the reason for keeping it was the expiring link,
+and that reason is gone. The cover picture stays, rendered from the PDF.
