@@ -27,8 +27,10 @@ provenance:
   sources:
     - title: 'Meet Odyssey-3: Our Most Powerful Foundation World Model'
       url: 'https://odyssey.systems/meet-odyssey-3'
+    - title: 'Agora-1: The Multi-Agent World Model'
+      url: 'https://odyssey.ml/introducing-agora-1'
   created: '2026-10-17'
-  reviewed: '2026-10-17'
+  reviewed: '2026-10-19'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 import:
@@ -51,5 +53,7 @@ Odyssey-3 is a world model made by Odyssey, a company whose founders came from d
 Odyssey's own page gives examples of the model adapted to robot arms and humanoids (the robotics company Flexion built policies on it), to a car driving on real roads in India, and to generating multi-sensor driving data for training agents. It reports benchmark results on Physics-IQ and on Odyssey's own WorldMark evaluation.
 
 It is a hosted service. A research preview is open at experience.odyssey.systems; developers who want to build on it are asked to contact the company. The page does not state pricing, licensing or an API.
+
+Odyssey also makes Agora-1, a multi-agent world model announced on 18 May 2026. It lets up to four players, human or AI, act in the same generated world at the same time: a learned state model trained on the game GoldenEye keeps one shared world state, and a second model renders each player's view from it. Odyssey calls it an early research preview and says the same approach could apply to robots working together.
 
 Status: research preview, announced October 2026.

@@ -33,6 +33,9 @@ One list for the project, kept current. Decisions and reasoning live in
 - ontology.monster is drawing itself an SVG icon (Anselm, 2026-10-19); when it
   exists, fetch it beside the entry as `depiction`. Cards without an image
   now show an empty box so lists align.
+- Reading list of 2026-10-19 (`inbox/2026-10-19-reading-list.md`):
+  retry OpenGridWorks and the IOP wildfire paper with a headless browser;
+  the fourteen X-only items need a maker page before they can be entries.
 - kepler.gl: the home page is a script shell; find a readable page (docs or
   the repository README) and rewrite the body.
 - Retry the eight YouTube channel feeds on a quiet day.
