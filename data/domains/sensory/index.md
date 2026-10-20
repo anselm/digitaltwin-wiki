@@ -1,7 +1,7 @@
 ---
 about:
   label: Sensory landscape
-  description: "Sensory landscape: sound, light, air and how a place is felt."
+  description: "Sensory landscape: sound, noise, light, air."
   depiction: symbol.svg
 domain:
   order: 10

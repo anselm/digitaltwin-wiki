@@ -1,7 +1,7 @@
 ---
 about:
   label: Fire
-  description: "Fire: wildfire risk, spread and the exposure of people and places."
+  description: "Fire: wildfire risk, fire spread, exposure of homes and people."
   depiction: symbol.svg
 domain:
   order: 9

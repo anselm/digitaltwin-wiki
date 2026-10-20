@@ -1,7 +1,7 @@
 ---
 about:
   label: Cities & places
-  description: "Cities and places: buildings, streets, 3D city models and the twins of whole towns and regions."
+  description: "Cities and places: buildings, streets, 3D city models, town and regional models."
   depiction: symbol.svg
 domain:
   order: 1

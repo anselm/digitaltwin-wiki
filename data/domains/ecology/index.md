@@ -1,7 +1,7 @@
 ---
 about:
   label: Living systems
-  description: "Living systems: habitats, species, reefs, forests and the models that follow them over time."
+  description: "Living systems: habitats, species, reefs, forests, ecosystem change over time."
   depiction: symbol.svg
 domain:
   order: 6

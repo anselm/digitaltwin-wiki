@@ -1,7 +1,7 @@
 ---
 about:
   label: Weather & climate
-  description: "Weather and climate: forecasts, reanalyses, heat, drought and the models that project them."
+  description: "Weather and climate: forecasts, reanalyses, heat, drought, climate projections."
   depiction: symbol.svg
 domain:
   order: 7

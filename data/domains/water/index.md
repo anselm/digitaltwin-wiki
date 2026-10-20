@@ -1,7 +1,7 @@
 ---
 about:
   label: Water
-  description: "Water: rivers, floods, coasts, oceans and the supply and quality of water."
+  description: "Water: rivers, floods, coasts, oceans, water supply, water quality."
   depiction: symbol.svg
 domain:
   order: 4

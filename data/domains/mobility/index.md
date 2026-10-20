@@ -1,7 +1,7 @@
 ---
 about:
   label: Movement & logistics
-  description: "Movement and logistics: traffic, transit, crowds, shipping and the networks that move people and goods."
+  description: "Movement and logistics: traffic, transit, crowds, shipping, freight, transport networks."
   depiction: symbol.svg
 domain:
   order: 2

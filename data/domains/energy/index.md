@@ -1,7 +1,7 @@
 ---
 about:
   label: Energy
-  description: "Energy: grids, generation, demand and the networks that carry it."
+  description: "Energy: electricity, grids, power generation, demand, networks."
   depiction: symbol.svg
 domain:
   order: 3

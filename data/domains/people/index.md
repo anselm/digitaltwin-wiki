@@ -1,7 +1,7 @@
 ---
 about:
   label: People & society
-  description: "People and society: population, health, decisions and the ways people take part."
+  description: "People and society: population, health, decisions, public participation."
   depiction: symbol.svg
 domain:
   order: 8

@@ -1,7 +1,7 @@
 ---
 about:
   label: Food & land
-  description: "Food and land: farming, crops, soils, land use and what the land yields."
+  description: "Food and land: farming, crops, soils, land use, yields."
   depiction: symbol.svg
 domain:
   order: 5
