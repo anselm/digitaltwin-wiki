@@ -70,3 +70,10 @@ One list for the project, kept current. Decisions and reasoning live in
 ## Done
 
 See the tail of `devlog/`.
+
+## Prose (2026-10-20, from the adversarial reading; devlog/20261020-prose-tells.md)
+
+- Anselm's call: a site-wide rewrite pass, template residue first (status stamps, shelf-filing closers, absence sentences), then read-then-refute per entry with `node tools/tells.js --file` as the brief.
+- Gate every new draft on `tools/tells.js` and the heckler inside the drafting workflow.
+- Site: the page prints the description as a dek and 42 bodies open by repeating it; either the dek goes or the opener must start where the dek stopped.
+- Unopened technical terms in 164 files: no regex; needs a reader pass with the non-technical patron in mind.
