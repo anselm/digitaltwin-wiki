@@ -41,6 +41,18 @@ One list for the project, kept current. Decisions and reasoning live in
   local / bioregional / macro becomes a field, and which of the twelve get
   a question page. Harvest2Market (NASA Harvest) could be a tool entry;
   the Amazon soy pact page (phys.org) needs a browser fetch.
+- Forests 2030 (`articles/forests-2030`, `devlog/20261020-forests-and-destine.md`):
+  the PDF is a local copy because LinkedIn's link expires; when Wild
+  Heritage publishes it, point `article.url` at their address. PRIMA, the
+  mapping app the post promises, has no page yet. forestregimemap.net was
+  unreachable; retry for a data source entry. The Rogers et al. 2022 paper
+  on ecosystem integrity could be its own article entry.
+- Organizations (Anselm, 2026-10-20): only nine entries, but 122 distinct
+  maker sites stand behind the tools, data sources and twins. The `made_by`
+  predicate exists and is unused. His call on a landscape view of makers
+  sized by the entries behind them; see the devlog entry above.
+- Inbox `inbox/2026-10-20-links.md`: Google and Working Trees silvopasture
+  in Brazil, read as fuel for the land-use-change use case, not an entry.
 - kepler.gl: the home page is a script shell; find a readable page (docs or
   the repository README) and rewrite the body.
 - Retry the eight YouTube channel feeds on a quiet day.

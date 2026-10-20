@@ -13,6 +13,8 @@ A short record of how the site has changed, newest first. The full reasoning beh
 
 ## 2026
 
+**20 October.** Primary forests: a term entry on [ecosystem integrity](/terms/ecosystem-integrity/), the report [Forests 2030](/articles/forests-2030/) from Wild Heritage and Griffith University with a copy of the PDF, the US forest maturity map, the FAO review of primary forest definitions and data, and a Columbia Insight report on why the federal old-growth inventory cannot find a stand. From Destination Earth's own pages, a fuller entry on the programme and new entries for UrbanAIR, BioDT and DT-GEO. The [Contributors](/about/contributors/) page names its first three.
+
 **20 October.** Pictures on the shelves: eighty-six engines, data sources, twins, organizations and channels now show a picture from the maker's own page beside their entry, and every entry has a domain, so the rest show their domain's symbol. The domain pages describe what each domain covers. The Pinned list is gone from the home page; the pieces about the site itself, including the visual grammar, now live under [About](/about/), with a new [Contributors](/about/contributors/) page.
 
 **20 October.** An article, [Twelve places with a question for a model](/articles/places-with-a-question/): twelve recent reports, from a Kentucky creek to the Strait of Hormuz, each read for the question someone there would put to a model and the kind of model that answers it, sorted by the size of the place.

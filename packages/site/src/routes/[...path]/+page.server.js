@@ -60,7 +60,7 @@ export function load({ params }) {
     return { ...base, colour: e.domain.colour, symbol: e.domain.symbol, credit: e.domain.credit, depiction: `/${e.dir}/${e.about.depiction}`, groups: Object.entries(groups).map(([k, items]) => ({ label: plural(kindLabel(k)), items })) }
   }
   // prose and flow: the entry itself, its kind fields, relations and provenance
-  const kinds = store.kindsOf(e).map((k) => ({ label: kindLabel(k), fields: Object.entries(e[k] || {}).filter(([f, v]) => v !== undefined && v !== null && v !== '' && !['steps', 'start', 'end', 'order'].includes(f)).map(([f, v]) => ({ field: f.replace(/_/g, ' '), value: Array.isArray(v) ? v.join(', ') : String(v), url: /^https?:/.test(String(v)) ? String(v) : null })) }))
+  const kinds = store.kindsOf(e).map((k) => ({ label: kindLabel(k), fields: Object.entries(e[k] || {}).filter(([f, v]) => v !== undefined && v !== null && v !== '' && !['steps', 'start', 'end', 'order'].includes(f)).map(([f, v]) => ({ field: f.replace(/_/g, ' '), value: Array.isArray(v) ? v.join(', ') : String(v), url: /^(https?:|\/)/.test(String(v)) ? String(v) : null })) }))  // a root-relative value, such as a file kept beside the entry, links too
   return { ...base, kinds, chips: chips(e), open: e.open || null, related: store.related(id).map((g) => ({ label: g.label, items: g.items.map((i) => ({ ...card(i.entity), note: i.note })) })),
     provenance: e.provenance || {}, flow: e.flow || null, depiction: e.about.depiction ? (/^https?:/.test(e.about.depiction) ? e.about.depiction : `/${e.dir ? e.dir + '/' : ''}${e.about.depiction}`) : null }
 }

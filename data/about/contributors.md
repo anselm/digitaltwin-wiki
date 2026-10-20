@@ -6,7 +6,7 @@ provenance:
   origin: agent
   created: '2026-10-20'
   reviewed: '2026-10-20'
-  reviewed_by: 'Claude, from the repository; names are added only by the people named'
+  reviewed_by: 'Claude, from the repository; names are added only with the consent of the people named, relayed by the maintainer'
   status: draft
 ---
 The site is maintained by [Anselm Hook](https://hook.org), who started it in October 2026 and decides what is promoted from draft to public.
@@ -16,6 +16,8 @@ Entries are drafted by software agents and by people. Each entry carries its own
 ## People
 
 - Anselm Hook, maintainer.
+- [Mike Liebhold](https://www.iftf.org/people/mike-liebhold/), Distinguished Fellow at the Institute for the Future, who reads widely in Earth system modelling and sends what he finds.
+- Claude, Anthropic's model, which drafts most entries from their sources, checks each draft against them with a second reading, and keeps the devlog. Every draft it writes is marked as such in the entry's provenance and stays a draft until Anselm reads it.
 
 ## How to be listed
 
