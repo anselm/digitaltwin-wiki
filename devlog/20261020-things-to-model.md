@@ -115,10 +115,32 @@ By the rules in `20261015-principles.md` and the patrons entry:
 - **orbital** keeps the essays. A built simulation comes back here as a
   twin entry and a story.
 
+## What was done the same day
+
+Anselm chose the post. Fourteen of the links had a readable page (the PNAS
+paper through its Crossref abstract; the Meat Institute page through the
+PDF it links). One agent per page extracted what the page states, with
+the question and model kind marked as its own judgment; a second agent
+refetched the page and refuted the extraction. Every one of the fourteen
+came back with corrections, mostly hedges the first reader had dropped
+("may have replaced", "could rise", "Haag estimates"), which is the same
+lesson as the reading-list run. The article is
+`data/articles/places-with-a-question.md`, twelve items (the Hormuz ships,
+the Red Sea islands and Harvest2Market fold into one chain), arranged by
+the three scales above, draft.
+
+Dropped: the X posts with no page behind them (Gibraltar, the Jones Act,
+aluminium tariffs, EU biomass, England's water, the Rio Grande wetlands
+reply), and the Amazon soy pact, whose phys.org page refuses non-browser
+fetches. The X posts that pointed at tools were already on the site
+(WeatherNext) or wait for a maker page (Power Network Tycoon, Portolan),
+and one, the Bangladesh thread, led to NASA Harvest's Harvest2Market
+page, which could be a tool entry on its own.
+
 ## Next
 
-- Anselm decides: a post first, or question pages first; and whether the
-  three-scale axis becomes a field.
+- Anselm decides whether the three-scale axis becomes a field, and which
+  of the twelve become question pages.
 - Before either, each link above is read from its page, and the X posts
   are traced to a page or dropped. The reading-list pipeline of the 19th
   (draft from the page, refute against it) applies unchanged.

@@ -13,6 +13,8 @@ A short record of how the site has changed, newest first. The full reasoning beh
 
 ## 2026
 
+**20 October.** An article, [Twelve places with a question for a model](/articles/places-with-a-question/): twelve recent reports, from a Kentucky creek to the Strait of Hormuz, each read for the question someone there would put to a model and the kind of model that answers it, sorted by the size of the place.
+
 **19 October.** Thirty entries from a reading list: four papers and standards on the Ontologies shelf, seven engines, two viewers, five data sources, the Global Biodiversity Framework as a mandate, and ten papers and explainers, each written from its own page and checked against it by a second reader.
 
 **19 October.** Technologies is arranged as a stack, in order: Data, Ontologies, Engines, Presentation. Ontologies and Presentation are new shelves; a term entry on ontology and an article, The parts of a digital twin, say why. A review of Jessica Talisman's book Ontology Pipeline joins the Ontologies shelf.
