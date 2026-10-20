@@ -36,6 +36,11 @@ One list for the project, kept current. Decisions and reasoning live in
 - Reading list of 2026-10-19 (`inbox/2026-10-19-reading-list.md`):
   retry OpenGridWorks and the IOP wildfire paper with a headless browser;
   the fourteen X-only items need a maker page before they can be entries.
+- Things Anselm wants to model (`devlog/20261020-things-to-model.md`): his
+  call whether it becomes a post ("recent issues that can be modelled") or
+  question pages first, and whether local / bioregional / macro becomes a
+  field. Either way each link is read from its page before anything is
+  written.
 - kepler.gl: the home page is a script shell; find a readable page (docs or
   the repository README) and rewrite the body.
 - Retry the eight YouTube channel feeds on a quiet day.
