@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/nvidia-isaac-sim.jpg
   label: NVIDIA Isaac Sim
   description: >-
     NVIDIA's open-source robotics simulator built on Omniverse and OpenUSD;

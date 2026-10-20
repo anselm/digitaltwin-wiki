@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: data-sources/openstreetmap-osm.jpg
   label: OpenStreetMap
   description: >-
     Volunteer-built open map database of the world, covering roads, buildings,

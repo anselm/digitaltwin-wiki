@@ -1,7 +1,7 @@
 ---
 about:
   label: People & society
-  description: "People at a table is the symbol; pastel rose is the colour."
+  description: "People and society: population, health, decisions and the ways people take part."
   depiction: symbol.svg
 domain:
   order: 8

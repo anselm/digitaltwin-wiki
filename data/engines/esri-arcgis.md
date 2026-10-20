@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/esri-arcgis.jpg
   label: Esri ArcGIS
   description: >-
     Esri's commercial geographic information system; creates, manages,
@@ -18,6 +19,8 @@ open:
   data: unknown
   api: unknown
   participation: unknown
+domains:
+  - places
 provenance:
   origin: agent
   sources:

@@ -23,6 +23,8 @@ open:
   api: unknown
   participation: unknown
   licence: 'BSD-3-Clause'
+domains:
+  - places
 provenance:
   origin: agent
   sources:

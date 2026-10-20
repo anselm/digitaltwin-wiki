@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/reforest-latam-tnc-gran-chaco-drone-restoration.jpg
   label: Gran Chaco drone reforestation pilot
   description: >-
     Pilot by The Nature Conservancy Argentina and the startup ReForest Latam

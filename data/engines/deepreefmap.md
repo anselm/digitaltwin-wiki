@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/deepreefmap.jpg
   label: DeepReefMap
   description: >-
     Open-source pipeline from EPFL's ECEO lab that turns handheld underwater

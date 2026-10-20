@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: data-sources/us-energy-data.jpg
   label: US Energy Data
   description: >-
     Website from the Institute for Progress that charts US energy production,

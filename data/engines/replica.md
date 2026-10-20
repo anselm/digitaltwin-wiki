@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/replica.jpg
   label: Replica
   description: >-
     Replica supplies modelled travel activity for US regions and a Scenario

@@ -1,7 +1,7 @@
 ---
 about:
   label: Energy
-  description: "Transmission tower is the symbol; pastel gold is the colour."
+  description: "Energy: grids, generation, demand and the networks that carry it."
   depiction: symbol.svg
 domain:
   order: 3

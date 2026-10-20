@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: twins/nsw-spatial-digital-twin.jpg
   label: NSW Spatial Digital Twin
   description: >-
     DCS Spatial Services, the New South Wales government's spatial data

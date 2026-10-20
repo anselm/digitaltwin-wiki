@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/invest.jpg
   label: InVEST
   description: >-
     Open-source suite of ecosystem-service models from the Natural Capital

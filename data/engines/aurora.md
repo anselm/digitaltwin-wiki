@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/aurora.jpg
   label: Aurora
   description: >-
     Microsoft Research foundation model for the Earth system, fine-tuned for

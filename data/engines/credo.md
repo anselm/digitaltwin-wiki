@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/credo.jpg
   label: CReDO
   description: >-
     Connected Places Catapult's Climate Resilience Demonstrator (CReDo) models
@@ -19,6 +20,9 @@ open:
   data: unknown
   api: unknown
   participation: unknown
+domains:
+  - energy
+  - water
 provenance:
   origin: agent
   sources:

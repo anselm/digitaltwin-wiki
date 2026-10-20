@@ -10,7 +10,6 @@ about:
     - overview
     - ontology
     - presentation
-  pinned: true
 article: {}
 relations:
   - predicate: about

@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: data-sources/inaturalist.jpg
   label: iNaturalist
   description: >-
     Community platform where people photograph plants, animals and fungi and

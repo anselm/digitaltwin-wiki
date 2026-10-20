@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/anylogic.jpg
   label: AnyLogic
   description: >-
     AnyLogic's simulation software combines agent-based, discrete-event and

@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: data-sources/orcapelago.jpg
   label: Orcapelago
   description: >-
     Web map of orca and other whale sightings in the Salish Sea, placed on the

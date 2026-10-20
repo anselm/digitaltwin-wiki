@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/mycosoft-earth-simulator.jpg
   label: Mycosoft Earth Simulator
   description: >-
     Mycosoft's hosted 3D globe inside its NatureOS platform; it shows

@@ -1,7 +1,7 @@
 ---
 about:
   label: Food & land
-  description: "Cultivated landscape is the symbol; pastel lime is the colour."
+  description: "Food and land: farming, crops, soils, land use and what the land yields."
   depiction: symbol.svg
 domain:
   order: 5

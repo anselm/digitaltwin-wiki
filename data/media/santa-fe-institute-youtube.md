@@ -13,6 +13,8 @@ feed:
   url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC9rHXgUE9pikzYcGrAujMXQ'
   format: rss
   filter: true
+domains:
+  - people
 provenance:
   origin: agent
   sources:

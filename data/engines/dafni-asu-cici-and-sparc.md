@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/dafni-asu-cici-and-sparc.jpg
   label: DAFNI / ASU CICI and SPARC
   description: >-
     DAFNI is a UK computing platform for national-infrastructure research;
@@ -19,6 +20,8 @@ open:
   data: partly
   api: unknown
   participation: partly
+domains:
+  - places
 provenance:
   origin: agent
   sources:

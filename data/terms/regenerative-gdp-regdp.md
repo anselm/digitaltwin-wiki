@@ -13,6 +13,8 @@ about:
 term:
   aka:
     - ReGDP
+domains:
+  - people
 provenance:
   origin: agent
   sources:

@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/gral.jpg
   label: GRAL
   description: >-
     The Graz Lagrangian Model from Graz University of Technology; simulates

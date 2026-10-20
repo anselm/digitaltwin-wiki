@@ -13,6 +13,8 @@ feed:
   url: 'https://geomob-podcast.castos.com/feed'
   format: rss
   match: twin|simulat|3d|point cloud|lidar|city|cities|urban|flood|climate|scenario|digital twin
+domains:
+  - places
 provenance:
   origin: agent
   sources:

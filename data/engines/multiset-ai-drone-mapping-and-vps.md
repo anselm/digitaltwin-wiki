@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/multiset-ai-drone-mapping-and-vps.jpg
   label: MultiSet AI Drone to VPS
   description: >-
     Hosted mapping and visual positioning service from MultiSet AI that turns

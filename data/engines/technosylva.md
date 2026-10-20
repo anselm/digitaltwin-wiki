@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/technosylva.jpg
   label: Technosylva
   description: >-
     Technosylva makes wildfire and extreme-weather risk software for electric

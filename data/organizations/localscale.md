@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: organizations/localscale.jpg
   label: LocalScale
   description: >-
     Public benefit organization, based in San Francisco, that connects the
@@ -16,6 +17,8 @@ organization:
   form: public benefit organization
   homepage: 'https://localscale.org/'
   country: United States
+domains:
+  - places
 provenance:
   origin: agent
   sources:

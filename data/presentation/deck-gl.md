@@ -24,6 +24,8 @@ open:
   api: yes
   participation: open
   licence: MIT
+domains:
+  - places
 provenance:
   origin: agent
   sources:

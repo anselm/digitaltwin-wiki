@@ -127,7 +127,7 @@ export class Store {
       if (st && !base.statuses.includes(st)) p(e.id, 'error', `provenance.status "${st}" is not one of ${base.statuses.join(', ')}`)
       if (st === 'public' && !(e.provenance?.sources || []).length && !e.section && !e.about?.view) p(e.id, 'warn', 'public entity has no sources')
       for (const s of e.provenance?.sources || []) if (s.url && !/^https?:\/\//.test(s.url)) p(e.id, 'error', `source url "${s.url}" has no scheme; it would render as a page of this site`)
-      if (e.about?.depiction && !/^https?:/.test(e.about.depiction) && e.dir !== null && !fs.existsSync(path.join(this.root, e.dir || '', e.about.depiction))) p(e.id, 'warn', `depiction "${e.about.depiction}" not found beside the entity`)
+      if (e.about?.depiction && !/^https?:/.test(e.about.depiction) && !fs.existsSync(path.join(this.root, e.dir || '', e.about.depiction))) p(e.id, 'warn', `depiction "${e.about.depiction}" not found beside the entity`)
       for (const r of e.relations || []) {
         if (!predicates[r.predicate]) p(e.id, 'error', `undeclared predicate "${r.predicate}"`)
         if (!this.byId.has(r.target)) p(e.id, 'error', `relation target "${r.target}" does not exist`)
@@ -200,6 +200,7 @@ export class Store {
       id: e.id, label: e.about?.label, description: e.about?.description || '', tags: e.about?.tags || [],
       kinds: this.kindsOf(e), domains: e.domains || [], pinned: !!e.about?.pinned, view: e.about?.view || null, open: e.open || null,
       depiction: e.about?.depiction ? (/^https?:/.test(e.about.depiction) ? e.about.depiction : `/${e.dir ? e.dir + '/' : ''}${e.about.depiction}`) : null,
+      square: e.dir === null,  // a file entry's depiction is a fetched picture that fits a square; a folder entry's is whatever its author put there, usually a portrait jacket
       status: e.provenance?.status || 'draft', updated: stamp(e), url: e.id ? `/${e.id}/` : '/'
     }
   }

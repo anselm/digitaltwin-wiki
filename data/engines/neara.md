@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/neara.jpg
   label: Neara
   description: >-
     Neara's commercial 3D model of an electricity network, built from a

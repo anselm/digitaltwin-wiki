@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/vggt.jpg
   label: VGGT-Ω
   description: >-
     Feed-forward 3D vision model from Meta AI and Oxford's Visual Geometry

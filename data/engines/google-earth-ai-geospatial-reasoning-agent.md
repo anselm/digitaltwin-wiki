@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/google-earth-ai-geospatial-reasoning-agent.jpg
   label: Google Earth AI Geospatial Reasoning agent
   description: >-
     Experimental Gemini-based agent from Google Research that plans a

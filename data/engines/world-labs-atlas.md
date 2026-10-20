@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/world-labs-atlas.jpg
   label: World Labs / Atlas
   description: >-
     World Labs' Atlas is a world model that generates, reconstructs and
@@ -20,6 +21,8 @@ open:
   data: unknown
   api: unknown
   participation: unknown
+domains:
+  - places
 provenance:
   origin: agent
   sources:

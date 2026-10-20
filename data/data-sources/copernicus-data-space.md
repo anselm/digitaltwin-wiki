@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: data-sources/copernicus-data-space.jpg
   label: Copernicus Data Space
   description: Satellite observations and Earth-observation processing.
 datasource:
@@ -9,6 +10,9 @@ open:
   data: unknown
   api: unknown
   participation: unknown
+domains:
+  - places
+  - climate
 provenance:
   origin: survey
   sources:

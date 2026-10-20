@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/3dtrees-earth.jpg
   label: 3Dtrees.earth
   description: >-
     Open platform from the GeoSense group at the University of Freiburg, with

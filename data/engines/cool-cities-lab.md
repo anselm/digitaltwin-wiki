@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/cool-cities-lab.jpg
   label: Cool Cities Lab
   description: >-
     World Resources Institute's web tool that maps heat hazard, exposure and

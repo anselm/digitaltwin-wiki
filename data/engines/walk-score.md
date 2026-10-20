@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/walk-score.jpg
   label: Walk Score
   description: >-
     A hosted service that rates the walkability of any address from 0 to 100

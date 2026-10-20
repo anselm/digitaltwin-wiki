@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/nvidia-cosmos.jpg
   label: NVIDIA Cosmos
   description: >-
     NVIDIA's family of world foundation models and tools for physical AI;

@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/planetary-prediction-engine.jpg
   label: Planetary Prediction Engine
   description: >-
     Part of Google Earth AI; given a user's local outcome data such as disease

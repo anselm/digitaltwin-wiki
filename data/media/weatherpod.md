@@ -12,6 +12,8 @@ podcast:
 feed:
   url: 'https://feeds.acast.com/public/shows/5f6b61317a9b7e43e0429e31'
   format: rss
+domains:
+  - climate
 provenance:
   origin: agent
   sources:

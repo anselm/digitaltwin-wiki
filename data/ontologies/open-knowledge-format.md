@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: ontologies/open-knowledge-format.jpg
   label: Open Knowledge Format
   description: >-
     An open specification from Google Cloud's Data Cloud team for keeping
@@ -26,6 +27,8 @@ open:
   participation: open
   licence: Apache 2.0
   note: 'A file format, not a service: no API, account or SDK is needed to read or write a bundle. Issues, pull requests and other implementations are invited.'
+domains:
+  - places
 provenance:
   origin: agent
   sources:

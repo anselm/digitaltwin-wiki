@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: data-sources/coralscapes-coralscapesv2.jpg
   label: Coralscapes and CoralscapesV2
   description: >-
     Densely annotated underwater image datasets of Red Sea coral reefs from

@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/dhi.jpg
   label: DHI
   description: >-
     DHI's CityFlow Live Treatment Plant module (formerly TwinPlant) couples a

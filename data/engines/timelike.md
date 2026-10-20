@@ -19,6 +19,8 @@ open:
   data: unknown
   api: unknown
   participation: partly
+domains:
+  - people
 provenance:
   origin: agent
   sources:

@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/xylem-vue.jpg
   label: Xylem Vue
   description: >-
     Xylem Vue is Xylem's water-utility software and analytics platform, built

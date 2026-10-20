@@ -20,6 +20,8 @@ open:
   api: unknown
   participation: unknown
   licence: 'BSD-3-Clause (HELICS); CC BY-SA 4.0 (FMI specification); BSD-2-Clause (FMI reference code)'
+domains:
+  - energy
 provenance:
   origin: agent
   sources:

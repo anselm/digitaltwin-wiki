@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: data-sources/cornell-nyc-individual-tree-map.jpg
   label: NYC Tree Genus Map
   description: >-
     Map and dataset from Cornell researchers of about 1.8 million individual

@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: twins/moorea-idea.jpg
   label: Moorea IDEA (Island Digital Ecosystem Avatar)
   description: >-
     A sustainability simulator of the island of Moorea, French Polynesia, led

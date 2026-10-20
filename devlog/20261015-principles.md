@@ -89,6 +89,30 @@ that could not be opened is not a source. The maker's own page comes first.
 `reviewed_by` says who read the sources. Status stays `draft` until a
 person promotes it.
 
+## The record: three places, three readers (2026-10-20)
+
+Three things record what happened to the site, and each has one reader.
+
+- **`data/about/changes.md`** is for guests. One dated line per batch that
+  changes what a guest can find: a new shelf, a run of entries, a page
+  rewritten, a section moved. Written in the house voice, newest first,
+  no process ("the refuter changed 27 files" belongs below), no entries
+  that are still invisible on production. It is updated in the same
+  commit as the change it records, so the two never drift.
+- **`devlog/`** is for whoever works on the site next, person or agent:
+  the reasoning, the misses, what is Anselm's to decide. Dated, revised
+  in place while live.
+- **git** is for the diff.
+
+The Recent list on the home page and `/posts` is not a record; it is a
+query over provenance dates and takes care of itself.
+
+Vitals follow the same rule as the rest of the data: `deploy/deploy.sh`
+refreshes the six series from their sources before every build and keeps
+the previous series if a source fails, and each series shows the date of
+its latest value on the page. There is no refresh between deploys, so the
+page is as current as the last deploy.
+
 ## Machines propose, people promote (2026-10-02, house rule)
 
 Agents write drafts from pages they read and say what they could not

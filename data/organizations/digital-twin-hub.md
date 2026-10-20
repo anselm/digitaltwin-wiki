@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: organizations/digital-twin-hub.jpg
   label: Digital Twin Hub
   description: >-
     Connected Places Catapult's online community for people working on

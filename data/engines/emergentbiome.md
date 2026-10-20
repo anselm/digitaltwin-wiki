@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/emergentbiome.jpg
   label: EmergentBiome Molecular Atlas
   description: >-
     Molecular atlas that links microbial genes and transcripts from wetland and

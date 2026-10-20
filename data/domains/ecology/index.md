@@ -1,7 +1,7 @@
 ---
 about:
   label: Living systems
-  description: "Habitat is the symbol; pastel mint is the colour."
+  description: "Living systems: habitats, species, reefs, forests and the models that follow them over time."
   depiction: symbol.svg
 domain:
   order: 6

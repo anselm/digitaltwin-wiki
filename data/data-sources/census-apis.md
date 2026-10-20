@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: data-sources/census-apis.jpg
   label: Census APIs
   description: Demographic and socioeconomic datasets.
 datasource:
@@ -9,6 +10,8 @@ open:
   data: unknown
   api: 'yes'
   participation: unknown
+domains:
+  - people
 provenance:
   origin: survey
   sources:

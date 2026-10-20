@@ -34,8 +34,7 @@ export function load({ params }) {
     const b = e.figure && store.get(e.figure.entry)
     const figure = b ? { src: e.figure.src, full: e.figure.full || null, repo: e.figure.repo || null, posters: e.figure.posters || null, credit: e.figure.credit || '', url: card(b).url, label: b.about.label, poster: b.about.depiction ? `/${b.dir ? b.dir + '/' : ''}${b.about.depiction}` : null } : null
     return { ...base, aliases: e.about.aliases || [], figure,
-      pinned: store.entities.filter((a) => a.about?.pinned).sort((a, b) => a.about.pinned - b.about.pinned).map(line),
-      recent: store.recent(12).filter((r) => r.id && !r.section && !('domain' in r) && !r.about?.pinned).slice(0, 8).map(line),
+      recent: store.recent(12).filter((r) => r.id && !r.section && !('domain' in r)).slice(0, 8).map(line),
       sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), area: s.section.area || 'resources', count: store.descendants(s.id).length })),
       areas: [['new', 'New'], ['practice', 'Practice'], ['technologies', 'Technologies'], ['theory', 'Theory'], ['resources', 'Resources']],
       domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
@@ -57,7 +56,7 @@ export function load({ params }) {
     const short = id.split('/').pop()
     const items = store.find({ domain: short })
     const groups = {}
-    for (const it of items) { const k = store.kindsOf(it)[0] || 'entry'; (groups[k] ||= []).push(card(it)) }
+    for (const it of items) { const k = store.kindsOf(it)[0] || 'entry'; (groups[k] ||= []).push({ ...card(it), chips: chips(it) }) }
     return { ...base, colour: e.domain.colour, symbol: e.domain.symbol, credit: e.domain.credit, depiction: `/${e.dir}/${e.about.depiction}`, groups: Object.entries(groups).map(([k, items]) => ({ label: plural(kindLabel(k)), items })) }
   }
   // prose and flow: the entry itself, its kind fields, relations and provenance

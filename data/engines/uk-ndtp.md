@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/uk-ndtp.jpg
   label: UK NDTP
   description: >-
     The UK government's National Digital Twin Programme, led by the Department

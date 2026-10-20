@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: organizations/bioregional-financing-facilities-resiliance-discovery-arcs.jpg
   label: ResiliAnce Partnership
   description: >-
     Partnership of Commonland, Ashoka, The Weaving Lab and Wire Group, formed

@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/deltares-delft3d.jpg
   label: Deltares Delft3D
   description: >-
     Deltares' Delft3D FM Suite models water flow, transport of matter and

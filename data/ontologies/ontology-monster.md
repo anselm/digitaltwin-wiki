@@ -24,6 +24,8 @@ open:
   api: unknown
   participation: open
   note: 'Code on GitHub; analysis can be donated by anyone with a model.'
+domains:
+  - people
 provenance:
   origin: agent
   sources:

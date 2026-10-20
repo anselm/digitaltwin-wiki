@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/openfoam.jpg
   label: OpenFOAM
   description: >-
     Free, open-source computational fluid dynamics software, maintained in two

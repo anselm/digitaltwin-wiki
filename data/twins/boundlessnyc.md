@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: twins/boundlessnyc.jpg
   label: Valdrada
   aliases:
     - BoundlessNYC

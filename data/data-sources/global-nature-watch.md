@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: data-sources/global-nature-watch.jpg
   label: Global Nature Watch
   description: >-
     Online platform from the World Resources Institute, until 2026 called

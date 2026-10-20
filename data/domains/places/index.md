@@ -1,7 +1,7 @@
 ---
 about:
   label: Cities & places
-  description: "City blocks is the symbol; pastel coral is the colour."
+  description: "Cities and places: buildings, streets, 3D city models and the twins of whole towns and regions."
   depiction: symbol.svg
 domain:
   order: 1

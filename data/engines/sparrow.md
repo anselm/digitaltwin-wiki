@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/sparrow.jpg
   label: SPARROW
   description: >-
     Open-source, solar-powered edge device from Microsoft's AI for Good Lab

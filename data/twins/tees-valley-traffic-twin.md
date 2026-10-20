@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: twins/tees-valley-traffic-twin.jpg
   label: Tees Valley Traffic Digital Twin
   description: >-
     Tees Valley Combined Authority runs a live model of the region's roads,

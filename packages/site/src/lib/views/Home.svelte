@@ -34,13 +34,6 @@
   </figure>
 {/if}
 
-{#if data.pinned.length}
-  <section class="mt-8">
-    <h2 class="text-sm uppercase tracking-wide text-muted">Pinned</h2>
-    <ul class="mt-1">{#each data.pinned as p}<Line item={p} />{/each}</ul>
-  </section>
-{/if}
-
 <section class="mt-8">
   <h2 class="text-sm uppercase tracking-wide text-muted">Domains</h2>
   <ul class="mt-2 grid grid-cols-5 sm:grid-cols-10 gap-2">

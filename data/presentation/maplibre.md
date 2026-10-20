@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: presentation/maplibre.jpg
   label: MapLibre
   description: >-
     Open-source map libraries from the MapLibre organization: GL JS for
@@ -25,6 +26,8 @@ open:
   api: yes
   participation: open
   licence: BSD-3-Clause
+domains:
+  - places
 provenance:
   origin: agent
   sources:

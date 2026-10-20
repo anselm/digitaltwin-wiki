@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/niantic-spatial-places-library-real-to-sim-to-real.jpg
   label: Niantic Spatial Places Library
   description: >-
     Catalogue from Niantic Spatial of 100 real-world environments captured as

@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/urbanly-citycompass.jpg
   label: Urbanly CityCompass
   description: >-
     Urbanly's CityCompass simulates the households, firms and developers of a

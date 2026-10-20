@@ -18,6 +18,8 @@ open:
   data: unknown
   api: 'yes'
   participation: unknown
+domains:
+  - places
 provenance:
   origin: agent
   sources:

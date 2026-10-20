@@ -1,7 +1,7 @@
 ---
 about:
   label: Sensory landscape
-  description: "Senses is the symbol; pastel periwinkle is the colour."
+  description: "Sensory landscape: sound, light, air and how a place is felt."
   depiction: symbol.svg
 domain:
   order: 10

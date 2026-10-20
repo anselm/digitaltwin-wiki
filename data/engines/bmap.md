@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/bmap.jpg
   label: Bmap
   description: >-
     Hosted web tool from Bmap that turns a drawn bounding box anywhere on

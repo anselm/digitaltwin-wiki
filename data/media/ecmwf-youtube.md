@@ -13,6 +13,8 @@ feed:
   url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UChpGvNdQPdI7EI75z6oelTw'
   format: rss
   filter: true
+domains:
+  - climate
 provenance:
   origin: agent
   sources:

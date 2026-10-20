@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: data-sources/blue-corridors-bluecorridors-org.jpg
   label: Protecting Blue Corridors
   description: >-
     Web map from WWF and partners of whale migration routes built from pooled

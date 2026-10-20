@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/odyssey-3.jpg
   label: Odyssey-3
   description: >-
     World model from Odyssey that generates an interactive 3D environment from

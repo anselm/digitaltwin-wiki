@@ -1,7 +1,7 @@
 ---
 about:
   label: Weather & climate
-  description: "Atmosphere is the symbol; pastel lavender is the colour."
+  description: "Weather and climate: forecasts, reanalyses, heat, drought and the models that project them."
   depiction: symbol.svg
 domain:
   order: 7

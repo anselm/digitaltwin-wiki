@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: organizations/amazon-ia-amazon-ia.jpg
   label: Amazon.ia
   description: >-
     Multi-partner initiative, launching in 2026 with founding support from the

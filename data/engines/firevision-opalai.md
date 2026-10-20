@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/firevision-opalai.jpg
   label: FireVision
   description: >-
     Wildfire risk platform from Opal AI Inc. of Marina del Rey, California,

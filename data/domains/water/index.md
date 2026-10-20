@@ -1,7 +1,7 @@
 ---
 about:
   label: Water
-  description: "River is the symbol; pastel blue is the colour."
+  description: "Water: rivers, floods, coasts, oceans and the supply and quality of water."
   depiction: symbol.svg
 domain:
   order: 4

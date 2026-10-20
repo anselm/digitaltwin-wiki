@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/megadetector-pytorch-wildlife-ecosystem.jpg
   label: PyTorch-Wildlife and MegaDetector
   description: >-
     Open-source family of wildlife detection models and tools from Microsoft's

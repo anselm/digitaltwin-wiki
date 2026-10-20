@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: organizations/climate-cartographics.jpg
   label: Climate Cartographics
   description: >-
     Not-for-profit community interest company in England and Wales that

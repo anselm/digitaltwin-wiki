@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/lingbot-map.jpg
   label: LingBot-Map
   description: >-
     Open-source streaming 3D reconstruction model from the Robbyant team at

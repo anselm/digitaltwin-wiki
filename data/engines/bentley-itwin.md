@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/bentley-itwin.jpg
   label: Bentley iTwin
   description: >-
     Bentley Systems' iTwin Platform and its open-source iTwin.js library
@@ -18,6 +19,8 @@ open:
   data: unknown
   api: 'yes'
   participation: unknown
+domains:
+  - places
 provenance:
   origin: agent
   sources:

@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/destination-earth.jpg
   label: Destination Earth
   description: >-
     The European Commission's Destination Earth builds digital twins of the

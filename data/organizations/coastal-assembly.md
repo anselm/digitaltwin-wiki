@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: organizations/coastal-assembly.jpg
   label: Coastal Assembly
   description: >-
     Coastal Assembly, a public benefit company out of MIT's Self-Assembly Lab,

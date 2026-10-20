@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: twins/boston-3d-smart-model.jpg
   label: Boston 3D Smart Model
   description: >-
     The City of Boston Planning Department's GIS Lab maintains a citywide 3D

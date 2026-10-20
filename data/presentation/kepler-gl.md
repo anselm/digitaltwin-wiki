@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: presentation/kepler-gl.jpg
   label: kepler.gl
   description: >-
     Open-source geospatial analysis tool for large datasets that runs in a
@@ -24,6 +25,8 @@ open:
   api: unknown
   participation: open
   licence: MIT
+domains:
+  - places
 provenance:
   origin: agent
   sources:

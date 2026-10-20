@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/flaim-earthdaily-fire-likelihood-ai-model.jpg
   label: Fire Likelihood AI Model (FLAIM)
   description: >-
     EarthDaily's wildfire risk model, which combines satellite observations,

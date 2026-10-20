@@ -12,6 +12,8 @@ feed:
   url: 'https://feed.podbean.com/mapscaping/feed.xml'
   format: rss
   match: twin|simulat|3d|point cloud|lidar|reality capture|city|cities|urban|flood|climate|scenario
+domains:
+  - places
 provenance:
   origin: agent
   sources:

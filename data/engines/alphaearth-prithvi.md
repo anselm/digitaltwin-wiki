@@ -20,6 +20,9 @@ open:
   data: partly
   api: unknown
   participation: unknown
+domains:
+  - places
+  - ecology
 provenance:
   origin: agent
   sources:

@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: twins/virtual-singapore.jpg
   label: Dassault / Virtual Singapore
   description: >-
     A 3D model of Singapore built by the National Research Foundation, the

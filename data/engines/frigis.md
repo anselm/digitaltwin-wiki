@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/frigis.jpg
   label: friGIS
   description: >-
     Tropocen's browser-based GIS for urban heat adaptation, with a 3D model of a

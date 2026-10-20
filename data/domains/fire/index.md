@@ -1,7 +1,7 @@
 ---
 about:
   label: Fire
-  description: "Flame is the symbol; pastel apricot is the colour."
+  description: "Fire: wildfire risk, spread and the exposure of people and places."
   depiction: symbol.svg
 domain:
   order: 9

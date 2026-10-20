@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/hydrata.jpg
   label: Hydrata
   description: >-
     Browser-based flood modelling platform that runs the open-source ANUGA

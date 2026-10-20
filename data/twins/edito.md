@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: twins/edito.jpg
   label: European Digital Twin of the Ocean (EDITO)
   description: >-
     The European Commission's digital replica of the ocean, built and run by

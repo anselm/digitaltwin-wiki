@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: data-sources/global-safety-net-v3-gsn3.jpg
   label: Global Safety Net v3
   description: >-
     Global map from One Earth and Nature Data Lab of lands and inland waters

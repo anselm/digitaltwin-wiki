@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/matsim.jpg
   label: MATSim
   description: >-
     Open-source framework for large-scale agent-based transport simulation,

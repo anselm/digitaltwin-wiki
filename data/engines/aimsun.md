@@ -1,5 +1,6 @@
 ---
 about:
+  depiction: engines/aimsun.jpg
   label: Aimsun
   description: >-
     Aimsun's real-time traffic management twin, Aimsun Live, uses live and
