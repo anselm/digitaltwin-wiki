@@ -42,9 +42,8 @@ One list for the project, kept current. Decisions and reasoning live in
   a question page. Harvest2Market (NASA Harvest) could be a tool entry;
   the Amazon soy pact page (phys.org) needs a browser fetch.
 - Forests 2030 (`articles/forests-2030`, `devlog/20261020-forests-and-destine.md`):
-  the PDF is a local copy because LinkedIn's link expires; when Wild
-  Heritage publishes it, point `article.url` at their address. PRIMA, the
-  mapping app the post promises, has no page yet. forestregimemap.net was
+  published at primaryforestsandclimate.org on 2026-10-21 and the entry
+  links there. PRIMA, the mapping app the post promises, has no page yet. forestregimemap.net was
   unreachable; retry for a data source entry. The Rogers et al. 2022 paper
   on ecosystem integrity could be its own article entry.
 - Organizations (Anselm, 2026-10-20): only nine entries, but 122 distinct
