@@ -76,3 +76,8 @@ See the tail of `devlog/`.
 - Gate every new draft on `tools/tells.js` and the heckler inside the drafting workflow.
 - Site: the page prints the description as a dek and 42 bodies open by repeating it; either the dek goes or the opener must start where the dek stopped.
 - Unopened technical terms in 164 files: no regex; needs a reader pass with the non-technical patron in mind.
+
+## Mike's Niantic and NVIDIA syntheses (2026-10-21, devlog/20261021-mike-niantic-nvidia.md)
+
+- Niantic: Singapore Land Authority national VPS map; Cross-View Splatter paper. Two drafts done (twins/rancho-cordova, ontologies/spz).
+- NVIDIA: read NVIDIA's own pages for Earth-2's users (Taiwan CWA, Southwest Power Pool) and fold into engines/weathernext-nvidia-earth-2; PALM and Cesium microclimate claim; Aerial Omniverse Digital Twin.
