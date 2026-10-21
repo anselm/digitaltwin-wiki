@@ -81,3 +81,7 @@ See the tail of `devlog/`.
 
 - Niantic: Singapore Land Authority national VPS map; Cross-View Splatter paper. Two drafts done (twins/rancho-cordova, ontologies/spz).
 - NVIDIA: read NVIDIA's own pages for Earth-2's users (Taiwan CWA, Southwest Power Pool) and fold into engines/weathernext-nvidia-earth-2; PALM and Cesium microclimate claim; Aerial Omniverse Digital Twin.
+
+## Coverage sweep against outside lists (2026-10-21)
+
+TESSERA was missing because the wiki grew from the survey, the LinkedIn scrape, the inbox and Mike's maps, and nobody checked against a list made by someone else. Tested today: the curated GitHub lists have it (Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models, satellite-image-deep-learning/techniques); sacridini/Awesome-Geospatial and acgeospatial/awesome-earthobservation-code do not; Wikipedia has no TESSERA article and no Category:Digital_twins, so it is weak for this. Idea: a tool that reads such a list and diffs it against our entries, giving a gap list for Anselm to triage. Entries still written only from the projects' own pages.
