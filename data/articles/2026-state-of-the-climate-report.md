@@ -45,7 +45,7 @@ provenance:
   status: draft
 ---
 
-Alongside the climate signs, the report follows indicators of the human activities driving the change. The 2026 edition was published on 14 October 2026. Besides the seven indicators at record extremes, several show accelerating trends or abrupt shifts. Fossil fuel combustion remains the dominant driver. Renewable electricity and battery storage are growing fast, but the authors judge the growth far below the scale and speed needed.
+The 2026 edition, published on 14 October 2026, follows the climate signs alongside indicators of the human activities driving the change. Besides the seven indicators at record extremes, several show accelerating trends or abrupt shifts. Fossil fuel combustion remains the dominant driver. Renewable electricity and battery storage are growing fast, but the authors judge the growth far below the scale and speed needed.
 
 The sixteen climate-related series in its first figure, grouped as the paper groups them:
 

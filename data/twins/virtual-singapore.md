@@ -36,9 +36,9 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Virtual Singapore covers the whole city-state and is part of its Smart Nation effort. Three agencies work on it together: the National Research Foundation, the Singapore Land Authority and the Government Technology Agency (GovTech). The Land Authority supplies the topographic mapping data and GovTech the information technology. The software is Dassault Systèmes' 3DEXPERIENCity, which runs on Dassault's 3DEXPERIENCE platform.
+Virtual Singapore covers the whole city-state and is part of its Smart Nation effort. Three agencies work on it together: the National Research Foundation, the Singapore Land Authority and the Government Technology Agency (GovTech), with the Land Authority supplying the topographic mapping data and GovTech the information technology. The software is Dassault Systèmes' 3DEXPERIENCity, which runs on Dassault's 3DEXPERIENCE platform.
 
-The model is semantically enriched: each object is labelled by type, such as building, roof, wall or window. It is meant to connect to real-time data from the national sensor network. Dassault says agencies share it to see how the city develops over time with population growth and new construction.
+The model is semantically enriched: each object is labelled by type, such as building, roof, wall or window, and it is meant to connect to real-time data from the national sensor network. Dassault says agencies share it to see how the city develops over time with population growth and new construction.
 
 GovTech listed the intended uses in 2017:
 

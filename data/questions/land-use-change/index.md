@@ -28,7 +28,7 @@ Land is where the systems meet. Change the cover and you change how rain runs of
 
 ## What kind of model answers it
 
-Ecosystem services are the benefits people get from land and nature, such as clean water and stored carbon. Models of **ecosystem services** take a land-cover map and estimate each of these for the current map and for an alternative. They are built to compare scenarios, not to forecast a number to the decimal, and their value is in showing which plan is better and where. Crop models go deeper on the food question, simulating growth under given weather, soil and management. Integrated assessment models connect land to energy, water and the economy at the scale of a region or the world. They suit a question about policy more than one about a single parcel.
+Models of **ecosystem services**, the benefits people get from land and nature such as clean water and stored carbon, take a land-cover map and estimate each of these for the current map and for an alternative. They are built to compare scenarios, not to forecast a number to the decimal, and their value is in showing which plan is better and where. Crop models go deeper on the food question, simulating growth under given weather, soil and management. Integrated assessment models connect land to energy, water and the economy at the scale of a region or the world, and suit a question about policy more than one about a single parcel.
 
 On this site: [InVEST](/engines/invest/) for ecosystem services, [DSSAT](/engines/dssat/) for crops, [GCAM](/engines/gcam/) for the regional and global scale, and [Earth Index](/engines/earth-genome-earth-index/) for finding features in satellite imagery.
 
@@ -45,7 +45,7 @@ The [30 by 30 target](/mandates/thirty-by-thirty/) makes this a counting questio
 
 ## Without a model
 
-Overlay the plan on the land-cover map and list what each parcel changes from and to. Walk it with an ecologist and a farmer. Most of the trade-offs are visible from that table.
+Overlay the plan on the land-cover map and list what each parcel changes from and to, then walk it with an ecologist and a farmer. Most of the trade-offs are visible from that table.
 
 ## Next
 

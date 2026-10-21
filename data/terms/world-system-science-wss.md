@@ -41,7 +41,7 @@ domains:
 ---
 The book's full title is The Anthropocene Crisis: A World System Science Approach. Albert is at Universität Bielefeld, Buzan at the London School of Economics.
 
-The editors argue that Earth System Science, built by natural scientists to understand the planet's limits, lacks a counterpart. That counterpart would analyse how social and natural systems interact, and which social forces drive change in the anthroposphere, the human part of the Earth system. The book asks social scientists and historians to build that field, in particular International Relations scholars who draw on history, economics and sociology. It looks for common ground with Earth System Science on planetary stewardship and tipping-point risk. A tipping point is a threshold past which a system shifts abruptly and may not return.
+The editors argue that Earth System Science, built by natural scientists to understand the planet's limits, lacks a counterpart. That counterpart would analyse how social and natural systems interact, and which social forces drive change in the anthroposphere, the human part of the Earth system. The book asks social scientists and historians to build that field, in particular International Relations scholars who draw on history, economics and sociology. It looks for common ground with Earth System Science on planetary stewardship and on the risk of tipping points, thresholds past which a system shifts abruptly and may not return.
 
 The chapters include:
 

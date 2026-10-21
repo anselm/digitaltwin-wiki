@@ -15,7 +15,7 @@ provenance:
     on this site; not yet read by Anselm
   status: draft
 ---
-The first version should be embarrassingly small: one neighbourhood, one storm, one map. It tests whether the question, the data and the model fit together. It also gives the people who asked something to react to within weeks.
+The first version should be embarrassingly small: one neighbourhood, one storm, one map. It tests whether the question, the data and the model fit together, and it gives the people who asked something to react to within weeks.
 
 ## What small means
 

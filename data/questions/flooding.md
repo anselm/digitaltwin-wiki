@@ -26,7 +26,7 @@ This is usually three questions in one.
 2. **What happens if we change something**: raise a levee, clear a culvert, pave a field, add a pump? That needs a model, because water that is kept out of one place goes somewhere else.
 3. **What is coming in the next few days?** That is a forecast, and it is a different kind of model again, fed by rain and river gauges.
 
-Ask which one the people around you want. A councillor asking "will my street flood?" wants the first. An engineer sizing a culvert wants the second. A duty officer wants the third.
+Ask which one the people around you want. A councillor asking "will my street flood?" wants the first, an engineer sizing a culvert the second, and a duty officer the third.
 
 ## What kind of model answers it
 
@@ -39,7 +39,7 @@ A flood model moves water over a surface. It needs four inputs:
 
 The output is depth and extent, usually for a handful of storm sizes. The same model, run with a change in the ground or the pipes, gives the comparison that answers question two.
 
-[ANUGA](/engines/anuga/) is an open solver from Geoscience Australia. [Hydrata](/engines/hydrata/) runs ANUGA in a browser, so a model can be drawn without installing anything. [Delft3D](/engines/deltares-delft3d/), from Deltares, covers rivers, estuaries and coasts. For forecasts, [Google Flood Hub](/engines/google-flood-hub/) publishes free daily forecasts for river basins in over 150 countries.
+[ANUGA](/engines/anuga/) is an open solver from Geoscience Australia, and [Hydrata](/engines/hydrata/) runs ANUGA in a browser, so a model can be drawn without installing anything. [Delft3D](/engines/deltares-delft3d/), from Deltares, covers rivers, estuaries and coasts. For forecasts, [Google Flood Hub](/engines/google-flood-hub/) publishes free daily forecasts for river basins in over 150 countries.
 
 ## What you need before any of that
 
@@ -49,7 +49,7 @@ The output is depth and extent, usually for a handful of storm sizes. The same m
 
 ## Without a model
 
-Find the existing flood map for your area and the storm size it assumes. Walk the places that flooded with the people who were there. That is often enough for question one.
+Find the existing flood map for your area and the storm size it assumes, then walk the places that flooded with the people who were there. That is often enough for question one.
 
 ## Next
 

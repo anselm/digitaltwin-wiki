@@ -49,7 +49,7 @@ Netherlands3D is an open-source digital-twin framework for visualising data abou
 - the 3D Basisvoorziening
 - tree locations from the BGT
 
-Users can add their own layers from links in common web map formats (GeoJSON, WMS, WFS or 3D Tiles). Layers can also come from a local server, the national PDOK portal, or municipal and provincial data portals. The framework is meant as a front end for the input and output of calculation and simulation tools too. Organisations can set up a tailored instance with their own start location, tools and datasets.
+Users can add their own layers from links in common web map formats (GeoJSON, WMS, WFS or 3D Tiles), and layers can also come from a local server, the national PDOK portal, or municipal and provincial data portals. The framework is meant as a front end for the input and output of calculation and simulation tools too. Organisations can set up a tailored instance with their own start location, tools and datasets.
 
 The framework's code is on GitHub under the EUPL-1.2 licence and installs as a Unity package. The repository invites other Dutch municipalities to contribute.
 

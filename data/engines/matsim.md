@@ -35,7 +35,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-MATSim stands for Multi-Agent Transport Simulation and is written in Java. In an agent-based model, each person is simulated as a separate actor with plans of their own. MATSim follows each person's whole day second by second, by car, transit, walking, cycling or demand-responsive services. Over repeated iterations every agent adjusts its plan in response to everyone else. The settled result is the model's estimate of travel behaviour.
+MATSim stands for Multi-Agent Transport Simulation and is written in Java. In an agent-based model each person is simulated as a separate actor with plans of their own, and MATSim follows each person's whole day second by second, by car, transit, walking, cycling or demand-responsive services. Over repeated iterations every agent adjusts its plan in response to everyone else, and the settled result is the model's estimate of travel behaviour.
 
 Users named on the MATSim site:
 
@@ -44,6 +44,6 @@ Users named on the MATSim site:
 - Arup builds models in the UK and a nationwide one for New Zealand.
 - Berliner Verkehrsbetriebe (BVG) is listed among the showcases.
 
-The code is open source on GitHub. MATSim is mostly a framework to configure and extend with your own Java code, starting from a Maven example project in a Java IDE. A basic GUI runs scenarios by editing configuration files. Users supply their own network and population inputs.
+The code is open source on GitHub. MATSim is mostly a framework to configure and extend with your own Java code, starting from a Maven example project in a Java IDE. A basic GUI runs scenarios by editing configuration files, and users supply their own network and population inputs.
 
 The MATSim User Meeting 2026 took place in Paris on 28 September, with 43 presentations.

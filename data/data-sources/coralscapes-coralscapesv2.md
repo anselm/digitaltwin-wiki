@@ -58,6 +58,6 @@ Coralscapes is modelled on Cityscapes, a dataset of urban scenes. Every pixel in
 
 CoralscapesV2 grows to 2433 frames from 55 Red Sea reef sites, with 95 fine-grained classes, about 270,000 polygons and 65,738 fish instance masks (outlines of individual fish). Its co-authors include researchers from institutions in Djibouti, Eritrea, Jordan and Sudan. The V2 paper is for the ECCV 2026 Workshop on Marine Vision (arXiv 2609.12826).
 
-The datasets are for training models that read underwater footage. They train the segmentation models in DeepReefMap, EPFL's Apache-licensed software for mapping a reef from handheld video. DeepReefMap produces a labelled 3D point cloud, an ortho-mosaic (one top-down image stitched from many frames) and benthic cover statistics (how much of the seabed each class covers).
+The datasets are for training models that read underwater footage, among them the segmentation models in DeepReefMap, EPFL's Apache-licensed software for mapping a reef from handheld video. DeepReefMap produces a labelled 3D point cloud, an ortho-mosaic (one top-down image stitched from many frames) and benthic cover statistics (how much of the seabed each class covers).
 
-Both load from the Hugging Face Hub with the datasets library. V2 is released under Apache 2.0, and V1 has no stated licence. V2's video sequences total around 206 GB, so streaming is advised. Pretrained segmentation models in 39- and 95-class versions are published alongside.
+Both load from the Hugging Face Hub with the datasets library, and pretrained segmentation models in 39- and 95-class versions are published alongside. V2 is released under Apache 2.0, and V1 has no stated licence. V2's video sequences total around 206 GB, so streaming is advised.

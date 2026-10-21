@@ -44,8 +44,8 @@ import:
     - Ralph Chami
     - Blue Green Future
 ---
-SWAN stands for Sovereign Wealth and Nature. Its premise is that oceans, forests, mangroves and other living systems produce economic and resilience value that national accounts and financial systems do not record. To recognise that natural wealth, governments need data, valuation methods, policy and financial structures. Blue Green Future works on natural-capital finance more broadly and advises governments on bringing nature onto their balance sheets. Ralph Chami is its co-founder and CEO.
+SWAN stands for Sovereign Wealth and Nature. Its premise is that oceans, forests, mangroves and other living systems produce economic and resilience value that national accounts and financial systems do not record. To recognise that natural wealth, governments need data, valuation methods, policy and financial structures. Blue Green Future, whose co-founder and CEO is Ralph Chami, works on natural-capital finance more broadly and advises governments on bringing nature onto their balance sheets.
 
-The Kingdom of Tonga is the inaugural sovereign partner, and the Republic of Panama joined a day later. Both signed memoranda of understanding with the two organisations during the UN General Assembly in New York. Tonga comes in as a large ocean state with marine and coastal natural wealth. Panama comes in for its forests, watersheds, biodiversity and blue economy.
+The Kingdom of Tonga is the inaugural sovereign partner, and the Republic of Panama joined a day later. Both signed memoranda of understanding with the two organisations during the UN General Assembly in New York. Tonga comes in as a large ocean state with marine and coastal natural wealth, and Panama for its forests, watersheds, biodiversity and blue economy.
 
 Blue Green Future's news page dates the launch to 30 September 2026. The platform is still under development.

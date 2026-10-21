@@ -40,4 +40,4 @@ The company aims it at property developers, community groups, local authorities 
 
 A typical engagement takes a month or two: data preparation with geo-surveys, a one-hour introduction, a two-hour negotiation meeting, then reports and financial analysis.
 
-Geodesignhub is commercial. Each event is priced by the expected number of participants and paid as a single up-front fee. Eligible public-service and humanitarian projects get discounts of up to 80 percent or free access for up to a year. The software imports existing GIS data, has an API, and exports to GeoPackage or GeoJSON at any time. A free online course teaches geodesign, the planning method the software follows.
+Geodesignhub is commercial. Each event is priced by the expected number of participants and paid as a single up-front fee, though eligible public-service and humanitarian projects get discounts of up to 80 percent or free access for up to a year. The software imports existing GIS data, has an API, and exports to GeoPackage or GeoJSON at any time. A free online course teaches geodesign, the planning method the software follows.

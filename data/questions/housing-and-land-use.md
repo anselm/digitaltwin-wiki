@@ -19,7 +19,7 @@ A rezoning is on the table, or a new transit line, and someone wants to know wha
 
 ## What you are really asking
 
-Land use and travel are coupled. People choose where to live partly by how they can get to work. Developers build where people can get to. Both change what the roads and trains carry. So the question is **what this change does to the whole loop, over years**. Beneath it are the questions the council will argue about: how many homes, how affordable, how much traffic, and the effect on the tax base.
+Land use and travel are coupled. People choose where to live partly by how they can get to work, and developers build where people can get to. Both change what the roads and trains carry, so the question is **what this change does to the whole loop, over years**. Beneath it are the questions the council will argue about: how many homes, how affordable, how much traffic, and the effect on the tax base.
 
 ## What kind of model answers it
 

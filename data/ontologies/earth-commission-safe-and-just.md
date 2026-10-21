@@ -37,11 +37,11 @@ provenance:
   reviewed_by: 'Claude, from the Earth Commission site only; the Lancet page returns 403 and the paper itself was not read.'
   status: draft
 ---
-The Earth Commission is an international group of social and natural scientists hosted by Future Earth, with its secretariat in Stockholm. It is the scientific arm of the Global Commons Alliance. Its work is to synthesise the science that sets limits for the global commons: clean air and water, biodiversity, oceans and a stable climate. The aim is a planet that stays stable, which the Commission calls safe, and on which life can thrive, which it calls just.
+The Earth Commission is an international group of social and natural scientists hosted by Future Earth, with its secretariat in Stockholm, and is the scientific arm of the Global Commons Alliance. Its work is to synthesise the science that sets limits for the global commons: clean air and water, biodiversity, oceans and a stable climate. The aim is a planet that stays stable, which the Commission calls safe, and on which life can thrive, which it calls just.
 
 The Commission names two flagship papers. One is Safe and Just Earth System Boundaries by Rockström and colleagues in Nature, 2023. The other is this report by Gupta and colleagues in The Lancet Planetary Health, 2024, titled A just world on a safe planet.
 
-The Safe and Just Boundaries workstream is co-led by Steven Lade, Aditi Mukherji and Peter Verburg. It is refining the boundaries and extending the scheme to the oceans and to novel entities, meaning chemical pollution. Its working groups cover climate and atmosphere, land and water, novel entities, and ocean. The workstream also studies how the boundaries interact and how tipping points, thresholds past which a system shifts abruptly, connect across the Earth system.
+The Safe and Just Boundaries workstream, co-led by Steven Lade, Aditi Mukherji and Peter Verburg, is refining the boundaries and extending the scheme to the oceans and to novel entities, meaning chemical pollution. Its working groups cover climate and atmosphere, land and water, novel entities, and ocean. The workstream also studies how the boundaries interact and how tipping points, thresholds past which a system shifts abruptly, connect across the Earth system.
 
 Papers listed under the workstream include:
 

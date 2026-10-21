@@ -52,4 +52,4 @@ Planners are asked to define a project's boundary by the systems it affects rath
 
 Communities, the framework argues, need information on land, water, energy, tax incentives and ecological impacts early enough to take part in decisions. The living systems affected should be represented through ecological science, monitoring and Indigenous knowledge alongside Western methods. Biohabitats says the framework is explicitly not a rating or certification scheme.
 
-Nature First is written for communities, local governments, and planning and design professionals. Biohabitats calls it a practical starting point that will keep evolving. It was published on the firm's blog on 1 September 2026. Bowers discussed it in a three-part series for the ASLA's The Dirt. The second part is dated 7 October 2026.
+Nature First is written for communities, local governments, and planning and design professionals, and Biohabitats calls it a practical starting point that will keep evolving. It was published on the firm's blog on 1 September 2026. Bowers discussed it in a three-part series for the ASLA's The Dirt, of which the second part is dated 7 October 2026.

@@ -51,7 +51,7 @@ import:
 domains:
   - sensory
 ---
-Robbyant calls it a 3D foundation model, meaning a large model trained broadly so it can be reused for many tasks. The paper behind it is "Geometric Context Transformer for Streaming 3D Reconstruction" (arXiv 2604.14141). LingBot-Map reads a video file or a folder of images and outputs camera poses, depth and a point cloud frame by frame. Classical structure-from-motion, which recovers 3D shape from many overlapping photos, refines its estimate by iterative optimisation; LingBot-Map does without that step. The repository claims about 20 frames per second at 518 by 378 pixels on sequences of more than 10,000 frames.
+Robbyant calls it a 3D foundation model, meaning a large model trained broadly so it can be reused for many tasks. LingBot-Map, described in the paper "Geometric Context Transformer for Streaming 3D Reconstruction" (arXiv 2604.14141), reads a video file or a folder of images and outputs camera poses, depth and a point cloud frame by frame. Classical structure-from-motion, which recovers 3D shape from many overlapping photos, refines its estimate by iterative optimisation; LingBot-Map does without that step. The repository claims about 20 frames per second at 518 by 378 pixels on sequences of more than 10,000 frames.
 
 DeepReefMap is an EPFL toolkit for mapping coral reefs from handheld underwater video, and LingBot-Map is one of its reconstruction backends. The DeepReefMap README recommends it for long videos on a modest GPU, because memory use stays flat however long the dive is. The weights are public, with no access request.
 

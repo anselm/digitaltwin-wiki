@@ -35,12 +35,12 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The Island Digital Ecosystem Avatars (IDEA) Consortium set out in 2013 to build "avatars" of two well-studied island ecosystems in French Polynesia: Moorea and the atoll Tetiaroa. An avatar here is a sustainability simulator of a social-ecological system, meaning people and nature treated as one system. It models the links and feedbacks between climate, environment, biodiversity and human activities across land and sea together. The work draws on data science, high-performance computing (large jobs run on supercomputers) and digital twin technology.
+The Island Digital Ecosystem Avatars (IDEA) Consortium set out in 2013 to build "avatars" of two well-studied island ecosystems in French Polynesia: Moorea and the atoll Tetiaroa. An avatar here is a sustainability simulator of a social-ecological system, meaning people and nature treated as one system, and it models the links and feedbacks between climate, environment, biodiversity and human activities across land and sea together. The work draws on data science, high-performance computing (large jobs run on supercomputers) and digital twin technology.
 
-The consortium's page is hosted by the Gump South Pacific Research Station on Moorea. Its founding paper is "Simulating Social-Ecological Systems: the Island Digital Ecosystem Avatars (IDEA) Consortium" (GigaScience, 2016), linked by DOI. The station's director, Neil Davies, is named across the related projects.
+The consortium's page is hosted by the Gump South Pacific Research Station on Moorea, whose director, Neil Davies, is named across the related projects. Its founding paper is "Simulating Social-Ecological Systems: the Island Digital Ecosystem Avatars (IDEA) Consortium" (GigaScience, 2016), linked by DOI.
 
-The Moorea IDEA aims to improve prediction of human and natural change on the island at the scales where management and conservation act. It is also meant to produce tools other islands can share. Tetiaroa Society launched the Tetiaroa IDEA to support that atoll's Conservation and Sustainable Use Plan. The 4Site Pacific Transect Collaborative extends the approach to Oahu and Palmyra. There has been interest from Crete, and work with island communities in Greece and Sweden.
+The Moorea IDEA aims to improve prediction of human and natural change on the island at the scales where management and conservation act, and to produce tools other islands can share. Tetiaroa Society launched the Tetiaroa IDEA to support that atoll's Conservation and Sustainable Use Plan, and the 4Site Pacific Transect Collaborative extends the approach to Oahu and Palmyra. There has been interest from Crete, and work with island communities in Greece and Sweden.
 
 The avatar builds on the Moorea Biocode Project, which inventoried all non-microbial life on the island. It also builds on data-management work now gathered under an organisation called iPlaces: the FAIR Island Project with the California Digital Library, GEOME and iSamples.
 
-No release date has been given for the Moorea avatar. A visualisation from it was shown at a physical-modelling workshop in Zurich.
+No release date has been given for the Moorea avatar, though a visualisation from it was shown at a physical-modelling workshop in Zurich.

@@ -34,11 +34,11 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-VU.CITY Limited is based in London. Its tools are aimed at architects, developers, planners, local authorities, asset managers and utilities. The managed city models cover over 3,000 square kilometres, accurate to 15 cm by the company's account. Named cities include London, Dublin and New York.
+VU.CITY Limited is based in London, and its tools are aimed at architects, developers, planners, local authorities, asset managers and utilities. The managed city models cover over 3,000 square kilometres, accurate to 15 cm by the company's account. Named cities include London, Dublin and New York.
 
 Alongside the models come camera tools, data layers, proposed developments and a microclimate tool. SiteSolve is a generative tool for early-stage site design. Models come in through plugins for Revit, SketchUp and Blender. Case studies include the City of London's skyline work, Bristol City Council, a 3D web map for Southampton's digital planning consultation and visual impact assessments at Lichfields. VU.CITY is sold in packages with a free trial, and a new version is in early access.
 
-CLARA, from CLARA Technologies, is a separate product. It starts from a 3D model of buildings, terrain and streets and takes in earth observation, ground sensors and weather forecasts. A computational fluid dynamics engine, accelerated with machine learning, computes past, present and forecast wind, air quality (NO2, PM2.5, PM10, O3) and temperature at 1 m resolution. Computational fluid dynamics is software that simulates how air or water flows. Noise is to follow.
+CLARA, from CLARA Technologies, is a separate product. It starts from a 3D model of buildings, terrain and streets and takes in earth observation, ground sensors and weather forecasts. A computational fluid dynamics engine (software that simulates how air or water flows), accelerated with machine learning, computes past, present and forecast wind, air quality (NO2, PM2.5, PM10, O3) and temperature at 1 m resolution. Noise is to follow.
 
 CLARA is delivered three ways:
 
@@ -46,6 +46,6 @@ CLARA is delivered three ways:
 - CLARA-web, for local administrations and other organisations with a territory, subscribed per area and layer
 - CLARA-app, a free citizen app with location alerts
 
-The first application, BrusAir, was built for the City of Brussels' smart-city programme and has been live since June 2025. The roadmap puts the app's public release in June 2026 and the CLARA-web launch in September 2026. Noise maps follow in autumn 2026, then Antwerp and Ghent in early 2027. CLARA joined the Horizon Europe ACCEND accelerator in August 2026, and the company publishes a validation report.
+The first application, BrusAir, was built for the City of Brussels' smart-city programme and has been live since June 2025. The roadmap puts the app's public release in June 2026 and the CLARA-web launch in September 2026, with noise maps in autumn 2026 and Antwerp and Ghent in early 2027. CLARA joined the Horizon Europe ACCEND accelerator in August 2026, and the company publishes a validation report.
 
 Neither site mentions a link between the two companies.

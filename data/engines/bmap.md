@@ -43,9 +43,9 @@ provenance:
 ---
 The user searches a city or drags a box, and Bmap assembles the land surface, the coastline, the buildings at their footprints and heights, the road grid and the tree cover, all at 1:1 scale. The result spins in the browser and can be exported for use elsewhere. The site's worked example is Monaco, built up in stages: terrain, then coast, then buildings, then waterfront.
 
-It is aimed at people who want a real place as a game or web scene without GIS software or hand modelling. Export is a layered GLB file, a single-file 3D format that three.js, Unity and Blender read. Unreal Engine 5 appears as an export in both paid plans in the pricing table, but elsewhere the page names it and Roblox as next in line. The app page offers Nice, Monaco, Antibes and Genoa as starting points and a default area of 3.5 km.
+It is aimed at people who want a real place as a game or web scene without GIS software or hand modelling, and exports a layered GLB file, a single-file 3D format that three.js, Unity and Blender read. Unreal Engine 5 appears as an export in both paid plans in the pricing table, but elsewhere the page names it and Roblox as next in line. The app page offers Nice, Monaco, Antibes and Genoa as starting points and a default area of 3.5 km.
 
-The service is hosted at app.bmap.io. The underlying data are open, credited to OpenStreetMap contributors under the ODbL licence, Overture Maps, Copernicus GLO-30, the French mapping agency IGN and ESA WorldCover. The pipeline that builds the models is kept private.
+The service is hosted at app.bmap.io, and the pipeline that builds the models is kept private. The underlying data are open, credited to OpenStreetMap contributors under the ODbL licence, Overture Maps, Copernicus GLO-30, the French mapping agency IGN and ESA WorldCover.
 
 - Free: unlimited generation of maps up to 1.5 km, with a browser preview and walk mode.
 - Single export: $29, with a commercial licence.

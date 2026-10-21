@@ -29,11 +29,11 @@ If the question has no decision behind it, it is research or curiosity. Both are
 
 ## Split it
 
-Most questions are two or three. "Will more trees cool the neighbourhood and what will it cost?" is three questions: microclimate, budget and maintenance. Each is answered differently. Write each one down. The [question pages](/questions/) on this site each do this split for a common question, and reading the one nearest yours is a good way to find your own.
+Most questions are two or three. "Will more trees cool the neighbourhood and what will it cost?" is three questions: microclimate, budget and maintenance. Each is answered differently, so write each one down. The [question pages](/questions/) on this site each do this split for a common question, and reading the one nearest yours is a good way to find your own.
 
 ## Decide what good enough looks like
 
-Before you build, say what answer would change the decision. "If the model shows fewer than two streets flooding, we do nothing." A model that cannot tell those two cases apart is not worth building, however beautiful. This is also the sentence that stops a project growing forever.
+Before you build, say what answer would change the decision: "If the model shows fewer than two streets flooding, we do nothing." A model that cannot tell those two cases apart is not worth building, however beautiful. This is also the sentence that stops a project growing forever.
 
 ## Find out who already answered it
 
@@ -41,7 +41,7 @@ Someone has usually modelled a place like yours. Look in [digital twins](/twins/
 
 ## Write it where people will see it
 
-The sentence goes at the top of the project document and is read aloud at the first meeting. When the project drifts, read the sentence again.
+The sentence goes at the top of the project document and is read aloud at the first meeting; when the project drifts, read the sentence again.
 
 ## Next
 

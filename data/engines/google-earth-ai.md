@@ -67,7 +67,7 @@ domains:
   - water
   - energy
 ---
-Google Research presented it in October 2025 as a set of geospatial foundation models plus an orchestrating agent. A foundation model is a large model trained on broad data that other tasks can build on. The named parts are:
+Google Research presented it in October 2025 as a set of geospatial foundation models, large models trained on broad data that other tasks can build on, plus an orchestrating agent. The named parts are:
 
 - Remote Sensing Foundations: vision-language and detection models for satellite imagery.
 - The Population Dynamics Foundation Model: location embeddings from anonymised Search and Maps trends. An embedding is a list of numbers that summarises a place so a model can compare it with others. As of 2025 it covered 17 countries and was updated monthly.
@@ -79,7 +79,7 @@ Google Research presented it in October 2025 as a set of geospatial foundation m
 
 Google's product page also lists conservation models such as SpeciesNet and Perch, the NeuralGCM atmospheric model, air quality and pollen APIs and a traffic simulation API under the same name.
 
-Google names several uses. WHO AFRO used it in outbreak response in the Democratic Republic of the Congo. GiveDirectly uses it for anticipatory cash assistance ahead of floods, and Bellwether to predict property damage before storms. The Milken Institute uses it in solar feasibility screening. University of Oxford researchers reported that adding the Population Dynamics embeddings raised R² for twelve-month dengue predictions in Brazil from 0.456 to 0.656. R² measures how much of the variation a model explains.
+Google names several uses. WHO AFRO used it in outbreak response in the Democratic Republic of the Congo. GiveDirectly uses it for anticipatory cash assistance ahead of floods, and Bellwether to predict property damage before storms. The Milken Institute uses it in solar feasibility screening. University of Oxford researchers reported that adding the Population Dynamics embeddings raised R² (how much of the variation a model explains) for twelve-month dengue predictions in Brazil from 0.456 to 0.656.
 
 Each piece is reached differently:
 
@@ -89,4 +89,4 @@ Each piece is reached differently:
 - Flood Hub: a free public site.
 - The Geospatial Reasoning agent and Planetary Prediction Engine: early-access application.
 
-Some components are open source, including the hydrology framework behind Flood Hub (Apache 2.0), SpeciesNet and NeuralGCM. Terms and prices vary by component and are not collected in one place. Parts of the family are operational products used inside Google Search, Maps and Earth. Others are experimental research, and the agent and prediction engine were still in limited preview in October 2026.
+Some components are open source, including the hydrology framework behind Flood Hub (Apache 2.0), SpeciesNet and NeuralGCM. Terms and prices vary by component and are not collected in one place. Parts of the family are operational products used inside Google Search, Maps and Earth, while others are experimental research; the agent and prediction engine were still in limited preview in October 2026.

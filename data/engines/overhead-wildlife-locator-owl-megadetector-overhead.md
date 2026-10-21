@@ -50,7 +50,7 @@ import:
 domains:
   - ecology
 ---
-MegaDetector was built for camera-trap photos. This version adapts it to aerial surveys, with their small targets, varying altitude and straight-down views. It is part of the PyTorch-Wildlife ecosystem. The repository ships training, evaluation and inference code for three OWL (Overhead Wildlife Locator) models:
+MegaDetector was built for camera-trap photos, and this version adapts it to aerial surveys, with their small targets, varying altitude and straight-down views. It is part of the PyTorch-Wildlife ecosystem. The repository ships training, evaluation and inference code for three OWL (Overhead Wildlife Locator) models:
 
 - OWL-C, a fast convolutional baseline.
 - OWL-T, which adds a Swin transformer branch for cluttered backgrounds.
@@ -58,4 +58,4 @@ MegaDetector was built for camera-trap photos. This version adapts it to aerial 
 
 The OWL paper (Chacón and others, June 2026) frames the models as weakly supervised density estimation. They are trained from a single point marked on each animal instead of a drawn box, and estimate how many animals fall in each part of an image. The paper benchmarks them on five public aerial datasets plus a caribou census transfer test. A separate preprint by Elchik and others compares a general-purpose box detector, DroneMegaDetector, against OWL and finds performance varies by dataset and altitude.
 
-The code is MIT-licensed and runs locally in Python. The OWL-D checkpoint is about 3.5 GB and needs a CUDA GPU; OWL-C runs on CPU. Model weights and the caribou datasets are on Zenodo under CC BY-NC-SA 4.0. The README records a full local run on 8 September 2026.
+The code is MIT-licensed and runs locally in Python. The OWL-D checkpoint is about 3.5 GB and needs a CUDA GPU, whereas OWL-C runs on CPU. Model weights and the caribou datasets are on Zenodo under CC BY-NC-SA 4.0, and the README records a full local run on 8 September 2026.

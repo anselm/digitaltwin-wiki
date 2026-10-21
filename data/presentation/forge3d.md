@@ -40,7 +40,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed; the pages do not give the maker''s name beyond the GitHub account'
   status: draft
 ---
-The renderer is written in Rust on wgpu/WebGPU and shipped as Python wheels. WebGPU is a modern interface to the graphics card. The starting point is a digital elevation model, a grid of ground heights, read as a GeoTIFF or numpy array. Raster and vector layers are draped over the terrain. Rendering uses path tracing, which simulates light bouncing through a scene. Physically based materials, water, and shadows from terrain and clouds are included. A window can be opened to orbit the scene, or the package can run headless for batch work.
+The renderer is written in Rust on wgpu/WebGPU and shipped as Python wheels. WebGPU is a modern interface to the graphics card. The starting point is a digital elevation model, a grid of ground heights read as a GeoTIFF or numpy array, with raster and vector layers draped over the terrain. Rendering uses path tracing, which simulates light bouncing through a scene, and includes physically based materials, water, and shadows from terrain and clouds. A window can be opened to orbit the scene, or the package can run headless for batch work.
 
 Examples in the repository are thematic maps of places:
 
@@ -50,8 +50,8 @@ Examples in the repository are thematic maps of places:
 - rivers and lakes for Germany
 - WorldPop population cells extruded for Türkiye
 
-A population or land-cover raster can be drawn as a raised shaded surface, by class colour, or as two variables in a bivariate colour matrix. Because scenes are driven from Python, a time series is a loop over frames. One example moves smoke from HRRR forecast fields across California through the summer 2025 fire season. Legends, scale bars, north arrows and labels are drawn in the same engine.
+A population or land-cover raster can be drawn as a raised shaded surface, by class colour, or as two variables in a bivariate colour matrix. Because scenes are driven from Python, a time series is a loop over frames, and one example moves smoke from HRRR forecast fields across California through the summer 2025 fire season. Legends, scale bars, north arrows and labels are drawn in the same engine.
 
-Installation is pip install forge3d, with extras for notebook widgets and sample datasets. Inputs include Cloud Optimized GeoTIFFs, LAZ/COPC/EPT point clouds, 3D Tiles, GeoJSON and CityJSON. Outputs are PNG and 16-bit PNG, SVG and PDF, EXR with AOVs, and saveable scene bundles. The core is open source, Apache-2.0 or MIT at the user's choice. Composing a finished map plate, exporting vectors and importing buildings are paid features, unlocked by a commercial licence key.
+Installation is pip install forge3d, with extras for notebook widgets and sample datasets. Inputs include Cloud Optimized GeoTIFFs, LAZ/COPC/EPT point clouds, 3D Tiles, GeoJSON and CityJSON, and outputs are PNG and 16-bit PNG, SVG and PDF, EXR with AOVs, and saveable scene bundles. The core is open source, Apache-2.0 or MIT at the user's choice, while composing a finished map plate, exporting vectors and importing buildings are paid features unlocked by a commercial licence key.
 
 The output is print-resolution images, where browser viewers such as /presentation/cesiumjs/ give an interactive web map. Buildings come in as /ontologies/cityjson/.
