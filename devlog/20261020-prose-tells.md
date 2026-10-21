@@ -116,3 +116,42 @@ pass per entry with the linter's hits as the brief and the rule that no
 fact may be added or dropped; (3) the heckler and `tells.js` as the gate
 on every new draft, in the workflow that writes them. Also a site fix: if
 the dek stays, the body should not restate it, or the dek should go.
+
+## The rewrite (2026-10-21)
+
+Anselm: "Please do the prose rewrite." Done in two workflow passes over
+the 230 entries a machine wrote. His own pages (origin human) and the
+survey pages were left alone, as was the changes log.
+
+1. **Rewrite.** One writer per five entries, edits in place, with the
+   linter's hits for each file as its brief and nine rules drawn from the
+   families above. A second reader per batch diffed each file against
+   git HEAD, restored any fact or hedge lost without licence, removed
+   anything new, and checked the frontmatter. 94 agents, 130 files fixed
+   by the second reader, 101 clean, none reverted. Typical catches: a
+   dropped "only" or "can", a gloss that turned into a new claim, a
+   site's reading credited to a paper's authors.
+2. **Rhythm.** The rewrite overcorrected: long sentences broke into runs
+   of short ones of one length, often a fact and then a one-line gloss.
+   Metronome paragraphs went from 22 to 59. A second pass on those 51
+   files joined and varied sentences only, checked the same way, and
+   brought it to 11.
+
+| tell | before | after |
+|---|---|---|
+| status-stamp-close | 56 | 0 |
+| shelf-filing-close | 31 | 0 |
+| pages-read-absence | 96 | 15 |
+| credits-opener | 11 | 0 |
+| description-echo | 42 | 6 |
+| source-as-subject | 126 | 48 |
+| pointer-close | 111 | 47 |
+| long-breath | 221 | 25 |
+| semicolon-ledger | 34 | 2 |
+| metronome | 22 | 11 |
+
+Not fixed by a rule and still worth a human pass: the passport
+appositions (56), triplets (the count rose, since many long sentences
+became lists), and the voice of the guides, which the rules can flatten
+but not give character. Sentences went from 2,733 to about 4,200 across
+the store: shorter, and more of them.
