@@ -50,3 +50,30 @@ Southwest Power Pool; a claim about street-level microclimate with PALM
 and Cesium tiles in Omniverse, which names no city; and the Aerial
 Omniverse Digital Twin, a city-scale radio model. Each needs NVIDIA's own
 pages before anything is written.
+
+## A third: US federal digital twins
+
+Mike's third export, titled with its own prompt ("Please write a paper
+describing and detailing all ..."), surveys US federal digital twins in
+nine pages, again with no links. Most of it is defence, intelligence and
+health. Six candidates fit a wiki about places; each went through
+read-then-refute from the agency's own pages:
+
+- Kept: the National Academies report *Foundational Research Gaps and
+  Future Directions for Digital Twins* (2024; highlights dated December
+  2023), NASA ESTO's Earth System Digital Twins under AIST, NOAA's
+  National Water Model, and SAWGraph, the NSF Proto-OKN knowledge graph
+  on PFAS in water, soil and farms. The refuters' corrections were hedges
+  and scope: "likely heavily empirical", proposals written up as built
+  work, the 2.7 million reaches being continental US only.
+- Dropped, and the reason matters: the synthesis names a NITRD "National
+  Digital Twins R&D Strategic Plan". nitrd.gov has only a June 2024
+  request for information about such a plan. It names a NOAA "Digital
+  Twin Earth Framework Specification (DTE-FS)" with a "Knowledge Mesh";
+  no NOAA page read mentions either. Both look invented. The synthesis
+  also gives the Genesis Mission an executive order number, which no
+  page here confirms.
+
+That makes three syntheses from Mike, and one rule holds for all three:
+the programme names are mostly real and worth chasing, but the
+sentences around them are not to be trusted until checked.
