@@ -45,4 +45,4 @@ The README's demo videos show a public-opinion simulation about Wuhan University
 
 MiroFish installs from source (Node.js 18+, Python 3.11 to 3.12, uv) or with Docker Compose. A web front end runs on port 3000 and a Python back end on port 5001. Running it needs a Zep Cloud key and an API key for any LLM that speaks the OpenAI SDK format, and the README recommends Alibaba's Qwen-plus. Consumption is high, and the README suggests starting with runs of fewer than 40 rounds. Licence AGPL-3.0.
 
-The repository was created on GitHub in November 2025, and the team is recruiting. Its agents interact in a social space built from text, whereas spatial agent-based platforms such as /engines/gama/ place agents on a map.
+The repository was created on GitHub in November 2025, and the team is recruiting. Its agents interact in a social space built from text, whereas spatial agent-based platforms such as [GAMA](/engines/gama/) place agents on a map.

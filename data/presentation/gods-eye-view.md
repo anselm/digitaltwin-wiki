@@ -42,7 +42,7 @@ provenance:
 ---
 God's Eye View grew out of a video series of the same name, earlier called WorldView, in which a 3D globe tracks live aircraft and ships in the look of a military operations room. The code was opened in 2026 under the MIT licence. The maintainers are Bilawal Sidhu and Sameh Khamis at Halfpixel.
 
-It runs in the browser on your own machine and starts without any API keys. The planet is Google Photorealistic 3D Tiles drawn with CesiumJS (/presentation/cesiumjs/), in plain JavaScript with no framework. Layers include:
+It runs in the browser on your own machine and starts without any API keys. The planet is Google Photorealistic 3D Tiles drawn with [CesiumJS](/presentation/cesiumjs/), in plain JavaScript with no framework. Layers include:
 
 - aircraft from OpenSky and ships from AIS
 - satellites placed from their published orbital elements

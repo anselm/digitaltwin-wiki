@@ -61,4 +61,4 @@ What is published:
 
 The geotessera Python library downloads a bounding box for a year as GeoTIFFs, one per UTM zone. It can also paint three of the 128 bands as red, green and blue on a web map. Looking at that map for your own area shows quickly whether the embeddings tell apart the things you care about. The model code is MIT licensed and the embeddings are CC0.
 
-Google's AlphaEarth does something similar with 64 numbers per pixel inside Earth Engine (/engines/alphaearth-prithvi/). TESSERA's embeddings and weights can be taken away and run on your own machines.
+Google's AlphaEarth does something similar with 64 numbers per pixel inside Earth Engine ([AlphaEarth / Prithvi](/engines/alphaearth-prithvi/)). TESSERA's embeddings and weights can be taken away and run on your own machines.

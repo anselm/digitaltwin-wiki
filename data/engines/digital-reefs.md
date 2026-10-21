@@ -51,4 +51,4 @@ It runs on cloud computing and game-engine platforms. Contact is by email.
 
 A low-fidelity prototype is shown in a video walk-through. The NSF Convergence Accelerator programme funds the project. The makers say they expect to scale it within five years into a "globally interconnected Digital Reefs Network".
 
-For a reef twin that is already running, see /twins/ereefs/.
+For a reef twin that is already running, see [eReefs](/twins/ereefs/).

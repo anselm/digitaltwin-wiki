@@ -54,4 +54,4 @@ A population or land-cover raster can be drawn as a raised shaded surface, by cl
 
 Installation is pip install forge3d, with extras for notebook widgets and sample datasets. Inputs include Cloud Optimized GeoTIFFs, LAZ/COPC/EPT point clouds, 3D Tiles, GeoJSON and CityJSON, and outputs are PNG and 16-bit PNG, SVG and PDF, EXR with AOVs, and saveable scene bundles. The core is open source, Apache-2.0 or MIT at the user's choice, while composing a finished map plate, exporting vectors and importing buildings are paid features unlocked by a commercial licence key.
 
-The output is print-resolution images, where browser viewers such as /presentation/cesiumjs/ give an interactive web map. Buildings come in as /ontologies/cityjson/.
+The output is print-resolution images, where browser viewers such as [CesiumJS](/presentation/cesiumjs/) give an interactive web map. Buildings come in as [CityJSON](/ontologies/cityjson/).

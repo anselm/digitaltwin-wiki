@@ -92,6 +92,8 @@ const TELLS = [
     test: (s) => /\b(?:really|actually|honest(?:ly)?|genuinely|truly|simply|actual|real (?:decision|question|work|projects?))\b/i.test(s) },
   { name: 'em-dash', unit: 'sentence', why: 'an em-dash; Anselm writes none',
     test: (s) => /—/.test(s) },
+  { name: 'bare-path', unit: 'sentence', why: 'an internal path written as text, which prints raw; use [Label](/shelf/id/)',
+    test: (s) => /(?:^|[\s(])\/[a-z-]+\/[a-z0-9-]+\/(?=[\s).,;]|$)/.test(s.replace(/\]\([^)]*\)/g, '')) },
   // the description line
   { name: 'desc-tail', unit: 'description', why: 'the description closes on a clause instead of a noun',
     test: (d) => /\band (?:how|what|where|whether|the \w+ that)\b/i.test(d) || POINTER.test(d) },

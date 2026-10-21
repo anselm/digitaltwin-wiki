@@ -58,4 +58,4 @@ The Commission's resources include:
 - a glossary of terms, as a PDF
 - scientific and communication graphics, including the current state of the boundaries and animations of the Earth-system boundaries
 
-The boundaries give a list of systems, each with a limit, against which a model of a place can report its state. The entry /ontologies/world-earth-taxonomies/ classifies the subsystems such a model would contain.
+The boundaries give a list of systems, each with a limit, against which a model of a place can report its state. The entry [Taxonomies for structuring World–Earth models](/ontologies/world-earth-taxonomies/) classifies the subsystems such a model would contain.

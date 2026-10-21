@@ -54,4 +54,4 @@ The same graph moves between GeoPandas, NetworkX, rustworkx and PyTorch Geometri
 
 A workshop on the library was given at FOSS4G 2026.
 
-City2Graph installs with pip or from conda-forge and supports Python 3.12 to 3.14. The core install builds and analyses graphs without PyTorch. PyTorch and PyTorch Geometric are optional extras, in CPU and CUDA variants, for GNN-ready tensors. Inputs can come from Overture Maps, OpenStreetMap-derived data (see /data-sources/openstreetmap-osm/), GTFS and GBFS feeds and ordinary GIS layers. Street networks fetched with OSMnx, which the makers call complementary, also work. The licence is BSD-3-Clause.
+City2Graph installs with pip or from conda-forge and supports Python 3.12 to 3.14. The core install builds and analyses graphs without PyTorch. PyTorch and PyTorch Geometric are optional extras, in CPU and CUDA variants, for GNN-ready tensors. Inputs can come from Overture Maps, OpenStreetMap-derived data (see [OpenStreetMap](/data-sources/openstreetmap-osm/)), GTFS and GBFS feeds and ordinary GIS layers. Street networks fetched with OSMnx, which the makers call complementary, also work. The licence is BSD-3-Clause.
