@@ -42,8 +42,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The MapLibre Organization is an umbrella for open-source mapping libraries. MapLibre GL JS is a TypeScript library for publishing maps on a website, with GPU-accelerated rendering of vector tiles. MapLibre Native is a C++ library for maps inside mobile and desktop applications, embedded devices and cars, with GPU acceleration through OpenGL, Metal or Vulkan, and Android and iOS bindings.
+MapLibre GL JS is a TypeScript library that publishes maps on a website, drawing vector tiles (map data sent as shapes, not pictures) on the graphics card. MapLibre Native is a C++ library for maps in mobile and desktop applications, embedded devices and cars. Native draws through OpenGL, Metal or Vulkan and has Android and iOS bindings.
 
-Around the libraries sit a style specification, a JSON document that says what data to draw, in what order and how, with Maputnik as a style editor; a tile specification for a next-generation vector tile format; and Martin, a tile server written in Rust that generates vector tiles from PostGIS on the fly or serves PMTiles and MBTiles files.
+The style specification is a JSON document that says what data to draw, in what order and how. Maputnik is a style editor. A separate tile specification defines a next-generation vector tile format. Martin is a tile server written in Rust. It generates vector tiles on the fly from PostGIS, or serves PMTiles and MBTiles files. PostGIS is the spatial extension to the PostgreSQL database.
 
-MapLibre GL JS is licensed under a three-clause BSD licence held by the MapLibre contributors. For a twin that is a 2D or 2.5D map rather than a globe, it is the common open base layer, and deck.gl can draw data layers over it.
+MapLibre GL JS is under a three-clause BSD licence held by the MapLibre contributors. For 2D and 2.5D maps it is the common open base layer, and deck.gl can draw data layers on top.

@@ -3,8 +3,8 @@ about:
   label: Civic models
   description: >-
     The aim of predictive models of land, water, law and policy that ordinary
-    people can run, question and argue with, rather than tools reserved for
-    planners, companies and agencies.
+    people can run, question and argue with, open to the public and not
+    reserved for planners, companies and agencies.
   tags:
     - simulation
     - participation
@@ -70,10 +70,26 @@ relations:
     target: terms/natural-general-intelligence-ngi
     note: discusses it
 ---
-A civic model is a predictive model of some part of the world, a watershed, a city's zoning, a river's allocation, that the public can use directly: bring a question, change a condition, run the world forward, and see what might follow. The case for them, as Anselm Hook puts it in two 2026 essays, is that corporations and governments already build such models, and that public ones would let people argue the model instead of arguing at each other. He traces the lineage through Philip Meyer's precision journalism, the World3 model behind Limits to Growth, Buckminster Fuller's World Game, Climate Interactive's C-ROADS and En-ROADS, participatory modelling of watersheds and fisheries, and SimCity, and notes the recurring lesson that the model supplies the physics while a person supplies the story.
+Such a model covers some part of the world, a watershed, a city's zoning or a river's allocation. A person brings a question, changes a condition, runs the world forward and sees what might follow. Anselm Hook makes the case in two 2026 essays. Corporations and governments already build such models, he writes, and public ones would let people argue the model instead of arguing at each other. He traces the lineage through:
 
-The same essays list what a civic model would need beyond the model itself: interfaces fitted to very different people, many independent instances rather than one, honest handling of data ownership and provenance, replay of past events as a regression test, ways to show tipping points and the lives least like one's own, and some form of authority attached to participation. The hard problems named are compute cost and the fact that few people take part in civic conversations at all.
+- Philip Meyer's precision journalism
+- the World3 model behind Limits to Growth
+- Buckminster Fuller's World Game
+- Climate Interactive's C-ROADS and En-ROADS
+- participatory modelling of watersheds and fisheries
+- SimCity
 
-Google Research's Earth AI work is one current example of the underlying machinery, though aimed at organisations rather than the public. Its Geospatial Reasoning agent, described in an October 2026 technical report, connects Gemini to foundation models for weather, flood forecasting, population dynamics and remote sensing, plus Earth Engine and Data Commons, and plans multi-step spatial analyses; the Planetary Prediction Engine, announced in August 2026, automates the whole workflow from data discovery to a trained predictive model for queries such as food security in Nigeria or Ebola spread in the DRC. Both are experimental, with early access for partner organisations by application.
+The recurring lesson he draws is that the model supplies the physics while a person supplies the story.
 
-Status: a direction, not a system. The sources describe aspirations, prototypes and vendor research, not an operational public model of land, law and policy.
+The same essays list what a civic model would need beyond the model itself:
+
+- interfaces fitted to very different people
+- many independent instances, not one
+- clear handling of data ownership and provenance
+- replay of past events as a regression test, a check that the model reproduces what happened
+- ways to show tipping points and the lives least like one's own
+- some form of authority attached to participation
+
+The hard problems he names are compute cost, and the fact that few people take part in civic conversations at all.
+
+Google Research's Earth AI work is one current example of the underlying machinery, though aimed at organisations, not the public. Its Geospatial Reasoning agent is described in an October 2026 technical report. It connects Gemini to foundation models for weather, flood forecasting, population dynamics and remote sensing, plus Earth Engine and Data Commons, and plans multi-step spatial analyses. The Planetary Prediction Engine, announced in August 2026, automates the whole workflow from data discovery to a trained predictive model. Example queries include food security in Nigeria and Ebola spread in the DRC. Both are experimental, with early access for partner organisations by application.

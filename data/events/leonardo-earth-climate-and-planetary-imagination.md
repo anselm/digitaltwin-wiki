@@ -41,8 +41,8 @@ domains:
   - climate
   - ecology
 ---
-A call for papers from Leonardo/ISAST for a focus section of the journal Leonardo, subtitled "From Environmental Art to Planetary Axis". It asks how collaborations across art, science and technology can contribute to climate literacy, environmental justice and regenerative futures, and how such work can move from representing ecological crisis to taking part in repair.
+The section is subtitled "From Environmental Art to Planetary Axis". It asks how collaborations across art, science and technology can contribute to climate literacy, environmental justice and regenerative futures. A second question is how such work can move from representing ecological crisis to taking part in repair.
 
-Suggested topics include environmental sensing, data visualization, field-based practices, speculative ecologies, and health and wellbeing in a changing climate. The call does not mention digital twins or modelling by name. Guest editors are not named on the page.
+Suggested topics include environmental sensing, data visualization, field-based practices and speculative ecologies. Health and wellbeing in a changing climate is another. The call does not mention digital twins or modelling by name.
 
-The call is listed as open from 14 October 2026, with manuscripts due 15 December 2026. Submissions go through Leonardo's Editorial Express system, following the journal's author guidelines, with the call named in the submission notes.
+The call is open from 14 October 2026, with manuscripts due 15 December 2026. Submissions go through Leonardo's Editorial Express system under the journal's author guidelines, with the call named in the submission notes.

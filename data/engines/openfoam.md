@@ -49,10 +49,8 @@ import:
 domains:
   - water
 ---
-OpenFOAM is a general-purpose computational fluid dynamics code. Two organisations distribute it under the same name: OpenCFD Ltd, a subsidiary of Keysight, which says it has developed OpenFOAM since 2004 and publishes releases every June and December; and the OpenFOAM Foundation, a not-for-profit that owns the copyright of its line and distributes code produced by CFD Direct.
+Computational fluid dynamics (CFD) simulates how liquids and gases move by solving the equations of flow on a mesh of small cells. Two organisations distribute OpenFOAM under the same name. OpenCFD Ltd, a subsidiary of Keysight, says it has developed OpenFOAM since 2004, and publishes releases every June and December. The OpenFOAM Foundation is a not-for-profit that owns the copyright of its line and distributes code produced by CFD Direct.
 
-Both sites describe a user base across most of engineering and science, from chemical and process work to civil, mechanical and environmental problems, and the Foundation notes growing use in clean-energy research such as renewables, batteries and carbon capture. In a digital-twin setting it is the kind of solver used for detailed wave, current or airflow studies around a site.
+Both organisations report users in most fields of engineering and science, including chemical and process, civil, mechanical and environmental work. The Foundation notes growing use in clean-energy research such as renewables, batteries and carbon capture. In a model of a place it is the kind of solver used for detailed wave, current or airflow studies around a site.
 
-It is free software under the GNU General Public Licence v3, installed on Linux, macOS or Windows or built from source. Both organisations sell support, training and development services around it.
-
-Status: operational, in long-term maintenance.
+OpenFOAM is free software under the GNU General Public Licence v3. It installs on Linux, macOS or Windows, or builds from source. Both organisations sell support, training and development work.

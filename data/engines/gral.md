@@ -45,10 +45,17 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-GRAL, the Graz Lagrangian Model, is a dispersion model developed since 1999 at the Institute of Thermodynamics and Sustainable Propulsion Systems at Graz University of Technology. With its companion wind-field model GRAMM it forms the GRAMM/GRAL system, which the institute says is used both in research and in regulatory assessments of urban air quality. It was first built for the frequent low-wind conditions of inner-Alpine basins in Austria, where wind is below 1.5 m/s for up to 90 per cent of the time, and it handles dispersion across the full range of wind speeds and stability conditions.
+GRAL has been developed since 1999 at the Institute of Thermodynamics and Sustainable Propulsion Systems at Graz University of Technology. Lagrangian means it follows the paths of many individual particles of pollutant. With its companion wind-field model GRAMM it forms the GRAMM/GRAL system. The institute says the system is used both in research and in regulatory assessments of urban air quality. The model was first built for the frequent low-wind conditions of inner-Alpine basins in Austria, where wind is below 1.5 m/s for up to 90 per cent of the time. It handles dispersion across the full range of wind speeds and stability conditions.
 
-It simulates chemically non-reactive pollutants in built-up areas and complex terrain, with a micro-scale flow model that accounts for buildings and building downwash; stack emissions with temperature and exit velocity; dispersion from road tunnel portals, meeting the Austrian guideline RVS 04.02.12; dry and wet deposition and sedimentation; decay such as bacteria die-off; and flow within vegetation layers. For smell it computes odour hours from a concentration-variance model. Runs can be steady-state or transient, for instance for puff releases.
+It simulates chemically non-reactive pollutants in built-up areas and complex terrain. Its features include:
 
-The model system is freeware. It is downloaded from the TU Graz site after registering with some basic details; the download page gives no warranty of completeness or correctness and puts the risk of correct application on the user. The pages read do not name a source licence or a public repository. The institute offers trainings.
+- a micro-scale flow model that accounts for buildings and building downwash, the air pulled down behind a building
+- stack emissions with temperature and exit velocity
+- dispersion from road tunnel portals, meeting the Austrian guideline RVS 04.02.12
+- dry and wet deposition and sedimentation
+- decay, such as bacteria die-off
+- flow within vegetation layers.
 
-Status: in use; the download site was renewed in November 2022, and the home page gives no later date.
+For smell it computes odour hours from a concentration-variance model. Runs can be steady-state or transient, for instance for puff releases.
+
+The model system is freeware, downloaded from the TU Graz site after registering with some basic details. It comes with no warranty of completeness or correctness, and the risk of correct application is the user's. The institute offers trainings.

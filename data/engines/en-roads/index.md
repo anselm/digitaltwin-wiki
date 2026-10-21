@@ -34,13 +34,13 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: proposed
 ---
-En-ROADS (Energy Rapid Overview and Decision Support) is a global climate simulator from Climate Interactive, developed with the MIT Sloan School of Management and Ventana Systems. Moving sliders for energy sources, carbon pricing, land use, economic growth and other levers shows at once what happens to global emissions, temperature, energy use and related indicators.
+En-ROADS stands for Energy Rapid Overview and Decision Support. Moving sliders for energy sources, carbon pricing, land use, economic growth and other levers shows at once what happens to global emissions, temperature, energy use and related indicators.
 
-Climate Interactive aims it at policymakers, business and finance, advocates and educators, and runs facilitated group sessions around it (a Climate Solutions Workshop and a Climate Action Simulation Game) through a network of trained ambassadors. The site carries a testimonial from the head of the City of Stuttgart's climate protection office among its users.
+Climate Interactive aims it at policymakers, business and finance, advocates and educators. Trained ambassadors run facilitated group sessions with it: a Climate Solutions Workshop and a Climate Action Simulation Game. Its users include the head of the City of Stuttgart's climate protection office, quoted on the site.
 
-Under the interface is an integrated assessment model built with system dynamics: eighteen linked submodels run from 1990 to 2100 and use behavioural decision rules and feedback loops rather than optimisation with perfect foresight. Starting values come from historical data such as UN population figures and measured greenhouse-gas concentrations, and outputs are compared with other integrated assessment models. A technical reference lists the equations and sources. The interface is offered in more than 20 languages. Licence and price are not stated on the pages read.
+Under the interface is an integrated assessment model, a model that links the economy, energy and climate. It is built with system dynamics, a method of modelling stocks, flows and feedback loops. Eighteen linked submodels run from 1990 to 2100, using behavioural decision rules and feedback loops instead of optimisation with perfect foresight. Starting values come from historical data such as UN population figures and measured greenhouse-gas concentrations. Outputs are compared with other integrated assessment models, and a technical reference lists the equations and sources. The interface is offered in more than 20 languages.
 
-Operational and still being extended: updates in July 2026 added ocean alkalinity enhancement and the energy demand of data centres and AI.
+Updates in July 2026 added ocean alkalinity enhancement (adding alkaline minerals to seawater so it absorbs more carbon dioxide) and the energy demand of data centres and AI.
 
 ![En-ROADS in a 2023 demonstration: policy controls beside energy, emissions and temperature results.](/engines/en-roads/enroads.jpg)
 

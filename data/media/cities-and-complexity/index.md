@@ -30,8 +30,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Batty sets urban dynamics inside complexity theory and shows, with worked models, how many simple interacting processes add up to the organised whole of a city. He argues that planning has been moving from top-down control to bottom-up explanation, that bottom-up processes have outcomes that cannot be predicted in detail, and that fractal geometry and nonlinear dynamics are the tools suited to them. The early chapters build cities from cellular automata, where change comes from the local rules of simple cells; later ones move to agents and to the fractal structure of urban form. The paperback appeared in 2007.
+Batty places urban dynamics inside complexity theory and shows, with worked models, how many simple interacting processes add up to the organised whole of a city. He argues that planning has been moving from top-down control to bottom-up explanation. Bottom-up processes, in his account, have outcomes that cannot be predicted in detail. Fractal geometry (shapes that repeat at many scales) and nonlinear dynamics are the tools he finds suited to such processes.
 
-For a builder it is the textbook on the family of methods, cellular automata, agent-based models, fractal growth, that most place-scale simulations draw on, with the reasoning for why those methods fit cities and what they cannot be expected to deliver.
+The early chapters build cities from cellular automata: grids of simple cells whose change comes from local rules. Later chapters move to agents, individual actors each following their own rules, and to the fractal structure of urban form. Most place-scale simulations draw on this family of methods. The book gives the reasoning for why they fit cities and what they cannot be expected to deliver. The paperback appeared in 2007.
 
 Cover via Open Library.

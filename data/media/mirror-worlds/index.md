@@ -30,8 +30,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Gelernter, a computer scientist at Yale, argued that small programs were about to be joined by large public software works, and that the most important of these would be the Mirror World: a running model of a real place, a city or an organisation, that takes in a stream of live data and shows the state of the whole at this moment. A reader could look into such a model, move around in it, ask it questions and try out changes. The book spends part of its length on what this would be used for, from running a hospital to following a city council, and part on how it could be built from the technology of the time, explained through everyday analogies. First published in 1991; the paperback followed in 1992.
+Gelernter, a computer scientist at Yale, argued that small programs were about to be joined by large public software works. The most important would be the Mirror World, a running model of a real place, such as a city, or of an organisation. Fed by a stream of live data, it would show the state of the whole at this moment. Readers could look in, move around, ask questions and try out changes.
 
-For anyone building a digital twin of a place this is the source text. Most of what the field now describes as a twin, the live feed, the model of the whole, the ability to ask what happens if, is set out here decades before the term existed.
+Part of the book covers uses, such as running a hospital or following a city council. Part covers how a Mirror World could be built from the technology of the time, explained through everyday analogies. The book was first published in 1991, and the paperback followed in 1992.
+
+Most of what the field now calls a twin is set out here, decades before the term existed: the live feed, the model of the whole, and what-if questions.
 
 Cover via Open Library.

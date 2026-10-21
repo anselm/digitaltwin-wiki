@@ -50,10 +50,12 @@ import:
 domains:
   - ecology
 ---
-MegaDetector-Overhead is the Microsoft AI for Good Lab's open-source model for spotting animals in overhead imagery from drones and aircraft. It extends the MegaDetector framework, which was built for camera-trap photos, to the small targets, varying altitude and straight-down views of aerial surveys, and it is part of the PyTorch-Wildlife ecosystem. The repository ships training, evaluation and inference code for the OWL (Overhead Wildlife Locator) family: OWL-C, a fast convolutional baseline; OWL-T, which adds a Swin transformer branch for cluttered backgrounds; and OWL-D, built on a DINOv3 vision transformer.
+MegaDetector was built for camera-trap photos. This version adapts it to aerial surveys, with their small targets, varying altitude and straight-down views. It is part of the PyTorch-Wildlife ecosystem. The repository ships training, evaluation and inference code for three OWL (Overhead Wildlife Locator) models:
 
-The OWL paper (Chacón and others, June 2026) describes it as weakly supervised density estimation, trained from point labels rather than bounding boxes, and benchmarks it on five public aerial datasets plus a caribou census transfer test. A separate preprint by Elchik and others compares a general-purpose box detector, DroneMegaDetector, against OWL and finds performance varies by dataset and altitude.
+- OWL-C, a fast convolutional baseline.
+- OWL-T, which adds a Swin transformer branch for cluttered backgrounds.
+- OWL-D, built on a DINOv3 vision transformer.
 
-Code is MIT-licensed and runs locally in Python; the OWL-D checkpoint is about 3.5 GB and needs a CUDA GPU, while OWL-C runs on CPU. Model weights and the caribou datasets are on Zenodo under CC BY-NC-SA 4.0.
+The OWL paper (Chacón and others, June 2026) frames the models as weakly supervised density estimation. They are trained from a single point marked on each animal instead of a drawn box, and estimate how many animals fall in each part of an image. The paper benchmarks them on five public aerial datasets plus a caribou census transfer test. A separate preprint by Elchik and others compares a general-purpose box detector, DroneMegaDetector, against OWL and finds performance varies by dataset and altitude.
 
-Status: released; the README records a full local run on 8 September 2026.
+The code is MIT-licensed and runs locally in Python. The OWL-D checkpoint is about 3.5 GB and needs a CUDA GPU; OWL-C runs on CPU. Model weights and the caribou datasets are on Zenodo under CC BY-NC-SA 4.0. The README records a full local run on 8 September 2026.

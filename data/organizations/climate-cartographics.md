@@ -3,8 +3,8 @@ about:
   depiction: organizations/climate-cartographics.jpg
   label: Climate Cartographics
   description: >-
-    Not-for-profit community interest company in England and Wales that
-    turns environmental data into maps, 3D representations and installations
+    A not-for-profit community interest company in England and Wales that
+    makes maps, 3D representations and installations from environmental data
     for partners such as councils, architects and research groups.
   tags:
     - visualisation
@@ -35,8 +35,14 @@ provenance:
   reviewed_by: 'Claude, from the source listed; Anselm asked for it to be tracked ahead of a map of people and organizations'
   status: draft
 ---
-Climate Cartographics CIC is a not-for-profit community interest company registered in England and Wales (company number 12636027), run by John Cook, who visualises environmental data across media, and Ben Pollock, who works on environmental analysis and climate adaptation strategy. Its stated purpose is to confront the climate and ecological emergency with visual communication that brings environmental knowledge into partners' decisions.
+Climate Cartographics CIC (company number 12636027) is run by John Cook and Ben Pollock. Cook visualises environmental data across media. Pollock works on environmental analysis and climate adaptation strategy. The company sets out to confront the climate and ecological emergency with visual communication that brings environmental knowledge into partners' decisions.
 
-The method it describes has three parts: research with partners on how to reach their audiences, geospatial analysis and computation to assemble diverse datasets and show the relationships between society, environment and planet, and visual storytelling that also pictures possible futures. Outputs range from data visualisation, spatial mapping and 3D representation to print, physical installations, animation and interactive platforms.
+Its method has three parts:
 
-The page lists partners including Arup, Dark Matter Labs, Southwark Council, the Welsh Government, Trees for Cities, the Crown Estate, Space Syntax, Open Lunar Foundation, the University of Westminster and the University of York, and exhibitions from the 2019 Triennale di Milano and the 2021 Venice Architecture Biennale to the 2024 International Architecture Biennale Rotterdam and a 2025 show at the Centro Cultural de Belém in Lisbon. Nothing on the page says whether its data or methods are published for reuse.
+- Research with partners on how to reach their audiences.
+- Geospatial analysis and computation to assemble diverse datasets and show the relationships between society, environment and planet.
+- Visual storytelling that also pictures possible futures.
+
+Outputs include data visualisation, spatial mapping, 3D representation, print, physical installations, animation and interactive platforms.
+
+Partners include Arup, Southwark Council and the Welsh Government. The work has been exhibited at the 2019 Triennale di Milano, the 2021 Venice Architecture Biennale, the 2024 International Architecture Biennale Rotterdam and, in 2025, the Centro Cultural de Belém in Lisbon.

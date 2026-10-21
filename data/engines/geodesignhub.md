@@ -2,9 +2,9 @@
 about:
   label: Geodesignhub
   description: >-
-    Geodesignhub's hosted map-based negotiation platform; groups sketch
-    spatial proposals, bundle them into alternatives and trade them off in
-    facilitated sessions until they agree a plan.
+    Hosted map-based negotiation software in which groups sketch spatial
+    proposals, bundle them into alternatives and trade them off in facilitated
+    sessions until they agree a plan.
   tags:
     - geodesign
     - negotiation
@@ -34,10 +34,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: proposed
 ---
-Geodesignhub is a hosted platform for negotiating spatial plans among stakeholders on a shared map. Up to 50 participants, online or in a room with a trained facilitator, sketch proposals, group them into alternatives and trade them off in structured give-and-take rounds until they reach an agreement, which is then exported as reports and spatial data.
+A session holds up to 50 participants, online or in a room with a trained facilitator. Proposals are traded off in structured give-and-take rounds, and the agreed plan is exported as reports and spatial data.
 
-The company aims it at property developers, community groups, local authorities and planners working on urban and regional planning, inter-agency coordination, public engagement, post-disaster rehabilitation, infrastructure investment, tourism, climate adaptation, environmental management and heritage protection, and particularly at contested sites where competing interests have stalled. Its pricing page describes a typical engagement as a month or two: data preparation with geo-surveys, a one-hour introduction, a two-hour negotiation meeting, then reports and financial analysis. The site offers case studies, but none is named on the pages read.
+The company aims it at property developers, community groups, local authorities and planners, especially on contested sites where competing interests have stalled. The uses it lists are urban and regional planning, inter-agency coordination, public engagement, post-disaster rehabilitation, infrastructure investment, tourism, climate adaptation, environmental management and heritage protection.
 
-Commercial, priced per event by expected number of participants as a single up-front fee, with discounts of up to 80 percent or free access for up to a year for eligible public-service and humanitarian projects. It imports existing GIS data, has an API, and exports to GeoPackage or GeoJSON at any time. A free online course teaches the geodesign method it follows.
+A typical engagement takes a month or two: data preparation with geo-surveys, a one-hour introduction, a two-hour negotiation meeting, then reports and financial analysis.
 
-Operational.
+Geodesignhub is commercial. Each event is priced by the expected number of participants and paid as a single up-front fee. Eligible public-service and humanitarian projects get discounts of up to 80 percent or free access for up to a year. The software imports existing GIS data, has an API, and exports to GeoPackage or GeoJSON at any time. A free online course teaches geodesign, the planning method the software follows.

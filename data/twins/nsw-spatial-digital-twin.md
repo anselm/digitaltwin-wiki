@@ -3,10 +3,9 @@ about:
   depiction: twins/nsw-spatial-digital-twin.jpg
   label: NSW Spatial Digital Twin
   description: >-
-    DCS Spatial Services, the New South Wales government's spatial data
-    authority, runs a 3D and 4D visualisation platform and data-sharing
-    portal for the state, used by agencies and councils for planning,
-    asset management and emergency response.
+    The New South Wales government's 3D and 4D map viewer and data-sharing
+    portal for the state, used by agencies and councils for planning, asset
+    management and emergency response.
   tags:
     - New South Wales
     - state government
@@ -42,10 +41,15 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The NSW Spatial Digital Twin is run by DCS Spatial Services, the New South Wales government's spatial data and surveying authority. Its catalogue describes it as a set of connected products: the SDT Explorer, a browser viewer for 2D, 3D and 4D spatial data with terrain, buildings and infrastructure, cadastre, property boundaries and aerial imagery; the Spatial Collaboration Portal, a shared data management and delivery platform for agencies, councils and industry; SDT Stories, for map-based narratives; and customised twins, web maps, apps and dashboards built for agencies on request. The older viewer address nsw.digitaltwin.terria.io now redirects to the Explorer at portal.spatial.nsw.gov.au.
+DCS Spatial Services runs the NSW Spatial Digital Twin. DCS Spatial Services is the New South Wales government's spatial data and surveying authority. The twin is a set of connected products:
 
-The stated uses are urban planning and development, asset and infrastructure management, environmental monitoring, public engagement and emergency incident management, with real-time feeds from IoT sensors, traffic and environmental monitoring. The catalogue names no single worked example.
+- the SDT Explorer, a browser viewer for 2D, 3D and 4D spatial data, with terrain, buildings and infrastructure, cadastre, property boundaries and aerial imagery
+- the Spatial Collaboration Portal, for agencies, councils and industry to manage and deliver data together
+- SDT Stories, for map-based narratives
+- customised twins, web maps, apps and dashboards built for agencies on request
 
-What is open: the Explorer is free. The Collaboration Portal holds more than 1,000 datasets covering the 21 themes of the Foundation Spatial Data Framework, accessible through customer APIs, but downloads and API access are subject to the sharing permissions each contributing organisation sets, so some data is open and some is not. Agencies, councils and private organisations can upload and share their own datasets through the portal. No licence is named in the pages read, and nothing is said about the viewer's source code.
+4D here means 3D over time. The cadastre is the official record of land parcels. The older viewer address nsw.digitaltwin.terria.io now redirects to the Explorer at portal.spatial.nsw.gov.au.
 
-Status: operational. The product and services catalogue is dated 17 September 2025.
+The listed uses are urban planning and development, asset and infrastructure management, environmental monitoring, public engagement and emergency incident management. Real-time feeds come from IoT sensors (devices that report over the internet), traffic and environmental monitoring.
+
+The Explorer is free. The Collaboration Portal holds more than 1,000 datasets covering the 21 themes of the Foundation Spatial Data Framework, reachable through customer APIs. Each contributing organisation sets the sharing permissions for downloads and API access, so some data is open and some is not. Agencies, councils and private organisations can upload and share their own datasets through the portal.

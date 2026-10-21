@@ -50,8 +50,10 @@ domains:
   - ecology
   - water
 ---
-The Community Fish Detector is a set of pretrained object-detection models that recognise one class, fish, in underwater imagery. It was made by a group led by Filippo Varini, with Dan Morris, Sonny Burniston, Oceane Boulais and others; each contributor converted one open dataset to a common format, and the pooled Community Fish Detection Dataset holds about two million images and 935,000 fish bounding boxes from seventeen sources, including baited video, ROVs, deep-sea cameras, coral reefs, aquaculture pens, lab tanks and rivers. It does not identify species.
+The detector is a set of pretrained object-detection models with one class, fish. It does not identify species. Filippo Varini led the work with contributors including Dan Morris, Sonny Burniston and Oceane Boulais. Each contributor converted one open dataset to a common format.
 
-The models are released as open weights: RF-DETR variants at three sizes under Apache 2.0, and a YOLOv12x model under AGPL-3.0, which the project has deprecated because of that licence. Inference runs from Python scripts on images or video (one frame per second by default) and writes MegaDetector-format output; a Hugging Face Space runs the model in a browser. The dataset is hosted on LILA BC.
+The pooled Community Fish Detection Dataset holds about two million images and 935,000 fish bounding boxes (rectangles marking where each fish is in a frame). Its seventeen sources include baited video, ROVs (remotely operated underwater vehicles), deep-sea cameras, coral reefs, aquaculture pens, lab tanks and rivers. The dataset is hosted on LILA BC.
 
-Status: the makers call the released models an initial training effort, with model versions dated February to July 2026, and are gathering contributors and annotated imagery for a second version.
+The models are released as open weights, meaning the trained model files can be downloaded. RF-DETR variants come at three sizes under Apache 2.0. A YOLOv12x model is under AGPL-3.0, and the project has deprecated it because of that licence. Python scripts run inference on images or video, at one frame per second by default, and write output in MegaDetector format. A Hugging Face Space runs the model in a browser.
+
+The makers call the released models an initial training effort. Model versions are dated February to July 2026. The group is gathering contributors and annotated imagery for a second version.

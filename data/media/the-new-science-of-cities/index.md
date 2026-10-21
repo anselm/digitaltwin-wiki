@@ -32,8 +32,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Batty proposes that a city is better understood as a set of flows and networks than as a collection of buildings in space, and builds a science of cities on that footing from complexity theory, urban economics and transport theory. The book works through city size, internal structure, transport routes and location, and then through models of growing elaboration, from simple random processes to land-use and transport models. Its closing chapters turn to design and decision models for cities that do not yet exist and treat urban design as something a group of people does together.
+Batty builds the case from complexity theory, urban economics and transport theory. The book works through city size, internal structure, transport routes and location. It then presents models in order of growing elaboration: simple random processes first, land-use and transport models last. Land-use and transport models estimate where people live and work and how they travel between the two. The closing chapters turn to design and decision models for cities that do not yet exist, and treat urban design as something a group of people does together.
 
-For a twin builder it is the theoretical spine behind most urban simulation: which quantities to carry, which interactions matter, and why the model of a city must be a model of its movements and connections, not a map with attributes.
+Most urban simulation rests on this theory. It covers which quantities a model should carry, which interactions matter, and why a model of a city has to represent its movements and connections.
 
 Cover via Open Library.

@@ -2,8 +2,8 @@
 about:
   label: Check it against what happened
   description: >-
-    Run the model on a past event and compare it with what actually happened,
-    before anyone decides on it.
+    Before anyone decides on the model, run it on a past event and compare its
+    output with the record.
 guide:
   stage: 6
 provenance:
@@ -26,11 +26,11 @@ Feed it the conditions of that day, the rain, the wind, the closure, and nothing
 
 ## Say how close, in plain words
 
-Not a statistic alone, but a sentence: "The model flooded nine of the twelve streets that flooded in 2019, and flooded two that did not." That sentence belongs in every presentation of the model, and the audience should hear it before they see the scenarios.
+A statistic alone is not enough. Write a sentence: "The model flooded nine of the twelve streets that flooded in 2019, and flooded two that did not." That sentence belongs in every presentation of the model, and the audience should hear it before they see the scenarios.
 
 ## Decide whether it is good enough
 
-Go back to what you wrote in [the first guide](/guides/name-the-question/) about what would change the decision. If the model's error is bigger than the difference between the options, it cannot choose between them, and saying so is the honest result. Often the fix is in the data rather than the engine.
+Go back to what you wrote in [the first guide](/guides/name-the-question/) about what would change the decision. If the model's error is bigger than the difference between the options, it cannot choose between them. Say so. Often the fix is in the data rather than the engine.
 
 ## Keep the check
 
@@ -38,7 +38,7 @@ Store the event, the inputs and the comparison with the model. When the model is
 
 ## What the public can do
 
-Published models can be checked by anyone with the record. Fire perimeters, flood extents and traffic counts are often public, and a reporter or a resident with an hour can ask the question this guide asks. That is how it should be.
+Published models can be checked by anyone with the record. Fire perimeters, flood extents and traffic counts are often public, and a reporter or a resident with an hour can ask the question this guide asks.
 
 ## Next
 

@@ -45,10 +45,8 @@ import:
 domains:
   - water
 ---
-r.avaflow simulates complex, cascading mass flows of up to three phases over any topography. Martin Mergili (University of Graz, Austria) and Shiva P. Pudasaini are the authors named for citation. The solver uses the NOC-TVD numerical scheme and offers a Voellmy-type model, a simplified multi-phase flow model, or an equilibrium-of-motion model for less rapid flows, with entrainment, deformation control, fragmentation, dispersion and phase transformations.
+r.avaflow models flows of up to three phases (distinct materials, such as solids and fluid, moving together) over any terrain. Martin Mergili (University of Graz, Austria) and Shiva P. Pudasaini are the authors named for citation. The solver uses the NOC-TVD numerical scheme. It offers a Voellmy-type model, a simplified multi-phase flow model, or an equilibrium-of-motion model for less rapid flows. Entrainment (a flow picking up material from its bed), deformation control, fragmentation, dispersion and phase transformations are all handled.
 
-It is built for process chains: a landslide that becomes a debris flow, a flood, a rock glacier or glacial lake outburst flood, each stage feeding the next. The training material walks through such chains in a landscape called Cascadia. Starting mass comes from raster maps or hydrographs, several simulations can run in parallel for sensitivity analysis and optimisation, and output can be rendered in 3D or virtual reality.
+The main use is process chains, where one stage feeds the next: a landslide that becomes a debris flow, a flood, a rock glacier or glacial lake outburst flood. The training material walks through such chains in a landscape called Cascadia. Starting mass comes from raster maps or hydrographs. Several simulations can run in parallel for sensitivity analysis and optimisation, and output can be rendered in 3D or virtual reality.
 
-It is open source and runs with GRASS GIS; the 4.0G variant installs the Python-based companion module r.lakefill, and a 4.0W variant also exists. The makers describe it as non-commercial software without regular support. An integrated user interface, a manual, training data with start scripts, a publications list and older versions are provided from the project page.
-
-The current release is r.avaflow 4.0 Revision 7, released 2025-09-02.
+r.avaflow is open source and runs with GRASS GIS. The 4.0G variant installs the Python-based companion module r.lakefill; a 4.0W variant also exists. The software is non-commercial and has no regular support. The project page provides an integrated user interface, a manual, training data with start scripts, a publications list and older versions. The current release is r.avaflow 4.0 Revision 7, released 2025-09-02.

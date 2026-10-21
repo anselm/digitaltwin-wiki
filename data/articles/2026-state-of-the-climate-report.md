@@ -45,7 +45,7 @@ provenance:
   status: draft
 ---
 
-The yearly report in BioScience that tracks the state of Earth's climate system through a short list of planetary vital signs, alongside indicators of the human activities driving the change. The 2026 edition, published on 14 October 2026, finds seven of its sixteen climate indicators at record extremes, and several showing accelerating trends or abrupt shifts. Fossil fuel combustion remains the dominant driver. The authors note the rapid growth of renewable electricity and battery storage, and judge it far below the scale and speed needed.
+Alongside the climate signs, the report follows indicators of the human activities driving the change. The 2026 edition was published on 14 October 2026. Besides the seven indicators at record extremes, several show accelerating trends or abrupt shifts. Fossil fuel combustion remains the dominant driver. Renewable electricity and battery storage are growing fast, but the authors judge the growth far below the scale and speed needed.
 
 The sixteen climate-related series in its first figure, grouped as the paper groups them:
 
@@ -53,7 +53,7 @@ The sixteen climate-related series in its first figure, grouped as the paper gro
 - Temperature: surface temperature anomaly, and extremely hot days relative to 1961–1990.
 - Ocean: ocean heat content, ocean acidity (pH) and sea level relative to the 1993 mean.
 - Ice: minimum Arctic sea ice, Greenland and Antarctic ice mass, and glacier thickness.
-- Energy balance: Earth's energy imbalance and global average albedo.
+- Energy balance: Earth's energy imbalance and global average albedo (the share of sunlight reflected back to space).
 - Fire: area burned in the United States and global tree cover loss due to fires.
 
-The paper is behind the publisher's standard reuse terms; its figures are not reproduced here. The [Vitals](/vitals/) page of this wiki keeps a smaller set of six running series drawn from open daily and weekly feeds.
+The paper is under the publisher's standard reuse terms, so its figures are not reproduced here. The [Vitals](/vitals/) page of this wiki keeps a smaller set of six running series from open daily and weekly feeds.

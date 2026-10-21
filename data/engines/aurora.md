@@ -51,10 +51,8 @@ import:
 domains:
   - climate
 ---
-Aurora is a 1.3-billion-parameter model of the atmosphere from Microsoft Research's AI for Science group, published as "A Foundation Model for the Earth System" in Nature in 2025 (Bodnar et al.). It is pretrained on a large body of atmospheric data and then adapted with comparatively little data to particular forecasting tasks. Aurora 1.5, developed by Microsoft Weather, adds 22 variables such as cloud cover, precipitation and radiation, hourly resolution and ensemble forecasts.
+Aurora has 1.3 billion parameters, the adjustable numbers a model learns in training. It is pretrained on a large body of atmospheric data and then adapted, with comparatively little data, to particular forecasting tasks. Microsoft Research's AI for Science group published it as "A Foundation Model for the Earth System" in Nature in 2025 (Bodnar et al.). Aurora 1.5, developed by Microsoft Weather, adds 22 variables, including cloud cover, precipitation and radiation. It also adds hourly resolution and ensemble forecasts, sets of runs that show the spread of possible outcomes.
 
-The repository ships four fine-tuned versions: medium- and high-resolution global weather, air pollution and ocean waves. Microsoft reports that these match or beat operational numerical forecasts at far lower compute cost, which is the developers' own claim.
+The repository ships four fine-tuned versions: medium- and high-resolution global weather, air pollution and ocean waves. Microsoft says these match or beat operational numerical forecasts, the physics-based forecasts weather services run, at far lower compute cost.
 
-It installs with pip as microsoft-aurora or from conda-forge; the small pretrained checkpoint is about 500 MB. Code and weights are MIT-licensed. The README says the release is for research and reproducibility and that outputs should not drive operational decisions without expert review. Aurora 1.5 is also offered through Microsoft Foundry, with a contact address for commercial use.
-
-Research release, maintained on GitHub.
+Aurora installs with pip as microsoft-aurora or from conda-forge. The small pretrained checkpoint is about 500 MB. Code and weights are MIT-licensed. The release is for research and reproducibility, and its outputs should not drive operational decisions without expert review. Aurora 1.5 is also offered through Microsoft Foundry, with a contact address for commercial use.

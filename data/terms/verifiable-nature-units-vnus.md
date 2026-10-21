@@ -44,8 +44,15 @@ import:
 domains:
   - ecology
 ---
-A Verifiable Nature Unit is African Parks' measure of conservation performance: one square kilometre of a protected area in which ecological integrity has been maintained or improved over a year. The unit is tied to the actual cost of delivering and sustaining that outcome, and is described as independently verified, though neither page read names the verifier or sets out the assessment method.
+Each unit is tied to the cost of delivering and sustaining that outcome. African Parks says the units are independently verified.
 
-Its first use at scale is a $4.6 million outcomes-based grant from the Rob Walton Foundation to African Parks, announced in September 2026. Payment is linked to VNUs delivered at four parks: Majete Wildlife Reserve in Malawi, Odzala-Kokoua National Park in the Republic of Congo, Garamba National Park in the Democratic Republic of the Congo and Zakouma National Park in Chad. The money goes to biodiversity monitoring, community development and park infrastructure. The foundation's executive director, Duko Hopman, presented it as a model for philanthropy that could later support other financing approaches.
+The first use at scale is a $4.6 million outcomes-based grant from the Rob Walton Foundation to African Parks, announced in September 2026. Payment is linked to VNUs delivered at four parks:
 
-Status: in use for this grant. African Parks says it plans to reissue VNUs, extend them to more projects and apply them to other instruments such as nature bonds and credits.
+- Majete Wildlife Reserve, Malawi
+- Odzala-Kokoua National Park, Republic of Congo
+- Garamba National Park, Democratic Republic of the Congo
+- Zakouma National Park, Chad
+
+The money goes to biodiversity monitoring, community development and park infrastructure. Duko Hopman, the foundation's executive director, presented the grant as a model for philanthropy that could later support other financing approaches.
+
+African Parks says it plans to reissue VNUs, extend them to more projects and apply them to other instruments such as nature bonds and credits.

@@ -34,6 +34,17 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The manual reviews twenty years of Digital Earth, from the original vision of a navigable model of the planet through its evolution and the technologies that carry it: Digital Earth platforms, remote sensing and navigation satellites, geospatial processing and visualisation, spatial data infrastructures, big data and cloud computing, artificial intelligence, the Internet of Things and social media. It goes on to the roles of Digital Earth in sustainable development, climate change and disaster response, applications such as digital cities and digital heritage, citizen science, economic value, regional and national programmes, education and ethics, and closes with the open problems. It is open access.
+The manual reviews twenty years of Digital Earth, the vision of a navigable model of the planet. It traces how the idea evolved and the technologies it depends on:
 
-For a twin builder it is the planetary end of the scale and the best single map of the geospatial infrastructure, data sources and standards that a twin of any place sits on top of.
+- Digital Earth platforms
+- remote sensing and navigation satellites
+- geospatial processing and visualisation
+- spatial data infrastructures (shared systems for publishing and finding map data)
+- big data and cloud computing
+- artificial intelligence
+- the Internet of Things
+- social media
+
+Later chapters cover Digital Earth in sustainable development, climate change and disaster response. Applications include digital cities and digital heritage. Further chapters deal with citizen science, economic value, regional and national programmes, education and ethics. The book closes with the open problems. It is open access.
+
+The manual covers the planetary end of the scale. It also maps the geospatial infrastructure, data sources and standards that a twin of any place depends on.

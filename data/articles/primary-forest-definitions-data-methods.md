@@ -2,9 +2,9 @@
 about:
   label: "A Review of Definitions, Data, and Methods for Country-level Assessment and Reporting of Primary Forest"
   description: >-
-    Discussion paper by Brendan Mackey, Eloise Skinner and Patrick Norman of
-    Griffith University for the FAO, comparing the definitions of primary
-    forest, the datasets that map it, and how countries report it.
+    Discussion paper for the FAO by Brendan Mackey, Eloise Skinner and
+    Patrick Norman of Griffith University on how primary forest is defined,
+    mapped and reported by countries.
   tags:
     - primary forest
     - forest definitions
@@ -39,10 +39,24 @@ provenance:
   status: draft
 ---
 
-A 35-page discussion paper written in March 2021 for a series of FAO workshops on how countries report primary forest to the Global Forest Resources Assessment (FRA). The FAO defines primary forest as "naturally regenerated forest of native tree species, where there are no clearly visible indications of human activities and the ecological processes are not significantly disturbed", and the paper's three jobs are to review that definition and its relatives, to collate and evaluate the datasets and methods available for measuring the area of primary forest, and to offer options for defining, assessing and reporting it.
+The paper runs to 35 pages. It was written in March 2021 for a series of FAO workshops on how countries report primary forest to the Global Forest Resources Assessment (FRA). The FAO defines primary forest as "naturally regenerated forest of native tree species, where there are no clearly visible indications of human activities and the ecological processes are not significantly disturbed". The paper reviews that definition and its relatives, then the datasets and methods for measuring primary forest area. It ends with options for defining, assessing and reporting primary forest.
 
-On definitions, a table sets the FAO wording for forest, planted forest, plantation forest and primary forest beside the UNFCCC definition of forest, the Convention on Biological Diversity and IUCN definitions of primary forest, and the cognate terms used in research: intact forest landscapes (a 500 km2 minimum patch), hinterland forest (100 km2), old growth, frontier, intact and stable forest. The criteria behind them fall into three groups: human influence, vegetation structure, and biodiversity. The authors then read the FRA 2015 reports of the twenty countries with the largest primary forest areas and find the definition applied in very different ways: some count all natural forest, some count whatever lies inside protected areas, one counts surveyed logging estates not yet cut, and some count only mature stands.
+On definitions, a table sets the FAO wording for forest, planted forest, plantation forest and primary forest beside the UNFCCC definition of forest. Beside those are the Convention on Biological Diversity and IUCN definitions of primary forest, and the cognate terms used in research. Intact forest landscapes need a minimum patch of 500 km2, hinterland forest 100 km2. The other terms are old growth, frontier, intact and stable forest. The criteria behind them fall into three groups: human influence, vegetation structure, and biodiversity.
 
-On data, the paper lists fifteen datasets a mapper can draw on, most of them global, among them the Hansen tree cover and forest loss layers, Potapov's intact forest landscapes, Tyukavina's hinterland forests, Turubanova's primary forest extent for the humid tropics, Simard's canopy height, Curtis's drivers of forest loss, the Global Mangrove Watch, the biodiversity intactness index, the World Database on Protected Areas, ESA CCI land cover, the human modification and human footprint maps, and NASA FIRMS fire detections. It describes three mapping approaches: the absence of logging and roads as a proxy, landscape-level metrics compared against baselines, and time series of satellite canopy data calibrated with field plots. As a test, the authors used Google Earth Engine to compute forest area for Australia, Brazil, Canada, the DRC, Indonesia, Russia and the United States from five layers (the Turubanova, intact forest landscapes and hinterland maps, and Hansen tree cover at 10 and 60 percent canopy thresholds), with 2000 to 2015 loss removed, and compared the results with what each country reported to FRA 2015; the reported primary forest figures sat closest to the intact forest landscapes layer in every country but the DRC.
+The authors read the FRA 2015 reports of the twenty countries with the largest primary forest areas. They find the definition applied in very different ways. Some count all natural forest. Some count whatever lies inside protected areas. One counts surveyed logging estates not yet cut, and some count only mature stands.
 
-The closing options include landscape metrics built from field inventories (stand age distributions, biomass carbon distributions, patch statistics, dead wood, framework tree species), an agreed set of primary forest categories, and three technical questions still open: canopy thresholds that vary by ecological zone (above 60 percent cover in the humid tropics, as low as 6 to 10 percent in the Russian boreal), fire regimes that are part of the natural disturbance of temperate and boreal forests yet are changing with deliberate burning and climate change, and the spatial scale at which a patch counts. The authors also suggest the FAO could develop a global forest data platform, a web portal giving countries a curated set of global layers against which to cross-check national figures. The PDF is free from the Griffith Research Online repository; the work was funded by Natural Resources Canada.
+On data, the paper lists fifteen datasets a mapper can draw on, most of them global. They include the Hansen tree cover and forest loss layers, Potapov's intact forest landscapes and Turubanova's primary forest extent for the humid tropics. Three mapping approaches are set out:
+
+- the absence of logging and roads as a proxy
+- landscape-level metrics compared against baselines
+- time series of satellite canopy data calibrated with field plots
+
+As a test, the authors used Google Earth Engine to compute forest area for seven countries: Australia, Brazil, Canada, the DRC, Indonesia, Russia and the United States. They worked from five layers. Three were the Turubanova, intact forest landscapes and hinterland maps. The other two were Hansen tree cover at 10 and 60 percent canopy thresholds. Loss from 2000 to 2015 was removed, and the results were compared with what each country reported to FRA 2015. The reported primary forest figures sat closest to the intact forest landscapes layer in every country but the DRC.
+
+The closing options include landscape metrics built from field inventories: stand age distributions, biomass carbon distributions, patch statistics, dead wood and framework tree species. Another option is an agreed set of primary forest categories. Three technical questions remain open:
+
+- Canopy thresholds that vary by ecological zone, from above 60 percent cover in the humid tropics to as low as 6 to 10 percent in the Russian boreal.
+- Fire regimes. Fire is part of the natural disturbance of temperate and boreal forests, but its pattern is changing with deliberate burning and climate change.
+- The spatial scale at which a patch counts.
+
+The authors also suggest the FAO could develop a global forest data platform: a web portal giving countries a curated set of global layers to cross-check national figures against. The PDF is free from the Griffith Research Online repository. Natural Resources Canada funded the work.

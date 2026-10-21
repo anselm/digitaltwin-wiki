@@ -60,10 +60,10 @@ relations:
       visualizes with (source_claim; exact implementation not independently
       tested)
 ---
-WANSEC is a regional research and restoration project, profiled by the University of the West Indies at Mona, on whether thickets of elkhorn coral (Acropora palmata) can serve as a natural coastal defence by taking energy out of waves and trapping sediment. It pairs coral restoration with coastal risk modelling and adaptive management tools at field sites in Jamaica, Barbados and Antigua & Barbuda, and is backed by US$2 million from the Caribbean Biodiversity Fund.
+The University of the West Indies at Mona profiles the project. The question is whether thickets of elkhorn coral (Acropora palmata) can act as a natural coastal defence by taking energy out of waves and trapping sediment. The work pairs coral restoration with coastal risk modelling and adaptive management tools, backed by US$2 million.
 
-In Antigua and Barbuda the National Parks Authority planted about 2,500 elkhorn colonies in Rendezvous Bay, inside Nelson's Dockyard National Park, at an average density of one coral per square metre, with the aim of growing dense stands that restore reef function over time; the same high-density approach was used on all three islands. Severe bleaching during the fourth global mass bleaching event killed much of the Antiguan nursery and parent stock, so the project shifted toward propagating colonies that survived the heat. It also trained community members in restoration and started doctoral research on the distribution and genetic diversity of elkhorn coral across the Eastern Caribbean.
+In Antigua and Barbuda the National Parks Authority planted about 2,500 elkhorn colonies in Rendezvous Bay, inside Nelson's Dockyard National Park. They average one coral per square metre, the same high density used on all three islands. The aim is dense stands that restore reef function over time. Severe bleaching during the fourth global mass bleaching event killed much of the Antiguan nursery and parent stock. The project then shifted toward propagating colonies that survived the heat. It also trained community members in restoration and started doctoral research on the distribution and genetic diversity of elkhorn coral across the Eastern Caribbean.
 
-The project's intended outputs are replicable restoration strategies, stakeholder training and policy guidance for coral-based coastal protection in Caribbean small island states. Details of the modelling work are not given on the pages read.
+The intended outputs are replicable restoration strategies, stakeholder training and policy guidance for coral-based coastal protection in Caribbean small island states.
 
 The Antigua and Barbuda component was announced complete on 26 August 2026.

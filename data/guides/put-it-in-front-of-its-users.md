@@ -2,8 +2,8 @@
 about:
   label: Put it in front of its users
   description: >-
-    Make the output fit the meeting, the screen and the person who will use it,
-    then watch them use it.
+    Fit the output to the meeting, the screen and the person who will use it,
+    then sit with that person the first few times.
 guide:
   stage: 8
 provenance:
@@ -14,15 +14,15 @@ provenance:
     on this site; not yet read by Anselm
   status: draft
 ---
-The model is built, checked, and sitting on a modeller's laptop. The last step is getting its answer into the room where the decision happens, in a form the people there can argue with.
+The model is built and checked. It is still on a modeller's laptop. The last step is getting its answer into the room where the decision happens, in a form the people there can argue with.
 
 ## Fit the meeting
 
-Ask how the decision is actually made: a council agenda, a budget sheet, a morning briefing, a public hearing. Produce the output in that form. A beautiful 3D scene that cannot be printed into the agenda pack is not in the meeting.
+Ask how the decision gets made: a council agenda, a budget sheet, a morning briefing, a public hearing. Produce the output in that form. A beautiful 3D scene that cannot be printed into the agenda pack is not in the meeting.
 
 ## One picture, and the sentence under it
 
-For each scenario, one map or chart that a person can read in thirty seconds, with the sentence from [the check](/guides/check-it-against-what-happened/) under it: how close the model came to the past. Everything else is a layer down, for the people who want it.
+For each scenario, one map or chart that a person can read in thirty seconds, with the sentence from [the check](/guides/check-it-against-what-happened/) under it: how close the model came to the past. Everything else goes a layer down, for readers who want more detail.
 
 ## Let them touch it
 

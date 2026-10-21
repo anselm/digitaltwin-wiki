@@ -48,8 +48,8 @@ domains:
   - climate
   - water
 ---
-Laxmi is a global precipitation forecasting model described in a September 2026 arXiv paper by Julian F. Schmitt, Bertrand Delorme, Robert C. King, Yashica Patodia, Tapio Schneider, Aditi Sheshadri and Ravi Jain. It starts from AIFS, ECMWF's open-source 0.25-degree probabilistic weather model, and retrains it on satellite-based precipitation observations instead of the ERA5 reanalysis most AI weather models are trained against.
+The model is described in a September 2026 arXiv paper by Julian F. Schmitt, Bertrand Delorme, Robert C. King, Yashica Patodia, Tapio Schneider, Aditi Sheshadri and Ravi Jain. Its starting point is AIFS, ECMWF's open-source 0.25-degree probabilistic weather model. Most AI weather models are trained against ERA5, a reanalysis (a reconstruction of past weather from observations). Laxmi is retrained on satellite-based precipitation observations instead.
 
-The paper's argument is that gains in global-average skill do not automatically help with floods or drought, and that ERA5 carries known biases in rainfall. Against that baseline the authors report a 19% improvement in global probabilistic accuracy, less over-prediction of drizzle, better capture of extreme rainfall, and the best 150 mm event-total forecasts in seven of ten Indian tropical storms studied.
+The paper argues that gains in global-average skill do not automatically help with floods or drought, and that ERA5 carries known biases in rainfall. Against that baseline the authors report a 19% improvement in global probabilistic accuracy and less over-prediction of drizzle. They also report better capture of extreme rainfall, and the best 150 mm event-total forecasts in seven of ten Indian tropical storms studied.
 
-How the model is distributed, and under what licence, is not stated on the abstract page. Status: research, as of the paper's third revision on 23 September 2026.
+The paper's third revision is dated 23 September 2026.

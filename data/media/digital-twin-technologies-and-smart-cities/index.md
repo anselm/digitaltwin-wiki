@@ -36,8 +36,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-An early edited volume putting digital twins and cities together. The chapters cover how virtual models of physical systems can be used to monitor, visualise, diagnose and forecast city infrastructure, to support decisions and test scenarios, and to connect with business systems, and they give particular attention to the security and safety of connected cities and the Internet of Things devices they rely on. It is aimed at practitioners and researchers in manufacturing, operations and communications and at graduate students looking for open problems. Published in the Springer Internet of Things series in July 2019.
+This was an early book to put digital twins and cities together. Its chapters cover using virtual models of physical systems to monitor, visualise, diagnose and forecast city infrastructure. They also cover decision support, scenario testing and links to business systems. Security and safety get particular attention, for connected cities and for their Internet of Things devices (networked sensors and equipment).
 
-Its origins are closer to industrial and infrastructure twins than to environmental ones, which is also its value: it shows how the manufacturing idea of a twin was carried over to the city, and what came with it.
+The audience is practitioners and researchers in manufacturing, operations and communications, and graduate students looking for open problems. Springer published it in its Internet of Things series in July 2019.
+
+Its origins are closer to industrial and infrastructure twins than to environmental ones. The book shows the manufacturing idea of a twin being carried over to the city.
 
 Cover via Open Library.

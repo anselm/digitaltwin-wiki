@@ -43,8 +43,16 @@ domains:
   - climate
   - ecology
 ---
-Natural General Intelligence is the name an essay at naturalgeneralintelligence.ai gives to a foundation model grounded in the state and dynamics of the planet: biosphere, atmosphere, oceans, land, ice and subsurface. The essay carries no byline; a September 2026 essay by Anselm Hook discussing it attributes the proposal to Ryan Orbuch, a partner at Lowercarbon Capital. The proposed system would do three things at once: estimate the current state of the Earth from observations, simulate possible futures, and decide which new observations are worth collecting. Five design principles are given: learn directly from Earth observations, keep each observation at its full resolution, obey known physics, discover couplings across the Earth system, and go and fetch new observations.
+The name comes from an essay at naturalgeneralintelligence.ai, which grounds the model in the state and dynamics of the biosphere, atmosphere, oceans, land, ice and subsurface. The essay has no byline. A September 2026 essay by Anselm Hook attributes the proposal to Ryan Orbuch, a partner at Lowercarbon Capital.
 
-The essay positions this as a general-purpose "nature model" rather than a weather model, citing GraphCast, NeuralGCM, Aurora, Earth-2 and others as precedents, and lists a long inventory of inputs it would draw on, from Sentinel, Landsat and ICESat-2 to Argo floats, Saildrone, streamgages, flux towers and citizen-science records such as eBird and iNaturalist. Hook's reading of it is as a what-if tool: change an assumption, such as restoring a wetland or giving a river more room, run the model forward and see what follows, with open questions about civic access, compute cost, data ownership and validation.
+The proposed system would do three things at once: estimate the current state of the Earth from observations, simulate possible futures, and decide which new observations are worth collecting. The essay gives five design principles:
 
-Status: a proposal. The essay invites people to get in touch and contribute; neither page names an operating lab, company, budget or dedicated funding for it.
+- learn directly from Earth observations
+- keep each observation at its full resolution
+- obey known physics
+- discover couplings across the Earth system
+- go and fetch new observations
+
+The essay calls this a general-purpose "nature model", broader than a weather model. It cites GraphCast, NeuralGCM, Aurora and Earth-2 as precedents. Its long list of inputs includes Sentinel, Landsat and ICESat-2 satellites, Argo floats, Saildrone, streamgages, flux towers, and citizen-science records such as eBird and iNaturalist.
+
+Hook reads it as a what-if tool. A user changes an assumption, such as restoring a wetland or giving a river more room, and runs the model forward to see what follows. He leaves open questions about civic access, compute cost, data ownership and validation. The essay invites people to get in touch and contribute.

@@ -49,8 +49,8 @@ import:
 domains:
   - sensory
 ---
-Isaac Sim is NVIDIA's reference framework for simulating robots. It is built on Omniverse libraries and OpenUSD, imports robots and scenes from CAD, URDF and real-world captures, and is extensible enough that developers build their own OpenUSD-based simulators on it.
+NVIDIA calls Isaac Sim its reference framework for simulating robots. OpenUSD, which it is built on, is an open file format for describing 3D scenes. Robots and scenes come in from CAD, from URDF (a file format that describes a robot's parts and joints) and from real-world captures. Developers also extend Isaac Sim to build their own OpenUSD-based simulators.
 
-NVIDIA describes it as the place to train, test and validate a robot before it exists or before it is let loose: software-in-the-loop and hardware-in-the-loop testing, robot learning through the companion Isaac Lab, and synthetic data pipelines that can be augmented with Cosmos world models. It talks to ROS and ROS 2 through bridge extensions.
+A robot can be trained, tested and validated before it exists or before it is let loose. Isaac Sim supports software-in-the-loop and hardware-in-the-loop testing, where the robot's real control software, or its real hardware, is run against the simulated world. Robot learning runs through the companion Isaac Lab. Synthetic data pipelines can be augmented with Cosmos world models. Bridge extensions connect Isaac Sim to ROS and ROS 2, open-source robot software frameworks.
 
-The code is on GitHub under Apache 2.0, subject to an additional NVIDIA software and materials licence, and is free to use; containers are on NGC and the AWS Marketplace, and cloud instances are offered through Brev, where the cloud provider's own fees apply. Vendors who redistribute Omniverse Kit with their product need an Omniverse Enterprise subscription. Status: operational.
+The code is on GitHub under Apache 2.0, subject to an additional NVIDIA software and materials licence, and is free to use. Containers are on NGC and the AWS Marketplace. Cloud instances are offered through Brev, where the cloud provider's own fees apply. Vendors who redistribute Omniverse Kit with their product need an Omniverse Enterprise subscription.

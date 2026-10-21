@@ -2,8 +2,8 @@
 about:
   label: Crowds and evacuation
   description: >-
-    How will people move through a station, a stadium or a festival, and how
-    long would it take to clear an area in an emergency?
+    How will people move through a crowded place, and how long would it take
+    to clear an area in an emergency?
 question: {}
 domains:
   - people
@@ -21,13 +21,13 @@ Someone is designing a concourse, planning an event, or writing an evacuation pl
 
 - **Flow**: how many people can pass a point per minute, and where do queues form?
 - **Time to clear**: how long from alarm to empty, and what is the slowest group's experience?
-- **Design**: which change, an exit, a barrier, a sign, a staff member at a corner, helps most?
+- **Design**: which change helps most: an exit, a barrier, a sign, a staff member at a corner?
 
 ## What kind of model answers it
 
-**Agent-based pedestrian models** give each person a goal, a walking speed and simple rules for avoiding others, and let a crowd emerge from thousands of them. They show the bottlenecks that a floor plan hides. For a city-scale evacuation, by car as well as on foot, the same idea runs on the road network, and the hard part is the assumption about when people decide to leave.
+An **agent-based pedestrian model** simulates each person separately, with a goal, a walking speed and simple rules for avoiding others. Thousands of these together make the crowd. The model shows bottlenecks that a floor plan hides. For a city-scale evacuation, by car as well as on foot, the same idea runs on the road network, and the hard part is the assumption about when people decide to leave.
 
-On this site, [AnyLogic](/engines/anylogic/) is a commercial platform with pedestrian and transport libraries, and [GAMA](/engines/gama/) an open platform for spatial agent-based models including evacuation.
+On this site, [AnyLogic](/engines/anylogic/) is commercial simulation software with pedestrian and transport libraries. [GAMA](/engines/gama/) is open software for spatial agent-based models, including evacuation.
 
 ## What you need
 
@@ -38,7 +38,7 @@ On this site, [AnyLogic](/engines/anylogic/) is a commercial platform with pedes
 
 ## Without a model
 
-Stand at the pinch point at peak time with a counter. Walk the evacuation route at the speed of the slowest person you are responsible for. Most of the answer is there.
+Stand at the pinch point at peak time with a counter. Walk the evacuation route at the speed of the slowest person you are responsible for.
 
 ## Next
 

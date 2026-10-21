@@ -33,10 +33,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Neara makes a 3D model of an electricity network for the utility that runs it: every pole, line and structure placed in real terrain with its loads, clearances, weather exposure and likelihood of failure. The model is built from data the utility already holds, such as LiDAR, aerial imagery, GIS records, engineering specifications and inspection data, which the platform normalises and stitches together.
+Each model is made for the utility that runs the network, and places every pole, line and structure in real terrain. It is assembled from data the utility already holds: LiDAR (laser scanning that measures shape and distance), aerial imagery, GIS records, engineering specifications and inspection data. Neara normalises these sources and stitches them together.
 
-A utility uses it to run many scenarios on its real network geometry (wind, ice, heat, flood, vegetation, re-conductoring, new builds), to see how one failure spreads to other assets and which customers would lose supply, and to rank feeders for hardening. Outputs include hardening plans, reports for regulators, condition-based inspection programmes and work orders. Neara groups the work under reliability, wildfire mitigation, asset management, risk and value optimisation, and design and construction. Case studies exist on the site; none is named on the page read.
+On that geometry a utility runs scenarios: wind, ice, heat, flood, vegetation, re-conductoring and new builds. It can trace how one failure spreads to other assets and which customers would lose supply, and rank feeders for hardening. Outputs include hardening plans, reports for regulators, condition-based inspection programmes and work orders. Neara files this work under five headings: reliability, wildfire mitigation, asset management, risk and value optimisation, and design and construction.
 
-Commercial and hosted (the application runs at app.neara.com), sold by demonstration, with regional sites for Europe, the USA and Australia/New Zealand. Prices are not stated.
-
-Operational.
+Neara is commercial and hosted, with the application at app.neara.com. It is sold by demonstration, with regional sites for Europe, the USA and Australia/New Zealand. Pricing is not published.

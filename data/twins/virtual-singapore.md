@@ -36,10 +36,17 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Virtual Singapore is a 3D model of the whole city-state, built as part of its Smart Nation effort. It is a collaboration between the National Research Foundation, the Singapore Land Authority, which supplies the topographic mapping data, and the Government Technology Agency (GovTech), which supplies the information technology; the platform is Dassault Systèmes' 3DEXPERIENCity on the 3DEXPERIENCE platform. The model is semantically enriched, so the system knows what kind of building, roof, wall or window it is looking at, and it is designed to connect to real-time data from the national sensor network.
+Virtual Singapore covers the whole city-state and is part of its Smart Nation effort. Three agencies work on it together: the National Research Foundation, the Singapore Land Authority and the Government Technology Agency (GovTech). The Land Authority supplies the topographic mapping data and GovTech the information technology. The software is Dassault Systèmes' 3DEXPERIENCity, which runs on Dassault's 3DEXPERIENCE platform.
 
-GovTech's 2017 account gives the intended uses: finding roof and wall surfaces of a given orientation to estimate solar energy yield, modelling flooding to plan mitigation, simulating pollution, wind flow and urban heat islands from environmental sensor data, assessing the traffic and pollution effects of a new highway or stadium before it is built, finding safe cycling routes and planning drone flight paths. Dassault's page describes it as a shared environment in which agencies see how the city develops over time with population growth and new construction.
+The model is semantically enriched: each object is labelled by type, such as building, roof, wall or window. It is meant to connect to real-time data from the national sensor network. Dassault says agencies share it to see how the city develops over time with population growth and new construction.
 
-It is a government platform built on a commercial product, not something a reader can install or buy; GovTech said in March 2017 that it was targeted for government agencies in 2018, with public access to follow progressively.
+GovTech listed the intended uses in 2017:
 
-Status: in use by the Singapore government according to Dassault's customer story, which is undated. In March 2017 the districts of Yuhua and Teck Ghee had been modelled with Ang Mo Kio next and the rest of the island to follow from mid-2017; no later official status was read.
+- finding roof and wall surfaces of a given orientation to estimate solar energy yield
+- modelling flooding to plan mitigation
+- simulating pollution, wind flow and urban heat islands from environmental sensor data
+- assessing the traffic and pollution effects of a new highway or stadium before it is built
+- finding safe cycling routes
+- planning drone flight paths
+
+A reader cannot install or buy Virtual Singapore: it is a government system built on a commercial product. In March 2017 GovTech said it was targeted for government agencies in 2018, with public access to follow progressively. At that point the districts of Yuhua and Teck Ghee had been modelled, with Ang Mo Kio next and the rest of the island to follow from mid-2017. Dassault's customer story, which is undated, says the Singapore government uses the model.

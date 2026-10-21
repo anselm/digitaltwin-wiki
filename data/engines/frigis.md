@@ -48,8 +48,14 @@ domains:
   - places
   - climate
 ---
-friGIS is planning software for heat adaptation made by Tropocen, whose co-founders are Julius Dickmann, Gustav Trost and Sebastian Sändig. It joins three steps that are usually separate: a 3D model of a city district as it stands (buildings, vegetation, water and sealed surfaces, exportable to QGIS and ArcGIS), an interface to the PALM-4U urban climate model that computes air and surface temperature, wind and the PET and UTCI comfort indices at building resolution for day and night, and a 3D editor in which planners place measures such as individual trees, green areas, surface changes, water features and fountains.
+friGIS is made by Tropocen. Tropocen's co-founders are Julius Dickmann, Gustav Trost and Sebastian Sändig. The software joins three steps that are usually separate:
 
-Simulation results are laid over the district model to show heat hotspots, gaps in cold-air supply and wind patterns. A measure database gives quick-look parameters (category, size, heat resistance), and scenario comparison shows difference maps marking where a measure cools, has no effect or makes the microclimate worse. Tropocen names cities, planning offices, property managers and researchers as the intended users and says no GIS expertise is needed; Tropocen also offers consulting around the software.
+- a 3D model of a city district as it stands, with buildings, vegetation, water and sealed surfaces, exportable to QGIS and ArcGIS
+- an interface to the PALM-4U urban climate model, computing air and surface temperature, wind and the comfort indices PET and UTCI (measures of how hot conditions feel to a person) at building resolution, by day and night
+- a 3D editor in which planners place measures such as individual trees, green areas, surface changes, water features and fountains
 
-It is hosted, with a login at app.frigis.eu. Pricing, licence, named deployments and the company's location are not stated on the pages read.
+Simulation results are laid over the district model to show heat hotspots, gaps in cold-air supply and wind patterns. A measure database gives quick-look parameters for each measure: category, size and heat resistance. Scenario comparison draws difference maps marking where a measure cools, has no effect or makes the microclimate worse.
+
+Tropocen names cities, planning offices, property managers and researchers as the intended users and says no GIS expertise is needed. The company also offers consulting around the software.
+
+friGIS is hosted, with a login at app.frigis.eu. Pricing is not published.

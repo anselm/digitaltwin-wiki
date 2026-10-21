@@ -44,8 +44,8 @@ import:
 domains:
   - ecology
 ---
-A restoration pilot in which The Nature Conservancy Argentina and ReForest Latam, a startup that supplies the drones and seed technology, test aerial seeding on degraded farmland near Tostado (Santa Fe) and Bandera (Santiago del Estero) in the Gran Chaco. It is part of a TNC Argentina initiative supported by the John Deere Foundation.
+The pilot tests aerial seeding near Tostado (Santa Fe) and Bandera (Santiago del Estero). ReForest Latam supplies the drones and seed technology. The work is part of a TNC Argentina initiative supported by the John Deere Foundation.
 
-Drones drop biodegradable capsules holding native seeds and biostimulants. Sites are characterised beforehand with GIS, an ecosystem-analysis platform and AI, and flights are timed around expected rain. White carob is the main species, with yellow floss silk tree, guayacán and Santiago red quebracho. The pilot targets 13 hectares and about 8,000 trees; the wider project aims at 100,000 trees, and more than 300 hectares had already been planted with seedlings by hand.
+Drones drop biodegradable capsules holding native seeds and biostimulants. Sites are characterised beforehand with GIS, an ecosystem-analysis platform and AI, and flights are timed around expected rain. White carob is the main species, with yellow floss silk tree, guayacán and Santiago red quebracho. The pilot targets 13 hectares and about 8,000 trees. The wider project aims at 100,000 trees, and more than 300 hectares had already been planted with seedlings by hand.
 
-Control plots are checked every 45 days, and about 120 days after the flights the team compares seedlings in treated and untreated areas. As of August 2026 the drone seeding was a pilot still under test, with no germination or survival results published.
+Control plots are checked every 45 days. About 120 days after the flights the team compares seedlings in treated and untreated areas. As of August 2026 the drone seeding was still under test, and no germination or survival results had been published.

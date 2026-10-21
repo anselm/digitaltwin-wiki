@@ -41,10 +41,16 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-3D Amsterdam is the City of Amsterdam's 3D viewer at 3d.amsterdam.nl. The page titles itself NL3D and loads Netherlands3D, a Unity WebGL application; the city's GitHub repository describes Netherlands3D as a library of Unity systems and prefabs first developed for 3D Amsterdam and 3D Utrecht, and says development has since moved to the github.com/netherlands3d organisation.
+The viewer at 3d.amsterdam.nl titles itself NL3D. It loads Netherlands3D as a Unity WebGL application: Unity is a game engine, and WebGL lets it run in a web browser. The city's GitHub repository calls Netherlands3D a library of Unity systems and prefabs, first developed for 3D Amsterdam and 3D Utrecht. Development has since moved to the github.com/netherlands3d organisation.
 
-Netherlands3D, as its own site describes it, is an open-source digital-twin framework for the Netherlands aimed at data visualisation: it combines a few national base datasets (the 3D BAG building model, the 3D Basisvoorziening and tree locations from the BGT) into one consistent 3D picture of the country, and lets a user add their own layers from GeoJSON, WMS, WFS or 3D Tiles links, from a local server, from the national PDOK portal or from municipal and provincial data portals. It is also meant as a front end for the input and output of calculation and simulation tools, and organisations can set up a tailored instance with their own start location, tools and datasets. The pages read give no named use case for Amsterdam itself.
+Netherlands3D is an open-source digital-twin framework for visualising data about the Netherlands. It combines a few national base datasets into one consistent 3D picture of the country:
 
-What is open: the framework's code is on GitHub under the EUPL-1.2 licence, installable as a Unity package, and the repository invites other Dutch municipalities to contribute. Whether the city's own data layers in the viewer can be downloaded, and whether the viewer exposes an API, is not stated on the pages read.
+- the 3D BAG building model
+- the 3D Basisvoorziening
+- tree locations from the BGT
 
-Status: operational; the viewer reports version 1.0.184 and warns that it is not yet optimised for mobile devices.
+Users can add their own layers from links in common web map formats (GeoJSON, WMS, WFS or 3D Tiles). Layers can also come from a local server, the national PDOK portal, or municipal and provincial data portals. The framework is meant as a front end for the input and output of calculation and simulation tools too. Organisations can set up a tailored instance with their own start location, tools and datasets.
+
+The framework's code is on GitHub under the EUPL-1.2 licence and installs as a Unity package. The repository invites other Dutch municipalities to contribute.
+
+The viewer reports version 1.0.184 and warns that it is not yet optimised for mobile devices.

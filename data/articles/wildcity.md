@@ -49,10 +49,20 @@ provenance:
   status: draft
 ---
 
-A paper and dataset from a group at New York University, May Mobility, NVIDIA and Stanford University, submitted to arXiv on 7 July 2026 and accepted at ECCV 2026. It asks whether an AI system can build a coherent spatial model of a whole city, the way a person does after walking its streets for a few hours, and argues that the missing piece is real-world data at city scale rather than a single block or a short clip.
+The paper was submitted to arXiv on 7 July 2026 and accepted at ECCV 2026. It asks whether an AI system can build a coherent spatial model of a whole city, the way a person does after walking its streets for a few hours. The authors argue that the missing piece is real-world data at city scale.
 
-The dataset is collected from autonomous vehicle fleets during ordinary daytime driving in six US cities: Atlanta, Arlington, Ann Arbor, Eden Prairie, Grand Rapids and Miami. It holds 18 driving logs, three per city, totalling 1,507 km, each averaging 83.7 km and about 2.5 hours, with roughly 40 km² covered per city. Each log carries six surround-view cameras, a roof LiDAR, IMU and GPS, giving 3.01 million synchronised keyframes. The logs keep the difficulties of real streets: moving vehicles and people, changes in light and weather, motion blur and imperfect camera poses.
+The data comes from autonomous vehicle fleets during ordinary daytime driving. The six cities are Atlanta, Arlington, Ann Arbor, Eden Prairie, Grand Rapids and Miami. There are 18 driving logs, three per city, totalling 1,507 km. Each averages 83.7 km and about 2.5 hours, and roughly 40 km² is covered per city. Each log has six surround-view cameras, a roof LiDAR, an IMU and GPS. LiDAR is a laser scanner that measures distance. An IMU is a motion sensor. The logs hold 3.01 million synchronised keyframes. The logs keep the difficulties of real streets: moving vehicles and people, changes in light and weather, motion blur and imperfect camera poses.
 
-On top of the data the authors build a 3D Gaussian Splatting baseline tuned for long, narrow, unbounded street scenes. It jointly refines vehicle poses and the rigid camera rig, models the sky separately from the geometry, regularises road surfaces, repairs views rendered off the driven path, and shards Gaussians across several GPUs. Ground, sky and moving-object masks are generated automatically. On a short Ann Arbor sequence and a long Atlanta sequence the baseline scores better than 3DGS, hierarchical 3DGS and CityGS on image and depth metrics. The reconstructed city is then used as a closed-loop simulator in which a vision-language-action model observes rendered views, reasons about a task and plans its next move, demonstrated with the Alpamayo 1 model. The paper closes with an analysis of three obstacles to simulation-ready urban twins: scaling to larger areas, rendering views away from the recorded trajectory, and uncertainty in the data.
+On this data the authors build a baseline with 3D Gaussian Splatting (3DGS). The method represents a scene as a mass of small, coloured, semi-transparent blobs that can be drawn quickly from any viewpoint. Their version is tuned for long, narrow, unbounded street scenes:
 
-The project page states that anonymised sensor data (faces and plates blurred), poses, calibration, masks, splits, code and configs will be released under documented terms of use, with access by a request form; the page marks the code and the download link as coming soon. A Hugging Face dataset page and a GitHub repository are linked. In this wiki's stack it sits with the engines that turn sensor logs into a renderable model of a place, beside work such as /engines/nvidia-cosmos/.
+- vehicle poses and the rigid camera rig are refined together
+- the sky is modelled separately from the geometry
+- road surfaces are regularised
+- views rendered off the driven path are repaired
+- Gaussians are sharded across several GPUs
+
+Ground, sky and moving-object masks are generated automatically. On a short Ann Arbor sequence and a long Atlanta sequence the baseline scores better than 3DGS, hierarchical 3DGS and CityGS on image and depth metrics.
+
+The reconstructed city then serves as a closed-loop simulator, where what the agent does changes what it sees next. A vision-language-action model observes rendered views, reasons about a task and plans its next move. The demonstration uses the Alpamayo 1 model. The paper closes on three obstacles to simulation-ready urban twins: scaling to larger areas, rendering views away from the recorded trajectory, and uncertainty in the data.
+
+Anonymised sensor data (faces and plates blurred), poses, calibration, masks, splits, code and configs are to be released under documented terms of use. Access is by a request form. The project page marks the code and the download link as coming soon. A Hugging Face dataset page and a GitHub repository are linked. Compare /engines/nvidia-cosmos/.

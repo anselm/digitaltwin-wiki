@@ -4,8 +4,7 @@ about:
   label: Odyssey-3
   description: >-
     World model from Odyssey that generates an interactive 3D environment from
-    a prompt and predicts how it changes as a person or agent moves and acts
-    in it.
+    a prompt and predicts how a person's or agent's actions change the scene.
   tags:
     - world model
     - simulation
@@ -49,12 +48,10 @@ domains:
   - sensory
   - mobility
 ---
-Odyssey-3 is a world model made by Odyssey, a company whose founders came from driverless-car work. Odyssey describes it as a learned dynamical system built as an autoregressive diffusion transformer: it is trained on visual data to pick up physics, motion and cause and effect, then generates an environment from a prompt and predicts what happens as someone navigates or acts in it. The current preview supports first- and third-person navigation. A larger variant, Odyssey-3 Pro, runs at 1280 by 720; the base model runs at 832 by 480.
+Odyssey's founders came from driverless-car work. Odyssey calls the model a learned dynamical system. It is an autoregressive diffusion transformer, a network that generates its output step by step, each step built on the ones before. It is trained on visual data to pick up physics, motion and cause and effect. The current preview supports first- and third-person navigation. The base model runs at 832 by 480; a larger variant, Odyssey-3 Pro, runs at 1280 by 720.
 
-Odyssey's own page gives examples of the model adapted to robot arms and humanoids (the robotics company Flexion built policies on it), to a car driving on real roads in India, and to generating multi-sensor driving data for training agents. It reports benchmark results on Physics-IQ and on Odyssey's own WorldMark evaluation.
+Odyssey gives examples of the model adapted to robot arms and humanoids, to a car driving on real roads in India, and to generating multi-sensor driving data for training agents. The robotics company Flexion built policies on Odyssey-3. Odyssey reports benchmark results on Physics-IQ and on its own WorldMark evaluation.
 
-It is a hosted service. A research preview is open at experience.odyssey.systems; developers who want to build on it are asked to contact the company. The page does not state pricing, licensing or an API.
+Odyssey-3 is a hosted service. Odyssey announced it in October 2026, and a research preview is open at experience.odyssey.systems. Developers who want to build on it are asked to contact the company. Pricing, licensing and API access are not published.
 
-Odyssey also makes Agora-1, a multi-agent world model announced on 18 May 2026. It lets up to four players, human or AI, act in the same generated world at the same time: a learned state model trained on the game GoldenEye keeps one shared world state, and a second model renders each player's view from it. Odyssey calls it an early research preview and says the same approach could apply to robots working together.
-
-Status: research preview, announced October 2026.
+Odyssey also makes Agora-1, a multi-agent world model announced on 18 May 2026. Up to four players, human or AI, act in the same generated world at once: a learned state model trained on the game GoldenEye keeps one shared world state, and a second model renders each player's view. Odyssey calls Agora-1 an early research preview and says the same approach could apply to robots working together.

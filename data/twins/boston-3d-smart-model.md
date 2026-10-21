@@ -42,10 +42,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The Boston citywide 3D Smart Model is maintained by the GIS Lab of the City of Boston Planning Department, which took over the staff and responsibilities of the Boston Planning & Development Agency. The model has three components: terrain, groundplan and 3D building models. It originated from the city's 2011 planimetric data and is updated from urban design models, CyberCity 3D and lidar. It is managed through the citySchema model stewardship process, a 3D model architecture and digital asset management system developed by Paul Cote (cityschema.org).
+The City of Boston Planning Department took over the staff and responsibilities of the Boston Planning & Development Agency. Its GIS Lab maintains the model, which has three components: terrain, groundplan and 3D building models. It began with the city's 2011 planimetric data (flat map outlines of buildings and other features) and is updated regularly from urban design models, CyberCity 3D and lidar. The lab manages it through the citySchema model stewardship process, a 3D model architecture and digital asset management system developed by Paul Cote (cityschema.org). The city calls citySchema open source.
 
-The city uses it so that planners, policymakers and the public can see proposed development in 3D and assess its effects; a citywide view is available online, and the site also lists a physical model room.
+The city uses it to let planners, policymakers and the public see proposed development in 3D and assess its effects. A citywide view is online, and there is also a physical model room.
 
-What is open: the whole model is available for public download, divided into tiles. Each component comes in open data formats, and an all-in-one SketchUp model per tile combines them; a citywide SketchUp tile grid places the tiles. The download page states that the data is released under the Open Data Commons Public Domain Dedication and License (PDDL). The about page calls the citySchema architecture open source. The pages read say nothing about an API or about how outsiders might contribute.
-
-Status: operational and regularly updated; the pages give no date for the latest update.
+The whole model can be downloaded, divided into tiles. Each component comes in open data formats, and each tile also has an all-in-one SketchUp model of all three. A citywide SketchUp tile grid places the tiles. The data is released under the Open Data Commons Public Domain Dedication and License (PDDL).

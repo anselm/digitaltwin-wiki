@@ -3,8 +3,8 @@ about:
   label: 'Who Drinks the River?'
   description: >-
     Scrolling story and playable water-allocation model of the Colorado River
-    basin by Anselm Hook; readers set the flow, choose the cut rule and retire
-    irrigation, then share the future they built as a link.
+    basin by Anselm Hook, in which readers set the flow, choose the cut rule,
+    retire irrigation and share the result as a link.
   tags:
     - colorado river
     - water allocation
@@ -47,10 +47,19 @@ domains:
   - places
   - people
 ---
-Who Drinks the River? is a single web page that combines an essay, an open model and a playable app about Colorado River water allocation, made by Anselm Hook and published under the Orbital Foundation GitHub organisation. The page opens on a satellite image of the dry delta, puts a map of the basin, tributaries and canals under the text, and runs a timeline from 1906 to 2056 with a seam at the present. Left of the seam is the Bureau of Reclamation's record of flow, reservoir storage and the promises made against it; right of the seam the same timeline is the model running forward under the reader's settings.
+The page opens on a satellite image of the dry delta. A map of the basin, tributaries and canals runs under the text, and a timeline from 1906 to 2056 has a seam at the present. Left of the seam is the Bureau of Reclamation's record of flow, reservoir storage and the promises made against that flow. Right of the seam, the model runs forward under the reader's settings. The essay, the open model and the playable app are one web page, published under the Orbital Foundation GitHub organisation.
 
-The author calls the form computational journalism: a live public argument, an open model and a page to play with, shipped together, chosen only for fights where a conserved and measured quantity like water lets a model settle something. The piece takes a claim from social media about cattle feed and alfalfa, shows the two denominators behind it (about half of direct human use, a third of total consumption, from the Richter 2024 water budget), and then hands over the levers: river flow as a share of the 2000 to 2024 average, how much cattle-feed and other irrigation to fallow or retire, urban conservation, and which rule decides who takes the cut (proportional, a stylised seniority, or the federal 2027 to 2028 framework). Retiring farmland is a one-way slider on purpose, to make irreversibility felt. Every configured future serialises into a shareable link.
+Hook calls the form computational journalism: a live public argument, an open model and a page to play with, shipped together. He keeps it for fights where a conserved and measured quantity like water lets a model settle something.
 
-It runs in the browser with no account. The code, the data pipelines (Richter 2024 tables, Lees Ferry natural flows) and a verification ledger are public in the repository, which also holds validation and backtest scripts against the 2000 to 2024 drawdown. The model is deliberately small: four parties, no groundwater, no return flows, no crop economics beyond published prices.
+The piece starts from a social-media claim about cattle feed and alfalfa. It shows the two denominators behind that claim: about half of direct human use, and a third of total consumption, both from the Richter 2024 water budget. Then the reader gets the levers:
 
-Status: a staged prototype, dated August 2026 on the page itself, with the essay marked a working draft. The author describes it as the first of a series of standalone pieces, with the Rio Grande named as the next.
+- river flow as a share of the 2000 to 2024 average
+- how much cattle-feed and other irrigation to fallow or retire
+- urban conservation
+- which rule decides who takes the cut: proportional, a stylised seniority, or the federal 2027 to 2028 framework
+
+Retiring farmland is a one-way slider on purpose, to make irreversibility felt. Each future a reader configures is saved into a shareable link.
+
+The page runs in the browser with no account. The repository holds the code, the data pipelines (Richter 2024 tables, Lees Ferry natural flows) and a verification ledger. It also holds validation and backtest scripts against the 2000 to 2024 drawdown. The model is deliberately small: four parties, no groundwater, no return flows, no crop economics beyond published prices.
+
+The page, a staged prototype, is dated August 2026, and the essay is marked a working draft. Hook plans it as the first of a series of standalone pieces, with the Rio Grande next.

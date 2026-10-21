@@ -15,7 +15,7 @@ provenance:
     on this site; not yet read by Anselm
   status: draft
 ---
-The first version of the model should be embarrassingly small: one neighbourhood rather than the city, one storm rather than a range, one map as the output. It exists to find out whether the question, the data and the model fit together, and to give the people who asked something to react to within weeks rather than years.
+The first version should be embarrassingly small: one neighbourhood, one storm, one map. It tests whether the question, the data and the model fit together. It also gives the people who asked something to react to within weeks.
 
 ## What small means
 
@@ -34,7 +34,7 @@ The first version of the model should be embarrassingly small: one neighbourhood
 
 ## What to copy
 
-[Bay Layers](/twins/bay-layers/) is a worked example on this site: a few shared layers of one bay, in a browser, with the source published so it can be copied. Each [engine](/engines/) entry links to the maker's own page, which is where the examples and the documentation are.
+[Bay Layers](/twins/bay-layers/) is a worked example on this site: a few shared layers of one bay, in a browser, with the source published so it can be copied. Each [engine](/engines/) entry links to the maker's own page, with its examples and documentation.
 
 ## What you learn
 

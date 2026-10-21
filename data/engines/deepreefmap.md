@@ -3,9 +3,9 @@ about:
   depiction: engines/deepreefmap.jpg
   label: DeepReefMap
   description: >-
-    Open-source pipeline from EPFL's ECEO lab that turns handheld underwater
-    video of coral reefs into labelled 3D point clouds, orthomosaics and
-    benthic cover statistics.
+    Open-source pipeline from EPFL's ECEO lab that builds labelled 3D point
+    clouds, orthomosaics and benthic cover statistics of coral reefs from
+    handheld underwater video.
   tags:
     - coral
     - reef
@@ -67,10 +67,8 @@ relations:
       supports backend (source_claim; exact implementation not independently
       tested)
 ---
-DeepReefMap is software for rapid 3D semantic mapping of coral reefs from video shot with a handheld camera. It is maintained by Hugues Sibille (EPFL) and Jonathan Sauder (MIT and EPFL) under EPFL's ECEO group, and the method was published in Methods in Ecology and Evolution in 2024. From one video it produces a semantic 3D point cloud, an orthomosaic, per-class benthic cover statistics and an interactive viewer.
+Hugues Sibille (EPFL) and Jonathan Sauder (MIT and EPFL) maintain DeepReefMap under EPFL's ECEO group. The method, for rapid 3D semantic mapping of reefs, was published in Methods in Ecology and Evolution in 2024. From one video it produces a semantic 3D point cloud, an orthomosaic, per-class benthic cover statistics and an interactive viewer. A semantic point cloud is a set of 3D points, each labelled with what it shows. An orthomosaic is a single map-like image stitched from many frames. Benthic cover is the share of the seabed each class occupies.
 
-The pipeline rectifies frames with a camera profile (GoPro Hero 10 and 12 profiles ship with it; other cameras are calibrated with a built-in COLMAP tool), segments each frame, reconstructs depth and pose, then exports the products. Several reconstruction backends can be chosen, from a basic one that runs on CPU to higher-quality ones that need an NVIDIA or AMD GPU, and one whose weights are gated and limited to non-commercial research use. Segmentation defaults to a model trained on CoralscapesV2, a panoptic reef dataset of 2,433 annotated images from 55 Red Sea sites with 95 classes, released under Apache 2.0.
+The pipeline rectifies frames with a camera profile, segments each frame (labels every pixel by class), reconstructs depth and camera pose, then exports the products. It ships with profiles for the GoPro Hero 10 and 12. Other cameras are calibrated with a built-in tool based on COLMAP, an open-source photogrammetry program. Several reconstruction backends can be chosen. A basic one runs on CPU, higher-quality ones need an NVIDIA or AMD GPU, and one has gated weights limited to non-commercial research use. Segmentation defaults to a model trained on CoralscapesV2, a panoptic reef dataset of 2,433 annotated images from 55 Red Sea sites with 95 classes, released under Apache 2.0. A panoptic dataset labels both individual objects and background regions.
 
-It is a command-line tool in Python 3.10 to 3.12, licensed Apache 2.0, with a GPU strongly recommended; a separate desktop app exists. Vendored components and downloaded checkpoints carry their own terms.
-
-Status: public and actively developed, with workshop papers cited for 2025 and 2026; no tagged release yet.
+DeepReefMap is a command-line tool in Python 3.10 to 3.12, licensed Apache 2.0. A GPU is strongly recommended, and a separate desktop app exists. Bundled third-party components and downloaded checkpoints have their own terms. The project is public and actively developed, with workshop papers cited for 2025 and 2026, and has no tagged release yet.

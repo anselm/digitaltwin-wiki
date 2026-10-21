@@ -3,9 +3,8 @@ about:
   depiction: engines/hydrata.jpg
   label: Hydrata
   description: >-
-    Browser-based flood modelling platform that runs the open-source ANUGA
-    solver in the cloud; users draw a model, run scenarios and compare the
-    results with historic floods, free when the model is shared publicly.
+    Browser-based flood modelling service that runs the open-source ANUGA
+    solver in the cloud, free for models shared publicly.
   tags:
     - flood
     - hydraulics
@@ -55,10 +54,10 @@ relations:
     target: engines/anuga
     note: uses solver (source_claim; exact implementation not independently tested)
 ---
-Hydrata is a web platform for building and checking flood models. A user imports topography, draws the model boundary in the browser, sets friction and rainfall and adds scenarios; the simulation runs in the cloud on ANUGA, the shallow-water solver developed by Geoscience Australia and the Australian National University, and results stream back to a live portal where they can be compared with historic flood event data for the place. Models can be public or private. The site addresses consultancies, local authorities, dam owners, water utilities and researchers. It does not say who runs Hydrata or where it is based.
+A user imports topography, draws the model boundary in the browser, sets friction and rainfall and adds scenarios. The simulation runs in the cloud on ANUGA, a shallow-water solver developed by Geoscience Australia and the Australian National University. A shallow-water solver computes how water spreads over ground. Results stream back to a live portal, where they can be compared with historic flood event data for the place. Models can be public or private. The site is aimed at consultancies, local authorities, dam owners, water utilities and researchers.
 
-Hydrata's case for trusting its results is that it runs the unmodified open-source solver through the same pipeline, so a run on the platform should match a local ANUGA run of the same version on the same inputs. Its validation page points to ANUGA's suite of more than thirty benchmark problems (laboratory flumes, field observations and analytical solutions), its use in over a hundred peer-reviewed papers and in Geoscience Australia's national tsunami risk assessments, and lists the Merewether urban flood in Newcastle, New South Wales, as a benchmark verified on Hydrata against observed flood marks.
+Hydrata runs the unmodified open-source solver through the same pipeline, and says a run on the site should match a local ANUGA run of the same version on the same inputs. ANUGA has a suite of more than thirty benchmark problems: laboratory flumes, field observations and analytical solutions. It has been used in over a hundred peer-reviewed papers and in Geoscience Australia's national tsunami risk assessments. Hydrata's validation page lists the Merewether urban flood in Newcastle, New South Wales, as a benchmark verified on Hydrata against observed flood marks.
 
-Publicly shared models are free; private collaboration needs a paid plan, and a further paid service has a Hydrata analyst verify a model and deliver a chartered-engineer advisory in a review portal. A model's scenario file can be exported and run locally with run_anuga, an MIT-licensed tool on GitHub for Windows and Linux that needs no Python install, takes a folder with a scenario.json, a DEM, boundary lines and rainfall polygons, and writes GeoTIFF rasters of depth, velocity and stage plus a NetCDF time series. Its README calls it an early version without culverts, bridges, hazard classification or a GUI.
+Publicly shared models are free. Private collaboration needs a paid plan. A further paid service has a Hydrata analyst verify a model and deliver a chartered-engineer advisory in a review portal.
 
-Status: an active product with sign-up and paid plans; no version or launch date is stated.
+A model's scenario file can be exported and run locally with run_anuga, an MIT-licensed tool on GitHub for Windows and Linux that needs no Python install. Its input is a folder with a scenario.json, a DEM (digital elevation model, a grid of ground heights), boundary lines and rainfall polygons. Output is GeoTIFF rasters of depth, velocity and stage, plus a NetCDF time series. run_anuga is an early version, without culverts, bridges, hazard classification or a GUI.

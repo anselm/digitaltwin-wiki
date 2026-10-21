@@ -3,10 +3,9 @@ about:
   depiction: engines/firevision-opalai.jpg
   label: FireVision
   description: >-
-    Wildfire risk platform from Opal AI Inc. of Marina del Rey, California,
-    that combines imagery, lidar, GIS, weather and field data into risk
-    rankings and mitigation recommendations for utilities, fire agencies and
-    insurers.
+    Wildfire risk software from Opal AI Inc. of Marina del Rey, California,
+    that ranks risk and recommends mitigation for utilities, fire agencies and
+    insurers from imagery, lidar, GIS, weather and field data.
   tags:
     - wildfire
     - risk
@@ -50,10 +49,16 @@ import:
 domains:
   - fire
 ---
-FireVision is a wildfire intelligence platform from Opal AI Inc., a small company in the Los Angeles area (the SBIR register lists eight employees and a first award in 2022). It builds one picture of communities, infrastructure, vegetation and terrain from satellite, aerial, drone and street-level imagery, lidar, GIS layers, weather and field observations, then ranks risk and recommends actions such as inspections, vegetation management and resource placement.
+Opal AI is a small company in the Los Angeles area. The register of the US Small Business Innovation Research (SBIR) programme lists eight employees and a first award in 2022.
 
-The company pitches it to electric utilities (circuit-level risk ranking and public safety power shutoff planning), fire agencies (shared situational picture, time-to-impact and evacuation context) and insurers (parcel-level scoring and portfolio exposure). A 2025 NASA SBIR Phase II award of $899,845, titled "FireVision: An AI-Powered Decision-Support Platform Leveraging NASA Earth Science Data for Wildfire Risk, Mitigation, and Response", funds extending the platform's fuel maps, fire potential indices and fire spread simulations to wildland-urban interface areas, with testing in California and Texas.
+FireVision builds one picture of communities, infrastructure, vegetation and terrain. Its inputs are satellite, aerial, drone and street-level imagery, lidar (laser scanning that measures distance to surfaces), GIS layers, weather and field observations. From that picture it ranks risk and recommends actions such as inspections, vegetation management and resource placement.
 
-It is a commercial product offered by demo request; the pages read do not say how it is hosted or what it costs, and name no customers.
+Opal AI offers it to three kinds of customer:
 
-Status: offered commercially as of 2026, with the NASA-funded extension under way.
+- electric utilities, for circuit-level risk ranking and public safety power shutoff planning
+- fire agencies, for a shared situational picture, time-to-impact and evacuation context
+- insurers, for parcel-level scoring and portfolio exposure
+
+In 2025 NASA made an SBIR Phase II award of $899,845, titled "FireVision: An AI-Powered Decision-Support Platform Leveraging NASA Earth Science Data for Wildfire Risk, Mitigation, and Response". It funds extending FireVision's fuel maps, fire potential indices and fire spread simulations to the wildland-urban interface, where homes meet wildland. Testing is in California and Texas.
+
+FireVision is sold by demo request. Pricing is not published.

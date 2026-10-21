@@ -2,9 +2,9 @@
 about:
   label: Advances in geocomputation and geospatial artificial intelligence (GeoAI) for mapping
   description: >-
-    2023 editorial review by Yongze Song and colleagues of how geocomputation
-    and GeoAI are used in mapping, with a taxonomy of mapping applications and
-    of the data types that feed them.
+    2023 editorial review by Yongze Song and colleagues of geocomputation and
+    GeoAI in mapping, with a taxonomy of mapping applications and their data
+    types.
   tags:
     - geoai
     - geocomputation
@@ -44,8 +44,25 @@ import:
 domains:
   - places
 ---
-An editorial in the International Journal of Applied Earth Observation and Geoinformation (volume 120, article 103300, published online 28 April 2023) by Yongze Song, Margaret Kalacska, Mateo Gašparović, Jing Yao and Nasser Najibi. It reviews how geocomputation and geospatial artificial intelligence have changed mapping work.
+Geocomputation is the use of computing methods to analyse geographic data. GeoAI applies artificial intelligence to the same data.
 
-The paper sorts mapping applications into four groups: buildings and infrastructure, land use analysis, natural environment and hazards, and social issues and human activities. It sorts the data that feed them into seven types: in-situ data, geospatial datasets, crowdsourced geospatial data, remote sensing, photogrammetry, lidar and statistical data. It closes with challenges and opportunities, including the difficulty of building the particular properties of geospatial data into GeoAI models.
+The editorial sorts mapping applications into four groups:
 
-The published version is openly available from the University of Glasgow's Enlighten repository under a CC BY-NC-ND 4.0 licence.
+- buildings and infrastructure
+- land use analysis
+- natural environment and hazards
+- social issues and human activities
+
+It sorts the data feeding those applications into seven types:
+
+- in-situ data, measured on the spot
+- geospatial datasets
+- crowdsourced geospatial data
+- remote sensing
+- photogrammetry, measurement from overlapping photographs
+- lidar, distance measured with laser pulses
+- statistical data
+
+It closes on challenges and opportunities. One is the difficulty of building the particular properties of geospatial data into GeoAI models.
+
+The editorial appeared in the International Journal of Applied Earth Observation and Geoinformation (volume 120, article 103300), published online on 28 April 2023. Its authors are Yongze Song, Margaret Kalacska, Mateo Gašparović, Jing Yao and Nasser Najibi. The published version is openly available from the University of Glasgow's Enlighten repository under a CC BY-NC-ND 4.0 licence.

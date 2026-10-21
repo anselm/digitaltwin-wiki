@@ -3,9 +3,9 @@ about:
   depiction: data-sources/inaturalist.jpg
   label: iNaturalist
   description: >-
-    Community platform where people photograph plants, animals and fungi and
-    others identify them; the observations are published as open biodiversity
-    data for research and conservation.
+    Community website and app where people photograph plants, animals and
+    fungi and others identify them; the observations are published as open
+    biodiversity data for research and conservation.
   tags:
     - biodiversity
     - species
@@ -52,10 +52,8 @@ domains:
   - ecology
   - people
 ---
-iNaturalist is a nonprofit, community-run platform and app. People upload photographs or recordings of organisms with a place and time, and the community identifies them. Its own site reports more than 300 million observations, more than 550,000 species documented and more than 7,000 papers citing its data. An observation becomes "research grade" once more than one person has agreed on the species.
+iNaturalist is nonprofit and community-run, and has operated since at least 2012. An observation is a photograph or recording of an organism with a place and time. It becomes "research grade" once more than one person has agreed on the species. Research-grade records also need a date, coordinates, at least one photo or sound, and a wild, not captive, organism. iNaturalist reports more than 300 million observations, more than 550,000 species documented and more than 7,000 papers citing its data.
 
-For a twin of a place the data gives a dense but uneven record of what has been seen where. A 2022 Long Now essay describes studies built on it, including a 17-year analysis of dragonfly colouration drawn from iNaturalist and GBIF records, and notes the known biases: sightings cluster near cities and roads, and growth in users can look like growth in populations.
+The record of what has been seen where is dense but uneven. A 2022 Long Now essay describes studies built on it, including a 17-year analysis of dragonfly colouration drawn from iNaturalist and GBIF records. The essay also notes the known biases: sightings cluster near cities and roads, and growth in users can look like growth in populations.
 
-The observations are open data. Beyond the website and app they are distributed as a GBIF Darwin Core archive and an AWS S3 open-data extract, which is what Esri's Living Atlas layer is derived from. Research-grade records require a date, coordinates, at least one photo or sound, and a wild rather than captive organism.
-
-Operational; the platform has run since at least 2012 and is still growing.
+The observations are open data. Beyond the website and app, they are distributed as a GBIF Darwin Core archive and an AWS S3 open-data extract. Darwin Core is a standard format for biodiversity records. Esri's Living Atlas layer is derived from the S3 extract.

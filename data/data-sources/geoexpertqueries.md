@@ -52,8 +52,8 @@ relations:
     target: engines/google-earth-ai-geospatial-reasoning-agent
     note: evaluates (source_claim; exact implementation not independently tested)
 ---
-One of the two Geospatial Reasoning Benchmarks that Google Research released alongside its technical report on the Google Earth AI Geospatial Reasoning Agent (arXiv 2610.15750, submitted 11 October 2026). GeoExpertQueries is a set of open-ended analytical problems of the kind a GIS analyst meets in practice, each written and cross-verified by three independent geospatial experts and paired with a consensus reference workflow.
+It is one of two Geospatial Reasoning Benchmarks released with Google Research's technical report on the Google Earth AI Geospatial Reasoning Agent (arXiv 2610.15750, submitted 11 October 2026). Each problem is of the kind a GIS analyst meets in practice. Three independent geospatial experts wrote and cross-verified each problem, and each is paired with a consensus reference workflow.
 
-It tests whether an agent can choose the right datasets, a sound method and the right coordinate reference system for an end-to-end analysis, rather than whether it can compute a single number. Answers are scored by an LLM judge on a three-point scale across three dimensions, in both a tool-agnostic and a tool-aware setting.
+The benchmark tests whether an agent chooses the right datasets, a sound method and the right coordinate reference system (the system that ties map coordinates to places on Earth) for an end-to-end analysis. A language model acting as judge scores each answer on a three-point scale across three dimensions. Scoring runs in two settings, one tool-agnostic and one tool-aware.
 
-The public release holds the 25-query development split (10 solvable with the current toolset, 15 beyond it) across four domains; the 76-query test split is held back. Code is under Apache 2.0 and data under CC BY 4.0, with Google Maps data excluded from both. The authors ask that the benchmark not be used as training data.
+The public release holds the 25-query development split (10 solvable with the current toolset, 15 beyond it) across four domains. The 76-query test split is held back. Code is under Apache 2.0 and data under CC BY 4.0, with Google Maps data excluded from both. The authors ask that the benchmark not be used as training data.

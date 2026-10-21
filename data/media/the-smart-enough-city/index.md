@@ -32,8 +32,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Green warns against seeing the city only through technology. Cities that chase that view, he argues, end up with self-driving cars that push pedestrians out of downtown, civic engagement reduced to an app, policing algorithms that launder old biases and public space under surveillance, while still appearing smart. Against this he sets a "smart enough" city that takes technology as one powerful tool among others for being livable, democratic, just, responsible and innovative, and gives examples of both kinds.
+Green argues that cities which see themselves only through technology end up with self-driving cars that push pedestrians out of downtown, civic engagement reduced to an app, policing algorithms that launder old biases, and public space under surveillance. Such cities still appear smart. Against them he sets a "smart enough" city, which takes technology as one powerful tool among others for being livable, democratic, just, responsible and innovative. The book gives examples of both kinds.
 
-Urban digital twins are sold with the same promises as the smart city, and inherit the same failure modes. Green's book is the short, concrete account of those failures and of what it looks like to put the technology in service of the city's actual goals.
+Urban digital twins are sold with the same promises as the smart city, and inherit the same failure modes. The book describes those failures in concrete cases, along with technology put in service of a city's own goals.
 
 Cover via Open Library.

@@ -3,10 +3,10 @@ about:
   depiction: engines/flaim-earthdaily-fire-likelihood-ai-model.jpg
   label: Fire Likelihood AI Model (FLAIM)
   description: >-
-    EarthDaily's wildfire risk model, which combines satellite observations,
-    daily weather and other geospatial data into ignition likelihood, fuel
-    hazard and directional vulnerability layers, sold to insurers in the
-    western United States.
+    EarthDaily's wildfire risk model for insurers in the western United
+    States, giving ignition likelihood, fuel hazard and directional
+    vulnerability layers from satellite observations, daily weather and other
+    geospatial data.
   tags:
     - wildfire
     - insurance
@@ -50,8 +50,14 @@ import:
 domains:
   - fire
 ---
-The Fire Likelihood AI Model, FLAIM, is EarthDaily's wildfire risk product. It grew out of SkyForest's forest measurement and wildfire analysis work, which EarthDaily acquired in early 2025, joined to EarthDaily's own Earth observation and analytics. Inputs are regular satellite observations, daily weather and other geospatial data; outputs are wildfire probability, fuel hazard (the vegetation part of risk) and directional vulnerability, meaning how fire may move across a landscape and into communities. Because it is updated from current imagery it reflects vegetation growth, clearing and new development rather than fixed land-cover assumptions.
+FLAIM grew out of the forest measurement and wildfire analysis work of SkyForest, which EarthDaily acquired in early 2025, joined to EarthDaily's own Earth observation and analytics. Its inputs are regular satellite observations, daily weather and other geospatial data. The model produces three layers:
 
-The announced use is underwriting, portfolio management and conflagration risk for one large, unnamed North American property and casualty insurer, across high-risk markets in the western United States; the example shown is a July 2026 monthly composite of ignition likelihood for Spokane, Washington. The intelligence is delivered as data structured for integration into insurance systems. Resolution, update frequency and price are not stated.
+- wildfire probability
+- fuel hazard, the vegetation part of risk
+- directional vulnerability: how fire may move across a landscape and into communities
 
-Status: commercial, announced 26 August 2026. EarthDaily says imagery from its own satellite constellation will be added as an input.
+Because the model is updated from current imagery, it reflects vegetation growth, clearing and new development.
+
+On 26 August 2026 EarthDaily announced FLAIM for a large, unnamed North American property and casualty insurer. The announced uses are underwriting, portfolio management and conflagration risk across high-risk markets in the western United States. The example shown is a July 2026 monthly composite of ignition likelihood for Spokane, Washington. It is delivered as data structured for integration into insurance systems. Pricing is not published.
+
+EarthDaily says imagery from its own satellite constellation will be added as an input.

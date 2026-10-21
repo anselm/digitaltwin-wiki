@@ -40,8 +40,6 @@ domains:
   - places
   - climate
 ---
-A call for papers for a special issue of Sustainability in Smart Cities, an open-access journal from Bon View Publishing. The guest editors are Pengyuan Shen of Tsinghua University (lead), Shady Attia of the University of Liège and Sheng Liu of Southwest Jiaotong University.
+The guest editors are Pengyuan Shen of Tsinghua University (lead), Shady Attia of the University of Liège and Sheng Liu of Southwest Jiaotong University. Sustainability in Smart Cities is open access, and is not yet listed in Scopus or Web of Science.
 
-The issue asks for work on how AI and smart-city technology can support climate mitigation, adaptation and resilience at building, neighbourhood and urban scale. Listed topics include digital twins for climate-responsive planning and resilience, urban heat island assessment, smart water and flood resilience, and data governance and explainable AI.
-
-The submission deadline is 1 June 2027. Shady Attia's own page notes that the journal is not yet listed in Scopus or Web of Science.
+Listed topics include digital twins for climate-responsive planning and resilience, urban heat island assessment, smart water and flood resilience, and data governance and explainable AI. The submission deadline is 1 June 2027.

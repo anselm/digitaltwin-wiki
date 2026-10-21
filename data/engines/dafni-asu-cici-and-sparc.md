@@ -39,6 +39,13 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-DAFNI, the Data and Analytics Facility for National Infrastructure, is a computing platform for research on transport, water, energy and city-scale systems in the UK, funded as an £8 million investment by the UK Collaboratorium for Research on Infrastructure and Cities (UKCRIC). Researchers deposit and share data, run and link computational models at larger scale than on their own machines, and present results through visualisation. Projects hosted on it include OpenCLIM (a climate impacts modelling framework for UK risk assessment), Pywr-WREW (a water resources model for England and Wales), a sewer-overflow flood risk model, and projects on grid resilience, aviation resilience and flood-disrupted road networks. Access is arranged with DAFNI directly.
+DAFNI stands for the Data and Analytics Facility for National Infrastructure. It serves UK research on transport, water, energy and city-scale systems, and was funded as an £8 million investment by the UK Collaboratorium for Research on Infrastructure and Cities (UKCRIC). Researchers deposit and share data on it, run and link computational models at a larger scale than their own machines allow, and present results as visualisations. Hosted projects include:
 
-SPARC, the Spatial Analysis Research Center at Arizona State University, and the CICI (Cyberinfrastructure and Computational Intelligence) Lab are both directed by Wenwen Li, a professor in ASU's School of Geographical Sciences and Urban Planning. Her research covers cyberinfrastructure, big data and geospatial AI applied to environmental and social science; the profile lists an AI flood-mapping tool, wildfire prediction in Alaska, AI for disaster and emergency response, and tracking Arctic permafrost thaw, with funding from NSF, NASA, USGS and Google.org among others.
+- OpenCLIM, a climate impacts modelling framework for UK risk assessment
+- Pywr-WREW, a water resources model for England and Wales
+- a sewer-overflow flood risk model
+- projects on grid resilience, aviation resilience and flood-disrupted road networks
+
+Access is arranged with DAFNI directly.
+
+Wenwen Li directs two groups at Arizona State University: the Spatial Analysis Research Center (SPARC) and the Cyberinfrastructure and Computational Intelligence (CICI) Lab. She is a professor in ASU's School of Geographical Sciences and Urban Planning. Her research applies cyberinfrastructure (shared computing, storage and networks for research), big data and geospatial AI to environmental and social science. Her projects include an AI flood-mapping tool, wildfire prediction in Alaska, AI for disaster and emergency response, and tracking Arctic permafrost thaw. Funders include NSF, NASA, USGS and Google.org.

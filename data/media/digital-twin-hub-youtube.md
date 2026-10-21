@@ -26,6 +26,6 @@ provenance:
   reviewed_by: Claude; the feed was fetched and read on 2026-10-17
   status: draft
 ---
-The weekly Feature Focus talks are the most regular spoken record of digital twin work in the UK: in October 2026 the guests were TransiT at the University of Glasgow and the AMRC. The channel's name is Digital Twin Hub at CPC, since the hub moved to the Connected Places Catapult.
+Each weekly Feature Focus talk presents work on digital twins in the UK. In October 2026 the guests were TransiT at the University of Glasgow and the AMRC. The channel is named Digital Twin Hub at CPC, since the hub moved to the Connected Places Catapult.
 
 Polled by `tools/scan.js`; new items land in the inbox for a person to triage.

@@ -46,10 +46,14 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Circuitscape models connectivity in a heterogeneous landscape by treating it as an electrical circuit: resistance layers describe how hard each cell is to cross, and current flow shows where movement concentrates, considering all possible pathways at the same time rather than a single least-cost route. It was created by Brad McRae (1966-2017), Viral B. Shah, Tanmay Mohapatra and Ranjan Anantharaman. Companion tools are Omniscape, which applies Circuitscape in a moving window for omni-directional connectivity; Linkage Mapper, an ArcGIS toolbox that maps corridors, pinch-points and barriers; and Gnarly Landscape Utilities, which builds the core-area and resistance layers the others need.
+Resistance layers describe how hard each cell of a landscape is to cross. Treated as an electrical circuit, the current flowing through them shows where movement concentrates, over all possible pathways at the same time. Circuitscape was created by Brad McRae (1966-2017), Viral B. Shah, Tanmay Mohapatra and Ranjan Anantharaman.
 
-The project lists its uses as wildlife corridor design, landscape genetics, movement ecology, connectivity under climate change, and infectious disease, fire and agriculture. It received The Wildlife Society's Spatial Ecology and Telemetry Working Group award in 2013.
+It has three companion tools:
 
-Circuitscape 5 is written in Julia and runs on Windows, macOS and Linux; it is installed as a Julia package (`Pkg.add("Circuitscape")`, Julia 1.12 or later) and driven by INI configuration files, reading ESRI ASCII grids and, with ArchGDAL, GeoTIFF. The code is on GitHub under the MIT licence. The earlier Python version, Circuitscape 4, is archived but its installers and ArcGIS toolboxes remain downloadable. NASA and The Nature Conservancy funded version 5; the Wilburforce Foundation funded version 4.
+- Omniscape applies Circuitscape in a moving window for omni-directional connectivity.
+- Linkage Mapper is an ArcGIS toolbox that maps corridors, pinch-points and barriers.
+- Gnarly Landscape Utilities builds the core-area and resistance layers the others need.
 
-Status: maintained; the site was last modified in September 2026 and the project says it is looking for contributors and maintainers.
+The project lists its uses as wildlife corridor design, landscape genetics (how landscape features shape gene flow between populations), movement ecology, connectivity under climate change, infectious disease, fire and agriculture. Circuitscape received The Wildlife Society's Spatial Ecology and Telemetry Working Group award in 2013.
+
+Circuitscape 5 is written in Julia, a programming language for scientific computing, and runs on Windows, macOS and Linux. Users install it as a Julia package (`Pkg.add("Circuitscape")`, Julia 1.12 or later) and drive it with INI configuration files. It reads ESRI ASCII grids and, with ArchGDAL, GeoTIFF. The code is on GitHub under the MIT licence, and the project is looking for new contributors and maintainers. The earlier Python version, Circuitscape 4, is archived, but its installers and ArcGIS toolboxes remain downloadable. NASA and The Nature Conservancy funded version 5; the Wilburforce Foundation funded version 4.

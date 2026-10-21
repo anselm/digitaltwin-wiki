@@ -3,10 +3,9 @@ about:
   depiction: organizations/bioregional-financing-facilities-resiliance-discovery-arcs.jpg
   label: ResiliAnce Partnership
   description: >-
-    Partnership of Commonland, Ashoka, The Weaving Lab and Wire Group, formed
-    in March 2025 within the Bioregional Weaving Labs Collective, that is
-    prototyping Bioregional Financing Facilities in three European bioregions
-    and publishing discovery-arc papers on how such facilities should work.
+    A partnership of Commonland, Ashoka, The Weaving Lab and Wire Group,
+    formed in March 2025, prototyping Bioregional Financing Facilities in
+    three European bioregions.
   tags:
     - bioregion
     - finance
@@ -44,10 +43,16 @@ import:
 domains:
   - people
 ---
-The ResiliAnce Partnership was set up on 10 March 2025 by Commonland, Ashoka, The Weaving Lab and Wire Group to prototype Bioregional Financing Facilities (BFFs): locally governed structures that pool philanthropic, public, private and institutional capital to fund a portfolio of projects and enterprises across a whole landscape, rather than one project at a time. It works inside the Bioregional Weaving Labs Collective, which contributes the local weaving, portfolio development, governance work and shared learning.
+A Bioregional Financing Facility (BFF) is a locally governed structure. It pools philanthropic, public, private and institutional capital to finance a portfolio of projects and enterprises across a whole landscape, not one project at a time. The partnership was set up on 10 March 2025. It works inside the Bioregional Weaving Labs Collective, which contributes the local weaving, portfolio development, governance work and shared learning.
 
-The first prototypes are in The Delta in the Netherlands, the Altiplano Estepario in Spain and Le Bocage ornais in France. Each aims to raise at least EUR 5 million in seed funding, with the ambition of growing to EUR 50 million or more per bioregional portfolio. The partners publish their reasoning as a learning series and as numbered "discovery arc" provocation papers; the third, last revised on 8 October 2026, asks how risk and value should be shared among the projects in a bioregional portfolio, and among the portfolio, its investors and the wider bioregion, and argues that interdependence between projects in one place should be treated as a strength to pool around rather than a correlation to diversify away.
+The first prototypes are in three places:
 
-This is a finance and governance design effort; there is no software, model or data product.
+- The Delta, in the Netherlands.
+- The Altiplano Estepario, in Spain.
+- Le Bocage ornais, in France.
 
-Prototyping is ongoing as of late 2026; no facility is reported as funded.
+Each aims to raise at least EUR 5 million in seed funding, with the ambition of growing to EUR 50 million or more per bioregional portfolio. Prototyping continues in late 2026, and no facility is reported as funded.
+
+The partners publish their reasoning as a learning series and as numbered "discovery arc" provocation papers. The third asks how risk and value should be shared among the projects in a bioregional portfolio, and between the portfolio, its investors and the wider bioregion. It argues that interdependence between projects in one place is a strength to pool around, not a correlation to diversify away.
+
+The work is finance and governance design, with no software, model or data product.

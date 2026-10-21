@@ -4,8 +4,8 @@ about:
   label: LingBot-Map
   description: >-
     Open-source streaming 3D reconstruction model from the Robbyant team at
-    Ant Group; turns a video or image sequence into camera poses, depth and
-    point clouds in one feed-forward pass.
+    Ant Group that estimates camera poses, depth and point clouds from a video
+    or image sequence in one feed-forward pass.
   tags:
     - 3d reconstruction
     - computer vision
@@ -51,8 +51,8 @@ import:
 domains:
   - sensory
 ---
-LingBot-Map is a 3D foundation model for streaming reconstruction, published by the Robbyant team under the paper "Geometric Context Transformer for Streaming 3D Reconstruction" (arXiv 2604.14141). It takes a video file or a folder of images and produces camera poses, depth and a point cloud frame by frame, without the iterative optimisation of classical structure-from-motion. The repository claims about 20 frames per second at 518 by 378 pixels on sequences of more than 10,000 frames.
+Robbyant calls it a 3D foundation model, meaning a large model trained broadly so it can be reused for many tasks. The paper behind it is "Geometric Context Transformer for Streaming 3D Reconstruction" (arXiv 2604.14141). LingBot-Map reads a video file or a folder of images and outputs camera poses, depth and a point cloud frame by frame. Classical structure-from-motion, which recovers 3D shape from many overlapping photos, refines its estimate by iterative optimisation; LingBot-Map does without that step. The repository claims about 20 frames per second at 518 by 378 pixels on sequences of more than 10,000 frames.
 
-One documented use is as a reconstruction backend in DeepReefMap, the EPFL toolkit for mapping coral reefs from handheld underwater video; its README recommends LingBot-Map for long videos on a modest GPU because memory use stays flat however long the dive is, and notes that the weights are public with no access request.
+DeepReefMap is an EPFL toolkit for mapping coral reefs from handheld underwater video, and LingBot-Map is one of its reconstruction backends. The DeepReefMap README recommends it for long videos on a modest GPU, because memory use stays flat however long the dive is. The weights are public, with no access request.
 
-Code is on GitHub under the Apache 2.0 licence and the checkpoint is on Hugging Face and ModelScope; it needs an NVIDIA or AMD GPU and runs on CPU only on Apple Silicon. A browser viewer and an offline rendering pipeline are included. Status: released, with repository updates through June 2026; a stronger model for longer sequences is announced as coming.
+Code is on GitHub under the Apache 2.0 licence, and the checkpoint is on Hugging Face and ModelScope. It needs an NVIDIA or AMD GPU, except on Apple Silicon, where it runs on CPU only, and it comes with a browser viewer and an offline rendering pipeline. The repository has updates through June 2026, and a stronger model for longer sequences has been announced.

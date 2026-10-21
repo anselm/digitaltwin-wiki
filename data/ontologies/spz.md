@@ -43,6 +43,6 @@ A Gaussian splat is a way to store a scanned place as millions of small coloured
 
 Niantic released SPZ as open source in late 2024 and called it "JPG for 3D Gaussian splats". An SPZ file is typically about ten times smaller than the matching PLY, with little visible difference. The library is C++ and also builds to TypeScript through WebAssembly, so a browser viewer can load the files directly. The licence is MIT.
 
-Version 4, released in May 2026, encodes about three times faster on a large test scan and lets other companies add their own fields without breaking older readers. One extension so far, named for Adobe, lets a file record which way its axes point.
+Version 4, released in May 2026, encodes about three times faster on a large test scan, Niantic says. It also lets other companies add their own fields without breaking older readers. One extension so far, named for Adobe, lets a file record which way its axes point.
 
-Coordinate systems are the trap for anyone joining splats with other city data. SPZ stores right, up, back by default, the convention of OpenGL and three.js. PLY files usually use a different one and glTF another, so the reader should say which system the data is in when saving and loading.
+Coordinate systems are the trap for anyone joining splats with other city data. SPZ stores right, up, back by default, the convention of OpenGL and three.js. PLY files usually use a different one and glTF another, so software should state which system the data is in when saving and loading.

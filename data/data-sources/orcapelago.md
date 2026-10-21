@@ -50,10 +50,8 @@ import:
 domains:
   - ecology
 ---
-Orcapelago is a map of whale sightings in the Salish Sea as reported by the Orca Network. It runs on the domain of Bright Rain Solutions, a GIS and web-mapping firm in Fort Collins, Colorado, founded by David Puckett; the site itself does not name its author. The map shows the sightings from the latest Orca Network newsletter by default and can be filtered by date range and species.
+The map runs on the domain of Bright Rain Solutions. David Puckett founded the firm, which does GIS and web mapping in Fort Collins, Colorado. The site itself does not name its author. By default the map shows the sightings from the latest Orca Network newsletter, and it can be filtered by date range and species.
 
-Each sighting record keeps the newsletter it came from, the date and time, species, group or pod, individual identifiers, count, direction, behaviours and how it was detected. Acoustic detections are drawn at the hydrophone rather than at the whales. The original location text is stored alongside the derived coordinates, with a field recording the geocoding method and a flag marking records that still need review.
+Each sighting record names the newsletter it came from. It also holds the date and time, species, group or pod, individual identifiers, count, direction, behaviours and detection method. Acoustic detections are drawn at the hydrophone (an underwater microphone), not at the whales. The original location text is kept beside the derived coordinates, with a field for the geocoding method (how the text was matched to a point) and a flag on records that still need review.
 
-The site is public and needs no account. Its sightings endpoint returns GeoJSON. No licence or terms are stated.
-
-Live; records in the feed are dated October 2026.
+The map is public and needs no account. Its sightings endpoint returns GeoJSON, a common format for map data. No licence or terms are stated.

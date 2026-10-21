@@ -39,8 +39,8 @@ provenance:
   status: draft
 ---
 
-The Sea Ice Index gives a quick look at Arctic- and Antarctic-wide changes in sea ice: extent and concentration as images and as data values, from November 1978 to the present, produced in a consistent way so the series suits long-term trends. Its own trend and anomaly images use a 1981–2010 reference period. Both daily and monthly products exist; NSIDC advises the monthly product for trend analysis, since day-to-day variation is often weather and errors in the daily product average out.
+The index is a quick look at hemisphere-wide change. Concentration is the share of each grid cell covered by ice; extent is the area where ice is present above a set concentration. Both come as images and as data values, produced the same way across the whole series so that it suits long-term trends. The trend and anomaly images use a 1981–2010 reference period. NSIDC advises the monthly product over the daily one for trend analysis: day-to-day variation is often weather, and errors in the daily product average out.
 
-The data set is at a "Basic" level of service because of funding limits, which NSIDC explains on the landing page. It is free; NSIDC asks that the index be cited.
+NSIDC keeps the data set at a "Basic" level of service because of funding limits, as its landing page explains. The data are free, and NSIDC asks that the index be cited.
 
 The [Vitals](/vitals/) page here reads the daily extent files for each hemisphere and draws its own 1991–2020 mean per day of year.

@@ -2,9 +2,9 @@
 about:
   label: HELICS / FMI
   description: >-
-    Two ways to connect separate simulators into one run; HELICS is an
+    Two ways to connect separate simulators into one run: HELICS, an
     open-source co-simulation framework from US national laboratories, and
-    FMI is the Modelica Association's standard for packaging and exchanging
+    FMI, the Modelica Association's standard for packaging and exchanging
     dynamic models.
   tags:
     - co-simulation
@@ -37,8 +37,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-HELICS (Hierarchical Engine for Large-scale Infrastructure Co-Simulation) is an open-source framework for running several existing simulators together as one "federation", each advancing in time and exchanging values and messages through a broker. It began as the core of a US Department of Energy Grid Modernization Laboratory Consortium project on joint transmission, distribution and communication simulation, and its copyright is held by Battelle, Lawrence Livermore National Security and the Alliance for Energy Innovation. Electric power and its communication networks remain the main use; the documentation also lists gas, water, weather and transport models, and a page of tools with built-in support. The stated target is to link a 50,000-node transmission system with millions of distribution nodes. It is written in C++20 with bindings for Python, C, Java, MATLAB and Julia, licensed BSD-3-Clause, and installs by pip, Spack, Docker or prebuilt binaries on Linux, Windows and macOS. The documentation was last updated in September 2026 and a 3.8 release is on the roadmap for late 2026.
+Co-simulation means running separate simulators in step so they exchange results as they go. HELICS (Hierarchical Engine for Large-scale Infrastructure Co-Simulation) runs several existing simulators together as one "federation". Each advances in time and exchanges values and messages through a broker. HELICS began as the core of a US Department of Energy Grid Modernization Laboratory Consortium project on joint transmission, distribution and communication simulation. Battelle, Lawrence Livermore National Security and the Alliance for Energy Innovation hold the copyright.
 
-FMI (Functional Mock-up Interface) is a standard rather than a program. It defines a ZIP container, the FMU, and a C interface by which one tool exports a dynamic model and another imports and runs it, in three modes: model exchange, co-simulation and scheduled execution. It is free to use, maintained as a Modelica Association Project since 2012 after the MODELISAR consortium (2008-2011), and the site counts more than 290 tools that support it. The specification is licensed CC BY-SA 4.0 and the reference code BSD-2-Clause; the project publishes reference FMUs and a command-line tool, fmusim, for inspecting and simulating them, plus layered standards for network buses, structured data and differential-algebraic equations. The current version is 3.0.2.
+Electric power and its communication networks remain the main use. The documentation also lists gas, water, weather and transport models, and a page of tools with built-in support. The project's target is to link a 50,000-node transmission system with millions of distribution nodes. HELICS is written in C++20 with bindings for Python, C, Java, MATLAB and Julia, and is licensed BSD-3-Clause. It installs by pip, Spack, Docker or prebuilt binaries on Linux, Windows and macOS. A 3.8 release is on the roadmap for late 2026.
 
-The two fit together: FMI packages a single model so any compliant tool can run it, and HELICS orchestrates many running models, including FMUs, in one time-synchronised run. Both are operational.
+FMI (Functional Mock-up Interface) is a standard. It defines a ZIP container, the FMU, and a C interface by which one tool exports a dynamic model and another tool imports and runs the model. There are three modes: model exchange, co-simulation and scheduled execution. FMI is free to use. It has been a Modelica Association Project since 2012, following the MODELISAR consortium (2008-2011), and its site lists more than 290 tools that support the standard. The specification is licensed CC BY-SA 4.0 and the reference code BSD-2-Clause. The project publishes reference FMUs and fmusim, a command-line tool that inspects and simulates FMUs. Layered standards cover network buses, structured data and differential-algebraic equations. The current version is 3.0.2.
+
+FMI packages a single model for any compliant tool to run. HELICS orchestrates many running models, including FMUs, in one time-synchronised run.

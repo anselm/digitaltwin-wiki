@@ -2,9 +2,9 @@
 about:
   label: Climate X / UrbanFootprint
   description: >-
-    Two commercial climate-risk platforms: Climate X's Spectra turns physical
-    climate hazards into asset-level financial loss figures worldwide;
-    UrbanFootprint's Resilience Insights combine hazard, community and
+    Two commercial climate-risk services: Climate X's Spectra, which estimates
+    asset-level financial loss from physical climate hazards worldwide, and
+    UrbanFootprint's Resilience Insights, which combines hazard, community and
     land-use data for any location in the United States.
   tags:
     - climate risk
@@ -36,8 +36,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Spectra is Climate X's platform for physical climate risk. A user searches assets by postcode or uploads a portfolio, picks a climate scenario, and gets hazard probability, severity and estimated financial loss for each asset over short and long horizons, in a form meant for disclosure frameworks such as IFRS S2 and the EU Taxonomy. It combines downscaled multi-model climate projections with the company's own building-vulnerability data and hazard models, covering over two billion assets worldwide; a global wildfire model at 30 m resolution is a recent addition. Its customers are banks, real-estate firms and asset managers. It is hosted software with an API; Climate X also sells Adapt, for costing adaptation measures, and Carta, for company-level exposure.
+In Climate X's Spectra, a user searches assets by postcode or uploads a portfolio, then picks a climate scenario. For each asset Spectra reports hazard probability, severity and estimated financial loss over short and long horizons. The output is formatted for disclosure frameworks such as IFRS S2 and the EU Taxonomy.
 
-UrbanFootprint's Resilience Insights are built on a geospatial data core for the whole United States that aligns climate hazard, community and household, and land-use and infrastructure data (the company cites 160 million parcels). Users evaluate hazard risk for one site or a portfolio, quantify community and financial impacts, and prioritise investment; the named users are an energy utility (Duquesne Light Company) and a community organisation (Fresno Metro Ministry), alongside financial institutions and government agencies. It is delivered as a cloud GIS and dashboard application and as data feeds.
+Spectra combines downscaled multi-model climate projections (global climate model output refined to a finer local grid) with Climate X's own building-vulnerability data and hazard models. Climate X says it covers over two billion assets worldwide. A global wildfire model at 30 m resolution is a recent addition. Customers are banks, real-estate firms and asset managers. Spectra is hosted software with an API. Climate X also sells Adapt, for costing adaptation measures, and Carta, for company-level exposure.
 
-Both are commercial and hosted; neither publishes prices on the pages read.
+UrbanFootprint's Resilience Insights draw on a geospatial dataset for the whole United States that aligns climate hazard, community and household, and land-use and infrastructure data. UrbanFootprint cites 160 million parcels. Users evaluate hazard risk for one site or a portfolio, quantify community and financial impacts, and prioritise investment. Named users include an energy utility, Duquesne Light Company, and a community organisation, Fresno Metro Ministry, alongside financial institutions and government agencies. Delivery is as a cloud GIS (geographic information system: software for maps and spatial data) and dashboard application, and as data feeds.
+
+Both are commercial and hosted. Neither publishes prices.

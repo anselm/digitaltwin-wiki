@@ -62,10 +62,17 @@ relations:
     target: data-sources/openstreetmap-osm
     note: uses data (source_claim; exact implementation not independently tested)
 ---
-Valdrada is a digital twin of New York City developed and maintained by Mehmet Kerem Turkcan. The city is compiled from public records: NYC Building Footprints joined to PLUTO and facade-inspection filings, the Street Centerline file for streets, lanes and speed limits, OpenStreetMap to fill gaps in footprints, and street-furniture records for trees, hydrants, bus shelters, kiosks and subway entrances. The compiled city covers all five boroughs with 1,085,937 buildings in 3,532 near tiles and 261 far-field tiles; Central Park (with 16,951 trees in 33 species groups), 125th Street, Times Square and Midtown are modelled in extra detail.
+The city is compiled from public records:
 
-On top of the model sit a WebGL2 renderer, lane-level traffic (IDM car following with signal phases and turn planning), signal-aware pedestrians on a sidewalk graph, a New York vehicle fleet and two rail lines. Sensors return RGB, Cityscapes-compatible semantic and instance segmentation, occlusion and 3D pose, and metric depth. The stated uses are synthetic data generation, closed-loop scenario simulation and streetscape studies; recorded takes export to OpenUSD for Blender and Unreal Engine 5.
+- NYC Building Footprints, joined to PLUTO (the city's tax-lot land-use database) and facade-inspection filings
+- the Street Centerline file, for streets, lanes and speed limits
+- OpenStreetMap, to fill gaps in footprints
+- street-furniture records for trees, hydrants, bus shelters, kiosks and subway entrances
 
-It runs as a simulation server with a TCP API and a Python client modelled on CARLA, either from a Windows x64 binary or built from source with npm, with a browser demo on Hugging Face. Code is MIT, documentation CC BY 4.0, and the compiled city ODbL 1.0 because it contains OpenStreetMap data; the full dataset is about 7.6 GB. Some pedestrian assets carry restrictions on dataset and AI-training use, and the README points to a procedural-pedestrian mode for those cases.
+The compiled city covers all five boroughs with 1,085,937 buildings in 3,532 near tiles and 261 far-field tiles. Central Park (16,951 trees in 33 species groups), 125th Street, Times Square and Midtown are modelled in extra detail.
 
-Status: released, version 0.4.0, 2026. The earlier repository and Hugging Face names "boundless-nyc" now redirect to Valdrada; the pages read do not mention the old name.
+The simulation adds a WebGL2 renderer, lane-level traffic, signal-aware pedestrians on a sidewalk graph, a New York vehicle fleet and two rail lines. Cars follow IDM, a car-following model, with signal phases and turn planning. Simulated sensors return RGB images, Cityscapes-compatible semantic and instance segmentation, occlusion and 3D pose, and metric depth. Segmentation labels each pixel by object class or by individual object. Turkcan names synthetic data generation, closed-loop scenario simulation and streetscape studies as uses. Recorded takes export to OpenUSD for Blender and Unreal Engine 5.
+
+Valdrada runs as a simulation server with a TCP API and a Python client modelled on CARLA, an open-source driving simulator. The server comes as a Windows x64 binary or builds from source with npm, and a browser demo runs on Hugging Face. Code is MIT, documentation CC BY 4.0, and the compiled city ODbL 1.0 because it contains OpenStreetMap data. The full dataset is about 7.6 GB. Some pedestrian assets carry restrictions on dataset and AI-training use; for those cases the README points to a procedural-pedestrian mode.
+
+Turkcan develops and maintains Valdrada. Version 0.4.0 was released in 2026. The repository and Hugging Face dataset were first named "boundless-nyc", and those names now redirect to Valdrada.

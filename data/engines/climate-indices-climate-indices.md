@@ -58,10 +58,17 @@ domains:
   - water
   - fire
 ---
-climate_indices is a Python package of reference implementations of climate indices, developed by James Adams from code that began at NOAA's NCEI and NIDIS. Version 3.0.0 describes itself as covering multi-hazard monitoring: drought and moisture balance (SPI, SPEI, PNP, PCI, EDDI and the Palmer indices PDSI, PHDI, PMDI, Z-Index and scPDSI), potential evapotranspiration by Thornthwaite, Hargreaves or FAO-56 Penman-Monteith, a wildfire family (KBDI, the Canadian FWI system, Fosberg, Hot-Dry-Windy and Haines) and a flood-potential family (effective precipitation, EDI, the Flood Index and the Antecedent Precipitation Index). An energy family is listed as still in development.
+The code began at NOAA's NCEI and NIDIS as reference implementations of climate indices. Version 3.0.0 covers potential evapotranspiration and three hazard families:
 
-For a watershed or regional twin it turns precipitation and temperature series, from stations or NetCDF grids, into standard hazard indicators. The release notes are explicit that the flood indices measure potential rather than observed flooding and that their external validation is still a gap.
+- Drought and moisture balance: SPI, SPEI, PNP, PCI, EDDI, and the Palmer indices PDSI, PHDI, PMDI, Z-Index and scPDSI.
+- Potential evapotranspiration, the water that would evaporate and transpire if it were available: by Thornthwaite, Hargreaves or FAO-56 Penman-Monteith.
+- Wildfire: KBDI, the Canadian FWI system, Fosberg, Hot-Dry-Windy and Haines.
+- Flood potential: effective precipitation, EDI, the Flood Index and the Antecedent Precipitation Index.
 
-It installs from PyPI and runs on Python 3.10 to 3.14, with an optional Rust backend that speeds up eligible calculations without changing the Python API; gridded runs are vectorised over time-major blocks. The NumPy API is the stable surface and the xarray API is marked beta. Licence is BSD-3-Clause.
+An energy family is listed as still in development.
 
-Maintained; 3.0.0 was released on PyPI on 12 October 2026. The Read the Docs site still documents version 2.0.1.
+Inputs are precipitation and temperature series, from stations or from NetCDF grids (a common file format for gridded climate data). The flood indices measure potential, not observed, flooding, and their external validation is still a gap.
+
+It installs from PyPI and runs on Python 3.10 to 3.14. An optional Rust backend speeds up eligible calculations without changing the Python API, and gridded runs are vectorised over time-major blocks. The NumPy API is stable; the xarray API is marked beta. The licence is BSD-3-Clause.
+
+Version 3.0.0 was released on PyPI on 12 October 2026. The Read the Docs site still documents version 2.0.1.

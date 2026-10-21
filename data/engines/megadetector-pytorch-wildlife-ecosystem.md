@@ -3,10 +3,9 @@ about:
   depiction: engines/megadetector-pytorch-wildlife-ecosystem.jpg
   label: PyTorch-Wildlife and MegaDetector
   description: >-
-    Open-source family of wildlife detection models and tools from Microsoft's
-    AI for Good Lab; MegaDetector finds animals, people and vehicles in
-    camera-trap images, and PyTorch-Wildlife is the framework that runs it and
-    its siblings for aerial and acoustic data.
+    Open-source wildlife detection models from Microsoft's AI for Good Lab,
+    including MegaDetector for camera-trap images, and PyTorch-Wildlife, the
+    framework that runs those models.
   tags:
     - wildlife
     - camera trap
@@ -57,8 +56,15 @@ domains:
   - ecology
   - sensory
 ---
-PyTorch-Wildlife is the Microsoft AI for Good Lab's framework for building, sharing and running conservation models; the lab's Biodiversity hub gathers it with MegaDetector, the detector most people know it for, plus MegaDetector-Acoustic for sound and MegaDetector-Overhead for drone and aerial imagery, and a model zoo of species classifiers. MegaDetector is an animal detector, not a species classifier: it draws boxes around animals, people and vehicles with a confidence score, and researchers use it mainly to discard empty camera-trap frames before review. Versions 1 to 5 were developed by Dan Morris at Microsoft; version 6 uses YOLOv9, YOLOv10 and RT-DETR architectures.
+PyTorch-Wildlife is a framework for building, sharing and running conservation models. The lab's Biodiversity hub groups it with:
 
-MegaDetector-Overhead extends the same approach to survey imagery from drones, where targets are small and altitude and perspective vary; it ships the OWL model family (formerly Overhead Wildlife Locator), including a caribou-specific checkpoint. The models can also be loaded through no-code front ends such as AddaxAI, SPARROW Studio and a Hugging Face demo.
+- MegaDetector, the best known of the lab's models
+- MegaDetector-Acoustic, for sound
+- MegaDetector-Overhead, for drone and aerial imagery
+- a model zoo of species classifiers
 
-Everything is installed locally: `pip install PytorchWildlife` gives a Python API and a command line that write JSON detections per image. Code is MIT-licensed; weights carry their own licences per variant, and the overhead model and data release is CC BY-NC-SA 4.0. Status: operational and maintained.
+A camera trap is a motion-triggered camera left out in the field. MegaDetector draws boxes around animals, people and vehicles in its images, each with a confidence score. It does not identify species. Researchers use it mainly to discard empty frames before review. Dan Morris developed versions 1 to 5 at Microsoft. Version 6 uses the YOLOv9, YOLOv10 and RT-DETR architectures.
+
+MegaDetector-Overhead applies the same approach to drone survey imagery, where targets are small and altitude and perspective vary. It ships the OWL model family (formerly Overhead Wildlife Locator), including a checkpoint for caribou. No-code front ends such as AddaxAI, SPARROW Studio and a Hugging Face demo can also load the models.
+
+Everything runs locally. `pip install PytorchWildlife` installs a Python API and a command line that write JSON detections per image. The code is MIT-licensed. Each variant's weights carry their own licence, and the overhead model and data release is CC BY-NC-SA 4.0.

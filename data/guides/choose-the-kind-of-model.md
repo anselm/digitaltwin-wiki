@@ -18,9 +18,9 @@ provenance:
 
 ## The kinds
 
-- **A map with layers.** No simulation; the layers are overlaid and queried. Answers "where is X relative to Y?" Most questions stop here, and should.
+- **A map with layers.** No simulation; the layers are overlaid and queried. Answers "where is X relative to Y?" Most questions stop here.
 - **A physical model.** Water, air, fire or electricity moving under physical laws across terrain or a network. Answers "what happens to this flow if we change that?" Flood, microclimate, fire spread and power flow models are of this kind.
-- **An agent-based model.** Many individuals, people, vehicles, animals, each with simple rules, and the pattern that emerges. Answers "what do people do, together, under this change?" Transport, crowds and land-use models are of this kind.
+- **An agent-based model.** Many individuals (people, vehicles or animals), each following simple rules, and the pattern that emerges. Answers "what do people do, together, under this change?" Transport, crowds and land-use models are of this kind.
 - **A system dynamics model.** Stocks and flows, with feedback: population, money, carbon, water in a reservoir. Answers "how does the whole system move over years?" Policy simulators that run in a browser are usually of this kind.
 - **A statistical or learned model.** Patterns found in past data and projected forward. Answers "given what we have seen, what is likely?" Weather forecasting and prediction from satellite signals are increasingly of this kind.
 - **A live model.** Any of the above, fed continuously by sensors and compared with the real thing. The word "twin" strictly means this, and it is the rarest and most expensive.
@@ -34,7 +34,7 @@ provenance:
 5. If you have a lot of past outcomes and want a forecast, it is statistical.
 6. Only make it live if someone will act on it every day.
 
-Many real projects chain two: an agent-based transport model feeding a land-use model, or a weather forecast feeding a flood model. Chain only when the question demands it.
+Many projects chain two: an agent-based transport model feeding a land-use model, or a weather forecast feeding a flood model. Chain two only when the question needs both.
 
 ## Then the product
 

@@ -30,6 +30,6 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Cureton and Hartley survey the systems, processes and technologies changing how the built environment is planned, mapped and designed under pressure from urban growth and climate. The book covers urban digital twins, GeoBIM, collaborative geodesign tools, immersive environments, gamification and methods for thinking about futures, illustrated with more than a hundred international projects and workflows, five case studies and a companion website, with geodesign presented as a way for the people involved in a place to work together on it.
+Cureton and Hartley write about the built environment under pressure from urban growth and climate. GeoBIM, one of the tools covered, joins geographic data with building information models (BIM: detailed digital models of buildings). Gamification, the use of game mechanics in planning, is another. More than a hundred international projects and workflows illustrate the book. There are five case studies and a companion website. Geodesign is presented as collaborative work among the people involved in a place.
 
-Of the recent books on urban twins this is the one written from the practice of planning and design rather than from computer science, and the one most concerned with how a twin is used in a room with stakeholders. It is also the most current snapshot of the tools in use.
+Of the recent books on urban twins, this one is written from the practice of planning and design. It is the most concerned with how a twin is used in a room with stakeholders.

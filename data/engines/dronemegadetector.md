@@ -52,10 +52,8 @@ domains:
   - ecology
   - sensory
 ---
-DroneMegaDetector is a general-purpose detector for aerial wildlife monitoring. It is an RF-DETR Medium model with three classes, person, animal and vehicle, where "animal" in practice means mammal. The authors are Chaim Chai Elchik, Steven Longmore, Dan Morris, Ben Weinstein, Josh Veitch-Michaelis, Camee Knops, Freya Richards and Serge Wich; the pages read do not give their institutions.
+The detector is general-purpose, for aerial wildlife monitoring. It is the Medium size of RF-DETR, an object-detection architecture, with three classes: person, animal and vehicle. In practice "animal" means mammal. It was built by Chaim Chai Elchik, Steven Longmore, Dan Morris, Ben Weinstein, Josh Veitch-Michaelis, Camee Knops, Freya Richards and Serge Wich.
 
-Because it outputs bounding boxes rather than points, it can support counting and tracking as well as detection. The training data is mostly drone flights at roughly 50 to 120 m above ground, which the authors call the principal operating range; detection falls off as animals get smaller at higher altitude. In the preprint it matched the OWL model on a cattle dataset and performed almost identically on caribou, transferred poorly to birds, and degraded along with every other method on high-altitude SAVMAP imagery.
+It outputs bounding boxes, not points, so it can support counting and tracking as well as detection. Most of the training data comes from drone flights at roughly 50 to 120 m above ground, which the authors call the principal operating range. Higher up, animals appear smaller and detection falls off. In the preprint it matched the OWL model on a cattle dataset and performed almost identically on caribou. It transferred poorly to birds. On high-altitude SAVMAP imagery it degraded, as did every other method.
 
-The code is MIT-licensed Python: scripts for single images, folders (writing MegaDetector-format JSON), sampled video frames and ByteTrack tracking, with tiled inference for large images. A hosted copy is on Hugging Face as ConservationDrones/DroneMegaDetector.
-
-Status: research; weights and code are released, and the paper is a bioRxiv preprint posted 14 October 2026 (version 2).
+The code is MIT-licensed Python. There are scripts for single images, for folders (writing MegaDetector-format JSON), for sampled video frames and for tracking with ByteTrack, a multi-object tracker. Large images are split into tiles for inference. A hosted copy is on Hugging Face as ConservationDrones/DroneMegaDetector. The weights and code are released; the paper is a bioRxiv preprint, with version 2 posted on 14 October 2026.

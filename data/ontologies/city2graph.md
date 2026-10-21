@@ -2,10 +2,10 @@
 about:
   label: City2Graph
   description: >-
-    Open-source Python library by Yuta Sato and colleagues that turns
-    buildings, streets, transit feeds, origin–destination matrices, zones and
-    points of interest into graphs for network analysis in NetworkX and for
-    graph neural networks in PyTorch Geometric.
+    Open-source Python library by Yuta Sato and colleagues that builds graphs
+    from buildings, streets, transit feeds, origin–destination matrices, zones
+    and points of interest, for network analysis in NetworkX and graph neural
+    networks in PyTorch Geometric.
   tags:
     - graph
     - graph neural networks
@@ -41,10 +41,17 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-City2Graph is a Python library that cuts a city into nodes and edges. It takes buildings, street segments, tessellations, GTFS and GBFS transit feeds, origin–destination matrices, points of interest and polygonal zones, and builds graphs from them. The graphs can hold several kinds of node and relation at once, so buildings, streets, stops and amenities stay distinct instead of being flattened into one network. The copyright is held by Yuta Sato and the City2Graph developers; the code lives in the c2g-dev organisation on GitHub. The library is described in a 2026 paper by Sato, Pietrostefani, Mahabir and Arribas-Bel in Computers, Environment and Urban Systems, which the makers ask any research use to cite.
+A graph here is a set of nodes joined by edges. The library builds them from buildings, street segments, tessellations (areas cut into tiles with no gaps), GTFS public transport timetables, GBFS bike-share feeds, origin–destination matrices of trips between places, points of interest and polygonal zones. One graph can hold several kinds of node and relation at once, so buildings, streets, stops and amenities stay distinct.
 
-The same graph moves between GeoPandas, NetworkX, rustworkx and PyTorch Geometric without being rebuilt, so one dataset can serve mapping, centrality and other spatial network analysis, and training a graph neural network. Worked examples on the site include a Liverpool study that builds heterogeneous graphs from open data and uses graph autoencoders to cluster the city's structure; a GTFS feed for London turned into a travel-time graph with stops ranked by betweenness centrality; a mobility graph of the migration flows the 2021 census recorded between every MSOA in England and Wales; and proximity graphs over Tokyo points of interest. A workshop on the library was given at FOSS4G 2026.
+Yuta Sato and the City2Graph developers hold the copyright. The code is in the c2g-dev organisation on GitHub. A 2026 paper by Sato, Pietrostefani, Mahabir and Arribas-Bel in Computers, Environment and Urban Systems describes the library, and the makers ask research users to cite that paper.
 
-It installs with pip or from conda-forge and supports Python 3.12 to 3.14. The core install builds and analyses graphs without PyTorch; PyTorch and PyTorch Geometric are optional extras, with CPU and CUDA variants, for GNN-ready tensors. It reads Overture Maps, OpenStreetMap-derived data (including street networks fetched with OSMnx, which the makers describe as complementary), GTFS and GBFS feeds and ordinary GIS layers. The licence is BSD-3-Clause.
+The same graph moves between GeoPandas, NetworkX, rustworkx and PyTorch Geometric without being rebuilt. One dataset can serve mapping, centrality and other spatial network analysis, and also the training of a graph neural network (a machine-learning model that learns from networks). Worked examples on the site include:
 
-On this shelf it stands for the step between data and model: choosing which things become nodes and which relations become edges, and keeping that choice reusable. It takes its raw material from sources such as /data-sources/openstreetmap-osm/.
+- a Liverpool study that builds heterogeneous graphs from open data and clusters the city's structure with graph autoencoders
+- a London GTFS feed made into a travel-time graph, with stops ranked by betweenness centrality (how often a stop lies on the shortest routes between others)
+- a mobility graph of the migration flows the 2021 census recorded between every MSOA (a small census area) in England and Wales
+- proximity graphs over Tokyo points of interest
+
+A workshop on the library was given at FOSS4G 2026.
+
+City2Graph installs with pip or from conda-forge and supports Python 3.12 to 3.14. The core install builds and analyses graphs without PyTorch. PyTorch and PyTorch Geometric are optional extras, in CPU and CUDA variants, for GNN-ready tensors. Inputs can come from Overture Maps, OpenStreetMap-derived data (see /data-sources/openstreetmap-osm/), GTFS and GBFS feeds and ordinary GIS layers. Street networks fetched with OSMnx, which the makers call complementary, also work. The licence is BSD-3-Clause.

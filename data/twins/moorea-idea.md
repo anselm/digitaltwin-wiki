@@ -3,10 +3,9 @@ about:
   depiction: twins/moorea-idea.jpg
   label: Moorea IDEA (Island Digital Ecosystem Avatar)
   description: >-
-    A sustainability simulator of the island of Moorea, French Polynesia, led
-    by the IDEA Consortium from the University of California's Gump South
-    Pacific Research Station; it models links between climate, environment,
-    biodiversity and human activity across the island and its lagoon.
+    A sustainability simulator of the island of Moorea, French Polynesia, and
+    its lagoon, led by the IDEA Consortium from the University of California's
+    Gump South Pacific Research Station.
   tags:
     - island
     - coral reef
@@ -36,10 +35,12 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The Island Digital Ecosystem Avatars (IDEA) Consortium set out in 2013 to build "avatars" of two well-studied island ecosystems in French Polynesia, Moorea and the atoll Tetiaroa. The consortium describes an avatar as a sustainability simulator of a social-ecological system: a model of the links and feedbacks between climate, environment, biodiversity and human activities across a coupled marine and terrestrial landscape, drawing on data science, high-performance computing and digital twin technology. The page is hosted by the Gump South Pacific Research Station on Moorea, and the consortium's founding paper is "Simulating Social-Ecological Systems: the Island Digital Ecosystem Avatars (IDEA) Consortium", GigaScience 2016. The station's director, Neil Davies, is named across the related projects.
+The Island Digital Ecosystem Avatars (IDEA) Consortium set out in 2013 to build "avatars" of two well-studied island ecosystems in French Polynesia: Moorea and the atoll Tetiaroa. An avatar here is a sustainability simulator of a social-ecological system, meaning people and nature treated as one system. It models the links and feedbacks between climate, environment, biodiversity and human activities across land and sea together. The work draws on data science, high-performance computing (large jobs run on supercomputers) and digital twin technology.
 
-The Moorea IDEA is meant to improve prediction of human and natural change on the island at the scales where management and conservation act, and to produce tools other islands can share. Tetiaroa Society launched the Tetiaroa IDEA to support that atoll's Conservation and Sustainable Use Plan; the 4Site Pacific Transect Collaborative extends the approach to Oahu and Palmyra, and the page records interest from Crete and work with island communities in Greece and Sweden. The avatar builds on the Moorea Biocode Project, which inventoried all non-microbial life on the island, and on data-management work (the FAIR Island Project with the California Digital Library, GEOME, iSamples) now gathered under an organisation called iPlaces.
+The consortium's page is hosted by the Gump South Pacific Research Station on Moorea. Its founding paper is "Simulating Social-Ecological Systems: the Island Digital Ecosystem Avatars (IDEA) Consortium" (GigaScience, 2016), linked by DOI. The station's director, Neil Davies, is named across the related projects.
 
-What is open: the pages read say nothing about downloadable model data, published code, an API or how outsiders join, so these are recorded as unknown. The founding paper is linked by DOI.
+The Moorea IDEA aims to improve prediction of human and natural change on the island at the scales where management and conservation act. It is also meant to produce tools other islands can share. Tetiaroa Society launched the Tetiaroa IDEA to support that atoll's Conservation and Sustainable Use Plan. The 4Site Pacific Transect Collaborative extends the approach to Oahu and Palmyra. There has been interest from Crete, and work with island communities in Greece and Sweden.
 
-Status: research; the pages describe the Moorea avatar in the future tense and give no release date. A visualisation from it was shown at a physical-modelling workshop in Zurich.
+The avatar builds on the Moorea Biocode Project, which inventoried all non-microbial life on the island. It also builds on data-management work now gathered under an organisation called iPlaces: the FAIR Island Project with the California Digital Library, GEOME and iSamples.
+
+No release date has been given for the Moorea avatar. A visualisation from it was shown at a physical-modelling workshop in Zurich.

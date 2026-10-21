@@ -3,9 +3,9 @@ about:
   depiction: engines/xylem-vue.jpg
   label: Xylem Vue
   description: >-
-    Xylem Vue is Xylem's water-utility software and analytics platform, built
-    with Idrica, that brings SCADA, GIS, meter and other data together with
-    applications for running drinking-water and wastewater networks.
+    Xylem's software for water utilities, built with Idrica, that combines
+    SCADA, GIS, meter and other data with applications for running
+    drinking-water and wastewater networks.
   tags:
     - water utility
     - network operations
@@ -38,10 +38,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: proposed
 ---
-Xylem Vue is a software and analytics platform for water utilities from Xylem, developed in partnership with Idrica, a water data-management company. It captures data from any source, including legacy systems, SCADA, GIS and smart meters, into one shared view, and adds modular applications for drinking-water treatment and networks, wastewater plants and sewers, irrigation infrastructure, and an early-warning system for extreme events in river basins.
+Idrica, Xylem's development partner, is a water data-management company. Xylem Vue gathers data from any source into one shared view, including legacy systems, SCADA (the control systems that monitor pumps, valves and plants remotely), GIS maps and smart meters. Modular applications cover drinking-water treatment and networks, wastewater plants and sewers, and irrigation infrastructure. Another is an early-warning system for extreme events in river basins.
 
-Xylem's pages give three uses. Brabant Water, which supplies 2.6 million people in the southern Netherlands through a 19,000 km distribution network, is using the platform as the data layer of a digital twin of that network, alongside new sensors and smart meters, so that its control room works from one operational view; a webinar with the utility's programme manager covers the pilot-to-platform path and shows the live system. The City of Richmond used Xylem Vue for a real-time decision support system on combined sewer overflows. Hot Springs deployed its leak-detection application with Xylem's metering products.
+Xylem's pages give three uses. Brabant Water supplies 2.6 million people in the southern Netherlands through a 19,000 km distribution network. It is using Xylem Vue as the data layer of a digital twin of that network, alongside new sensors and smart meters, so its control room works from one operational view. A webinar with the utility's programme manager covers the path from pilot to platform and shows the live system.
 
-It is commercial, delivered with Xylem's own implementation and training; the pages do not say whether it is hosted or installed on the utility's systems, and give no prices.
+The City of Richmond used Xylem Vue for a real-time decision support system on combined sewer overflows, where storm water and sewage spill from shared pipes. Hot Springs deployed the Xylem Vue leak-detection application with Xylem's metering products.
 
-Status: operational; the pages read are undated.
+Xylem sells it commercially, with its own implementation and training. Pricing is not published.

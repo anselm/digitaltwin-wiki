@@ -48,10 +48,8 @@ domains:
   - people
   - places
 ---
-CoMapeo is a territory monitoring and mapping tool from Awana Digital, a San Francisco non-profit that builds decentralised technology with Indigenous partners. Awana says it was co-designed with the Achuar, Cocama, Harakbut, Kofan, Kichwa, Maasai, Malaita, Matsiguenka, Ogiek, Siekopai, Wayamu, Wayana, Waorani and Yine peoples, across the Amazon, East Africa, Southeast Asia and the Pacific. Awana also makes Terrastories and the Earth Defenders Toolkit.
+Awana Digital is a San Francisco non-profit that builds decentralised technology with Indigenous partners. It also makes Terrastories and the Earth Defenders Toolkit. Awana says fourteen Indigenous peoples across the Amazon, East Africa, Southeast Asia and the Pacific co-designed CoMapeo, including the Achuar, the Maasai and the Ogiek.
 
-A team sets up a project, records observations against a shared set of categories (its own, or a curated set from the Earth Defenders Toolkit library) and exchanges data with other devices peer to peer, without a central server. Awana reports its tools in use by about 800 land defenders across 75 projects in 38 countries, and more than 7 million hectares mapped; these are its own figures.
+A team sets up a project and records observations against a shared set of categories, either its own or a curated set from the Earth Defenders Toolkit library. Devices exchange data peer to peer, without a central server. Awana reports about 800 land defenders using its tools across 75 projects in 38 countries, and more than 7 million hectares mapped.
 
-It is free and open source, distributed for Android as an APK and through the Google Play Store. The pages read do not name the licence.
-
-Status: in use; Awana invites feedback and publishes release notes. The only date on the product page is a 2024 copyright.
+CoMapeo is free and open source. It is distributed for Android as an APK (an installable app file) and through the Google Play Store. Awana invites feedback and publishes release notes.

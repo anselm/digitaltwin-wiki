@@ -2,10 +2,10 @@
 about:
   label: Population Dynamics Foundation Model (PDFM)
   description: >-
-    Google Research geospatial foundation model that turns aggregated search
-    trends, place busyness, maps, weather and air quality into an embedding
-    vector per postal code or county, for predicting local health, economic
-    and environmental indicators.
+    Google Research geospatial foundation model that computes an embedding
+    vector per postal code or county from aggregated search trends, place
+    busyness, maps, weather and air quality, for predicting local health,
+    economic and environmental indicators.
   tags:
     - geospatial
     - embeddings
@@ -52,10 +52,8 @@ domains:
   - people
   - places
 ---
-The Population Dynamics Foundation Model is a geospatial model from Google Research, first described in November 2024. It builds a graph whose nodes are administrative areas (counties and postal codes in the first, US-only generation) and whose inputs are aggregated web search trends, place busyness, map features such as point-of-interest categories, weather and air quality; a graph neural network then produces one embedding vector per area. The data is aggregated over regions and time periods, which Google presents as its privacy measure.
+Google Research first described the model in November 2024. It builds a graph whose nodes are administrative areas: counties and postal codes in the first generation, which covered only the US. The inputs are aggregated web search trends, place busyness, map features such as point-of-interest categories, weather and air quality. A graph neural network (a neural network that learns from how connected things relate) then produces one embedding vector per area. An embedding is a list of numbers that summarises something so that similar things get similar numbers. The data is aggregated over regions and time periods, which Google presents as its privacy measure.
 
-The embeddings are meant to be fine-tuned for downstream tasks. The original paper evaluates interpolation, extrapolation, forecasting and super-resolution across 29 variables, and reports that pairing the embeddings with the TimesFM forecaster cut forecast error for unemployment and poverty rates. In 2026 Google lists PDFM among the foundation models behind Earth AI, where it underpins the Population Dynamics Insights product and the Planetary Prediction Engine.
+The embeddings are meant to be fine-tuned for particular prediction tasks. The original paper evaluates interpolation, extrapolation, forecasting and super-resolution across 29 variables. It reports that pairing the embeddings with the TimesFM forecaster cut forecast error for unemployment and poverty rates. In 2026 Google lists PDFM among the foundation models behind Earth AI, where it underpins the Population Dynamics Insights product and the Planetary Prediction Engine.
 
-Example notebooks and benchmark files are on GitHub under Apache 2.0. The embeddings themselves are a dataset, now covering what the README calls 17 or more countries, delivered through a BigQuery listing: free on approval for research, and through a paid early-access programme for commercial and public-sector use.
-
-Status: operational as a research release with gated access.
+Example notebooks and benchmark files are on GitHub under Apache 2.0. The embeddings, which now cover 17 or more countries, are a separate dataset delivered through a BigQuery listing. Research use is free on approval. Commercial and public-sector use goes through a paid early-access programme.

@@ -40,8 +40,12 @@ import:
   posters:
     - LocalScale
 ---
-LocalScale describes itself as a public benefit organization working on resilient local economies through technology, science and regenerative activity, and says it will be owned collectively by its members. Its approach has three parts: connect the inhabitants of a bioregion to strengthen local communities, bring in the organizations of the regenerative economy to run measurable projects locally, and help local governments and institutions take part in regenerative projects. It cites third-generation blockchain technology as the basis for transparency in these economies.
+LocalScale works on resilient local economies through technology, science and regenerative activity, and says it will be owned collectively by its members. Its approach has three parts:
 
-The site offers a playbook, a bioregion explorer, a research section, a developer API, a FundingHub introduced in March 2026, and an organic seed-exchange project. Membership is free. It lists corporate and non-profit partners and names Eduard Müller, Rieki Gordon and Kate Raworth as mentors or inspirations. There is no simulation, model or digital twin.
+- connect the inhabitants of a bioregion to strengthen local communities
+- bring organizations of the regenerative economy in to run measurable projects locally
+- help local governments and institutions take part in regenerative projects
 
-Operational status beyond the website is unknown; its articles run from October 2025 to June 2026.
+LocalScale names third-generation blockchain technology as the basis for transparency in these economies.
+
+The site offers a playbook, a bioregion explorer, a research section, a developer API and an organic seed-exchange project. A FundingHub was added in March 2026. Membership is free. Corporate and non-profit partners are listed, and Eduard Müller, Rieki Gordon and Kate Raworth are named as mentors or inspirations. There is no simulation, model or digital twin. The site's articles run from October 2025 to June 2026.

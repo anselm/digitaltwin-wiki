@@ -39,6 +39,6 @@ provenance:
   reviewed_by: 'Claude, from the sources listed; the home page is an application shell with no readable text, so the body rests on the GitHub description'
   status: draft
 ---
-kepler.gl describes itself on GitHub as an open source geospatial analysis tool for large-scale data sets. The repository, keplergl/kepler.gl, is under the MIT licence and tags itself with data visualisation, geospatial and Mapbox.
+The code is on GitHub as keplergl/kepler.gl, under the MIT licence and tagged data visualisation, geospatial and Mapbox.
 
-It is on this shelf for the person who has a table of coordinates from a model or a sensor network and no developer: the application runs in a browser and takes a file. A fuller description waits on a page that can be read; the home page is a script-only shell.
+Someone with a table of coordinates from a model or a sensor network can use kepler.gl without a developer. The application runs in a browser and loads a file.

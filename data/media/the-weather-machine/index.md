@@ -30,8 +30,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Blum follows the forecast back to its sources: old weather stations, satellite launches, the scientists who built a computer model of the atmosphere, and the history of the algorithms that run inside it. He describes the result as one of the largest machines people have ever made, held together by international cooperation that is easy to take for granted and not guaranteed to last, and argues that forecasting has quietly entered a golden age that the public has not yet learned to trust.
+Blum follows the forecast back to its sources: old weather stations, satellite launches, the scientists who built a computer model of the atmosphere, and the history of the forecasting algorithms. He calls the result one of the largest machines people have ever made. International cooperation holds it together, and that cooperation is easy to take for granted and not guaranteed to last. Blum argues that forecasting has quietly entered a golden age the public has not yet learned to trust.
 
-The forecasting system is the oldest operational digital twin of a place, the whole planet, with a model fed by live observations and a daily product that people act on. Blum's book is the accessible account of how such a thing is built and kept running, and of the institutional arrangements that a twin at any scale depends on.
+The forecasting system is the oldest operational digital twin of a place, the whole planet. Its model is fed by live observations, and people act on its daily product. Blum shows how the system is built and kept running, and the institutional arrangements a twin of any size depends on.
 
 Cover via Open Library.

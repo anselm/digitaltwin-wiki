@@ -52,10 +52,8 @@ import:
 domains:
   - water
 ---
-ANUGA solves the two-dimensional shallow water equations on an unstructured mesh. It began as a collaboration between Geoscience Australia and the Mathematical Sciences Institute at the Australian National University and is now maintained by a community of volunteers; Stephen Roberts at ANU leads development. It is a Python 3 package with C and Cython extensions.
+ANUGA solves the two-dimensional shallow water equations, which describe water flowing over ground when its depth is small next to its spread. It works on an unstructured mesh, a grid whose cells vary in shape and size. The project began as a collaboration between Geoscience Australia and the Mathematical Sciences Institute at the Australian National University. A community of volunteers now maintains it, and Stephen Roberts at ANU leads development. ANUGA is a Python 3 package with C and Cython extensions.
 
-It is used to model floods, tsunamis and storm surges. Hydrata, a Sydney hydraulic-model verification platform founded by David Kennewell, runs unmodified ANUGA as its engine and cites validation against more than thirty benchmarks and over a hundred peer-reviewed papers.
+Hydrata is a hydraulic-model verification service in Sydney, founded by David Kennewell. It runs unmodified ANUGA as its engine and cites validation against more than thirty benchmarks and over a hundred peer-reviewed papers.
 
-A run is built in Python: create a mesh domain, set initial conditions, boundaries, rainfall, operators and river walls, then step the evolve loop; a TOML scenario can be run from the command line instead. It installs from conda-forge or in GitHub Codespaces. OpenMP threading and MPI distribution are supported, and the documentation describes a GPU build using OpenMP target offloading, developed with C-DAC in India and NCI in Australia.
-
-Mature and maintained; licensed Apache 2.0.
+A run is a Python script. It creates a mesh domain, sets initial conditions, boundaries, rainfall, operators and river walls, then steps the evolve loop. A scenario written in TOML, a plain configuration format, can be run from the command line instead. ANUGA installs from conda-forge or in GitHub Codespaces. It supports OpenMP threading on one machine and MPI distribution across several. A GPU build using OpenMP target offloading was developed with C-DAC in India and NCI in Australia.

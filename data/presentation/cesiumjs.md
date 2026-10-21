@@ -38,8 +38,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-CesiumJS is Cesium's open-source JavaScript library for 3D globes and maps on the web. It draws on a WGS84 globe and streams in 3D Tiles, the open specification for buildings, photogrammetry and point clouds, as well as glTF models, imagery and terrain layers, and vector data in KML, GeoJSON and CZML. It has first-class support for time-dynamic visualisation, live telemetry and 4D views, and can show the same scene in 3D, 2D and a 2.5D Columbus view.
+The globe follows WGS84, the standard model of the Earth's shape used by GPS. Onto it CesiumJS streams 3D Tiles, the open specification for buildings, photogrammetry and point clouds. The library also loads glTF models (a standard 3D model format), imagery and terrain layers, and vector data in KML, GeoJSON and CZML. Time-dynamic visualisation, live telemetry and 4D views have first-class support. The same scene can be shown in 3D, in 2D or in a 2.5D Columbus view.
 
-It installs from npm and is released under the Apache 2.0 licence, free for commercial and non-commercial use; the company says it has been open source since 2012. Tiles can be streamed from Cesium ion, the company's hosted service, or from any other source. The repository on GitHub takes contributions.
+CesiumJS installs from npm and is released under the Apache 2.0 licence, free for commercial and non-commercial use. Cesium says the library has been open source since 2012. Tiles can be streamed from Cesium ion, the company's hosted service, or from any other source. The GitHub repository takes contributions.
 
-Many of the published city twins on this site are viewed through CesiumJS or through a viewer built on it, which makes it the usual first choice when a twin needs a 3D view in a browser.
+Many of the published city twins on this site are viewed in CesiumJS or in a viewer built on top of the library.

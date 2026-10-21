@@ -55,8 +55,8 @@ relations:
       application of (source_claim; exact implementation not independently
       tested)
 ---
-MethaNet is the core offering of Ecosphere Blue, a company that calls itself a molecular-surveillance and intelligence platform for carbon projects. The pitch is to assess how a blue-carbon project is performing, and to project its methane risk, from genomic and geochemical data rather than from vegetation surveys alone, so that credits can be priced against that risk.
+Ecosphere Blue calls itself a molecular-surveillance and intelligence platform for carbon projects, and MethaNet is its core offering. Blue carbon is carbon stored in coastal wetlands such as mangroves. MethaNet aims to judge how a blue-carbon project is performing, and to project its methane risk, from genomic and geochemical data as well as vegetation surveys. Credits could then be priced against that risk.
 
-It is built on EmergentBiome, the company's molecular evidence atlas, which it says was validated by identifying previously unaccounted-for microbial biomarkers of methane flux in mangrove sediment samples. The atlas itself links genes and genome records to sampling context and review questions, and is explicit that it is not a credit or tonnage estimate.
+MethaNet is built on EmergentBiome, the company's molecular evidence atlas. The company says the atlas was validated by identifying previously unaccounted-for microbial biomarkers of methane flux in mangrove sediment samples. The atlas links genes and genome records to sampling context and review questions, and gives no credit or tonnage estimate.
 
-Pricing, licence and how the service is delivered are not stated. Status: proposed. The Ecosphere Blue page carries a "coming soon" label, and the EmergentBiome page describes its current stage as molecular diligence and measurement planning, with the internal model not yet independently reviewed and a field test as the next step.
+Pricing is not published. The Ecosphere Blue page labels the service "coming soon". EmergentBiome is at the stage of molecular diligence and measurement planning. Its internal model has not been independently reviewed, and a field test is the next step.

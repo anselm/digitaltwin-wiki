@@ -37,10 +37,25 @@ provenance:
   reviewed_by: 'Claude, from the Earth Commission site only; the Lancet page returns 403 and the paper itself was not read.'
   status: draft
 ---
-The Earth Commission is an international group of social and natural scientists hosted by Future Earth, with its secretariat in Stockholm; it is the scientific arm of the Global Commons Alliance. Its work is to synthesise the science that sets limits for the global commons, clean air and water, biodiversity, oceans and a stable climate, so that the planet stays stable, which it calls safe, and life on it can thrive, which it calls just. The Commission names two flagship papers: Safe and Just Earth System Boundaries by Rockström and colleagues in Nature, 2023, and this report by Gupta and colleagues in The Lancet Planetary Health, 2024, which the Commission titles A just world on a safe planet and describes as covering Earth-system boundaries, translations and transformations.
+The Earth Commission is an international group of social and natural scientists hosted by Future Earth, with its secretariat in Stockholm. It is the scientific arm of the Global Commons Alliance. Its work is to synthesise the science that sets limits for the global commons: clean air and water, biodiversity, oceans and a stable climate. The aim is a planet that stays stable, which the Commission calls safe, and on which life can thrive, which it calls just.
 
-The boundaries are set for key Earth systems, including biodiversity, land, freshwater, nutrients, climate and air pollution. The Safe and Just Boundaries workstream, co-led by Steven Lade, Aditi Mukherji and Peter Verburg, is refining these and extending the scheme to the oceans and to novel entities, meaning chemical pollution, with working groups on climate and atmosphere, land and water, novel entities and ocean. It also studies how the boundaries interact and how tipping points connect across the Earth system. Papers listed under the workstream include Stewart-Koster and colleagues on the safe and just boundary for blue water in Nature Sustainability, 2023, and Mohamed and colleagues on keeping at least 20 to 25 percent of (semi-)natural habitat in human-modified landscapes in One Earth, 2024. A meeting of thirty-five experts from twenty-seven institutions in Toronto agreed how to set a global boundary for chemical pollution; the Commission expects a peer-reviewed paper on it in 2027.
+The Commission names two flagship papers. One is Safe and Just Earth System Boundaries by Rockström and colleagues in Nature, 2023. The other is this report by Gupta and colleagues in The Lancet Planetary Health, 2024, titled A just world on a safe planet.
 
-What a reader can get: the full text of the Lancet report at the journal, the Nature paper as a PDF and at the journal, explainer briefs on the boundaries and on Earth System Justice, a glossary of terms as a PDF, and scientific and communication graphics, including a graphic of the current state of the boundaries and animations of the Earth-system boundaries.
+The Safe and Just Boundaries workstream is co-led by Steven Lade, Aditi Mukherji and Peter Verburg. It is refining the boundaries and extending the scheme to the oceans and to novel entities, meaning chemical pollution. Its working groups cover climate and atmosphere, land and water, novel entities, and ocean. The workstream also studies how the boundaries interact and how tipping points, thresholds past which a system shifts abruptly, connect across the Earth system.
 
-On this shelf the boundaries are a vocabulary for the state of a place: a list of systems, each with a limit, against which a model of a watershed, a region or the whole planet can report where it stands. It sits beside /ontologies/world-earth-taxonomies/, which classifies the subsystems such a model would contain.
+Papers listed under the workstream include:
+
+- Stewart-Koster and colleagues, on the safe and just boundary for blue water (Nature Sustainability, 2023). Blue water is the fresh water in rivers, lakes and aquifers.
+- Mohamed and colleagues, on keeping at least 20 to 25 percent of (semi-)natural habitat in human-modified landscapes (One Earth, 2024).
+
+At a meeting in Toronto, thirty-five experts from twenty-seven institutions agreed how to set a global boundary for chemical pollution. The Commission expects a peer-reviewed paper on the chemical boundary in 2027.
+
+The Commission's resources include:
+
+- the full text of the Lancet report, at the journal
+- the Nature paper, as a PDF and at the journal
+- explainer briefs on the boundaries and on Earth System Justice
+- a glossary of terms, as a PDF
+- scientific and communication graphics, including the current state of the boundaries and animations of the Earth-system boundaries
+
+The boundaries give a list of systems, each with a limit, against which a model of a place can report its state. The entry /ontologies/world-earth-taxonomies/ classifies the subsystems such a model would contain.

@@ -41,8 +41,8 @@ provenance:
   status: draft
 ---
 
-Climate Reanalyzer is produced by the Climate Change Institute at the University of Maine, with support from the National Science Foundation and private foundations. It visualises existing, publicly available datasets and models rather than producing its own: daily sea surface temperature from NOAA OISST v2.1, daily surface air temperature from the ECMWF ERA5 reanalysis, daily sea ice extent, and monthly US temperature and precipitation.
+The site charts existing public datasets and models; it produces no data. It covers daily sea surface temperature from NOAA OISST v2.1 and daily surface air temperature from the ECMWF ERA5 reanalysis (a reconstruction of past weather from observations). Daily sea ice extent and monthly US temperature and precipitation are also charted. Support comes from the National Science Foundation and private foundations.
 
-Each daily chart is backed by a JSON file of day-of-year values for every year of the record, plus the 1991–2020 mean and a preliminary tail. That is what the [Vitals](/vitals/) page here reads for global and Niño 3.4 sea surface temperature and for global 2 m air temperature.
+Each daily chart is backed by a JSON file of day-of-year values for every year of the record, with the 1991–2020 mean and a preliminary tail of recent days. The [Vitals](/vitals/) page here reads these files for global and Niño 3.4 sea surface temperature and for global 2 m air temperature.
 
-Content is licensed CC BY 4.0. The site asks that its name stay on anything drawn from it and gives no warranty.
+Content is licensed CC BY 4.0. Anything drawn from the site must keep the Climate Reanalyzer name. No warranty is given.

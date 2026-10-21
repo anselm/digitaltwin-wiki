@@ -2,9 +2,8 @@
 about:
   label: ParaView
   description: >-
-    Open-source data analysis and visualization application from Kitware,
-    used to look at the output of simulations from laptop to supercomputer
-    scale.
+    Open-source data analysis and visualization application from Kitware
+    for the output of simulations and other large datasets.
   tags:
     - visualization
     - scientific
@@ -48,10 +47,8 @@ import:
   posters:
     - Michael Beck
 ---
-ParaView is a post-processing visualization application developed by Kitware with contributions from the Lawrence Livermore, Sandia and Los Alamos national laboratories, the Army Research Laboratory and the DOD HPC Modernization Program. It loads the results of simulations and other large datasets and lets the user slice, filter and render them.
+Kitware develops ParaView with contributions from the Lawrence Livermore, Sandia and Los Alamos national laboratories, the Army Research Laboratory and the DOD HPC Modernization Program. It is a post-processing tool: it works on a simulation's results after the run. Users slice, filter and render the data.
 
-Kitware's page lists computational fluid dynamics, engineering, materials science, medical science and sensor data as its main uses. It scales from a laptop to supercomputer-sized datasets, can run in a browser through trame, and can process data in situ while a simulation runs through ParaView Catalyst.
+Its main uses are computational fluid dynamics (simulating how fluids such as air and water flow), engineering, materials science, medical science and sensor data. ParaView runs on a laptop and on supercomputers for the largest datasets. Through trame it runs in a browser. Through ParaView Catalyst it processes data in situ, while a simulation is still running.
 
-It is free software under a permissive BSD 3-Clause licence, installed locally; Kitware sells customization and support.
-
-Status: operational, long established.
+ParaView is free software under the permissive BSD 3-Clause licence and installs locally. Kitware sells customization and support.

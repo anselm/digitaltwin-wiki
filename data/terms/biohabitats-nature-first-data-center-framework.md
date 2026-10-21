@@ -3,8 +3,8 @@ about:
   label: 'Nature First: A Framework for Data Centers'
   description: >-
     Framework from the ecological design firm Biohabitats for asking, before a
-    data center is designed, whether it belongs in a landscape at all, and how
-    it relates to the watershed, habitat and community around it.
+    data center is designed, whether it belongs in a landscape at all and how
+    it relates to the surrounding watershed, habitat and community.
   tags:
     - data centers
     - site selection
@@ -44,8 +44,12 @@ import:
   posters:
     - Biohabitats
 ---
-Nature First is a framework developed over the past year by Biohabitats, a firm that does ecological restoration, conservation planning and nature-based water work, and written up by its founder Keith Bowers. It is organised in four parts: site selection, communities, living systems and adaptive futures. The starting point is site selection, because the most consequential decisions about a data center are made before any design begins: whether the land should be converted at all, whether the footprint could be reduced, built vertically or placed below grade, and whether previously developed or industrial land could carry it instead of forest, wetland or greenfield.
+Biohabitats does ecological restoration, conservation planning and nature-based water work. It developed Nature First over the past year, and its founder Keith Bowers wrote it up. The framework has four parts: site selection, communities, living systems and adaptive futures.
 
-The framework asks planners to define a project's boundary by the systems it affects rather than by the property line: the watershed, wildlife corridors, water availability and quality, climate vulnerability, existing conservation investments, cumulative development pressure, and the energy, water and transport infrastructure and off-site mitigation lands that a facility depends on. It also argues that communities need information on land, water, energy, tax incentives and ecological impacts early enough to take part in decisions, and that the living systems affected should be represented through ecological science, monitoring and Indigenous knowledge alongside Western methods. Biohabitats says it is explicitly not a rating or certification scheme.
+Site selection comes first, because the most consequential decisions about a data center are made before any design begins. The first is whether the land should be converted at all. Others are whether the footprint could be reduced, built vertically or placed below grade, and whether previously developed or industrial land could take the facility instead of forest, wetland or greenfield.
 
-Intended users are communities, local governments and planning and design professionals. Biohabitats describes the framework as a practical starting point that will keep evolving. Published on the firm's blog on 1 September 2026 and discussed in a three-part series by Bowers for the ASLA's The Dirt, the second part dated 7 October 2026.
+Planners are asked to define a project's boundary by the systems it affects rather than by the property line. That boundary takes in the watershed, wildlife corridors, water availability and quality, climate vulnerability, existing conservation investments and cumulative development pressure. It also takes in what the facility depends on: energy, water and transport infrastructure, and off-site mitigation lands.
+
+Communities, the framework argues, need information on land, water, energy, tax incentives and ecological impacts early enough to take part in decisions. The living systems affected should be represented through ecological science, monitoring and Indigenous knowledge alongside Western methods. Biohabitats says the framework is explicitly not a rating or certification scheme.
+
+Nature First is written for communities, local governments, and planning and design professionals. Biohabitats calls it a practical starting point that will keep evolving. It was published on the firm's blog on 1 September 2026. Bowers discussed it in a three-part series for the ASLA's The Dirt. The second part is dated 7 October 2026.

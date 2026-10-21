@@ -37,6 +37,4 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-A large open-access reference on urban informatics: how data and computing support the operation, management and planning of cities. It explains how embedded sensing and networked populations make a city more responsive and produce real-time and crowdsourced data at scale, reviews the main methods including urban remote sensing, machine learning and statistical modelling, and gives technical guidance on the analytical tools needed to study smart cities, with attention to how those tools feed design and policy for efficiency, the environment and equity.
-
-For a twin builder it is the broad survey of the sensing, data and modelling layers that a city twin is assembled from, and it is free to read.
+This large reference covers how data and computing support the operation, management and planning of cities. It explains how embedded sensing and networked populations make a city more responsive, and how they produce real-time and crowdsourced data at scale. The book reviews the main methods, including urban remote sensing (measuring the city from satellites and aircraft), machine learning and statistical modelling. Its technical guidance covers the analytical tools for studying smart cities and how those tools feed design and policy for efficiency, the environment and equity.

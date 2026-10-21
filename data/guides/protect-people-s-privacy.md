@@ -14,15 +14,15 @@ provenance:
     on this site; not yet read by Anselm
   status: draft
 ---
-Travel, energy, health and location data describe individuals, and a model that needs them can expose people who never agreed to be in it. The rules differ by country; the practice does not.
+Travel, energy, health and location data describe individuals. A model built on them can expose people who never agreed to be modelled. The rules differ by country; the practice does not.
 
 ## Decide what not to collect
 
-Start from the question. If it can be answered with counts by block, do not take addresses. If it can be answered with a day's traffic, do not keep a year of trips. The data you never hold cannot leak.
+Start from the question. Data you never hold cannot leak. If the question can be answered with counts by block, do not take addresses. If a day's traffic will do, do not keep a year of trips.
 
 ## Aggregate early
 
-Combine records to the coarsest unit that still answers the question: a block, an hour, a hundred households. Do it as the data arrives, and keep the raw records with the person or office that owns them rather than copying them.
+Combine records to the coarsest unit that still answers the question: a block, an hour, a hundred households. Do it as the data arrives. Leave the raw records with their owner, a person or an office, and make no copies.
 
 ## Watch the small cells
 
@@ -30,7 +30,7 @@ A count of one is a person. Suppress or merge cells below a threshold, and remem
 
 ## Synthetic populations
 
-Many agent-based models use a made-up population that matches the census in aggregate but contains no real person. This is a well-worn method and is usually enough. Say clearly that the agents are synthetic, so that nobody mistakes the model for surveillance.
+Many agent-based models (simulations of many individuals, each following simple rules) use a made-up population that matches the census in aggregate but contains no real person. This is a well-worn method and is usually enough. Say clearly that the agents are synthetic, so that nobody mistakes the model for surveillance.
 
 ## Say what you did
 

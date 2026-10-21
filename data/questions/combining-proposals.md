@@ -2,8 +2,8 @@
 about:
   label: Public discussion and learning
   description: >-
-    What happens when several proposals or policies are combined, and how do
-    people explore the trade-offs together?
+    What happens when several proposals or policies are combined, and how can
+    a group explore the trade-offs?
 question: {}
 domains:
   - people
@@ -15,24 +15,24 @@ provenance:
     on this site; not yet read by Anselm
   status: proposed
 ---
-A council, a region or a classroom has several ideas on the table and wants to see what they add up to, and to let people argue over the result with the same picture in front of them.
+A council or a classroom has several ideas on the table. People want to see the sum, and to argue over the result while looking at the same picture.
 
 ## What you are really asking
 
 - **Do the proposals add, cancel or compete?** Two good ideas can share a site or a budget.
 - **What does each person in the room care about**, and can they see their concern in the result?
-- **Can people learn the shape of the system** by playing with it, rather than being told?
+- **Can people learn the shape of the system** by playing with it?
 
 ## What kind of model answers it
 
-These are models built for a room rather than a desk. Some are **simulators** of a whole system, simple enough to run in a browser and change in real time, so that a group can try a combination and watch the result move. Some are **negotiation tools** that hold alternative spatial plans side by side so that people can mark what they support and see where they agree.
+These models are built for a room full of people. Some are **simulators** of a whole system, simple enough to run in a browser and change in real time, so that a group can try a combination and watch the result move. Some are **negotiation tools** that hold alternative spatial plans side by side so that people can mark what they support and see where they agree.
 
-On this site, [En-ROADS](/engines/en-roads/) is Climate Interactive's climate simulator, moved by sliders in a browser, built for workshops, and [Geodesignhub](/engines/geodesignhub/) organises spatial proposals and the negotiation among the people proposing them. [Bay Layers](/twins/bay-layers/) is a browser scene that shows how a place is built from shared layers, which is the first thing a group needs to agree on.
+On this site, [En-ROADS](/engines/en-roads/) is Climate Interactive's climate simulator, built for workshops and moved by sliders in a browser. [Geodesignhub](/engines/geodesignhub/) organises spatial proposals and the negotiation among their authors. [Bay Layers](/twins/bay-layers/) is a browser scene that shows how a place is built from shared layers. Agreeing on those layers is the first step for a group.
 
 ## What you need
 
 - The proposals, each described the same way.
-- A model simple enough to run in the meeting. A model that takes an hour per run is not a tool for a room.
+- A model simple enough to run in the meeting. A model that takes an hour per run is too slow for a meeting.
 - A facilitator, and a way to record what people chose.
 
 ## Without a model

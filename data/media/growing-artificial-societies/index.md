@@ -30,6 +30,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Epstein and Axtell built Sugarscape, a landscape on which simple agents with a little vision and a metabolism search for sugar and die when they run out. From those rules alone the simulations produce seasonal migration, skewed wealth distributions, tribes, war, population booms and crashes, and, once a second resource is added, trade and markets. The authors present it as a first step towards a social science that grows its phenomena from the bottom up rather than fitting equations to aggregates. The book came out of the 2050 Project on sustainable development, run jointly by the Brookings Institution, the Santa Fe Institute and the World Resources Institute, and was published by Brookings with MIT Press.
+Sugarscape is a landscape on which simple agents search for sugar. Each has a little vision and a metabolism, and dies when its sugar runs out. From those rules alone the simulations produce seasonal migration, skewed wealth distributions, tribes, war, and population booms and crashes. Add a second resource and trade and markets appear.
 
-Every twin that populates a place with individual actors is a descendant of Sugarscape. The book is short, concrete and still the clearest demonstration of what emergence in a spatial model looks like and why it is worth having.
+This is an agent-based model: a simulation built from many individual actors, each following its own rules. Epstein and Axtell present it as a first step towards a social science that grows its phenomena from the bottom up, instead of fitting equations to aggregates.
+
+The book came out of the 2050 Project on sustainable development. The Brookings Institution, the Santa Fe Institute and the World Resources Institute ran that project jointly. Brookings published the book with MIT Press.
+
+Every twin that populates a place with individual actors descends from Sugarscape. The book is short and concrete. It shows what emergence, large patterns arising from many small interactions, looks like in a spatial model.

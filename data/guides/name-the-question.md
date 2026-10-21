@@ -2,8 +2,8 @@
 about:
   label: Name the question
   description: >-
-    Write down the one question the model must answer, who will act on the
-    answer, and what they will do differently.
+    Write down the model's one question, the person who will act on the answer,
+    and the decision at stake.
   pinned: 2
 guide:
   stage: 1
@@ -15,7 +15,7 @@ provenance:
     on this site; not yet read by Anselm
   status: draft
 ---
-Someone has said "we need a digital twin" or "can we model this?" Before any data or software, write one sentence that starts "We need to know whether…" and ends with a decision. If you cannot, you do not yet have a question; you have an interest, and a model will not sharpen it.
+Someone has said "we need a digital twin" or "can we model this?" Before any data or software, write one sentence that starts "We need to know whether…" and ends with a decision. If you cannot, you have an interest and not yet a question. A model will not sharpen an interest.
 
 ## The sentence
 
@@ -29,7 +29,7 @@ If the question has no decision behind it, it is research or curiosity. Both are
 
 ## Split it
 
-Most questions are two or three. "Will more trees cool the neighbourhood and what will it cost?" is a microclimate question, a budget question and a maintenance question, each answered differently. Write each one down. The [question pages](/questions/) on this site each do this split for a common question, and reading the one nearest yours is a good way to find your own.
+Most questions are two or three. "Will more trees cool the neighbourhood and what will it cost?" is three questions: microclimate, budget and maintenance. Each is answered differently. Write each one down. The [question pages](/questions/) on this site each do this split for a common question, and reading the one nearest yours is a good way to find your own.
 
 ## Decide what good enough looks like
 
@@ -41,8 +41,8 @@ Someone has usually modelled a place like yours. Look in [digital twins](/twins/
 
 ## Write it where people will see it
 
-The sentence goes at the top of the project document and is read aloud at the first meeting. When the project drifts, and it will, this is what you read again.
+The sentence goes at the top of the project document and is read aloud at the first meeting. When the project drifts, read the sentence again.
 
 ## Next
 
-[Talk to the people affected](/guides/talk-to-the-people-affected/): they will tell you whether the question is the right one.
+[Talk to the people affected](/guides/talk-to-the-people-affected/): they will tell you whether you have the right question.

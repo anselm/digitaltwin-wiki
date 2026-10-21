@@ -3,7 +3,7 @@ about:
   label: Find the data
   description: >-
     Every model of a place starts from the same few layers. Find them, check
-    them, and write down where they came from and how old they are.
+    them, and record each one's source and date.
 guide:
   stage: 3
 provenance:
@@ -14,11 +14,11 @@ provenance:
     on this site; not yet read by Anselm
   status: draft
 ---
-A model of a place is a set of layers and some rules about how they interact. The layers come first, and most of them already exist somewhere. The work is finding them, checking them, and keeping a record.
+A model of a place is a set of layers and some rules about how they interact. The layers come first, and most of them already exist somewhere.
 
 ## The layers almost every model needs
 
-- **The ground.** Heights, from lidar or a national terrain dataset. Your national mapping agency or geological survey usually publishes one.
+- **The ground.** Heights, from lidar (laser scanning, usually from aircraft) or a national terrain dataset. Your national mapping agency or geological survey usually publishes one.
 - **What is on it.** Roads, buildings, land use, water. [OpenStreetMap](/data-sources/openstreetmap-osm/) is the open base most models start from; check it block by block where it matters.
 - **Who is there.** Population and households. In the United States, the [Census APIs](/data-sources/census-apis/); elsewhere, the national statistics office.
 - **What is happening.** Observations over time: river gauges such as the [USGS water data](/data-sources/usgs-water-data/), weather stations, traffic counts, satellite imagery from [Copernicus](/data-sources/copernicus-data-space/).
@@ -28,11 +28,11 @@ The [data](/data-sources/) section on this site lists sources with what they cov
 
 ## The data you will have to ask for
 
-The most useful layer is often the one that is not published: the drainage network, the substation ratings, the parcel-level zoning, the smart-meter loads. It belongs to a utility or an office, and it is released to a person who has asked clearly and said what it is for. [Talking to the people affected](/guides/talk-to-the-people-affected/) is how you find who holds it.
+The most useful layer is often the one that is not published: the drainage network, the substation ratings, the parcel-level zoning, the smart-meter loads. It belongs to a utility or an office, and it is released to a person who has asked clearly and said what it is for. [Talking to the people affected](/guides/talk-to-the-people-affected/) is how you find who holds the layer.
 
 ## Check it before you use it
 
-For each layer, answer: when was it made, by whom, at what resolution, and what does it leave out? Open it over a satellite image and look at three places you know. Data that is wrong where you can check it is wrong where you cannot.
+For each layer, answer: when was it made, by whom, at what resolution, and what does it leave out? Open it over a satellite image and look at three places you know. If it is wrong in the places you know, assume it is wrong elsewhere too.
 
 ## Write it down
 

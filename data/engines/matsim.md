@@ -35,10 +35,15 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-MATSim (Multi-Agent Transport Simulation) is an open-source Java framework for large-scale agent-based transport simulation, maintained by its contributors and the MATSim Association. It simulates each person's whole day second by second on a road and public-transport network, across car, transit, walking, cycling and demand-responsive modes; each agent adjusts its plan in response to everyone else over repeated iterations, and the settled result is the model's estimate of travel behaviour.
+MATSim stands for Multi-Agent Transport Simulation and is written in Java. In an agent-based model, each person is simulated as a separate actor with plans of their own. MATSim follows each person's whole day second by second, by car, transit, walking, cycling or demand-responsive services. Over repeated iterations every agent adjusts its plan in response to everyone else. The settled result is the model's estimate of travel behaviour.
 
-Uses named on the site: Swiss Federal Railways (SBB) have run a model of all of Switzerland for planning since around 2018; MOIA, Volkswagen's ride-pooling company, models shared mobility services; Arup builds models in the UK and a nationwide one for New Zealand; and Berliner Verkehrsbetriebe (BVG) is listed among its showcases.
+Users named on the MATSim site:
 
-Open source on GitHub. It is mostly a framework to be configured and extended with your own code from a Java IDE, starting from a Maven example project; a basic GUI runs scenarios by editing configuration files. Users supply their own network and population inputs.
+- Swiss Federal Railways (SBB) have run a model of all of Switzerland for planning since around 2018.
+- MOIA, Volkswagen's ride-pooling company, models shared mobility services.
+- Arup builds models in the UK and a nationwide one for New Zealand.
+- Berliner Verkehrsbetriebe (BVG) is listed among the showcases.
 
-Active; the MATSim User Meeting 2026 took place in Paris on 28 September with 43 presentations.
+The code is open source on GitHub. MATSim is mostly a framework to configure and extend with your own Java code, starting from a Maven example project in a Java IDE. A basic GUI runs scenarios by editing configuration files. Users supply their own network and population inputs.
+
+The MATSim User Meeting 2026 took place in Paris on 28 September, with 43 presentations.

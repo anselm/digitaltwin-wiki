@@ -42,8 +42,13 @@ import:
     - Ralph Chami
     - Blue Green Future
 ---
-ReGDP, "Regenerative GDP", is a framework from Blue Green Future, a natural-capital finance firm whose co-founder and CEO is Ralph Chami. Its premise is that healthy ecosystems are productive economic infrastructure, and that the income they generate (carbon storage, coastal protection, fisheries, tourism, water regulation, biodiversity) should appear in economic and fiscal analysis rather than stay invisible to it. The firm's page frames the result as natural capital recognised as a sovereign asset, with consequences for public debt, debt-to-GDP, annual revenue and sovereign net worth.
+ReGDP comes from Blue Green Future, a natural-capital finance firm. Its co-founder and CEO is Ralph Chami. The framework holds that healthy ecosystems generate income, from carbon storage, coastal protection, fisheries, tourism, water regulation and biodiversity, and that this income should appear in economic and fiscal analysis. The firm presents the result as natural capital recognised as a sovereign asset, with consequences for public debt, debt-to-GDP, annual revenue and sovereign net worth.
 
-The page carries four country case studies with interactive dashboards: the Bahamas (seagrass carbon revenues and sovereign debt), Indonesia (mangrove value and public debt), Panama (nature revenue and fiscal sustainability) and the Maldives (coral-related activity and taxation). Chami presented ReGDP in a keynote at EarthX 2026 on 21 April 2026.
+Four country case studies come with interactive dashboards:
 
-Status: a framework and set of illustrative dashboards. Blue Green Future says the dashboards are analytical tools rather than predictions and not a substitute for country policy analysis. No methodology document or adoption by a government is stated on the pages read.
+- the Bahamas: seagrass carbon revenues and sovereign debt
+- Indonesia: mangrove value and public debt
+- Panama: nature revenue and fiscal sustainability
+- the Maldives: coral-related activity and taxation
+
+Chami presented ReGDP in a keynote at EarthX 2026 on 21 April 2026. Blue Green Future says the dashboards are analytical tools, not predictions, and no substitute for country policy analysis.

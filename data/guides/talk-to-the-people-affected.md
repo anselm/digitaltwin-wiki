@@ -14,7 +14,7 @@ provenance:
     on this site; not yet read by Anselm
   status: draft
 ---
-The people who live with a river, a road or a plan know things no dataset holds: where the water came up in 2019, which exit people really use, why the bus is late. They are also the ones the decision lands on. Talking to them first makes the model better and makes the result usable, and skipping them is the most common way a good model gets ignored.
+People who live with a place know where the water came up in 2019, which exit people use in practice, why the bus is late. No dataset holds that. They are also the people the decision will affect. Talking to them first makes the model better and the result usable. Skipping them is a common way for a good model to be ignored.
 
 ## Who
 
@@ -37,7 +37,7 @@ Small groups, on site where possible. Walk the place. Keep a record of what was 
 
 ## What it changes
 
-Expect the question to change, the data to grow, and the list of scenarios to become the list people actually argue about. Expect also to find that some of the question is already answered by someone in the room.
+Expect the question to change, the data to grow, and the list of scenarios to become the one people argue about. Expect also to find that some of the question is already answered by someone in the room.
 
 ## The same people, later
 

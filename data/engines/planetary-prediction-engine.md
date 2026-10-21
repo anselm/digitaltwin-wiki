@@ -50,10 +50,8 @@ relations:
     target: engines/google-earth-ai
     note: component of (source_claim; exact implementation not independently tested)
 ---
-The Planetary Prediction Engine is a capability within Google Earth AI, Google Research's suite of geospatial foundation models and agents. A user brings local outcome data, for example regional disease rates, crop yields or grid outages, and the engine selects relevant population and environmental signals from Earth AI's models and trains task-specific models for spatial prediction, super-resolution downscaling and forecasting.
+Google Earth AI is Google Research's suite of geospatial foundation models and agents. A user brings local outcome data, for example regional disease rates, crop yields or grid outages. The engine selects relevant population and environmental signals from Earth AI's models and trains task-specific models for spatial prediction, super-resolution downscaling and forecasting. Downscaling means estimating values on a finer grid than the source data.
 
-Google's announcement names one deployed use: the World Health Organization's Africa office and the DRC's National Institute for Biomedical Research used it during the 2026 Ebola outbreak to estimate the risk of spread into uninfected zones. It also reports that in public-health research, combining population and satellite signals improved health-outcome predictions by 12 percent over demographic baselines and allowed mapping at eight times finer resolution.
+Google's announcement names one deployed use. The World Health Organization's Africa office and the DRC's National Institute for Biomedical Research used it during the 2026 Ebola outbreak to estimate the risk of spread into uninfected zones. Google also says that in public-health research, combining population and satellite signals improved health-outcome predictions by 12 percent over demographic baselines and allowed mapping at eight times finer resolution.
 
-It is a hosted Google service, reached through an interactive interface and through the Geospatial Reasoning Agent API. Pricing is not stated.
-
-Status: early preview for selected partners, announced 14 October 2026.
+The engine is a hosted Google service, reached through an interactive interface and through the Geospatial Reasoning Agent API. Google announced it on 14 October 2026 as an early preview for selected partners. Pricing is not published.

@@ -37,13 +37,15 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-PyPSA (Python for Power System Analysis) is an open-source Python framework for simulating and optimising power and energy systems, maintained by the Department of Digital Transformation in Energy Systems at Technische Universität Berlin. The framework itself holds no data; it is a toolbox for building networks of buses, loads, generators, storage and links and solving dispatch, power-flow and investment problems on them. PyPSA-Eur is one of several model implementations built with it: an open model of the European energy system at transmission-network level, covering the whole ENTSO-E area, with a sector-coupled extension for transport, heating, biomass, industry and carbon management. Sister models exist for Germany, the United States and the world (PyPSA-DE, PyPSA-USA, PyPSA-Earth).
+The framework holds no data. Users build networks of buses (the nodes where lines meet), loads, generators, storage and links, then solve dispatch, power-flow and investment problems over those networks. The name stands for Python for Power System Analysis, and the Department of Digital Transformation in Energy Systems at Technische Universität Berlin maintains the code.
 
-The framework covers economic dispatch, linear and security-constrained optimal power flow, capacity expansion, multi-period pathway planning, rolling-horizon and stochastic optimisation, and policy constraints such as CO2 limits. PyPSA-Eur is used both for operational studies and for generation and transmission expansion planning; the project's own showcases include a study of a possible European hydrogen network published in Joule in 2023.
+PyPSA-Eur is one of several models built with PyPSA. It represents the European energy system at transmission-network level across the whole ENTSO-E area, the territory of the European association of grid operators. A sector-coupled extension adds transport, heating, biomass, industry and carbon management. Sister models are PyPSA-DE for Germany, PyPSA-USA for the United States and PyPSA-Earth for the world.
 
-Both are free under the MIT licence for academic and commercial use. PyPSA-Eur restricts itself to freely available data and ships an automated workflow that assembles the model from the original datasets; it is tested on Linux, macOS and Windows (WSL). Open-source solvers such as HiGHS work, though the project recommends commercial solvers for very large problems. Paid support is available from several consultancies.
+The framework handles economic dispatch (choosing which plants run, at least cost), linear and security-constrained optimal power flow, and capacity expansion. Multi-period pathway planning, rolling-horizon and stochastic optimisation, and policy constraints such as CO2 limits are also covered. PyPSA-Eur is used for operational studies and for generation and transmission expansion planning. One of the project's showcases is a study of a possible European hydrogen network, published in Joule in 2023.
 
-Status: in active development; the PyPSA-Eur documentation warns that the model has known limitations and is under active development, and the community held a user meeting in June 2026.
+Both are free under the MIT licence for academic and commercial use. PyPSA-Eur uses only freely available data, and an automated workflow assembles the model from the original datasets. It is tested on Linux, macOS and Windows (WSL). Open-source solvers such as HiGHS work, though the project recommends commercial solvers for very large problems. Several consultancies sell support.
+
+The PyPSA-Eur documentation warns that the model has known limitations and is under active development. The community held a user meeting in June 2026.
 
 ![European electricity infrastructure as represented in PyPSA-Eur: transmission links and generation technologies.](/engines/pypsa-pypsa-eur/power.png)
 

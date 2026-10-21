@@ -3,10 +3,9 @@ about:
   depiction: engines/3dtrees-earth.jpg
   label: 3Dtrees.earth
   description: >-
-    Open platform from the GeoSense group at the University of Freiburg, with
-    GFZ and partner institutes, where researchers upload laser scans of
-    forests, have them processed into segmented trees, inspect them in the
-    browser and download them.
+    Website from the University of Freiburg's GeoSense group, with GFZ and
+    partner institutes, that collects laser scans of forests, segments them
+    into individual trees and serves them for viewing and download.
   tags:
     - forest
     - lidar
@@ -45,10 +44,18 @@ provenance:
     pages were rendered in a headless browser to read them
   status: draft
 ---
-3Dtrees.earth is a web platform for sharing and processing three-dimensional laser scans of forests. It is developed at the Chair of Sensor-based Geoinformatics (GeoSense) at the University of Freiburg, with the university's Forest Growth and Dendroecology chair, Galaxy Europe and the GFZ Helmholtz Centre for Geosciences; those institutions form its governance board. Further partners include NIBIO, Fraunhofer IPM, NFDI4Earth and the Future Forest cluster. The team says it builds on its experience with deadtrees.earth.
+It is developed at the Chair of Sensor-based Geoinformatics (GeoSense) at the University of Freiburg, with the university's Forest Growth and Dendroecology chair, Galaxy Europe and the GFZ Helmholtz Centre for Geosciences. Those four institutions form its governance board. Further partners include NIBIO, Fraunhofer IPM, NFDI4Earth and the Future Forest cluster. The team builds on its experience with deadtrees.earth.
 
-The aim is a shared reference collection for the 3D structure of trees. A scanner on a tripod, a backpack or a drone can resolve a stand to the level of individual branches, but each survey produces a large file in its own format and conditions, and nobody can easily find or compare them; the platform's answer is to collect the scans in one place with notes on how each was taken and to process them all the same way. Contributors upload LAS or LAZ files from terrestrial, mobile or drone scanning; the platform stores the metadata, runs processing pipelines on Galaxy (including tree segmentation and tree species identification), shows the result as a point cloud in the browser and packages datasets for download on request. A map lists the public datasets; on 19 October 2026 the home page counted 2,444 datasets from 733 contributors covering 15,408 hectares, from forest plots in Germany, Spain, Kenya, Canada and elsewhere. Public datasets can be viewed without an account; uploading and downloading need one.
+The aim is a shared reference collection for the 3D structure of trees. A laser scanner on a tripod, a backpack or a drone can resolve a stand down to individual branches. But each survey produces a large file in its own format and conditions, and the files are hard to find or compare. The platform collects the scans in one place, with notes on how each was taken, and processes them all the same way.
 
-The maker does not say whether the platform's own code is open, nor what licence datasets carry. Each dataset can be public, view-only or private, and the project describes its goal as open, FAIR forest data. The platform is registered in re3data under DOI 10.17616/R31NJO12. The roadmap, last updated July 2026, lists automatic DOIs for published datasets, fine-grained sharing, an audited reference release, raster products such as canopy height, and programmatic data access as work in progress or ahead. The team holds a quarterly open town hall and is preparing a first manuscript about the platform.
+Contributors upload LAS or LAZ files from terrestrial, mobile or drone scanning. These are standard formats for point clouds, the sets of 3D points a scanner records. The platform stores the metadata and runs processing pipelines on Galaxy, including tree segmentation (separating the cloud into individual trees) and species identification. Results show as a point cloud in the browser, and datasets are packaged for download on request. A map lists the public datasets. On 19 October 2026 the home page counted 2,444 datasets from 733 contributors covering 15,408 hectares, including forest plots in Germany, Spain, Kenya and Canada. Viewing public datasets needs no account; uploading and downloading do.
 
-In this wiki's stack it is a data-and-processing layer for forest structure: a place to get tree-level point clouds that an ecosystem or fire model could use as input.
+Each dataset can be public, view-only or private. The project's goal is open, FAIR forest data (findable, accessible, interoperable and reusable). The platform is registered in re3data, a registry of research data repositories, under DOI 10.17616/R31NJO12. The July 2026 roadmap lists these as in progress or ahead:
+
+- automatic DOIs for published datasets
+- fine-grained sharing
+- an audited reference release
+- raster products such as canopy height
+- programmatic data access
+
+The team holds a quarterly open town hall and is preparing a first manuscript about the platform.

@@ -40,10 +40,18 @@ provenance:
   reviewed_by: 'Claude, from the sources listed; the pages do not give the maker''s name beyond the GitHub account'
   status: draft
 ---
-forge3d is a Python package for rendering 3D terrain and maps, published from the GitHub account milos-agathon. The renderer is written in Rust on wgpu/WebGPU and shipped as Python wheels. It takes a digital elevation model as a GeoTIFF or numpy array, drapes raster and vector layers over it, and renders with path tracing, physically based materials, water, and shadows from terrain and clouds. It can also open a window to orbit the scene, or run headless for batch work.
+The renderer is written in Rust on wgpu/WebGPU and shipped as Python wheels. WebGPU is a modern interface to the graphics card. The starting point is a digital elevation model, a grid of ground heights, read as a GeoTIFF or numpy array. Raster and vector layers are draped over the terrain. Rendering uses path tracing, which simulates light bouncing through a scene. Physically based materials, water, and shadows from terrain and clouds are included. A window can be opened to orbit the scene, or the package can run headless for batch work.
 
-The repository shows it used for thematic maps of places: LOD2 buildings over terrain for Lyon, population density over shaded relief for Egypt, land cover for Iberia, rivers and lakes for Germany, and WorldPop population cells extruded for Türkiye. A population or land-cover raster can be drawn as a raised shaded surface, by class colour, or as two variables in a bivariate colour matrix. Because scenes are driven from Python, a time series is a loop over frames; one example moves smoke from HRRR forecast fields across California through the summer 2025 fire season. Legends, scale bars, north arrows and labels are drawn in the same engine.
+Examples in the repository are thematic maps of places:
 
-It installs with pip install forge3d, with extras for notebook widgets and sample datasets. Inputs include Cloud Optimized GeoTIFFs, LAZ/COPC/EPT point clouds, 3D Tiles, GeoJSON and CityJSON; outputs are PNG and 16-bit PNG, SVG and PDF, EXR with AOVs, and saveable scene bundles. The core is open source, Apache-2.0 or MIT at the user's choice. Three parts are paid: composing a finished map plate, exporting vectors, and importing buildings; a commercial licence key unlocks them.
+- LOD2 buildings (block models with roof shapes) over terrain for Lyon
+- population density over shaded relief for Egypt
+- land cover for Iberia
+- rivers and lakes for Germany
+- WorldPop population cells extruded for Türkiye
 
-The documentation carries a 2025-2026 copyright. In this wiki's stack it is a presentation tool: it sits beside browser viewers such as /presentation/cesiumjs/ but produces print-resolution images rather than an interactive web map, and it reads /ontologies/cityjson/ for buildings.
+A population or land-cover raster can be drawn as a raised shaded surface, by class colour, or as two variables in a bivariate colour matrix. Because scenes are driven from Python, a time series is a loop over frames. One example moves smoke from HRRR forecast fields across California through the summer 2025 fire season. Legends, scale bars, north arrows and labels are drawn in the same engine.
+
+Installation is pip install forge3d, with extras for notebook widgets and sample datasets. Inputs include Cloud Optimized GeoTIFFs, LAZ/COPC/EPT point clouds, 3D Tiles, GeoJSON and CityJSON. Outputs are PNG and 16-bit PNG, SVG and PDF, EXR with AOVs, and saveable scene bundles. The core is open source, Apache-2.0 or MIT at the user's choice. Composing a finished map plate, exporting vectors and importing buildings are paid features, unlocked by a commercial licence key.
+
+The output is print-resolution images, where browser viewers such as /presentation/cesiumjs/ give an interactive web map. Buildings come in as /ontologies/cityjson/.

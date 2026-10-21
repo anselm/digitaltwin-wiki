@@ -35,8 +35,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-A textbook that takes the reader from first principles to working spatial models. It starts with geographical modelling and the basics of GIS, including QGIS, then moves through designing and building agent-based models, calibrating and validating them, and representing human behaviour, with examples built in NetLogo and code on a companion site. The aim is that a reader finishes able to build their own model and start a research project with it.
+The book goes from first principles to working spatial models. An agent-based model simulates many individual actors, such as people, each following its own rules. GIS is software for storing and mapping geographic data. The book opens with geographical modelling and the basics of GIS, including QGIS. Later chapters cover designing and building agent-based models, calibrating and validating them, and representing human behaviour. The examples are built in NetLogo, with code on a companion site. By the end a reader should be able to build a model of their own and use it to start a research project.
 
-For someone building a twin of a place this is the hands-on companion to the edited Springer volume by overlapping authors. It is the quickest route from a shapefile and a question to a running model with people in it, and its chapters on calibration and validation are the ones most twin projects skip.
+It is the hands-on companion to an edited Springer volume by some of the same authors. Starting from a shapefile (a common file format for map data) and a question, it gets to a running model with people as agents. The chapters on calibration and validation cover steps most twin projects skip.
 
 Cover via Open Library.

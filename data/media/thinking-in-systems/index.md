@@ -29,8 +29,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Meadows, one of the authors of The Limits to Growth, wrote this short book to bring systems thinking out of the computer and into ordinary reasoning. It starts with the basics of stocks, flows and feedback, visits a zoo of common system types, explains why systems work as well as they do, works through system traps and opportunities, and ends with leverage points, the places to intervene in a system, and with living in a world of systems. It was completed from her draft manuscript and edited by Diana Wright of the Sustainability Institute after Meadows's death, and published in 2008.
+Meadows, one of the authors of The Limits to Growth, wrote this short book to bring systems thinking out of the computer and into ordinary reasoning. The opening chapters cover the basics of stocks, flows and feedback, then a zoo of common system types and why systems work as well as they do. Later chapters work through system traps and opportunities. The book ends with leverage points, the places to intervene in a system, and with living in a world of systems.
 
-A digital twin is a systems model with a user interface, and most of the ways twins go wrong are the ones this book names: mistaking a stock for a flow, ignoring delays, optimising a part at the expense of the whole. It is the book to give to colleagues and clients before showing them the model.
+Meadows died before the book was finished. Diana Wright of the Sustainability Institute completed and edited it from her draft manuscript, and it was published in 2008.
+
+A digital twin is a systems model with a user interface. Most of the ways twins go wrong are ones this book names: mistaking a stock for a flow, ignoring delays, optimising a part at the expense of the whole.
 
 Cover via Open Library.

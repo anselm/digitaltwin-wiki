@@ -5,7 +5,7 @@ about:
     Robotic surface vehicle from Woods Hole Oceanographic Institution, built by
     Peter Traykovski and adapted for Anne Cohen's reef work, that photographs
     shallow coral reefs along GPS-tagged tracks so the same colonies can be
-    checked again after each heat wave.
+    rechecked after heat waves.
   tags:
     - coral
     - reef survey
@@ -50,10 +50,10 @@ domains:
   - ecology
   - water
 ---
-Yellowfin is an uncrewed surface vehicle at Woods Hole Oceanographic Institution (WHOI), designed to move over shallow coral reefs without disturbing them. Peter Traykovski, a coastal oceanographer and engineer, built it to map seabeds and coastline change with sonar; coral scientist Anne Cohen had him mount a GoPro under the hull so it could photograph the reef continuously as it runs, recording depth, temperature and GPS position alongside the images.
+Peter Traykovski, a coastal oceanographer and engineer, built Yellowfin to map seabeds and coastline change with sonar. The vehicle is uncrewed and designed to move over shallow reefs without disturbing the coral. The coral scientist Anne Cohen had him mount a GoPro under the hull so it photographs the reef continuously as it runs. Depth, temperature and GPS position are recorded alongside the images.
 
-Cohen's lab uses it to find and follow "super reefs", reefs that come through marine heat waves. The vehicle is driven along GPS waypoints in a lawnmower pattern, taking two pictures a second, up to about 20,000 images over 40 miles of reef in a day, each tagged with coordinates. Because the track is georeferenced the team can return to the same section or the same colony on a later trip and see which corals bleached, died, recovered or were untouched; after a survey Traykovski can send it back to a particular coral Cohen wants to look at. The images are also used to build 3D reef models, which show how the depth, angle and orientation of a colony relative to its neighbours may affect its heat exposure. Cohen used to go through the images by hand; the lab has started training AI models to do it.
+Cohen's lab uses Yellowfin to find and follow "super reefs", reefs that come through marine heat waves. The vehicle is driven along GPS waypoints in a lawnmower pattern of back-and-forth lines, taking two pictures a second. In a day that comes to up to about 20,000 images over 40 miles of reef, each tagged with coordinates.
 
-The first deployments were on the reefs of Majuro, in the Marshall Islands, in 2024 and 2025, and a June 2026 account describes further testing there on an April trip. Whether the vehicle or its software is available to others is not stated.
+Because the track is georeferenced, the team can return to the same section or the same colony on a later trip. They can then see which corals bleached, died, recovered or were untouched. After a survey Traykovski can send the vehicle back to a particular coral Cohen wants to look at. The images also feed 3D reef models, which show how a colony's depth, angle and orientation relative to its neighbours may affect its heat exposure. Cohen used to go through the images by hand. The lab has started training AI models for the task.
 
-In use as a research tool; the published material covers 2024 to 2026.
+The first deployments were on the reefs of Majuro, in the Marshall Islands, in 2024 and 2025. A June 2026 account describes further testing there on an April trip.

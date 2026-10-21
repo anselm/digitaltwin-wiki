@@ -36,8 +36,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-A collection of chapters from many research groups on agent-based modelling where the agents live in geographic space. It covers the foundations and theory, the technical problems particular to spatial models such as handling scale and space, practical advice on building models and keeping their complexity under control, and methods for visualising and checking results, followed by applications at scales from the neighbourhood to the region. It is written for researchers and graduate students in geography and spatial analysis and for practitioners in neighbouring fields.
+The chapters come from many research groups, and the agents in them move through geographic space. An agent-based model simulates many individual actors, each following its own rules. The book covers foundations and theory, and the technical problems particular to spatial models, such as handling scale and space. It gives practical advice on building models and keeping their complexity under control, and on methods for visualising and checking results. Applications follow, at neighbourhood and regional scales. The intended readers are researchers and graduate students in geography and spatial analysis, and practitioners in neighbouring fields.
 
-Place-scale twins that include people, vehicles or animals as individual actors are agent-based models of geographical systems, whether or not they use the name. This is the reference that sets out what is known about building such models well, and where the hard problems are.
+Place-scale twins that include people, vehicles or animals as individual actors are agent-based models of geographical systems, whether or not they use the name. The book sets out what is known about building such models well, and where the hard problems lie.
 
 Cover via Open Library.

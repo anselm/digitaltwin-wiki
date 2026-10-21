@@ -2,10 +2,9 @@
 about:
   label: Kunming-Montreal Global Biodiversity Framework
   description: >-
-    The global biodiversity agreement adopted by the Parties to the Convention
-    on Biological Diversity in December 2022: four goals for 2050 and
-    twenty-three targets for 2030, which each Party committed to turn into
-    national targets.
+    The global biodiversity agreement adopted under the Convention on
+    Biological Diversity in December 2022: four goals for 2050, twenty-three
+    targets for 2030, and a commitment by each Party to set national targets.
   tags:
     - biodiversity
     - conservation
@@ -35,10 +34,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed; the official text in decision 15/4 and the per-target guidance notes were not read'
   status: draft
 ---
-The Kunming-Montreal Global Biodiversity Framework is the agreement the Parties to the Convention on Biological Diversity adopted at their fifteenth meeting in December 2022, after four years of consultation and negotiation. It follows the Convention's earlier strategic plans and is built around the Convention's vision for 2050, a world living in harmony with nature. It has four goals for 2050 and twenty-three targets for 2030. The goals cover protecting and restoring ecosystems and species, using nature sustainably, sharing the benefits of genetic resources fairly, and securing the money and capacity to do it, with a biodiversity finance gap the framework puts at 700 billion dollars a year.
+The Parties adopted the framework at their fifteenth meeting, COP 15, after four years of consultation and negotiation. It follows the Convention's earlier strategic plans and is built around the Convention's vision for 2050, a world living in harmony with nature. The four goals cover protecting and restoring ecosystems and species, using nature sustainably, sharing the benefits of genetic resources fairly, and securing money and capacity. The framework puts the biodiversity finance gap at 700 billion dollars a year.
 
-The targets come in three groups: those that reduce threats to biodiversity, those that meet people's needs by sustainable use and fair benefit-sharing, and the tools and solutions that make implementation possible. Several of them are about places and would send someone to a map or a model. Target 1 asks that all areas be under biodiversity-inclusive spatial planning or effective management, so that almost no more areas of high value for biodiversity are lost by 2030. Target 2 asks that at least 30 per cent of degraded land, inland water and marine ecosystems be under restoration. Target 3, the 30 by 30 target for protected and conserved areas, has its own entry at [30 by 30](/mandates/thirty-by-thirty/). Target 12 asks for more and better connected green and blue space in cities. Target 14 asks that biodiversity be built into planning, environmental assessment and, where appropriate, national accounting. Target 21 asks that the best available data and knowledge be accessible to decision makers and the public.
+The targets fall into three groups. Some reduce threats to biodiversity. Some meet people's needs through sustainable use and fair benefit-sharing. The rest are tools and solutions for implementation. Several of the targets concern places and would send someone to a map or a model. Target 1 asks that all areas be under biodiversity-inclusive spatial planning or effective management, so that by 2030 almost no more areas of high value for biodiversity are lost. Target 2 asks that at least 30 per cent of degraded land, inland water and marine ecosystems be under restoration. Target 3, the 30 by 30 target for protected and conserved areas, has its own entry at [30 by 30](/mandates/thirty-by-thirty/). Target 12 asks for more and better connected green and blue space in cities. Target 14 asks that biodiversity be built into planning, environmental assessment and, where appropriate, national accounting. Target 21 asks that the best available data and knowledge be accessible to decision makers and the public.
 
-Every Party committed to set national targets to implement the framework, and other actors were invited to make their own commitments. COP 15 also adopted a monitoring framework with indicators for each target, a mechanism for planning, monitoring, reporting and review, and decisions on finance and capacity. The Secretariat publishes a guidance note for each target that lists the adopted indicators and resources for national target-setting; it describes these notes as a work in progress. The official text is decision 15/4. At its next meeting the Conference of the Parties was to take stock of the national targets and commitments set.
+Every Party committed to set national targets, and other actors were invited to make their own commitments. COP 15 also adopted a monitoring framework with indicators for each target, a mechanism for planning, monitoring, reporting and review, and decisions on finance and capacity. For each target the Secretariat publishes a guidance note listing the adopted indicators and resources for setting national targets. The Secretariat calls these notes a work in progress. The official text is decision 15/4. At its next meeting the Conference of the Parties was to take stock of the national targets and commitments.
 
-For the person who models a place, this framework is a reason rather than a tool: it names what has to be planned, restored, conserved and counted by 2030, and the [land use change](/questions/land-use-change/) use case is where most of that work starts.
+Most of the mapping and modelling these targets call for begins with [land use change](/questions/land-use-change/).

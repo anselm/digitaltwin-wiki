@@ -31,8 +31,15 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Scott examines a series of large, often well-meant plans that went badly: Soviet collectivisation, villagisation in Tanzania, the design of Brasília, the Great Leap Forward and agricultural modernisation in the tropics. He argues that they share a pattern: a state trying to make nature and society legible through simplified schemes, a high-modernist faith that science can improve every part of life, the authority to impose the scheme, and a civil society too weak to push back. What the schemes leave out is the practical, local knowledge that the complex systems they act on actually run on.
+Scott examines a series of large, often well-meant plans that went badly: Soviet collectivisation, villagisation in Tanzania, the design of Brasília, the Great Leap Forward and agricultural modernisation in the tropics. He argues that they share a pattern:
 
-A digital twin is a legibility project. It makes a place visible to whoever owns the model, in the categories the model has room for, and Scott's book is the clearest statement of what that costs and how it fails. It belongs on the shelf of anyone who intends to act on a place through a model of it.
+- a state trying to make nature and society legible, or readable from above, through simplified schemes
+- a high-modernist faith that science can improve every part of life
+- the authority to impose the scheme
+- a civil society too weak to push back
+
+The complex systems these schemes act on run on practical, local knowledge, which the schemes leave out.
+
+A digital twin is a legibility project. It makes a place visible to whoever owns the model, in the categories the model has room for. Scott's book sets out what that costs and how such schemes fail.
 
 Cover via Open Library.

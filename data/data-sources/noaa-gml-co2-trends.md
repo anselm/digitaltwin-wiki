@@ -38,8 +38,8 @@ provenance:
   status: draft
 ---
 
-The Global Monitoring Laboratory of the US National Oceanic and Atmospheric Administration publishes the carbon dioxide record from its Mauna Loa Observatory as flat files: weekly means from May 1974, with monthly and annual means, daily values and a globally averaged series beside them. Each file carries its own header on use and contact. The data are freely available; NOAA asks that publications cite the data providers, and the trends page gives the citation form.
+The record comes as flat files, each with its own header on use and contact. The weekly series starts in May 1974. Monthly and annual means, daily values and the globally averaged series come as separate files. The data are free. NOAA (the US National Oceanic and Atmospheric Administration) asks that publications cite the data providers, in the form the trends page gives.
 
-The weekly file notes two things a model should know. Values for the last several months are preliminary and still under quality control. And measurements at Mauna Loa were suspended from 29 November 2022, after the volcano erupted, until July 2023; observations from December 2022 to 4 July 2023 come from a site at the Maunakea Observatories about 21 miles north.
+Two notes in the weekly file matter to a model. Values for the last several months are preliminary and still under quality control. Measurements at Mauna Loa were suspended from 29 November 2022, after the volcano erupted, until July 2023. Observations from December 2022 to 4 July 2023 come from a site at the Maunakea Observatories, about 21 miles north.
 
 The [Vitals](/vitals/) page here reads the weekly file.

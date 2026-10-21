@@ -19,13 +19,13 @@ A rezoning is on the table, or a new transit line, and someone wants to know wha
 
 ## What you are really asking
 
-Land use and travel are coupled. People choose where to live partly by how they can get to work; developers build where people can get to; both change what the roads and trains carry. So the question is really: **what does this change do to the whole loop, over years?** Beneath it are the questions the council will actually argue about: how many homes, how affordable, how much traffic, and what it does to the tax base.
+Land use and travel are coupled. People choose where to live partly by how they can get to work. Developers build where people can get to. Both change what the roads and trains carry. So the question is **what this change does to the whole loop, over years**. Beneath it are the questions the council will argue about: how many homes, how affordable, how much traffic, and the effect on the tax base.
 
 ## What kind of model answers it
 
-An **urban simulation** model represents households, jobs, buildings and land parcels and lets them change year by year under rules about development and location choice. It is usually run beside a transport model so that travel times feed back into where people choose to live. The outputs are maps of development and population by year under each scenario, which is what the question wants, and they are only as good as the assumptions about how people and developers behave, which the model should state.
+An **urban simulation** model represents households, jobs, buildings and land parcels and lets them change year by year under rules about development and location choice. It is usually run beside a transport model so that travel times feed back into where people choose to live. The outputs are maps of development and population by year under each scenario. They are only as good as the assumptions about how people and developers behave, and a model should state those assumptions.
 
-On this site, [UrbanSim](/engines/urbansim/) is the open model of this kind, and [Urbanly CityCompass](/engines/urbanly-citycompass/) a hosted one. Each links back here.
+On this site, [UrbanSim](/engines/urbansim/) is an open model of this kind, and [Urbanly CityCompass](/engines/urbanly-citycompass/) a hosted one.
 
 ## What you need
 
@@ -36,8 +36,8 @@ On this site, [UrbanSim](/engines/urbansim/) is the open model of this kind, and
 
 ## Without a model
 
-Count the parcels the rezoning touches and what the new rules allow on each. That arithmetic is the upper bound on what can happen and is often most of the answer. Ask who did a similar rezoning nearby and what was built.
+Count the parcels the rezoning touches and what the new rules allow on each. That arithmetic sets the upper bound on what can happen, and is often most of the answer. Ask who did a similar rezoning nearby and what was built.
 
 ## Next
 
-[Name the question](/guides/name-the-question/) and [Talk to the people affected](/guides/talk-to-the-people-affected/), because this question is argued, not solved.
+[Name the question](/guides/name-the-question/) and [Talk to the people affected](/guides/talk-to-the-people-affected/).

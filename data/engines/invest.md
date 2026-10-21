@@ -33,10 +33,6 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: proposed
 ---
-InVEST is a suite of 21 free, open-source models for mapping and valuing the goods and services people get from nature, made by the Natural Capital Alliance (NatCap) at Stanford University. The models cover terrestrial, freshwater, marine, coastal and urban ecosystems.
+InVEST has 21 free models for mapping and valuing the goods and services people get from nature. They are meant to inform decisions about land and water. Examples of use are in the Alliance's featured projects and publications.
 
-It is meant to inform decisions about land and water; the Alliance points to its featured projects and publications for examples of use, and the software page itself names no case.
-
-The models run in the InVEST Workbench, a downloadable application, with a user guide and data sources. Community plugins extend the Workbench through a plugin registry, a Data Hub offers global layers and pre-processed inputs, and support comes through a community forum, video tutorials and a self-paced online course. Bugs and contributions go through public issue trackers.
-
-Operational and maintained; NatCap publishes a quarterly software column.
+The models run in the InVEST Workbench, a downloadable application with a user guide and data sources. Community plugins extend the Workbench through a plugin registry. A Data Hub offers global layers and pre-processed inputs. Support comes through a community forum, video tutorials and a self-paced online course, and bugs and contributions go through public issue trackers. The Alliance (NatCap) publishes a quarterly software column.

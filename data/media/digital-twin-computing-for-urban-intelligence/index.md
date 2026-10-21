@@ -32,6 +32,6 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Part of the Springer Urban Sustainability series, this volume treats digital twins as a tool for urban systems with sustainability as the organising concern. It lays out the concepts, theory and strategies, presents case studies and design models, and covers how twins support data analysis, decision-making and automated services in planning, together with the supporting technologies of cloud computing, artificial intelligence, the Internet of Things and virtualisation. It is written for students, researchers and general readers who want the fundamentals, a survey of current technology and an account of how twin solutions are deployed.
+Part of the Springer Urban Sustainability series, this volume treats digital twins as a tool for urban systems, with sustainability as the organising concern. It sets out concepts, theory and strategies, and presents case studies and design models. Chapters cover how twins support data analysis, decision-making and automated services in planning. The supporting technologies covered are cloud computing, artificial intelligence, the Internet of Things (networked sensors and devices) and virtualisation.
 
-A recent survey of the urban-twin field from the research side, useful for seeing what questions the academic literature is asking and which cases it holds up as examples.
+The book is written for students, researchers and general readers who want the fundamentals, a survey of current technology and an account of how twin solutions are deployed. Coming from the research side, it shows which questions the academic literature asks and which cases it holds up as examples.

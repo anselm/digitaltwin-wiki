@@ -42,10 +42,12 @@ domains:
   - people
   - ecology
 ---
-A working session of the Public Vitality Camp, a three-day gathering held on 17 to 19 September 2026 at Teufelsberg and at Medulla in Berlin and initiated by nextlearning e.V. The session was moderated by Prateek Shankar of Dark Matter Labs, Pauline Münch of BiberAmt Berlin and David Bonomo, with nextlearning. Its premise is that Berlin's groundwater, rivers, canals, wastewater and peatlands form one hydrological system that runs past the city boundary, while responsibility for it is split across jurisdictions, sectors and time horizons.
+The Public Vitality Camp was a three-day gathering on 17 to 19 September 2026 at Teufelsberg and at Medulla in Berlin, initiated by nextlearning e.V. The session was moderated by Prateek Shankar of Dark Matter Labs, Pauline Münch of BiberAmt Berlin and David Bonomo, with nextlearning. Its premise is that Berlin's groundwater, rivers, canals, wastewater and peatlands form one hydrological system that runs past the city boundary. Responsibility for that system is split across jurisdictions, sectors and time horizons.
 
-Participants took measures from Berlin's Masterplan Wasser and related strategies, traced how water, nutrients, carbon and responsibility move through the Berlin–Brandenburg system, and tested what forms of institutional representation could make those dependencies visible, looking for where current governance fragments the system. The call invited people from water utilities, the Berlin and Brandenburg administrations, river-basin planning, climate adaptation, peatland and biodiversity work, environmental law and governance design.
+Participants took measures from Berlin's Masterplan Wasser and related strategies. They traced how water, nutrients, carbon and responsibility move through the Berlin–Brandenburg system. They also tested what forms of institutional representation could make those dependencies visible, looking for where current governance fragments the system.
 
-It was a deliberation exercise, not a model or data product; the camp describes itself as a volunteer-run prototype format.
+The call invited people from water utilities, the Berlin and Brandenburg administrations, river-basin planning and climate adaptation. People in peatland and biodiversity work, environmental law and governance design were invited too.
 
-Held on the Friday of the camp at Medulla, Dresdener Straße 113B; registration is closed.
+The session was a deliberation exercise. The camp is volunteer-run and calls itself a prototype format.
+
+The session took place on the Friday of the camp at Medulla, Dresdener Straße 113B. Registration is closed.

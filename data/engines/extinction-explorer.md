@@ -2,10 +2,9 @@
 about:
   label: Extinction Explorer
   description: >-
-    Prototype web app by Hannah Nisonson of Esri's Applications Prototype Lab
-    that links a 3D map of species observations in the San Bernardino National
-    Forest with a 3D food-web graph, and shows what else is affected when a
-    species is removed.
+    Prototype web app from Esri's Applications Prototype Lab that links a 3D
+    map of species observations in the San Bernardino National Forest with a
+    3D food-web graph to show the knock-on effects of losing a species.
   tags:
     - biodiversity
     - knowledge graph
@@ -47,10 +46,8 @@ import:
 domains:
   - ecology
 ---
-Extinction Explorer is a prototype from Esri's Applications Prototype Lab, written up by Hannah Nisonson, that puts a map of species observations and a graph of ecological relationships side by side for the San Bernardino National Forest. An ArcGIS Knowledge Graph holds species, observations and source documents; interactions from Global Biotic Interactions (GloBI) are reduced to eight relationship types such as predates, pollinates and nests in, and observations come from iNaturalist and other GBIF datasets. At three hops from the threatened species it starts with, the graph holds about 3,000 species, 8,000 relationships and tens of thousands of observations.
+Hannah Nisonson described it in a post on Esri Community. An ArcGIS Knowledge Graph holds species, observations and source documents. A knowledge graph is a database of entities and their connections. Interactions come from Global Biotic Interactions (GloBI), reduced to eight relationship types such as predates, pollinates and nests in. Observations come from iNaturalist and other datasets in GBIF, the Global Biodiversity Information Facility. Three hops out from the threatened species it starts with, the graph holds about 3,000 species, 8,000 relationships and tens of thousands of observations.
 
-Selecting a species treats it as an extinction event: the app works out which neighbours lose relationships or become isolated, highlights the cascade in both the map and the network, logs it, and lets the user reverse it. The author presents this as a way to see dependencies, not as a population model.
+Selecting a species treats it as an extinction event. The app works out which neighbours lose relationships or become isolated, and highlights the cascade in both the map and the network. Each event is logged and can be reversed. Nisonson presents this as a way to see dependencies, not as a population model.
 
-It runs entirely in the browser: the ArcGIS Maps SDK for JavaScript renders observations as 3D pushpins over terrain, 3d-force-graph with three.js draws the network, and openCypher queries fetch the graph. A demo is linked from the post.
-
-Status: prototype. The post gives no date.
+Everything runs in the browser. The ArcGIS Maps SDK for JavaScript renders observations as 3D pushpins over terrain, 3d-force-graph with three.js draws the network, and openCypher, a query language for graphs, fetches the data. A demo is linked from the post.

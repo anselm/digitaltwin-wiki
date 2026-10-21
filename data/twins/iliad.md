@@ -2,10 +2,8 @@
 about:
   label: Iliad, Digital Twins of the Ocean
   description: >-
-    A Horizon 2020 project of 56 partners that builds virtual representations
-    of the sea from earth observation, models and digital infrastructure, and
-    runs a marketplace where digital twins, models and their components are
-    listed and shared.
+    A Horizon 2020 project of 56 partners building digital twins of the
+    ocean, with a marketplace for sharing twins, models and their components.
   tags:
     - ocean
     - marketplace
@@ -41,10 +39,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Iliad is a consortium of 56 partners funded by the European Commission's Horizon 2020 programme (grant agreement 101037643) to develop virtual representations of the sea that combine earth observation, modelling and digital infrastructure to predict future developments at sea. Its stated aim is interoperable, data-intensive digital twins of the ocean that can be federated with one another; the project presented this work at the OCEANS 2025 conference in Brest.
+The European Commission funds Iliad under grant agreement 101037643. The project combines earth observation, modelling and digital infrastructure to predict future developments at sea. Its goal is ocean twins that are interoperable and data-intensive, and that can be federated: linked so that separate twins work together. The project presented this work at the OCEANS 2025 conference in Brest.
 
-Its public face is the Iliad Digital Twins of the Ocean Marketplace, an app-store-style catalogue of digital twins, models and components across sectors such as renewable energy, fisheries and citizen science. Products can be datasets, scripts, training materials, documentation or videos, filed by theme, region, type and price, and a Twin Lab holds work-in-progress twins for feedback. The marketplace also lays out a pipeline for building a twin: data collection, twin creation components and example twins. The Iliad Academy, launched in July 2025, is a learning platform with a course on planning and building a digital twin of the ocean, and the project runs policy toolkits and competitions for young professionals.
+The Iliad Digital Twins of the Ocean Marketplace is a catalogue in the style of an app store. It lists digital twins, models and components for sectors such as renewable energy, fisheries and citizen science. A product can be a dataset, script, training material, documentation or a video. Products are filed by theme, region, type and price. A Twin Lab holds work-in-progress twins for feedback. The marketplace also lays out a pipeline for building a twin in three parts: data collection, twin creation components and example twins.
 
-What is open: the marketplace lists both free and paid products, and the page says it encourages contributions from a broad user base. Any visitor can create an account and request access to list products; an administrator approves listings and later changes before they go live. The pages read do not state a licence for Iliad's own software or say whether the twins expose a public API, and they do not name a specific place or pilot site.
+The Iliad Academy, launched in July 2025, offers a course on planning and building a digital twin of the ocean. The project also runs policy toolkits and competitions for young professionals.
 
-Status: an active research project; the latest news on the site is from November 2025.
+The marketplace has both free and paid products. Any visitor can create an account and request access to list products. An administrator approves listings, and later changes, before they go live.

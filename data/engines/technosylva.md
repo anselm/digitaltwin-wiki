@@ -37,10 +37,17 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Technosylva, Inc. is a software company formed in 1997 with offices in La Jolla, California and León, Spain. It models wildfire behaviour and extreme-weather impacts from climate, vegetation, topography and human activity, and sells the results as applications for electric utilities, fire agencies, and insurance and credit agencies.
+Technosylva, Inc. was formed in 1997 and has offices in La Jolla, California and León, Spain. Its models draw on climate, vegetation, topography and human activity. Besides utilities and fire agencies, it sells to insurance and credit agencies.
 
-The products split by task. FireSight assesses wildfire risk at asset level for planning and investment; FireRisk forecasts operational risk for decisions such as public safety power shutoffs; Tactical Analyst combines data sources into one situational-awareness view for predictive analysis and fire management; fiResponse is an incident-management system for emergency response across hazards; an extreme-weather platform forecasts grid impacts; and a flood-planning product covers flood exposure of assets. The site names CAL FIRE, Pacific Gas & Electric, San Diego Gas & Electric, Xcel Energy, NV Energy, CORE Electric Cooperative and Bear Valley Electric Service among its customers, and says its products are in operational use in nine countries across North America, Europe and South America.
+The products split by task:
 
-It is commercial software; the pages do not say whether it is hosted or installed, nor state prices. The company describes a joint venture with the US Forest Service on wildfire science and says its models are validated with fire agencies in the field.
+- FireSight: asset-level wildfire risk for planning and investment.
+- FireRisk: operational risk forecasts for decisions such as public safety power shutoffs.
+- Tactical Analyst: one situational-awareness view combining data sources, for predictive analysis and fire management.
+- fiResponse: incident management for emergency response across hazards.
+- An extreme-weather product: forecasts of grid impacts.
+- A flood-planning product: flood exposure of assets.
 
-Status: operational. The company's news page runs to September 2025 on the pages read.
+The company names seven customers, including CAL FIRE, Pacific Gas & Electric and San Diego Gas & Electric. It says its products are in operational use in nine countries across North America, Europe and South America.
+
+Technosylva has a joint venture with the US Forest Service on wildfire science. The company says its models are validated with fire agencies in the field. It is commercial software, and pricing is not published.

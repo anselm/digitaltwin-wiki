@@ -15,7 +15,7 @@ provenance:
     on this site; not yet read by Anselm
   status: proposed
 ---
-A piece of land is about to change. Someone wants to know what it does to the stream below it, the species on it, the carbon in it, or the food it grows, and whether a different plan would do better.
+Someone wants to know what a change of use does to the stream below, the species living there, the carbon stored or the food grown, and whether a different plan would do better.
 
 ## What you are really asking
 
@@ -28,20 +28,20 @@ Land is where the systems meet. Change the cover and you change how rain runs of
 
 ## What kind of model answers it
 
-Models of **ecosystem services** take a land-cover map and estimate each of these for the current map and for an alternative. They are built to compare scenarios, not to forecast a number to the decimal, and their value is in showing which plan is better and where. Crop models go deeper on the food question, simulating growth under given weather, soil and management. Integrated assessment models connect land to energy, water and the economy at the scale of a region or the world, which is the right tool when the question is a policy rather than a parcel.
+Ecosystem services are the benefits people get from land and nature, such as clean water and stored carbon. Models of **ecosystem services** take a land-cover map and estimate each of these for the current map and for an alternative. They are built to compare scenarios, not to forecast a number to the decimal, and their value is in showing which plan is better and where. Crop models go deeper on the food question, simulating growth under given weather, soil and management. Integrated assessment models connect land to energy, water and the economy at the scale of a region or the world. They suit a question about policy more than one about a single parcel.
 
 On this site: [InVEST](/engines/invest/) for ecosystem services, [DSSAT](/engines/dssat/) for crops, [GCAM](/engines/gcam/) for the regional and global scale, and [Earth Index](/engines/earth-genome-earth-index/) for finding features in satellite imagery.
 
 ## What you need
 
-- A land-cover map now and under each plan. Satellite data from [Copernicus](/data-sources/copernicus-data-space/) is free; the plan is yours to draw.
+- A land-cover map now and under each plan. Satellite data from [Copernicus](/data-sources/copernicus-data-space/) is free. The plan is yours to draw.
 - Terrain and soils.
 - Species records: [iNaturalist](/data-sources/inaturalist/) holds observations people have made in your area.
 - What the land yields now, from the people who farm it.
 
 ## If a mandate sent you
 
-The [30 by 30 target](/mandates/thirty-by-thirty/) turns this question into a counting one first: which land counts as conserved, where the gaps by habitat are, and what a change of use would do to coverage and connectivity. [Protected Planet](/data-sources/protected-planet/) is the record it is measured against.
+The [30 by 30 target](/mandates/thirty-by-thirty/) makes this a counting question first: which land counts as conserved, where the gaps by habitat are, and what a change of use would do to coverage and connectivity. [Protected Planet](/data-sources/protected-planet/) is the record it is measured against.
 
 ## Without a model
 
@@ -53,8 +53,8 @@ Overlay the plan on the land-cover map and list what each parcel changes from an
 
 ![A landscape is several systems at once: energy, water, living systems and food and land, and the relationships between them.](/questions/land-use-change/landscape.svg)
 
-*A conceptual map of relationships a coupled model could examine. Connections vary by place, technology and season; arrow widths carry no quantities. Icons via Noun Project, CC BY 3.0.*
+*A conceptual map of relationships a coupled model could examine. Connections vary by place, technology and season. Arrow widths carry no quantities. Icons via Noun Project, CC BY 3.0.*
 
 ![A national crop-type map of Czechia assembled from 2015 Sentinel and Landsat observations.](/questions/land-use-change/crops.jpg)
 
-*Crop types across Czechia from 2015 Sentinel and Landsat observations: classification that turns imagery into data a land-use model can use. Credit: ESA / DUE Sentinel-2 for Agriculture project; contains modified Copernicus Sentinel data (2015), [CC BY-SA 3.0 IGO](https://creativecommons.org/licenses/by-sa/3.0/igo/), [source](https://commons.wikimedia.org/wiki/File:Czech_Agriculture_from_Space_ESA360858.jpg).*
+*Crop types across Czechia, classified from 2015 Sentinel and Landsat observations into a map a land-use model can use. Credit: ESA / DUE Sentinel-2 for Agriculture project; contains modified Copernicus Sentinel data (2015), [CC BY-SA 3.0 IGO](https://creativecommons.org/licenses/by-sa/3.0/igo/), [source](https://commons.wikimedia.org/wiki/File:Czech_Agriculture_from_Space_ESA360858.jpg).*

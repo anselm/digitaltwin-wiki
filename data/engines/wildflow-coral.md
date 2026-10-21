@@ -2,9 +2,9 @@
 about:
   label: Wildflow Coral
   description: >-
-    Wildflow's platform for coral reefs, where divers upload footage and get
+    Wildflow's service for coral reefs: divers upload footage and get back
     georeferenced 3D models, orthomosaics and bathymetry for tracking a reef
-    over time, with the stated aim of a digital twin of any reef.
+    over time.
   tags:
     - coral
     - reef
@@ -50,10 +50,10 @@ import:
 domains:
   - ecology
 ---
-Wildflow describes itself as building multimodal foundation models for biodiversity, starting with coral reefs, and Wildflow Coral as its first product. The pages read do not name the company's people or location; the documentation links a founder's blog at nozdrenkov.com. The aim stated for Wildflow Coral is a digital twin of any reef that combines 3D photogrammetry, bioacoustics, underwater video, remote sensing, eDNA and environmental data such as currents, models population and energy dynamics, and reports health and resilience metrics, so that pressures like runoff, development and warming water can be quantified and restoration work coordinated.
+Wildflow builds multimodal foundation models for biodiversity, starting with coral reefs, and Wildflow Coral is its first product. A foundation model is a large AI model trained on broad data and adapted to many tasks. The documentation links a founder's blog at nozdrenkov.com.
 
-What exists today is the data side. Dive teams, researchers, restoration practitioners and robotics operators upload footage from action cameras, phones, DSLRs or ROVs, or photogrammetry datasets, and get 3D models viewable in a browser and shareable by link, plus georeferenced, colour-corrected orthomosaics and bathymetry at sub-centimetre resolution for tracking change between surveys, including outplant survival and growth. Donors, partners and the public can view sites and progress.
+The goal for Wildflow Coral is a digital twin of any reef. It would combine 3D photogrammetry, bioacoustics, underwater video, remote sensing, eDNA and environmental data such as currents. Photogrammetry builds 3D models from overlapping photographs. eDNA is genetic material that organisms shed into the water. The twin would model population and energy dynamics and report health and resilience metrics. Pressures like runoff, development and warming water could then be quantified and restoration work coordinated.
 
-The platform code is on GitHub under the MIT licence; its README calls it an open marine biodiversity data platform in early development, with a prototype for uploading CSV observations and joining them with environmental data. Cost is not stated.
+What exists today is the data side. Dive teams, researchers, restoration practitioners and robotics operators upload footage from action cameras, phones, DSLRs or ROVs, or photogrammetry datasets. They get back 3D models viewable in a browser and shareable by link. They also get georeferenced, colour-corrected orthomosaics and bathymetry at sub-centimetre resolution. An orthomosaic is a single map-accurate image stitched from many photographs. Bathymetry is the depth of the seabed. These track change between surveys, including the survival and growth of outplanted corals. Donors, partners and the public can view sites and progress.
 
-Status: prototype. The homepage offers a prototype to try and the repository describes early development; no dates are given.
+The platform code is on GitHub under the MIT licence. It is an open marine biodiversity data platform in early development, with a prototype for uploading CSV observations and joining them with environmental data. The homepage offers the prototype to try. Pricing is not published.
