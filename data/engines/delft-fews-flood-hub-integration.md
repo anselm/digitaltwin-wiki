@@ -60,10 +60,10 @@ relations:
       imports forecasts from (source_claim; exact implementation not
       independently tested)
 ---
-Delft-FEWS, Deltares' real-time water forecasting system, is used mostly for floods and in nearly seventy countries. Since version 2026.02 it imports Google Flood Hub data directly from the Google Flood Forecasting API: flood status, river forecast hydrographs (graphs of river flow over time) and their timing. Flood Hub is Google Research's public flood service, with riverine forecasts up to seven days ahead, updated daily, covering river basins in more than 150 countries.
+Delft-FEWS, Deltares' real-time water forecasting system, is used mostly for floods and in nearly seventy countries.[^2] Since version 2026.02 it imports Google Flood Hub data directly from the Google Flood Forecasting API: flood status, river forecast hydrographs (graphs of river flow over time) and their timing.[^1] Flood Hub is Google Research's public flood service, with riverine forecasts up to seven days ahead, updated daily, covering river basins in more than 150 countries.[^3]
 
-Google's forecasts then appear in the displays a forecasting centre already uses, next to local observations, local model results and other forecasts. Deltares' Erik Pelgrim led the implementation. An earlier prototype by the Czech Hydrometeorological Institute (Jakub Krejčí and Jan Daňhelka) showed it could be done. The announcement shows flood status for the Netherlands on 4 September 2026 and the Ganges on 9 September 2026.
+Google's forecasts then appear in the displays a forecasting centre already uses, next to local observations, local model results and other forecasts.[^1] Deltares' Erik Pelgrim led the implementation.[^1] An earlier prototype by the Czech Hydrometeorological Institute (Jakub Krejčí and Jan Daňhelka) showed it could be done.[^1] The announcement shows flood status for the Netherlands on 4 September 2026 and the Ganges on 9 September 2026.[^1]
 
-Running it needs a Delft-FEWS 2026.02 installation and a Flood Forecasting API key from Google's key programme. Deltares says the key can take about two weeks to obtain.
+Running it needs a Delft-FEWS 2026.02 installation and a Flood Forecasting API key from Google's key programme.[^1] Deltares says the key can take about two weeks to obtain.[^1]
 
-Jan Verkade of Deltares announced the release on 5 October 2026, and a presentation is planned for the Delft-FEWS User Days in November 2026. Deltares is also working on a model adapter to run Google's open-sourced hydrological model inside Delft-FEWS.
+Jan Verkade of Deltares announced the release on 5 October 2026, and a presentation is planned for the Delft-FEWS User Days in November 2026.[^1,2] Deltares is also working on a model adapter to run Google's open-sourced hydrological model inside Delft-FEWS.[^1]

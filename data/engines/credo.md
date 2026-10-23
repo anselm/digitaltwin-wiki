@@ -38,13 +38,13 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Weather data is joined to models of several infrastructure networks. Owners and operators can then follow a flood, a heatwave or strong winds from one network into the others, down to individual assets, and see where investment would reduce the risk.
+Weather data is joined to models of several infrastructure networks.[^1] Owners and operators can then follow a flood, a heatwave or strong winds from one network into the others, down to individual assets, and see where investment would reduce the risk.[^1,3]
 
-The work has run as a series of projects:
+The work has run as a series of projects:[^1]
 
-- an original demonstrator on flooding across energy, water and telecoms
-- an Extreme Heat project on water networks, funded by the Ofwat Breakthrough Challenge
-- CReDo+, a beta project led by UK Power Networks with nearly £10 million from the Strategic Innovation Fund (Ofgem and Innovate UK), extending the twin to energy-network risk
-- a December 2025 white paper on applying CReDo to transport
+- an original demonstrator on flooding across energy, water and telecoms[^1]
+- an Extreme Heat project on water networks, funded by the Ofwat Breakthrough Challenge[^1]
+- CReDo+, a beta project for which UK Power Networks and partners secured nearly £10 million from the Strategic Innovation Fund (Ofgem and Innovate UK), extending the twin to energy-network risk[^1]
+- a December 2025 white paper on applying CReDo to transport[^3]
 
-A minimum viable product was shown in a webinar on 17 September 2026. User trials are under way, and the final platform release is planned for March 2028. Access is by contact with the Catapult.
+A minimum viable product was shown in a webinar on 17 September 2026.[^2] User trials are under way, and the final platform release is planned for March 2028.[^2] Access is by contact with the Catapult.[^1]

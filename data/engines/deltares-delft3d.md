@@ -34,16 +34,16 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: proposed
 ---
-The full product name is Delft3D FM Suite 2D3D. Deltares is a hydraulic research institute. The suite simulates water flow in two and three dimensions on a flexible mesh, a grid whose cells can vary in size and shape. Cases it covers include:
+The full product name is Delft3D FM Suite 2D3D.[^1] Deltares is a hydraulic research institute.[^1] The suite simulates water flow in two and three dimensions on a flexible mesh, a grid whose cells can vary in size and shape.[^1] Cases it covers include:
 
 - tidal drying and flooding of flats
 - density-driven flow from differences in temperature and salinity
 - transport of matter
 - the hydrodynamic effect of works such as land reclamation, breakwaters and dikes
-- recirculation of cooling water from a power plant
+- recirculation of cooling water from a power plant[^1]
 
-Deltares offers a hydro-morphodynamics package alongside, for how the bed and banks change shape as sediment moves.
+Deltares offers a hydro-morphodynamics package alongside, for how the bed and banks change shape as sediment moves.[^1]
 
-Deltares names its users as consultants, engineers, contractors, regulators and government officials. It says non-experts can use the suite through the Delta Shell graphical interface, and Python scripting handles batch runs.
+Deltares names its users as consultants, engineers, contractors, regulators and government officials.[^1] It says non-experts can use the suite through the Delta Shell graphical interface, and Python scripting handles batch runs.[^1]
 
-The suite runs on Windows, and its computational core also runs on Linux. A model needs administrator rights to install and from 1 GB of memory upwards depending on size. The latest validated release is Delft3D FM Suite 2026.01, distributed through Deltares service packages ordered by email. Pricing is not published.
+The suite runs on Windows, and its computational core also runs on Linux.[^1] A model needs administrator rights to install and from 1 GB of memory upwards depending on size.[^1] The latest validated release is Delft3D FM Suite 2026.01, distributed through Deltares service packages ordered by email.[^1] Pricing is not published.[^1]
