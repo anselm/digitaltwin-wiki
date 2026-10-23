@@ -47,13 +47,13 @@ import:
 domains:
   - sensory
 ---
-A world foundation model is a large model trained on video to predict how a physical scene unfolds. The current flagship, Cosmos 3, is a single model that NVIDIA says combines reasoning, world generation and action generation, on a mixture-of-transformers architecture. Alongside it come Cosmos Curator, for filtering and annotating sensor data, and Cosmos Evaluator, for scoring generated video. There are also scripts for post-training, optimisation and inference.
+A world foundation model is a large model trained on video to predict how a physical scene unfolds. The current flagship, Cosmos 3, is a single model that NVIDIA says combines reasoning, world generation and action generation, on a mixture-of-transformers architecture.[^1] Alongside it come Cosmos Curator, for filtering and annotating sensor data, and Cosmos Evaluator, for scoring generated video.[^1] There are also scripts for post-training, optimisation and inference.[^1]
 
-NVIDIA lists four uses:
+NVIDIA lists four uses:[^1]
 
 - a vision-language model that reasons over video, for tasks such as quality inspection and traffic monitoring
 - a backbone to post-train (train further on narrower data) into robot policies for a specific camera and body
 - a controllable simulator that predicts outcomes in a closed loop
-- a generator of synthetic video from text, images, video, sound or actions, including sensor data for autonomous-vehicle testing
+- a generator of synthetic video from text, images, video, sound or actions, including sensor data for autonomous-vehicle testing[^1]
 
-The models are released under the OpenMDW 1.1 licence from the Linux Foundation. They can be downloaded from Hugging Face, with code on GitHub and recipes in a cookbook. NVIDIA also hosts them in its build.nvidia.com catalogue and as NIM microservices.
+The models are released under the OpenMDW 1.1 licence from the Linux Foundation.[^1] They can be downloaded from Hugging Face, with code on GitHub and recipes in a cookbook.[^1] NVIDIA also hosts them in its build.nvidia.com catalogue and as NIM microservices.[^1]

@@ -33,8 +33,8 @@ provenance:
   reviewed_by: 'Claude, from the source listed'
   status: draft
 ---
-GNOME, the General NOAA Operational Modeling Environment, was built by the Emergency Response Division of NOAA's Office of Response and Restoration to predict where a pollutant spilled on water will go. A user enters a spill, and GNOME moves it with wind, currents and other processes, shows how uncertain the forecast is given uncertain winds and currents, and estimates how the oil changes while it floats. The result is an animated map of the slick and running totals of oil on the beach, still afloat, or evaporated.
+GNOME, the General NOAA Operational Modeling Environment, was built by the Emergency Response Division of NOAA's Office of Response and Restoration to predict where a pollutant spilled on water will go.[^1] A user enters a spill, and GNOME moves it with wind, currents and other processes, shows how uncertain the forecast is given uncertain winds and currents, and estimates how the oil changes while it floats.[^1] The result is an animated map of the slick and running totals of oil on the beach, still afloat, or evaporated.[^1]
 
-For a given coast, prepared location files hold the tides and currents. In diagnostic mode GNOME can instead read the output of outside ocean and weather models. It is a surface model: oil that sinks or travels at depth, as in the [Gulf of Mexico](/questions/after-an-oil-spill/), needs other models alongside it.
+For a given coast, prepared location files hold the tides and currents.[^1] In diagnostic mode GNOME can instead read the output of outside ocean and weather models.[^1] Its weathering estimates cover the time the oil stays on the water surface.[^1]
 
-The desktop program, last released as version 1.3.10 in 2017, is no longer maintained. Its successor, WebGNOME, runs in a browser at gnome.orr.noaa.gov as part of NOAA's GNOME Suite.
+The desktop program, last released as version 1.3.10 in 2017, is no longer maintained.[^1] Its successor, WebGNOME, runs in a browser at gnome.orr.noaa.gov as part of NOAA's GNOME Suite.[^1]
