@@ -17,15 +17,21 @@
         {#if v.latest}<p class="text-sm tabular"><span class="text-ink">{v.latest.value} {v.unit}</span><span class="text-muted">{' · '}{v.latest.date}</span>{#if v.latest.anomaly != null}<span class="text-accent">{' · '}{sign(v.latest.anomaly)} {v.unit}</span><span class="text-muted">{' vs '}{v.baselineName}</span>{/if}</p>{/if}
       </div>
       {#if v.preliminary}<p class="text-xs text-muted tabular">preliminary {v.preliminary.date}: {v.preliminary.value} {v.unit}{#if v.preliminary.anomaly != null}, {sign(v.preliminary.anomaly)} {v.unit} vs {v.baselineName}{/if}</p>{/if}
-      <svg viewBox="0 0 {W} {H}" class="w-full mt-2" role="img" aria-label="{v.title}, {v.firstYear} to {v.curYear}, by day of year">
+      <svg viewBox="0 0 {W} {H}" class="w-full mt-2" role="img" aria-label="{v.title}, {v.firstYear} to {v.curYear}{v.kind === 'timeline' ? '' : ', by day of year'}">
         {#each v.ticksY as t}<line x1={P.l} x2={W - P.r} y1={t.y} y2={t.y} stroke="var(--line)" stroke-width=".6" /><text x={P.l - 5} y={t.y + 3} text-anchor="end" font-size="15" fill="var(--muted)">{t.label}</text>{/each}
         {#each v.ticksX as t}<text x={t.x} y={H - 5} text-anchor="middle" font-size="15" fill="var(--muted)">{t.label}</text>{/each}
+        {#if v.kind === 'timeline'}
+        {#if v.paths.context}<path d={v.paths.context} fill="none" stroke="var(--muted)" stroke-width="1.4" opacity=".45" />{/if}
+        {#if v.paths.baseline}<path d={v.paths.baseline} fill="none" stroke="var(--ink)" stroke-width="1" />{/if}
+        <path d={v.paths.current} fill="none" stroke="var(--accent)" stroke-width="1.6" />
+        {:else}
         {#each v.paths.past as p}<path d={p.d} fill="none" stroke="var(--muted)" stroke-width=".7" opacity={p.alpha}><title>{p.year}</title></path>{/each}
         <path d={v.paths.baseline} fill="none" stroke="var(--ink)" stroke-width="1.6" />
         <path d={v.paths.current} fill="none" stroke="var(--accent)" stroke-width="2" />
         {#if v.paths.prelim}<path d={v.paths.prelim} fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="3 3" />{/if}
+        {/if}
       </svg>
-      <p class="text-xs text-muted mt-1">{v.firstYear}–{v.curYear} · baseline {v.baselineName} · {v.source} · <a href={v.url} rel="noopener">data</a> · <a href="/vitals/{v.id}.json">json</a> · {v.licence} · fetched {v.fetched}{#if v.note} · {v.note}{/if}</p>
+      <p class="text-xs text-muted mt-1">{v.firstYear}–{v.curYear}{#if v.baselineName} · baseline {v.baselineName}{/if} · {v.source} · <a href={v.url} rel="noopener">data</a> · <a href="/vitals/{v.id}.json">json</a> · {v.licence} · fetched {v.fetched}{#if v.note} · {v.note}{/if}</p>
     </section>
   {/each}
 </div>
