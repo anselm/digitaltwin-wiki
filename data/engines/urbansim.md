@@ -36,12 +36,12 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The model is used to analyse how land-use policies and infrastructure investments shape cities and regions. Its centre is the real-estate market and the transport system. Household and firm location, development and prices come from discrete choice models (statistical models of how people choose among options) at block, parcel or zone level.
+The model is used to analyse how land-use policies and infrastructure investments shape cities and regions.[^2] Its centre is the real-estate market and the transport system.[^2] Household and firm location, development and prices come from discrete choice models (statistical models of how people choose among options) at block, parcel or zone level.[^2]
 
-The research behind the model ran for more than a decade, led by Paul Waddell, Professor of City and Regional Planning at the University of California, Berkeley. The National Science Foundation and US metropolitan planning organisations funded that work. UrbanSim Inc., in Seattle, now sells it as a product.
+The research behind the model ran for more than a decade, led by Paul Waddell, Professor of City and Regional Planning at the University of California, Berkeley.[^2] The National Science Foundation and US metropolitan planning organisations funded that work.[^2] UrbanSim Inc., in Seattle, now sells it as a product.[^1,2]
 
-The main uses are forecasting land use 10 to 40 years ahead as input to a regional travel model, and testing the effects of transport investments, pricing, zoning changes, environmental constraints, macroeconomic shifts and major development projects. UrbanSim is in operational use in 21 regions: 17 in the US and four abroad. The list includes San Francisco, Seattle and Paris.
+The main uses are forecasting land use 10 to 40 years ahead as input to a regional travel model, and testing the effects of transport investments, pricing, zoning changes, environmental constraints, macroeconomic shifts and major development projects.[^2] UrbanSim's documentation names 21 regions where it has been in operational use: 17 in the US and four abroad.[^2] The list includes San Francisco, Seattle and Paris.[^2]
 
-The core model code is open source in Python, on the Urban Data Science Toolkit GitHub page. UrbanSim Inc. also sells a hosted UrbanSim Cloud Platform, whose documentation is at version 3.13.1. The platform has the UrbanCanvas Modeler interface, scenario and simulation-run management, map and chart indicators, data uploads and travel-model integration.
+The core model code is open source in Python, on the Urban Data Science Toolkit GitHub page.[^2] UrbanSim Inc. also sells a hosted UrbanSim Cloud Platform, whose documentation is at version 3.13.1.[^2] The platform has the UrbanCanvas Modeler interface, scenario and simulation-run management, map and chart indicators, data uploads and travel-model integration.[^2]
 
-The maker gives three caveats. Boundary effects with neighbouring regions are ignored. Land-use regulations are treated as binding. No single parcel-level prediction should be trusted, so results should be aggregated or run many times.
+The maker gives three caveats. Boundary effects with neighbouring regions are ignored.[^2] Land-use regulations are treated as binding.[^2] No single parcel-level prediction should be trusted, so results should be aggregated or run many times.[^2]
