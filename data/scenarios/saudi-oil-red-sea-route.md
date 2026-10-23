@@ -37,7 +37,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Saudi Arabia's route out of the closed [Strait of Hormuz](/scenarios/strait-of-hormuz-closure/) ran south down the Red Sea and out through the Bab el-Mandab strait. Its East-West pipeline to the Red Sea is one of only two that bypass Hormuz. Yemen's Houthi rebels have declared a maritime blockade on Saudi Arabia. On 14 September DW reported that, the week after seizing Mayun Island and the port of Mokha, which it said cut off the alternative route, they had announced the capture of Greater and Lesser Hanish islands in the southern Red Sea. DW reported that the only secure routes left for Saudi oil to reach Asian markets were the Suez Canal or the long way around the Cape of Good Hope. Yemen's civil war, dormant for four years, had restarted, with Houthi missile and drone attacks on Saudi military targets and, by the Houthis' count, more than 300 Saudi airstrikes in five days. In the week to 18 October, IMF PortWatch's satellite ship-tracking, as Portolan shows it, counted 26 ships a day through Bab el-Mandab, down 27% on a year earlier.
+Saudi Arabia's route out of the closed [Strait of Hormuz](/scenarios/strait-of-hormuz-closure/) ran south down the Red Sea and out through the Bab el-Mandab strait.[^1] Its East-West pipeline to the Red Sea is one of only two that bypass Hormuz.[^3] Yemen's Houthi rebels have declared a maritime blockade on Saudi Arabia. On 14 September DW reported that, the week after seizing Mayun Island and the port of Mokha, which it said cut off the alternative route, they had announced the capture of Greater and Lesser Hanish islands in the southern Red Sea. DW reported that the only secure routes left for Saudi oil to reach Asian markets were the Suez Canal or the long way around the Cape of Good Hope.[^1] Yemen's civil war, dormant for four years, had restarted, with Houthi missile and drone attacks on Saudi military targets and, by the Houthis' count, more than 300 Saudi airstrikes in five days.[^1] In the week to 18 October, IMF PortWatch's satellite ship-tracking, as Portolan shows it, counted 26 ships a day through Bab el-Mandab, down 27% on a year earlier.[^2]
 
 ## Who needs an answer
 
@@ -58,4 +58,4 @@ Oil exports and the pipeline that feeds the Red Sea; ship routing past a war zon
 
 ## Where to start
 
-[Portolan](/engines/portolan/) shows ships a day from IMF PortWatch for Bab el-Mandab, Suez and Hormuz side by side, with the alerts in force at each.
+[Portolan](/engines/portolan/) shows ships a day from IMF PortWatch for Bab el-Mandab, Suez and Hormuz side by side, with the alerts in force at each.[^2]

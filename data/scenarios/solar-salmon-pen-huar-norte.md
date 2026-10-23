@@ -42,7 +42,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Salmon pens out at sea run feeders, lights, cameras, oxygen sensors and pumps around the clock, and with no cable to shore that power usually comes from a diesel generator, with fuel brought out by boat. In mid-2025 Mowi switched on Chile's first floating solar system at a salmon farm, at its Huar Norte site. AKVA group built the pens and fitted the solar panels to them. Alotta Energy supplies the power as a service. The Norwegian company had already run the same system on the Norwegian coast. Fjord Maritime provided the batteries and the energy management system. The companies expect the sun to cover about 57% of the site's power, saving about 139,200 litres of diesel and 350 tonnes of carbon dioxide a year. These are projections; none of the reports found gives measured results. The site is in the Los Lagos region, on one report.
+Salmon pens out at sea run feeders, lights, cameras, oxygen sensors and pumps around the clock, and with no cable to shore that power usually comes from a diesel generator, with fuel brought out by boat.[^5] In mid-2025 Mowi switched on Chile's first floating solar system at a salmon farm, at its Huar Norte site.[^2,3] AKVA group built the pens and fitted the solar panels to them.[^1,4] Alotta Energy supplies the power as a service.[^5] The Norwegian company had already run the same system on the Norwegian coast.[^3] Fjord Maritime provided the batteries and the energy management system.[^4] The companies expect the sun to cover about 57% of the site's power, saving about 139,200 litres of diesel and 350 tonnes of carbon dioxide a year.[^1,2,4] These are projections; none of the reports found gives measured results. The site is in the Los Lagos region, on one report.[^5]
 
 ## Who needs an answer
 
@@ -63,4 +63,4 @@ Sunlight and weather over a southern Chilean site through the year. The electric
 
 ## Where to start
 
-The figures above come from the companies' announcements, through AKVA group's own page. An energy system model such as [PyPSA](/engines/pypsa-pypsa-eur/) can size generation and storage against an hourly load; the [use case on electrification](/questions/electrification/) lists what else such a model needs.
+The figures above come from the companies' announcements, through AKVA group's own page.[^1] An energy system model such as [PyPSA](/engines/pypsa-pypsa-eur/) can size generation and storage against an hourly load; the [use case on electrification](/questions/electrification/) lists what else such a model needs.

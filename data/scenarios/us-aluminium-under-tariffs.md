@@ -35,7 +35,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The United States has four operating aluminium smelters, down from more than 20 at the start of the century, and relies mostly on imported metal, above all from Canada and increasingly from the Middle East. Imports carry a 50% tariff under Section 232. As US aluminium prices outpaced international markets, the Midwest premium passed $1 a pound for the first time in late January 2026. In 2025, by the Aluminum Association's count, the Middle East supplied about 21% of US imports of unwrought aluminium; ING says the disruptions there added pressure to an already tight US market. In July 2026 the administration let companies that build, expand or refurbish US smelting capacity, and meet approved investment milestones, import qualifying metal at 25% instead of 50%. ING expects little near-term effect, because a smelter depends on cheap electricity, billions in capital and years of construction; the most advanced project, a 750,000-tonne-a-year smelter in Oklahoma planned by EGA and Century Aluminum, is unlikely to produce much before 2030.
+The United States has four operating aluminium smelters, down from more than 20 at the start of the century, and relies mostly on imported metal, above all from Canada and increasingly from the Middle East.[^1] Imports carry a 50% tariff under Section 232.[^1,2] As US aluminium prices outpaced international markets, the Midwest premium passed $1 a pound for the first time in late January 2026.[^2] In 2025, by the Aluminum Association's count, the Middle East supplied about 21% of US imports of unwrought aluminium;[^2] ING says the disruptions there added pressure to an already tight US market.[^1] In July 2026 the administration let companies that build, expand or refurbish US smelting capacity, and meet approved investment milestones, import qualifying metal at 25% instead of 50%.[^1,3] ING expects little near-term effect, because a smelter depends on cheap electricity, billions in capital and years of construction; the most advanced project, a 750,000-tonne-a-year smelter in Oklahoma planned by EGA and Century Aluminum, is unlikely to produce much before 2030.[^1]
 
 ## Who needs an answer
 
@@ -55,4 +55,4 @@ Electricity supply and price, which decide where a smelter can run; internationa
 
 ## Where to start
 
-[Portolan](/engines/portolan/) lists the US tariff actions on aluminium since 2018, including the 2026 changes, alongside the trade flows they affect.
+[Portolan](/engines/portolan/) lists the US tariff actions on aluminium since 2018, including the 2026 changes, alongside the trade flows they affect.[^3]
