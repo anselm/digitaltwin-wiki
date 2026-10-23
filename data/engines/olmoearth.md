@@ -12,10 +12,10 @@ about:
     - sentinel
     - fine-tuning
 tool:
-  form: open-weights model family and hosted platform
+  form: open-weights model family, precomputed embeddings and hosted platform
   group: Earth observation and AI
   homepage: 'https://olmoearth.allenai.org/'
-  licence: OlmoEarth Artifact License (weights and code); CC-BY-4.0 (pretraining dataset)
+  licence: OlmoEarth Artifact License (weights, code and published embeddings); CC-BY-4.0 (pretraining dataset)
   cost: free model and code; platform access by sign-up
 domains:
   - places
@@ -39,6 +39,10 @@ provenance:
       url: 'https://github.com/allenai/olmoearth_pretrain'
     - title: 'OlmoEarth Artifact License'
       url: 'https://github.com/allenai/olmoearth_pretrain/blob/main/LICENSE'
+    - title: 'OlmoEarth v1.3 Embeddings (Ai2 technical report)'
+      url: 'https://allenai.org/papers/olmoearth-v1-3'
+    - title: 'OlmoEarth embeddings (Ai2 story page)'
+      url: 'https://narrative.allen.ai/olmoearth-embeddings'
     - title: 'OlmoEarth Documentation'
       url: 'https://docs.olmoearth.allenai.org/'
     - title: 'Changelog | OlmoEarth'
@@ -52,7 +56,7 @@ provenance:
     - title: 'allenai/olmoearth_pretrain_dataset (Hugging Face dataset card)'
       url: 'https://huggingface.co/datasets/allenai/olmoearth_pretrain_dataset'
   created: '2026-10-21'
-  reviewed: '2026-10-21'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
@@ -62,6 +66,8 @@ The models read Sentinel-2 optical imagery, Sentinel-1 radar and Landsat, either
 
 To get embeddings, the lists of numbers that summarise each patch of ground, you pick an area and a period. Ai2's rslearn tool then fetches the imagery at 10 metres per pixel, one mosaic per 30 days, and writes the embeddings out as GeoTIFF files. A period of up to a year matches how the models were trained. The tutorial sets a patch size of 4, so it writes one embedding per 4 by 4 pixel patch, which at 10 metres per pixel works out to 40 metres on a side. Each embedding holds 128 numbers for Nano, 192 for Tiny, 768 for Base or 1,024 for Large.
 
+Version 1.3 came with embeddings already computed, so many uses no longer need the model run at all. There is one embedding per 10 metre square per year, 128 numbers stored as small integers, and the first 64 work on their own for anyone short of storage. Each is built from a calendar year of Sentinel-1, Sentinel-2 and Landsat 8 and 9. The years 2023, 2024 and 2025 cover the world's land and coasts, though not Antarctica; 2017 to 2022 cover some countries so far, and Ai2 says it is still computing the rest. Ai2 puts one global year at roughly 150 TB. Source Cooperative hosts the set as a Zarr store that any Zarr client can read straight from storage, with no key. A free viewer at olmoearth.allenai.org/embeddings finds places that look like one you click, groups an area you draw, and exports either as a Python script. Ai2's technical report compares the 128-number version with AlphaEarth and TESSERA v2 on eleven tasks and finds it best on ten, with TESSERA v2 ahead in Ethiopia; no outside comparison has been published yet that we have seen.
+
 The OlmoEarth Platform is the hosted side: OlmoEarth Studio for labelling data, fine-tuning and running models without writing code, and an API for the same work from a program. Partner access to the platform starts with a sign-up form. Ai2 publishes fine-tuned models for live fuel moisture, the drivers of forest loss, mangroves, ecosystem types, and land use and land cover in southern Kenya.
 
-The OlmoEarth Artifact License covers the weights and the code. Anyone may use, change and redistribute them free of charge, and build new models from them, but not for military or defence purposes, which the licence spells out as including weapons, military operations, intelligence gathering, and human surveillance and policing. Extractive work is barred too: planning or helping the extraction of oil, gas or minerals through activities such as drilling, mining or deforestation. Anyone who passes on OlmoEarth must credit Ai2 and include the licence; anything built from it must carry the same restrictions unless Ai2 agrees otherwise in writing. The licence ends automatically on a breach or if the user sues anyone claiming the artifacts infringe a patent, other than in answer to a suit brought first.
+The OlmoEarth Artifact License covers the weights, the code and the published embeddings. Anyone may use, change and redistribute them free of charge, and build new models from them, but not for military or defence purposes, which the licence spells out as including weapons, military operations, intelligence gathering, and human surveillance and policing. Extractive work is barred too: planning or helping the extraction of oil, gas or minerals through activities such as drilling, mining or deforestation. Anyone who passes on OlmoEarth must credit Ai2 and include the licence; anything built from it must carry the same restrictions unless Ai2 agrees otherwise in writing. The licence ends automatically on a breach or if the user sues anyone claiming the artifacts infringe a patent, other than in answer to a suit brought first.
