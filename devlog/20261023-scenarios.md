@@ -67,3 +67,19 @@ carries `scenario.scale` (world, bioregion or community), and the shelf
 groups by it in that order. The sorting of the 21 was Claude's
 judgement; the Amazon soy moratorium went to world scale because its
 decision-makers are global traders, though the forest is a bioregion.
+
+## Why the local end matters most (Anselm, same day)
+
+"The larger the issue, the more people that are interested - and the
+smaller issues are actually more picky, pedantic, people are more
+immediately aware of errors - so it is tempting to tackle world scale
+issues where it is hard to critique, although it would be deeply
+meaningful to accurately tackle local issues for real stakeholders who
+have a very good local understanding."
+
+For the benchmark: world-scale scenarios are hard to fail visibly, so
+passing one proves little. Local scenarios come with people who can
+mark the answer. When the benchmark spec is written, each local
+scenario should name who could check a twin's output and against
+what (a well record, a repair invoice, a count at the lagoon), and a
+twin should be scored first on those.
