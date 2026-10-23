@@ -36,6 +36,28 @@ Three things Anselm said on 2026-10-18 that shape every choice here:
 - Devlog: `devlog/` (dated entries; read the tail first).
 - Deploy: see `project.toml`.
 
+## Tools, and when to run them
+
+Policy (Anselm, 2026-10-23): the site keeps a set of rerunnable tools, and
+anyone changing it, person or agent, uses them rather than doing the chore
+by hand. After changing or adding entries, run `npm run after` (the corpus
+check, then each changed entry's prose tells and how it will look as a
+shared card) and fix what it raises before committing. Every tool is in
+`tools/` with its usage in the first lines:
+
+- `npm run check`: the corpus check (frontmatter, relations, links that go nowhere).
+- `npm run after [files]`: the after-edit pass above.
+- `node tools/tells.js [--file f]`: machine-prose tells, site-wide or for one entry.
+- `npm run share`: preview cards for every page and Vitals series, sitemap.xml, robots.txt; reports pages that will share poorly (`SHARE_REPORT=1` lists them). The build runs it.
+- `npm run vitals`: refetch the Vitals series. The deploy runs it.
+- `node tools/fetch-depictions.js`: a picture for entries without one, from the maker's own page.
+- `node tools/coverage.js`: someone else's list against our entries.
+- `node tools/scan.js`: new items from known sources into `inbox/`.
+- `deploy/deploy.sh`: builds from the last commit only, so uncommitted drafts never go live.
+
+Status and priorities are shown at `/admin/` (not linked from the
+navigation, not hidden); open items live in `todo.md`.
+
 ## Project-specific facts
 
 (APIs, credentials locations, quirks, anything a fresh session must know that

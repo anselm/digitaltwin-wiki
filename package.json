@@ -4,14 +4,23 @@
   "private": true,
   "type": "module",
   "description": "A digital twins wiki: an evergreen, machine-readable resource built on a small generic knowledge store (packages/knowledge) over a folder tree of entities (data/).",
-  "engines": { "node": ">=22" },
-  "workspaces": ["packages/*"],
+  "engines": {
+    "node": ">=22"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "check": "node packages/knowledge/cli.js check data",
     "machine": "node packages/knowledge/cli.js machine data packages/site/static",
     "migrate": "node tools/migrate-v1.js",
     "vitals": "node tools/fetch-vitals.js",
     "dev": "npm run machine && npm --workspace packages/site run dev",
-    "build": "npm run check && npm run machine && npm --workspace packages/site run build"
+    "share": "node tools/share.js",
+    "after": "node tools/after-edit.js",
+    "build": "npm run check && npm run machine && npm run share && npm --workspace packages/site run build"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2"
   }
 }

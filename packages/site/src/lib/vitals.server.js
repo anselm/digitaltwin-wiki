@@ -8,7 +8,7 @@ export const W = 720, H = 240, P = { l: 48, r: 10, t: 8, b: 22 }
 const MONTHS = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D']
 const GAP = { co2: 14 }  // connect across gaps up to this many days; weekly CO₂ needs more than daily series
 const SHORT = { ohc: 'Ocean heat', gmst: 'Since pre-industrial', gmsl: 'Sea level', nino34: 'Niño 3.4', sst: 'Global SST', t2m: 'Global air temp', co2: 'CO₂ Mauna Loa', 'ice-n': 'Arctic ice', 'ice-s': 'Antarctic ice' }
-const dir = path.resolve('../../data/vitals')
+const DIR = path.resolve('../../data/vitals')  // relative to packages/site, where the build runs
 
 function pathOf(arr, x, y, maxGap = 6) {
   let d = '', last = -1e9
@@ -59,7 +59,7 @@ function timeline(v) {
 }
 
 /** Charts in the order the entity asks for; series it does not name follow alphabetically. */
-export function charts(order = []) {
+export function charts(order = [], dir = DIR) {
   if (!fs.existsSync(dir)) return []
   const all = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')))
   const rank = (v) => { const i = order.indexOf(v.id); return i < 0 ? order.length : i }

@@ -9,11 +9,13 @@
 {#if data.description}<p class="text-muted mt-1">{data.description}</p>{/if}
 {#if data.content}<div class="prose mt-4 max-w-prose">{@html data.content}</div>{/if}
 
-<div class="mt-8 grid gap-x-8 gap-y-10 lg:grid-cols-2">
+{#if data.single}<p class="text-sm mt-2"><a href="/vitals/">All vitals</a> · <a href="/cards/vitals/{data.vitals[0].id}.png">card image</a></p>{/if}
+
+<div class="mt-8 grid gap-x-8 gap-y-10 {data.single ? '' : 'lg:grid-cols-2'}">
   {#each data.vitals as v}
     <section id={v.id}>
       <div class="flex items-baseline justify-between gap-3 flex-wrap">
-        <h2 class="text-xl">{v.title}</h2>
+        <h2 class="text-xl">{#if data.single}{v.title}{:else}<a href="/vitals/{v.id}/" class="text-ink hover:text-accent">{v.title}</a>{/if}</h2>
         {#if v.latest}<p class="text-sm tabular"><span class="text-ink">{v.latest.value} {v.unit}</span><span class="text-muted">{' · '}{v.latest.date}</span>{#if v.latest.anomaly != null}<span class="text-accent">{' · '}{sign(v.latest.anomaly)} {v.unit}</span><span class="text-muted">{' vs '}{v.baselineName}</span>{/if}</p>{/if}
       </div>
       {#if v.preliminary}<p class="text-xs text-muted tabular">preliminary {v.preliminary.date}: {v.preliminary.value} {v.unit}{#if v.preliminary.anomaly != null}, {sign(v.preliminary.anomaly)} {v.unit} vs {v.baselineName}{/if}</p>{/if}

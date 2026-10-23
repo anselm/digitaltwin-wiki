@@ -3,7 +3,10 @@ import { store, html, viewOf, card, domainCards } from '$lib/store.server.js'
 import { charts, W, H, P } from '$lib/vitals.server.js'
 
 export const prerender = true
-export const entries = () => store.entities.map((e) => ({ path: e.id }))
+export const entries = () => [...store.entities.map((e) => ({ path: e.id })), ...charts().map((v) => ({ path: `vitals/${v.id}` }))]
+
+// What a page offers when it is shared as a link: its own preview card (written by tools/share.js) and its address.
+const share = (path, card, alt) => ({ url: `/${path ? path + '/' : ''}`, image: `/cards/${card}.png`, alt })
 
 // Relative time at build time; the site is rebuilt on every deploy.
 function ago(d) {
@@ -21,10 +24,19 @@ const plural = (k) => ({ story: 'stories', 'data source': 'data sources' })[k] |
 export function load({ params }) {
   const id = (params.path || '').replace(/\/$/, '')
   const e = store.get(id)
+  // One Vitals series on a page of its own, so it can be linked and shared as a card.
+  const series = !e && id.match(/^vitals\/([a-z0-9-]+)$/)?.[1]
+  if (series) {
+    const v = charts([series]).find((c) => c.id === series)
+    if (!v) error(404, 'No such series')
+    const r = v.preliminary || v.latest
+    const description = r ? `${r.value} ${v.unit} on ${r.date}${v.preliminary ? ' (preliminary)' : ''}${r.anomaly != null ? `, ${r.anomaly > 0 ? '+' : ''}${r.anomaly} ${v.unit} against ${v.baselineName}` : ''}. ${v.source.split(',')[0]}, refreshed at every deploy.` : v.source
+    return { view: 'vitals', id, label: v.title, description, content: '', status: 'public', tags: [], single: true, vitals: [v], dims: { W, H, P }, share: share(id, `vitals/${series}`, `${v.title}: a chart of the series with the latest reading`) }
+  }
   if (!e) error(404, 'No such entry')
   if (e.redirect) return { view: 'redirect', to: `/${e.redirect.to}` }
   const view = viewOf(e)
-  const base = { view, id, label: e.about.label, description: e.about.description || '', content: html(e.content), status: e.provenance?.status || 'draft', tags: e.about.tags || [] }
+  const base = { view, id, label: e.about.label, description: e.about.description || '', content: html(e.content), status: e.provenance?.status || 'draft', tags: e.about.tags || [], share: share(id, id || 'index', `${e.about.label}: the page's title and summary`) }
   const domains = domainCards()
   const chips = (e) => (e.domains || []).map((d) => domains.find((x) => x.short === d)).filter(Boolean)
   const line = (e) => ({ ...card(e), chips: chips(e), ago: ago(e.provenance?.updated || e.provenance?.created) })
