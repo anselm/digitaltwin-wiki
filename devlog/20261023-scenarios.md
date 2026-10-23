@@ -112,3 +112,25 @@ Meinshausen et al. 2020 (GMD 13, 3571), the paper it cites, puts the
 lowest of all SSPs (SSP1-1.9) at 393.5 ppm in 2100 and the lowest of all
 in 2050 at 437.6 ppm, so both SSP1-2.6 figures are too low; the warming
 in that row follows from them. Told Anselm; his repo is not touched.
+
+## Bamboo, land use and fires in Indonesia and the Philippines (Anselm, same day)
+
+"An example scenario is better or wiser bamboo harvesting, and there are
+lots of interesting novel uses of bamboo that are just emerging today
+actually - changing the value landscape even more." He pointed to his
+2025 sim, TerraTwin (github.com/orbitalfoundation/terratwin, a bamboo
+agroforestry growth model for plots in Mindanao, with soil, pests,
+intercropping and harvest schedule over 20 years), as background, and
+asked that it not be cited. The point he wants on the record: a central
+use of a twin is comparing land uses, "especially in indonesia and the
+phillipines, and especially today where there are huge and tragic fires,
+some man made, some caused by global warming, and some man made using
+global warming as a pretext."
+
+Two scenarios are being written from primary pages: bamboo as a land
+use in the Philippines (policy, harvest practice, plantations against
+native bamboo, and the new uses changing what bamboo is worth), and land
+and peat fires in Indonesia. On fires, who lights them and why is
+contested, so the entry reports attributions only as named sources make
+them. When both are in, the land-use use case should point at them as
+its sharpest current examples.
