@@ -2,9 +2,10 @@
 about:
   label: 'Immense but not immutable: a decline in deep-pelagic life in the Gulf of Mexico'
   description: >-
-    PNAS study, October 2026: thirteen years of net and acoustic sampling in
-    the Gulf of Mexico's midwater found fish, crustaceans and squid down by
-    about 60% after the Deepwater Horizon spill, with no recovery since.
+    PNAS study, October 2026: thirteen years of nets, echosounders and
+    genetics in the Gulf of Mexico's open water found fish, krill and squid
+    down 60 to 85% within three and a half years of the Deepwater Horizon
+    spill, with no recovery since; the data is public.
   tags:
     - Deepwater Horizon
     - oil spill
@@ -13,40 +14,58 @@ about:
     - Gulf of Mexico
     - monitoring
     - regime shift
+    - Allee effect
 article:
   url: 'https://doi.org/10.1073/pnas.2616554123'
   published: '2026-10-19'
   publisher: Proceedings of the National Academy of Sciences
   authors:
     - Tracey T. Sutton
-    - Kevin Boswell
+    - Rosanna J. Milligan
+    - April B. Cook
+    - Kevin M. Boswell
     - Heather Bracken-Grissom
     - Marta D'Elia
     - Pedro A. Peres
+    - Daniel R. Hahn
+    - and eight others
 domains:
   - water
   - ecology
+open:
+  source: unknown
+  data: open
+  api: unknown
+  participation: unknown
+  licence: CC BY-NC-ND 4.0 (the paper)
+  note: All the study's data is published in GRIIDC under 27 DOIs, from raw echosounder files to species counts per net.
 relations:
   - predicate: raises
     target: questions/after-an-oil-spill
+  - predicate: measured_with
+    target: data-sources/griidc
 provenance:
   origin: agent
   sources:
+    - title: 'Immense but not immutable: A sudden and sustained decline in deep-pelagic life in a large oceanic ecosystem (PNAS 123 (43) e2616554123)'
+      url: 'https://www.pnas.org/doi/10.1073/pnas.2616554123'
     - title: 'Immense but not immutable (EurekAlert press release)'
       url: 'https://www.eurekalert.org/news-releases/1148521'
-    - title: '16 Years After Deepwater Horizon Spill, Deep Sea Life in The Gulf of Mexico Shows No Sign of Recovery (ScienceAlert)'
-      url: 'https://www.sciencealert.com/16-years-after-deepwater-horizon-spill-deep-sea-life-in-the-gulf-of-mexico-shows-no-sign-of-recovery'
   created: '2026-10-24'
   reviewed: '2026-10-24'
-  reviewed_by: 'Claude, from the press release and the news story; the paper on pnas.org refused the request and was not read, and the author list above is the press release''s, which may not be complete'
+  reviewed_by: 'Claude, from the full text of the paper as pasted by Anselm (pnas.org refused a direct request) and the press release'
   status: draft
 ---
-The deep-pelagic zone is the open water between a few hundred and a few thousand metres down, where the Gulf of Mexico's lanternfishes, bristlemouths, krill and small squid live. Many of them rise towards the surface at night and sink by day. Tracey Sutton of Nova Southeastern University and colleagues at Florida International University sampled that community with more than 2,000 net tows from 2011, the year after the Deepwater Horizon spill, through 2023, alongside acoustic surveys and genetic work on three lanternfish species. The work was funded by NOAA Research and the Gulf of Mexico Research Initiative.
+The open water of the Gulf of Mexico below 200 metres holds 90.4% of the Gulf's volume. Its fishes, shrimps, krill and small squid rise from as deep as 1,200 metres to near the surface each night to feed, which makes them the link between the plankton and the tunas, dolphins, whales and seabirds that eat them. Tracey Sutton of Nova Southeastern University and fifteen co-authors counted that community from the surface to 1,500 metres for thirteen years, and found it collapsed and still down.
 
-The counts fell and stayed down. Against the 2011 samples, the press release gives fishes down 64%, large crustaceans 62% and small squid and other cephalopods 60%; among single groups, krill down nearly 73%, lanternfishes 63% and bristlemouths 69%. Dense patches of prey that were common in 2011 had all but disappeared. The authors call it a sudden and persistent decline, a shift to a lasting state of low abundance.
+The baseline is a nine-month campaign of continuous sampling in 2011, starting three months after the Deepwater Horizon well was sealed, on a grid of 46 stations in the northern and eastern Gulf. The DEEPEND programme returned nine times between 2015 and 2023 with the same net, the same single unit of it in fact, fished the same way, and the same people sorting the catch. Ships' echosounders ran alongside the nets, and the team tracked genetic diversity in three species of lanternfish. Older counts from the 1980s and 1990s at one station inside the grid sit close to the 2011 numbers, so 2011 was the normal state, not an unusually rich year.
 
-They did not prove the spill caused it. They checked deep-water temperature, oxygen and food, found none of them changing with the decline, and kept their sampling methods the same throughout; the spill and the response to it are the one event that lines up in time, which they call the most plausible explanation. The response included about 770,000 gallons of dispersant injected near the wellhead. Oil-related compounds have been found in deep-water fish eggs and in cephalopod tissue, and the release suggests they may dull the sense of smell these animals use to find mates, a possibility the study does not test.
+Within three and a half years, depending on the group, abundance fell 60 to 85%. Fishes fell 63.5%, the larger crustaceans 62.0% and small cephalopods 59.7%. Krill fell 72.8%, lanternfishes 62.9% and the bristlemouths of the genus Cyclothone, which may be the most numerous vertebrates on Earth, 69.0%. Some of the crustacean and squid losses show up as early as August 2011. The acoustic surveys fell too, by 40% near the surface at night. The authors know of nothing comparable: the fish decline was larger than any in sixty years of the California Current record, the only other long series of its kind. The dense patches of prey that predators need also went: in 134 full-depth samples since the decline, the biggest fish catch beat the smallest 2011 catch once. Two of the three lanternfish species lost genetic diversity, one by up to 13% before a partial rebound.
 
-Whether the community will recover, and how long that would take, the authors say they do not know. One of them, Pedro Peres, draws the lesson for monitoring: even species that look abundant can change a great deal without anyone noticing, unless someone keeps counting.
+The paper then works through the causes. The method did not change. Temperature at depth held steady and the water stayed well oxygenated. The plankton these animals eat was above average in 2013, in the middle of the decline. What remains is the spill and the response to it: 4.0 to 4.9 million barrels of oil over 87 days, and 770,000 gallons of the dispersant Corexit 9500A injected at the wellhead, 1,500 metres down. Other work has shown the oil's invisible footprint covering nearly the eastern half of the Gulf, far beyond what the satellites saw, and oil that settled on the sea floor being stirred back up for years. Oil compounds turned up in the eggs of deep-sea fishes six years later at levels known to harm fish. The authors call the spill the most parsimonious explanation, not a proven one.
 
-For a model of a sea, this is a case where the damage was not where the satellites looked. The surface slick was mapped from space at the time; the midwater losses were found only by nets, a decade of them. A model of the spill's reach needs that layer, and the [use case on oil spills](/questions/after-an-oil-spill/) sets out what such a model would hold.
+Why no recovery? The authors point to the Allee effect: below some density, animals find mates less often, inbreed more, and fail to rebuild, which matters most where animals are sparse and find each other by smell in the dark. Lags are known from other spills. Prince William Sound's herring collapsed four years after the Exxon Valdez and have not come back.
+
+The losses run upward. Other surveys have found the Gulf's deep-diving whales down since the spill, 83.4% for Gervais' beaked whale, 49% for the goose-beaked whale and 31% for the sperm whale, and the paper notes these declines are larger than the models of the spill's damage predicted. Tagged sperm whales now range widely instead of foraging in their usual patterns, endangered Rice's whales are seen feeding near the bottom and often failing, and stranded whales are described as emaciated. Fewer migrating animals also means less carbon carried into the deep each night.
+
+For a model of a sea, three things stand out. The damage was below the layer that satellites watch. The models of the damage underestimated it. And every number here is public: the counts, sensor logs, echosounder files and genetic data are in [GRIIDC](/data-sources/griidc/) under 27 DOIs, enough to test a food-web or recovery model against what happened. The [use case on oil spills](/questions/after-an-oil-spill/) sets out what such a model would hold.

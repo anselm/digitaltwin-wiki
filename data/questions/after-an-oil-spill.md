@@ -17,7 +17,7 @@ provenance:
     by Anselm
   status: draft
 ---
-A spill has a first week and a long tail. In the first week the question is where the slick will be tomorrow, and responders answer it with trajectory models. The long tail is where models of places are thin. Sixteen years after Deepwater Horizon, a [study of the Gulf of Mexico's midwater](/articles/immense-but-not-immutable-deep-pelagic-decline/) found its fish, krill and squid down by around 60% and not recovering, a loss nobody saw from the surface.
+A spill has a first week and a long tail. In the first week the question is where the slick will be tomorrow, and responders answer it with trajectory models. The long tail is where models of places are thin. Sixteen years after Deepwater Horizon, a [study of the Gulf of Mexico's midwater](/articles/immense-but-not-immutable-deep-pelagic-decline/) found its fish, krill and squid down 60 to 85% and not recovering, a loss nobody saw from the surface. The Gulf's deep-diving whales fell further than the models of the spill's damage had predicted.
 
 The people who carry the long tail are concrete: a fisheries council setting catch limits, a coastal town whose charter boats and processors depend on those fish, a trustee or agency deciding where restoration money goes, a court or an insurer weighing damage.
 
@@ -31,9 +31,9 @@ The people who carry the long tail are concrete: a fisheries council setting cat
 
 ## What kind of model answers it
 
-**Trajectory and weathering models** move oil with the wind and the currents and show how it changes on the surface. NOAA's [GNOME](/engines/noaa-gnome/), built by its emergency responders, is free on the web. **Ocean circulation models** supply the currents, including the deep ones a surface trajectory model does not cover. **Food-web models** follow what a loss at one level does to the levels above and below. [Ecopath with Ecosim](/engines/ecopath-with-ecosim/) is a free one, and its Ecotracer module follows a contaminant through the web. **Monitoring** is the part no model replaces: the Gulf study rests on more than 2,000 net tows over thirteen years.
+**Trajectory and weathering models** move oil with the wind and the currents and show how it changes on the surface. NOAA's [GNOME](/engines/noaa-gnome/), built by its emergency responders, is free on the web. **Ocean circulation models** supply the currents, including the deep ones a surface trajectory model does not cover. **Food-web models** follow what a loss at one level does to the levels above and below. [Ecopath with Ecosim](/engines/ecopath-with-ecosim/) is a free one, and its Ecotracer module follows a contaminant through the web. **Monitoring** is the part no model replaces: the Gulf study rests on more than 2,000 net samples over thirteen years, and its counts are public in [GRIIDC](/data-sources/griidc/), so a model can be tested against them.
 
-A whole-system model of a spill joins these: oil and currents feeding exposure, exposure feeding the food web, the food web feeding fisheries and the people who depend on them. Each link is a published kind of model; the joins between them are where the work is.
+A whole-system model of a spill joins these: oil and currents feeding exposure, exposure feeding the food web, the food web feeding fisheries and the people who depend on them. Each link is a published kind of model; the joins between them are where the work is. The Gulf adds one more link that simple models leave out: below some density, sparse animals stop finding mates, so a population knocked down can stay down. Ecologists call it the Allee effect.
 
 ## What you need
 
