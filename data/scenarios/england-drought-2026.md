@@ -37,14 +37,14 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-By late July 2026 England had received just 7% of its long-term average July rainfall, putting the month on track to be the driest July on record, after three heatwaves. On 29 July the Environment Agency moved over half of England, London included, into drought. Farmers harvested early, expected poorer cereal yields, reported more fires during harvest, and began feeding livestock their winter forage; the salad season ended early. By the week of 16 to 22 October, national reservoir storage was 54% of capacity, about 22% below the long-term average. On 15 October the government declared severe drought in parts of six counties in the south-west and south-east, mainly because of the low levels of Ardingly and Wimbleball reservoirs. Ten water companies had hosepipe bans in force. There were 696 restrictions on abstraction licences, formal restrictions in parts of East Anglia, and 1,383 voluntary restrictions halving abstraction in the Thames, Wye and Severn catchments. The Environment Agency had recorded 411 drought incidents in 2026, more than in all of 2022 (380) or 2025 (321), including 106 confirmed dead fish incidents.
+By late July 2026 England had received just 7% of its long-term average July rainfall, putting the month on track to be the driest July on record, after three heatwaves.[^3] On 29 July the Environment Agency moved over half of England, London included, into drought.[^3] Farmers harvested early, expected poorer cereal yields, reported more fires during harvest, and began feeding livestock their winter forage; the salad season ended early.[^3] By the week of 16 to 22 October, national reservoir storage was 54% of capacity, about 22% below the long-term average.[^1] On 15 October the government declared severe drought in parts of six counties in the south-west and south-east, mainly because of the low levels of Ardingly and Wimbleball reservoirs.[^1,2] Ten water companies had hosepipe bans in force.[^1] There were 696 restrictions on abstraction licences, formal restrictions in parts of East Anglia, and 1,383 voluntary restrictions halving abstraction in the Thames, Wye and Severn catchments.[^1] The Environment Agency had recorded 411 drought incidents in 2026, more than in all of 2022 (380) or 2025 (321), including 106 confirmed dead fish incidents.[^1]
 
 ## Who needs an answer
 
-- Farmers deciding how much to plant for irrigation in 2027; some are considering smaller areas of high-value vegetables because their storage reservoirs may not refill.
-- The Environment Agency, setting and lifting restrictions on abstraction licences to protect rivers, and deciding how far to extend flexibility such as letting licence holders fill reservoirs outside their usual season.
-- Water companies running drought permits, orders and hosepipe bans, with particular concern over Ardingly and Wimbleball.
-- The National Drought Group and the canal and river navigation authorities managing closures.
+- Farmers deciding how much to plant for irrigation in 2027; some are considering smaller areas of high-value vegetables because their storage reservoirs may not refill.[^1]
+- The Environment Agency, setting and lifting restrictions on abstraction licences to protect rivers, and deciding how far to extend flexibility such as letting licence holders fill reservoirs outside their usual season.[^1,2]
+- Water companies running drought permits, orders and hosepipe bans, with particular concern over Ardingly and Wimbleball.[^1]
+- The National Drought Group and the canal and river navigation authorities managing closures.[^1,3]
 
 ## The domains it chains
 
@@ -58,4 +58,4 @@ Rainfall, soils and groundwater recharge; river flows and the licence conditions
 
 ## Where to start
 
-The Environment Agency publishes a weekly drought summary on GOV.UK with rainfall, river flows, groundwater, reservoir storage, licence restrictions and incident counts, and says it will publish an agriculture reservoir refill prospect report.
+The Environment Agency publishes a weekly drought summary on GOV.UK with rainfall, river flows, groundwater, reservoir storage, licence restrictions and incident counts, and says it will publish an agriculture reservoir refill prospect report.[^1]

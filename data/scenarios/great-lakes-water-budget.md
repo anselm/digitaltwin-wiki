@@ -37,19 +37,19 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Lakes Superior, Michigan, Huron, Erie and Ontario hold about 21% of the world's surface fresh water and 84% of North America's, according to the US EPA. Earth.com reports that the water was left by retreating ice sheets about 10,000 years ago, that rain, snowmelt, runoff and groundwater replace less than 1% of it each year, and that hydrologists therefore treat it as effectively non-renewable on a human timescale. Industry, power plants, farms and utilities draw about 44 billion gallons a day; most returns, and evaporation, manufacturing and diversions out of the basin take the rest. Air temperatures around the lakes have risen almost 3°F since 1951, and maximum ice cover has fallen about 5% a decade, with a record low in 2024. A 2026 commentary by Donald Wuebbles and Kenneth Kunkel finds the deep water warming fastest and expects lake levels to swing further from the long-term average. The same slow turnover means contaminants stay for decades. In August 2014 a toxic bloom in western Lake Erie shut off drinking water for about 500,000 people around Toledo. The EPA counts more than 30 million people living in the basin; Earth.com says about 40 million in the US and Canada drink from the lakes. Since 2008 the Great Lakes Compact has barred most transfers of water out of the basin.
+Lakes Superior, Michigan, Huron, Erie and Ontario hold about 21% of the world's surface fresh water and 84% of North America's, according to the US EPA.[^3] Earth.com reports that the water was left by retreating ice sheets about 10,000 years ago, that rain, snowmelt, runoff and groundwater replace less than 1% of it each year, and that hydrologists therefore treat it as effectively non-renewable on a human timescale.[^1] Industry, power plants, farms and utilities draw about 44 billion gallons a day; most returns, and evaporation, manufacturing and diversions out of the basin take the rest.[^1] Air temperatures around the lakes have risen almost 3°F since 1951, and maximum ice cover has fallen about 5% a decade, with a record low in 2024.[^1] A 2026 commentary by Donald Wuebbles and Kenneth Kunkel finds the deep water warming fastest and expects lake levels to swing further from the long-term average.[^2] The same slow turnover means contaminants stay for decades.[^1] In August 2014 a toxic bloom in western Lake Erie shut off drinking water for about 500,000 people around Toledo.[^1] The EPA counts more than 30 million people living in the basin;[^3] Earth.com says about 40 million in the US and Canada drink from the lakes.[^1] Since 2008 the Great Lakes Compact has barred most transfers of water out of the basin.[^1]
 
 ## Who needs an answer
 
 - The states and province that share the lakes, under a Compact that bars most transfers of water out of the basin.
-- The International Joint Commission, which tracks conditions under the binational Great Lakes Water Quality Agreement.
+- The International Joint Commission, which tracks conditions under the binational Great Lakes Water Quality Agreement.[^1]
 - Drinking water utilities whose intakes sit in lakes that hold on to whatever enters them.
 - Shoreline towns and infrastructure owners facing higher and more variable lake levels.
-- Fisheries managers, since lake whitefish eggs need winter ice cover.
+- Fisheries managers, since lake whitefish eggs need winter ice cover.[^1]
 
 ## The domains it chains
 
-Inflow, evaporation and outflow through the St. Lawrence; winter ice, which slows evaporation; warmer water that layers earlier and loses oxygen at depth; phosphorus from farm fields feeding blooms; about 190 established non-native species; withdrawals for cities, industry and power; and the law that limits diversions.
+Inflow, evaporation and outflow through the St. Lawrence; winter ice, which slows evaporation; warmer water that layers earlier and loses oxygen at depth; phosphorus from farm fields feeding blooms; about 190 established non-native species;[^1] withdrawals for cities, industry and power; and the law that limits diversions.
 
 ## What a twin should let people try
 
@@ -59,4 +59,4 @@ Inflow, evaporation and outflow through the St. Lawrence; winter ice, which slow
 
 ## Where to start
 
-NOAA's Great Lakes Environmental Research Laboratory keeps the ice cover records back to 1973, and the EPA's Great Lakes pages give the basin's physical figures. The [NOAA National Water Model](/engines/noaa-national-water-model/) simulates streamflow in US rivers, including those that feed the lakes.
+NOAA's Great Lakes Environmental Research Laboratory keeps the ice cover records back to 1973,[^1] and the EPA's Great Lakes pages give the basin's physical figures.[^3] The [NOAA National Water Model](/engines/noaa-national-water-model/) simulates streamflow in US rivers, including those that feed the lakes.

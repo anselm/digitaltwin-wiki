@@ -38,12 +38,12 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-In 1989 Ted Turner bought the Flying D, a cattle ranch in southwestern Montana that had run about 7,000 to 8,000 head at its peak, with creek bottoms worn to mud in places. He took the cattle off, pulled out hundreds of miles of internal barbed wire and put bison on it. Letting the bison range almost freely overgrazed some areas and undergrazed others, so some fencing went back up. The ranch, protected by a conservation easement since 1989, now carries about 4,500 bison across nearly 114,000 acres, and more than 5,000 acres of former cropland have gone back to grazing. It remains a working business: the bison are privately owned, actively managed and part of a commercial ranching system. Turner died on 6 May 2026.
+In 1989 Ted Turner bought the Flying D, a cattle ranch in southwestern Montana that had run about 7,000 to 8,000 head at its peak, with creek bottoms worn to mud in places.[^2] He took the cattle off, pulled out hundreds of miles of internal barbed wire and put bison on it.[^2] Letting the bison range almost freely overgrazed some areas and undergrazed others, so some fencing went back up.[^2] The ranch, protected by a conservation easement since 1989, now carries about 4,500 bison across nearly 114,000 acres, and more than 5,000 acres of former cropland have gone back to grazing.[^1] It remains a working business: the bison are privately owned, actively managed and part of a commercial ranching system.[^2] Turner died on 6 May 2026.[^2]
 
 ## Who needs an answer
 
 - Ranchers weighing whether to switch from cattle to bison, and what fencing, water and grazing plan that takes.
-- State wildlife managers, since the ranch shares streams and wildlife with public land; Montana Fish, Wildlife & Parks has worked with it on native trout.
+- State wildlife managers, since the ranch shares streams and wildlife with public land; Montana Fish, Wildlife & Parks has worked with it on native trout.[^1]
 - Land trusts and easement holders deciding what a working-land easement should require.
 
 ## The domains it chains
@@ -58,4 +58,4 @@ Grazing animals and how they move; grass and plant diversity; streams, banks and
 
 ## Where to start
 
-The ranch's own page lists its streams (Spanish, Cherry and Elk creeks among them), the 70 miles of restored trout habitat and the 3,000 acres of treated forest. Two field studies give comparisons to build on. A 29-year experiment at Konza Prairie in Kansas found bison raised native plant richness by 103% at small scales, against less than half that for cattle. A study in northcentral Montana found shrubs, woody plants and perennial grasses along streams increased faster in bison pastures than in cattle pastures. Neither measured the Flying D itself. Wildlife records on [iNaturalist](/data-sources/inaturalist/) and ecosystem-service models such as [InVEST](/engines/invest/) can help frame a comparison.
+The ranch's own page lists its streams (Spanish, Cherry and Elk creeks among them), the 70 miles of restored trout habitat and the 3,000 acres of treated forest.[^1] Two field studies give comparisons to build on. A 29-year experiment at Konza Prairie in Kansas found bison raised native plant richness by 103% at small scales, against less than half that for cattle.[^3] A study in northcentral Montana found shrubs, woody plants and perennial grasses along streams increased faster in bison pastures than in cattle pastures.[^4] Neither measured the Flying D itself. Wildlife records on [iNaturalist](/data-sources/inaturalist/) and ecosystem-service models such as [InVEST](/engines/invest/) can help frame a comparison.
