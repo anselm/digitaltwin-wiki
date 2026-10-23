@@ -2,9 +2,7 @@
 about:
   label: Major TOM
   description: >-
-    Shared global grid and open satellite datasets from ESA's Φ-lab: Sentinel-2
-    and Sentinel-1 imagery, elevation, night lights and AI embeddings, all cut
-    to the same 10 km cells and downloadable from Hugging Face.
+    Shared global grid and open satellite datasets from ESA's Φ-lab: Sentinel-2 and Sentinel-1 imagery, elevation, night lights and AI embeddings, cut to the same 10 km cells, on Hugging Face.
   tags:
     - satellite
     - sentinel
@@ -59,17 +57,17 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Satellite datasets for training AI usually arrive in their own formats, cut into their own tiles. Major TOM, short for Terrestrial Observation Metaset, puts them on one grid instead: a set of points about 10 km apart covering the globe, each naming a cell. A Sentinel-2 image, a terrain model and a night-light reading for the same cell then share a cell ID. A script in the repository makes grids at other spacings. Alistair Francis and Mikolaj Czerkawski of ESA's Φ-lab proposed it in a paper posted in February 2024 and presented at IGARSS 2024.
+Satellite datasets for training AI usually arrive in their own formats, cut into their own tiles. Major TOM, short for Terrestrial Observation Metaset, puts them on one grid instead: a set of points about 10 km apart covering the globe, each naming a cell.[^1,3] A Sentinel-2 image, a terrain model and a night-light reading for the same cell then share a cell ID.[^1] A script in the repository makes grids at other spacings.[^3] Alistair Francis and Mikolaj Czerkawski of ESA's Φ-lab proposed it in a paper posted in February 2024 and presented at IGARSS 2024.[^1,3]
 
-The core image datasets each cover nearly all of the land their sensor sees:
+The core image datasets each cover nearly all of the land their sensor sees:[^4,5]
 
-- Sentinel-2 colour and infrared imagery at two processing levels, 2,245,886 patches of 1,068 by 1,068 pixels at 10 m, about 23 TB each
-- Sentinel-1 radar, 1,469,955 patches, about 16 TB
-- Copernicus 30 m elevation, 1,837,843 patches, made with Adobe Research
-- yearly night-time light from the VIIRS satellite sensor for 2016 to 2024, made with CloudFerro and Asterisk Labs, with far fewer patches for 2016 to 2018 and only 442 for 2024
+- Sentinel-2 colour and infrared imagery at two processing levels, 2,245,886 patches of 1,068 by 1,068 pixels at 10 m, about 23 TB each[^3,4]
+- Sentinel-1 radar, 1,469,955 patches, about 16 TB[^3]
+- Copernicus 30 m elevation, 1,837,843 patches, made with Adobe Research[^3,5]
+- yearly night-time light from the VIIRS satellite sensor for 2016 to 2024, made with CloudFerro and Asterisk Labs, with far fewer patches for 2016 to 2018 and only 442 for 2024[^6]
 
-Many more of the datasets are embeddings. An embedding is a list of numbers a trained AI model gives to an image, chosen so that places that look alike get similar lists. Major TOM has run its patches through published models such as DINOv2, Clay and [SatCLIP](/engines/satclip/), one dataset per model. A prototype subset of Google's AlphaEarth embeddings covers 62,489 cells, each holding 1,068 by 1,068 embeddings of 64 numbers. Because every set keys on the same cells, someone modelling a region can take its imagery, elevation, night lights and embeddings together and compare one model's view of a place with another's.
+Many more of the datasets are embeddings. An embedding is a list of numbers a trained AI model gives to an image, chosen so that places that look alike get similar lists. Major TOM has run its patches through published models such as DINOv2, Clay and [SatCLIP](/engines/satclip/), one dataset per model.[^3,8,9] A prototype subset of Google's AlphaEarth embeddings covers 62,489 cells, each holding 1,068 by 1,068 embeddings of 64 numbers.[^7] Because every set keys on the same cells, someone modelling a region can take its imagery, elevation, night lights and embeddings together and compare one model's view of a place with another's.
 
-The files sit on Hugging Face as Parquet tables of patches and can be read one patch at a time over the web, so a study of one valley does not need terabytes on disk. A browser viewer shows samples, and the GitHub repository has Python notebooks for filtering by area and for reading the embeddings. Anyone can read the datasets; to add one that follows the Major TOM layout, a contributor asks the organisation's admins for write access.
+The files sit on Hugging Face as Parquet tables of patches and can be read one patch at a time over the web, so a study of one valley does not need terabytes on disk.[^4,5] A browser viewer shows samples, and the GitHub repository has Python notebooks for filtering by area and for reading the embeddings.[^3] Anyone can read the datasets; to add one that follows the Major TOM layout, a contributor asks the organisation's admins for write access.[^3]
 
-The helper code is Apache 2.0. Most datasets are CC BY-SA 4.0, which lets you reuse them, including commercially, so long as you credit the source and share derived data under the same licence. The AlphaEarth embeddings subset, the night lights and the COP-GEN benchmark are CC BY 4.0, which asks only for credit. Most image sets hold a single date per place, so on their own they show what a place looked like once rather than how it changed.
+The helper code is Apache 2.0.[^3] Most datasets are CC BY-SA 4.0,[^9] which lets you reuse them, including commercially, so long as you credit the source and share derived data under the same licence. The AlphaEarth embeddings subset, the night lights and the COP-GEN benchmark are CC BY 4.0, which asks only for credit.[^6,7,9] Most image sets hold a single date per place,[^4,5] so on their own they show what a place looked like once rather than how it changed.

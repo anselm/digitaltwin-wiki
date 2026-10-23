@@ -3,10 +3,7 @@ about:
   depiction: data-sources/global-safety-net-v3-gsn3.jpg
   label: Global Safety Net v3
   description: >-
-    Global map from One Earth and Nature Data Lab of lands and inland waters
-    important for biodiversity, ecosystem services and climate, with land cover
-    and conservation status, to be updated yearly; a free web viewer launched
-    in September 2026.
+    Global map from One Earth and Nature Data Lab of lands and inland waters important for biodiversity, ecosystem services and climate, with land cover and conservation status, in a free yearly viewer.
   tags:
     - conservation
     - biodiversity
@@ -53,14 +50,14 @@ domains:
   - ecology
   - places
 ---
-The Global Safety Net is an open scientific project of One Earth and Nature Data Lab. Collaborators include The Nature Conservancy, IIASA and ESA. Version 3, launched on 23 September 2026, is the first meant to be refreshed every year. It maps Areas of Importance for Biodiversity and Ecosystem Services across the world's lands and inland waters. The map combines thirteen datasets, then removes land converted to intensive human use according to The Nature Conservancy's Human Modification time series. Geospatial computation runs on Google Earth Engine. The UK firm Octophin built the web application.
+The Global Safety Net is an open scientific project of One Earth and Nature Data Lab.[^1] Collaborators include The Nature Conservancy, IIASA and ESA.[^1] Version 3, launched on 23 September 2026, is the first meant to be refreshed every year.[^2,3] It maps Areas of Importance for Biodiversity and Ecosystem Services across the world's lands and inland waters.[^2,3] The map combines thirteen datasets, then removes land converted to intensive human use according to The Nature Conservancy's Human Modification time series.[^2,3] Geospatial computation runs on Google Earth Engine. The UK firm Octophin built the web application.[^2,3]
 
-The viewer has three views:
+The viewer has three views:[^2,3]
 
-- Ecological group: five priority categories, such as rare and threatened species, and wild and intact areas.
-- Land cover class: thirteen types from the ESA CCI land cover series, plus inland surface water.
-- Conservation status: protected areas, OECMs (other effective area-based conservation measures), documented conservation areas, and Indigenous and Traditional Territories.
+- Ecological group: five priority categories, such as rare and threatened species, and wild and intact areas.[^2,3]
+- Land cover class: thirteen types from the ESA CCI land cover series, plus inland surface water.[^3]
+- Conservation status: protected areas, OECMs (other effective area-based conservation measures), documented conservation areas, and Indigenous and Traditional Territories.[^2,3]
 
-For each nation, state and county the map reports conservation status and the rate of ecological degradation. The figures are set against the Kunming-Montreal target of conserving 30% of land and inland waters by 2030.
+For each nation, state and county the map reports conservation status and the rate of ecological degradation.[^3] The figures are set against the Kunming-Montreal target of conserving 30% of land and inland waters by 2030.[^2,3]
 
-The viewer is free and needs no login. The rare and threatened species layers require an IBAT licence.
+The viewer is free and needs no login.[^2,3] The rare and threatened species layers require an IBAT licence.[^3]
