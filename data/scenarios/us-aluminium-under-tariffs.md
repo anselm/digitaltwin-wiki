@@ -29,8 +29,8 @@ provenance:
       url: 'https://www.supplychaindive.com/news/aluminum-steel-tinplate-tariffs-midwest-premium-2026/814102'
     - title: 'Portolan: world trade routes, tariffs and maritime chokepoints'
       url: 'https://portolan.cc'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

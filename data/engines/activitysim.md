@@ -46,8 +46,8 @@ provenance:
       url: 'https://activitysim.github.io/activitysim/v1.6.0/users-guide/model_anatomy.html'
     - title: 'Example Models (ActivitySim 1.6.0)'
       url: 'https://activitysim.github.io/activitysim/v1.6.0/users-guide/example_models.html'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

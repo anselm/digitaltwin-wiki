@@ -42,8 +42,8 @@ provenance:
       url: 'https://github.com/mesa/mesa-geo'
     - title: 'Mesa 3: Agent-based modeling with Python in 2025 (Crossref record)'
       url: 'https://api.crossref.org/works/10.21105/joss.07668'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

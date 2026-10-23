@@ -28,8 +28,8 @@ provenance:
       url: 'https://www.nasaharvest.org/news/how-harvest2market-connects-crop-trade-and-food-security-data'
     - title: 'Yohan (@yohaniddawela) on X, 8 July 2026'
       url: 'https://x.com/yohaniddawela/status/2074802316054593856'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

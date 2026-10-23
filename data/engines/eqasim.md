@@ -39,8 +39,8 @@ provenance:
       url: 'https://eqasim-org.github.io/eqasim-france/population/population_summary.html'
     - title: 'Gathering the data, Eqasim'
       url: 'https://eqasim-org.github.io/eqasim-france/population/population_data.html'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

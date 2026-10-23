@@ -39,8 +39,8 @@ provenance:
       url: 'https://www.ihsn.org/projects/synthetic-populations'
     - title: 'Simulation of Synthetic Complex Data: The R Package simPop (Crossref record)'
       url: 'https://api.crossref.org/works/10.18637/jss.v079.i10'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

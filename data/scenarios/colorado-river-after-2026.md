@@ -58,8 +58,8 @@ provenance:
       url: 'https://www.deseret.com/the-west/2026/08/24/nevada-files-lawsuit-over-colorado-river-utah-reaction/'
     - title: 'What the new rules for a shrinking Colorado River mean for tribal nations (High Country News, 28 August 2026)'
       url: 'https://www.hcn.org/articles/what-the-new-rules-for-a-shrinking-colorado-river-mean-for-tribal-nations/'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

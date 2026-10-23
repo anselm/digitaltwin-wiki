@@ -36,8 +36,8 @@ provenance:
       url: 'https://www.worldfishing.net/aquaculture/mowi-debuts-chilean-solar-fish-farm/1509700.article'
     - title: 'A ring of floating solar around a Chilean salmon farm erased 36,750 gallons of diesel a year (Ecoportal, 21 August 2026)'
       url: 'https://www.ecoportal.net/en/island-chile-floating-solar-panels/28686/'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

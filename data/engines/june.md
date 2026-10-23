@@ -37,8 +37,8 @@ provenance:
       url: 'https://github.com/IDAS-Durham/JUNE'
     - title: 'June: open-source individual-based epidemiology simulation (Crossref record)'
       url: 'https://api.crossref.org/works/10.1098/rsos.210506'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

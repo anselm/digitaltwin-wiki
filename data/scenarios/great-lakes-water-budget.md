@@ -31,8 +31,8 @@ provenance:
       url: 'https://api.crossref.org/works/10.1111/1752-1688.70078'
     - title: 'Great Lakes Facts and Figures (US EPA)'
       url: 'https://www.epa.gov/greatlakes/great-lakes-facts-and-figures'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

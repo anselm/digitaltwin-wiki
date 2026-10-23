@@ -49,8 +49,8 @@ provenance:
       url: 'https://arxiv.org/abs/2411.10109'
     - title: 'Simulating human behavior | Simile'
       url: 'https://www.simile.com/'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

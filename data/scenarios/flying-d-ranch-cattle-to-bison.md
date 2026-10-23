@@ -32,8 +32,8 @@ provenance:
       url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9457053/'
     - title: 'Bison Reintroduction to Mixed-Grass Prairie Is Associated With Increases in Bird Diversity and Cervid Occupancy in Riparian Areas (Frontiers in Ecology and Evolution, 2022)'
       url: 'https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.821822/full'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

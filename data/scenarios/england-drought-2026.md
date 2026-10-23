@@ -31,8 +31,8 @@ provenance:
       url: 'https://www.gov.uk/government/publications/dry-weather-and-drought-in-england-2026-summary-reports/dry-weather-and-drought-in-england-9-to-15-october-2026'
     - title: 'Dry weather and drought in England: 24 to 30 July 2026 (Environment Agency, GOV.UK)'
       url: 'https://www.gov.uk/government/publications/dry-weather-and-drought-in-england-2026-summary-reports/dry-weather-and-drought-in-england-24-to-30-july-2026'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

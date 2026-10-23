@@ -28,8 +28,8 @@ provenance:
       url: 'https://www.whoi.edu/press-room/news-release/strait-of-hormuz/'
     - title: 'Thousands of idle ships trapped near the Strait of Hormuz could become floating nurseries for invasive marine species (Times of India, 23 July 2026)'
       url: 'https://timesofindia.indiatimes.com/science/thousands-of-idle-ships-trapped-near-the-strait-of-hormuz-could-become-floating-nurseries-for-invasive-marine-species-and-spread-them-worldwide-when-trade-resumes/articleshow/132576193.cms'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

@@ -39,8 +39,8 @@ provenance:
       url: 'https://docs.nvidia.com/nemo/datadesigner/concepts/person-sampling'
     - title: 'NVIDIA-NeMo/DataDesigner (README)'
       url: 'https://github.com/NVIDIA-NeMo/DataDesigner'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

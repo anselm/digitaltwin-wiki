@@ -44,8 +44,8 @@ provenance:
       url: 'https://docs.netlogo.org/programming.html'
     - title: 'NetLogo Tutorial #1: Models'
       url: 'https://docs.netlogo.org/tutorial1.html'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

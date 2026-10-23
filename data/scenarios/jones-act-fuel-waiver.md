@@ -27,8 +27,8 @@ provenance:
       url: 'https://www.americanactionforum.org/insight/the-jones-act-petroleum-waiver-assessing-flows-and-cost-savings/'
     - title: "The Jones Act Waivers Aren't Achieving Stated Purpose But Hinder Long Term Maritime Goals (Center for Maritime Strategy, 7 May 2026)"
       url: 'https://centerformaritimestrategy.org/publications/the-jones-act-waivers-arent-achieving-stated-purpose-but-hinder-long-term-maritime-goals/'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

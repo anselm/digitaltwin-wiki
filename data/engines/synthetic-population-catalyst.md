@@ -39,8 +39,8 @@ provenance:
       url: 'https://alan-turing-institute.github.io/uatk-spc/understanding_data_sources.html'
     - title: 'alan-turing-institute/uatk-spc (README)'
       url: 'https://github.com/alan-turing-institute/uatk-spc'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

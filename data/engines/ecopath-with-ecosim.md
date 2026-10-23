@@ -31,8 +31,8 @@ provenance:
   sources:
     - title: 'Ecopath with Ecosim'
       url: 'https://ecopath.org/'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the source listed'
   status: draft
 ---

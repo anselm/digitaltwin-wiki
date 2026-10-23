@@ -1,4 +1,4 @@
-# Challenges: a shelf for concrete things to model (2026-10-24)
+# Challenges: a shelf for concrete things to model (2026-10-23)
 
 Anselm: "One of the real challenges in building a digital twin is having
 extremely concrete use cases, applications, users. I notice that there's
@@ -27,7 +27,7 @@ the PNAS paper Anselm pasted in full (pnas.org refuses our requests).
 
 ## His list
 
-Saved verbatim at `inbox/2026-10-24-things-to-model.md`. Four writer
+Saved verbatim at `inbox/2026-10-23-things-to-model.md`. Four writer
 agents took it in groups (water; shipping and trade; land and livestock;
 energy and the rest), each from pages read, X posts through
 api.fxtwitter.com, then refuters. His own sites (hormuz.exe.xyz,

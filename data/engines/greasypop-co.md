@@ -37,8 +37,8 @@ provenance:
       url: 'https://github.com/CDDEP-DC/GREASYPOP-CO'
     - title: 'Generating geographically and economically realistic large-scale synthetic contact networks: A general method using publicly available data (arXiv:2406.14698)'
       url: 'https://arxiv.org/abs/2406.14698'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

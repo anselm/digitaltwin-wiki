@@ -36,8 +36,8 @@ provenance:
       url: 'https://github.com/BDI-pathogens/OpenABM-Covid19'
     - title: 'OpenABM-Covid19, An agent-based model for non-pharmaceutical interventions against COVID-19 including contact tracing (Crossref record)'
       url: 'https://api.crossref.org/works/10.1371/journal.pcbi.1009146'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

@@ -14,7 +14,7 @@ relations:
     target: articles/immense-but-not-immutable-deep-pelagic-decline
 provenance:
   origin: agent
-  reviewed: '2026-10-24'
+  reviewed: '2026-10-23'
   reviewed_by: >-
     Claude, from the entries linked here and the pages they cite; not yet read
     by Anselm

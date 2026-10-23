@@ -46,8 +46,8 @@ provenance:
       url: 'https://www.miragenews.com/heatwaves-hinder-photosynthesis-1707414/'
     - title: 'Heat waves pushed 57 million hectares of tropical forests beyond photosynthesis limits: Study (Down To Earth)'
       url: 'https://www.downtoearth.org.in/forests/heat-waves-pushed-57-million-hectares-of-tropical-forests-beyond-photosynthesis-limits-study'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the abstract, significance statement and record of the paper (pnas.org refused the request and the full text is embargoed) and two news reports of it; the figures were not seen'
   status: draft
 ---

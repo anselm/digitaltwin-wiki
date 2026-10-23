@@ -34,8 +34,8 @@ provenance:
       url: 'https://portolan.cc/chokepoints/hormuz'
     - title: 'Yuma (@yumahey) on X, 26 July 2026'
       url: 'https://x.com/yumahey/status/2081473121953911112'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

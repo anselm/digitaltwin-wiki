@@ -39,8 +39,8 @@ provenance:
       url: 'https://cran.r-project.org/package=synthpop'
     - title: 'bnowok/synthpop'
       url: 'https://github.com/bnowok/synthpop'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

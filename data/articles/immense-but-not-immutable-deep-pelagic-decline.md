@@ -49,8 +49,8 @@ provenance:
       url: 'https://www.pnas.org/doi/10.1073/pnas.2616554123'
     - title: 'Immense but not immutable (EurekAlert press release)'
       url: 'https://www.eurekalert.org/news-releases/1148521'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the full text of the paper as pasted by Anselm (pnas.org refused a direct request) and the press release'
   status: draft
 ---

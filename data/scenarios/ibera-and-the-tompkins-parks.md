@@ -31,8 +31,8 @@ provenance:
       url: 'https://environment.yale.edu/news/article/conservacion-patagonica-kristine-tomkins-on-managing-the-largest-land-donation'
     - title: 'A former Patagonia CEO handed her Argentine conservation land to the state with a clause attached (Space Daily, 4 September 2026)'
       url: 'https://spacedaily.com/m-a-former-patagonia-ceo-handed-her-argentine-conservation-land-to-the-state-with-a-clause-attached-it-stays-protected-for-at-least-99-years-and-the-deal-created-or-significantly-enlarged-six-national/'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

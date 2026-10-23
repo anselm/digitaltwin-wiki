@@ -31,8 +31,8 @@ provenance:
       url: 'https://www.meatinstitute.org/EDU/new-world-screwworm-what-meat-industry-needs-know'
     - title: 'New World Screwworm: What the Meat Industry Needs to Know (Meat Institute, updated August 2026, PDF)'
       url: 'https://www.meatinstitute.org/sites/default/files/documents/New%20World%20Screwworm%20What%20the%20Meat%20Industry%20Needs%20to%20Know.pdf'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

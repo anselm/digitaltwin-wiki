@@ -26,8 +26,8 @@ provenance:
   sources:
     - title: 'Restoring Ross Island is the solution to curbing toxic bacterial blooms in the Willamette, researchers say (Street Roots, 8 July 2026)'
       url: 'https://www.streetroots.org/environment/2026/07/08/restoring-ross-island-is-the-solution-to-curbing-toxic-bacterial-blooms-in-the-willamette-researchers-say/'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

@@ -38,8 +38,8 @@ provenance:
       url: 'https://github.com/google-deepmind/concordia'
     - title: 'Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia (arXiv abstract)'
       url: 'https://arxiv.org/abs/2312.03664'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

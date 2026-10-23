@@ -1,10 +1,10 @@
-# Things to model: Anselm's rough list (pasted 2026-10-24)
+# Things to model: Anselm's rough list (pasted 2026-10-23)
 
 His words: "I'm surprised we don't have a clear category for concrete topics
 to model, or multi-domain challenges. This was what I shared before - it was
 my internal rough list of a few things I've noticed that are basically
 questions." Kept verbatim below; triage notes are in
-devlog/20261024-challenges.md.
+devlog/20261023-scenarios.md.
 
 	- mussels are an issue - https://www.scientificamerican.com/article/the-baffling-ecological-disaster-thats-killing-americas-freshwater-mussels/
 	- hormuz.exe.xyz - quickly built out - needs work

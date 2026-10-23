@@ -29,8 +29,8 @@ provenance:
       url: 'https://timesofindia.indiatimes.com/world/rest-of-world/israel-in-the-early-1900s-planted-millions-of-pine-trees-to-green-barren-hills-but-ecologists-later-found-many-native-mediterranean-habitats-had-disappeared-beneath-them/articleshow/132157145.cms'
     - title: 'From “Improving Landscape” to Conserving Landscape: The need to stop Afforestation in Sensitive Natural Ecosystems in Israel (SPNI, May 2019)'
       url: 'https://natureisrael.org/wp-content/uploads/2023/01/Afforestation_Ecology_Damage_SPNI_2019.pdf'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

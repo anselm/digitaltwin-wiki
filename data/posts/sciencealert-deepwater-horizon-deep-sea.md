@@ -12,7 +12,7 @@ about:
     - Gulf of Mexico
 article:
   url: 'https://www.sciencealert.com/16-years-after-deepwater-horizon-spill-deep-sea-life-in-the-gulf-of-mexico-shows-no-sign-of-recovery'
-  published: '2026-10-24'
+  published: '2026-10-23'
   publisher: ScienceAlert
   authors:
     - Jess Cockerill
@@ -27,8 +27,8 @@ provenance:
   sources:
     - title: '16 Years After Deepwater Horizon Spill, Deep Sea Life in The Gulf of Mexico Shows No Sign of Recovery (ScienceAlert)'
       url: 'https://www.sciencealert.com/16-years-after-deepwater-horizon-spill-deep-sea-life-in-the-gulf-of-mexico-shows-no-sign-of-recovery'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the source listed, checked against the full paper'
   status: draft
 ---

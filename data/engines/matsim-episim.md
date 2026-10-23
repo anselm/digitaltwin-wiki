@@ -43,8 +43,8 @@ provenance:
       url: 'https://matsim.org/news/2020/episim-with-matsim/'
     - title: 'Predicting the effects of COVID-19 related interventions in urban settings by combining activity-based modelling, agent-based simulation, and mobile phone data (Crossref record)'
       url: 'https://api.crossref.org/works/10.1371/journal.pone.0259037'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

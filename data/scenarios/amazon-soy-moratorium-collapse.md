@@ -29,8 +29,8 @@ provenance:
       url: 'https://phys.org/news/2026-07-amazon-soy-pact-collapse-million.html'
     - title: 'Post by Monica Piccinini on X, 18 July 2026'
       url: 'https://x.com/yourvoiz_org/status/2078417316170137794'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

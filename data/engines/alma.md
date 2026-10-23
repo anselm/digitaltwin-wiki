@@ -37,8 +37,8 @@ provenance:
       url: 'https://www.phfscience.nz/news-publications/alma-digital-twin-lets-new-zealand-test-what-if-scenarios-before-they-happen/'
     - title: 'Digital Twin maps NZ population for public health planning (eHealthNews.nz)'
       url: 'https://www.hinz.org.nz/news/718913'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

@@ -27,8 +27,8 @@ provenance:
       url: 'https://www.coloradosos.gov/pubs/newsRoom/pressReleases/2026/PR20260729Hartman.html'
     - title: 'Colorado declares town abandoned amid water and leadership crisis (The Guardian, 1 August 2026)'
       url: 'https://www.theguardian.com/us-news/2026/aug/01/hartman-colorado-town-abandoned'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---

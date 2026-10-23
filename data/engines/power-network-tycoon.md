@@ -41,8 +41,8 @@ provenance:
       url: 'https://x.com/DavidMadeThis'
     - title: 'Seaver Wang on X, 5 September 2026'
       url: 'https://x.com/wang_seaver/status/2096345469236736150'
-  created: '2026-10-24'
-  reviewed: '2026-10-24'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
