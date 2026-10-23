@@ -2,7 +2,7 @@
 about:
   label: News
   description: 'Dated news about models of places: studies, launches and reports, newest first.'
-  view: list
+  view: news
 section:
   order: 101
   nav: true
@@ -14,4 +14,4 @@ provenance:
   reviewed_by: 'Claude, at Anselm''s request'
   status: draft
 ---
-Each item here is one news story, filed on the day it appeared and pointing at what it is about elsewhere on the site: a scenario, an event, a study, a tool. The news dates; the things it is about stay. [Recent](/recent/) lists every new or changed entry on the site; [Events](/events/) lists meetings past and upcoming.
+Everything on the site published in the last two years, newest first and grouped by month: news stories filed as their own entries, and the papers, reports and essays on the Articles shelf. A news story points at what it is about elsewhere on the site; an article is the thing itself. [Recent](/recent/) lists every new or changed entry on the site; [Events](/events/) lists meetings past and upcoming.

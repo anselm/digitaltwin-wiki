@@ -4,9 +4,9 @@ about:
   description: "The targets, laws and pledges that send people to a model: what each requires, by when, and the question it raises."
   view: list
 section:
-  order: 66
+  order: 92
   nav: true
-  area: practice
+  area: theory
 provenance:
   origin: human
   status: public

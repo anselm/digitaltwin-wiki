@@ -11,6 +11,11 @@ export const show = statuses
 const cite = (md) => md.replace(/\[\^(\d+(?:\s*,\s*\d+)*)\]/g, (_, ns) => '<sup class="cite">' + ns.split(/\s*,\s*/).map((n) => `<a href="#source-${n}">${n}</a>`).join(',') + '</sup>')
 export const html = (md) => (md ? marked.parse(cite(md)) : '')
 
+/** Everything with a publication date (news stories and articles), newest first: the News shelf is a query, like Recent. */
+// Only the last two years count as news; older papers stay on the Articles shelf.
+const since = () => { const d = new Date(); d.setUTCFullYear(d.getUTCFullYear() - 2); return d.toISOString().slice(0, 7) }
+export const news = () => store.entities.filter((e) => e.article?.published && !e.redirect && String(e.article.published).slice(0, 7) >= since()).sort((a, b) => String(b.article.published).localeCompare(String(a.article.published)))
+
 /** Which view an entity asks for; kind components supply a default when it says nothing. */
 export function viewOf(e) {
   if (e.about?.view) return e.about.view

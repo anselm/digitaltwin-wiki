@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import { error } from '@sveltejs/kit'
-import { store, html, viewOf, card, domainCards } from '$lib/store.server.js'
+import { store, html, viewOf, card, domainCards, news } from '$lib/store.server.js'
 import { charts, W, H, P } from '$lib/vitals.server.js'
 
 export const prerender = true
@@ -48,7 +48,7 @@ export function load({ params }) {
     const figure = b ? { src: e.figure.src, full: e.figure.full || null, repo: e.figure.repo || null, posters: e.figure.posters || null, credit: e.figure.credit || '', url: card(b).url, label: b.about.label, poster: b.about.depiction ? `/${b.dir ? b.dir + '/' : ''}${b.about.depiction}` : null } : null
     return { ...base, aliases: e.about.aliases || [], figure,
       recent: store.recent(12).filter((r) => r.id && !r.section && !('domain' in r)).slice(0, 8).map(line),
-      sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), area: s.section.area || 'resources', count: s.about.view === 'recent' ? 0 : store.descendants(s.id).length })),
+      sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), area: s.section.area || 'resources', count: s.about.view === 'recent' ? 0 : s.about.view === 'news' ? news().length : store.descendants(s.id).length })),
       areas: [['new', 'New'], ['practice', 'Practice'], ['technologies', 'Technologies'], ['theory', 'Theory'], ['resources', 'Resources']],
       domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
   }
@@ -88,6 +88,12 @@ export function load({ params }) {
     const own = kids.every((c) => c.tool?.group || c.about?.group)
     const grouped = own || (items.length > 12 && items.filter((i) => i.group).length > items.length / 2)
     const groups = grouped ? [...new Set(items.map((i) => i.group || 'Other'))].sort((a, b) => (a === 'Other') - (b === 'Other') || a.localeCompare(b)).map((g) => ({ label: g, items: items.filter((i) => (i.group || 'Other') === g) })) : null
+    return { ...base, items, groups }
+  }
+  if (view === 'news') {
+    const month = (d) => { const [y, m] = String(d).split('-'); return m ? new Date(Date.UTC(+y, +m - 1, 1)).toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' }) : y }
+    const items = news().map((e) => ({ ...line(e), group: month(e.article.published) }))
+    const groups = [...new Set(items.map((i) => i.group))].map((g) => ({ label: g, items: items.filter((i) => i.group === g) }))
     return { ...base, items, groups }
   }
   if (view === 'recent') return { ...base, items: store.recent(50).filter((r) => r.id && !r.section && !('domain' in r)).map(line) }
