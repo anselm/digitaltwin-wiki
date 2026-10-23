@@ -35,15 +35,15 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-AnyLogic is general-purpose simulation software from a company of the same name. Agents are simulated actors with their own behaviour. Discrete-event process flows move items through a sequence of steps, and system-dynamics diagrams track stocks and flows. Models are built with visual languages (flowcharts, statecharts, stock and flow) and can be extended in Java.
+AnyLogic is general-purpose simulation software from a company of the same name.[^1] Agents are simulated actors with their own behaviour. Discrete-event process flows move items through a sequence of steps, and system-dynamics diagrams track stocks and flows.[^1] Models are built with visual languages (flowcharts, statecharts, stock and flow) and can be extended in Java.[^1,2]
 
 Four parts matter for work on places:
 
-- The Road Traffic Library: vehicles, intersections, signals, public transport and parking.
-- The Pedestrian Library: crowd flows in terminals, stadiums and streets, including evacuation scenarios.
-- The Rail Library.
-- Built-in GIS maps, on which model elements can be placed and routed along real roads.
+- The Road Traffic Library: vehicles, intersections, signals, public transport and parking.[^2]
+- The Pedestrian Library: crowd flows in terminals, stadiums and streets, including evacuation scenarios.[^1,2]
+- The Rail Library.[^1,2]
+- Built-in GIS maps, on which model elements can be placed and routed along real roads.[^1]
 
-The company's case studies are mostly in logistics and manufacturing (DHL, BMW, Amazon). Transportation and urban infrastructure are mentioned as further areas.
+The company's case studies are mostly in logistics and manufacturing (DHL, BMW, Amazon).[^2] Transportation and urban infrastructure are mentioned as further areas.[^2]
 
-Licensing options include floating licences. AnyLogic runs as a desktop application and, since the AnyLogic Online version, in a browser. AnyLogic Cloud runs experiments, hosts models for others and exposes a REST API. The company says Cloud is how models connect to operational data as digital twins.
+Licensing options include floating licences.[^2] AnyLogic runs as a desktop application and, since the AnyLogic Online version, in a browser.[^1,2] AnyLogic Cloud runs experiments, hosts models for others and exposes a REST API.[^1] The company says Cloud is how models connect to operational data as digital twins.[^1]

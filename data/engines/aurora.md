@@ -33,6 +33,8 @@ provenance:
       url: 'https://github.com/microsoft/aurora'
     - title: aurora/LICENSE.txt
       url: 'https://raw.githubusercontent.com/microsoft/aurora/main/LICENSE.txt'
+    - title: microsoft/aurora (model weights) - Hugging Face
+      url: 'https://huggingface.co/microsoft/aurora'
   created: '2026-10-17'
   reviewed: '2026-10-17'
   reviewed_by: 'Claude, from the sources listed'
@@ -51,8 +53,8 @@ import:
 domains:
   - climate
 ---
-Aurora has 1.3 billion parameters, the adjustable numbers a model learns in training, and is pretrained on a large body of atmospheric data and then adapted, with comparatively little data, to particular forecasting tasks. Microsoft Research's AI for Science group published it as "A Foundation Model for the Earth System" in Nature in 2025 (Bodnar et al.). Aurora 1.5, developed by Microsoft Weather, adds 22 variables, including cloud cover, precipitation and radiation. It also adds hourly resolution and ensemble forecasts, sets of runs that show the spread of possible outcomes.
+Aurora has 1.3 billion parameters, the adjustable numbers a model learns in training, and is pretrained on a large body of atmospheric data and then adapted, with comparatively little data, to particular forecasting tasks.[^1,2] Microsoft Research's AI for Science group published it as "A Foundation Model for the Earth System" in Nature in 2025 (Bodnar et al.).[^1,2] Aurora 1.5, developed by Microsoft Weather, adds 22 variables, including cloud cover, precipitation and radiation.[^1] It also adds hourly resolution and ensemble forecasts, sets of runs that show the spread of possible outcomes.[^1]
 
-The repository ships four fine-tuned versions: medium- and high-resolution global weather, air pollution and ocean waves. Microsoft says these match or beat operational numerical forecasts, the physics-based forecasts weather services run, at far lower compute cost.
+The repository ships four fine-tuned versions: medium- and high-resolution global weather, air pollution and ocean waves.[^2] Microsoft says these match or beat operational numerical forecasts, the physics-based forecasts weather services run, and run much faster.[^1]
 
-Aurora installs with pip as microsoft-aurora or from conda-forge, and the small pretrained checkpoint is about 500 MB. Code and weights are MIT-licensed. The release is for research and reproducibility, and its outputs should not drive operational decisions without expert review. Aurora 1.5 is also offered through Microsoft Foundry, with a contact address for commercial use.
+Aurora installs with pip as microsoft-aurora or from conda-forge, and the small pretrained checkpoint is about 500 MB.[^2] Code and weights are MIT-licensed.[^3,4] The release is for research and reproducibility, and its outputs should not drive operational decisions without expert review.[^2] Aurora 1.5 is also offered through Microsoft Foundry, with a contact address for commercial use.[^1]

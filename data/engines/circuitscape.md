@@ -46,14 +46,14 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Resistance layers describe how hard each cell of a landscape is to cross. Treated as an electrical circuit, the current flowing through them shows where movement concentrates, over all possible pathways at the same time. Circuitscape was created by Brad McRae (1966-2017), Viral B. Shah, Tanmay Mohapatra and Ranjan Anantharaman.
+Resistance layers describe how hard each cell of a landscape is to cross. Treated as an electrical circuit, the current flowing through them shows where movement concentrates, over all possible pathways at the same time.[^1] Circuitscape was created by Brad McRae (1966-2017), Viral B. Shah, Tanmay Mohapatra and Ranjan Anantharaman.[^1]
 
 It has three companion tools:
 
-- Omniscape applies Circuitscape in a moving window for omni-directional connectivity.
-- Linkage Mapper is an ArcGIS toolbox that maps corridors, pinch-points and barriers.
-- Gnarly Landscape Utilities builds the core-area and resistance layers the others need.
+- Omniscape applies Circuitscape in a moving window for omni-directional connectivity.[^1]
+- Linkage Mapper is an ArcGIS toolbox that maps corridors, pinch-points and barriers.[^1,2]
+- Gnarly Landscape Utilities builds the core-area and resistance layers the others need.[^1,2]
 
-The project lists its uses as wildlife corridor design, landscape genetics (how landscape features shape gene flow between populations), movement ecology, connectivity under climate change, infectious disease, fire and agriculture. Circuitscape received The Wildlife Society's Spatial Ecology and Telemetry Working Group award in 2013.
+The project lists its uses as wildlife corridor design, landscape genetics (how landscape features shape gene flow between populations), movement ecology, connectivity under climate change, infectious disease, fire and agriculture.[^1] Circuitscape received The Wildlife Society's Spatial Ecology and Telemetry Working Group award in 2013.[^1]
 
-Circuitscape 5 is written in Julia, a programming language for scientific computing, and runs on Windows, macOS and Linux. Users install it as a Julia package (`Pkg.add("Circuitscape")`, Julia 1.12 or later) and drive it with INI configuration files. It reads ESRI ASCII grids and, with ArchGDAL, GeoTIFF. The code is on GitHub under the MIT licence, and the project is looking for new contributors and maintainers. The earlier Python version, Circuitscape 4, is archived, but its installers and ArcGIS toolboxes remain downloadable. NASA and The Nature Conservancy funded version 5; the Wilburforce Foundation funded version 4.
+Circuitscape 5 is written in Julia, a programming language for scientific computing, and runs on Windows, macOS and Linux.[^2] Users install it as a Julia package (`Pkg.add("Circuitscape")`, Julia 1.12 or later) and drive it with INI configuration files.[^3] It reads ESRI ASCII grids and, with ArchGDAL, GeoTIFF.[^3] The code is on GitHub under the MIT licence,[^2,3] and the project is looking for new contributors and maintainers.[^2] The earlier Python version, Circuitscape 4, is archived, but its installers and ArcGIS toolboxes remain downloadable.[^2] NASA and The Nature Conservancy funded version 5; the Wilburforce Foundation funded version 4.[^1]

@@ -41,12 +41,12 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The user searches a city or drags a box, and Bmap assembles the land surface, the coastline, the buildings at their footprints and heights, the road grid and the tree cover, all at 1:1 scale. The result spins in the browser and can be exported for use elsewhere. The site's worked example is Monaco, built up in stages: terrain, then coast, then buildings, then waterfront.
+The user searches a city or drags a box, and Bmap assembles the land surface, the coastline, the buildings at their footprints and heights, the road grid and the tree cover, all at 1:1 scale.[^1] The result spins in the browser and can be exported for use elsewhere.[^1] The site's worked example is Monaco, built up in stages: terrain, then coast, then buildings, then waterfront.[^1]
 
-It is aimed at people who want a real place as a game or web scene without GIS software or hand modelling, and exports a layered GLB file, a single-file 3D format that three.js, Unity and Blender read. Unreal Engine 5 appears as an export in both paid plans in the pricing table, but elsewhere the page names it and Roblox as next in line. The app page offers Nice, Monaco, Antibes and Genoa as starting points and a default area of 3.5 km.
+It is aimed at people who want a real place as a game or web scene without GIS software or hand modelling,[^1] and exports a layered GLB file, a single-file 3D format that three.js, Unity and Blender read.[^1] Unreal Engine 5 appears as an export in both paid plans in the pricing table, but elsewhere the page names it and Roblox as next in line.[^1] The app page offers Nice, Monaco, Antibes and Genoa as starting points and a default area of 3.5 km.[^2]
 
-The service is hosted at app.bmap.io, and the pipeline that builds the models is kept private. The underlying data are open, credited to OpenStreetMap contributors under the ODbL licence, Overture Maps, Copernicus GLO-30, the French mapping agency IGN and ESA WorldCover.
+The service is hosted at app.bmap.io, and the pipeline that builds the models is kept private.[^1] The underlying data are open, credited to OpenStreetMap contributors under the ODbL licence, Overture Maps, Copernicus GLO-30, the French mapping agency IGN and ESA WorldCover.[^1,2]
 
-- Free: unlimited generation of maps up to 1.5 km, with a browser preview and walk mode.
-- Single export: $29, with a commercial licence.
-- Creator plan: $49 a month for maps up to 5 km, ten exports a month and editing tools.
+- Free: unlimited generation of maps up to 1.5 km, with a browser preview and walk mode.[^1]
+- Single export: $29, with a commercial licence.[^1]
+- Creator plan: $49 a month for maps up to 5 km, ten exports a month and editing tools.[^1]

@@ -40,17 +40,19 @@ provenance:
       url: 'https://cars.readthedocs.io/en/stable/installation.html'
     - title: 'Sensor examples — CARS Documentation'
       url: 'https://cars.readthedocs.io/en/stable/sensor_examples/index.html'
+    - title: 'Release 1.3.0 · CNES/cars · GitHub'
+      url: 'https://github.com/CNES/cars/releases/tag/1.3.0'
   created: '2026-10-21'
   reviewed: '2026-10-21'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Two eyes judge depth from how far a thing shifts between them, and two satellite images taken from different angles do the same for the ground. From such pairs CARS builds a digital surface model, a raster grid in which each cell holds the height of the surface seen from above. A grid of heights is not a full 3D mesh, so it is often called 2.5D.
+Two eyes judge depth from how far a thing shifts between them, and two satellite images taken from different angles do the same for the ground.[^3] From such pairs CARS builds a digital surface model, a raster grid in which each cell holds the height of the surface seen from above.[^2,3] A grid of heights is not a full 3D mesh, so it is often called 2.5D.[^3]
 
-CNES maintains it on GitHub. It is the core of the 3D image processing chain for the CO3D satellite mission, and the AI4GEO and Evoland projects use it too. It handles large production runs on a computing cluster and also runs on a personal computer. The current pipeline is described in a 2026 paper in the ISPRS Archives by D. Youssefi and colleagues. Release 1.3.0 came out in October 2026.
+CNES maintains it on GitHub.[^1] It is the core of the 3D image processing chain for the CO3D satellite mission, and the AI4GEO and Evoland projects use it too.[^1,2] It handles large production runs on a computing cluster and also runs on a personal computer.[^2] The current pipeline is described in a 2026 paper in the ISPRS Archives by D. Youssefi and colleagues.[^1] Release 1.3.0 came out in October 2026.[^6]
 
-The work goes in four steps. First the images are resampled so that a point can move only along one line between them, and the search for a match becomes one-dimensional. Matching then finds each pixel's partner in the other image. Crossing the two lines of sight places the point in space, with a longitude, latitude and altitude. Last, every point is projected onto a grid of heights and colours. Any image GDAL can read will do, as long as it comes with RPC coefficients, a compact formula linking image pixels to ground positions. Example setups exist for Pléiades, SPOT 6 and 7, Pléiades Neo and Maxar WorldView.
+The work goes in four steps. First the images are resampled so that a point can move only along one line between them, and the search for a match becomes one-dimensional.[^3] Matching then finds each pixel's partner in the other image.[^3] Crossing the two lines of sight places the point in space, with a longitude, latitude and altitude.[^3] Last, every point is projected onto a grid of heights and colours.[^3] Any image GDAL can read will do, as long as it comes with RPC coefficients, a compact formula linking image pixels to ground positions.[^3] Example setups exist for Pléiades, SPOT 6 and 7, Pléiades Neo and Maxar WorldView.[^5]
 
-Matching can fail on moving objects such as vehicles, in shadows, where one viewpoint is blocked, and on surfaces with too little texture. Installing takes `pip install cars` on Linux or the `cnes/cars` Docker image. The quick start runs on a free Pléiades sample of the pyramids at Giza.
+Matching can fail on moving objects such as vehicles, in shadows, where one viewpoint is blocked, and on surfaces with too little texture.[^3] Installing takes `pip install cars` on Linux or the `cnes/cars` Docker image.[^1,4] The quick start runs on a free Pléiades sample of the pyramids at Giza.[^1]
 
-For a model of a city or a valley, CARS gives the height of the ground and what stands on it from the stereo images the user brings. The code is under the Apache 2.0 licence.
+For a model of a city or a valley, CARS gives the height of the ground and what stands on it from the stereo images the user brings. The code is under the Apache 2.0 licence.[^1]
