@@ -31,7 +31,7 @@ The people who carry the long tail are concrete: a fisheries council setting cat
 
 ## What kind of model answers it
 
-**Trajectory and weathering models** move oil with the wind and the currents and show how it changes on the surface. NOAA's [GNOME](/engines/noaa-gnome/) is the one responders in the United States use, free on the web. **Ocean circulation models** supply the currents, including the deep ones a surface trajectory model does not cover. **Food-web models** follow what a loss at one level does to the levels above and below. [Ecopath with Ecosim](/engines/ecopath-with-ecosim/) is the free and widely used one, and its Ecotracer module follows a contaminant through the web. **Monitoring** is the part no model replaces: the Gulf study rests on more than 2,000 net tows over thirteen years.
+**Trajectory and weathering models** move oil with the wind and the currents and show how it changes on the surface. NOAA's [GNOME](/engines/noaa-gnome/), built by its emergency responders, is free on the web. **Ocean circulation models** supply the currents, including the deep ones a surface trajectory model does not cover. **Food-web models** follow what a loss at one level does to the levels above and below. [Ecopath with Ecosim](/engines/ecopath-with-ecosim/) is a free one, and its Ecotracer module follows a contaminant through the web. **Monitoring** is the part no model replaces: the Gulf study rests on more than 2,000 net tows over thirteen years.
 
 A whole-system model of a spill joins these: oil and currents feeding exposure, exposure feeding the food web, the food web feeding fisheries and the people who depend on them. Each link is a published kind of model; the joins between them are where the work is.
 
