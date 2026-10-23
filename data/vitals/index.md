@@ -2,7 +2,7 @@
 about:
   label: Vitals
   description: >-
-    Nine running measurements of the planet's state, refreshed from their sources
+    Running measurements of the planet's state, refreshed from their sources
     at every deploy.
   view: vitals
   tags:
