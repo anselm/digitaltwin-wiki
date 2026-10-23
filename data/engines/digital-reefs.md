@@ -37,9 +37,9 @@ provenance:
   reviewed_by: 'Claude, from the sources listed; the home page is a single landing page with three videos not watched; refetched and checked 2026-10-19'
   status: draft
 ---
-The site presents it as public infrastructure: a reef replica to view and explore in three dimensions and through time, on a phone, tablet or desktop, and in virtual reality. The Nature Conservancy, Scripps Institution of Oceanography and Siemens appear as partners alongside WHOI. The intended users are the people who manage, conserve and restore reefs.
+The site presents it as public infrastructure: a reef replica to view and explore in three dimensions and through time, on a phone, tablet or desktop, and in virtual reality.[^1] The Nature Conservancy, Scripps Institution of Oceanography and Siemens appear as partners alongside WHOI.[^1] The intended users are the people who manage, conserve and restore reefs.[^1]
 
-The project's one-pager sets out a pipeline in five stages:
+The project's one-pager sets out a pipeline in five stages:[^2]
 
 - Gather: sensors, robots, photogrammetry (3D models built from overlapping photographs) and ecology, with bathymetry (seabed depth) and hydrodynamics.
 - Curate: databases and storage.
@@ -47,8 +47,8 @@ The project's one-pager sets out a pipeline in five stages:
 - Show: virtual reality, 3D prints and game engines.
 - Use: management, intervention, emergency response and experimental design.
 
-It runs on cloud computing and game-engine platforms. Contact is by email.
+It runs on cloud computing and game-engine platforms.[^1,2] Contact is by email.[^2]
 
-A low-fidelity prototype is shown in a video walk-through. The NSF Convergence Accelerator programme funds the project. The makers say they expect to scale it within five years into a "globally interconnected Digital Reefs Network".
+A low-fidelity prototype is shown in a video walk-through.[^1] The NSF Convergence Accelerator programme funds the project.[^1] The makers say they expect to scale it within five years into a "globally interconnected Digital Reefs Network".[^1,2]
 
 For a reef twin that is already running, see [eReefs](/twins/ereefs/).

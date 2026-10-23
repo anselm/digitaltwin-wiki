@@ -36,8 +36,8 @@ provenance:
   reviewed_by: 'Claude, from the source listed'
   status: draft
 ---
-Ecopath with Ecosim (EwE) models an ecosystem as a food web. Ecopath is the snapshot: how much of each group of animals and plants there is and how energy flows between them, balanced so that what is eaten adds up. Ecosim runs that web forward in time, so a user can ask what a change in fishing, or a policy, would do to everything else. Ecospace spreads it across a map and is mostly used to judge where marine protected areas should go and what they would do.
+Ecopath with Ecosim (EwE) models an ecosystem as a food web. Ecopath is the snapshot: how much of each group of animals and plants there is and how energy flows between them, balanced so that what is eaten adds up.[^1] Ecosim runs that web forward in time, so a user can ask what a change in fishing, or a policy, would do to everything else.[^1] Ecospace spreads it across a map and is mostly used to judge where marine protected areas should go and what they would do.[^1]
 
-Fishing and protected areas are its main uses. A module called Ecotracer follows a contaminant up the food web from the plankton to the predators. After an [oil spill](/questions/after-an-oil-spill/) that is one of the questions left open.
+Fishing and protected areas are its main uses.[^1] A module called Ecotracer follows how a contaminant moves through the food web and where it accumulates.[^1] After an [oil spill](/questions/after-an-oil-spill/) that is one of the questions left open.
 
-The software is free, and the Ecopath International Initiative, a not-for-profit research association, maintains it. Downloads are at ecopath.org, releases on GitHub, and citable versions on Zenodo.
+The software is free, and the Ecopath International Initiative, a not-for-profit research association, maintains it.[^1] Downloads are at ecopath.org, releases on GitHub, and citable versions on Zenodo.[^1]
