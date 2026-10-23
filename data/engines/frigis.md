@@ -48,14 +48,14 @@ domains:
   - places
   - climate
 ---
-friGIS is made by Tropocen. Tropocen's co-founders are Julius Dickmann, Gustav Trost and Sebastian Sändig. The software joins three steps that are usually separate:
+friGIS is made by Tropocen. Tropocen's co-founders are Julius Dickmann, Gustav Trost and Sebastian Sändig.[^2] The software joins three steps that are usually separate:[^1]
 
-- a 3D model of a city district as it stands, with buildings, vegetation, water and sealed surfaces, exportable to QGIS and ArcGIS
-- an interface to the PALM-4U urban climate model, computing air and surface temperature, wind and the comfort indices PET and UTCI (measures of how hot conditions feel to a person) at building resolution, by day and night
-- a 3D editor in which planners place measures such as individual trees, green areas, surface changes, water features and fountains
+- a 3D model of a city district as it stands, with buildings, vegetation, water and sealed surfaces, exportable to QGIS and ArcGIS[^1]
+- an interface to the PALM-4U urban climate model, computing air and surface temperature, wind and the comfort indices PET and UTCI (measures of how hot conditions feel to a person) at building resolution, by day and night[^1]
+- a 3D editor in which planners place measures such as individual trees, green areas, surface changes, water features and fountains[^1]
 
-Simulation results are laid over the district model to show heat hotspots, gaps in cold-air supply and wind patterns. A measure database gives quick-look parameters for each measure: category, size and heat resistance. Scenario comparison draws difference maps marking where a measure cools, has no effect or makes the microclimate worse.
+Simulation results are laid over the district model to show heat hotspots, gaps in cold-air supply and wind patterns.[^1] A measure database gives quick-look parameters for each measure: category, size and heat resistance.[^1] Scenario comparison draws difference maps marking where a measure cools, has no effect or makes the microclimate worse.[^1]
 
-Tropocen names cities, planning offices, property managers and researchers as the intended users and says no GIS expertise is needed. The company also offers consulting around the software.
+Tropocen names cities, planning offices, property managers and researchers as the intended users and says no GIS expertise is needed.[^1] The company also offers consulting around the software.[^2]
 
-friGIS is hosted, with a login at app.frigis.eu. Pricing is not published.
+friGIS is hosted, with a login at app.frigis.eu.[^1] Pricing is not published.[^1,2]

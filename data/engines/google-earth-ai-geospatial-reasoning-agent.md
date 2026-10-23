@@ -89,18 +89,18 @@ relations:
       uses component (source_claim; exact implementation not independently
       tested)
 ---
-The agent is the orchestrating part of Google Earth AI. Given a question in plain language, it drafts a step-by-step plan, calls modular skills that each wrap an Earth AI model or a data source, and combines the results. The models include WeatherNext, flood forecasting, the Population Dynamics Foundation Model, AlphaEarth Foundations and Remote Sensing Foundations. The data sources include Earth Engine, Data Commons and BigQuery public datasets.
+The agent is the orchestrating part of Google Earth AI.[^3,5] Given a question in plain language, it drafts a step-by-step plan, calls modular skills that each wrap an Earth AI model or a data source, and combines the results.[^2,5] The models include WeatherNext, flood forecasting, the Population Dynamics Foundation Model, AlphaEarth Foundations and Remote Sensing Foundations.[^2] The data sources include Earth Engine, Data Commons and BigQuery public datasets.[^2,5]
 
-Each answer lists its plan and the data used, so a specialist can check the work. Users can add their own data as CSV files, GeoJSON boundaries or cloud tables. A companion tool, the Planetary Prediction Engine, trains predictive models on a user's local outcome data for spatial prediction, downscaling and forecasting.
+Each answer lists its plan and the data used, so a specialist can check the work.[^2] Users can add their own data as CSV files, GeoJSON boundaries or cloud tables.[^2] A companion tool, the Planetary Prediction Engine, trains predictive models on a user's local outcome data for spatial prediction, downscaling and forecasting.[^2,6]
 
-Google's October 2026 account gives several uses. During the 2026 Ebola outbreak in the Democratic Republic of the Congo, WHO AFRO used the agent to map mining corridors with high exposure and mobility risk. It found 48 exposed settlements and more than 45,500 people at risk. The INRB used the Planetary Prediction Engine for weekly estimates of spread into uninfected health zones. People in Need analysed 14 historical cyclone tracks to find high-exposure villages. GiveDirectly uploaded its own boundaries to estimate population exposure by wind-speed zone during Tropical Cyclone Maila, and to benchmark tornado damage in Mississippi. The Milken Institute screened over 1,500 candidate buildings for community resilience hubs.
+Google's October 2026 account gives several uses.[^2] During the 2026 Ebola outbreak in the Democratic Republic of the Congo, WHO AFRO used the agent to map mining corridors with high exposure and mobility risk. It found 48 exposed settlements and more than 45,500 people at risk.[^2] The INRB used the Planetary Prediction Engine for weekly estimates of spread into uninfected health zones.[^2,6] People in Need analysed 14 historical cyclone tracks to find high-exposure villages.[^2] GiveDirectly uploaded its own boundaries to estimate population exposure by wind-speed zone during Tropical Cyclone Maila, and to benchmark tornado damage in Mississippi.[^2] The Milken Institute screened over 1,500 candidate buildings for community resilience hubs.[^2]
 
-Google hosts the service. In October 2026 access is through a limited early-access programme with three tracks:
+Google hosts the service. In October 2026 access is through a limited early-access programme with three tracks:[^1,2]
 
 - Ask Google Earth
-- an experimental Agent-to-Agent API, headless (with no user interface), for developers building their own workflows
+- an experimental Agent-to-Agent API, headless (with no user interface), for developers building their own workflows[^2]
 - the Planetary Prediction Engine
 
-Applicants express interest through a form on the Geospatial Reasoning page. Pricing and terms are not published.
+Applicants express interest through a form on the Geospatial Reasoning page.[^1] Pricing and terms are not published.[^1,2]
 
-A prototype was introduced with Earth AI in October 2025. The technical report (arXiv 2610.15750), submitted on 11 October 2026, compares four configurations on Gemini 3.1 Pro and 3.8 Flash. It also introduces two benchmarks, GeoExpertQueries and GeoKTools, with development sets released on GitHub. The authors call the agent's output on open-ended problems a first draft for expert review.
+A prototype was introduced with Earth AI in October 2025.[^2,5] The technical report (arXiv 2610.15750), submitted on 11 October 2026, compares four configurations on Gemini 3.1 Pro and 3.8 Flash.[^3] It also introduces two benchmarks, GeoExpertQueries and GeoKTools, with development sets released on GitHub.[^1,3] The authors call the agent's output on open-ended problems a first draft for expert review.[^2]
