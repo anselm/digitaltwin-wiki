@@ -50,8 +50,8 @@ import:
 domains:
   - ecology
 ---
-The map runs on the domain of Bright Rain Solutions. David Puckett founded the firm, which does GIS and web mapping in Fort Collins, Colorado. The site itself does not name its author. By default the map shows the sightings from the latest Orca Network newsletter, and it can be filtered by date range and species.
+The map runs on the domain of Bright Rain Solutions.[^1] David Puckett founded the firm, which does GIS and web mapping in Fort Collins, Colorado.[^3] The site itself does not name its author.[^1] By default the map shows the sightings from the latest Orca Network newsletter, and it can be filtered by date range and species.[^1]
 
-Each sighting record names the newsletter it came from. It also holds the date and time, species, group or pod, individual identifiers, count, direction, behaviours and detection method. Acoustic detections are drawn at the hydrophone (an underwater microphone), not at the whales. The original location text is kept beside the derived coordinates, with a field for the geocoding method (how the text was matched to a point) and a flag on records that still need review.
+Each sighting record names the newsletter it came from. It also holds the date and time, species, group or pod, individual identifiers, count, direction, behaviours and detection method.[^2] Acoustic detections are drawn at the hydrophone (an underwater microphone), not at the whales.[^1] The original location text is kept beside the derived coordinates, with a field for the geocoding method (how the text was matched to a point) and a flag on records that still need review.[^2]
 
-The map is public and needs no account. Its sightings endpoint returns GeoJSON, a common format for map data. No licence or terms are stated.
+The map is public and needs no account.[^1] Its sightings endpoint returns GeoJSON, a common format for map data.[^2] No licence or terms are stated.[^1]

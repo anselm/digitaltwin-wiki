@@ -2,9 +2,7 @@
 about:
   label: Synthetic population of Canada
   description: >-
-    Open dataset by Manon Prédhumeau and Ed Manley of the University of Leeds:
-    synthetic individuals and households for every dissemination area in
-    Canada, for 2016 and for 2021, 2023 and 2030 under nine growth scenarios.
+    Open dataset of synthetic individuals and households for every dissemination area in Canada, for 2016 and for 2021, 2023 and 2030 under nine growth scenarios
   tags:
     - synthetic population
     - Canada
@@ -38,10 +36,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-This is a ready-made synthetic population of the whole of Canada: invented individuals grouped into households, each with an age, sex, income, education, employment status and home location, placed in the census dissemination area where such a person would live. Dissemination areas are the smallest standard areas for which Canada publishes all its census data, with 400 to 700 people each on average. A model of a Canadian town or region can start from the relevant files instead of building a population itself.
+This is a ready-made synthetic population of the whole of Canada: invented individuals grouped into households, each with an age, sex, income, education, employment status and home location, placed in the census dissemination area where such a person would live.[^1,2] Dissemination areas are the smallest standard areas for which Canada publishes all its census data, with 400 to 700 people each on average.[^2] A model of a Canadian town or region can start from the relevant files instead of building a population itself.
 
-Manon Prédhumeau and Ed Manley of the School of Geography at the University of Leeds made it and described it in Scientific Data in March 2023. They wrote that there had been no open-source synthetic population for Canada before. The population is built from the 2016 census, using the public microdata files and census profile tables, and from Statistics Canada's 2018 population projections. It covers 2016 and then 2021, 2023 and 2030 under nine growth scenarios, and the code can generate years up to 2042.
+Manon Prédhumeau and Ed Manley of the School of Geography at the University of Leeds made it and described it in Scientific Data in March 2023.[^2] They wrote that there had been no open-source synthetic population for Canada before.[^2] The population is built from the 2016 census, using the public microdata files and census profile tables, and from Statistics Canada's 2018 population projections.[^2] It covers 2016 and then 2021, 2023 and 2030 under nine growth scenarios, and the code can generate years up to 2042.[^1,2]
 
-To check it, the authors compared the synthetic 2021 population with the 2021 census once that was published, at the level of dissemination areas, the nation and three cities of different sizes: Toronto, Winnipeg and Sherbrooke. The data can be filtered to a study area and extended with local survey data.
+To check it, the authors compared the synthetic 2021 population with the 2021 census once that was published, at the level of dissemination areas, the nation and three cities of different sizes: Toronto, Winnipeg and Sherbrooke.[^2] The data can be filtered to a study area and extended with local survey data.[^2]
 
-The dataset is on Zenodo under CC BY 4.0 as a single archive of about 9.6 GB, organised by province or territory, and the Python code that made and validated it is on Zenodo too. Its latest version, 2.1.0, dates from January 2023 and rests on the 2016 census, so the years after 2016 are projections rather than counts.
+The dataset is on Zenodo under CC BY 4.0 as a single archive of about 9.6 GB, organised by province or territory, and the Python code that made and validated it is on Zenodo too.[^1,2] Its latest version, 2.1.0, dates from January 2023 and rests on the 2016 census, so the years after 2016 are projections rather than counts.[^1,2]
