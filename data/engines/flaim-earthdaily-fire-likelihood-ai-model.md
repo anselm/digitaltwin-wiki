@@ -50,14 +50,14 @@ import:
 domains:
   - fire
 ---
-FLAIM grew out of the forest measurement and wildfire analysis work of SkyForest, which EarthDaily acquired in early 2025, joined to EarthDaily's own Earth observation and analytics. Its inputs are regular satellite observations, daily weather and other geospatial data. The model produces three layers:
+FLAIM grew out of the forest measurement and wildfire analysis work of SkyForest, which EarthDaily acquired in early 2025, joined to EarthDaily's own Earth observation and analytics.[^1] Its inputs are regular satellite observations, daily weather and other geospatial data.[^1] The model produces three layers:
 
 - wildfire probability
 - fuel hazard, the vegetation part of risk
-- directional vulnerability: how fire may move across a landscape and into communities
+- directional vulnerability: how fire may move across a landscape and into communities[^1]
 
-Because the model is updated from current imagery, it reflects vegetation growth, clearing and new development.
+Because the model is updated from current imagery, it reflects vegetation growth, clearing and new development.[^1]
 
-On 26 August 2026 EarthDaily announced FLAIM for a large, unnamed North American property and casualty insurer. The announced uses are underwriting, portfolio management and conflagration risk across high-risk markets in the western United States. The example shown is a July 2026 monthly composite of ignition likelihood for Spokane, Washington. It is delivered as data structured for integration into insurance systems. Pricing is not published.
+On 26 August 2026 EarthDaily announced FLAIM for a large, unnamed North American property and casualty insurer.[^1] The announced uses are underwriting, portfolio management and conflagration risk across high-risk markets in the western United States.[^1] The example shown is a July 2026 monthly composite of ignition likelihood for Spokane, Washington.[^1] It is delivered as data structured for integration into insurance systems.[^1] Pricing is not published.
 
-EarthDaily says imagery from its own satellite constellation will be added as an input.
+EarthDaily says imagery from its own satellite constellation will be added as an input.[^1]

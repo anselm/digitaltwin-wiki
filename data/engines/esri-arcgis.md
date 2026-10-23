@@ -32,12 +32,12 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Esri sells ArcGIS to businesses and governments. It presents the software as the base of what it calls a geospatial digital twin. GIS layers, 3D models, building information models (detailed digital models of buildings) and sensor feeds are joined in one view that also shows past and future states. The view can cover a single facility or a whole region.
+Esri sells ArcGIS to businesses and governments.[^1] It presents the software as the base of what it calls a geospatial digital twin.[^2] GIS layers, 3D models, building information models (detailed digital models of buildings) and sensor feeds are joined in one view that also shows past and future states.[^1,2] The view can cover a single facility or a whole region.[^2]
 
-Esri's digital-twin page names six projects. Three are twins of cities and their infrastructure:
+Esri's digital-twin page names six projects. Three are twins of cities and their infrastructure:[^2]
 
-- Cross River Rail in Brisbane used a twin of infrastructure above and below ground to build the city's first underground railway.
-- The Prague Institute of Planning and Development uses one to weigh development against climate and heritage.
-- A twin of Boston joins zoning, transport and public-safety data for city decision-makers.
+- Cross River Rail in Brisbane used a twin of infrastructure above and below ground to build the city's first underground railway.[^2]
+- The Prague Institute of Planning and Development uses one to weigh development against climate and heritage.[^2]
+- A twin of Boston joins zoning, transport and public-safety data for city decision-makers.[^2]
 
-Esri is a member of the Digital Twin Consortium. ArcGIS is commercial, licensed software, and pricing is not published.
+Esri is a member of the Digital Twin Consortium.[^2] ArcGIS is commercial, licensed software.[^1]

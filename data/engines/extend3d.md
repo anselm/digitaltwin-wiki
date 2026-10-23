@@ -44,10 +44,10 @@ provenance:
     so the method itself is not described by the sources.
   status: draft
 ---
-The authors are Seungwoo Yoon, Jinmo Kim and Jaesik Park. The repository credits Microsoft's TRELLIS, the model its code is built on.
+The authors are Seungwoo Yoon, Jinmo Kim and Jaesik Park.[^1] The repository credits Microsoft's TRELLIS, the model its code is built on.[^1]
 
-The quick start takes one image and returns a scene as 3D Gaussians (a scene drawn as many small, soft, coloured blobs) and a mesh. The repository shows rendering the Gaussians to a video and exporting the mesh as a GLB file, a common 3D model format. A Gradio app gives a browser demo.
+The quick start takes one image and returns a scene as 3D Gaussians (a scene drawn as many small, soft, coloured blobs) and a mesh.[^1] The repository shows rendering the Gaussians to a video and exporting the mesh as a GLB file, a common 3D model format.[^1] A Gradio app gives a browser demo.[^1]
 
-The code is Python, installed locally, under the MIT licence. Running it takes a Linux x86-64 machine, an NVIDIA GPU with 24 GB of memory, and CUDA 12.4 or later. Larger scenes need more memory. The quick start loads the pretrained weights named microsoft/TRELLIS-image-large.
+The code is Python, installed locally, under the MIT licence.[^1,2] Running it takes a Linux x86-64 machine, an NVIDIA GPU with 24 GB of memory, and CUDA 12.4 or later.[^1] Larger scenes need more memory.[^1] The quick start loads the pretrained weights named microsoft/TRELLIS-image-large.[^1]
 
-The setup notes say "Coming Soon", and the paper and demo links in the README are not yet live.
+The setup notes say "Coming Soon", and the paper and demo links in the README are not yet live.[^1,3]

@@ -49,16 +49,16 @@ import:
 domains:
   - fire
 ---
-Opal AI is a small company in the Los Angeles area. The register of the US Small Business Innovation Research (SBIR) programme lists eight employees and a first award in 2022.
+Opal AI is a small company in the Los Angeles area.[^1,2] The register of the US Small Business Innovation Research (SBIR) programme lists eight employees and a first award in 2022.[^2]
 
-FireVision builds one picture of communities, infrastructure, vegetation and terrain. Its inputs are satellite, aerial, drone and street-level imagery, lidar (laser scanning that measures distance to surfaces), GIS layers, weather and field observations. From that picture it ranks risk and recommends actions such as inspections, vegetation management and resource placement.
+FireVision builds one picture of communities, infrastructure, vegetation and terrain. Its inputs are satellite, aerial, drone and street-level imagery, lidar (laser scanning that measures distance to surfaces), GIS layers, weather and field observations.[^1] From that picture it ranks risk and recommends actions such as inspections, vegetation management and resource placement.[^1]
 
-Opal AI offers it to three kinds of customer:
+Opal AI offers it to three kinds of customer:[^1]
 
 - electric utilities, for circuit-level risk ranking and public safety power shutoff planning
 - fire agencies, for a shared situational picture, time-to-impact and evacuation context
-- insurers, for parcel-level scoring and portfolio exposure
+- insurers, for parcel-level scoring and portfolio exposure[^1]
 
-In 2025 NASA made an SBIR Phase II award of $899,845, titled "FireVision: An AI-Powered Decision-Support Platform Leveraging NASA Earth Science Data for Wildfire Risk, Mitigation, and Response". It funds extending FireVision's fuel maps, fire potential indices and fire spread simulations to the wildland-urban interface, where homes meet wildland. Testing is in California and Texas.
+In 2025 NASA made an SBIR Phase II award of $899,845, titled "FireVision: An AI-Powered Decision-Support Platform Leveraging NASA Earth Science Data for Wildfire Risk, Mitigation, and Response".[^2] It funds extending FireVision's fuel maps, fire potential indices and fire spread simulations to the wildland-urban interface, where homes meet wildland. Testing is in California and Texas.[^2]
 
-FireVision is sold by demo request. Pricing is not published.
+FireVision is sold by demo request.[^1] Pricing is not published.
