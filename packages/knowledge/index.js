@@ -134,6 +134,12 @@ export class Store {
       }
       for (const d of e.domains || []) if (!this.byId.has(`domains/${d}`)) p(e.id, 'error', `domain "${d}" has no entity at domains/${d}`)
       if (e.redirect && !this.byId.has(e.redirect.to)) p(e.id, 'error', `redirect to missing entity "${e.redirect.to}"`)
+      // Internal links in the body must land on an entity or on a file kept in data/; a miss fails the prerender at deploy.
+      for (const m of (e.content || '').matchAll(/\]\(\/([^)#\s]*?)\/?(?:#[^)]*)?\)/g)) {
+        const t = m[1]
+        if (['llms.txt', 'index.json', 'graph.json'].includes(t) || t.startsWith('m/')) continue  // written by the machine build, not kept in data/
+        if (/\.[a-z0-9]+$/i.test(t) ? !fs.existsSync(path.join(this.root, t)) : !this.byId.has(t)) p(e.id, 'error', `link to /${t}/ goes nowhere`)
+      }
     }
     return problems
   }

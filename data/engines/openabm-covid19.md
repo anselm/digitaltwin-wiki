@@ -47,4 +47,4 @@ It was built by the Pathogen Dynamics group at the Big Data Institute, Universit
 
 The core is written in C and needs a compiler and the GNU Scientific Library; it is best run from Python, and it also has an R interface. Inputs are a table of parameters and a table of household make-ups to sample from, and the repository documents both, along with every output file and the model's test suite. Example notebooks show a lockdown triggered by case numbers followed by app-based tracing.
 
-The last tagged release is version 1.0 from April 2021. It remains a clear, well-documented example of an epidemic model built around social networks. The code is GPL-3.0. For a maintained alternative in Python, see [Covasim and Starsim](/shelf/covasim-starsim/).
+The last tagged release is version 1.0 from April 2021. It remains a clear, well-documented example of an epidemic model built around social networks. The code is GPL-3.0. For a maintained alternative in Python, see [Covasim and Starsim](/engines/covasim-starsim/).
