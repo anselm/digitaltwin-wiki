@@ -4,9 +4,9 @@ about:
   description: 'Conferences, workshops and calls in GIS and digital twins.'
   view: list
 section:
-  order: 40
+  order: 102
   nav: true
-  area: resources
+  area: new
 provenance:
   origin: human
   status: public
