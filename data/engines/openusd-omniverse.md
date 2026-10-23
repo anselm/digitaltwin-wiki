@@ -24,7 +24,7 @@ open:
 provenance:
   origin: agent
   sources:
-    - title: 'USD Home — Universal Scene Description 26.08 documentation'
+    - title: 'USD Home — Universal Scene Description 26.11 documentation'
       url: 'https://openusd.org/release/index.html'
     - title: Alliance for OpenUSD
       url: 'https://aousd.org/'
@@ -48,8 +48,8 @@ import:
 domains:
   - sensory
 ---
-Pixar Animation Studios built OpenUSD for film and visual-effects production, as a file format and library for building animated 3D scenes collaboratively. Its documentation defines schemas for geometry, shading, lighting and physics. A composition system assembles many assets into one scene so that several tools and people can work on it at once. The Alliance for OpenUSD now promotes it and publishes a core specification. The Alliance is a non-profit under the Joint Development Foundation; its founding members are Pixar, Adobe, Apple, Autodesk and NVIDIA.
+Pixar Animation Studios built OpenUSD for film and visual-effects production, as a file format and library for building animated 3D scenes collaboratively.[^1,2] Its documentation defines schemas for geometry, shading, lighting and physics.[^1] A composition system assembles many assets into one scene so that several tools and people can work on it at once.[^1] The Alliance for OpenUSD now promotes it and publishes a core specification.[^2] The Alliance is a non-profit under the Joint Development Foundation; its founding members are Pixar, Adobe, Apple, Autodesk and NVIDIA.[^2]
 
-For models of places, OpenUSD is mainly a way to exchange scene data between content tools and simulators. NVIDIA Omniverse is a set of libraries for building simulation-ready worlds for robotics and industrial digital twins. Omniverse lists OpenUSD as one of its core library areas, so Omniverse scenes are USD scenes. The two are related but not the same thing.
+For models of places, OpenUSD is mainly a way to exchange scene data between content tools and simulators.[^2,3] NVIDIA Omniverse is a set of libraries for building simulation-ready worlds for robotics and industrial digital twins.[^3] Omniverse lists OpenUSD as one of its core library areas, so Omniverse scenes are USD scenes.[^3] The two are related but not the same thing.
 
-OpenUSD is open source, with documentation and releases at openusd.org. The documentation is for release 26.08. Omniverse libraries come through NVIDIA's developer site and GitHub, some of them pre-release, and NVIDIA sells enterprise support separately.
+OpenUSD is open source, with documentation and releases at openusd.org.[^1] The documentation is for release 26.11.[^1] Omniverse libraries come through NVIDIA's developer site and GitHub, and NVIDIA sells enterprise support separately.[^3]

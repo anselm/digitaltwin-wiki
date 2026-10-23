@@ -27,6 +27,8 @@ provenance:
   sources:
     - title: "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges"
       url: 'https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/'
+    - title: 'Planetary prediction engine: Automating global models via Earth AI'
+      url: 'https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/'
   created: '2026-10-17'
   reviewed: '2026-10-17'
   reviewed_by: 'Claude, from the sources listed'
@@ -50,8 +52,8 @@ relations:
     target: engines/google-earth-ai
     note: component of (source_claim; exact implementation not independently tested)
 ---
-Google Earth AI is Google Research's suite of geospatial foundation models and agents. A user brings local outcome data, for example regional disease rates, crop yields or grid outages. The engine selects relevant population and environmental signals from Earth AI's models and trains task-specific models for spatial prediction, super-resolution downscaling and forecasting. Downscaling means estimating values on a finer grid than the source data.
+Google Earth AI is Google Research's suite of geospatial foundation models and agents.[^1] A user brings local outcome data, for example regional disease rates, crop yields or grid outages. The engine selects relevant population and environmental signals from Earth AI's models and trains task-specific models for spatial prediction, super-resolution downscaling and forecasting.[^1,2] Downscaling means estimating values on a finer grid than the source data.
 
-Google's announcement names one deployed use. The World Health Organization's Africa office and the DRC's National Institute for Biomedical Research used it during the 2026 Ebola outbreak to estimate the risk of spread into uninfected zones. Google also says that in public-health research, combining population and satellite signals improved health-outcome predictions by 12 percent over demographic baselines and allowed mapping at eight times finer resolution.
+Google's announcement names one deployed use. During the 2026 Ebola outbreak, the epidemic modelling unit of the DRC's National Institute for Biomedical Research used it to estimate the risk of spread into uninfected zones, while the World Health Organization's Africa office used the related Geospatial Reasoning agent to map exposed settlements.[^1] Google also says that in public-health research, combining population and satellite signals improved health-outcome predictions by 12 percent over demographic baselines and allowed mapping at eight times finer resolution.[^1]
 
-The engine is a hosted Google service, reached through an interactive interface and through the Geospatial Reasoning Agent API. Google announced it on 14 October 2026 as an early preview for selected partners. Pricing is not published.
+The engine is a hosted Google service, reached through an interactive interface and through the Geospatial Reasoning Agent API.[^1] Google introduced it on 27 August 2026 as an experimental research capability,[^2] and on 14 October 2026 opened it as an early preview for a limited group of users.[^1] Pricing is not published.

@@ -49,8 +49,8 @@ import:
 domains:
   - water
 ---
-Computational fluid dynamics (CFD) simulates how liquids and gases move by solving the equations of flow on a mesh of small cells. Two organisations distribute OpenFOAM under the same name. OpenCFD Ltd, a subsidiary of Keysight, says it has developed OpenFOAM since 2004, and publishes releases every June and December. The OpenFOAM Foundation is a not-for-profit that owns the copyright of its line and distributes code produced by CFD Direct.
+Computational fluid dynamics (CFD) simulates how liquids and gases move by solving the equations of flow on a mesh of small cells. Two organisations distribute OpenFOAM under the same name.[^1,2] OpenCFD Ltd, a subsidiary of Keysight, says it has developed OpenFOAM since 2004, and publishes releases every June and December.[^1] The OpenFOAM Foundation is a not-for-profit that owns the copyright of its line and distributes code produced by CFD Direct.[^2]
 
-Both organisations report users in most fields of engineering and science, including chemical and process, civil, mechanical and environmental work. The Foundation notes growing use in clean-energy research such as renewables, batteries and carbon capture. In a model of a place it is the kind of solver used for detailed wave, current or airflow studies around a site.
+Both organisations report users in most fields of engineering and science, including chemical and process, civil, mechanical and environmental work.[^1,2] The Foundation notes growing use in clean-energy research such as renewables, batteries and carbon capture.[^2] In a model of a place it is the kind of solver used for detailed wave, current or airflow studies around a site.[^2]
 
-OpenFOAM is free software under the GNU General Public Licence v3. It installs on Linux, macOS or Windows, or builds from source. Both organisations sell support, training and development work.
+OpenFOAM is free software under the GNU General Public Licence v3.[^2] It installs on Linux, macOS or Windows, or builds from source.[^1,2] OpenCFD sells support, training and development work, and the Foundation sells training and maintenance plans.[^1,2]
