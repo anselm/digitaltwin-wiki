@@ -14,6 +14,7 @@ about:
     - special issue
 event:
   url: 'https://ojs.bonviewpress.com/index.php/SSC/UCF-AI'
+  ends: '2027-06-01'
 provenance:
   origin: agent
   sources:

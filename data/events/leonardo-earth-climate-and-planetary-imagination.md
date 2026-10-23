@@ -14,6 +14,8 @@ about:
 event:
   url: >-
     https://leonardo.info/opportunity/call-for-papers-earth-climate-and-planetary-imagination
+  starts: '2026-10-14'
+  ends: '2026-12-15'
 provenance:
   origin: agent
   sources:

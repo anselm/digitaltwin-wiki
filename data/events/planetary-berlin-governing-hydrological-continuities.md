@@ -15,6 +15,9 @@ about:
     - workshop
 event:
   url: 'https://luma.com/izwljp4m'
+  venue: Public Vitality Camp, Teufelsberg, Berlin
+  starts: '2026-09-17'
+  ends: '2026-09-19'
 provenance:
   origin: agent
   sources:
