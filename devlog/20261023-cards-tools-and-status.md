@@ -36,3 +36,26 @@ the site until that header goes.
 Next, without being asked: when a scenario or entry is written, the
 after-edit pass flags long descriptions; the backlog of 173 can be cut down
 shelf by shelf, starting with the pages /admin/ lists as most linked.
+
+## A fifth layer: communication (later the same afternoon)
+
+Anselm, after looking at Climate Central's Climate Local and Climate
+Matters: "a full stack isn't just data, and engines, and even web based
+interfaces to engines, but also communications?" Then: showing is half of
+communicating, and tools that make motion graphics have changed it; the
+other half, "consumer or mass market facing experiences that are not
+merely presentations but are interactive", is where "very little done yet"
+lives. "We have to let the stakeholders actually play with the scenarios -
+not merely be passive - i feel like participation is the key." He wants the
+shelf to represent the field, not his own work.
+
+So the stack in `devlog/20261019-stack.md` gains a fifth layer after
+presentation, and the site a Communication shelf (`data/communication/`)
+in two groups, Showing and Playing: Climate Matters, Climate Local, the
+Climate Shift Index, Manim and Remotion; Victor's Explorable Explanations,
+Parable of the Polygons, the NYT's You Draw It, En-ROADS workshops and the
+Climate Action Simulation, the World Climate Simulation, companion
+modelling, and the FT climate game. Twelve entries, each written from its
+own pages and refuted. The point most worth carrying into the engine:
+Victor's 2024 postscript says he had already given up on the screen as the
+medium for discussion grounded in models.
