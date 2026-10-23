@@ -1,3 +1,4 @@
+import fs from 'node:fs'
 import { error } from '@sveltejs/kit'
 import { store, html, viewOf, card, domainCards } from '$lib/store.server.js'
 import { charts, W, H, P } from '$lib/vitals.server.js'
@@ -50,6 +51,12 @@ export function load({ params }) {
       sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), area: s.section.area || 'resources', count: s.about.view === 'recent' ? 0 : store.descendants(s.id).length })),
       areas: [['new', 'New'], ['practice', 'Practice'], ['technologies', 'Technologies'], ['theory', 'Theory'], ['resources', 'Resources']],
       domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
+  }
+  // The working status: computed at build by tools/status.js, plus the project's own todo.md.
+  if (view === 'admin') {
+    const read = (f) => (fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : null)
+    const st = read('static/status.json'), todo = read('../../todo.md')
+    return { ...base, status: st ? JSON.parse(st) : null, todo: todo ? html(todo.replace(/^# .*\n/, '')) : '' }
   }
   if (view === 'vitals') return { ...base, vitals: charts(e.vitals?.series || []), dims: { W, H, P } }
   if (view === 'list') {

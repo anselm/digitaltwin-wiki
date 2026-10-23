@@ -18,7 +18,8 @@
     "dev": "npm run machine && npm --workspace packages/site run dev",
     "share": "node tools/share.js",
     "after": "node tools/after-edit.js",
-    "build": "npm run check && npm run machine && npm run share && npm --workspace packages/site run build"
+    "status": "node tools/status.js",
+    "build": "npm run check && npm run machine && npm run share && node tools/status.js && npm --workspace packages/site run build"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2"

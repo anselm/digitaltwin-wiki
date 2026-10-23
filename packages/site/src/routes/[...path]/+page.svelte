@@ -5,10 +5,11 @@
   import Domain from '$lib/views/Domain.svelte'
   import Prose from '$lib/views/Prose.svelte'
   import Vitals from '$lib/views/Vitals.svelte'
+  import Admin from '$lib/views/Admin.svelte'
   const SITE = 'https://digitaltwins.wiki'
   let { data } = $props()
   // The entity chose its view; the URL did not. Unknown views fall back to prose.
-  const views = { home: Home, list: List, recent: List, domains: Domains, domain: Domain, prose: Prose, flow: Prose, vitals: Vitals }
+  const views = { home: Home, list: List, recent: List, domains: Domains, domain: Domain, prose: Prose, flow: Prose, vitals: Vitals, admin: Admin }
   const View = $derived(views[data.view] || Prose)
   const title = $derived(data.view === 'home' ? data.label : `${data.label} · Digital Twins Wiki`)
   const s = $derived(data.share)
