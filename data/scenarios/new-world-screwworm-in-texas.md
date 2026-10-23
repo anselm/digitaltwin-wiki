@@ -37,19 +37,19 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-New World screwworm (Cochliomyia hominivorax) is a fly whose larvae burrow into the living flesh of warm-blooded animals, entering through wounds as small as a tick bite or through the navel of a newborn. It infests livestock, pets and wildlife, and in rare cases people. The United States eradicated it in 1966 by releasing sterile male flies, and cleared a small outbreak in the Florida Keys in 2017. In recent years it has moved north through Central America and Mexico. On 3 June 2026 the USDA confirmed a case in a three-week-old calf in Zavala County, Texas, and on 5 June a second in a one-month-old calf about 5.6 miles away. The response set a 20 km infested zone around each detection with quarantines and movement controls, and added ground releases of sterile flies to the aerial releases already under way. After the second case another 4 million sterile flies a week were shipped for 24 ground release chambers. The only sterile fly factory now operating in North America is in Panama, run jointly by the USDA and Panama's agriculture ministry. Meat from inspected animals is not at risk; the threat is to the animals and to trade in live ones.
+New World screwworm (Cochliomyia hominivorax) is a fly whose larvae burrow into the living flesh of warm-blooded animals, entering through wounds as small as a tick bite or through the navel of a newborn.[^2,5] It infests livestock, pets and wildlife, and in rare cases people.[^1,2] The United States eradicated it in 1966 by releasing sterile male flies, and cleared a small outbreak in the Florida Keys in 2017.[^1,5] In recent years it has moved north through Central America and Mexico.[^1,2] On 3 June 2026 the USDA confirmed a case in a three-week-old calf in Zavala County, Texas,[^2] and on 5 June a second in a one-month-old calf about 5.6 miles away.[^3] The response set a 20 km infested zone around each detection with quarantines and movement controls, and added ground releases of sterile flies to the aerial releases already under way.[^2,3] After the second case another 4 million sterile flies a week were shipped for 24 ground release chambers.[^3] The only sterile fly factory now operating in North America is in Panama, run jointly by the USDA and Panama's agriculture ministry.[^1] Meat from inspected animals is not at risk; the threat is to the animals and to trade in live ones.[^2,5]
 
 ## Who needs an answer
 
-- USDA APHIS and the Texas Animal Health Commission, deciding where to draw zones and where to release sterile flies.
-- Ranchers inside and near the zones, who are advised to put off branding, castration and other wound-causing work.
-- Neighbouring states, which may halt animal movements from an affected state.
-- Wildlife managers, since wild animals can be hosts too.
-- Trading partners and the livestock markets that depend on moving live animals.
+- USDA APHIS and the Texas Animal Health Commission, deciding where to draw zones and where to release sterile flies.[^2,3]
+- Ranchers inside and near the zones, who are advised to put off branding, castration and other wound-causing work.[^1]
+- Neighbouring states, which may halt animal movements from an affected state.[^5]
+- Wildlife managers, since wild animals can be hosts too.[^1]
+- Trading partners and the livestock markets that depend on moving live animals.[^2,5]
 
 ## The domains it chains
 
-Fly biology and how far adults travel; cattle, wildlife and pets as hosts; the supply of sterile flies from a single factory; animal movement, markets and trade rules; veterinary treatment and drug withdrawal times before slaughter.
+Fly biology and how far adults travel; cattle, wildlife and pets as hosts; the supply of sterile flies from a single factory; animal movement, markets and trade rules; veterinary treatment and drug withdrawal times before slaughter.[^5]
 
 ## What a twin should let people try
 
@@ -59,4 +59,4 @@ Fly biology and how far adults travel; cattle, wildlife and pets as hosts; the s
 
 ## Where to start
 
-APHIS publishes fact sheets on the sterile insect technique and release methods, a standard operating procedure for possible detections, and a page on the unified government response (Stop Screwworm), all linked from its screwworm page.
+APHIS publishes fact sheets on the sterile insect technique and release methods, a standard operating procedure for possible detections, and a page on the unified government response (Stop Screwworm), all linked from its screwworm page.[^1]

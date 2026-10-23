@@ -45,15 +45,15 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The Middle East and North Africa have warmed by 1.5°C since pre-industrial times and are close to passing 2°C, according to a study led from KAUST in Saudi Arabia and published in November 2024. Some parts are warming three times faster than the global average. The team downscaled 26 global climate models to a 9 km grid and found summer warming hotspots over the central Arabian Peninsula, including Riyadh Province, and over Algeria. The coasts of the southern and western peninsula, Oman among them, are warming more slowly than the inland and the east coast. By 2100 the peninsula is projected to warm by about 2.6°C under low emissions and 7.6°C under high emissions, and the summer hotspot by about 9°C under high emissions. The region reaches each level of warming two or three decades before the world as a whole.
+The Middle East and North Africa have warmed by 1.5°C since pre-industrial times and are close to passing 2°C, according to a study led from KAUST in Saudi Arabia and published in November 2024.[^1,2,3] Some parts are warming three times faster than the global average.[^1,2] The team drew on 26 statistically downscaled global climate model outputs, on grids as fine as 9 km, and found summer warming hotspots over the central Arabian Peninsula, including Riyadh Province, and over Algeria.[^1,2] The coasts of the southern and western peninsula, Oman among them, are warming more slowly than the inland and the east coast.[^1] By 2100 the peninsula is projected to warm by about 2.6°C under low emissions and 7.6°C under high emissions, and the summer hotspot by about 9°C under high emissions.[^1,2] The region reaches each level of warming two or three decades before the world as a whole.[^1]
 
-Gulf states already stop outdoor work in the hottest part of the day each summer, on fixed dates and hours. In 2026 Saudi Arabia banned work under direct sun in the private sector from noon to 3 p.m., 15 June to 15 September, and recorded 1,771 violations over 29,945 inspections. The UAE ran its ban for the 22nd year, 12:30 to 3 p.m. over the same dates. Bahrain issued a new decision, reported in May 2026, that sets the window at noon to 4 p.m., 15 June to 31 August, with exceptions for oil and gas, utilities and emergency work.
+Gulf states already stop outdoor work in the hottest part of the day each summer, on fixed dates and hours. In 2026 Saudi Arabia banned work under direct sun in the private sector from noon to 3 p.m., 15 June to 15 September, and recorded 1,771 violations over 29,945 inspections.[^4] The UAE ran its ban for the 22nd year, 12:30 to 3 p.m. over the same dates.[^5] Bahrain issued a new decision, reported in May 2026, that sets the window at noon to 4 p.m., 15 June to 31 August, with exceptions for oil and gas, utilities and emergency work.[^6]
 
 ## Who needs an answer
 
 - The labour ministries that set the dates and hours, deciding whether a fixed window still covers the dangerous heat and how it should change as the region warms.
-- Employers and contractors, who plan shifts, shade, water and cooling around the window. Some of their work is exempt and goes on through it: in the UAE, asphalt laying, concrete pouring and emergency repairs.
-- City and regional planners in the fastest-warming inland areas, deciding where to build and how to cool streets and sites, for a peninsula population expected to double by the end of the century.
+- Employers and contractors, who plan shifts, shade, water and cooling around the window. Some of their work is exempt and goes on through it: in the UAE, asphalt laying, concrete pouring and emergency repairs.[^5]
+- City and regional planners in the fastest-warming inland areas, deciding where to build and how to cool streets and sites, for a peninsula population expected to double by the end of the century.[^3]
 - Workers and the groups that speak for them, who need to know whether the rules match the heat at their own sites.
 
 ## The domains it chains
@@ -65,8 +65,8 @@ The regional climate sets the background, and it differs between the hot inland 
 - Coverage: on how many days, and at which places, does dangerous heat fall outside the current dates and hours, today and at each level of warming?
 - Comparison: what difference do the Saudi, UAE and Bahraini windows make for the same worker on the same day?
 - Place: how much does the answer change between the inland hotspot around Riyadh and the slower-warming coasts?
-- Emissions: how much later do the thresholds arrive under a low-emissions path, which the study finds could slow the region's warming by up to 38%?
+- Emissions: how much later do the thresholds arrive under a low-emissions path, which the study finds could slow the region's warming by up to 38%?[^1,2]
 
 ## Where to start
 
-The [study](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JD041625) is open access and gives the downscaled projections for the region; its authors are at KAUST. Daily air temperature from ERA5 can be followed on [Climate Reanalyzer](/data-sources/climate-reanalyzer/). The [use case on weather and climate](/questions/weather-and-climate/) separates the regional climate from the heat on a single street.
+The [study](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JD041625) is open access and gives the downscaled projections for the region; its authors are at KAUST.[^1] Daily air temperature from ERA5 can be followed on [Climate Reanalyzer](/data-sources/climate-reanalyzer/). The [use case on weather and climate](/questions/weather-and-climate/) separates the regional climate from the heat on a single street.

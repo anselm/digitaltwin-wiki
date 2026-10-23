@@ -37,28 +37,28 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Texas sued New Mexico in 2013, arguing that groundwater pumping in New Mexico was drawing down the Rio Grande water owed to Texas under the 1938 Rio Grande Compact. Colorado and the United States joined, and the Supreme Court approved a settlement in May 2026. New Mexico now has until May 2036 to cut groundwater pumping between Caballo Reservoir and the Texas line by 18,200 acre-feet a year, roughly 6 to 7% of all groundwater use there; more than 80% of that use went to farms between 2021 and 2024. The state has $150 million for a voluntary programme that buys farmers' water rights and retires them, leaving the land fallow. The basin has been in drought since 2002. Elephant Butte Reservoir was about 13% full in May 2026 and fell to 3% after the spring release. Farmers in the Elephant Butte Irrigation District got four inches of water in 2026, against an entitlement of three acre-feet per acre. Snowmelt runoff has fallen 17% since 2000, and the state expects 25% less water in 50 years.
+Texas sued New Mexico in 2013, arguing that groundwater pumping in New Mexico was drawing down the Rio Grande water owed to Texas under the 1938 Rio Grande Compact.[^1] Colorado and the United States joined, and the Supreme Court approved a settlement in May 2026.[^1] New Mexico now has until May 2036 to cut groundwater pumping between Caballo Reservoir and the Texas line by 18,200 acre-feet a year, roughly 6 to 7% of all groundwater use there; more than 80% of that use went to farms between 2021 and 2024.[^1] The state has $150 million for a voluntary programme that buys farmers' water rights and retires them, leaving the land fallow. The basin has been in drought since 2002.[^1] Elephant Butte Reservoir was about 13% full in May 2026 and fell to 3% after the spring release.[^1] Farmers in the Elephant Butte Irrigation District got four inches of water in 2026, against an entitlement of three acre-feet per acre.[^1] Snowmelt runoff has fallen 17% since 2000, and the state expects 25% less water in 50 years.[^1]
 
 ## Who needs an answer
 
-- New Mexico's Office of the State Engineer and Interstate Stream Commission, setting the price and any local caps for water rights purchases, and writing a Rio Grande management plan due within two years.
-- The Elephant Butte Irrigation District, the city of Las Cruces and New Mexico State University, in confidential talks on how cuts would be shared if voluntary sales fall short.
-- Farmers deciding whether to sell all, some or none of their rights; chile and vegetable growers around Hatch can fallow year to year, pecan orchards in the Mesilla Valley cannot.
-- Towns built on farming, such as Hatch, asking what fallowed fields mean for local businesses.
-- New users who must buy existing rights, since no new pumping rights will be issued; a data centre under construction at Santa Teresa bought rights from a sod farm.
+- New Mexico's Office of the State Engineer and Interstate Stream Commission, setting the price and any local caps for water rights purchases, and writing a Rio Grande management plan due within two years.[^1]
+- The Elephant Butte Irrigation District, the city of Las Cruces and New Mexico State University, in confidential talks on how cuts would be shared if voluntary sales fall short.[^1]
+- Farmers deciding whether to sell all, some or none of their rights; chile and vegetable growers around Hatch can fallow year to year, pecan orchards in the Mesilla Valley cannot.[^1]
+- Towns built on farming, such as Hatch, asking what fallowed fields mean for local businesses.[^1]
+- New users who must buy existing rights, since no new pumping rights will be issued; a data centre under construction at Santa Teresa bought rights from a sod farm.[^1]
 
 ## The domains it chains
 
-Snowpack in Colorado and northern New Mexico; reservoir storage and releases; an aquifer that now draws water out of the river; crops with very different water needs and flexibility; a market in water rights; the farm economy of small towns; and the river's fish and wildlife. The old river also kept side channels, ponds and wetlands where fish could wait out dry stretches; Lyle Lewis, who describes himself as a former endangered species branch chief at the US Fish and Wildlife Service, has written that these are gone.
+Snowpack in Colorado and northern New Mexico; reservoir storage and releases; an aquifer that now draws water out of the river; crops with very different water needs and flexibility; a market in water rights; the farm economy of small towns; and the river's fish and wildlife.[^1] The old river also kept side channels, ponds and wetlands where fish could wait out dry stretches; Lyle Lewis, who describes himself as a former endangered species branch chief at the US Fish and Wildlife Service, has written that these are gone.[^2]
 
 ## What a twin should let people try
 
 - Which rights to buy: retiring wells close to the river versus far from it, and how much more water each puts back into the flow to Texas.
 - Where the cuts land: a cap on sales around Hatch against no cap, and what each does to farm income and to the town.
-- Priority versus negotiated cuts: under New Mexico's prior appropriation system the newest users are cut first; the alternative administration the state can agree with water users could share cuts differently.
+- Priority versus negotiated cuts: under New Mexico's prior appropriation system the newest users are cut first; the alternative administration the state can agree with water users could share cuts differently.[^1]
 - Drier futures: whether 18,200 acre-feet is enough if the basin loses a quarter of its water, as the state expects.
-- Crops: what shifting some pecan acreage to pistachios, which need less water, or using soil moisture sensors to time irrigation would save.
+- Crops: what shifting some pecan acreage to pistachios, which need less water, or using soil moisture sensors to time irrigation would save.[^1]
 
 ## Where to start
 
-Stream and groundwater observations are in [USGS Water Data](/data-sources/usgs-water-data/). For the wider basin, a 2025 paper in Discover Water led by Brian Richter found that 52% of water consumption across the Rio Grande basin, in the United States and Mexico, is depleting reservoirs, aquifers and river flows.
+Stream and groundwater observations are in [USGS Water Data](/data-sources/usgs-water-data/). For the wider basin, a 2025 paper in Discover Water led by Brian Richter found that 52% of water consumption across the Rio Grande basin, in the United States and Mexico, is depleting reservoirs, aquifers and river flows.[^1]
