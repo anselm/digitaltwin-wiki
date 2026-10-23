@@ -10,8 +10,10 @@
 :80 {
 	root * /srv/site
 
-	# Staging: keep search engines out until Anselm launches it.
-	header X-Robots-Tag "noindex, nofollow"
+	# Open to search engines since 2026-10-23 (Anselm). Kept out of search: the machine copies,
+	# which repeat every page as markdown and JSON, and the status page, which is open but not advertised.
+	@unlisted path /m/* *.json /admin /admin/*
+	header @unlisted X-Robots-Tag "noindex"
 
 	# SvelteKit fingerprints these — safe to cache forever.
 	@immutable path /_app/immutable/*

@@ -15,10 +15,9 @@ One list for the project, kept current. Decisions and reasoning live in
   twin; are there whole systems models yet; the limits of reason; the
   ecological frontier.
 - Decide the chrome: the site name, the twins label, the home text.
-- Decide whether to drop noindex and the staging badge on digitaltwins.wiki.
-  Since 2026-10-23 every page has share cards, a sitemap and search metadata,
-  but `deploy/Caddyfile` still sends `X-Robots-Tag: noindex, nofollow`, so
-  search engines will not list the site until this is decided.
+- Decide whether to drop the staging badge on digitaltwins.wiki. (Indexing:
+  opened 2026-10-23 at Anselm's word; the machine copies and /admin/ stay
+  noindex.)
 - Ambassadors: real people to stand for a patron path, if any.
 - Export the ChatGPT guide site (sign-in only) before deleting it, if there
   is anything in it beyond the survey.
