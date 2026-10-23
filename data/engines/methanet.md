@@ -55,8 +55,8 @@ relations:
       application of (source_claim; exact implementation not independently
       tested)
 ---
-Ecosphere Blue calls itself a molecular-surveillance and intelligence platform for carbon projects, and MethaNet is its core offering. Blue carbon is carbon stored in coastal wetlands such as mangroves. MethaNet aims to judge how a blue-carbon project is performing, and to project its methane risk, from genomic and geochemical data as well as vegetation surveys. Credits could then be priced against that risk.
+Ecosphere Blue calls itself a molecular-surveillance and intelligence platform for carbon projects, and MethaNet is its core offering.[^1] Blue carbon is carbon stored in coastal wetlands such as mangroves.[^2] MethaNet aims to judge how a blue-carbon project is performing, and to project its methane risk, from genomic and geochemical data.[^1] Credits could then be priced against that risk.[^1]
 
-MethaNet is built on EmergentBiome, the company's molecular evidence atlas. The company says the atlas was validated by identifying previously unaccounted-for microbial biomarkers of methane flux in mangrove sediment samples. The atlas links genes and genome records to sampling context and review questions, and gives no credit or tonnage estimate.
+MethaNet is built on EmergentBiome, the company's molecular evidence atlas. The company says the atlas was validated by identifying previously unaccounted-for microbial biomarkers of methane flux in mangrove sediment samples.[^1] The atlas links genes and genome records to sampling context and review questions, and gives no credit or tonnage estimate.[^2]
 
-Pricing is not published. The Ecosphere Blue page labels the service "coming soon". EmergentBiome is at the stage of molecular diligence and measurement planning. Its internal model has not been independently reviewed, and a field test is the next step.
+Pricing is not published. The Ecosphere Blue page labels the service "coming soon".[^1] EmergentBiome is at the stage of molecular diligence and measurement planning.[^2] Its internal model has not been independently reviewed, and a field test is the next step.[^2]

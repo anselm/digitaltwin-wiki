@@ -56,15 +56,15 @@ domains:
   - ecology
   - sensory
 ---
-PyTorch-Wildlife is a framework for building, sharing and running conservation models. The lab's Biodiversity hub groups it with:
+PyTorch-Wildlife is a framework for building, sharing and running conservation models. The lab's Biodiversity hub groups it with:[^1]
 
-- MegaDetector, the best known of the lab's models
-- MegaDetector-Acoustic, for sound
-- MegaDetector-Overhead, for drone and aerial imagery
-- a model zoo of species classifiers
+- MegaDetector, for camera-trap images[^1,2]
+- MegaDetector-Acoustic, for sound[^1]
+- MegaDetector-Overhead, for drone and aerial imagery[^1,3]
+- a model zoo of species classifiers[^1]
 
-A camera trap is a motion-triggered camera left out in the field. MegaDetector draws boxes around animals, people and vehicles in its images, each with a confidence score. It does not identify species. Researchers use it mainly to discard empty frames before review. Dan Morris developed versions 1 to 5 at Microsoft. Version 6 uses the YOLOv9, YOLOv10 and RT-DETR architectures.
+A camera trap is a motion-triggered camera left out in the field. MegaDetector draws boxes around animals, people and vehicles in its images, each with a confidence score.[^2] It does not identify species.[^2] Researchers use it mainly to discard empty frames before review.[^2] Dan Morris developed versions 1 to 5 at Microsoft.[^2] Version 6 uses the YOLOv9, YOLOv10 and RT-DETR architectures.[^2]
 
-MegaDetector-Overhead applies the same approach to drone survey imagery, where targets are small and altitude and perspective vary. It ships the OWL model family (formerly Overhead Wildlife Locator), including a checkpoint for caribou. No-code front ends such as AddaxAI, SPARROW Studio and a Hugging Face demo can also load the models.
+MegaDetector-Overhead, formerly called OWL (Overhead Wildlife Locator), applies the same approach to drone survey imagery, where targets are small and altitude and perspective vary.[^3] Its models include a checkpoint for caribou.[^1,3] No-code front ends such as AddaxAI, SPARROW Studio and a Hugging Face demo can also load the models.[^2]
 
-Everything runs locally. `pip install PytorchWildlife` installs a Python API and a command line that write JSON detections per image. The code is MIT-licensed. Each variant's weights carry their own licence, and the overhead model and data release is CC BY-NC-SA 4.0.
+Everything runs locally.[^2] `pip install PytorchWildlife` installs a Python API and a command line that write JSON detections per image.[^1,2] The code is MIT-licensed. Each variant's weights carry their own licence, and the overhead model and data release is CC BY-NC-SA 4.0.[^2,3]

@@ -48,8 +48,8 @@ domains:
   - climate
   - water
 ---
-The model is described in a September 2026 arXiv paper by Julian F. Schmitt, Bertrand Delorme, Robert C. King, Yashica Patodia, Tapio Schneider, Aditi Sheshadri and Ravi Jain. Its starting point is AIFS, ECMWF's open-source 0.25-degree probabilistic weather model. Most AI weather models are trained against ERA5, a reanalysis (a reconstruction of past weather from observations). Laxmi is retrained on satellite-based precipitation observations instead.
+The model is described in a September 2026 arXiv paper by Julian F. Schmitt, Bertrand Delorme, Robert C. King, Yashica Patodia, Tapio Schneider, Aditi Sheshadri and Ravi Jain.[^1] Its starting point is AIFS, ECMWF's open-source 0.25-degree probabilistic weather model.[^1] Most AI weather models are trained against ERA5, a reanalysis (a reconstruction of past weather from observations). Laxmi is retrained on satellite-based precipitation observations instead.[^1]
 
-The paper argues that gains in global-average skill do not automatically help with floods or drought, and that ERA5 carries known biases in rainfall. Against that baseline the authors report a 19% improvement in global probabilistic accuracy and less over-prediction of drizzle. They also report better capture of extreme rainfall, and the best 150 mm event-total forecasts in seven of ten Indian tropical storms studied.
+The paper argues that gains in global-average skill do not automatically help with floods or drought, and that ERA5 carries known biases in rainfall.[^1] Against that baseline the authors report a 19% improvement in global probabilistic accuracy and less over-prediction of drizzle.[^1] They also report better capture of extreme rainfall, and the best 150 mm event-total forecasts in seven of ten Indian tropical storms studied.[^1]
 
-The paper's third revision is dated 23 September 2026.
+The paper's third revision is dated 23 September 2026.[^1]
