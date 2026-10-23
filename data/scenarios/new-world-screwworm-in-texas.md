@@ -14,6 +14,7 @@ about:
 scenario:
   place: Zavala County, Texas, and the United States–Mexico border region
   since: '2026'
+  scale: bioregion
 domains:
   - food
   - ecology

@@ -14,6 +14,7 @@ about:
 scenario:
   place: England, with severe drought in parts of the south-west and south-east
   since: '2026'
+  scale: bioregion
 domains:
   - water
   - food

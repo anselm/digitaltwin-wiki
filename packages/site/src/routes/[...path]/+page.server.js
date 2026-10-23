@@ -54,6 +54,12 @@ export function load({ params }) {
       const groups = [{ label: 'Upcoming', items: pick((c) => when(c) >= today, 1) }, { label: 'Past', items: pick((c) => when(c) && when(c) < today, -1) }, { label: 'Undated', items: pick((c) => !when(c), 1) }].filter((g) => g.items.length)
       return { ...base, items, groups }
     }
+    // Scenarios run along a continuum of scale, so they are shelved world first, then bioregion, then community.
+    if (kids.length && kids.every((c) => c.scenario)) {
+      const scales = [['world', 'World scale'], ['bioregion', 'Bioregional'], ['community', 'Local community']]
+      const groups = [...scales, [undefined, 'Other']].map(([k, label]) => ({ label, items: items.filter((_, i) => (scales.some(([s]) => s === kids[i].scenario.scale) ? kids[i].scenario.scale : undefined) === k) })).filter((g) => g.items.length)
+      return { ...base, items, groups }
+    }
     const grouped = items.length > 12 && items.filter((i) => i.group).length > items.length / 2
     const groups = grouped ? [...new Set(items.map((i) => i.group || 'Other'))].sort((a, b) => (a === 'Other') - (b === 'Other') || a.localeCompare(b)).map((g) => ({ label: g, items: items.filter((i) => (i.group || 'Other') === g) })) : null
     return { ...base, items, groups }

@@ -14,6 +14,7 @@ about:
 scenario:
   place: United States, and the countries that supply its aluminium
   since: '2025'
+  scale: world
 domains:
   - energy
   - people

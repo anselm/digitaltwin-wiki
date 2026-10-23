@@ -15,4 +15,6 @@ Talk about digital twins drifts easily to the very large, "the climate crisis", 
 
 That makes them a test. A twin worth building should be able to hold one of these situations, couple the domains it runs across, and let the people involved try the what-ifs listed on its page. The list is also a check on what we think twins can do: where none of the tools on this site would get far, the gap is worth knowing.
 
+The scenarios run along a continuum of scale. At the world end are problems carried by global trade and shipping, where a closed strait reaches a rice farmer in Bangladesh. In the middle are bioregional problems, a river basin or a sea or a stretch of wetland, bounded by the land and the water rather than by borders. At the local end are single communities: a town that dissolved over its water tank, a lagoon in one city's river, one ranch. A twin may suit one end better than the other, and where it stops working along the way says something about it.
+
 Each page says what happened, who needs an answer, which domains the problem chains together, what a twin should let people try, and what data and tools exist to start. The general questions behind them, such as where a flood will go, are under [Use cases](/questions/).

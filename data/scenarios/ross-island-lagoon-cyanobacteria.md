@@ -14,6 +14,7 @@ about:
 scenario:
   place: Ross Island lagoon, Willamette River, Portland, Oregon
   since: '1926'
+  scale: community
 domains:
   - water
   - ecology

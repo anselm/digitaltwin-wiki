@@ -14,6 +14,7 @@ about:
 scenario:
   place: Hartman, Prowers County, south-eastern Colorado
   since: '2025'
+  scale: community
 domains:
   - water
   - people

@@ -15,6 +15,7 @@ about:
 scenario:
   place: Iberá wetlands, Corrientes, and other Argentine national parks made from Tompkins land
   since: '1990s'
+  scale: bioregion
 domains:
   - ecology
   - water

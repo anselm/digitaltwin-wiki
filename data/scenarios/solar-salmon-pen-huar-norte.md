@@ -16,6 +16,7 @@ about:
 scenario:
   place: Huar Norte salmon farm, Los Lagos region, Chile
   since: '2025'
+  scale: community
 domains:
   - energy
   - food

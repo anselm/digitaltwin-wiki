@@ -16,6 +16,7 @@ about:
 scenario:
   place: Strait of Hormuz, between the Persian/Arabian Gulf and the Gulf of Oman
   since: '2026'
+  scale: world
 domains:
   - energy
   - mobility

@@ -14,6 +14,7 @@ about:
 scenario:
   place: Great Lakes basin, United States and Canada
   since: '2008'
+  scale: bioregion
 domains:
   - water
   - climate

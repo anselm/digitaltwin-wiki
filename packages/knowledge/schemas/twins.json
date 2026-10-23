@@ -14,7 +14,7 @@
     "term":         { "folder": "terms",        "fields": ["aka"] },
     "twin":         { "folder": "twins",        "fields": ["place", "sector", "scale", "operational", "homepage"] },
     "question":     { "folder": "questions",    "fields": [] },
-    "scenario":     { "folder": "scenarios",    "fields": ["place", "since"] },
+    "scenario":     { "folder": "scenarios",    "fields": ["place", "since", "scale"] },
     "mandate":      { "folder": "mandates",     "fields": ["issued_by", "binds", "by", "adopted", "homepage"] },
     "event":        { "folder": "events",       "fields": ["url", "venue", "starts", "ends"] },
     "story":        { "folder": "stories",      "fields": [] },

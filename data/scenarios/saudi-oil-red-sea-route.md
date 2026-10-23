@@ -15,6 +15,7 @@ about:
 scenario:
   place: Southern Red Sea and the Bab el-Mandab strait, off Yemen
   since: '2026'
+  scale: world
 domains:
   - energy
   - mobility

@@ -14,6 +14,7 @@ about:
 scenario:
   place: Flying D Ranch, between the Gallatin and Madison rivers south of Bozeman, Montana
   since: '1989'
+  scale: community
 domains:
   - ecology
   - food

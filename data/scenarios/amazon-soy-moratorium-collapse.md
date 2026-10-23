@@ -15,6 +15,7 @@ about:
 scenario:
   place: Brazilian Amazon, soy-producing states including Mato Grosso
   since: '2006'
+  scale: world
 domains:
   - ecology
   - food

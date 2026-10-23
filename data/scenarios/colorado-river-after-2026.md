@@ -17,6 +17,7 @@ about:
 scenario:
   place: Colorado River Basin, United States and Mexico
   since: '2026'
+  scale: bioregion
 domains:
   - water
   - energy

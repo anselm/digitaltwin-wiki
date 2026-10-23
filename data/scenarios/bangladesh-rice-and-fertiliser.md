@@ -14,6 +14,7 @@ about:
 scenario:
   place: Bangladesh, and the fertiliser route through the Strait of Hormuz
   since: '2026'
+  scale: world
 domains:
   - food
   - mobility

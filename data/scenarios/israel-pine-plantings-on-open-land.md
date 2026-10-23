@@ -15,6 +15,7 @@ about:
 scenario:
   place: Israel, from the Northern Negev loess plains to the Galilee and Golan
   since: '1920s'
+  scale: bioregion
 domains:
   - ecology
   - fire
