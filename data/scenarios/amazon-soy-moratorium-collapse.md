@@ -35,7 +35,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The Amazon Soy Moratorium began in 2006. Under it, soy traders agreed not to source or finance soy grown on land deforested after July 2008. When it began, nearly a third of each year's new soy came from cleared forest; afterwards that share fell to nearly zero. Soy farmers sued the traders for $200 million, and antitrust authorities investigated whether the signatories behaved like a cartel. Laws in Mato Grosso and other soy states stripped tax breaks from companies holding commitments beyond the law. Phys.org reported in July 2026 that it had been abandoned in January. A study in Science led by Lisa Rausch projects at least 1.4 million hectares of additional deforestation by 2036, about 745 million tonnes of carbon dioxide, comparable to Canada's yearly emissions. It warns that tens of millions more hectares of undesignated public forest suitable for soy could face land grabs. The state laws are being challenged in Brazil's Federal Supreme Court.
+The Amazon Soy Moratorium began in 2006. Under it, soy traders agreed not to source or finance soy grown on land deforested after July 2008. When it began, nearly a third of each year's new soy came from cleared forest; afterwards that share fell to nearly zero.[^1] Soy farmers sued the traders for $200 million, and antitrust authorities investigated whether the signatories behaved like a cartel.[^1] Laws in Mato Grosso and other soy states stripped tax breaks from companies holding commitments beyond the law.[^1] Phys.org reported in July 2026 that it had been abandoned in January.[^1] A study in Science led by Lisa Rausch projects at least 1.4 million hectares of additional deforestation by 2036, about 745 million tonnes of carbon dioxide, comparable to Canada's yearly emissions.[^1,2] It warns that tens of millions more hectares of undesignated public forest suitable for soy could face land grabs.[^1] The state laws are being challenged in Brazil's Federal Supreme Court.[^1]
 
 ## Who needs an answer
 
@@ -56,4 +56,4 @@ Forest clearing and where it happens; soy prices, farm expansion and the trade r
 
 ## Where to start
 
-The study is "The rise and fall of the Amazon Soy Moratorium" in Science, 2026 (doi:10.1126/science.aeg5368). Forest loss alerts and maps are published by [Global Nature Watch](/data-sources/global-nature-watch/). The [land-use use case](/questions/land-use-change/) describes the kinds of model that fit.
+The study is "The rise and fall of the Amazon Soy Moratorium" in Science, 2026 (doi:10.1126/science.aeg5368).[^1] Forest loss alerts and maps are published by [Global Nature Watch](/data-sources/global-nature-watch/). The [land-use use case](/questions/land-use-change/) describes the kinds of model that fit.

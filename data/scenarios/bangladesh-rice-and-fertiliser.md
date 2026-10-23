@@ -34,7 +34,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The 7% is a recent five-year average, and the imported fertiliser passes through the [Strait of Hormuz](/scenarios/strait-of-hormuz-closure/). NASA Harvest's Harvest2Market tool flags ongoing trade disruptions as a possible factor in Bangladesh's future rice production. Followed as a chain on the platform, a disruption at the strait threatens the fertiliser, less fertiliser threatens the next crop, and a weaker crop threatens supply and prices across the region.
+The 7% is a recent five-year average, and the imported fertiliser passes through the [Strait of Hormuz](/scenarios/strait-of-hormuz-closure/).[^1] NASA Harvest's Harvest2Market tool flags ongoing trade disruptions as a possible factor in Bangladesh's future rice production.[^1] Followed as a chain on the platform, a disruption at the strait threatens the fertiliser, less fertiliser threatens the next crop, and a weaker crop threatens supply and prices across the region.[^2]
 
 ## Who needs an answer
 
@@ -55,4 +55,4 @@ Shipping through a disrupted strait; fertiliser supply and price; how a rice cro
 
 ## Where to start
 
-NASA Harvest's Harvest2Market, built with support from the Famine Early Warning Systems Network (FEWS NET), puts crop conditions, trade relationships and food-security indicators side by side, and draws on the GEOGLAM Crop Monitor's monthly assessments of crop conditions worldwide. Bangladesh is the worked example its team demonstrated at the Center for Strategic and International Studies' AI for Food Security Forum. A crop model such as [DSSAT](/engines/dssat/) can estimate how yield responds to fertiliser.
+NASA Harvest's Harvest2Market, built with support from the Famine Early Warning Systems Network (FEWS NET), puts crop conditions, trade relationships and food-security indicators side by side, and draws on the GEOGLAM Crop Monitor's monthly assessments of crop conditions worldwide.[^1] Bangladesh is the worked example its team demonstrated at the Center for Strategic and International Studies' AI for Food Security Forum.[^1] A crop model such as [DSSAT](/engines/dssat/) can estimate how yield responds to fertiliser.
