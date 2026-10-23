@@ -24,7 +24,7 @@ open:
   participation: partly
   note: >-
     Scores come through a keyed API and a widget, with branding requirements
-    and a free trial; the method is patented; members of the public can add
+    and a free tier; the method is patented; members of the public can add
     places that feed the scores.
 domains:
   - mobility
@@ -41,15 +41,21 @@ provenance:
       url: 'https://www.walkscore.com/methodology.shtml'
     - title: Walk Score API for web and mobile developers
       url: 'https://www.walkscore.com/professional/api.php'
+    - title: Walk Score Professional Features and Pricing
+      url: 'https://www.walkscore.com/professional/pricing.php'
+    - title: Walk Score Widget
+      url: 'https://www.walkscore.com/professional/walk-score-widget.php'
+    - title: 'Walk Score Data Services - Walkability, Real Estate, and Public Health Data'
+      url: 'https://www.walkscore.com/professional/research.php'
   created: '2026-10-18'
   reviewed: '2026-10-18'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-For each address the service analyses walking routes to nearby amenities in several categories, and a category earns full points within a five-minute walk (a quarter mile), fewer with distance, and none beyond a thirty-minute walk. Pedestrian friendliness is measured from population density and from road measures such as block length and intersection density. Data comes from Google, Factual, Great Schools, OpenStreetMap, the US Census, Localeze and places added by users.
+For each address the service analyses walking routes to nearby amenities in several categories, and a category earns full points within a five-minute walk (a quarter mile), fewer with distance, and none beyond a thirty-minute walk.[^2] Pedestrian friendliness is measured from population density and from road measures such as block length and intersection density.[^2] Data comes from Google, Factual, Great Schools, OpenStreetMap, the US Census, Localeze and places added by users.[^2]
 
-Transit Score sums the usefulness of nearby transit routes from frequency, type and distance to the nearest stop, using the data that transit agencies publish in a standard format. Bike Score combines bike lanes and trails, hills, destinations, road connectivity and the number of bike commuters, from USGS, OpenStreetMap and Census data.
+Transit Score sums the usefulness of nearby transit routes from frequency, type and distance to the nearest stop, using the data that transit agencies publish in a standard format.[^2] Bike Score combines bike lanes and trails, hills, destinations, road connectivity and the number of bike commuters, from USGS, OpenStreetMap and Census data.[^2]
 
-The site is aimed at people choosing where to live and at property marketing. Walk Score says academic researchers have validated the method, and that planners and analysts can use the data in research. City and neighbourhood rankings come from scoring a grid of points about 500 feet apart, each weighted by population density.
+The site is aimed at people choosing where to live and at property marketing.[^1,3] Walk Score says academic researchers have validated the method, and that planners and analysts can use the data in research.[^2,6] City and neighbourhood rankings come from scoring a grid of points about 500 feet apart, each weighted by population density.[^2]
 
-Walk Score is a hosted commercial service, with nothing to install. The method is patented. Developers call a server-side API at api.walkscore.com with an API key. There is a free trial and there are paid tiers, with branding requirements, and the API is supported in the United States and Canada. A widget shows the three scores on another site, and custom data is sold as a data service.
+Walk Score is a hosted commercial service, with nothing to install. The method is patented.[^2,6] Developers call a server-side API at api.walkscore.com with an API key.[^3] There is a free tier and there are paid tiers,[^4] with branding requirements, and the API is supported in the United States and Canada.[^3] A widget shows the three scores on another site,[^5] and custom data is sold as a data service.[^6]

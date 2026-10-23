@@ -38,10 +38,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: proposed
 ---
-Idrica, Xylem's development partner, is a water data-management company. Xylem Vue gathers data from any source into one shared view, including legacy systems, SCADA (the control systems that monitor pumps, valves and plants remotely), GIS maps and smart meters. Modular applications cover drinking-water treatment and networks, wastewater plants and sewers, and irrigation infrastructure. Another is an early-warning system for extreme events in river basins.
+Idrica, Xylem's development partner, is a water data-management company.[^1] Xylem Vue gathers data from any source into one shared view, including legacy systems, SCADA (the control systems that monitor pumps, valves and plants remotely), GIS maps and smart meters.[^1,2] Modular applications cover drinking-water treatment and networks, wastewater plants and sewers, and irrigation infrastructure.[^1] Another is an early-warning system for extreme events in river basins.[^1]
 
-Xylem's pages give three uses. Brabant Water supplies 2.6 million people in the southern Netherlands through a 19,000 km distribution network. It is using Xylem Vue as the data layer of a digital twin of that network, alongside new sensors and smart meters, so its control room works from one operational view. A webinar with the utility's programme manager covers the path from pilot to platform and shows the live system.
+Xylem's pages give three uses. Brabant Water supplies 2.6 million people in the southern Netherlands through a 19,000 km distribution network.[^2] It is using Xylem Vue as the data layer of a digital twin of that network, alongside new sensors and smart meters, so its control room works from one operational view.[^2] A webinar with the utility's programme manager covers the path from pilot to platform and shows the live system.[^2]
 
-The City of Richmond used Xylem Vue for a real-time decision support system on combined sewer overflows, where storm water and sewage spill from shared pipes. Hot Springs deployed the Xylem Vue leak-detection application with Xylem's metering products.
+The City of Richmond used Xylem Vue for a real-time decision support system on combined sewer overflows, where storm water and sewage spill from shared pipes.[^1] Hot Springs deployed the Xylem Vue leak-detection application with Xylem's metering products.[^1]
 
-Xylem sells it commercially, with its own implementation and training. Pricing is not published.
+Xylem sells it commercially, with its own implementation and training.[^1] Pricing is not published.

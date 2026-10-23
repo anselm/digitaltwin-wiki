@@ -59,20 +59,20 @@ import:
     - Emma Scharfmann
     - David Carlin
 ---
-WeatherNext 3, announced on 3 September 2026 with a paper by Rasp and 24 co-authors, is an ensemble model: it runs many forecasts at once to show the spread of likely outcomes. It ingests low-latency geostationary satellite data and issues a new forecast every hour instead of every six. Surface variables, including solar radiation and cloud cover, come at 0.1 degree resolution.
+WeatherNext 3, announced on 3 September 2026 with a paper by Rasp and 24 co-authors, is an ensemble model: it runs many forecasts at once to show the spread of likely outcomes.[^1,3] It ingests low-latency geostationary satellite data and issues a new forecast every hour instead of every six.[^3] Surface variables, including solar radiation and cloud cover, come at 0.1 degree resolution.[^3]
 
-The model learns directly from weather-station observations, so it can predict 2 m temperature and dewpoint at any location on a 5 km grid, including places with no station. WeatherNext 3 also predicts satellite-derived precipitation and tropical cyclones. Google says the US National Hurricane Center used it for Hurricane Melissa's landfall in Jamaica.
+The model learns directly from weather-station observations, so it can predict 2 m temperature and dewpoint at any location on a 5 km grid, including places with no station.[^2,3] WeatherNext 3 also predicts satellite-derived precipitation and tropical cyclones.[^3] Google says the US National Hurricane Center used it for Hurricane Melissa's landfall in Jamaica.[^1]
 
-WeatherNext is a hosted Google service, not a model to download. Forecasts feed Google Search, Maps, the Gemini app, the Maps Platform Weather API and Earth Engine. The forecast data can be queried in BigQuery and Earth Engine or bulk-downloaded from Google Cloud Storage, with no model setup. Weather Lab is an experimental site for viewing the forecasts and tracking tropical cyclones.
+WeatherNext is a hosted Google service, not a model to download. Forecasts feed Google Search, Maps, the Gemini app, the Maps Platform Weather API and Earth Engine.[^2] The forecast data can be queried in BigQuery and Earth Engine or bulk-downloaded from Google Cloud Storage, with no model setup.[^2] Weather Lab is an experimental site for viewing the forecasts and tracking tropical cyclones.[^1,2]
 
-NVIDIA Earth-2, announced on 26 January 2026 at the American Meteorological Society meeting, is a family of open models, libraries and frameworks for weather and climate AI. The models cover the forecasting chain from data assimilation, which combines observations into a starting state for a forecast, to downscaling, which adds local detail to a coarse forecast. The models are:
+NVIDIA Earth-2, announced on 26 January 2026 at the American Meteorological Society meeting, is a family of open models, libraries and frameworks for weather and climate AI.[^5] The models cover the forecasting chain from data assimilation, which combines observations into a starting state for a forecast, to downscaling, which adds local detail to a coarse forecast.[^5] The models are:
 
-- Earth-2 Global Data Assimilation (HealDA) builds initial conditions from observations in seconds on GPUs.
-- Earth-2 Medium Range (Atlas architecture) forecasts over 70 variables up to 15 days ahead.
-- Earth-2 Nowcasting (StormScope) makes kilometre-scale storm forecasts zero to six hours ahead by predicting satellite and radar imagery.
-- CorrDiff downscales coarse forecasts to regional resolution.
-- FourCastNet3 is a global ensemble model.
+- Earth-2 Global Data Assimilation (HealDA) builds initial conditions from observations in seconds on GPUs.[^5]
+- Earth-2 Medium Range (Atlas architecture) forecasts over 70 variables up to 15 days ahead.[^5]
+- Earth-2 Nowcasting (StormScope) makes kilometre-scale storm forecasts zero to six hours ahead by predicting satellite and radar imagery.[^5]
+- CorrDiff downscales coarse forecasts to regional resolution.[^5]
+- FourCastNet3 is a global forecasting model.[^4,5]
 
-Earth-2 also wraps open models from ECMWF, Microsoft and Google. NVIDIA's announcement names Brightband running Medium Range daily and the Israel Meteorological Service running CorrDiff operationally. Others named as evaluating or using the models include The Weather Company, the US National Weather Service and TotalEnergies.
+Earth-2 also wraps open models from ECMWF, Microsoft and Google.[^5] NVIDIA's announcement names Brightband running Medium Range daily and the Israel Meteorological Service running CorrDiff operationally.[^5] Others named as evaluating or using the models include The Weather Company, the US National Weather Service and TotalEnergies.[^5]
 
-Earth-2 runs on an organisation's own GPUs, and the models are on GitHub and Hugging Face. Earth2Studio is the toolkit for building, fine-tuning and deploying them, and PhysicsNeMo is the open-source Python framework for training. NVIDIA also offers CorrDiff as a NIM microservice, and an Omniverse blueprint for visualisation.
+Earth-2 runs on an organisation's own GPUs, and the models are on GitHub and Hugging Face.[^5] Earth2Studio is the toolkit for building, fine-tuning and deploying them, and PhysicsNeMo is the open-source Python framework for training.[^4,5] NVIDIA also offers CorrDiff as a NIM microservice, and an Omniverse blueprint for visualisation.[^4]

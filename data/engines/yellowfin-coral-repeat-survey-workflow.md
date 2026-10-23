@@ -50,10 +50,10 @@ domains:
   - ecology
   - water
 ---
-Peter Traykovski, a coastal oceanographer and engineer, built Yellowfin to map seabeds and coastline change with sonar. The vehicle is uncrewed and designed to move over shallow reefs without disturbing the coral. The coral scientist Anne Cohen had him mount a GoPro under the hull so it photographs the reef continuously as it runs. Depth, temperature and GPS position are recorded alongside the images.
+Peter Traykovski, a coastal oceanographer and engineer, built Yellowfin to map seabeds and coastline change with sonar.[^2] The vehicle is uncrewed and designed to move over shallow reefs without disturbing the coral.[^1,2] The coral scientist Anne Cohen had him mount a GoPro under the hull so it photographs the reef continuously as it runs.[^2] Depth, temperature and GPS position are recorded alongside the images.[^1]
 
-Cohen's lab uses Yellowfin to find and follow "super reefs", reefs that come through marine heat waves. The vehicle is driven along GPS waypoints in a lawnmower pattern of back-and-forth lines, taking two pictures a second. In a day that comes to up to about 20,000 images over 40 miles of reef, each tagged with coordinates.
+Cohen's lab uses Yellowfin to find and follow "super reefs", reefs that come through marine heat waves.[^2] The vehicle is driven along GPS waypoints in a lawnmower pattern of back-and-forth lines, taking two pictures a second.[^2] In a day that comes to up to about 20,000 images over 40 miles of reef, each tagged with coordinates.[^2]
 
-Because the track is georeferenced, the team can return to the same section or the same colony on a later trip. They can then see which corals bleached, died, recovered or were untouched. After a survey Traykovski can send the vehicle back to a particular coral Cohen wants to look at. The images also feed 3D reef models, which show how a colony's depth, angle and orientation relative to its neighbours may affect its heat exposure. Cohen used to go through the images by hand. The lab has started training AI models for the task.
+Because the track is georeferenced, the team can return to the same section or the same colony on a later trip.[^2] They can then see which corals bleached, died, recovered or were untouched.[^2] After a survey Traykovski can send the vehicle back to a particular coral Cohen wants to look at.[^2] The images also feed 3D reef models, which show how a colony's depth, angle and orientation relative to its neighbours may affect its heat exposure.[^2] Cohen used to go through the images by hand.[^2] The lab has started training AI models for the task.[^1,2]
 
-The first deployments were on the reefs of Majuro, in the Marshall Islands, in 2024 and 2025. A June 2026 account describes further testing there on an April trip.
+The first deployments were on the reefs of Majuro, in the Marshall Islands, in 2024 and 2025.[^1] A June 2026 account describes further testing there on an April trip.[^2]
