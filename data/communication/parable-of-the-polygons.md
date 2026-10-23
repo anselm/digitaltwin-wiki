@@ -1,5 +1,6 @@
 ---
 about:
+  group: Playing
   label: Parable of the Polygons
   description: >-
     Playable post by Vi Hart and Nicky Case, 2014, built on Thomas Schelling's

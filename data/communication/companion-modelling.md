@@ -1,5 +1,6 @@
 ---
 about:
+  group: Playing
   label: Companion modelling (ComMod)
   description: >-
     Participatory research approach from a group of mainly CIRAD scientists

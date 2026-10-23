@@ -64,7 +64,7 @@ export function load({ params }) {
     const kids = store.children(id)
     const staged = kids.every((c) => c.guide?.stage !== undefined)
     const mixed = new Set(kids.map((c) => store.kindsOf(c)[0])).size > 1
-    const items = (staged ? [...kids].sort((a, b) => a.guide.stage - b.guide.stage) : kids).map((c) => ({ ...card(c), chips: chips(c), group: c.tool?.group || (mixed ? plural(kindLabel(store.kindsOf(c)[0] || 'entry')).replace(/^./, (ch) => ch.toUpperCase()) : null) }))
+    const items = (staged ? [...kids].sort((a, b) => a.guide.stage - b.guide.stage) : kids).map((c) => ({ ...card(c), chips: chips(c), group: c.tool?.group || c.about?.group || (mixed ? plural(kindLabel(store.kindsOf(c)[0] || 'entry')).replace(/^./, (ch) => ch.toUpperCase()) : null) }))
     // Events split at build time into what is still ahead (soonest first) and what has passed (latest first); ends is the last day or the deadline.
     if (kids.length && kids.every((c) => c.event)) {
       const today = new Date().toISOString().slice(0, 10)
@@ -79,7 +79,9 @@ export function load({ params }) {
       const groups = [...scales, [undefined, 'Other']].map(([k, label]) => ({ label, items: items.filter((_, i) => (scales.some(([s]) => s === kids[i].scenario.scale) ? kids[i].scenario.scale : undefined) === k) })).filter((g) => g.items.length)
       return { ...base, items, groups }
     }
-    const grouped = items.length > 12 && items.filter((i) => i.group).length > items.length / 2
+    // A shelf groups itself when every entry names a group of its own (tool.group or about.group), or when it is long and most do.
+    const own = kids.every((c) => c.tool?.group || c.about?.group)
+    const grouped = own || (items.length > 12 && items.filter((i) => i.group).length > items.length / 2)
     const groups = grouped ? [...new Set(items.map((i) => i.group || 'Other'))].sort((a, b) => (a === 'Other') - (b === 'Other') || a.localeCompare(b)).map((g) => ({ label: g, items: items.filter((i) => (i.group || 'Other') === g) })) : null
     return { ...base, items, groups }
   }

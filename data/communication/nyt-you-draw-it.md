@@ -1,5 +1,6 @@
 ---
 about:
+  group: Playing
   label: 'You Draw It: How Family Income Predicts Children’s College Chances'
   description: >-
     New York Times Upshot interactive, 2015, by Gregor Aisch, Amanda Cox and

@@ -1,5 +1,6 @@
 ---
 about:
+  group: Playing
   label: 'The Climate Game: can you reach net zero?'
   description: >-
     Financial Times game from 2022 in which the reader, as global minister

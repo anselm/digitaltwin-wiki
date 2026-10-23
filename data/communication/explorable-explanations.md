@@ -1,5 +1,6 @@
 ---
 about:
+  group: Playing
   label: Explorable Explanations
   description: >-
     Essay by Bret Victor, 2011, proposing documents whose reader can change
