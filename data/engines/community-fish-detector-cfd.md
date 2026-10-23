@@ -50,10 +50,10 @@ domains:
   - ecology
   - water
 ---
-The detector is a set of pretrained object-detection models with one class, fish. It does not identify species. Filippo Varini led the work with contributors including Dan Morris, Sonny Burniston and Oceane Boulais. Each contributor converted one open dataset to a common format.
+The detector is a set of pretrained object-detection models with one class, fish. It does not identify species.[^1,2] Filippo Varini led the work with contributors including Dan Morris, Sonny Burniston and Oceane Boulais.[^1,2] Each contributor converted one open dataset to a common format.[^2]
 
-The pooled Community Fish Detection Dataset holds about two million images and 935,000 fish bounding boxes (rectangles marking where each fish is in a frame). Its seventeen sources include baited video, ROVs (remotely operated underwater vehicles), deep-sea cameras, coral reefs, aquaculture pens, lab tanks and rivers. The dataset is hosted on LILA BC.
+The pooled Community Fish Detection Dataset holds about two million images and 935,000 fish bounding boxes (rectangles marking where each fish is in a frame).[^1,2] Its seventeen sources include baited video, ROVs (remotely operated underwater vehicles), deep-sea cameras, coral reefs, aquaculture pens, lab tanks and rivers.[^2] The dataset is hosted on LILA BC.[^2]
 
-The models are released as open weights, meaning the trained model files can be downloaded. RF-DETR variants come at three sizes under Apache 2.0. A YOLOv12x model is under AGPL-3.0, and the project has deprecated it because of that licence. Python scripts run inference on images or video, at one frame per second by default, and write output in MegaDetector format. A Hugging Face Space runs the model in a browser.
+The models are released as open weights, meaning the trained model files can be downloaded.[^2] RF-DETR variants come at three sizes under Apache 2.0.[^1] A YOLOv12x model is under AGPL-3.0, and the project has deprecated it because of that licence.[^1] Python scripts run inference on images or video, at one frame per second by default, and write output in MegaDetector format.[^1] A Hugging Face Space runs the model in a browser.[^1,2]
 
-The makers call the released models an initial training effort. Model versions are dated February to July 2026. The group is gathering contributors and annotated imagery for a second version.
+The makers call the released models an initial training effort.[^1] Model versions are dated February to July 2026.[^1] The group is gathering contributors and annotated imagery for a second version.[^2]
