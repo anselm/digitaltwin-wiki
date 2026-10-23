@@ -3,10 +3,7 @@ about:
   depiction: data-sources/cornell-nyc-individual-tree-map.jpg
   label: NYC Tree Genus Map
   description: >-
-    Map and dataset from Cornell researchers of about 1.8 million individual
-    tree crowns in New York City classified to genus from PlanetScope
-    satellite imagery and airborne lidar, including trees on private land and
-    in natural areas; published August 2026.
+    Cornell map and dataset of about 1.8 million New York City tree crowns classified to genus from PlanetScope satellite imagery and airborne lidar, including trees on private land and in natural areas.
   tags:
     - urban trees
     - new york city
@@ -56,10 +53,10 @@ domains:
   - ecology
   - climate
 ---
-The map comes from a Cornell-led team. David Miller is first author and Daniel Katz, of Cornell's School of Integrative Plant Science, is senior author. Co-authors are at Weill Cornell Medicine, the University of New Hampshire and the University of Oklahoma. The map sorts about 1.8 million tree crown polygons into the 18 most common genera, which cover roughly 78% of the city's basal area (the cross-section of trunks at chest height). Unlike street-tree inventories, it includes trees on private property and in natural areas. The team estimates these make up 65% of the canopy, about 1.4 million trees that had never been surveyed.
+The map comes from a Cornell-led team.[^3] David Miller is first author and Daniel Katz, of Cornell's School of Integrative Plant Science, is senior author.[^2,3] Co-authors are at Weill Cornell Medicine, the University of New Hampshire and the University of Oklahoma.[^2,3] The map sorts about 1.8 million tree crown polygons into the 18 most common genera, which cover roughly 78% of the city's basal area (the cross-section of trunks at chest height).[^1,2] Unlike street-tree inventories, it includes trees on private property and in natural areas.[^1,2] The team estimates these make up 65% of the canopy, about 1.4 million trees that had never been surveyed.[^3]
 
-Genus labels from the city's existing inventory were extended to the crowns with an XGBoost classifier, a machine-learning method built from many decision trees. It was trained on time series of 3 m PlanetScope satellite imagery and on structural metrics from airborne lidar (laser scanning from aircraft that measures height and shape). Overall accuracy is 82%, higher for common genera such as plane and oak and lower for rare ones.
+Genus labels from the city's existing inventory were extended to the crowns with an XGBoost classifier, a machine-learning method built from many decision trees.[^2] It was trained on time series of 3 m PlanetScope satellite imagery and on structural metrics from airborne lidar (laser scanning from aircraft that measures height and shape).[^2] Overall accuracy is 82%, higher for common genera such as plane and oak and lower for rare ones.[^1,2]
 
-The work is part of the Cool Trees project led by Arnab Ghosh. Its aim is to find which trees cool best and to inform planting choices around allergens and pests, in support of the city's goal of 30% tree cover by 2040.
+The work is part of the Cool Trees project led by Arnab Ghosh.[^3] Its aim is to find which trees cool best and to inform planting choices around allergens and pests, in support of the city's goal of 30% tree cover by 2040.[^3]
 
-The paper appeared in Scientific Data on 14 August 2026 under CC BY-NC-ND 4.0. The dataset is on Zenodo, the classification code on GitHub, and the map can be browsed at nyctreegenusmap.com. The team has compiled a list of 405 US cities it hopes to map the same way.
+The paper appeared in Scientific Data on 14 August 2026 under CC BY-NC-ND 4.0.[^2] The dataset is on Zenodo, the classification code on GitHub, and the map can be browsed at nyctreegenusmap.com.[^1] The team has compiled a list of 405 US cities it hopes to map the same way.[^3]

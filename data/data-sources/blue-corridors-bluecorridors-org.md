@@ -48,10 +48,10 @@ import:
 domains:
   - ecology
 ---
-Protecting Blue Corridors is run by WWF with a group of marine mammal research partners, including Oregon State University, the University of Southampton and the University of Auckland. The website launched in June 2025. It maps the ocean habitats whales use and the migratory routes that join them, which the project calls blue corridors.
+Protecting Blue Corridors is run by WWF with a group of marine mammal research partners, including Oregon State University, the University of Southampton and the University of Auckland.[^1] The website launched in June 2025.[^1] It maps the ocean habitats whales use and the migratory routes that join them, which the project calls blue corridors.[^1]
 
-The map draws on pooled satellite telemetry: 2051 satellite tags, about 3.75 million kilometres of analysed whale tracks over three decades, and more than fifty collaborators. A sources page credits each contributed dataset by species, region, track count, institution and citation. About fourteen species groups are covered. They include blue, fin, humpback, sperm, southern right, bowhead, gray and Bryde's whales, narwhal and orca.
+The map draws on pooled satellite telemetry: 2051 satellite tags, about 3.75 million kilometres of analysed whale tracks over three decades, and more than fifty collaborators.[^1] A sources page credits each contributed dataset by species, region, track count, institution and citation.[^2] About fourteen species groups are covered.[^2] They include blue, fin, humpback, sperm, southern right, bowhead, gray and Bryde's whales, narwhal and orca.[^2]
 
-Protection layers show marine protected areas, Important Marine Mammal Areas, Key Biodiversity Areas and exclusive economic zones. Threat layers show fishing effort, ship traffic, underwater noise, pollution, and offshore oil and gas.
+Protection layers show marine protected areas, Important Marine Mammal Areas, Key Biodiversity Areas and exclusive economic zones.[^2] Threat layers show fishing effort, ship traffic, underwater noise, pollution, and offshore oil and gas.[^2]
 
-The site is free to browse, with sections for species, threats, protections and conservation action. The recommended citation for the dataset is Palacios et al., 2026. The 2022 Protecting Blue Corridors report is by Johnson et al. No reuse licence is stated. The tracks sample tagged animals and study periods, not whole populations.
+The site is free to browse, with sections for species, threats, protections and conservation action.[^1] The recommended citation for the dataset is Palacios et al., 2026.[^2] The 2022 Protecting Blue Corridors report is by Johnson et al.[^2] No reuse licence is stated.[^1,2] The tracks sample tagged animals and study periods, not whole populations.
