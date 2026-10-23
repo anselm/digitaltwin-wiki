@@ -83,3 +83,32 @@ mark the answer. When the benchmark spec is written, each local
 scenario should name who could check a twin's output and against
 what (a well record, a repair invoice, a count at the lagoon), and a
 twin should be scored first on those.
+
+## Scenarios from orbital-sim (Anselm, same day)
+
+Anselm pointed to his own earlier work at https://orbital-sim.exe.xyz/
+("an older paper i wrote - there are scenarios here"). Its feed
+(/api/home) lists six: World Events (a globe of GDELT, UCDP and ACLED
+conflict events), the Strait of Hormuz supply-chain cascade, IPCC AR6
+global warming under four SSPs, Tenerife Futures (land use, water,
+tourism), MENA Warming 2049 (from Malik et al. 2024) and Tuvalu Baseline
+(freshwater lens, reef, fishery, population under sea-level rise). Only
+the IPCC and MENA projects carry a written readme; the IPCC one is the
+paper, an argument for "participatory computational argument": a
+200-line energy balance model anyone can run, in the line of Cybersyn.
+
+Hormuz is already on the shelf. Tuvalu and MENA warming are being
+written as scenarios from primary pages, not from his sketches,
+and without citing orbital-sim, per the rule that his own sites stay out
+of public copy unless he asks. The IPCC global run is the "too big to act
+on" case the shelf's intro sets aside, and World Events is a data view,
+so neither becomes a scenario. Tenerife was started and dropped: Anselm
+said it "was for fun"; the paper's argument belongs with the
+engine, not on the wiki.
+
+While reading it: the readme's expected-results table gives SSP1-2.6 CO2
+at about 368 ppm in 2099, and says it peaks near 430 ppm in the 2040s.
+Meinshausen et al. 2020 (GMD 13, 3571), the paper it cites, puts the
+lowest of all SSPs (SSP1-1.9) at 393.5 ppm in 2100 and the lowest of all
+in 2050 at 437.6 ppm, so both SSP1-2.6 figures are too low; the warming
+in that row follows from them. Told Anselm; his repo is not touched.
