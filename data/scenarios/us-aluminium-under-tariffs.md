@@ -11,7 +11,7 @@ about:
     - smelting
     - manufacturing
     - trade
-challenge:
+scenario:
   place: United States, and the countries that supply its aluminium
   since: '2025'
 domains:
@@ -46,7 +46,7 @@ The United States has four operating aluminium smelters, down from more than 20 
 
 Electricity supply and price, which decide where a smelter can run; international trade and the tariff on it; shipping from the Middle East through a disrupted strait; and the cost of goods made from aluminium, such as canned food.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Price: how much of the Midwest premium comes from the tariff, and how much from tight supply?
 - Smelting: at what electricity price and tariff level does a new US smelter pay off, and how long does it take?

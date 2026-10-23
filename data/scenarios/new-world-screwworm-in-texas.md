@@ -11,7 +11,7 @@ about:
     - pests
     - Texas
     - sterile insect technique
-challenge:
+scenario:
   place: Zavala County, Texas, and the United States–Mexico border region
   since: '2026'
 domains:
@@ -50,7 +50,7 @@ New World screwworm (Cochliomyia hominivorax) is a fly whose larvae burrow into 
 
 Fly biology and how far adults travel; cattle, wildlife and pets as hosts; the supply of sterile flies from a single factory; animal movement, markets and trade rules; veterinary treatment and drug withdrawal times before slaughter.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Release plans: with a fixed weekly supply of sterile flies, where and how often should they be released to stop the spread?
 - Zones: how large must a quarantine zone be, given how far the fly moves, before the cost to ranchers outweighs the gain?

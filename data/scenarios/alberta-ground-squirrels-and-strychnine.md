@@ -12,7 +12,7 @@ about:
     - pesticides
     - Alberta
     - burrowing owl
-challenge:
+scenario:
   place: Prairie and parkland farmland of Alberta and Saskatchewan
   since: '2020'
 domains:
@@ -45,7 +45,7 @@ Richardson's ground squirrels, called gophers on the Prairies, live across Alber
 
 Ground squirrel numbers, breeding and hibernation; crop and pasture losses; hawks, owls, badgers and foxes that eat the squirrels and can be poisoned by them; tall grass and field edges that shelter predators; pesticide law, training and supply.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Control mixes: how do squirrel numbers and crop losses respond to poison alone, predators alone, or both used at different times of year?
 - Secondary poisoning: given how far owls and hawks hunt, how many are exposed under different rules on carcass collection and treatment areas?

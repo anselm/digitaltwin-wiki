@@ -11,7 +11,7 @@ about:
     - Asian clam
     - endangered species
     - rivers
-challenge:
+scenario:
   place: Rivers and streams of the southeastern United States, among them Kentucky's Rockcastle River and Horse Lick Creek and Virginia's Clinch River
   since: '1990s'
 domains:
@@ -43,7 +43,7 @@ About 300 species of freshwater mussel have been documented in North America, an
 
 River flow, temperature and sediment; algae and bacteria that mussels and clams both eat; an invasive clam now in 47 states that can reach thousands per square yard; the host fish every mussel needs to carry its larvae; possible pathogens; and the clarity of the water downstream.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Competition: if Asian clams take the food young mussels need, at what clam density does a mussel bed stop replacing itself?
 - Recovery: in parts of the Rockcastle where the clam population seems to have crashed, young mussels are appearing again. How fast could a bed come back, and from which nearby populations?

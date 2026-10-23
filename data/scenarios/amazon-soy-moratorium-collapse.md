@@ -12,7 +12,7 @@ about:
     - soy
     - Brazil
     - supply chains
-challenge:
+scenario:
   place: Brazilian Amazon, soy-producing states including Mato Grosso
   since: '2006'
 domains:
@@ -47,7 +47,7 @@ The Amazon Soy Moratorium began in 2006. Under it, soy traders agreed not to sou
 
 Forest clearing and where it happens; soy prices, farm expansion and the trade routes that carry the crop; carbon released from cleared land; law, tax rules and court cases that change the incentives; the companies and buyers at the far end of the chain.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Rules: how much clearing comes back if only Brazil's own law is enforced, compared with a renewed private pact or import rules abroad?
 - Place: which undesignated forest is most at risk, given what land suits soy?

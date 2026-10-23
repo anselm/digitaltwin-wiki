@@ -11,7 +11,7 @@ about:
     - grazing
     - Montana
     - rewilding
-challenge:
+scenario:
   place: Flying D Ranch, between the Gallatin and Madison rivers south of Bozeman, Montana
   since: '1989'
 domains:
@@ -49,7 +49,7 @@ In 1989 Ted Turner bought the Flying D, a cattle ranch in southwestern Montana t
 
 Grazing animals and how they move; grass and plant diversity; streams, banks and native fish; elk, wolves and other wildlife sharing the range; fire and forest treatment; meat sold to market, the business case for keeping the herd.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Grazing plans: how many bison, moved how, with how much fencing, before parts of the range are overgrazed?
 - Streams: how fast would banks and streamside plants recover under bison compared with cattle, on this ground?

@@ -34,3 +34,27 @@ api.fxtwitter.com, then refuters. His own sites (hormuz.exe.xyz,
 colorado.exe.xyz) and his essay are left out of public entries; whether
 they should appear, as twins on the shelf or as links from the
 challenges, is his call.
+
+## Later the same day: Challenges become Scenarios, and a benchmark
+
+Renamed to Scenarios (`data/scenarios/`, component `scenario`) the same
+day, before anything linked to the old path. The what-if section on each
+page is now "What a twin should let people try".
+
+Anselm on why: "the colorado river and hormuz issue are good scenarios.
+we don't have to be super specific about my own interest per se. why have
+scenarios? because they are real and wicked problems - we have to solve
+them. scenarios also exercise our mental model of what a digital twin can
+do. any twin we write has to be able to tackle these scenarios. our goal
+later is to build a digital twin tool - and we will measure that tool
+against this."
+
+So the shelf is a test suite for the engine, not only reading matter.
+That argues for each scenario carrying, later, a short machine-readable
+statement of what a twin must do to take it on: the domains to couple,
+the spatial and time scales, the inputs, the what-ifs as runnable
+questions, and how an answer would be checked against what happened. Not
+done yet; the prose sections hold the same content for now.
+
+Colorado River scenario commissioned (agent, from Reclamation's own
+pages). Hormuz exists.

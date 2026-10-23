@@ -12,7 +12,7 @@ about:
     - jaguars
     - wetlands
     - Argentina
-challenge:
+scenario:
   place: Iberá wetlands, Corrientes, and other Argentine national parks made from Tompkins land
   since: '1990s'
 domains:
@@ -49,7 +49,7 @@ From the early 1990s Kristine McDivitt Tompkins, a former chief executive of Pat
 
 Wetland water and the land around it; plants recovering after grazing and logging stop; reintroduced animals, predators among them, and whether their numbers hold; cattle on neighbouring ranches; tourism and the towns that host it; the 99-year protection clause.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Jaguars: how many cats can Iberá hold, and where would they meet cattle first?
 - Next species: which reintroduction, giant otters for instance, would change the wetland most?

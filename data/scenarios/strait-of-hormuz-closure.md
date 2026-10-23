@@ -13,7 +13,7 @@ about:
     - LNG
     - chokepoint
     - Iran
-challenge:
+scenario:
   place: Strait of Hormuz, between the Persian/Arabian Gulf and the Gulf of Oman
   since: '2026'
 domains:
@@ -52,7 +52,7 @@ Since then the strait has opened and closed several times under ceasefires, bloc
 
 Oil and gas production in the Gulf; the ships, crews and insurance that move it; pipeline capacity around the strait; reserves and prices in importing countries; and, further out, the food and materials that depend on fuel and on cargoes that pass the same way.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Capacity: if the strait stays restricted, how much can the bypass pipelines and the Omani route carry, and for how long can reserves cover the gap?
 - Counting: how far do satellite counts understate traffic when many ships sail dark, and what other evidence fills the gap?
@@ -60,4 +60,4 @@ Oil and gas production in the Gulf; the ships, crews and insurance that move it;
 
 ## Where to start
 
-[Portolan](/engines/portolan/) shows ships a day through the strait from IMF PortWatch, as a seven-day average with monthly figures since 2019, with a dated log of events and their sources. The same war closed the Red Sea alternative for Saudi crude: see [Saudi oil and the Red Sea route](/challenges/saudi-oil-red-sea-route/). The ships stranded in the Gulf raise a separate risk, covered in [Idle ships in the Gulf and invasive species](/challenges/idle-ships-gulf-invasive-species/).
+[Portolan](/engines/portolan/) shows ships a day through the strait from IMF PortWatch, as a seven-day average with monthly figures since 2019, with a dated log of events and their sources. The same war closed the Red Sea alternative for Saudi crude: see [Saudi oil and the Red Sea route](/scenarios/saudi-oil-red-sea-route/). The ships stranded in the Gulf raise a separate risk, covered in [Idle ships in the Gulf and invasive species](/scenarios/idle-ships-gulf-invasive-species/).

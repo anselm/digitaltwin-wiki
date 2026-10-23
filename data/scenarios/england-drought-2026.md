@@ -11,7 +11,7 @@ about:
     - irrigation
     - abstraction
     - reservoirs
-challenge:
+scenario:
   place: England, with severe drought in parts of the south-west and south-east
   since: '2026'
 domains:
@@ -49,7 +49,7 @@ By late July 2026 England had received just 7% of its long-term average July rai
 
 Rainfall, soils and groundwater recharge; river flows and the licence conditions tied to them; public supply reservoirs and on-farm storage reservoirs competing for the same winter flows; crops, forage and livestock; fish and algae in low, warm rivers; and canals that depend on reservoir feeds.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Winter refill: under a dry, average or wet winter, how full will public and farm reservoirs be by spring, catchment by catchment?
 - Licences: how a given set of hands-off flow restrictions trades irrigation water against river flow and fish kills.

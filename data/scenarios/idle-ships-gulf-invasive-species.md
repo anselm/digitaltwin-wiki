@@ -12,7 +12,7 @@ about:
     - shipping
     - ports
     - Strait of Hormuz
-challenge:
+scenario:
   place: Persian/Arabian Gulf and Gulf of Oman, and the ports these ships sail to next
   since: '2026'
 domains:
@@ -33,7 +33,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-When the [Strait of Hormuz](/challenges/strait-of-hormuz-closure/) closed on 28 February 2026, more than 1,500 large commercial ships were left idle in the Persian/Arabian Gulf and the Gulf of Oman. Ships there normally spend one to three days in port; by July these had sat at least 40 times longer. A hull at anchor grows a slime of microbes, then algae, barnacles, mussels and other animals, and Gulf water in summer can reach 38°C with very high salinity, so what survives there is hardy. In July 2026, 24 scientists led by Mario Tamburri of the University of Maryland Center for Environmental Science published a warning in Biological Invasions. When these ships sail, they could spread Gulf species, and species they brought from elsewhere, to ports around the world. Once such species are established, notes Carolyn Tepolt of the Woods Hole Oceanographic Institution, which took part in the study, they are extremely difficult, if not impossible, to eradicate. The sources give different counts: the paper says more than 1,500 ships; in mid-July the International Maritime Organization said 300 to 400 remained, not counting local vessels, and noted that ships switching off their tracking make any count uncertain.
+When the [Strait of Hormuz](/scenarios/strait-of-hormuz-closure/) closed on 28 February 2026, more than 1,500 large commercial ships were left idle in the Persian/Arabian Gulf and the Gulf of Oman. Ships there normally spend one to three days in port; by July these had sat at least 40 times longer. A hull at anchor grows a slime of microbes, then algae, barnacles, mussels and other animals, and Gulf water in summer can reach 38°C with very high salinity, so what survives there is hardy. In July 2026, 24 scientists led by Mario Tamburri of the University of Maryland Center for Environmental Science published a warning in Biological Invasions. When these ships sail, they could spread Gulf species, and species they brought from elsewhere, to ports around the world. Once such species are established, notes Carolyn Tepolt of the Woods Hole Oceanographic Institution, which took part in the study, they are extremely difficult, if not impossible, to eradicate. The sources give different counts: the paper says more than 1,500 ships; in mid-July the International Maritime Organization said 300 to 400 remained, not counting local vessels, and noted that ships switching off their tracking make any count uncertain.
 
 ## Who needs an answer
 
@@ -45,7 +45,7 @@ When the [Strait of Hormuz](/challenges/strait-of-hormuz-closure/) closed on 28 
 
 Ship movements and how long each hull sat at anchor; water temperature and salinity at anchor and at each destination; the biology of the species on the hulls, including how much heat and salt they tolerate and how fast they breed; and the ports, fisheries and coasts that would bear the cost of an invasion.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Ranking ports: given where each ship goes next and how closely that port's water matches the Gulf's, which ports should set out monitoring first?
 - Ranking hulls: with cleaning capacity for only a few ships, which ones carry the most risk?

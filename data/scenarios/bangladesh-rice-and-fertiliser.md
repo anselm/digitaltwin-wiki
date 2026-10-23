@@ -11,7 +11,7 @@ about:
     - fertiliser
     - food security
     - Strait of Hormuz
-challenge:
+scenario:
   place: Bangladesh, and the fertiliser route through the Strait of Hormuz
   since: '2026'
 domains:
@@ -33,7 +33,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The 7% is a recent five-year average, and the imported fertiliser passes through the [Strait of Hormuz](/challenges/strait-of-hormuz-closure/). NASA Harvest's Harvest2Market tool flags ongoing trade disruptions as a possible factor in Bangladesh's future rice production. Followed as a chain on the platform, a disruption at the strait threatens the fertiliser, less fertiliser threatens the next crop, and a weaker crop threatens supply and prices across the region.
+The 7% is a recent five-year average, and the imported fertiliser passes through the [Strait of Hormuz](/scenarios/strait-of-hormuz-closure/). NASA Harvest's Harvest2Market tool flags ongoing trade disruptions as a possible factor in Bangladesh's future rice production. Followed as a chain on the platform, a disruption at the strait threatens the fertiliser, less fertiliser threatens the next crop, and a weaker crop threatens supply and prices across the region.
 
 ## Who needs an answer
 
@@ -46,7 +46,7 @@ The 7% is a recent five-year average, and the imported fertiliser passes through
 
 Shipping through a disrupted strait; fertiliser supply and price; how a rice crop responds to less fertiliser; harvests, stocks and prices in Bangladesh; and trade with the countries around it.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Yield: if fertiliser use falls by a given share in the next season, how much rice is lost, and where in the country?
 - Substitution: how much fertiliser can come by other routes, and at what extra cost and delay?

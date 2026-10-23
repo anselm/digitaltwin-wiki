@@ -11,7 +11,7 @@ about:
     - water supply
     - lake ice
     - algal blooms
-challenge:
+scenario:
   place: Great Lakes basin, United States and Canada
   since: '2008'
 domains:
@@ -50,7 +50,7 @@ Lakes Superior, Michigan, Huron, Erie and Ontario hold about 21% of the world's 
 
 Inflow, evaporation and outflow through the St. Lawrence; winter ice, which slows evaporation; warmer water that layers earlier and loses oxygen at depth; phosphorus from farm fields feeding blooms; about 190 established non-native species; withdrawals for cities, industry and power; and the law that limits diversions.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Withdrawals: how lake levels respond to a given rise in consumption or a new diversion, set against a refill Earth.com puts at under 1% a year.
 - Ice: what the loss of winter ice means for evaporation, lake levels and lake-effect snow downwind.

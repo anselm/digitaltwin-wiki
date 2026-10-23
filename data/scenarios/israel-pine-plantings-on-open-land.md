@@ -12,7 +12,7 @@ about:
     - shrubland
     - Israel
     - biodiversity
-challenge:
+scenario:
   place: Israel, from the Northern Negev loess plains to the Galilee and Golan
   since: '1920s'
 domains:
@@ -47,7 +47,7 @@ Large-scale planting of Aleppo pine began in the 1920s under the British Mandate
 
 Rainfall and runoff on dry ground; which plants and animals open land supports and which a forest supports; pines spreading from plantings into shrubland; fire risk in planted conifer stands; carbon taken up by trees against the heat absorbed by a darker surface; recreation, land claims and planning law. For the Yatir Forest, the report cites an estimate of about 80 years before the cooling from stored carbon outweighs the warming.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Planting maps: which proposed planting sites overlap the rarest open habitats, and what is lost if each goes ahead?
 - Spread: where will pines from existing plantings move over the next decades, and where is removing seedlings worth it?

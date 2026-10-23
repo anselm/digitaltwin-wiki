@@ -11,7 +11,7 @@ about:
     - deep sea
     - whales
     - fisheries
-challenge:
+scenario:
   place: Gulf of Mexico, open water of the northern and eastern Gulf
   since: '2010'
 domains:
@@ -48,7 +48,7 @@ In 2010 the Deepwater Horizon well released 4.0 to 4.9 million barrels of oil in
 
 Oil and dispersant moving with deep currents and resettling from the sea floor; exposure of eggs and adults at depth; a food web that lost its middle; whales, fish and seabirds above it; the carbon these animals carry down each night; fisheries and the towns that depend on them.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Recovery: under what conditions does a population knocked this low climb back, given that sparse animals find mates less often?
 - Attribution: how much of the whale decline does the loss of prey explain?

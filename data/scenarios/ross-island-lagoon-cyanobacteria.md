@@ -11,7 +11,7 @@ about:
     - Willamette River
     - river restoration
     - swimming
-challenge:
+scenario:
   place: Ross Island lagoon, Willamette River, Portland, Oregon
   since: '1926'
 domains:
@@ -44,7 +44,7 @@ Ross Island was a chain of natural islands in the Willamette River until 1926, w
 
 River flow and how it moves through the lagoon; water temperature and nutrients; cyanobacteria growth and toxins; public health; swimming, boating and events on the river; mining law and the owner's obligations; and the city's earlier spending on cleaner water, more than a billion dollars on the Big Pipe project.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Designs: how fast each channel option replaces the lagoon's water in a hot, low-flow summer, and whether that beats bloom growth.
 - Together: whether filling the deep pit with sediment changes what the channels achieve; the researchers' models found it would not stop the channels flushing the surface or remove the need for them.

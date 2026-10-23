@@ -11,7 +11,7 @@ about:
     - water rights
     - drought
     - agriculture
-challenge:
+scenario:
   place: Lower Rio Grande in New Mexico, from Caballo Reservoir to the Texas state line (Hatch, Mesilla Valley, Las Cruces)
   since: '2026'
 domains:
@@ -50,7 +50,7 @@ Texas sued New Mexico in 2013, arguing that groundwater pumping in New Mexico wa
 
 Snowpack in Colorado and northern New Mexico; reservoir storage and releases; an aquifer that now draws water out of the river; crops with very different water needs and flexibility; a market in water rights; the farm economy of small towns; and the river's fish and wildlife. The old river also kept side channels, ponds and wetlands where fish could wait out dry stretches; Lyle Lewis, who describes himself as a former endangered species branch chief at the US Fish and Wildlife Service, has written that these are gone.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Which rights to buy: retiring wells close to the river versus far from it, and how much more water each puts back into the flow to Texas.
 - Where the cuts land: a cap on sales around Hatch against no cap, and what each does to farm income and to the town.

@@ -11,7 +11,7 @@ about:
     - gasoline
     - Puerto Rico
     - West Coast
-challenge:
+scenario:
   place: US coastal shipping lanes from the Gulf Coast to the West Coast, the East Coast and Puerto Rico
   since: '2026'
 domains:
@@ -32,7 +32,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The Jones Act requires goods moved by sea between US ports to travel on ships that are US-built, US-owned and crewed by US citizens. On 17 March 2026, with oil markets disrupted by the war with Iran and the closure of the [Strait of Hormuz](/challenges/strait-of-hormuz-closure/), the Department of Homeland Security issued a 60-day waiver letting foreign-flagged ships carry fuel and other energy goods between US ports. It has since been extended; the American Action Forum reported in September that it runs to 15 November 2026. The sources count the goods covered differently: 619 product categories by the American Action Forum's account, 659 commodities by the Center for Maritime Strategy's.
+The Jones Act requires goods moved by sea between US ports to travel on ships that are US-built, US-owned and crewed by US citizens. On 17 March 2026, with oil markets disrupted by the war with Iran and the closure of the [Strait of Hormuz](/scenarios/strait-of-hormuz-closure/), the Department of Homeland Security issued a 60-day waiver letting foreign-flagged ships carry fuel and other energy goods between US ports. It has since been extended; the American Action Forum reported in September that it runs to 15 November 2026. The sources count the goods covered differently: 619 product categories by the American Action Forum's account, 659 commodities by the Center for Maritime Strategy's.
 
 Tanker and barge shipments of petroleum from the Gulf Coast to the West Coast reached 190,000 barrels a day in April, according to the US Energy Information Administration. That was up from under 30,000 in January and February and more than double the previous record. Shipments from the Gulf Coast to the East Coast reached a record 1.2 million barrels a day in April. The American Action Forum, citing the Cato Institute's waiver tracker, put petroleum shipments on foreign ships under the waiver over the first 160 days at 15.5 million barrels to the West Coast, 19.3 million to the East Coast and 6.2 million to Puerto Rico.
 
@@ -48,7 +48,7 @@ The sources disagree about what it achieved. The American Action Forum estimates
 
 Refinery output on the Gulf Coast; the pipelines that carry most fuel inland and the tankers that fill the gaps; prices at the pump in each region; Puerto Rico's fuel and propane supply; and the US merchant fleet.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Routes: which coastal routes would ships use if the waiver were permanent, and which only in a crisis?
 - Prices: how much of a region's fuel price comes from the cost of shipping it, compared with the world price of oil?

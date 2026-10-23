@@ -11,7 +11,7 @@ about:
     - rural water systems
     - local government
     - Colorado
-challenge:
+scenario:
   place: Hartman, Prowers County, south-eastern Colorado
   since: '2025'
 domains:
@@ -45,7 +45,7 @@ Hartman, incorporated in 1910, had fewer than 60 people at the 2020 census, and 
 
 One well, a storage tank and pipes to about 40 homes; water quality and the public health risk of untreated water; reimbursement grants that need a functioning government to spend; electricity bills the county is paying to keep water flowing; state law on who may act; and a town too small to share costs across many households.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Repair or connect: the cost of fixing the tank and running the system locally against joining a larger neighbouring system, per household and over decades.
 - Who runs it: what an outside operator, a water district or the county would each need in staff, testing and money.

@@ -13,7 +13,7 @@ about:
     - diesel
     - batteries
     - off-grid
-challenge:
+scenario:
   place: Huar Norte salmon farm, Los Lagos region, Chile
   since: '2025'
 domains:
@@ -53,7 +53,7 @@ Salmon pens out at sea run feeders, lights, cameras, oxygen sensors and pumps ar
 
 Sunlight and weather over a southern Chilean site through the year. The electricity the farm draws hour by hour for feeders, lights, cameras, sensors and pumps. Batteries, with a generator kept as backup. Boats carrying fuel out to the pens.
 
-## What a model would let people try
+## What a twin should let people try
 
 - Sizing: how much more panel and battery would take the share from 57% towards all of it, and where the cost stops being worth it?
 - Seasons: how far does the share fall in the short days of a southern winter, and what has to run on diesel then?
