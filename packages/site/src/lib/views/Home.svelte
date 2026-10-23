@@ -2,6 +2,8 @@
   import Line from '$lib/Line.svelte'
   import { onMount } from 'svelte'
   let { data } = $props()
+  // The home text may carry a 'figure' comment marker: the scene goes there and the rest of the text follows it.
+  const parts = $derived((data.content || '').split('<!-- figure -->'))
   // The live scene is a 7 MB WebGL download, so the prerendered page carries only a still.
   // After load the live, orbitable scene replaces it, drawn on the page's own colour for the
   // current theme, unless the reader has asked for reduced motion.
@@ -17,7 +19,7 @@
 <h1 class="text-4xl mt-6">{data.label}</h1>
 <p class="text-muted text-lg mt-1">{data.description}</p>
 
-<div class="prose mt-6 max-w-prose">{@html data.content}</div>
+<div class="prose mt-6 max-w-prose">{@html parts[0]}</div>
 
 {#if data.figure}
   <figure class="mt-2 max-w-prose">
@@ -33,6 +35,7 @@
     <figcaption class="text-xs text-muted mt-1.5"><a href={data.figure.url}>{data.figure.label}</a>, a digital twin unfolded.{#if src}{' '}Drag to orbit, scroll to zoom.{/if}{#if data.figure.full}{' '}The <a href={data.figure.full} rel="noopener">full version</a> explains each layer{#if data.figure.repo}, and the <a href={data.figure.repo} rel="noopener">source is on GitHub</a>{/if}.{/if}{' '}{data.figure.credit}</figcaption>
   </figure>
 {/if}
+{#if parts[1]}<div class="prose mt-6 max-w-prose">{@html parts[1]}</div>{/if}
 
 <section class="mt-8">
   <h2 class="text-sm uppercase tracking-wide text-muted">Domains</h2>

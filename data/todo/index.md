@@ -4,8 +4,8 @@ about:
   description: Where the wiki stands, page by page, and what to work on next.
   view: admin
 section:
-  order: 103
-  nav: true
+  order: 999
+  nav: false
   area: new
 provenance:
   origin: agent
