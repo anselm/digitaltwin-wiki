@@ -33,8 +33,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Each model is made for the utility that runs the network, and places every pole, line and structure in real terrain. It is assembled from data the utility already holds: LiDAR (laser scanning that measures shape and distance), aerial imagery, GIS records, engineering specifications and inspection data. Neara normalises these sources and stitches them together.
+Each model is made for the utility that runs the network, and places every pole, line and structure in real terrain.[^1] It is assembled from data the utility already holds: LiDAR (laser scanning that measures shape and distance), aerial imagery, GIS records, engineering specifications and inspection data.[^1] Neara normalises these sources and stitches them together.[^1]
 
-On that geometry a utility runs scenarios for wind, ice, heat, flood, vegetation, re-conductoring and new builds, and it can trace how one failure spreads to other assets and which customers would lose supply, and rank feeders for hardening. Outputs include hardening plans, reports for regulators, condition-based inspection programmes and work orders. Neara files this work under five headings: reliability, wildfire mitigation, asset management, risk and value optimisation, and design and construction.
+On that geometry a utility runs scenarios for wind, ice, heat, flood, vegetation, re-conductoring and new builds, and it can trace how one failure spreads to other assets and which customers would lose supply, and rank feeders for hardening.[^1] Outputs include hardening plans, reports for regulators, condition-based inspection programmes and work orders.[^1] Neara files this work under five headings: reliability, wildfire mitigation, asset management, risk and value optimisation, and design and construction.[^1]
 
-Neara is commercial and hosted, with the application at app.neara.com. It is sold by demonstration, with regional sites for Europe, the USA and Australia/New Zealand, and pricing is not published.
+Neara is commercial and hosted, with the application at app.neara.com.[^1] It is sold by demonstration, with regional sites for Europe, the USA and Australia/New Zealand, and pricing is not published.[^1]
