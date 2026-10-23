@@ -30,6 +30,8 @@ provenance:
       url: 'https://3dfuels.ctrees.org'
     - title: 'A new way to map fire fuels, in 3D and at scale'
       url: 'https://ctrees.org/news/map-forest-fire-fuels-in-3D'
+    - title: CTrees | About us
+      url: 'https://ctrees.org/about'
   created: '2026-10-17'
   reviewed: '2026-10-17'
   reviewed_by: 'Claude, from the sources listed'
@@ -49,10 +51,10 @@ domains:
   - fire
   - ecology
 ---
-CTrees is a non-profit led by Sassan Saatchi. A voxel is a small cube of space, the 3D counterpart of a pixel. Each one-metre voxel in the model holds four values: bulk density, moisture, live fraction and surface-area-to-volume ratio. Canopy fuels, ground fuels and ladder fuels (the shrubs and low branches that let a fire climb into the crowns) share the same array. Next-generation physics-based fire models can read the arrays directly.
+CTrees is a non-profit led by Sassan Saatchi.[^3] A voxel is a small cube of space, the 3D counterpart of a pixel. Each one-metre voxel in the model holds four values: bulk density, moisture, live fraction and surface-area-to-volume ratio.[^1,2] Canopy fuels, ground fuels and ladder fuels (the shrubs and low branches that let a fire climb into the crowns) share the same array.[^2] Next-generation physics-based fire models can read the arrays directly.[^2]
 
-The model is built on public airborne lidar from the USGS 3DEP programme. Lidar is laser scanning, here from aircraft, that records the height and shape of the ground and vegetation. Using this public lidar lets the method be applied across ecosystems. CTrees demonstrated it on mixed conifer forest near South Lake Tahoe, chamise chaparral in the San Jacinto Mountains, and a loblolly pine and sweetgum plantation in the Georgia Piedmont.
+The model is built on public airborne lidar from the USGS 3DEP programme.[^1,2] Lidar is laser scanning, here from aircraft, that records the height and shape of the ground and vegetation. Using this public lidar lets the method be applied across ecosystems.[^2] CTrees demonstrated it on mixed conifer forest near South Lake Tahoe, chamise chaparral in the San Jacinto Mountains, and a loblolly pine and sweetgum plantation in the Georgia Piedmont.[^1,2]
 
-The work took third place in the 3D Surface Fuels and Vegetation Modeling Prize Challenge. SERDP/ESTCP ran the challenge with the Naval Air Warfare Center Training Systems Division and the Central Florida Tech Grove. The team was Saatchi, Zhihua Liu, Bryan Shaddy, Chris Mihiar and Aijing Li. CTrees announced the model on 7 October 2026.
+The work took third place in the 3D Surface Fuels and Vegetation Modeling Prize Challenge.[^2] SERDP/ESTCP ran the challenge with the Naval Air Warfare Center Training Systems Division and the Central Florida Tech Grove.[^2] The team was Saatchi, Zhihua Liu, Bryan Shaddy, Chris Mihiar and Aijing Li.[^2] CTrees announced the model on 7 October 2026.[^2]
 
-The arrays, validation and interactive 3D models for the three sites are public at 3dfuels.ctrees.org, a prize-challenge demo. The model maps fuel structure; it does not simulate how a fire behaves.
+The arrays, validation and interactive 3D models for the three sites are public at 3dfuels.ctrees.org, a prize-challenge demo.[^1,2] The model maps fuel structure; it does not simulate how a fire behaves.

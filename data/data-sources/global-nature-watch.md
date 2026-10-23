@@ -3,10 +3,7 @@ about:
   depiction: data-sources/global-nature-watch.jpg
   label: Global Nature Watch
   description: >-
-    Website from the World Resources Institute, called Global Forest Watch
-    until 2026, that publishes free global data, maps and alerts on forests
-    and is widening its coverage to grasslands, farmland and trees outside
-    forests.
+    Website from the World Resources Institute, called Global Forest Watch until 2026, that publishes free global data, maps and alerts on forests and is widening to grasslands and farmland.
   tags:
     - forests
     - deforestation
@@ -41,19 +38,19 @@ provenance:
   reviewed_by: 'Claude, from the sources listed; the home page is mostly a script shell and gave little text'
   status: draft
 ---
-The World Resources Institute (WRI) is based in Washington, DC. The renaming from Global Forest Watch was announced on 1 July 2026, and nothing changes for users but the name. WRI began the programme in 1997 as a network of NGOs reporting on forests in Cameroon, Canada, Gabon and Indonesia. In 2014 it relaunched as an interactive online map with forest data for the whole world.
+The World Resources Institute (WRI) is based in Washington, DC.[^2] The renaming from Global Forest Watch was announced on 1 July 2026, and nothing changes for users but the name.[^3] WRI began the programme in 1997 as a network of NGOs reporting on forests in Cameroon, Canada, Gabon and Indonesia.[^2] In 2014 it relaunched as an interactive online map with forest data for the whole world.[^2]
 
 The data published include:
 
-- annual tree cover loss (the tenth yearly release came in 2024)
-- monthly and weekly deforestation alerts, which users can receive by email
-- the drivers of tree cover loss
-- maps of forest carbon emissions and removals
-- plantation data for 82 countries
-- pan-tropical primary forest data
+- annual tree cover loss (the tenth yearly release came in 2024)[^2]
+- monthly and weekly deforestation alerts, which users can receive by email[^1,2]
+- the drivers of tree cover loss[^2]
+- maps of forest carbon emissions and removals[^2]
+- plantation data for 82 countries[^2]
+- pan-tropical primary forest data[^2]
 
-Rainforest Foundation US applied the forest carbon data with Indigenous communities seeking climate finance. The cocoa trader ECOM used it to reduce deforestation in its supply chain, and FOCEN to track forest pests in Mexico's Monarch Butterfly Biosphere Reserve. WRI cites an evaluation in which areas where Indigenous monitors had satellite data saw 52 percent less deforestation in a year.
+Rainforest Foundation US applied the forest carbon data with Indigenous communities seeking climate finance.[^2] The cocoa trader ECOM used it to reduce deforestation in its supply chain, and FOCEN to track forest pests in Mexico's Monarch Butterfly Biosphere Reserve.[^2] WRI cites an evaluation in which areas where Indigenous monitors had satellite data saw 52 percent less deforestation in a year.[^2]
 
-The data and tools are free to use online. A myGNW account keeps saved areas of interest, and alert subscriptions continue under the new name. Forest Watcher, a mobile app released in 2017, takes the data offline into the field. GFW Pro, released in 2019 for companies managing deforestation risk, is the first tool to be folded into the main website. A separate preview site, Global Nature Watch Horizon, holds AI-driven work under development.
+The data and tools are free to use online.[^2,3] A myGNW account keeps saved areas of interest, and alert subscriptions continue under the new name.[^3] Forest Watcher, a mobile app released in 2017, takes the data offline into the field.[^2] GFW Pro, released in 2019 for companies managing deforestation risk, is the first tool to be consolidated as WRI gradually merges its tools.[^2,3] A separate preview site, Global Nature Watch Horizon, holds AI-driven work under development.[^1,3]
 
-WRI reports more than nine million visitors since 2014. With the new name it is extending coverage beyond forests to grasslands, agricultural land and trees outside forests.
+WRI reports more than nine million visitors since 2014.[^2] With the new name it is extending coverage beyond forests to grasslands, agricultural land and trees outside forests.[^3]
