@@ -40,9 +40,7 @@ open:
   licence: CC BY-NC-ND 4.0 (the paper)
   note: All the study's data is published in GRIIDC under 27 DOIs, from raw echosounder files to species counts per net.
 relations:
-  - predicate: raises
-    target: questions/after-an-oil-spill
-  - predicate: measured_with
+  - predicate: cites
     target: data-sources/griidc
 provenance:
   origin: agent

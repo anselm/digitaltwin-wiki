@@ -9,6 +9,9 @@ domains:
   - water
   - ecology
   - food
+relations:
+  - predicate: cites
+    target: articles/immense-but-not-immutable-deep-pelagic-decline
 provenance:
   origin: agent
   reviewed: '2026-10-24'
