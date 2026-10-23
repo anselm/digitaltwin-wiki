@@ -16,7 +16,7 @@ One list for the project, kept current. Decisions and reasoning live in
   ecological frontier.
 - Decide the chrome: the site name, the twins label, the home text.
 - Decide whether to drop the staging badge on digitaltwins.wiki. (Indexing:
-  opened 2026-10-23 at Anselm's word; the machine copies and /admin/ stay
+  opened 2026-10-23 at Anselm's word; the machine copies and /todo/ stay
   noindex.)
 - Ambassadors: real people to stand for a patron path, if any.
 - Export the ChatGPT guide site (sign-in only) before deleting it, if there

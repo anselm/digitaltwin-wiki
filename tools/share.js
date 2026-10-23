@@ -84,8 +84,8 @@ for (const e of entries) entryCard(e)
 const vitals = charts([], path.join(root, 'data/vitals'))
 for (const v of vitals) vitalCard(v)
 
-// /admin/ is open to anyone but not advertised, so it stays out of the sitemap.
-const urls = [...entries.filter((e) => e.id !== 'admin').map((e) => [e.url, e.updated]), ...vitals.map((v) => [`/vitals/${v.id}/`, v.fetched])]
+// /todo/ is working notes, not reference, so it stays out of the sitemap.
+const urls = [...entries.filter((e) => e.id !== 'todo').map((e) => [e.url, e.updated]), ...vitals.map((v) => [`/vitals/${v.id}/`, v.fetched])]
 fs.writeFileSync(path.join(out, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(([u, d]) => `  <url><loc>${SITE}${esc(u)}</loc>${/^\d{4}-\d{2}-\d{2}$/.test(d || '') ? `<lastmod>${d}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`)
 fs.writeFileSync(path.join(out, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`)
 

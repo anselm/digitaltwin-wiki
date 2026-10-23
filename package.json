@@ -19,9 +19,10 @@
     "share": "node tools/share.js",
     "after": "node tools/after-edit.js",
     "status": "node tools/status.js",
-    "build": "npm run check && npm run machine && npm run share && node tools/status.js && npm --workspace packages/site run build"
+    "build": "npm run check && npm run machine && npm run share && node tools/status.js && npm --workspace packages/site run build && pagefind --site packages/site/dist --output-subdir pagefind --quiet"
   },
   "devDependencies": {
-    "@resvg/resvg-js": "^2.6.2"
+    "@resvg/resvg-js": "^2.6.2",
+    "pagefind": "^1.4.0"
   }
 }

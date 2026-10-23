@@ -55,8 +55,9 @@ shared card) and fix what it raises before committing. Every tool is in
 - `node tools/scan.js`: new items from known sources into `inbox/`.
 - `deploy/deploy.sh`: builds from the last commit only, so uncommitted drafts never go live.
 
-Status and priorities are shown at `/admin/` (not linked from the
-navigation, not hidden); open items live in `todo.md`.
+Status and priorities are shown at `/todo/` (in the New group of the
+navigation, kept out of search); open items live in `todo.md`, which
+that page also shows.
 
 ## Project-specific facts
 

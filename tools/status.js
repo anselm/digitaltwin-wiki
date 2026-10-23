@@ -1,6 +1,6 @@
 // Where the wiki stands: a rough maturity score for every entry, the shelves by status, and the
 // priorities that fall out of them (weak pages many others link to; drafts closest to ready).
-// Writes status.json into the site's static folder for the /admin page, and prints a summary.
+// Writes status.json into the site's static folder for the /todo page, and prints a summary.
 // Rerunnable; the build runs it. Usage: node tools/status.js [static-dir]
 import fs from 'node:fs'
 import path from 'node:path'

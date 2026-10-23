@@ -11,8 +11,8 @@
 	root * /srv/site
 
 	# Open to search engines since 2026-10-23 (Anselm). Kept out of search: the machine copies,
-	# which repeat every page as markdown and JSON, and the status page, which is open but not advertised.
-	@unlisted path /m/* *.json /admin /admin/*
+	# which repeat every page as markdown and JSON, and the to-do page, which is working notes rather than reference.
+	@unlisted path /m/* *.json /todo /todo/*
 	header @unlisted X-Robots-Tag "noindex"
 
 	# SvelteKit fingerprints these — safe to cache forever.

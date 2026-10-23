@@ -27,3 +27,6 @@ a:hover { text-decoration: underline; }
 .prose th, .prose td { padding: 0.35em 0.75em 0.35em 0; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
 .prose th { font-weight: 600; }
 .tabular { font-variant-numeric: tabular-nums; }
+
+/* Pagefind marks the matched words in each excerpt. */
+.search-excerpt mark { background: none; color: var(--ink); font-weight: 600; }
