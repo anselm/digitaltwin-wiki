@@ -53,6 +53,7 @@
   {/if}
   <p class="mt-6 pt-3 border-t border-line text-xs text-muted leading-relaxed">
     Contributions come in through <a href="https://github.com/anselm/digitaltwin-wiki">GitHub</a>.<br />
+    Text and data under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a>; code under MIT.<br />
     For AI assistants: <a href="/llms.txt">llms.txt</a>, <a href="/index.json">index.json</a>, <a href="/graph.json">graph.json</a>; every entry is markdown at /m/&lt;id&gt;.md.
   </p>
 </nav>

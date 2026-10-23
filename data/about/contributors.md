@@ -24,4 +24,6 @@ Entries are drafted by software agents and by people. Each entry records its own
 
 Contributions come in as pull requests to the [repository](https://github.com/anselm/digitaltwin-wiki): a new entry, a correction, an added source, an entry rewritten in plainer words. Contributors are named here, with a link if they want one, once a contribution is merged and they ask to be named. No one is listed without asking.
 
+Everything contributed is published under the same licence as the rest of the wiki's text, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), so it can be reused with credit and stays open in what others build from it. Code contributions are under the MIT License.
+
 Corrections are wanted most. If an entry talks over your head, favours a vendor, states something without a source, or leaves you with nowhere to go, say which, in an issue or a pull request.

@@ -178,6 +178,11 @@ one.
 
 ## Licence and credit
 
-The text of the wiki is free to read and reuse. Entries describe other
-people's work and link to it; the credit is theirs. The visual grammar of
-the ten domains is the site's own.
+The text and data of the wiki are licensed under Creative Commons
+Attribution-ShareAlike 4.0 (CC BY-SA 4.0), the licence Wikipedia uses: reuse
+them freely with credit to the Digital Twins Wiki and its contributors, and
+share what you make from them under the same licence. The code is under the
+MIT License. Images, logos and data series from the makers an entry
+describes keep their owners' terms. Details in `LICENSE`. Entries describe
+other people's work and link to it; the credit is theirs. The visual grammar
+of the ten domains is the site's own.

@@ -1,0 +1,38 @@
+Licensing for digitaltwin-wiki (digitaltwins.wiki)
+
+Text and data: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+  The entries in data/, the devlog, and the machine exports built from them
+  (llms.txt, index.json, graph.json, /m/*.md, the Vitals series files) are
+  licensed under CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+  Credit "Digital Twins Wiki (digitaltwins.wiki) and contributors" with a link
+  to the page or file used. Adapted work must carry the same licence.
+
+  Not covered: images, logos and depictions taken from the pages of the
+  makers an entry describes, and third-party data series, belong to their
+  owners and keep their own terms (each entry and Vitals series names its
+  source and licence). The fonts in tools/fonts are under the SIL Open Font
+  License.
+
+Code: MIT License
+  The software in packages/, tools/ and deploy/ is licensed as follows, because
+  a share-alike licence written for text is a poor fit for code.
+
+  Copyright (c) 2026 Anselm Hook and contributors
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
