@@ -33,19 +33,21 @@ provenance:
       url: 'https://pypsa.org/'
     - title: 'Home - PyPSA-Eur'
       url: 'https://pypsa-eur.readthedocs.io/en/stable/index.html'
+    - title: 'Licenses - PyPSA-Eur'
+      url: 'https://pypsa-eur.readthedocs.io/en/stable/licenses/'
   reviewed: '2026-10-18'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The framework holds no data. Users build networks of buses (the nodes where lines meet), loads, generators, storage and links, then solve dispatch, power-flow and investment problems over those networks. The name stands for Python for Power System Analysis, and the Department of Digital Transformation in Energy Systems at Technische Universität Berlin maintains the code.
+The framework holds no data.[^1] Users build networks of buses (the nodes where lines meet), loads, generators, storage and links, then solve dispatch, power-flow and investment problems over those networks.[^1] The name stands for Python for Power System Analysis, and the Department of Digital Transformation in Energy Systems at Technische Universität Berlin maintains the code.[^1]
 
-PyPSA-Eur is one of several models built with PyPSA. It represents the European energy system at transmission-network level across the whole ENTSO-E area, the territory of the European association of grid operators. A sector-coupled extension adds transport, heating, biomass, industry and carbon management. Sister models are PyPSA-DE for Germany, PyPSA-USA for the United States and PyPSA-Earth for the world.
+PyPSA-Eur is one of several models built with PyPSA.[^1] It represents the European energy system at transmission-network level across the whole ENTSO-E area, the territory of the European association of grid operators.[^2] A sector-coupled extension adds transport, heating, biomass, industry and carbon management.[^2] Sister models are PyPSA-DE for Germany, PyPSA-USA for the United States and PyPSA-Earth for the world.[^1]
 
-The framework handles economic dispatch (choosing which plants run, at least cost), linear and security-constrained optimal power flow, and capacity expansion, and it also covers multi-period pathway planning, rolling-horizon and stochastic optimisation, and policy constraints such as CO2 limits. PyPSA-Eur is used for operational studies and for generation and transmission expansion planning. One of the project's showcases is a study of a possible European hydrogen network, published in Joule in 2023.
+The framework handles economic dispatch (choosing which plants run, at least cost), linear and security-constrained optimal power flow, and capacity expansion, and it also covers multi-period pathway planning, rolling-horizon and stochastic optimisation, and policy constraints such as CO2 limits.[^1] PyPSA-Eur is described as suitable for operational studies and for generation and transmission expansion planning.[^2] One of the project's showcases is a study of a possible European hydrogen network, published in Joule in 2023.[^2]
 
-Both are free under the MIT licence for academic and commercial use. PyPSA-Eur uses only freely available data, and an automated workflow assembles the model from the original datasets. It is tested on Linux, macOS and Windows (WSL), and open-source solvers such as HiGHS work, though the project recommends commercial solvers for very large problems. Several consultancies sell support.
+Both are free under the MIT licence for academic and commercial use.[^1,3] PyPSA-Eur uses only freely available data, and an automated workflow assembles the model from the original datasets.[^2] It is tested on Linux, macOS and Windows (WSL), and open-source solvers such as HiGHS work, though the project recommends commercial solvers for very large problems.[^1,2] Several consultancies sell support.[^1]
 
-The PyPSA-Eur documentation warns that the model has known limitations and is under active development. The community held a user meeting in June 2026.
+The PyPSA-Eur documentation warns that the model has known limitations and is under active development.[^2] The community held a user meeting in June 2026.[^1]
 
 ![European electricity infrastructure as represented in PyPSA-Eur: transmission links and generation technologies.](/engines/pypsa-pypsa-eur/power.png)
 

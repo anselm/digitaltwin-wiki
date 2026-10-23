@@ -29,14 +29,16 @@ provenance:
       url: 'https://replicahq.com/'
     - title: Scenario Model Methodology Summary
       url: 'https://documentation.replicahq.com/docs/scenario-model-methodology'
+    - title: 'About Replica'
+      url: 'https://replicahq.com/about'
   reviewed: '2026-10-18'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Replica organises data about the built environment for public agencies and private companies making transport decisions. Its core product, Places, is a seasonal mobility model. It starts from a synthetic population, a statistical stand-in for real residents, built from census products (PUMS, ACS, CTPP, LEHD) and location data. Activity sequences, destination and mode choice, and traffic assignment are layered on top.
+Replica organises data about the built environment for public agencies and private companies making transport decisions.[^3] Its core product, Places, is a seasonal mobility model.[^2] It starts from a synthetic population, a statistical stand-in for real residents, built from census products (PUMS, ACS, CTPP, LEHD) and location data.[^2] Activity sequences, destination and mode choice, and traffic assignment are layered on top.[^2]
 
-Scenario extends that pipeline. A customer supplies projected population and employment for a chosen base year, at census block groups or custom transportation analysis zones, and Replica re-runs the model to produce a forecast. Customers can set up road closures themselves, at county level, in a Road Closure Scenario application. Outputs include the new population and home-work distribution, travel behaviour (origins, destinations, modes, distances), road volumes, transit line ridership and the places where demand exceeds road capacity.
+Scenario extends that pipeline. A customer supplies projected population and employment for a chosen base year, at census block groups or custom transportation analysis zones, and Replica re-runs the model to produce a forecast.[^2] Customers can set up road closures themselves, at county level, in a Road Closure Scenario application.[^2] Outputs include the new population and home-work distribution, travel behaviour (origins, destinations, modes, distances), road volumes, transit line ridership and the places where demand exceeds road capacity.[^2]
 
-The documentation also lists datasets: seasonal trip tables, link volumes, AADT (annual average daily traffic), speeds and crash data. Its listed applications are transit equity, VMT (vehicle miles travelled) calculation, active transportation and safety screening.
+The documentation also lists datasets: seasonal trip tables, link volumes, AADT (annual average daily traffic), speeds and crash data.[^2] Its listed applications are transit equity, VMT (vehicle miles travelled) calculation, active transportation and safety screening.[^2]
 
-Replica is a commercial hosted service with a web application and data products. The geographies and source datasets are those of the US Census, so coverage is the United States. Scenarios run on a 20 percent household sample scaled to 100 percent unless the customer asks otherwise. Each forecast is accompanied by a re-run of the base year with the latest model version, so differences come from the inputs. The documentation is versioned Guides v1.0.
+Replica is a commercial hosted service with a web application and data products.[^1] The geographies and source datasets are those of the US Census, so coverage is the United States.[^2] Scenarios run on a 20 percent household sample scaled to 100 percent unless the customer asks otherwise.[^2] Each forecast is accompanied by a re-run of the base year with the latest model version, so differences come from the inputs.[^2] The documentation is versioned Guides v1.0.[^2]

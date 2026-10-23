@@ -44,8 +44,8 @@ import:
 domains:
   - ecology
 ---
-The pilot tests aerial seeding near Tostado (Santa Fe) and Bandera (Santiago del Estero). ReForest Latam supplies the drones and seed technology. The work is part of a TNC Argentina initiative supported by the John Deere Foundation.
+The pilot tests aerial seeding near Tostado (Santa Fe) and Bandera (Santiago del Estero).[^1] ReForest Latam supplies the drones and seed technology.[^1] The work is part of a TNC Argentina initiative carried out in partnership with the John Deere Foundation.[^1]
 
-Drones drop biodegradable capsules holding native seeds and biostimulants. Sites are characterised beforehand with GIS, an ecosystem-analysis platform and AI, and flights are timed around expected rain. White carob is the main species, with yellow floss silk tree, guayacán and Santiago red quebracho. The pilot targets 13 hectares and about 8,000 trees. The wider project aims at 100,000 trees, and more than 300 hectares had already been planted with seedlings by hand.
+Drones drop biodegradable capsules holding native seeds and biostimulants.[^1] Sites are characterised beforehand with GIS, an ecosystem-analysis platform and AI, and flights are timed around expected rain.[^1] White carob is the main species, with yellow floss silk tree, guayacán and Santiago red quebracho.[^1] The pilot targets 13 hectares and about 8,000 trees.[^1] The wider project aims at 100,000 trees, and more than 300 hectares had already been planted with seedlings by hand.[^1]
 
-Control plots are checked every 45 days. About 120 days after the flights the team compares seedlings in treated and untreated areas. As of August 2026 the drone seeding was still under test, and no germination or survival results had been published.
+Control plots are checked every 45 days.[^1] About 120 days after the flights the team compares seedlings in treated and untreated areas.[^1] As of August 2026 the drone seeding was still under test, and no germination or survival results had been published.[^1]
