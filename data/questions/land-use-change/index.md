@@ -39,6 +39,10 @@ On this site: [InVEST](/engines/invest/) for ecosystem services, [DSSAT](/engine
 - Species records: [iNaturalist](/data-sources/inaturalist/) holds observations people have made in your area.
 - What the land yields now, from the people who farm it.
 
+## In real places
+
+Some places where the question is being asked now. In Indonesia, fires set or spread on drained peat send haze across the region in dry years: see [Land and peat fires in Indonesia](/scenarios/indonesia-land-and-peat-fires/). In the Philippines, bamboo is being planted on Mindanao's uplands while engineered lumber and carbon credits change what it is worth: see [Bamboo as a land use](/scenarios/bamboo-as-a-land-use-philippines/). On Bali, rice terraces run by water temples are giving way to building: see [Bali's subak](/scenarios/bali-subak-water-temples/). Other [scenarios](/scenarios/) work through land and water together.
+
 ## If a mandate sent you
 
 The [30 by 30 target](/mandates/thirty-by-thirty/) makes this a counting question first: which land counts as conserved, where the gaps by habitat are, and what a change of use would do to coverage and connectivity. [Protected Planet](/data-sources/protected-planet/) is the record it is measured against.
