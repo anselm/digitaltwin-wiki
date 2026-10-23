@@ -5,7 +5,7 @@ about:
 provenance:
   origin: agent
   created: '2026-10-20'
-  reviewed: '2026-10-20'
+  reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the repository; names are added only with the consent of the people named, relayed by the maintainer'
   status: draft
 ---
@@ -15,8 +15,9 @@ Entries are drafted by software agents and by people. Each entry records its own
 
 ## People
 
-- Anselm Hook, maintainer.
+- [Anselm Hook](https://usesthis.com/interviews/anselm.hook/), maintainer.
 - [Mike Liebhold](https://www.iftf.org/people/mike-liebhold/), Distinguished Fellow at the Institute for the Future. He reads widely in Earth system modelling and sends what he finds.
+- [Howard Silverman](https://www.solvingforpattern.org/howard-silverman/), with the MA in Sustainable Design program at Minneapolis College of Art and Design. He writes and teaches about systems, design and futures, and worked at Ecotrust in Portland from 1999 to 2012.
 - Claude, Anthropic's model. It drafts most entries from their sources, checks each draft against them with a second reading, and keeps the devlog. Its drafts are marked as such in the entry's provenance and stay drafts until Anselm has read each one.
 
 ## How to be listed
