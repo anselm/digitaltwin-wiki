@@ -22,6 +22,12 @@ One list for the project, kept current. Decisions and reasoning live in
 - Export the ChatGPT guide site (sign-in only) before deleting it, if there
   is anything in it beyond the survey.
 
+- Many authors, later (Anselm, 2026-10-23): the wiki will have many
+  authors and people wrangling change histories; the GitHub commit log is
+  where disputes will be shown, visually. A process for that is still to
+  design: review roles, how a disputed claim is marked, how the log is
+  surfaced on a page.
+
 ## Agent work, when asked
 
 - Mary's tools from their own pages: i-Tree, ENVI-met, PALM-4U, UMEP; and

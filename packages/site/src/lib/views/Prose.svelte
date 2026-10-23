@@ -45,7 +45,7 @@
 <footer class="mt-10 pt-3 border-t border-line text-xs text-muted">
   {#if data.provenance.sources?.length}
     <p>Sources:</p>
-    <ol class="list-decimal ml-5">{#each data.provenance.sources as s}<li><a href={s.url} rel="noopener">{s.title}</a>{#if s.date} ({s.date}){/if}</li>{/each}</ol>
+    <ol class="list-decimal ml-5">{#each data.provenance.sources as s, i}<li id="source-{i + 1}" class="scroll-mt-16 target:text-ink"><a href={s.url} rel="noopener">{s.title}</a>{#if s.date} ({s.date}){/if}</li>{/each}</ol>
   {/if}
   {#if data.provenance.reviewed}<p class="mt-1">Reviewed {data.provenance.reviewed}{#if data.provenance.reviewed_by}: {data.provenance.reviewed_by.replace(/\.\s*$/, '')}{/if}.</p>{/if}
   {#if data.provenance.origin}<p>Origin: {data.provenance.origin}{#if data.provenance.author}, {data.provenance.author}{/if}.</p>{/if}

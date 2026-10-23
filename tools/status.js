@@ -37,19 +37,23 @@ for (const e of store.all) {
   const desc = e.about?.description || ''
   const pic = !!e.about?.depiction
   const t = tells[e.id], per100 = t ? t.per100 : 0
+  // Share of body paragraphs that carry at least one inline citation [^n].
+  const paras = (e.content || '').split(/\n\s*\n/).filter((x) => x.trim() && !/^\s*(#|!\[|\|)/.test(x))
+  const cited = paras.length ? Math.round(100 * paras.filter((x) => /\[\^\d/.test(x)).length / paras.length) : 0
   const links = inbound.get(e.id)?.size || 0
   const age = days(p.reviewed || p.updated || p.created)
-  const score = (status === 'public' ? 35 : status === 'proposed' ? 20 : 0) + (human ? 15 : 0) + (sources >= 3 ? 12 : sources ? 8 : 0)
+  const score = (status === 'public' ? 35 : status === 'proposed' ? 20 : 0) + (human ? 15 : 0) + (sources >= 3 ? 8 : sources ? 5 : 0) + (cited >= 80 ? 6 : cited >= 40 ? 3 : 0)
     + (words >= 200 ? 12 : words >= 60 ? 6 : 0) + (desc.length >= 40 && desc.length <= 200 ? 6 : 0) + (pic ? 5 : 0) + (per100 <= 10 ? 10 : per100 <= 25 ? 5 : 0) + (links ? 5 : 0)
   const issues = []
   if (status !== 'public') issues.push(human ? `${status}, written or read by a person` : `${status}, not yet read by a person`)
   if (!sources && p.origin !== 'human') issues.push('no sources listed')
+  else if (sources && cited < 50) issues.push(cited ? `inline citations in ${cited}% of paragraphs` : 'no inline citations')
   if (words < 60) issues.push(`thin (${words} words)`)
   if (!desc) issues.push('no description'); else if (desc.length > 200) issues.push(`description ${desc.length} chars`)
   if (per100 > 25) issues.push(`prose tells ${per100} per 100 sentences`)
   if (age != null && age > 180) issues.push(`last read ${age} days ago`)
   if (!links) issues.push('nothing links here')
-  rows.push({ id: e.id, url: `/${e.id}/`, label: e.about?.label || e.id, shelf: e.id.split('/')[0], status, origin: p.origin || '', score, links, words, sources, tells: per100, issues })
+  rows.push({ id: e.id, url: `/${e.id}/`, label: e.about?.label || e.id, shelf: e.id.split('/')[0], status, origin: p.origin || '', score, links, words, sources, cited, tells: per100, issues })
 }
 
 const shelves = {}

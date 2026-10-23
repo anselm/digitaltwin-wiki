@@ -6,7 +6,10 @@ import path from 'node:path'
 const statuses = (process.env.SHOW || 'draft,proposed,public').split(',')
 export const store = await openStore(path.resolve('../../data'), { statuses })
 export const show = statuses
-export const html = (md) => (md ? marked.parse(md) : '')
+// Inline citations: [^3] or [^2,5] in a body points at the entry's provenance.sources by number (from 1),
+// and renders as a superscript link to that source in the list at the foot of the page.
+const cite = (md) => md.replace(/\[\^(\d+(?:\s*,\s*\d+)*)\]/g, (_, ns) => '<sup class="cite">' + ns.split(/\s*,\s*/).map((n) => `<a href="#source-${n}">${n}</a>`).join(',') + '</sup>')
+export const html = (md) => (md ? marked.parse(cite(md)) : '')
 
 /** Which view an entity asks for; kind components supply a default when it says nothing. */
 export function viewOf(e) {

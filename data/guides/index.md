@@ -4,9 +4,9 @@ about:
   description: 'Nine stages, from naming the question to keeping the model alive, in order.'
   view: list
 section:
-  order: 60
+  order: 95
   nav: true
-  area: practice
+  area: theory
 provenance:
   origin: human
   status: public

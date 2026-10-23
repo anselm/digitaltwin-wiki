@@ -134,6 +134,9 @@ export class Store {
       }
       for (const d of e.domains || []) if (!this.byId.has(`domains/${d}`)) p(e.id, 'error', `domain "${d}" has no entity at domains/${d}`)
       if (e.redirect && !this.byId.has(e.redirect.to)) p(e.id, 'error', `redirect to missing entity "${e.redirect.to}"`)
+      // Inline citations [^n] must name a source the entry lists (provenance.sources, counted from 1).
+      const nsrc = (e.provenance?.sources || []).length
+      for (const m of (e.content || '').matchAll(/\[\^(\d+(?:\s*,\s*\d+)*)\]/g)) for (const n of m[1].split(/\s*,\s*/).map(Number)) if (n < 1 || n > nsrc) p(e.id, 'error', `citation [^${n}] but the entry lists ${nsrc} source${nsrc === 1 ? '' : 's'}`)
       // Internal links in the body must land on an entity or on a file kept in data/; a miss fails the prerender at deploy.
       for (const m of (e.content || '').matchAll(/\]\(\/([^)#\s]*?)\/?(?:#[^)]*)?\)/g)) {
         const t = m[1]

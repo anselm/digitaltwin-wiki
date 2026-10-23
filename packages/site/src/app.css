@@ -30,3 +30,8 @@ a:hover { text-decoration: underline; }
 
 /* Pagefind marks the matched words in each excerpt. */
 .search-excerpt mark { background: none; color: var(--ink); font-weight: 600; }
+
+/* Inline citations: small, quiet, and pointing at the numbered sources at the foot of the page. */
+.prose sup.cite { font-size: 0.7em; line-height: 0; margin-left: 0.1em; }
+.prose sup.cite a { color: var(--muted); }
+.prose sup.cite a:hover { color: var(--accent); }

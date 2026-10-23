@@ -20,7 +20,10 @@ for (const f of files) {
   else if (desc.length > 200) notes.push(`description is ${desc.length} characters; search results and cards cut at about 200`)
   if (label.length > 70) notes.push(`title is ${label.length} characters; the card shows about 70`)
   if (!/^\s*depiction:/m.test(txt)) notes.push('no picture: the card is text only')
+  const body = txt.split(/^---$/m).slice(2).join('---'), paras = body.split(/\n\s*\n/).filter((x) => x.trim() && !/^\s*(#|!\[|\|)/.test(x))
+  const cited = paras.filter((x) => /\[\^\d/.test(x)).length
+  if (/^\s*sources:/m.test(txt) && cited < paras.length) notes.push(`inline citations in ${cited} of ${paras.length} paragraphs`)
   const tells = run('node', ['tools/tells.js', '--file', f]).trim()
-  console.log(`\n${f}\n  card: ${notes.length ? notes.join('; ') : 'fine'}\n  tells: ${tells ? tells.split('\n').filter((l) => l.includes('[')).map((l) => l.match(/\[(.*?)\]/)[1]).join(', ') : 'none'}`)
+  console.log(`\n${f}\n  card: ${notes.length ? notes.join('; ') : 'fine'}\n  tells: ${tells ? tells.split('\n').map((l) => l.match(/\.md\s+\[([a-z-]+)\]/)?.[1]).filter(Boolean).join(', ') : 'none'}`)
 }
 console.log('\nafter-edit: for the sentences behind each tell, node tools/tells.js --file <entry>')
