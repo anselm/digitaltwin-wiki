@@ -58,3 +58,12 @@ done yet; the prose sections hold the same content for now.
 
 Colorado River scenario commissioned (agent, from Reclamation's own
 pages). Hormuz exists.
+
+## Scale (Anselm, later the same day)
+
+"In my mind scenarios are along a continuum, world scale issues,
+bioregional issues, and local community issues." Each scenario now
+carries `scenario.scale` (world, bioregion or community), and the shelf
+groups by it in that order. The sorting of the 21 was Claude's
+judgement; the Amazon soy moratorium went to world scale because its
+decision-makers are global traders, though the forest is a bioregion.
