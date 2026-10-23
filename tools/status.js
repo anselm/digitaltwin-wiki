@@ -30,7 +30,8 @@ const rows = []
 for (const e of store.all) {
   if (e.redirect || 'section' in e || e.domain !== undefined) continue
   const p = e.provenance || {}, status = p.status || 'draft'
-  const human = p.origin === 'human' || /anselm/i.test(String(p.reviewed_by || ''))
+  // Read by a person: written by one, or a reviewed_by that starts with a person's name (Anselm, or a named contributor), not Claude's notes that merely mention him.
+  const human = p.origin === 'human' || /^(?!claude|machine)[A-Z][a-z]+ [A-Z]?/i.test(String(p.reviewed_by || '')) && !/claude|machine|not yet/i.test(String(p.reviewed_by || ''))
   const sources = (p.sources || []).length
   const words = (e.content || '').split(/\s+/).filter(Boolean).length
   const desc = e.about?.description || ''
@@ -41,7 +42,7 @@ for (const e of store.all) {
   const score = (status === 'public' ? 35 : status === 'proposed' ? 20 : 0) + (human ? 15 : 0) + (sources >= 3 ? 12 : sources ? 8 : 0)
     + (words >= 200 ? 12 : words >= 60 ? 6 : 0) + (desc.length >= 40 && desc.length <= 200 ? 6 : 0) + (pic ? 5 : 0) + (per100 <= 10 ? 10 : per100 <= 25 ? 5 : 0) + (links ? 5 : 0)
   const issues = []
-  if (status !== 'public') issues.push(human ? `${status}, read by Anselm` : `${status}, not yet read by Anselm`)
+  if (status !== 'public') issues.push(human ? `${status}, written or read by a person` : `${status}, not yet read by a person`)
   if (!sources && p.origin !== 'human') issues.push('no sources listed')
   if (words < 60) issues.push(`thin (${words} words)`)
   if (!desc) issues.push('no description'); else if (desc.length > 200) issues.push(`description ${desc.length} chars`)
