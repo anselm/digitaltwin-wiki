@@ -28,6 +28,18 @@ One list for the project, kept current. Decisions and reasoning live in
   design: review roles, how a disputed claim is marked, how the log is
   surfaced on a page.
 
+- Inline citations (Anselm, 2026-10-23: "aggressively"): [^n] markers
+  against each entry's sources, rendered and checked since 2026-10-23.
+  Wave 1 running: Scenarios, Communication, the first Everyday pages.
+  Then: the pages /todo/ lists as most linked, Engines (132), Data,
+  Articles, Twins. Entries of human or survey origin are skipped.
+- Wikipedia's Digital twin article as a map (Anselm: "a lot of great
+  detail ... we may want to scavenge"). Its text is CC BY-SA, so copying
+  would oblige attribution and the same licence; instead read its ~50
+  references, open the primary ones, and write from those (history of the
+  term, NASA and Grieves' early uses, the industry examples that touch
+  places), the same rule as for Mike's syntheses.
+
 ## Agent work, when asked
 
 - Mary's tools from their own pages: i-Tree, ENVI-met, PALM-4U, UMEP; and
