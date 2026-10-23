@@ -37,14 +37,14 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-From the early 1990s Kristine McDivitt Tompkins, a former chief executive of Patagonia, and her husband Doug Tompkins spent more than $345 million buying worn-out ranch and forest land in Chile and Argentina, restoring it and giving it to the two governments as national parks. In Argentina she signed the land over on condition that it stay protected for at least 99 years, which created or significantly enlarged six national parks. In the Iberá wetlands, the second largest in South America, giant anteaters, macaws and tapirs have been brought back, and wild jaguars returned for the first time in 70 years; Argentina has about 200 jaguars left. The sources differ on the size of the gifts. Yale reported in April 2016 that she had given nearly 1 million acres to Chile and 370,000 acres to Argentina earlier that year; Reasons to be Cheerful says she handed nearly one million hectares to Chile in 2018 and 2019. Space Daily repeats the Yale figures, so none of the three settles whether the Chilean total is in acres or hectares.
+From the early 1990s Kristine McDivitt Tompkins, a former chief executive of Patagonia, and her husband Doug Tompkins spent more than $345 million buying worn-out ranch and forest land in Chile and Argentina, restoring it and giving it to the two governments as national parks.[^1,3] In Argentina she signed the land over on condition that it stay protected for at least 99 years, which created or significantly enlarged six national parks.[^3] In the Iberá wetlands, the second largest in South America, giant anteaters, macaws and tapirs have been brought back, and wild jaguars returned for the first time in 70 years; Argentina has about 200 jaguars left.[^1] The sources differ on the size of the gifts. Yale reported in April 2016 that she had given nearly 1 million acres to Chile and 370,000 acres to Argentina earlier that year;[^2] Reasons to be Cheerful says she handed nearly one million hectares to Chile in 2018 and 2019.[^1] Space Daily repeats the Yale figures, so none of the three settles whether the Chilean total is in acres or hectares.[^3]
 
 ## Who needs an answer
 
 - The park authorities now responsible for land that was private, and for animals that were reintroduced.
-- Rewilding Argentina, the foundation that carries on the reintroductions, deciding which species next and where.
-- Ranchers around the parks: Tompkins has said a jaguar killing a cow is "bound to happen".
-- Towns near the parks, where the returned animals have brought visitors.
+- Rewilding Argentina, the foundation that carries on the reintroductions, deciding which species next and where.[^1]
+- Ranchers around the parks: Tompkins has said a jaguar killing a cow is "bound to happen".[^1]
+- Towns near the parks, where the returned animals have brought visitors.[^1]
 
 ## The domains it chains
 
