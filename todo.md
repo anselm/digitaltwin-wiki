@@ -18,6 +18,19 @@ One list for the project, kept current. Decisions and reasoning live in
 - Decide whether to drop the staging badge on digitaltwins.wiki. (Indexing:
   opened 2026-10-23 at Anselm's word; the machine copies and /todo/ stay
   noindex.)
+- A town for the town-twin experiment (`devlog/20261023-town-twin-experiment.md`);
+  Anselm will circle back with one.
+- Climate Shift Index: how a regional, daily attribution figure belongs in
+  the wiki (a Vitals layer, a twin layer, or only the Communication entry).
+- Search Console and structured data (schema.org) now that indexing is
+  open; semantic search later, if plain Pagefind proves too literal.
+- Wikipedia's references, triaged in `inbox/`: Gemini Principles, Virtual
+  Bradford, the building reviews, a UK energy twin, Helsinki and Kyoto.
+  Which become entries.
+- Forests 2030: send the link to Kormos's LinkedIn post if its paragraph
+  (updates through 2030, PRIMA statistics) should return; removed 2026-10-24
+  for want of a source.
+- Novel bamboo uses (`inbox/`), fuel for the bamboo scenario: entries or not.
 - Ambassadors: real people to stand for a patron path, if any.
 - Export the ChatGPT guide site (sign-in only) before deleting it, if there
   is anything in it beyond the survey.
@@ -30,9 +43,16 @@ One list for the project, kept current. Decisions and reasoning live in
 
 - Inline citations (Anselm, 2026-10-23: "aggressively"): [^n] markers
   against each entry's sources, rendered and checked since 2026-10-23.
-  Wave 1 running: Scenarios, Communication, the first Everyday pages.
-  Then: the pages /todo/ lists as most linked, Engines (132), Data,
-  Articles, Twins. Entries of human or survey origin are skipped.
+  Done: Scenarios, Communication, Everyday questions, Engines, Data, the
+  history article; Articles and Notable twins on 2026-10-24. Left, about
+  100 agent-written entries: Media (27), Sites (19), Use cases (12),
+  Terms (11), Ontologies (10), Guides (9), Organizations (9),
+  Presentation (8), and a handful of events, mandates and about pages.
+  Entries of human or survey origin are skipped. Brief:
+  `devlog/20261024-wrap-up.md`.
+- The maturity score on /todo/ barely moved with citations (mean 30):
+  sources were reweighted down when citations were added. Decide whether
+  cited coverage should count for more.
 - Wikipedia's Digital twin article as a map (Anselm: "a lot of great
   detail ... we may want to scavenge"). Its text is CC BY-SA, so copying
   would oblige attribution and the same licence; instead read its ~50
