@@ -103,7 +103,7 @@ const STOP = new Set(['that', 'from', 'with', 'this', 'which', 'their', 'into', 
 const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walk(path.join(d, e.name)) : e.name.endsWith('.md') ? [path.join(d, e.name)] : [])
 const files = only ? [only] : walk('data')
 const split = (text) => {
-  const paras = text.split(/\n\s*\n/).map((p) => p.replace(/^#+ .*$/gm, '').replace(/!\[[^\]]*\]\([^)]*\)/g, '').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/^\s*[-*] /gm, '').replace(/\*\*/g, '').trim()).filter(Boolean)
+  const paras = text.split(/\n\s*\n/).map((p) => p.replace(/\[\^[\d,\s]+\]/g, '').replace(/^#+ .*$/gm, '').replace(/!\[[^\]]*\]\([^)]*\)/g, '').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/^\s*[-*] /gm, '').replace(/\*\*/g, '').trim()).filter(Boolean)
   return paras.map((p) => p.replace(/\s+/g, ' ').split(/(?<=[.!?]['")\]]*)\s+(?=[A-Z"'(\[])/).map((s) => s.trim()).filter((s) => s.split(/\s+/).length > 3)).filter((p) => p.length)
 }
 
