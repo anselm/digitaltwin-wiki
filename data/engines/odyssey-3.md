@@ -45,7 +45,7 @@ import:
   posters:
     - Sarah Rizk
 domains:
-  - sensory
+  - places
   - mobility
 ---
 Odyssey's founders came from driverless-car work.[^1] Odyssey calls the model a learned dynamical system.[^1] It is an autoregressive diffusion transformer, a network that generates its output step by step, each step built on the ones before.[^1] It is trained on visual data to pick up physics, motion and cause and effect.[^1] The current preview supports first- and third-person navigation.[^1] The base model runs at 832 by 480; a larger variant, Odyssey-3 Pro, runs at 1280 by 720.[^1]

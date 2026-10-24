@@ -52,7 +52,6 @@ import:
     - Onur Bagoren
 domains:
   - water
-  - sensory
 ---
 SLAM (simultaneous localisation and mapping) is how a robot builds a map of its surroundings while working out where it is within that map. SurfSLAM is by Onur Bagoren, Seth Isaacson and colleagues with Ram Vasudevan and Katherine A. Skinner at the University of Michigan.[^1] Its stereo network was trained first on simulated underwater scenes with haze, caustics, lighting and particle effects, then fine-tuned on real footage without labels.[^1,4] It produces metric depth maps.[^1]
 

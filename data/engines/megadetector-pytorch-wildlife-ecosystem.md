@@ -54,7 +54,6 @@ import:
     - Rhett Ayers Butler
 domains:
   - ecology
-  - sensory
 ---
 PyTorch-Wildlife is a framework for building, sharing and running conservation models. The lab's Biodiversity hub groups it with:[^1]
 

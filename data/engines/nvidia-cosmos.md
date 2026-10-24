@@ -45,7 +45,7 @@ import:
   posters:
     - Daniel Sebastian Moreno
 domains:
-  - sensory
+  - places
 ---
 A world foundation model is a large model trained on video to predict how a physical scene unfolds. The current flagship, Cosmos 3, is a single model that NVIDIA says combines reasoning, world generation and action generation, on a mixture-of-transformers architecture.[^1] Alongside it come Cosmos Curator, for filtering and annotating sensor data, and Cosmos Evaluator, for scoring generated video.[^1] There are also scripts for post-training, optimisation and inference.[^1]
 

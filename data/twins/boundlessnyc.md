@@ -60,7 +60,6 @@ import:
 domains:
   - places
   - mobility
-  - sensory
 relations:
   - predicate: needs
     target: data-sources/openstreetmap-osm

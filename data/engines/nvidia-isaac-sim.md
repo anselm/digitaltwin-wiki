@@ -47,7 +47,7 @@ import:
   posters:
     - Daniel Sebastian Moreno
 domains:
-  - sensory
+  - places
 ---
 NVIDIA calls Isaac Sim its reference framework for simulating robots.[^1] OpenUSD, which it is built on, is an open file format for describing 3D scenes. Robots and scenes come in from CAD, from URDF (a file format that describes a robot's parts and joints) and from real-world captures.[^1] Developers also extend Isaac Sim to build their own OpenUSD-based simulators.[^1]
 

@@ -46,7 +46,7 @@ import:
   posters:
     - Daniel Sebastian Moreno
 domains:
-  - sensory
+  - places
 ---
 Pixar Animation Studios built OpenUSD for film and visual-effects production, as a file format and library for building animated 3D scenes collaboratively.[^1,2] Its documentation defines schemas for geometry, shading, lighting and physics.[^1] A composition system assembles many assets into one scene so that several tools and people can work on it at once.[^1] The Alliance for OpenUSD now promotes it and publishes a core specification.[^2] The Alliance is a non-profit under the Joint Development Foundation; its founding members are Pixar, Adobe, Apple, Autodesk and NVIDIA.[^2]
 

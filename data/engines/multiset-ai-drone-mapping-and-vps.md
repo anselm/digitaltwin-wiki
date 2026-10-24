@@ -45,7 +45,6 @@ import:
   posters:
     - Nikhil Sawlani
 domains:
-  - sensory
   - places
 ---
 MultiSet AI is a San Francisco company that sells a visual positioning system (VPS).[^1,2] A VPS is a map of a site against which any camera-equipped device can find its six-degree-of-freedom pose: where it is and which way it faces.[^1,2] Drone to VPS builds such a map from a single drone flight carrying a 360 camera.[^1] 360 video, panoramas and point clouds (sets of measured 3D points) are uploaded through a developer portal.[^1] The company says stitching and scale are handled without a separate photogrammetry step (building 3D models from overlapping photos).[^1]

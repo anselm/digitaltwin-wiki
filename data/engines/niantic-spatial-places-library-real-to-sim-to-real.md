@@ -47,7 +47,6 @@ import:
     - Pierre Fite-Georgel
     - Anvith E.
 domains:
-  - sensory
   - places
 ---
 Niantic Spatial curated the places, and its embodied AI team announced them.[^1] Each is one USDZ file holding two things derived from the same capture.[^1] One is a photorealistic Gaussian splat, a way of representing a captured scene as many small coloured, semi-transparent blobs. The other is a collision mesh aligned to it: the plain surface geometry a physics engine uses.[^1] Both are gravity-aligned and at metric scale.[^1] The first catalogue covers industrial, logistics, commercial and residential settings, and Niantic says it will grow on request.[^1]

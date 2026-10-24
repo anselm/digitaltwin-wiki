@@ -21,7 +21,6 @@ book:
   url: 'https://link.springer.com/book/10.1007/978-981-15-8983-6'
 domains:
   - places
-  - sensory
   - mobility
 provenance:
   origin: agent

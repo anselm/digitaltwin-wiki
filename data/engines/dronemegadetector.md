@@ -50,7 +50,6 @@ import:
     - Juan M. Lavista Ferres
 domains:
   - ecology
-  - sensory
 ---
 The detector is general-purpose, for aerial wildlife monitoring.[^1,2] It is the Medium size of RF-DETR, an object-detection architecture, with three classes: person, animal and vehicle.[^1] In practice "animal" means mammal.[^1] It was built by Chaim Chai Elchik, Steven Longmore, Dan Morris, Ben Weinstein, Josh Veitch-Michaelis, Camee Knops, Freya Richards and Serge Wich.[^1,2]
 

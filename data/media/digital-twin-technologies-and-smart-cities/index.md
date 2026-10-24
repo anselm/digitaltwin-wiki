@@ -21,7 +21,6 @@ book:
   url: 'https://link.springer.com/book/10.1007/978-3-030-18732-3'
 domains:
   - places
-  - sensory
 provenance:
   origin: agent
   sources:

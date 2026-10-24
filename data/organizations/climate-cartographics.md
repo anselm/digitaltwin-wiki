@@ -22,9 +22,9 @@ open:
   api: unknown
   participation: unknown
 domains:
+  - places
   - climate
   - people
-  - sensory
 provenance:
   origin: agent
   sources:

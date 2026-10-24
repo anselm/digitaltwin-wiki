@@ -48,7 +48,7 @@ import:
   posters:
     - Jonathan Sauder
 domains:
-  - sensory
+  - places
 ---
 VGGT-Ω (VGGT-Omega) is a family of one-billion-parameter models, presented as an oral paper at CVPR 2026 (arXiv 2605.15195).[^1] Feed-forward means the model computes its answer in one pass through the network.[^2] Given a set of frames, it returns camera poses and intrinsics (lens settings such as focal length), per-pixel depth with confidence, which can be unprojected into a point cloud, and camera tokens.[^1] Variants are trained at 512, 416 and 256 pixel resolution. One checkpoint adds a text-alignment embedding.[^1]
 

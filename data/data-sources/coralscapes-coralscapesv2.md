@@ -51,7 +51,6 @@ import:
     - Jonathan Sauder
 domains:
   - ecology
-  - sensory
 ---
 Coralscapes is modelled on Cityscapes, a dataset of urban scenes. Every pixel in each reef image is labelled with a class, a method called dense semantic segmentation.[^2] It was built by Jonathan Sauder, Viktor Domazetoski, Guilhem Banc-Prandi, Gabriela Perna, Anders Meibom and Devis Tuia, with EPFL's ECEO lab and the Transnational Red Sea Center.[^2] The first release has 2075 images, 39 classes and about 174,000 annotations from five countries.[^2] It was presented at the ICCV 2025 Joint Workshop on Marine Vision.[^2]
 

@@ -64,6 +64,11 @@ that page also shows.
 - No redirects (Anselm, 2026-10-24: "its ok to hard switch over still -
   lets get it right before it is popular"). When an entry or shelf moves,
   move it and rewrite the links; do not leave a stub at the old address.
+- The Sensory landscape domain (`sensory`) is what people sense in a place:
+  sound, noise, light, air. It is not sensors, machine vision, 3D capture
+  or scene formats; those are `places` (or the domain of what they look at).
+  The 2026-10-17 LinkedIn import read it as "sensing" and misfiled sixteen
+  entries, corrected 2026-10-24.
 
 (APIs, credentials locations, quirks, anything a fresh session must know that
 is not derivable from the code)
