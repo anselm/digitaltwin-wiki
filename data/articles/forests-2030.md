@@ -3,10 +3,7 @@ about:
   depiction: articles/forests-2030.jpg
   label: 'Forests 2030: protecting and restoring ecosystem integrity'
   description: >-
-    A nineteen-page explainer from Wild Heritage and Griffith University
-    arguing that forest policy for 2030 should be guided by ecosystem
-    integrity, with a three-step priority order for protection and
-    restoration.
+    A nineteen-page explainer from Wild Heritage and Griffith University arguing that forest policy for 2030 should rest on ecosystem integrity, with a three-step order for protection and restoration.
   tags:
     - primary forests
     - ecosystem integrity
@@ -49,24 +46,22 @@ provenance:
     who read it.
   status: draft
 ---
-Cyril Kormos of Wild Heritage wrote the short illustrated report with Brendan Mackey, Andrew Buckwell, Virginia Young, Sonia Hugh and Pat Norman of Griffith University. It is aimed at forest policies for 2030 and beyond, particularly where forests meet climate change.
+Cyril Kormos of Wild Heritage wrote the short illustrated report with Brendan Mackey, Andrew Buckwell, Virginia Young, Sonia Hugh and Pat Norman of Griffith University.[^1,2] It is aimed at forest policies for 2030 and beyond, particularly where forests meet climate change.[^2]
 
-Ecosystem integrity is defined as a measure of ecosystem wholeness. A high-integrity ecosystem has not been significantly modified by industrialised activity. It still has most, if not all, of its native species, its vegetation structure and its functions. A primary forest is at the high end of that scale, and the report uses the term to cover stable, old-growth, mature and virgin forest too.
+Ecosystem integrity is defined as a measure of ecosystem wholeness. A high-integrity ecosystem has not been significantly modified by industrialised activity. It still has most, if not all, of its native species, its vegetation structure and its functions.[^2] A primary forest is at the high end of that scale, and the report uses the term to cover stable, old-growth, mature and virgin forest too.[^2]
 
-The argument runs in seven parts. We have lost a third of the world's forests, about two billion hectares, half of it since 1950. Only about a quarter of what remains is primary.
+The argument runs in seven parts.[^2] We have lost a third of the world's forests, about two billion hectares, half of it since 1950. Only about a quarter of what remains is primary.[^1,2]
 
-Deforestation and degradation are different things. Deforestation is permanent conversion to another land use; degradation is damage without conversion. A clear-cut in Europe or North America that will be replanted counts as degradation. A clear-cut in the Amazon for cattle counts as deforestation. Tree-cover statistics therefore hide much of the loss.
+Deforestation and degradation are different things. Deforestation is permanent conversion to another land use; degradation is damage without conversion.[^2] A clear-cut in Europe or North America that will be replanted counts as degradation. A clear-cut in the Amazon for cattle counts as deforestation.[^2] Tree-cover statistics therefore hide much of the loss.[^1,2]
 
-The report argues that primary forests hold far more carbon, more securely, and more species than logged or planted ones. On carbon, it separates the stock a forest holds from the sink, its annual uptake. It argues that a primary forest's main climate value is holding a large stock securely for a century or more. It gives total ecosystem carbon figures for primary tropical, temperate and boreal forests. Temperate and boreal forests keep more of their carbon in dead wood and soil. A section on big old trees cites studies suggesting that the biggest one per cent of trees store up to half of above-ground carbon.
+The report argues that primary forests hold far more carbon, more securely, and more species than logged or planted ones.[^2] On carbon, it separates the stock a forest holds from the sink, its annual uptake. It argues that a primary forest's main climate value is holding a large stock securely for a century or more.[^1,2] It gives total ecosystem carbon figures for primary tropical, temperate and boreal forests.[^2] Temperate and boreal forests keep more of their carbon in dead wood and soil.[^2] A section on big old trees cites studies suggesting that the biggest one per cent of trees store up to half of above-ground carbon.[^1,2]
 
-From this the authors draw a priority order:
+From this the authors draw a priority order:[^1,2]
 
 1. Protect primary forests.
 2. Let mature forests age into old growth.
 3. Let cleared or degraded land regrow, preferring natural regeneration to active restoration wherever the land can recover on its own.
 
-The closing section argues that climate stability and biodiversity conservation are one challenge with one solution, since a forest with its natural complement of species holds more carbon and holds its carbon more securely. This does not mean a more biodiverse forest stores more carbon: climate as well as biodiversity sets the total.
+The closing section argues that climate stability and biodiversity conservation are one challenge with one solution, since a forest with its natural complement of species holds more carbon and holds its carbon more securely.[^2] This does not mean a more biodiverse forest stores more carbon: climate as well as biodiversity sets the total.[^2]
 
-The endnotes point to the definitions behind the argument. Three are Rogers and colleagues (2022) on ecosystem integrity in forest policy, DellaSala and colleagues (2025) on measuring degradation with integrity indicators, and the FAO's 2025 Global Forest Resources Assessment. The FAO authors acknowledge wide disagreement over what counts as primary forest.
-
-In the post that carried the report, Kormos wrote that it will be updated through 2030. The updates are to add more ecosystem services, statistics from a mapping app called PRIMA, and policy recommendations.
+The endnotes point to the definitions behind the argument. Three are Rogers and colleagues (2022) on ecosystem integrity in forest policy, DellaSala and colleagues (2025) on measuring degradation with integrity indicators, and the FAO's 2025 Global Forest Resources Assessment.[^2] The FAO authors acknowledge wide disagreement over what counts as primary forest.[^2]

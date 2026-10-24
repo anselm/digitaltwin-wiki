@@ -44,16 +44,16 @@ import:
 domains:
   - places
 ---
-Geocomputation is the use of computing methods to analyse geographic data. GeoAI applies artificial intelligence to the same data.
+Geocomputation is the use of computing methods to analyse geographic data. GeoAI applies artificial intelligence to the same data.[^1]
 
-The editorial sorts mapping applications into four groups:
+The editorial sorts mapping applications into four groups:[^1]
 
 - buildings and infrastructure
 - land use analysis
 - natural environment and hazards
 - social issues and human activities
 
-It sorts the data feeding those applications into seven types:
+It sorts the data feeding those applications into seven types:[^1]
 
 - in-situ data, measured on the spot
 - geospatial datasets
@@ -63,6 +63,6 @@ It sorts the data feeding those applications into seven types:
 - lidar, distance measured with laser pulses
 - statistical data
 
-It closes on challenges and opportunities. One is the difficulty of building the particular properties of geospatial data into GeoAI models.
+It closes on challenges and opportunities. One is the difficulty of building the particular properties of geospatial data into GeoAI models.[^1]
 
-The editorial appeared in the International Journal of Applied Earth Observation and Geoinformation (volume 120, article 103300), published online on 28 April 2023. Its authors are Yongze Song, Margaret Kalacska, Mateo Gašparović, Jing Yao and Nasser Najibi. The published version is openly available from the University of Glasgow's Enlighten repository under a CC BY-NC-ND 4.0 licence.
+The editorial appeared in the International Journal of Applied Earth Observation and Geoinformation (volume 120, article 103300), published online on 28 April 2023.[^1] Its authors are Yongze Song, Margaret Kalacska, Mateo Gašparović, Jing Yao and Nasser Najibi.[^1] The published version is openly available from the University of Glasgow's Enlighten repository under a CC BY-NC-ND 4.0 licence.[^1]

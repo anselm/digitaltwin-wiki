@@ -2,10 +2,9 @@
 about:
   label: UrbanAIR
   description: >-
-    A Horizon Europe research project (2025 to 2028), coordinated by Delft
-    University of Technology, that brings Destination Earth forecasts down to
-    street level to model heat and air quality in Antwerp, Barcelona, Paris,
-    Bristol and Rotterdam.
+    A Horizon Europe research project (2025 to 2028) that brings Destination
+    Earth forecasts down to street level to model heat and air quality in
+    Antwerp, Barcelona, Paris, Bristol and Rotterdam.
   tags:
     - urban heat
     - air quality
@@ -60,17 +59,19 @@ provenance:
     - title: 'Co-designing digital twins for heat and air quality: Lessons from EURESFO 2026'
       url: >-
         https://www.urbanair-project.eu/post/co-designing-digital-twins-for-heat-and-air-quality-lessons-from-euresfo-2026
+    - title: 'Climate change-resilient strategies for urban healthy atmosphere (UrbanAIR), CORDIS'
+      url: 'https://cordis.europa.eu/project/id/101188131'
   created: '2026-10-20'
   reviewed: '2026-10-20'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The project runs from 1 January 2025 to 31 December 2028 with 14.2 million euros of EU funding (grant agreement 101188131). Delft University of Technology coordinates eighteen partners in eleven countries, including the weather service KNMI, the research centre VITO and Arup. ECMWF and EUMETSAT sit on its advisory board. UrbanAIR is one of three projects funded under the call "New digital twins for Destination Earth"; the other two are TerraDT and WeatherGenerator.
+The project runs from 1 January 2025 to 31 December 2028 with 14.2 million euros of EU funding (grant agreement 101188131).[^1,10] Delft University of Technology coordinates eighteen partners in eleven countries, including the weather service KNMI, the research centre VITO and Arup.[^1,10] ECMWF and EUMETSAT sit on its advisory board.[^3] UrbanAIR is one of three projects funded under the call "New digital twins for Destination Earth"; the other two are TerraDT and WeatherGenerator.[^3]
 
-Antwerp and Barcelona are the two "action cities": they steer the design and test the tools. Paris, Bristol and Rotterdam are "learning cities" that contribute data and use cases. The aim is to show city teams where heat and pollution concentrate, which groups are most exposed, and what greening, cooling networks, zoning or traffic measures would change. The project calls its way of working a living lab: city teams guide the design, and prototypes are tested on the ground.
+Antwerp and Barcelona are the two "action cities": they steer the design and test the tools. Paris, Bristol and Rotterdam are "learning cities" that contribute data and use cases.[^1,2] The aim is to show city teams where heat and pollution concentrate, which groups are most exposed, and what greening, cooling networks, zoning or traffic measures would change.[^1,2] The project calls its way of working a living lab: city teams guide the design, and prototypes are tested on the ground.[^1,2]
 
-The system is modular. Destination Earth forecasts are joined to high-resolution urban models that simulate airflow, pollution and infrastructure impacts at the building scale. Physics models at several levels of detail trade speed against precision; the project lists LES, RANS and analytical models. LES and RANS are two ways of simulating turbulent airflow, LES the finer and slower of the two. Machine-learning emulators, fast stand-ins trained on a slower model's output, cut the run times. Uncertainty is estimated statistically. An agent-based model, which simulates many individuals each acting on simple rules, represents how people respond to heat, alerts and pollution. Street-level air quality is modelled at 100 to 200 metres.
+The system is modular. Destination Earth forecasts are joined to high-resolution urban models that simulate airflow, pollution and infrastructure impacts at the building scale.[^2] Physics models at several levels of detail trade speed against precision; the project lists LES, RANS and analytical models.[^2] LES and RANS are two ways of simulating turbulent airflow, LES the finer and slower of the two. Machine-learning emulators, fast stand-ins trained on a slower model's output, cut the run times.[^2] Uncertainty is estimated statistically.[^2] An agent-based model, which simulates many individuals each acting on simple rules, represents how people respond to heat, alerts and pollution.[^2] Street-level air quality is modelled at 100 to 200 metres.[^2]
 
-KNMI simulated the June 2026 heatwave over Rotterdam and Antwerp with the HARMONIE-AROME weather model at 200 metres, then re-ran it under a climate 3 degrees warmer. A University of Freiburg study of pedestrian heat stress in Freiburg worked at one-metre resolution. It was published in PLOS Climate in 2026, with its data and model code on Zenodo. A publications page lists papers and datasets from 2025 and 2026.
+KNMI simulated the June 2026 heatwave over Rotterdam and Antwerp with the HARMONIE-AROME weather model at 200 metres, then re-ran it under a climate 3 degrees warmer.[^7] A University of Freiburg study of pedestrian heat stress in Freiburg worked at one-metre resolution.[^8] It was published in PLOS Climate in 2026, with its data and model code on Zenodo.[^8] A publications page lists papers and datasets from 2025 and 2026.[^4]
 
-Data and models run in the Destination Earth data lake through Jupyter notebooks, object stores and the Islet cloud. A demonstration ran VITO's models for Antwerp in a notebook in the data lake. The UKRI STFC Scientific Computing team is now working with Barcelona and Paris.
+Data and models run in the Destination Earth data lake through Jupyter notebooks, object stores and the Islet cloud.[^6] A demonstration ran VITO's models for Antwerp in a notebook in the data lake. The UKRI STFC Scientific Computing team is now working with Barcelona and Paris.[^6]

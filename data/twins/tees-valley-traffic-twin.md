@@ -3,9 +3,9 @@ about:
   depiction: twins/tees-valley-traffic-twin.jpg
   label: Tees Valley Traffic Digital Twin
   description: >-
-    Tees Valley Combined Authority runs a live model of the region's roads,
-    built on Aimsun Live, at the traffic control centre in Middlesbrough; it
-    spots late-running buses and triggers pre-approved signal timing changes.
+    A live model of the Tees Valley's roads, run by its combined authority,
+    that forecasts traffic up to an hour ahead, spots late-running buses and
+    switches signals to pre-approved timing plans.
   tags:
     - traffic
     - buses
@@ -47,8 +47,8 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-The model runs at the region's Urban Traffic Management and Control centre (UTMC), which Middlesbrough Council oversees. The centre coordinates the region's signs, cameras and signals. The twin is built on Aimsun Live, a commercial real-time traffic product. Inputs are live signal data, roadside data and the Bus Open Data Service, which is public.
+The model runs at the region's Urban Traffic Management and Control centre (UTMC), which Middlesbrough Council oversees.[^1] The centre coordinates the region's signs, cameras and signals.[^1] The twin is built on Aimsun Live, a commercial real-time traffic product.[^1,2] Inputs are live signal data, roadside data and the Bus Open Data Service, which is public.[^1,2]
 
-Aimsun Live forecasts traffic and bus conditions up to 60 minutes ahead and picks out buses at risk of delay. It then triggers automated, pre-approved signal timing plans along a corridor. The authority says the twin started on ten key bus routes. Aimsun reports that in summer 2025 trials, buses returned towards normal speeds within 15 minutes of an intervention, and delays for all traffic fell by nearly 14 per cent. It calls the twin the first region-wide automated traffic twin in the UK connected directly to on-street signals.
+Aimsun Live forecasts traffic and bus conditions up to 60 minutes ahead and picks out buses at risk of delay.[^2] It then triggers automated, pre-approved signal timing plans along a corridor.[^2] The authority says the twin started on ten key bus routes.[^1] Aimsun reports that in summer 2025 trials, buses returned towards normal speeds within 15 minutes of an intervention, and delays for all traffic fell by nearly 14 per cent.[^2] It calls the twin the first region-wide automated traffic twin in the UK connected directly to on-street signals.[^2]
 
-The authority announced the twin alongside a separate adaptive signal control system, Yutraffic FUSION, and says it has invested more than two million pounds in the two projects together. On 14 August 2025 it said the twin was fully up and running, and that the UTMC would monitor and evaluate it over the following year.
+The authority announced the twin alongside a separate adaptive signal control system, Yutraffic FUSION, and says it has invested more than two million pounds in the two projects together.[^1] On 14 August 2025 it said the twin was fully up and running, and that the UTMC would monitor and evaluate it over the following year.[^1]

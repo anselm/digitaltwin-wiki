@@ -3,9 +3,8 @@ about:
   label: 'Tropical forests are facing increasing risks of exposure to critical temperature thresholds'
   description: >-
     PNAS study, July 2026, from EPFL: satellite canopy temperatures and range
-    maps for 208 tropical tree species show forests closing on the
-    temperature where photosynthesis fails by 0.4 °C a decade from 2001 to
-    2020, and 57 million hectares already past the average limit.
+    maps for 208 tropical tree species show forests nearing the critical
+    temperature for photosynthesis.
   tags:
     - tropical forests
     - heat
@@ -51,12 +50,12 @@ provenance:
   reviewed_by: 'Claude, from the abstract, significance statement and record of the paper (pnas.org refused the request and the full text is embargoed) and two news reports of it; the figures were not seen'
   status: draft
 ---
-A leaf has a critical temperature above which photosynthesis starts to break down, and the tree grows less and is more likely to die. This study asks how close the canopies of tropical forests are to that line, and how fast they are closing on it. Nina van Tiel and Gaston Lenczner share first authorship; Mukund P. Rao is the third author. Charlotte Grossiord and Devis Tuia of EPFL in Switzerland supervised it. Christopher B. Field edited it for PNAS.
+A leaf has a critical temperature above which photosynthesis starts to break down, and the tree grows less and is more likely to die.[^4] This study asks how close the canopies of tropical forests are to that line, and how fast they are closing on it.[^1,3] Nina van Tiel and Gaston Lenczner share first authorship; Mukund P. Rao is the third author.[^2,3] Charlotte Grossiord and Devis Tuia of EPFL in Switzerland supervised it.[^3] Christopher B. Field edited it for PNAS.[^3]
 
-The method joins two kinds of data. Satellites give the maximum surface temperature of the canopy. Range maps say where each of 208 tropical tree species grows, for which a critical temperature had been catalogued. The gap between the two is the thermal safety margin. The study covers South America, Southeast Asia and Central Africa from 2001 to 2020, then carries the trend forward with Earth System Models under medium-to-high emission scenarios.
+The method joins two kinds of data. Satellites give the maximum surface temperature of the canopy.[^1] Range maps say where each of 208 tropical tree species grows, for which a critical temperature had been catalogued.[^1,4] The gap between the two is the thermal safety margin.[^1] The study covers South America, Southeast Asia and Central Africa from 2001 to 2020, then carries the trend forward with Earth System Models under medium-to-high emission scenarios.[^1]
 
-The species tolerate a lot of heat: their critical temperature averages 46.1 °C. But the margin fell everywhere, by 0.4 °C a decade across the tropics and 0.5 °C in South America. The area where the canopy grew hotter than the average critical temperature rose from 43 million to 57 million hectares over the twenty years, 4% of the area studied. Measured against the most sensitive species, it was 10%. The projections put the area past the average threshold at 83 million hectares by 2050 and 160 million by 2100. A Down To Earth report of the study gives more than 93 million hectares for 2050; the abstract and the EPFL release both say 83 million.
+The species tolerate a lot of heat: their critical temperature averages 46.1 °C.[^1] But the margin fell everywhere, by 0.4 °C a decade across the tropics and 0.5 °C in South America.[^1] The area where the canopy grew hotter than the average critical temperature rose from 43 million to 57 million hectares over the twenty years, 4% of the area studied.[^1,4] Measured against the most sensitive species, it was 10%.[^1] The projections put the area past the average threshold at 83 million hectares by 2050 and 160 million by 2100.[^1,4] A Down To Earth report of the study gives more than 93 million hectares for 2050;[^5] the abstract and the EPFL release both say 83 million.[^1,4]
 
-The authors point to the carbon the forests take up and to their biodiversity as what is at stake. In the EPFL release, Grossiord says the method can find the places at risk, and that within one forest more heat-tolerant species may replace others; how fast that can happen is unknown. Tuia adds that rare species may matter more to how a forest works than their numbers suggest. The 208 species are a small share of the more than 15,000 in tropical forests, and the team plans to add species and to look at Mediterranean forests in Europe.
+The authors point to the carbon the forests take up and to their biodiversity as what is at stake.[^3] In the EPFL release, Grossiord says the method can find the places at risk, and that within one forest more heat-tolerant species may replace others; how fast that can happen is unknown.[^4] Tuia adds that rare species may matter more to how a forest works than their numbers suggest.[^4] The 208 species are a small share of the more than 15,000 in tropical forests, and the team plans to add species and to look at Mediterranean forests in Europe.[^4]
 
 For a model of a forest, the paper is a recipe. A satellite temperature record, species range maps and a table of measured heat limits together give a map of where a forest's trees are nearest their limit.

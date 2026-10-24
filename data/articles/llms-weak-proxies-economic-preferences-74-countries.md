@@ -2,10 +2,9 @@
 about:
   label: 'Simulated responses from large language models are weak proxies for human economic preferences across 74 countries'
   description: >-
-    Nature Human Behaviour paper, October 2026, from Zhejiang University and
-    the University of Pennsylvania: twelve model setups answered a global
-    survey of risk, patience, trust and generosity for 67,201 real people in
-    74 countries and explained about 1% of the variation between individuals.
+    Nature Human Behaviour, October 2026: twelve model setups answered a
+    survey of risk, patience, trust and generosity for 67,201 people in 74
+    countries, explaining about 1% of individual variation.
   tags:
     - synthetic respondents
     - cross-national
@@ -48,10 +47,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed (supplementary tables not read)'
   status: draft
 ---
-Fadong Chen, Qijun Wang and Lei Wang of Zhejiang University and Sudeep Bhatia of the University of Pennsylvania ran a "virtual" version of the Global Preference Survey. That survey, part of the 2012 Gallup World Poll, measured willingness to take risks, patience, altruism, trust, and the urge to repay kindness and punish unkindness. For each of 67,201 real respondents in 74 countries, models from OpenAI, Google and DeepSeek were given the person's demographics and country and asked the same questions, in the local language and, as a check, in English. Twelve main configurations ranged from GPT-3.5-turbo to GPT-5.4, Gemini 2.5 Flash and DeepSeek-V3. It was published in October 2026.
+Fadong Chen, Qijun Wang and Lei Wang of Zhejiang University and Sudeep Bhatia of the University of Pennsylvania ran a "virtual" version of the Global Preference Survey.[^1] That survey, part of the 2012 Gallup World Poll, measured willingness to take risks, patience, altruism, trust, and the urge to repay kindness and punish unkindness.[^1] For each of 67,201 real respondents in 74 countries, models from OpenAI, Google and DeepSeek were given the person's demographics and country and asked the same questions, in the local language and, as a check, in English.[^1] Twelve main configurations ranged from GPT-3.5-turbo to GPT-5.4, Gemini 2.5 Flash and DeepSeek-V3.[^1] It was published in October 2026.[^1,2]
 
-At the level of individuals, alignment was real but weak. Most correlations were above zero (87.5% had confidence intervals above zero), yet the models' predictions explained 1.3% of the variation between people and 4.2% of the variation between countries. The models got the direction of differences by gender, age and cognitive ability right 77.8% of the time, and differences between cultures 48.1% of the time. In many of the models, alignment was weaker in economically less developed and less digitally connected countries, and the gender gaps were matched worse in countries with stronger gender stereotypes.
+At the level of individuals, alignment was real but weak. Most correlations were above zero (87.5% had confidence intervals above zero), yet the models' predictions explained 1.3% of the variation between people and 4.2% of the variation between countries.[^1] The models got the direction of differences by gender, age and cognitive ability right 77.8% of the time, and differences between cultures 48.1% of the time.[^1] In many of the models, alignment was weaker in economically less developed and less digitally connected countries, and the gender gaps were matched worse in countries with stronger gender stereotypes.[^1]
 
-The authors also tried to reproduce published findings from the real survey. The best model reproduced 16 of 35 country-level results (45.7%), such as the link between patience and national income; across the models, 50 to 78% of 18 individual-level ones were reproduced. The simulated answers were more bunched together than human ones; raising the randomness setting from zero to one restored only part of the spread.
+The authors also tried to reproduce published findings from the real survey. The best model reproduced 16 of 35 country-level results (45.7%), such as the link between patience and national income; across the models, 50 to 78% of 18 individual-level ones were reproduced.[^1] The simulated answers were more bunched together than human ones; raising the randomness setting from zero to one restored only part of the spread.[^1]
 
-Because the survey dates from 2012, some of it may be in the models' training data, so the authors say their numbers could be an upper bound, though their paraphrasing and English-only checks found no sign of memorization. Their conclusion is that simulated responses can recover some patterns but are not yet reliable stand-ins for cross-national surveys used for policy. The paper is open access, with data and code on the Open Science Framework.
+Because the survey dates from 2012, some of it may be in the models' training data, so the authors say their numbers could be an upper bound, though their paraphrasing and English-only checks found no sign of memorization.[^1] Their conclusion is that simulated responses can recover some patterns but are not yet reliable stand-ins for cross-national surveys used for policy.[^1] The paper is open access, with data and code on the Open Science Framework.[^1,2]
