@@ -31,14 +31,15 @@ One list for the project, kept current. Decisions and reasoning live in
   (updates through 2030, PRIMA statistics) should return; removed 2026-10-24
   for want of a source.
 - Novel bamboo uses (`inbox/`), fuel for the bamboo scenario: entries or not.
-- Rules layer (2026-10-24, `devlog/20261024-stretching-and-tearing.md`):
-  a term and six data sources so far (PermitAI, National Zoning Atlas,
-  IPaC, wetlands, FEMA flood layer, PAD-US). Whether law earns its own
-  shelf, and which non-US layers come next.
-- Stretching and tearing: whether to try showing distance to a threshold
-  on a Vitals series (an early-warning indicator), or leave it to the
-  Tipping points term. An essay of Anselm's own on "isolated pools", if
-  he wants one.
+- Law (shelf since 2026-10-24, `devlog/20261024-stretching-and-tearing.md`):
+  six US sources so far. Which non-US layers come next (England's
+  Planning Data platform is named in the Rules layer term).
+- Tearing: Vitals now draws the tipping-element thresholds beside today's
+  warming, and the Tipping points term covers societies (Regime Shifts
+  DataBase, IPC phases). Still open: a page on how to show a tear in a
+  country or bioregion (Hormuz's dependence-and-stress axes as one worked
+  approach), as Anselm's essay or a wiki entry; and an essay of his on
+  "isolated pools", if he wants one.
 - Ambassadors: real people to stand for a patron path, if any.
 - Export the ChatGPT guide site (sign-in only) before deleting it, if there
   is anything in it beyond the survey.
