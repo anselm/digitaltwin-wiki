@@ -48,7 +48,7 @@ export function load({ params }) {
     const figure = b ? { src: e.figure.src, full: e.figure.full || null, repo: e.figure.repo || null, posters: e.figure.posters || null, credit: e.figure.credit || '', url: card(b).url, label: b.about.label, poster: b.about.depiction ? `/${b.dir ? b.dir + '/' : ''}${b.about.depiction}` : null } : null
     return { ...base, aliases: e.about.aliases || [], figure,
       recent: store.recent(12).filter((r) => r.id && !r.section && !('domain' in r)).slice(0, 8).map(line),
-      sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), area: s.section.area || 'resources', count: s.about.view === 'recent' ? 0 : s.about.view === 'news' ? news().length : store.descendants(s.id).length })),
+      sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), area: s.section.area || 'resources', count: s.about.view === 'recent' ? 0 : s.about.view === 'news' ? news().length : store.descendants(s.id).filter((d) => !d.redirect).length })),
       areas: [['new', 'New'], ['practice', 'Practice'], ['technologies', 'Technologies'], ['theory', 'Theory'], ['resources', 'Resources']],
       domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
   }
