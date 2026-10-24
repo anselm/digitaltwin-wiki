@@ -2,17 +2,18 @@
 about:
   label: OpenUSD
   description: >-
-    Universal Scene Description, the open 3D scene format and software library
-    created by Pixar and promoted by the Alliance for OpenUSD; the scene format
-    under NVIDIA Omniverse and many simulation pipelines.
+    Universal Scene Description, an open file format and library for
+    exchanging 3D scenes, created by Pixar and promoted by the Alliance for
+    OpenUSD; the format under NVIDIA Omniverse.
   tags:
     - 3d
     - scene format
     - interoperability
+    - file format
     - usd
     - omniverse
 tool:
-  form: open scene-description standard and library
+  form: open file format and library
   group: 3D cities and mapping
   homepage: 'https://openusd.org/release/index.html'
   cost: free
@@ -30,6 +31,8 @@ provenance:
       url: 'https://aousd.org/'
     - title: 'Develop Physical AI Applications | NVIDIA Omniverse'
       url: 'https://www.nvidia.com/en-us/omniverse/'
+    - title: 'Universal Scene Description - Wikipedia'
+      url: 'https://en.wikipedia.org/wiki/Universal_Scene_Description'
   created: '2026-10-17'
   reviewed: '2026-10-17'
   reviewed_by: 'Claude, from the sources listed'
@@ -48,7 +51,7 @@ import:
 domains:
   - places
 ---
-Pixar Animation Studios built OpenUSD for film and visual-effects production, as a file format and library for building animated 3D scenes collaboratively.[^1,2] Its documentation defines schemas for geometry, shading, lighting and physics.[^1] A composition system assembles many assets into one scene so that several tools and people can work on it at once.[^1] The Alliance for OpenUSD now promotes it and publishes a core specification.[^2] The Alliance is a non-profit under the Joint Development Foundation; its founding members are Pixar, Adobe, Apple, Autodesk and NVIDIA.[^2]
+Pixar Animation Studios built OpenUSD for film and visual-effects production, as a file format and library for building animated 3D scenes collaboratively.[^1,2] Like glTF or DXF, it is first a way to carry 3D data from one program to another, a framework for the interchange of 3D graphics data.[^4] Its files are .usda (plain text), .usdc (binary), .usd (either) and .usdz, a zip package that can also hold images and sound.[^4] Pixar released it as open source in 2016.[^4] Its documentation defines schemas for geometry, shading, lighting and physics.[^1] A composition system assembles many assets into one scene so that several tools and people can work on it at once.[^1] The Alliance for OpenUSD now promotes it and publishes a core specification.[^2] The Alliance is a non-profit under the Joint Development Foundation; its founding members are Pixar, Adobe, Apple, Autodesk and NVIDIA.[^2]
 
 For models of places, OpenUSD is mainly a way to exchange scene data between content tools and simulators.[^2,3] NVIDIA Omniverse is a set of libraries for building simulation-ready worlds for robotics and industrial digital twins.[^3] Omniverse lists OpenUSD as one of its core library areas, so Omniverse scenes are USD scenes.[^3] The two are related but not the same thing.
 
