@@ -61,7 +61,7 @@ export function load({ params }) {
   if (view === 'vitals') return { ...base, vitals: charts(e.vitals?.series || []), dims: { W, H, P } }
   if (view === 'list') {
     // Guides read in stage order; engines are shelved by the task a guest is trying to do (tool.group).
-    const kids = store.children(id)
+    const kids = store.children(id).filter((c) => !c.redirect)
     const staged = kids.every((c) => c.guide?.stage !== undefined)
     const mixed = new Set(kids.map((c) => store.kindsOf(c)[0])).size > 1
     const items = (staged ? [...kids].sort((a, b) => a.guide.stage - b.guide.stage) : kids).map((c) => ({ ...card(c), chips: chips(c), group: c.tool?.group || c.about?.group || (mixed ? plural(kindLabel(store.kindsOf(c)[0] || 'entry')).replace(/^./, (ch) => ch.toUpperCase()) : null) }))
