@@ -141,6 +141,7 @@ export class Store {
       for (const m of (e.content || '').matchAll(/\]\(\/([^)#\s]*?)\/?(?:#[^)]*)?\)/g)) {
         const t = m[1]
         if (['llms.txt', 'index.json', 'graph.json'].includes(t) || t.startsWith('m/')) continue  // written by the machine build, not kept in data/
+        if (/^vitals\/[a-z0-9-]+$/.test(t) && fs.existsSync(path.join(this.root, t + '.json'))) continue  // a Vitals series page, one per data/vitals/<id>.json
         if (/\.[a-z0-9]+$/i.test(t) ? !fs.existsSync(path.join(this.root, t)) : !this.byId.has(t)) p(e.id, 'error', `link to /${t}/ goes nowhere`)
       }
     }
