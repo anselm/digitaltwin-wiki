@@ -1,0 +1,175 @@
+{
+  "kind": "thresholds",
+  "id": "thresholds",
+  "title": "Warming thresholds of climate tipping elements",
+  "unit": "°C",
+  "baseline": "pre-industrial",
+  "source": "Armstrong McKay, D. I., Staal, A., Abrams, J. F., Winkelmann, R., Sakschewski, B., Loriani, S., Fetzer, I., Cornell, S. E., Rockström, J. and Lenton, T. M. (2022). Exceeding 1.5°C global warming could trigger multiple climate tipping points. Science 377(6611), eabn7950. https://doi.org/10.1126/science.abn7950",
+  "url": "https://dspace.library.uu.nl/bitstream/handle/1874/422858/science.abn7950.pdf?sequence=1&isAllowed=y",
+  "via": "The publisher's version of the paper (Science PDF), deposited in the Utrecht University Repository (https://dspace.library.uu.nl/handle/1874/422858); numbers read from its Table 1. science.org itself was behind a bot check.",
+  "licence": "Paper: 'Copyright © 2022 the authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original US government works.' Repository reuse terms: https://www.uu.nl/en/university-library/license-and-reuse-conditions",
+  "fetched": "2026-10-24",
+  "note": "Literature-based expert estimates of the global warming at which each element tips: the paper calls crossing a tipping point 'possible' beyond its minimum temperature threshold and 'likely' beyond its central estimate, with the maximum the top of the estimated range.",
+  "elements": [
+    {
+      "name": "Greenland Ice Sheet (collapse)",
+      "short": "Greenland ice sheet",
+      "code": "GrIS",
+      "kind": "global core",
+      "min": 0.8,
+      "central": 1.5,
+      "max": 3.0,
+      "timescale": "10k years (1k to 15k)"
+    },
+    {
+      "name": "West Antarctic Ice Sheet (collapse)",
+      "short": "West Antarctic ice",
+      "code": "WAIS",
+      "kind": "global core",
+      "min": 1.0,
+      "central": 1.5,
+      "max": 3.0,
+      "timescale": "2k years (500 to 13k)"
+    },
+    {
+      "name": "Labrador-Irminger Seas / SPG Convection (collapse)",
+      "short": "Subpolar gyre",
+      "code": "LABC",
+      "kind": "global core",
+      "min": 1.1,
+      "central": 1.8,
+      "max": 3.8,
+      "timescale": "10 years (5 to 50)"
+    },
+    {
+      "name": "East Antarctic Subglacial Basins (collapse)",
+      "short": "East Antarctic basins",
+      "code": "EASB",
+      "kind": "global core",
+      "min": 2.0,
+      "central": 3.0,
+      "max": 6.0,
+      "timescale": "2k years (500 to 10k)"
+    },
+    {
+      "name": "Amazon Rainforest (dieback)",
+      "short": "Amazon rainforest",
+      "code": "AMAZ",
+      "kind": "global core",
+      "min": 2.0,
+      "central": 3.5,
+      "max": 6.0,
+      "timescale": "100 years (50 to 200)"
+    },
+    {
+      "name": "Boreal Permafrost (collapse)",
+      "short": "Permafrost collapse",
+      "code": "PFTP",
+      "kind": "global core",
+      "min": 3.0,
+      "central": 4.0,
+      "max": 6.0,
+      "timescale": "50 years (10 to 300)"
+    },
+    {
+      "name": "Atlantic M.O. Circulation (collapse)",
+      "short": "AMOC",
+      "code": "AMOC",
+      "kind": "global core",
+      "min": 1.4,
+      "central": 4.0,
+      "max": 8.0,
+      "timescale": "50 years (15 to 300)"
+    },
+    {
+      "name": "Arctic Winter Sea Ice (collapse)",
+      "short": "Arctic winter ice",
+      "code": "AWSI",
+      "kind": "global core",
+      "min": 4.5,
+      "central": 6.3,
+      "max": 8.7,
+      "timescale": "20 years (10 to 100)"
+    },
+    {
+      "name": "East Antarctic Ice Sheet (collapse)",
+      "short": "East Antarctic ice",
+      "code": "EAIS",
+      "kind": "global core",
+      "min": 5.0,
+      "central": 7.5,
+      "max": 10.0,
+      "timescale": "? (min 10k years, max ?)"
+    },
+    {
+      "name": "Low-latitude Coral Reefs (die-off)",
+      "short": "Tropical coral reefs",
+      "code": "REEF",
+      "kind": "regional impact",
+      "min": 1.0,
+      "central": 1.5,
+      "max": 2.0,
+      "timescale": "10 years (min ~, max ~)"
+    },
+    {
+      "name": "Boreal Permafrost (abrupt thaw)",
+      "short": "Permafrost abrupt thaw",
+      "code": "PFAT",
+      "kind": "regional impact",
+      "min": 1.0,
+      "central": 1.5,
+      "max": 2.3,
+      "timescale": "200 years (100 to 300)"
+    },
+    {
+      "name": "Barents Sea Ice (abrupt loss)",
+      "short": "Barents sea ice",
+      "code": "BARI",
+      "kind": "regional impact",
+      "min": 1.5,
+      "central": 1.6,
+      "max": 1.7,
+      "timescale": "25 years (min ?, max ?)"
+    },
+    {
+      "name": "Mountain Glaciers (loss)",
+      "short": "Mountain glaciers",
+      "code": "GLCR",
+      "kind": "regional impact",
+      "min": 1.5,
+      "central": 2.0,
+      "max": 3.0,
+      "timescale": "200 years (50 to 1k)"
+    },
+    {
+      "name": "Sahel and W. African Monsoon (greening)",
+      "short": "West African monsoon",
+      "code": "SAHL",
+      "kind": "regional impact",
+      "min": 2.0,
+      "central": 2.8,
+      "max": 3.5,
+      "timescale": "50 years (10 to 500)"
+    },
+    {
+      "name": "Boreal Forest (southern dieback)",
+      "short": "Boreal forest dieback",
+      "code": "BORF",
+      "kind": "regional impact",
+      "min": 1.4,
+      "central": 4.0,
+      "max": 5.0,
+      "timescale": "100 years (min 50, max ?)"
+    },
+    {
+      "name": "Boreal Forest (northern expansion)",
+      "short": "Boreal forest expansion",
+      "code": "TUND",
+      "kind": "regional impact",
+      "min": 1.5,
+      "central": 4.0,
+      "max": 7.2,
+      "timescale": "100 years (min 40, max ?)"
+    }
+  ]
+}

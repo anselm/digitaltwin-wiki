@@ -71,3 +71,43 @@ a parcel is and what may happen on it), and they are mostly published as
 text, not data. Whether that earns its own shelf, or a group on Data once
 the Data shelf has groups, is Anselm's call; for now it is a term plus
 tagged data entries.
+
+# Law as a shelf; phase transitions and Vitals (2026-10-24, later)
+
+Anselm: "lets add law as a shelf." Done: `data/law/`, Technologies,
+between Data and Ontologies; the six rules-layer entries moved there with
+redirects.
+
+Anselm: "i think we are missing a concept of phase transitions. should it
+be in vitals? i tried very hard with the hormuz.exe.xyz simulation to try
+surface tearing in different countries as a function of scarcity - it's
+just so hard to understand where countries or bioregions 'tear'."
+
+My answer, and what is being built:
+
+- Vitals shows global variables, and a global variable can only stretch.
+  Running early-warning statistics (autocorrelation, variance) on a global
+  mean would be misleading: the signals belong to a single system near a
+  single threshold, and a global average blends many. So Vitals should not
+  pretend to detect tearing.
+- What Vitals can honestly show is the distance to known tears: the 2022
+  reassessment's warming thresholds for the sixteen tipping elements, drawn
+  as a ladder of ranges beside the global temperature line. The line is
+  the stretching; the ladder is where the tears are thought to be. An
+  agent is gathering the numbers from a page it can read (`data/vitals/thresholds.json`).
+- The harder half is the one Hormuz ran into. Hormuz modelled a breaking
+  point as a threshold with a named consequence (country, flow, the
+  function that needs it, the line below which the function fails, what
+  fails; `~/projects/2026/hormuz/devlog/20260923-breaking-points-and-the-through-line.md`).
+  A country tears where a function fails, and that line is set by
+  dependence and by time windows (a planting season, months of import
+  cover), not by a physical constant, which is why it is so hard to see
+  from the variables. Two places where people already classify such tears
+  in human terms: the Regime Shifts DataBase (social-ecological regime
+  shifts with their drivers and feedbacks) and the IPC famine phases.
+  Both are being added as data entries, and the Tipping points term gains
+  a section on societies and economies.
+- Not done, and maybe the real piece: a page (Communication or
+  Presentation) on how to show a tear, using Hormuz's two axes
+  (dependence and stress) as one worked approach. Anselm's call whether
+  that is his essay or a wiki entry.

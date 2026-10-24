@@ -64,7 +64,8 @@ function vitalCard(v) {
   const r = v.preliminary || v.latest
   const head = r ? `${r.value} ${v.unit} · ${r.date}${v.preliminary ? ' (preliminary)' : ''}` + (r.anomaly != null ? ` · ${r.anomaly > 0 ? '+' : ''}${r.anomaly} ${v.unit} vs ${v.baselineName}` : '') : ''
   const p = v.paths
-  const lines = v.kind === 'timeline'
+  const colour = (s) => s.replace(/var\(--(\w+)\)/g, (_, k) => C[k] || C.muted)
+  const lines = v.kind === 'thresholds' ? '' : v.kind === 'timeline'
     ? `${p.context ? `<path d="${p.context}" fill="none" stroke="${C.muted}" stroke-width="1.4" opacity=".45"/>` : ''}${p.baseline ? `<path d="${p.baseline}" fill="none" stroke="${C.ink}" stroke-width="1"/>` : ''}<path d="${p.current}" fill="none" stroke="${C.accent}" stroke-width="2"/>`
     : `${p.past.map((q) => `<path d="${q.d}" fill="none" stroke="${C.muted}" stroke-width=".7" opacity="${q.alpha}"/>`).join('')}<path d="${p.baseline}" fill="none" stroke="${C.ink}" stroke-width="1.6"/><path d="${p.current}" fill="none" stroke="${C.accent}" stroke-width="2.4"/>${p.prelim ? `<path d="${p.prelim}" fill="none" stroke="${C.accent}" stroke-width="2.4" stroke-dasharray="3 3"/>` : ''}`
   const ticks = v.ticksY.map((t) => `<line x1="48" x2="${CW - 10}" y1="${t.y}" y2="${t.y}" stroke="${C.line}" stroke-width=".6"/><text x="43" y="${t.y + 3}" text-anchor="end" font-family="Noto Sans" font-size="13" fill="${C.muted}">${esc(t.label)}</text>`).join('') + v.ticksX.map((t) => `<text x="${t.x}" y="${CH - 5}" text-anchor="middle" font-family="Noto Sans" font-size="13" fill="${C.muted}">${esc(t.label)}</text>`).join('')
@@ -74,7 +75,7 @@ function vitalCard(v) {
 ${text(['Digital Twins Wiki · Vitals'], PAD, 90, 22, 28, C.accent, 'Noto Sans')}
 ${text([v.title], PAD, 148, 44, 52, C.ink, 'Noto Serif')}
 ${text([head], PAD, 192, 26, 32, C.muted, 'Noto Sans')}
-<svg x="${PAD - 20}" y="215" width="${W - 2 * PAD + 30}" height="350" viewBox="0 0 ${CW} ${CH}" preserveAspectRatio="none">${ticks}${lines}</svg>
+${v.kind === 'thresholds' ? `<svg x="${PAD - 20}" y="215" width="${W - 2 * PAD + 30}" height="360" viewBox="0 0 ${CW} ${v.H}">${colour(v.svg)}</svg>` : `<svg x="${PAD - 20}" y="215" width="${W - 2 * PAD + 30}" height="350" viewBox="0 0 ${CW} ${CH}" preserveAspectRatio="none">${ticks}${lines}</svg>`}
 ${text([`${v.source.split(',')[0]} · digitaltwins.wiki/vitals/${v.id}`], PAD, H - 32, 20, 26, C.muted, 'Noto Sans')}
 </svg>`
   png(svg, path.join(out, 'cards', 'vitals', `${v.id}.png`))

@@ -58,10 +58,37 @@ function timeline(v) {
   }
 }
 
+// Where the tears are thought to be: each tipping element's warming threshold as a bar from the minimum to the
+// maximum estimate with a dot at the central one, beside a line at today's warming from the gmst series. Bars whose
+// minimum is already passed (the paper's "possible") are drawn in the accent. Drawn as one SVG string that uses the
+// page's colour variables, so the share card can reuse it with its own colours.
+function thresholds(v, now) {
+  const rows = [...v.elements].sort((a, b) => a.central - b.central || a.min - b.min)
+  const RH = 20, TOP = 26, L = 190, R = W - P.r - 24, hi = Math.ceil(Math.max(...rows.map((r) => r.max)) / 2) * 2
+  const h = TOP + rows.length * RH + 24, x = (c) => L + (c / hi) * (R - L)
+  let s = ''
+  for (let c = 0; c <= hi; c += 2) s += `<line x1="${x(c)}" x2="${x(c)}" y1="${TOP - 6}" y2="${h - 22}" stroke="var(--line)" stroke-width=".6"/><text x="${x(c)}" y="${h - 5}" text-anchor="middle" font-size="15" fill="var(--muted)">${c} °C</text>`
+  rows.forEach((r, i) => {
+    const y = TOP + i * RH + RH / 2, hot = now != null && r.min <= now, col = hot ? 'var(--accent)' : 'var(--muted)'
+    s += `<text x="${L - 8}" y="${y + 5}" text-anchor="end" font-size="14" fill="var(--ink)">${r.short}</text>`
+    s += `<line x1="${x(r.min)}" x2="${x(r.max)}" y1="${y}" y2="${y}" stroke="${col}" stroke-width="5" stroke-linecap="round" opacity="${hot ? 0.55 : 0.35}"><title>${r.name}: ${r.min} to ${r.max} °C, central ${r.central} °C</title></line>`
+    s += `<circle cx="${x(r.central)}" cy="${y}" r="4.5" fill="${col}"/>`
+  })
+  if (now != null) s += `<line x1="${x(now)}" x2="${x(now)}" y1="${TOP - 10}" y2="${h - 22}" stroke="var(--accent)" stroke-width="1.6"/><text x="${x(now) + 5}" y="${TOP - 12}" font-size="14" fill="var(--accent)">now ${now.toFixed(1)} °C</text>`
+  const hot = rows.filter((r) => now != null && r.min <= now).length
+  return {
+    kind: 'thresholds', id: v.id, title: v.title, short: 'Tipping thresholds', unit: v.unit, source: v.source, url: v.url, licence: v.licence, citation: v.source, note: v.note || '', fetched: v.fetched,
+    baselineName: v.baseline, firstYear: null, curYear: null, H: h, svg: s,
+    latest: now != null ? { value: now.toFixed(1), date: `${hot} of ${rows.length} past their minimum`, anomaly: null } : null,
+    paths: {}, ticksY: [], ticksX: []
+  }
+}
+
 /** Charts in the order the entity asks for; series it does not name follow alphabetically. */
 export function charts(order = [], dir = DIR) {
   if (!fs.existsSync(dir)) return []
   const all = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')))
   const rank = (v) => { const i = order.indexOf(v.id); return i < 0 ? order.length : i }
-  return all.sort((a, b) => rank(a) - rank(b) || a.id.localeCompare(b.id)).map((v) => (v.kind === 'timeline' ? timeline(v) : chart(v)))
+  const now = all.find((v) => v.id === 'gmst')?.latest?.value
+  return all.sort((a, b) => rank(a) - rank(b) || a.id.localeCompare(b.id)).map((v) => (v.kind === 'thresholds' ? thresholds(v, now) : v.kind === 'timeline' ? timeline(v) : chart(v)))
 }

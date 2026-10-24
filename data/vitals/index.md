@@ -19,6 +19,7 @@ vitals:
   series:
     - co2
     - gmst
+    - thresholds
     - t2m
     - sst
     - nino34
@@ -63,6 +64,8 @@ provenance:
 Most charts are drawn by day of year. Each past year is a faint line, older years fainter. The 1991–2020 mean is the dark line. This year is the coloured line, and where a feed marks its latest days preliminary they are dashed. The number above each chart is the latest reading and its departure from the mean for that day of the year.
 
 Three quantities change too slowly to read that way and are drawn across the whole record instead: global temperature against its 1850–1900 level, the heat stored in the top 2,000 metres of ocean, and global sea level. The temperature chart is the one behind talk of 1.5 °C; the daily air temperature chart below it measures against a recent mean and so reads lower.
+
+Every one of these charts shows the planet stretching; none can show where it tears. The chart after global temperature comes nearest. It marks the warming at which each of sixteen [tipping elements](/terms/tipping-points/) is estimated to tip, according to a 2022 review in Science, with today's warming drawn across it.
 
 Any model of a place runs inside these numbers. The idea of watching a short list of planetary vital signs follows the annual [state of the climate report](/articles/2026-state-of-the-climate-report/) in BioScience, which tracks sixteen.
 

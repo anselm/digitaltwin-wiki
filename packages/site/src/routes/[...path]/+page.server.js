@@ -31,7 +31,7 @@ export function load({ params }) {
     const v = charts([series]).find((c) => c.id === series)
     if (!v) error(404, 'No such series')
     const r = v.preliminary || v.latest
-    const description = r ? `${r.value} ${v.unit} on ${r.date}${v.preliminary ? ' (preliminary)' : ''}${r.anomaly != null ? `, ${r.anomaly > 0 ? '+' : ''}${r.anomaly} ${v.unit} against ${v.baselineName}` : ''}. ${v.source.split(',')[0]}, refreshed at every deploy.` : v.source
+    const description = v.kind === 'thresholds' ? `Global warming is ${r.value} °C; ${r.date} of the tipping elements in Armstrong McKay et al. (2022). Each bar runs from the minimum to the maximum estimated threshold.` : r ? `${r.value} ${v.unit} on ${r.date}${v.preliminary ? ' (preliminary)' : ''}${r.anomaly != null ? `, ${r.anomaly > 0 ? '+' : ''}${r.anomaly} ${v.unit} against ${v.baselineName}` : ''}. ${v.source.split(',')[0]}, refreshed at every deploy.` : v.source
     return { view: 'vitals', id, label: v.title, description, content: '', status: 'public', tags: [], single: true, vitals: [v], dims: { W, H, P }, share: share(id, `vitals/${series}`, `${v.title}: a chart of the series with the latest reading`) }
   }
   if (!e) error(404, 'No such entry')
