@@ -111,3 +111,27 @@ My answer, and what is being built:
   Presentation) on how to show a tear, using Hormuz's two axes
   (dependence and stress) as one worked approach. Anselm's call whether
   that is his essay or a wiki entry.
+
+# No redirects; bioregional tearing needs real models (2026-10-24, later)
+
+Anselm: "oh lets not do redirects - its ok to hard switch over still -
+lets get it right before it is popular." All eight redirect stubs are gone
+(the six law moves, admin to todo, books to media). The rule is in
+CLAUDE.md. The code that drew redirects stays, unused.
+
+Anselm: "we do not have bioregional tearing yes. that may be where we
+actually need to run real models."
+
+So the gap is named: the wiki can show global distance to known
+thresholds (Vitals), classified tears in human terms (IPC), and catalogued
+regime shifts (the database), but nothing that says where a bioregion
+tears. That cannot be looked up; it has to be run. A bioregional model
+would couple the physical layer (water, soil, fire, a forest's own
+rainfall) to the dependence layer Hormuz modelled (what the region needs
+from outside, its stocks, its time windows) and look for the runs that
+flip. It is the same kind of self-contained experiment as the town twin
+(`devlog/20261023-town-twin-experiment.md`), one scale up, and the
+candidates already on the Scenarios shelf at bioregional scale (the
+Indonesian peat fires, San Joaquin groundwater, the Delta, Alwar's
+johads) each have a known threshold to test against. Anselm's call which,
+and when.

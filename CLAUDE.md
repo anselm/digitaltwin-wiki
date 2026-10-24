@@ -61,5 +61,9 @@ that page also shows.
 
 ## Project-specific facts
 
+- No redirects (Anselm, 2026-10-24: "its ok to hard switch over still -
+  lets get it right before it is popular"). When an entry or shelf moves,
+  move it and rewrite the links; do not leave a stub at the old address.
+
 (APIs, credentials locations, quirks, anything a fresh session must know that
 is not derivable from the code)

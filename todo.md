@@ -40,6 +40,11 @@ One list for the project, kept current. Decisions and reasoning live in
   country or bioregion (Hormuz's dependence-and-stress axes as one worked
   approach), as Anselm's essay or a wiki entry; and an essay of his on
   "isolated pools", if he wants one.
+- Bioregional tearing (Anselm, 2026-10-24: "that may be where we
+  actually need to run real models"). Pick a bioregion with a known
+  threshold from the Scenarios shelf (peat fires, San Joaquin groundwater,
+  the Delta, Alwar) and run a model that looks for the runs that flip; a
+  sibling of the town-twin experiment, one scale up.
 - Ambassadors: real people to stand for a patron path, if any.
 - Export the ChatGPT guide site (sign-in only) before deleting it, if there
   is anything in it beyond the survey.
