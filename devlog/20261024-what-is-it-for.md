@@ -25,3 +25,32 @@ Her objection is really about who holds the model. A model held by a developer, 
 - A short "What is it for?" page on the four answers, each with one example already on the wiki.
 - An objections page, FAQ-shaped, taking the strongest objections at full strength: "Don't people already know what is needed?", "Isn't more data the problem?", "Who holds it?", "Can a model show what a forest is worth?" (regenerative GDP, the cattle-to-bison scenario, SWAN are already on the wiki).
 - Coordination as a shelf or term: the community membrane, matchmaking over real relationships. Anselm's own work in this area is not named on the wiki.
+
+## Second round (same evening)
+
+She cited Nate Hagens, as Anselm relayed it: simulation as "an involuntary neurological habit of the brain's Default Mode Network, where our minds constantly project into future scenarios instead of experiencing the present moment." (Not checked against a Hagens source; find the episode or essay before quoting it.)
+
+Anselm's reply to her, verbatim:
+
+> It's a bit off the cuff to say more models are not needed. We as citizens don't really have access to any models. Most of what we do is just argue with each other, and look at models with vague distrust.
+>
+> I totally agree we should connect and organize better.
+>
+> I feel like selfish people will still argue bad points. There are simply bad actors, people with misaligned incentives. Our current systems reward cutting down forests for cattle grazing - basically the costs are externalized and deferred. Capitalism at scale and hyperliquid dollar based economies are spending down our future because of where value is placed. Those bad actors are not going to go away unless we can see better.
+>
+> Even if people are connected, even if there is a beautiful kumbayah satori moment where everybody suddenly realizes we have been stupid and need to work together - even then - we still don't have good understandings of whole system complexity at all. Almost always, almost every single decision we make collectively, has side effects that dominate over intended consequences.
+>
+> Think about it, there have been 50 years of eco movements - has the world gotten better?
+
+He then sent her the Ostrom paragraph and added the Balinese water temples: "Communities need more than just 'gosh we connected' - communities need models."
+
+### Notes toward an answer (Claude; facts from memory, verify before any public use)
+
+- **Bali is the best example because it concedes her point and still makes his.** J. Stephen Lansing (anthropologist) and James Kremer (ecologist) built a computer model of the subak irrigation system in the late 1980s: Lansing's book *Priests and Programmers* (Princeton, 1991) and their paper in *American Anthropologist* (1993). The Green Revolution programmes had pushed farmers to plant continuously and ignore the temple calendar, and pest outbreaks and water shortages followed. The model showed that the temples' coordinated planting schedule, which priests had kept for centuries, was close to optimal for pests and water sharing. The farmers already knew what was needed (her point). The development bank and the government only listened once a model showed it (his point). The model did not replace the community's knowledge; it made that knowledge legible to the people with power over it.
+- **The Hagens point cuts both ways.** If the brain simulates futures whether we like it or not, the choice is not between simulating and being present; it is between private, unexamined simulations (fear, hope, the stories each side tells) and shared ones that can be checked. An argument between neighbours is two default mode networks running different models without showing their work.
+- **"50 years of eco movements, has the world gotten better?"** The honest answer is mixed, and the mix supports him. The clearest win is the ozone layer: Molina and Rowland's 1974 paper modelled CFCs destroying stratospheric ozone, the British Antarctic Survey measured the hole in 1985, the Montreal Protocol followed in 1987, and the layer is now projected to recover around mid-century. Acid rain and leaded petrol are similar. The wins came where a model plus a measurement made an invisible harm undeniable and the culprit nameable. Where costs stay diffuse and deferred (carbon, biodiversity, soil), the movement has lost ground.
+- **Careful in public copy:** "bad actors", "selfish people" and "kumbayah" will make the reader take sides (house rule: articles do not reach for bad actors or tell the reader what to think). In a post, misaligned incentives carry the argument without villains: the person clearing the forest for cattle is responding to the only ledger that pays them.
+
+### FAQ or post?
+
+Both, for different readers. An FAQ on the wiki serves the curious newcomer (what is it for, who uses one, what does it cost, can my town have one) and stays neutral. The argument with her is a post: it has two people in it, a disagreement, and his view; it belongs on his Substack under his byline, in his words. A possible spine for the post, in his order: the question people keep asking; her objection, at full strength and conceded where right; the hidden landscape; Bali; ozone versus carbon; the community membrane as where her work and his meet. No closing moral.
