@@ -17,3 +17,11 @@ Shared as screenshots in the twin-compendium session with "this is cool". Transc
 - In one live conversation the agent: discovered its connected services; showed Destination Earth layers on a 3D globe; put the CAMS dust forecast on a story slide; found the EMSR929 wildfire in Greece (Copernicus EMS) and mapped its area; mapped population density and charted unemployment from Eurostat; computed Sentinel-2 NDVI over Sicily on the Copernicus Data Space "with code you can check, edit and rerun"; built climate charts from Destination Earth's Earth Data Hub; turned an uploaded CSV into a dashboard; saved every step as an interactive story in the DEA Story Viewer.
 - Destination Earth is EU-funded, implemented by ESA, ECMWF and EUMETSAT.
 - Possible use: the wiki has no Destination Earth entry yet (only mentions); DestinE itself belongs on Notable twins, with DEA as its storytelling/presentation layer. Relevant to the "what is it for" thread: natural language as the way a non-technical person asks a model a question.
+
+## W. Daniel Kissling: what holds back Europe-wide biodiversity monitoring (post dated Oct 21)
+
+- A paper from the EuropaBON project in npj Biodiversity (Nature Portfolio), open access, link said to be in the post's comments (not seen). Lead author Alejandra Morán Ordóñez; Maria Blasi, Joana Santana and Lluís Brotons named among co-authors.
+- Evaluated 17 coordinated European monitoring programmes across terrestrial, freshwater and marine ecosystems for their capacity to deliver Essential Biodiversity Variables (EBVs).
+- Bottlenecks: monitoring outputs misaligned with the EBVs needed for policy reporting; gaps in taxonomic, spatial and temporal coverage; limited open access and poor data integration; no automated end-to-end workflows from monitoring data to indicators.
+- Their conclusion: Europe has many valuable programmes but needs coordination, harmonised protocols, FAIR and CARE data practice and sustained funding; argues for a European Biodiversity Observation Coordination Centre (EBOCC).
+- Possible use: a term for Essential Biodiversity Variables (the ontology for "what to measure" about living systems, sibling of essential climate variables); an article entry once the paper is found. Bears on the FAQ's Ostrom answer and on Bogucki's "isolated pools": many programmes, not yet joined up.
