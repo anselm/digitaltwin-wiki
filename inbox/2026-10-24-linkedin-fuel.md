@@ -25,3 +25,12 @@ Shared as screenshots in the twin-compendium session with "this is cool". Transc
 - Bottlenecks: monitoring outputs misaligned with the EBVs needed for policy reporting; gaps in taxonomic, spatial and temporal coverage; limited open access and poor data integration; no automated end-to-end workflows from monitoring data to indicators.
 - Their conclusion: Europe has many valuable programmes but needs coordination, harmonised protocols, FAIR and CARE data practice and sustained funding; argues for a European Biodiversity Observation Coordination Centre (EBOCC).
 - Possible use: a term for Essential Biodiversity Variables (the ontology for "what to measure" about living systems, sibling of essential climate variables); an article entry once the paper is found. Bears on the FAQ's Ostrom answer and on Bogucki's "isolated pools": many programmes, not yet joined up.
+
+## Ali Katal: CityDigitalTwin runs on your own hardware (post dated "yesterday", about 2026-10-23)
+
+- Planète GreenLeaves' CityDigitalTwin (CDT), greenleaves.app: set up in a web app (geometry, weather, microclimate, building energy), download a simulation package, run it on a Windows PC or a Linux HPC cluster, then link the results folder back into the web app to explore heat, wind, thermal comfort, shading and energy in 3D. Results stay on the user's machine. Annual desktop licence; academic licences; a cloud option.
+- Being written up as data/engines/citydigitaltwin-greenleaves.md (2026-10-24).
+
+### A trend Anselm noticed: simulation moving onto the user's own hardware
+
+His words: "i am seeing a couple of ventures doing simulations on client hardware." Two on the wiki so far: Urbanly's CityCompass runs its whole regional simulation, traffic assignment included, in a browser tab; CDT ships the solver to the user's workstation and keeps the results there. Worth a term or a short article once there are three or four cases: where the model runs (the vendor's cloud, the user's browser, the user's machine) decides who keeps the data, what it costs to run a hundred scenarios, and whether a town without a cloud budget can use it at all. Bears on the FAQ's "Who holds the model?".
