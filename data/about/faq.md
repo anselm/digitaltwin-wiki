@@ -20,8 +20,6 @@ provenance:
   reviewed_by: 'machine draft by Claude from a conversation with Anselm (devlog/20261024-what-is-it-for.md); not yet rewritten by him'
   status: proposed
 ---
-# Questions people ask
-
 ## What is a digital twin for?
 
 A digital twin is a model of a place that can be checked against the place itself. People build one to answer a question they cannot answer by standing in the street. Four uses come up again and again.
