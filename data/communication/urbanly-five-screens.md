@@ -2,7 +2,7 @@
 about:
   group: Playing
   label: Urbanly's five screens
-  depiction: engines/urbanly-citycompass.jpg
+  depiction: communication/urbanly-five-screens.jpg
   description: >-
     Urbanly's home page: five screens, each a planning question with a
     target, where the reader drags schools, stops, jobs and trees to meet it.
