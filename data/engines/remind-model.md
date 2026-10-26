@@ -34,6 +34,8 @@ relations:
     target: engines/messageix
   - predicate: alternative_to
     target: engines/gcam
+  - predicate: made_by
+    target: organizations/pik-potsdam
 provenance:
   origin: agent
   sources:
