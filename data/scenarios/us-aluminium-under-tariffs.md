@@ -21,6 +21,12 @@ domains:
 relations:
   - predicate: needs
     target: engines/portolan
+  - predicate: needs
+    target: data-sources/un-comtrade
+  - predicate: needs
+    target: data-sources/usgs-mineral-commodity-summaries
+  - predicate: needs
+    target: data-sources/gtap
 provenance:
   origin: agent
   sources:

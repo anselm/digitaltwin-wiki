@@ -8,7 +8,7 @@
 {#if data.description}<p class="text-muted text-lg mt-1">{data.description}</p>{/if}
 {#if data.chips.length}<p class="mt-2 flex gap-1 flex-wrap">{#each data.chips as c}<a href={c.url} class="text-xs text-ink px-1.5 rounded-sm" style="background:{c.colour}55">{c.label}</a>{/each}</p>{/if}
 {#if data.open}<p class="mt-2 text-xs text-muted">What is reusable: <Open open={data.open} full={true} />{#if data.open.note} <span>{data.open.note}</span>{/if}</p>{/if}
-{#if data.depiction}<img src={data.depiction} alt="" class="mt-4 max-w-full" />{#if data.depictionCredit}<p class="mt-1 text-xs text-muted">{data.depictionCredit}</p>{/if}{/if}
+{#if data.depiction}<img src={data.depiction} alt="" class="mt-4 max-w-full rounded-sm dark:brightness-90" />{#if data.depictionCredit}<p class="mt-1 text-xs text-muted">{data.depictionCredit}</p>{/if}{/if}
 
 {#if data.flow}
   <ol class="mt-6">

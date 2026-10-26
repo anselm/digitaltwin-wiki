@@ -22,6 +22,8 @@ domains:
 relations:
   - predicate: needs
     target: engines/dssat
+  - predicate: needs
+    target: data-sources/faostat
 provenance:
   origin: agent
   sources:
