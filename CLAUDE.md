@@ -64,6 +64,7 @@ that page also shows.
 - No redirects (Anselm, 2026-10-24: "its ok to hard switch over still -
   lets get it right before it is popular"). When an entry or shelf moves,
   move it and rewrite the links; do not leave a stub at the old address.
+- The site is non-commercial forever (Anselm, 2026-10-26: "digitaltwins.wiki is non commercial forever - we can use images"). Non-commercial licences such as CC BY-NC are fine for pictures and data; carry the attribution in `about.depiction_credit`, which renders under the picture.
 - The Sensory landscape domain (`sensory`) is what people sense in a place:
   sound, noise, light, air. It is not sensors, machine vision, 3D capture
   or scene formats; those are `places` (or the domain of what they look at).

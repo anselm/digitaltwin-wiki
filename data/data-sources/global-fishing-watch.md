@@ -1,5 +1,7 @@
 ---
 about:
+  depiction: data-sources/global-fishing-watch.jpg
+  depiction_credit: 'Fishing effort from AIS and public VMS, from the fishing effort dataset page. Global Fishing Watch, CC BY-NC 4.0.'
   label: Global Fishing Watch
   description: >-
     Nonprofit that estimates fishing worldwide from ships' position
