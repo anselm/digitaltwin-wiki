@@ -139,3 +139,11 @@ See the tail of `devlog/`.
 ## Coverage sweep against outside lists (2026-10-21)
 
 TESSERA was missing because the wiki grew from the survey, the LinkedIn scrape, the inbox and Mike's maps, and nobody checked against a list made by someone else. Tested today: the curated GitHub lists have it (Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models, satellite-image-deep-learning/techniques); sacridini/Awesome-Geospatial and acgeospatial/awesome-earthobservation-code do not; Wikipedia has no TESSERA article and no Category:Digital_twins, so it is weak for this. Idea: a tool that reads such a list and diffs it against our entries, giving a gap list for Anselm to triage. Entries still written only from the projects' own pages.
+
+## Notable people (2026-10-26)
+
+- The primer's notable people (Forrester, Meadows, Doyne Farmer, Raworth, Batty, Wahl, Bret Victor) are not on the wiki. Anselm: "I was thinking about notable people but I feel like hmm, I kept that in 'the systems thinkers' - we can leave that in the todo." Undecided whether figures in the field get person pages, and whether on the contributors' People shelf or their own.
+
+## From Mike Liebhold (2026-10-26)
+
+- Systems Change Lab, forests and land (https://systemschangelab.org/forests-and-land): being drafted as data/data-sources/systems-change-lab.md.
