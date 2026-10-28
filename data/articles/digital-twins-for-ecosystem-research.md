@@ -46,11 +46,33 @@ relations:
     target: engines/invest
   - predicate: cites
     target: engines/destination-earth
+  - predicate: cites
+    target: twins/crane-radar
+  - predicate: cites
+    target: engines/naavre
+  - predicate: cites
+    target: articles/blair-digital-twins-of-the-natural-environment
+  - predicate: cites
+    target: articles/de-koning-digital-twins-model-data-fusion
+  - predicate: cites
+    target: articles/metcalfe-digital-twin-maturity-levels
+  - predicate: cites
+    target: articles/dietze-near-term-ecological-forecasting
+  - predicate: cites
+    target: articles/hazeleger-digital-twins-of-the-earth
+  - predicate: cites
+    target: data-sources/movebank
+  - predicate: cites
+    target: data-sources/emodnet
+  - predicate: cites
+    target: engines/madingley
 provenance:
   origin: agent
   sources:
     - title: 'Digital twins as a tool for ecosystem research (Trends in Ecology & Evolution 41(8), 715-725)'
       url: 'https://doi.org/10.1016/j.tree.2026.04.016'
+    - title: 'The same paper on ScienceDirect, where the DOI leads'
+      url: 'https://www.sciencedirect.com/science/article/pii/S0169534726001035'
     - title: 'LTER-LIFE, the Dutch research infrastructure all the authors belong to'
       url: 'https://www.lter-life.nl'
   created: '2026-10-28'
@@ -59,7 +81,7 @@ provenance:
   status: draft
 ---
 
-The paper opens on a problem ecology has with itself. To say how a particular lake or heath will respond to a heat wave, a new dyke or a restoration plan, ecology has to become a predictive science. It is held back by three things: it can't yet combine the effects of several stressors at once, it struggles to link biodiversity to nutrient cycles and other ecosystem traits, and it rarely runs scenarios from local data across a whole ecosystem.[^1] The authors, fourteen ecologists, modellers and computer scientists from Dutch institutes who all work in the LTER-LIFE research infrastructure, propose digital twins as the way through.[^1,2]
+The paper opens on a problem ecology has with itself. To say how a particular lake or heath will respond to a heat wave, a new dyke or a restoration plan, ecology has to become a predictive science. It is held back by three things: it can't yet combine the effects of several stressors at once, it struggles to link biodiversity to nutrient cycles and other ecosystem traits, and it rarely runs scenarios from local data across a whole ecosystem.[^1] The authors, fourteen ecologists, modellers and computer scientists from Dutch institutes who all work in the [LTER-LIFE](/organizations/lter-life/) research infrastructure, propose digital twins as the way through.[^1,3]
 
 They name five traits, and say a twin could have them but need not always have all of them:[^1]
 
@@ -81,11 +103,11 @@ Several of their choices are worth knowing before building one.
 
 **Why it isn't "just a model".** A twin is a model, they agree, but a special kind in three ways. It is about one ecosystem and does not try to generalise. It joins different kinds of data and models instead of using a single technique. And it is kept alive, updated and reused for new questions, where a published model is usually archived. Keeping it alive needs a community of researchers around the ecosystem, including the people who know the place best, whom another paper calls expert witnesses, to judge whether the twin behaves like the real thing.[^1]
 
-**Scientists first.** Some of the literature asks for interfaces that non-specialists can use. These authors want the first users to be the scientists who study the ecosystem, since they hold the knowledge to build a twin and are best placed to check it. Only after that would twins be extended to policymakers and the public. For the scientists they propose virtual labs: online workbenches with a catalogue of a place's data and calibrated models, where reusable assets can be assembled into a twin.[^1]
+**Scientists first.** Some of the literature asks for interfaces that non-specialists can use. These authors want the first users to be the scientists who study the ecosystem, since they hold the knowledge to build a twin and are best placed to check it. Only after that would twins be extended to policymakers and the public. For the scientists they propose virtual labs, such as LTER-LIFE's [NaaVRE](/engines/naavre/): online workbenches with a catalogue of a place's data and calibrated models, where reusable assets can be assembled into a twin.[^1]
 
 Three examples of twins from the life sciences appear in a box.[^1]
 - **A tomato crop in a greenhouse:** a 3D simulation fed in real time from the greenhouse's sensors, meant as a decision aid for growers.
-- **The crane radar:** a continuously updated forecast that tells birdwatchers where they are likely to see common cranes. It runs on historical migration data, wind forecasts and birdwatchers' own sightings.
+- **The [crane radar](/twins/crane-radar/):** a continuously updated forecast that tells birdwatchers where they are likely to see common cranes. It runs on historical migration data, wind forecasts and birdwatchers' own sightings.
 - **A prototype bee-hive twin:** it simulates foraging, colony growth and Varroa mites from land-cover maps and daily weather. It comes from the European [BioDT](/engines/biodt/) project, which the paper names as the one initiative so far to start building ecological digital twins.
 
 Most of the work closest to twins does not use the word. The authors searched Scopus and list fifteen studies that have some of the five traits without calling themselves twins:[^1]
@@ -101,7 +123,7 @@ Most of the work closest to twins does not use the word. The authors searched Sc
 
 Some run process models and others statistical or machine-learning ones. None combines a process-based model with a big-data model. Most don't say how often their data are refreshed.[^1]
 
-For building one, the authors take G. S. Blair's "jam sandwich" from a 2021 paper. The bread is integration and reuse of data and models in one place, interoperability and scalability. The jam is data science and AI, joining process and data models, and handling feedback and complexity.[^1] They dwell on the parts least familiar to ecologists. One is the virtual lab. Another is FAIR data, findable, accessible, interoperable and reusable: ecological data still sit in mixed formats with thin metadata, sometimes with no way to download them. The third is large language models that pull biodiversity facts, traits and metadata out of text, which they call promising but still in their infancy.[^1]
+For building one, the authors take G. S. Blair's "jam sandwich" from [a 2021 paper](/articles/blair-digital-twins-of-the-natural-environment/). The bread is integration and reuse of data and models in one place, interoperability and scalability. The jam is data science and AI, joining process and data models, and handling feedback and complexity.[^1] They dwell on the parts least familiar to ecologists. One is the virtual lab. Another is FAIR data, findable, accessible, interoperable and reusable: ecological data still sit in mixed formats with thin metadata, sometimes with no way to download them. The third is large language models that pull biodiversity facts, traits and metadata out of text, which they call promising but still in their infancy.[^1]
 
 The open questions they end on are some of the most useful parts of the paper.[^1]
 - **What exactly is the physical thing?** Ecosystems are loosely defined, and a twin needs a boundary.
@@ -110,3 +132,5 @@ The open questions they end on are some of the most useful parts of the paper.[^
 - **How do policymakers use the scenarios?** They will need interfaces they can work with directly.
 
 Their closing message is that the label matters less than the five traits. Whether a project is called a digital twin or a model, ecosystem research should integrate data, models and people around one real place.[^1] That is close to how this wiki uses the term (see [What is a digital twin?](/terms/digital-twin/)). The paper names [Destination Earth](/engines/destination-earth/) as a twin of the whole planet, the far end of the same idea. The paper is open under CC BY 4.0, so its figure can be shown here.[^1]
+
+The paper's own sources are a good reading list, and several are on this wiki. On what a twin is: [Blair](/articles/blair-digital-twins-of-the-natural-environment/), [de Koning and colleagues](/articles/de-koning-digital-twins-model-data-fusion/), [Metcalfe and colleagues' maturity levels](/articles/metcalfe-digital-twin-maturity-levels/) and [Hazeleger and colleagues on Earth twins](/articles/hazeleger-digital-twins-of-the-earth/). On forecasting: [Dietze and colleagues](/articles/dietze-near-term-ecological-forecasting/). On the parts: the [Madingley](/engines/madingley/) ecosystem model, [Movebank](/data-sources/movebank/) animal tracks and [EMODnet](/data-sources/emodnet/) marine data.[^1]
