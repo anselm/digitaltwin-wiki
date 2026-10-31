@@ -31,6 +31,9 @@ One list for the project, kept current. Decisions and reasoning live in
   (updates through 2030, PRIMA statistics) should return; removed 2026-10-24
   for want of a source.
 - Novel bamboo uses (`inbox/`), fuel for the bamboo scenario: entries or not.
+- Land tenure in territorial carnivores (Kanishka et al., Journal of Animal
+  Ecology, 20 October 2026, doi 10.1111/1365-2656.70373): a PDF, if one
+  turns up, so it can be read in full; only the abstract is in hand.
 - Law (shelf since 2026-10-24, `devlog/20261024-stretching-and-tearing.md`):
   six US sources so far. Which non-US layers come next (England's
   Planning Data platform is named in the Rules layer term).
