@@ -34,6 +34,10 @@ One list for the project, kept current. Decisions and reasoning live in
 - Land tenure in territorial carnivores (Kanishka et al., Journal of Animal
   Ecology, 20 October 2026, doi 10.1111/1365-2656.70373): a PDF, if one
   turns up, so it can be read in full; only the abstract is in hand.
+- Halfpixel (halfpixel.ai), "Real World Spatial Intelligence": a simulation
+  project Bilawal Sidhu mentioned (Anselm, 2026-10-30). On 30 October the
+  site was only a waitlist and nothing about it was indexed; look again when
+  it says what it is. Sidhu's open globe is already in as God's Eye View.
 - Law (shelf since 2026-10-24, `devlog/20261024-stretching-and-tearing.md`):
   six US sources so far. Which non-US layers come next (England's
   Planning Data platform is named in the Rules layer term).
