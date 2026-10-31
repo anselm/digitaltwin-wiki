@@ -28,8 +28,10 @@ open:
   data: partly
   api: unknown
   participation: partly
-  licence: none stated; the November 2024 user guide says FERM has no data-sharing licence yet and is considering CC BY-NC 4.0
+  licence: none stated
   note: >-
+    The November 2024 user guide says FERM has no data-sharing licence yet
+    and is considering CC BY-NC 4.0.
     The site's own search reads a JSON endpoint (/api/search/initiatives)
     that answered without a login on 30 October 2026; no documentation or
     terms for it were found.
