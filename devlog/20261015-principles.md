@@ -16,6 +16,26 @@ their LLMs. A civic good, not a sales site. "Digital twin" is Anselm's
 shorthand for the whole of it and is not leaned on in copy, labels or
 searches.
 
+## The core is the engines (Anselm, 2026-10-31)
+
+"The core goal of digitaltwins.wiki is to understand the landscape of
+predictive digital simulations ... we are collecting data, use cases and
+other surrounding material - our core mission is to identify the
+simulation modeling engines specifically - it may even be worth splitting
+engines into sections - because there is a class of modeling tool that is
+slightly novel - tools that let a person supply a rich context (globally,
+bioregionally, locally) and try to do predictive modeling of near term
+outcomes. we do see this for weather, but we don't yet see this for
+complex whole systems."
+
+So data sources, articles, cases and the rest serve the engines shelf,
+and an engine is filed by how it models as well as what it models. The
+classification pass and the proposed sections are in
+`20261031-engines-by-method.md`. The prompt was Steve Coy's list of what
+he sees as the neighbours of TimeLike (Simulink, AnyLogic,
+ModelingToolkit, JAMES II, Simkit, AgentPy, Agents.jl, Mesa); that framing
+stays here and out of the entries.
+
 ## Three principles (Anselm, 2026-10-18)
 
 1. It is an evergreen site of real resources real people can use to build

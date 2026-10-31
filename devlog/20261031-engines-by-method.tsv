@@ -1,0 +1,154 @@
+slug	section	reason	confidence
+3dtrees-earth	G	laser-scan collection, tree segmentation, viewing/download; no model -> data-sources	high
+aaru	H	LLM-agent simulated populations to test product/price/message before committing; near miss for F (population response, not whole system)	low
+activitysim	D	activity-based travel model simulating each person's day in a region	high
+adaptbase-adaptbase-search	G	knowledge graph of city adaptation plans -> data-sources	high
+agents-jl	B	Julia ABM library	high
+agentsociety	H	LLM-agent society simulator for social-science experiments; near miss for F	high
+ai4g-flood	G	flood detector on Sentinel-1 pairs, plus flood record -> data-sources	high
+aifs	E	ECMWF ML global weather model	high
+aimsun	D	traffic simulation, Aimsun Live forecasts road network	high
+alma	D	built population of NZ used to model a measles outbreak (epi model on synthetic pop)	low
+alphaearth-prithvi	E	geospatial foundation models / embeddings	high
+anuga	D	shallow-water flood/tsunami solver	high
+anylogic	A	multi-method modelling environment (ABM+DES+SD)	high
+aurora	E	Earth-system foundation model for weather, air, waves	high
+azure-digital-twins-aws-iot-twinmaker	G	cloud entity/IoT graph services, no simulation -> keep on engines as supporting tool (or new Platforms section)	high
+bentley-itwin	G	infrastructure twin platform/SDK for data, no simulation -> supporting tool / Platforms	high
+biodt	D	research project of ten process biodiversity models (LANDIS-II, HMSC, grassland); near miss F; could move to twins	low
+bmap	G	low-poly 3D model generator from open data -> presentation	high
+cadnaa	D	environmental noise propagation model	high
+cars	G	satellite photogrammetry DSM pipeline -> supporting tool (capture)	high
+circuitscape	D	circuit-theory connectivity model of landscape movement	high
+citydigitaltwin-greenleaves	D	urban heat/wind/comfort/energy physics simulation	high
+clay	E	EO foundation model embeddings	high
+climate-indices-climate-indices	G	computes drought/fire indices from data -> supporting tool	high
+climate-x-urbanfootprint	D	physical climate-risk/loss models as a service; method undisclosed	low
+coastsat	G	shoreline mapping from imagery -> data-sources	high
+comapeo-awana-digital	G	community mapping app -> participation/communication	high
+community-fish-detector-cfd	G	fish detector model	high
+comses-net	G	model repository/community -> sites or organizations	high
+concordia	H	library for LLM-agent (generative ABM) simulations with game master	high
+cool-cities-lab	D	heat hazard mapping + estimated cooling from interventions	low
+covasim-starsim	D	agent-based disease models configured per place	high
+credo	D	cross-network cascade model of infrastructure under extreme weather; could move to twins	low
+cyfi	G	ML estimator of cyanobacteria from Sentinel-2 (detection/nowcast)	low
+dafni-asu-cici-and-sparc	G	compute platform and research groups -> organizations	high
+deepreefmap	G	3D reef reconstruction pipeline -> supporting tool (capture)	high
+delft-fews-flood-hub-integration	G	forecasting-platform feature pulling Flood Hub; orchestration not a model -> supporting tool	high
+deltares-delft3d	D	coastal/estuarine hydro-morphodynamic suite	high
+destination-earth	D	physics Earth-system twins (IFS, ICON) for climate and extremes; near miss F (whole Earth forecast but not user-context driven); could move to twins	low
+dhi	D	process model of treatment plant coupled to live data	high
+dice-model	D	integrated assessment model of growth and climate	high
+digital-reefs	D	prototype reef twin for testing management options; could move to twins	low
+dronemegadetector	G	drone-imagery detector	high
+dssat	D	crop-growth process models	high
+dt-geo	D	research project of geohazard twin components; could move to twins	low
+earth-genome-earth-index	G	imagery similarity search tool	high
+ecopath-with-ecosim	D	food-web model suite	high
+edsl	H	survey experiments on LLM simulated respondents	high
+ema-workbench	A	exploratory modelling wrapper running any model over uncertainty	low
+emergentbiome	G	molecular atlas of sediment microbes -> data-sources	high
+eqasim	I	synthetic population pipeline for MATSim	high
+esri-arcgis	G	GIS platform -> keep on engines as supporting tool / Platforms	high
+extend3d	G	single-image 3D scene generation (capture/reconstruction)	high
+extinction-explorer	G	3D food-web visualisation prototype -> presentation	high
+fair-climate-model	D	simple climate emulator	high
+firevision-opalai	G	risk ranking from imagery/GIS; analytics not simulation	low
+flaim-earthdaily-fire-likelihood-ai-model	E	learned wildfire likelihood model from satellite+weather	low
+flame-gpu	B	GPU ABM library	high
+frigis	D	GIS with PALM-4U microclimate simulation	high
+gama	B	spatial ABM platform	high
+gcam	D	integrated assessment model	high
+generative-agents	H	LLM agents in Smallville; research code	high
+geodesignhub	G	collaborative planning negotiation app -> communication/participation	high
+google-earth-ai-geospatial-reasoning-agent	G	agent orchestrating models/data for spatial analysis; near miss F	low
+google-earth-ai	E	family of geospatial foundation models and agents; umbrella, near miss F	low
+google-earth-engine	G	imagery analysis platform -> supporting tool / Platforms	high
+google-flood-hub	E	hosted learned (LSTM) river flood forecasts	high
+google-hydrological-modeling-framework-unnamed-in-export	E	LSTM river-flow model framework	high
+gral	D	Lagrangian pollutant dispersion model	high
+greasypop-co	I	synthetic US population and contact network	high
+hector-climate-model	D	simple climate/carbon emulator	high
+helics-fmi	A	co-simulation framework and model-exchange standard	high
+hydrata	D	hosted ANUGA flood modelling	high
+ies	D	building-performance physics simulation with metered data	high
+invest	D	ecosystem-service models (static mapping/valuation)	high
+june	D	epidemic ABM on census-built population	high
+laxmi	E	AIFS retrained on satellite precipitation	high
+lingbot-map	G	streaming 3D reconstruction model (capture)	high
+macrocosm	D	agent-based economy simulators (supply chain, energy, macro); near miss F (forecasts whole economy from shocks)	low
+madingley	D	general ecosystem model, mechanistic	high
+magicc	D	simple climate emulator	high
+matsim-episim	D	epidemic layer on MATSim	high
+matsim	D	agent-based transport simulation (domain framework)	high
+megadetector-pytorch-wildlife-ecosystem	G	camera-trap detection models	high
+mesa	B	Python ABM library	high
+messageix	D	energy-system optimisation framework (MESSAGEix-GLOBIOM)	low
+methanet	G	planned blue-carbon assessment service with methane-risk projections	low
+microsoft-building-damage-assessment	G	damage mapping from imagery	high
+microsoft-planetary-computer	G	data catalogue -> data-sources	high
+mirofish	F	seed document + plain-language question -> LLM-agent run -> report on likely course of event	high
+ml4floods	G	flood mapping from imagery	high
+multiset-ai-drone-mapping-and-vps	G	drone mapping/visual positioning	high
+mycosoft-earth-simulator	G	hosted globe of layers, sensors, playback, forecast context; near miss F (claims scenarios, no model described) -> presentation	low
+naavre	G	virtual research environment -> supporting tool	high
+nasa-earth-system-digital-twins	G	NASA funding programme for ESDT prototypes -> organizations; near miss F	high
+neara	D	3D network model simulating loads, clearances, failure risk	low
+netlogo	B	ABM language/environment	high
+nextstrain	G	phylogenetic tracking pipelines/viewer; inference not forecast	low
+niantic-spatial-places-library-real-to-sim-to-real	G	catalogue of captured USD scenes -> data-sources	high
+noaa-gnome	D	oil-spill trajectory model	high
+noaa-national-water-model	D	operational hydrologic forecast model	high
+nvidia-cosmos	E	world foundation models generating physical-world video	low
+nvidia-isaac-sim	A	physics-based robotics simulator framework	low
+oasis-social-simulation	H	LLM-agent social media simulator	high
+odyssey-3	E	generative interactive world model	low
+olmoearth	E	EO foundation models	high
+openabm-covid19	D	COVID ABM	high
+openfoam	A	general CFD solver; build-your-own physics	low
+osrm	G	routing engine, no simulation -> supporting tool	high
+overhead-wildlife-locator-owl-megadetector-overhead	G	aerial wildlife detector	high
+planetary-prediction-engine	F	user's local outcome data + Earth AI signals -> trained spatial prediction/forecast; learned, single-outcome	low
+population-dynamics-foundations-pdfm	E	place embeddings for predicting local indicators	high
+populationsim	I	population synthesiser for travel models	high
+portolan	G	web map of trade flows -> presentation or data-sources	high
+power-network-tycoon	G	simulation game with physical grid model -> communication/participation	low
+pysd	C	SD model translator/runner	high
+radiance	D	ray-traced lighting simulation	high
+r-avaflow	D	mass-flow (landslide/debris) simulator	high
+reforest-latam-tnc-gran-chaco-drone-restoration	G	field restoration pilot -> stories or twins	high
+remind-model	D	integrated assessment model	high
+repast-hpc	B	HPC ABM toolkit	high
+replica	D	modelled travel activity + scenario re-runs of mobility model	high
+satclip	E	location embedding model	high
+simile	H	sells LLM-based simulated populations validated against people; near miss F	low
+simpop	I	synthetic population from survey + census	high
+skai	G	damage detection from imagery	high
+sparrow	G	edge sensing hardware -> data-sources/supporting	high
+stella-architect	C	SD software	high
+surfslam	G	underwater SLAM (capture)	high
+synthetic-population-catalyst	I	synthetic GB population with activities	high
+synthpop	I	synthetic copies of confidential microdata (privacy tool, not place pop)	low
+technosylva	D	fire behaviour modelling against weather/fuels/assets	high
+terramind	E	generative EO foundation model	high
+tessera	E	EO foundation model + embeddings	high
+timelike	F	composable causal models of a system run faster than real time to predict consequences of actions; also A; unreleased	low
+tinytroupe	H	LLM simulated people for focus groups/surveys	high
+uk-ndtp	G	national programme for standards/demonstrators -> organizations	high
+urbanly-citycompass	D	parcel-level household/firm/developer microsimulation	high
+urbansim	D	land-use microsimulation	high
+vantor-act-illegal-mining-monitoring	G	monitoring programme using imagery -> stories	high
+vensim	C	SD software	high
+vggt	G	3D vision reconstruction model (capture)	high
+vu-city-clara	G	3D city model + planning tools; BuildWind part simulates wind/air (mixed) -> presentation	low
+walk-score	G	walkability index -> data-sources	high
+wansec	G	field research project on coral wave attenuation -> articles or twins	high
+weathernext-nvidia-earth-2	E	AI weather forecasting stacks	high
+wildflow-coral	G	reef 3D capture service	high
+world-labs-atlas	E	world model generating/simulating 3D scenes	low
+xylem-vue	G	utility operations data platform -> supporting tool	high
+yellowfin-coral-repeat-survey-workflow	G	survey robot -> data-sources/supporting	high
+eclipse-sumo	D	microscopic traffic simulator, vehicles/pedestrians one by one (folder entry)	high
+en-roads	D	global climate SD simulator for policy choices to 2100 (built in Vensim; could also be C)	low
+pypsa-pypsa-eur	D	energy-system optimisation framework + European model (folder entry)	high
