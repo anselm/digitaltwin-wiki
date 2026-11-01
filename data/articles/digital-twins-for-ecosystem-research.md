@@ -41,15 +41,15 @@ relations:
   - predicate: about
     target: terms/digital-twin
   - predicate: cites
-    target: engines/biodt
+    target: twins/biodt
   - predicate: cites
     target: engines/invest
   - predicate: cites
-    target: engines/destination-earth
+    target: twins/destination-earth
   - predicate: cites
     target: twins/crane-radar
   - predicate: cites
-    target: engines/naavre
+    target: platforms/naavre
   - predicate: cites
     target: articles/blair-digital-twins-of-the-natural-environment
   - predicate: cites
@@ -103,12 +103,12 @@ Several of their choices are worth knowing before building one.
 
 **Why it isn't "just a model".** A twin is a model, they agree, but a special kind in three ways. It is about one ecosystem and does not try to generalise. It joins different kinds of data and models instead of using a single technique. And it is kept alive, updated and reused for new questions, where a published model is usually archived. Keeping it alive needs a community of researchers around the ecosystem, including the people who know the place best, whom another paper calls expert witnesses, to judge whether the twin behaves like the real thing.[^1]
 
-**Scientists first.** Some of the literature asks for interfaces that non-specialists can use. These authors want the first users to be the scientists who study the ecosystem, since they hold the knowledge to build a twin and are best placed to check it. Only after that would twins be extended to policymakers and the public. For the scientists they propose virtual labs, such as LTER-LIFE's [NaaVRE](/engines/naavre/): online workbenches with a catalogue of a place's data and calibrated models, where reusable assets can be assembled into a twin.[^1]
+**Scientists first.** Some of the literature asks for interfaces that non-specialists can use. These authors want the first users to be the scientists who study the ecosystem, since they hold the knowledge to build a twin and are best placed to check it. Only after that would twins be extended to policymakers and the public. For the scientists they propose virtual labs, such as LTER-LIFE's [NaaVRE](/platforms/naavre/): online workbenches with a catalogue of a place's data and calibrated models, where reusable assets can be assembled into a twin.[^1]
 
 Three examples of twins from the life sciences appear in a box.[^1]
 - **A tomato crop in a greenhouse:** a 3D simulation fed in real time from the greenhouse's sensors, meant as a decision aid for growers.
 - **The [crane radar](/twins/crane-radar/):** a continuously updated forecast that tells birdwatchers where they are likely to see common cranes. It runs on historical migration data, wind forecasts and birdwatchers' own sightings.
-- **A prototype bee-hive twin:** it simulates foraging, colony growth and Varroa mites from land-cover maps and daily weather. It comes from the European [BioDT](/engines/biodt/) project, which the paper names as the one initiative so far to start building ecological digital twins.
+- **A prototype bee-hive twin:** it simulates foraging, colony growth and Varroa mites from land-cover maps and daily weather. It comes from the European [BioDT](/twins/biodt/) project, which the paper names as the one initiative so far to start building ecological digital twins.
 
 Most of the work closest to twins does not use the word. The authors searched Scopus and list fifteen studies that have some of the five traits without calling themselves twins:[^1]
 - a restored tidal marsh at the Hedwige-Prosper Polder, tested against rates of sea-level rise;
@@ -131,6 +131,6 @@ The open questions they end on are some of the most useful parts of the paper.[^
 - **How do you check a twin?** One that predicts many properties at once rests on many models fitted to many sources. The authors ask whether that takes living labs, where human pressure is deliberately varied, or back-casting at sites with long records.
 - **How do policymakers use the scenarios?** They will need interfaces they can work with directly.
 
-Their closing message is that the label matters less than the five traits. Whether a project is called a digital twin or a model, ecosystem research should integrate data, models and people around one real place.[^1] That is close to how this wiki uses the term (see [What is a digital twin?](/terms/digital-twin/)). The paper names [Destination Earth](/engines/destination-earth/) as a twin of the whole planet, the far end of the same idea. The paper is open under CC BY 4.0, so its figure can be shown here.[^1]
+Their closing message is that the label matters less than the five traits. Whether a project is called a digital twin or a model, ecosystem research should integrate data, models and people around one real place.[^1] That is close to how this wiki uses the term (see [What is a digital twin?](/terms/digital-twin/)). The paper names [Destination Earth](/twins/destination-earth/) as a twin of the whole planet, the far end of the same idea. The paper is open under CC BY 4.0, so its figure can be shown here.[^1]
 
 The paper's own sources are a good reading list, and several are on this wiki. On what a twin is: [Blair](/articles/blair-digital-twins-of-the-natural-environment/), [de Koning and colleagues](/articles/de-koning-digital-twins-model-data-fusion/), [Metcalfe and colleagues' maturity levels](/articles/metcalfe-digital-twin-maturity-levels/) and [Hazeleger and colleagues on Earth twins](/articles/hazeleger-digital-twins-of-the-earth/). On forecasting: [Dietze and colleagues](/articles/dietze-near-term-ecological-forecasting/). On the parts: the [Madingley](/engines/madingley/) ecosystem model, [Movebank](/data-sources/movebank/) animal tracks and [EMODnet](/data-sources/emodnet/) marine data.[^1]

@@ -13,6 +13,7 @@ about:
     - public health
     - foundation model
 tool:
+  tier: 3
   form: geospatial foundation model with released embeddings
   group: Earth observation and AI
   homepage: 'https://github.com/google-research/population-dynamics'

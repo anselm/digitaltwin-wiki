@@ -22,7 +22,7 @@ domains:
   - people
 relations:
   - predicate: needs
-    target: engines/portolan
+    target: presentation/portolan
 provenance:
   origin: agent
   sources:
@@ -58,4 +58,4 @@ Oil exports and the pipeline that feeds the Red Sea; ship routing past a war zon
 
 ## Where to start
 
-[Portolan](/engines/portolan/) shows ships a day from IMF PortWatch for Bab el-Mandab, Suez and Hormuz side by side, with the alerts in force at each.[^2]
+[Portolan](/presentation/portolan/) shows ships a day from IMF PortWatch for Bab el-Mandab, Suez and Hormuz side by side, with the alerts in force at each.[^2]

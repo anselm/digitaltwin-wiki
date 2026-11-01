@@ -10,6 +10,7 @@ about:
     - microsimulation
     - multimodal
 tool:
+  tier: 1
   form: Open simulation engine
   group: Transport and crowds
   homepage: 'https://eclipse.dev/sumo/'

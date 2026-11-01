@@ -13,6 +13,7 @@ about:
     - policy simulation
     - teaching
 tool:
+  tier: 1
   form: commercial desktop modelling software
   group: Agents and system dynamics
   homepage: 'https://vensim.com/'

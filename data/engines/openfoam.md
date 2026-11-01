@@ -13,6 +13,7 @@ about:
     - simulation
     - waves
 tool:
+  tier: 1
   form: open-source simulation code
   group: Agents and system dynamics
   homepage: 'https://www.openfoam.com/'

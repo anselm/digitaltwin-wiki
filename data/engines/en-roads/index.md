@@ -10,6 +10,7 @@ about:
     - system dynamics
     - workshops
 tool:
+  tier: 2
   form: Public climate scenario tool
   group: Participation and learning
   homepage: 'https://www.climateinteractive.org/en-roads/'

@@ -13,6 +13,7 @@ about:
     - pollution
     - freeware
 tool:
+  tier: 2
   form: Free dispersion model
   group: Sensory landscape
   homepage: 'https://gral.tugraz.at/'

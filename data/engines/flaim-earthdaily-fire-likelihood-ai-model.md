@@ -15,6 +15,7 @@ about:
     - fuel
     - earthdaily
 tool:
+  tier: 3
   form: commercial risk model
   group: Wildfire and risk
   homepage: >-

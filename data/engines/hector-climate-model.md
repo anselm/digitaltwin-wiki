@@ -14,6 +14,7 @@ about:
     - global temperature
     - R
 tool:
+  tier: 2
   form: open-source research model (C++ with an R package)
   group: Weather and climate
   homepage: 'https://jgcri.github.io/hector/'

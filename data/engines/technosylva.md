@@ -13,6 +13,7 @@ about:
     - power shutoff
     - risk forecast
 tool:
+  tier: 2
   form: Operational and planning applications
   group: Wildfire and risk
   homepage: 'https://technosylva.com/'

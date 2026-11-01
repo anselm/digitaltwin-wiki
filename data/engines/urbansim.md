@@ -12,6 +12,7 @@ about:
     - MPO
     - travel model
 tool:
+  tier: 1
   form: Urban modeling platform
   group: Land use and housing
   homepage: 'https://urbansim.com/'

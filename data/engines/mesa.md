@@ -12,6 +12,7 @@ about:
     - GIS
     - teaching
 tool:
+  tier: 1
   form: open-source Python library
   group: People and populations
   homepage: 'https://mesa.readthedocs.io/stable/'

@@ -13,6 +13,7 @@ about:
     - polling
     - commercial
 tool:
+  tier: 3
   form: commercial hosted service
   group: People and populations
   homepage: 'https://aaru.com/'

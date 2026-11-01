@@ -10,6 +10,7 @@ about:
     - scenarios
     - emissions
 tool:
+  tier: 1
   form: Integrated assessment model
   group: Ecosystems and land
   homepage: 'https://jgcri.github.io/gcam-doc/'

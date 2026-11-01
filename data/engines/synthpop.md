@@ -13,6 +13,7 @@ about:
     - privacy
     - R
 tool:
+  tier: 2
   form: open-source R package (CRAN)
   group: People and populations
   homepage: 'https://www.synthpop.org.uk/'

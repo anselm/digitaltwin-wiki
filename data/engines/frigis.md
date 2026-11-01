@@ -14,6 +14,7 @@ about:
     - germany
     - planning
 tool:
+  tier: 3
   group: Weather and climate
   homepage: 'https://frigis.eu/'
 open:

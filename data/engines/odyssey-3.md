@@ -12,6 +12,7 @@ about:
     - driving
     - video
 tool:
+  tier: 3
   homepage: 'https://odyssey.systems/meet-odyssey-3'
   form: hosted world model
   group: 3D cities and mapping

@@ -11,6 +11,7 @@ about:
     - buses
     - real-time
 tool:
+  tier: 1
   form: Commercial simulation platform
   group: Transport and crowds
   homepage: 'https://www.aimsun.com/aimsun-live/'

@@ -37,7 +37,7 @@ const normName = (s) => s.toLowerCase().replace(/[`*_]/g, '').replace(/\([^)]*\)
 // the wiki's side: every URL anywhere in an entry, and its label
 const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walk(path.join(d, e.name)) : e.name.endsWith('.md') ? [path.join(d, e.name)] : [])
 // names count only on shelves that hold things (a tool, a dataset, a paper), not on topics or themes
-const NAMED = /^(engines|data-sources|presentation|ontologies|twins|organizations|articles|media|books)\//
+const NAMED = /^(engines|capture|platforms|data-sources|presentation|ontologies|twins|organizations|articles|media|books)\//
 const byUrl = new Map(), byName = new Map()
 for (const f of walk('data')) {
   const t = fs.readFileSync(f, 'utf8')

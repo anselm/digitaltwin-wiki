@@ -12,6 +12,7 @@ about:
     - distributed simulation
     - Repast
 tool:
+  tier: 4
   form: open-source C++ library
   group: Agents and system dynamics
   homepage: 'https://repast.github.io/repast_hpc.html'

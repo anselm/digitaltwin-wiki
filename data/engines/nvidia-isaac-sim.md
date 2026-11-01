@@ -13,6 +13,7 @@ about:
     - openusd
     - open source
 tool:
+  tier: 2
   form: open-source simulation framework
   group: 3D cities and mapping
   homepage: 'https://developer.nvidia.com/isaac/sim'

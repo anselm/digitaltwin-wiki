@@ -11,7 +11,7 @@ domains:
   - energy
 relations:
   - predicate: tells
-    target: engines/credo
+    target: twins/credo
 provenance:
   origin: survey
   sources:

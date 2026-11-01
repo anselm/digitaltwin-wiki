@@ -13,6 +13,7 @@ about:
     - public health
     - Python
 tool:
+  tier: 2
   form: open-source Python library
   group: People and populations
   homepage: 'https://starsim.org'

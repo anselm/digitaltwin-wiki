@@ -14,6 +14,7 @@ about:
     - epidemics
     - Rust
 tool:
+  tier: 2
   form: open-source tool with pre-built regional data
   group: People and populations
   homepage: 'https://alan-turing-institute.github.io/uatk-spc/'

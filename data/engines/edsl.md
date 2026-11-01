@@ -13,6 +13,7 @@ about:
     - data labelling
     - Expected Parrot
 tool:
+  tier: 3
   form: open-source Python package with a hosted service
   group: People and populations
   homepage: 'https://docs.expectedparrot.com/en/latest/'

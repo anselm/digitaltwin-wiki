@@ -14,6 +14,7 @@ about:
     - robust decision making
     - Python
 tool:
+  tier: 2
   form: open-source Python library
   group: Agents and system dynamics
   homepage: 'https://emaworkbench.readthedocs.io/en/latest/'

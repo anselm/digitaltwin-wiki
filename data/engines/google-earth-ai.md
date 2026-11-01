@@ -13,6 +13,7 @@ about:
     - population
     - foundation model
 tool:
+  tier: 3
   homepage: 'https://ai.google/earth-ai'
   form: model family
   group: Earth observation and AI

@@ -20,7 +20,7 @@ domains:
   - people
 relations:
   - predicate: needs
-    target: engines/portolan
+    target: presentation/portolan
   - predicate: needs
     target: data-sources/un-comtrade
   - predicate: needs
@@ -61,4 +61,4 @@ Electricity supply and price, which decide where a smelter can run; internationa
 
 ## Where to start
 
-[Portolan](/engines/portolan/) lists the US tariff actions on aluminium since 2018, including the 2026 changes, alongside the trade flows they affect.[^3]
+[Portolan](/presentation/portolan/) lists the US tariff actions on aluminium since 2018, including the 2026 changes, alongside the trade flows they affect.[^3]

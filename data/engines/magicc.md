@@ -14,6 +14,7 @@ about:
     - global temperature
     - carbon cycle
 tool:
+  tier: 2
   form: research model, downloadable binary and web interface
   group: Weather and climate
   homepage: 'https://magicc.org/'

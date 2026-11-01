@@ -13,6 +13,7 @@ about:
     - air quality
     - waves
 tool:
+  tier: 3
   form: open-source foundation model
   group: Weather and climate
   homepage: 'https://www.microsoft.com/en-us/research/project/aurora-forecasting/'

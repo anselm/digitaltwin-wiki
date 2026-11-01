@@ -12,6 +12,7 @@ about:
     - landscape ecology
     - open source
 tool:
+  tier: 1
   form: Open-source connectivity library
   group: Ecosystems and land
   homepage: 'https://circuitscape.org/'

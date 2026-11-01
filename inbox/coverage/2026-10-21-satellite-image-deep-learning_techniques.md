@@ -1943,7 +1943,7 @@
 ## Already here
 
 - Prithvi-CAFE → /engines/alphaearth-prithvi/ (first word)
-- DroneMegaDetector → /engines/dronemegadetector/ (url)
+- DroneMegaDetector → /capture/dronemegadetector/ (url)
 - Tessera embeddings explorer → /engines/tessera/ (first word)
 - alphaearth-cropland-maine → /engines/alphaearth-prithvi/ (first word)
 - AlphaEarth-Interpretability-Experiments → /engines/alphaearth-prithvi/ (first word)

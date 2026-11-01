@@ -12,6 +12,7 @@ about:
     - traffic noise
     - barriers
 tool:
+  tier: 1
   form: Commercial noise prediction software
   group: Sensory landscape
   homepage: 'https://www.datakustik.com/products/cadnaa/cadnaa'

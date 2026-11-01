@@ -12,6 +12,7 @@ about:
     - microbiome
     - carbon credits
 tool:
+  tier: 4
   form: hosted assessment service
   group: Ecosystems and land
   homepage: 'https://www.ecosphereblue.earth/'
@@ -50,7 +51,7 @@ domains:
   - water
 relations:
   - predicate: example_of
-    target: engines/emergentbiome
+    target: data-sources/emergentbiome
     note: >-
       application of (source_claim; exact implementation not independently
       tested)

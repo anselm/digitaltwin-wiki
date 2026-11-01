@@ -33,7 +33,7 @@ open:
 domains: [places, climate]
 relations:
   - predicate: cites
-    target: engines/destination-earth
+    target: twins/destination-earth
 provenance:
   origin: agent
   sources:

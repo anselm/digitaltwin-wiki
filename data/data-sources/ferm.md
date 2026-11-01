@@ -39,7 +39,7 @@ domains:
   - ecology
 relations:
   - predicate: built_on
-    target: engines/google-earth-engine
+    target: platforms/google-earth-engine
     note: its geospatial tool is FAO's Earth Map, which runs on Google Earth Engine
   - predicate: needs
     target: data-sources/protected-planet
@@ -70,7 +70,7 @@ provenance:
 ---
 The Framework for Ecosystem Restoration Monitoring (FERM) is a free platform from the Food and Agriculture Organization of the United Nations (FAO) for tracking and reporting ecosystem restoration.[^2] It is the official monitoring framework of the UN Decade on Ecosystem Restoration (2021 to 2030).[^1] It also supports countries in reporting the area under restoration for Target 2 of the [Kunming-Montreal Global Biodiversity Framework](/mandates/global-biodiversity-framework/), which aims to put 30 per cent of degraded ecosystems under restoration by 2030.[^1] FAO is the custodian of the Target 2 headline indicator, area under restoration, and built FERM to help countries report it.[^5] It was developed with the Decade's Task Force on Monitoring, which brings together 400 technical experts from more than 100 organisations.[^3]
 
-It has three parts. The Registry is a database where an initiative records its details, its areas as GIS files, its activities and its indicators, and tracks them from planning through implementation to monitoring.[^2] The search engine brings together initiatives and good practices from several platforms, over 2,000 of them by FAO's 2025 count.[^2] The geospatial tool is FAO's Earth Map, a web platform built with Google on [Google Earth Engine](/engines/google-earth-engine/) for looking at satellite imagery and land, forest, water and climate layers without writing code.[^2,4]
+It has three parts. The Registry is a database where an initiative records its details, its areas as GIS files, its activities and its indicators, and tracks them from planning through implementation to monitoring.[^2] The search engine brings together initiatives and good practices from several platforms, over 2,000 of them by FAO's 2025 count.[^2] The geospatial tool is FAO's Earth Map, a web platform built with Google on [Google Earth Engine](/platforms/google-earth-engine/) for looking at satellite imagery and land, forest, water and climate layers without writing code.[^2,4]
 
 What an initiative reports is set by the registry form. Each restoration area is entered as administrative units, drawn on a map, or uploaded as a shapefile, KML, KMZ or GeoJSON.[^3] Each area is classified by biome under the IUCN Global Ecosystem Typology and split by type of restoration activity and by overlap with protected areas and with Indigenous and traditional territories, the breakdowns Target 2 reporting asks for.[^3] Activities follow a glossary of restoration interventions from FAO's Economics of Ecosystem Restoration initiative.[^3] Indicators come from FAO and the World Resources Institute's 2019 guide The Road to Restoration, or are added by the initiative itself, with values entered year by year.[^3] An initiative's public page then shows its area under restoration against its target, its indicator charts, and satellite time series for its areas compared with a 2011 to 2020 reference period, from datasets including ESA's land cover maps, Global Forest Change and MODIS land cover.[^3] The good practices an initiative documents are reviewed before they appear in the search engine.[^3]
 

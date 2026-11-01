@@ -35,9 +35,9 @@ relations:
   - predicate: about
     target: terms/digital-twin
   - predicate: cites
-    target: engines/destination-earth
+    target: twins/destination-earth
   - predicate: cites
-    target: engines/biodt
+    target: twins/biodt
   - predicate: cites
     target: data-sources/gbif
 provenance:
@@ -55,9 +55,9 @@ provenance:
   status: draft
 ---
 
-The authors come from Wageningen University & Research, the Dutch research organisation TNO, the Helmholtz Centre for Environmental Research and the German Centre for Integrative Biodiversity Research, universities in Finland, Norway and Germany, and the secretariat of [GBIF](/data-sources/gbif/), the Global Biodiversity Information Facility.[^2] The work was funded by the European Union's [BioDT](/engines/biodt/) and NATURE-FIRST projects.[^2] It is an opinion article, open under CC BY 4.0.[^2]
+The authors come from Wageningen University & Research, the Dutch research organisation TNO, the Helmholtz Centre for Environmental Research and the German Centre for Integrative Biodiversity Research, universities in Finland, Norway and Germany, and the secretariat of [GBIF](/data-sources/gbif/), the Global Biodiversity Information Facility.[^2] The work was funded by the European Union's [BioDT](/twins/biodt/) and NATURE-FIRST projects.[^2] It is an opinion article, open under CC BY 4.0.[^2]
 
-They take a twin to be a digital counterpart of a physical object or process, linked to it so that it keeps updating, grows more realistic and has less uncertainty about the real thing.[^2] In ecology, talk of twins was triggered in particular by the European Commission's [Destination Earth](/engines/destination-earth/), which envisions twins for the climate, the ocean and biodiversity.[^2] Their aim is to manage expectations, so that modellers, researchers, policymakers and land managers are not misled.[^2]
+They take a twin to be a digital counterpart of a physical object or process, linked to it so that it keeps updating, grows more realistic and has less uncertainty about the real thing.[^2] In ecology, talk of twins was triggered in particular by the European Commission's [Destination Earth](/twins/destination-earth/), which envisions twins for the climate, the ocean and biodiversity.[^2] Their aim is to manage expectations, so that modellers, researchers, policymakers and land managers are not misled.[^2]
 
 **Why now.** Ecology has gone digital: drones, high-frequency animal tags, automatic species identification from DNA, camera traps and sound recordings, digitised museum collections, and citizen science through apps and social media.[^2] Existing networks such as GEO BON, NEON, eLTER, SAEON, TERN, GBIF and LifeWatch already deliver data on biodiversity and ecosystems, and twins could be built on them.[^2] The other push is a call for conservation decisions based on evidence, which in practice is often missing for lack of incentives, skills, time and resources.[^2]
 

@@ -12,6 +12,7 @@ about:
     - synthetic population
     - scenario
 tool:
+  tier: 2
   form: Data and scenario platform
   group: Transport and crowds
   homepage: 'https://replicahq.com/'

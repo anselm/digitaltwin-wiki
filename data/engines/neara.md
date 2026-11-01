@@ -11,6 +11,7 @@ about:
     - LiDAR
     - wildfire
 tool:
+  tier: 2
   form: Commercial infrastructure platform
   group: Energy and utilities
   homepage: 'https://neara.com/our-platform/'

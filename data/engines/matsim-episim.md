@@ -12,6 +12,7 @@ about:
     - mobility
     - Berlin
 tool:
+  tier: 2
   form: open-source Java extension to MATSim
   group: People and populations
   homepage: 'https://github.com/matsim-org/matsim-episim-libs'

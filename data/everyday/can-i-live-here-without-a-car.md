@@ -25,7 +25,7 @@ domains:
   - places
 relations:
   - predicate: needs
-    target: engines/walk-score
+    target: data-sources/walk-score
   - predicate: needs
     target: data-sources/openstreetmap-osm
   - predicate: needs
@@ -70,7 +70,7 @@ People choosing where to rent or buy ask this question, as do people who cannot 
 
 ## What answers it
 
-**Destinations within reach.** The score most people see is [Walk Score](/engines/walk-score/), which rates an address from 0 to 100 by walking routes to nearby amenities, giving full points within a five-minute walk and none beyond thirty, with adjustments for population density, block length and intersection density.[^1] Its [methodology page](https://www.walkscore.com/methodology.shtml) attaches a plain reading to each band: 90 to 100 means "daily errands do not require a car" and 70 to 89 that most can be done on foot. From 25 to 49 most errands require a car, and below 25 almost all do.[^1] The page gives neither its weights nor its list of amenity categories.[^1]
+**Destinations within reach.** The score most people see is [Walk Score](/data-sources/walk-score/), which rates an address from 0 to 100 by walking routes to nearby amenities, giving full points within a five-minute walk and none beyond thirty, with adjustments for population density, block length and intersection density.[^1] Its [methodology page](https://www.walkscore.com/methodology.shtml) attaches a plain reading to each band: 90 to 100 means "daily errands do not require a car" and 70 to 89 that most can be done on foot. From 25 to 49 most errands require a car, and below 25 almost all do.[^1] The page gives neither its weights nor its list of amenity categories.[^1]
 
 **Is the score right?** Duncan and colleagues tested Walk Score against measures computed independently with GIS, for 733 home addresses in four US metropolitan areas (*International Journal of Environmental Research and Public Health*, 2011).[^7] They found many significant moderate correlations with measures such as the density of shops and of intersections, stronger at a 1,600-metre network buffer than at 400 or 800 metres, and concluded that it is a valid measure of certain aspects of walkability.[^7] They also listed what it leaves out: crime, the look of the streets, traffic, hills, and barriers such as highways and water.[^7] It did not weigh the size of destinations such as parks or how often they are used. At the time, it measured straight-line rather than walking distances.[^7]
 

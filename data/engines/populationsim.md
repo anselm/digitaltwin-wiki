@@ -12,6 +12,7 @@ about:
     - activity-based model
     - Python
 tool:
+  tier: 2
   form: open-source Python package with a command-line tool
   group: People and populations
   homepage: 'https://activitysim.github.io/populationsim/'

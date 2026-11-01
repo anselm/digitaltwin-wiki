@@ -11,6 +11,7 @@ about:
     - utilities
     - real-time
 tool:
+  tier: 2
   form: Water-modeling applications
   group: Water and flooding
   homepage: 'https://www.dhigroup.com/sg/technologies/dhi-cityflow-live-treatment-plant'

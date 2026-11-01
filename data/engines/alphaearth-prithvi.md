@@ -11,6 +11,7 @@ about:
     - foundation model
     - embeddings
 tool:
+  tier: 3
   form: Reusable data and models
   group: Earth observation and AI
   homepage: >-

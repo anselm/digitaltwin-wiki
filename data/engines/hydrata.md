@@ -13,6 +13,7 @@ about:
     - modelling
     - browser
 tool:
+  tier: 3
   homepage: 'https://hydrata.com/'
   form: hosted platform
   group: Water and flooding

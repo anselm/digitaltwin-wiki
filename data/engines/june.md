@@ -12,6 +12,7 @@ about:
     - census
     - England
 tool:
+  tier: 4
   form: open-source Python framework
   group: People and populations
   homepage: 'https://github.com/IDAS-Durham/JUNE'

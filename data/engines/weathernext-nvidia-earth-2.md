@@ -13,6 +13,7 @@ about:
     - downscaling
     - open models
 tool:
+  tier: 2
   form: Forecast models and services
   group: Weather and climate
   homepage: 'https://deepmind.google/science/weathernext/'

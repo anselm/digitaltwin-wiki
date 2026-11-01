@@ -23,7 +23,7 @@ domains:
   - people
 relations:
   - predicate: needs
-    target: engines/portolan
+    target: presentation/portolan
 provenance:
   origin: agent
   sources:
@@ -61,4 +61,4 @@ Oil and gas production in the Gulf; the ships, crews and insurance that move it;
 
 ## Where to start
 
-[Portolan](/engines/portolan/) shows ships a day through the strait from IMF PortWatch, as a seven-day average with monthly figures since 2019, with a dated log of events and their sources.[^1] The same war closed the Red Sea alternative for Saudi crude: see [Saudi oil and the Red Sea route](/scenarios/saudi-oil-red-sea-route/). The ships stranded in the Gulf raise a separate risk, covered in [Idle ships in the Gulf and invasive species](/scenarios/idle-ships-gulf-invasive-species/).
+[Portolan](/presentation/portolan/) shows ships a day through the strait from IMF PortWatch, as a seven-day average with monthly figures since 2019, with a dated log of events and their sources.[^1] The same war closed the Red Sea alternative for Saudi crude: see [Saudi oil and the Red Sea route](/scenarios/saudi-oil-red-sea-route/). The ships stranded in the Gulf raise a separate risk, covered in [Idle ships in the Gulf and invasive species](/scenarios/idle-ships-gulf-invasive-species/).

@@ -14,6 +14,7 @@ about:
     - computational social science
     - Tsinghua
 tool:
+  tier: 3
   form: open-source Python platform
   group: People and populations
   homepage: 'https://github.com/tsinghua-fib-lab/AgentSociety'

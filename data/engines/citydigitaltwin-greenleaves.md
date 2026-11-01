@@ -14,6 +14,7 @@ about:
     - wind comfort
     - cfd
 tool:
+  tier: 3
   form: Commercial simulation platform, cloud and desktop
   group: Weather and climate
   homepage: 'https://greenleaves.app/'
@@ -34,7 +35,7 @@ relations:
   - predicate: alternative_to
     target: engines/frigis
   - predicate: alternative_to
-    target: engines/vu-city-clara
+    target: presentation/vu-city-clara
   - predicate: alternative_to
     target: engines/ies
 provenance:

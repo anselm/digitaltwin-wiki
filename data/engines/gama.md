@@ -10,6 +10,7 @@ about:
     - GIS
     - simulation
 tool:
+  tier: 2
   form: Open modeling platform
   group: Agents and system dynamics
   homepage: 'https://gama-platform.org/'

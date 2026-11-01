@@ -13,6 +13,7 @@ about:
     - robotics simulation
     - spatial intelligence
 tool:
+  tier: 3
   form: Spatial world model
   group: 3D cities and mapping
   homepage: 'https://www.worldlabs.ai/blog/atlas'

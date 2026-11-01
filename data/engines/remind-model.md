@@ -15,6 +15,7 @@ about:
     - scenarios
     - climate policy
 tool:
+  tier: 2
   form: open-source research model (GAMS, with R for running and analysis)
   group: Energy and utilities
   homepage: 'https://www.pik-potsdam.de/en/institute/departments/transformation-pathways/models/remind'

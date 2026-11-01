@@ -12,6 +12,7 @@ about:
     - MATLAB
     - simulation
 tool:
+  tier: 1
   form: commercial desktop and browser modelling software
   group: Agents and system dynamics
   homepage: 'https://www.mathworks.com/products/simulink.html'

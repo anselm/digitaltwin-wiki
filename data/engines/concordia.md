@@ -12,6 +12,7 @@ about:
     - game master
     - Google DeepMind
 tool:
+  tier: 3
   form: open-source Python library
   group: People and populations
   homepage: 'https://github.com/google-deepmind/concordia'

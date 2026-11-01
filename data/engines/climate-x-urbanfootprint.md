@@ -11,6 +11,7 @@ about:
     - wildfire
     - parcels
 tool:
+  tier: 2
   form: Risk and spatial analytics
   group: Wildfire and risk
   homepage: 'https://www.climate-x.com/spectra'

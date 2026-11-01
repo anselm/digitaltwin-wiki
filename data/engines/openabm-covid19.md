@@ -13,6 +13,7 @@ about:
     - contact tracing
     - public health
 tool:
+  tier: 4
   form: open-source C model with Python and R interfaces
   group: People and populations
   homepage: 'https://github.com/BDI-pathogens/OpenABM-Covid19'

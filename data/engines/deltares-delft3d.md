@@ -10,6 +10,7 @@ about:
     - coast
     - rivers
 tool:
+  tier: 1
   form: Modeling suite
   group: Water and flooding
   homepage: >-

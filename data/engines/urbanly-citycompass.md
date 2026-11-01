@@ -13,6 +13,7 @@ about:
     - zoning
     - browser
 tool:
+  tier: 3
   form: Urban simulation application
   group: Land use and housing
   homepage: 'https://urbanly.org/'

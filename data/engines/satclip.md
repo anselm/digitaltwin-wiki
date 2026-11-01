@@ -12,6 +12,7 @@ about:
     - location
     - sentinel
 tool:
+  tier: 3
   form: open research model and code
   group: Earth observation and AI
   homepage: 'https://github.com/microsoft/satclip'

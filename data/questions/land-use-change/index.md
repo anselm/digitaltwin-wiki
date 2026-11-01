@@ -30,7 +30,7 @@ Land is where the systems meet. Change the cover and you change how rain runs of
 
 Models of **ecosystem services**, the benefits people get from land and nature such as clean water and stored carbon, take a land-cover map and estimate each of these for the current map and for an alternative. They are built to compare scenarios, not to forecast a number to the decimal, and their value is in showing which plan is better and where. Crop models go deeper on the food question, simulating growth under given weather, soil and management. Integrated assessment models connect land to energy, water and the economy at the scale of a region or the world, and suit a question about policy more than one about a single parcel.
 
-On this site: [InVEST](/engines/invest/) for ecosystem services, [DSSAT](/engines/dssat/) for crops, [GCAM](/engines/gcam/) for the regional and global scale, and [Earth Index](/engines/earth-genome-earth-index/) for finding features in satellite imagery.
+On this site: [InVEST](/engines/invest/) for ecosystem services, [DSSAT](/engines/dssat/) for crops, [GCAM](/engines/gcam/) for the regional and global scale, and [Earth Index](/capture/earth-genome-earth-index/) for finding features in satellite imagery.
 
 ## What you need
 

@@ -11,6 +11,7 @@ about:
     - model-based optimization
     - event-driven
 tool:
+  tier: 4
   form: simulation framework
   group: Agents and system dynamics
   homepage: 'https://timelike.systems/'

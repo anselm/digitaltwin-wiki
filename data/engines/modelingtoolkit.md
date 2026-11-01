@@ -12,6 +12,7 @@ about:
     - Julia
     - differential equations
 tool:
+  tier: 2
   form: open-source Julia library
   group: Agents and system dynamics
   homepage: 'https://docs.sciml.ai/ModelingToolkit/stable/'

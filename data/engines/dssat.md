@@ -10,6 +10,7 @@ about:
     - agriculture
     - yield
 tool:
+  tier: 1
   form: Crop-model suite
   group: Ecosystems and land
   homepage: 'https://dssat.net/'

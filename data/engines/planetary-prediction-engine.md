@@ -13,6 +13,7 @@ about:
     - satellite
     - population
 tool:
+  tier: 3
   form: hosted service
   group: Earth observation and AI
   homepage: 'https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/'

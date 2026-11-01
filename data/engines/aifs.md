@@ -11,6 +11,7 @@ about:
     - ecmwf
     - global
 tool:
+  tier: 2
   form: machine-learning weather forecast model
   group: Weather and climate
   homepage: 'https://huggingface.co/ecmwf/aifs-single-1.0'

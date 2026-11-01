@@ -12,6 +12,7 @@ about:
     - sentinel
     - land cover
 tool:
+  tier: 3
   form: open model
   group: Earth observation and AI
   homepage: 'https://clay-foundation.github.io/model/'

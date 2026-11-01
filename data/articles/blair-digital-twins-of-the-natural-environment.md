@@ -26,7 +26,7 @@ relations:
   - predicate: about
     target: terms/digital-twin
   - predicate: cites
-    target: engines/destination-earth
+    target: twins/destination-earth
 provenance:
   origin: agent
   sources:
@@ -44,7 +44,7 @@ provenance:
 
 Gordon Blair is a professor of distributed systems at Lancaster University and co-director of the Centre of Excellence in Environmental Data Science, a joint initiative of Lancaster and the UK Centre for Ecology & Hydrology.[^2] He wrote this short opinion piece after several workshops on twins of the natural environment, as his attempt to make sense of what he heard.[^2] It is open under CC BY 4.0.[^2]
 
-He starts with why, which he says the debate usually skips in favour of what and how.[^2] His case rests on two changes. Environmental science is being asked big questions about a complex system under pressure from climate change, so it is becoming more integrative and cross-disciplinary. At the same time it has far more data than before, from remote sensing, instruments on and below the ground, citizen science and mining the web, and needs tools to make sense of that messy data.[^2] He names the planned investment in this area, citing Bauer and colleagues' paper "A digital twin of Earth for the green transition" and the European Commission's [Destination Earth](/engines/destination-earth/).[^2]
+He starts with why, which he says the debate usually skips in favour of what and how.[^2] His case rests on two changes. Environmental science is being asked big questions about a complex system under pressure from climate change, so it is becoming more integrative and cross-disciplinary. At the same time it has far more data than before, from remote sensing, instruments on and below the ground, citizen science and mining the web, and needs tools to make sense of that messy data.[^2] He names the planned investment in this area, citing Bauer and colleagues' paper "A digital twin of Earth for the green transition" and the European Commission's [Destination Earth](/twins/destination-earth/).[^2]
 
 **Is it not just a model?** His answer is "yes" and "no", leaning to no.[^2] Environmental process models encode scientific understanding in mathematics, but they use data mostly for calibration and do not yet take full advantage of the new data.[^2] A twin built only on big data and machine learning is also a no for him, because process understanding is core to science.[^2] He places process modelling and data modelling on one spectrum and says the key to a twin is finding the point where the two work together.[^2]
 

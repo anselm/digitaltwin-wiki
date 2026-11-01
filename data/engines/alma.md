@@ -13,6 +13,7 @@ about:
     - New Zealand
     - policy testing
 tool:
+  tier: 4
   form: in-house simulation platform, offered as a service
   group: People and populations
   homepage: 'https://www.phfscience.nz/expertise/data-science-ai/alma'

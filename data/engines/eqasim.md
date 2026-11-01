@@ -13,6 +13,7 @@ about:
     - MATSim
     - Python
 tool:
+  tier: 2
   form: open-source Python pipeline
   group: People and populations
   homepage: 'https://eqasim-org.github.io/eqasim-france'

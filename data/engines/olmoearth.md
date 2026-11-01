@@ -12,6 +12,7 @@ about:
     - sentinel
     - fine-tuning
 tool:
+  tier: 3
   form: open-weights model family, precomputed embeddings and hosted platform
   group: Earth observation and AI
   homepage: 'https://olmoearth.allenai.org/'

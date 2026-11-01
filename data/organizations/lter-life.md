@@ -22,7 +22,7 @@ domains:
   - water
 relations:
   - predicate: built_on
-    target: engines/naavre
+    target: platforms/naavre
 provenance:
   origin: agent
   sources:
@@ -49,7 +49,7 @@ LTER-LIFE is a Dutch scientific infrastructure for shared, integrated ecological
 
 The work is done by researchers and software developers at NIOO-KNAW, NIOZ, the University of Amsterdam, Wageningen University and RIVM, supported by teams at LifeWatch VLIC, Wageningen Research, the Netherlands eScience Center and DANS-KNAW.[^2] Marcel Visser of NIOO-KNAW chairs the steering board, and Geerten Hengeveld of NIOO-KNAW is executive manager; each site has a community coordinator.[^2] It builds on three national infrastructures. LTER-NL runs long-term ecosystem monitoring at two sites and is part of LTER-Europe. NemNet runs national monitoring of soil, water and air. LifeWatch develops virtual laboratories.[^2]
 
-It works in three ways: bringing together the researchers who study different parts of the same ecosystem, a portal to find data, models and tools for those communities (including old datasets), and a virtual research environment where they can be reused and connected.[^1] Inside that environment, a virtual lab gathers the data, models and analysis tools for one ecosystem, and a twin is assembled in the lab, updated with measurements from the real place, and used for experiments and scenarios on the computer.[^3] The models can be process-based, written from how the system works, or data-driven, from statistics or machine learning; both are to be made findable, accessible, interoperable and reusable (FAIR).[^3] LTER-LIFE is to be an open-source infrastructure: users can run its assets on their own machines or in the cloud through its partner SURF, and workflows and data used in projects get a persistent identifier and are stored by DANS-KNAW and SURF.[^3] The lab environment it uses is [NaaVRE](/engines/naavre/), which it is developing further for building twins.[^4]
+It works in three ways: bringing together the researchers who study different parts of the same ecosystem, a portal to find data, models and tools for those communities (including old datasets), and a virtual research environment where they can be reused and connected.[^1] Inside that environment, a virtual lab gathers the data, models and analysis tools for one ecosystem, and a twin is assembled in the lab, updated with measurements from the real place, and used for experiments and scenarios on the computer.[^3] The models can be process-based, written from how the system works, or data-driven, from statistics or machine learning; both are to be made findable, accessible, interoperable and reusable (FAIR).[^3] LTER-LIFE is to be an open-source infrastructure: users can run its assets on their own machines or in the cloud through its partner SURF, and workflows and data used in projects get a persistent identifier and are stored by DANS-KNAW and SURF.[^3] The lab environment it uses is [NaaVRE](/platforms/naavre/), which it is developing further for building twins.[^4]
 
 LTER-LIFE is building its services step by step, and several can already be tried, some at an early stage.[^4]
 - **NatureDataCube**, geodata for Dutch nature areas through one API (below).[^4]

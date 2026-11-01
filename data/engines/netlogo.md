@@ -12,6 +12,7 @@ about:
     - simulation framework
     - modelling language
 tool:
+  tier: 1
   form: open-source modelling language, desktop and browser
   group: People and populations
   homepage: 'https://netlogo.org'

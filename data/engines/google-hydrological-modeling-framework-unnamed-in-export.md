@@ -13,6 +13,7 @@ about:
     - open source
     - river
 tool:
+  tier: 3
   homepage: 'https://github.com/google-research/flood-forecasting'
   form: open-source library
   group: Water and flooding

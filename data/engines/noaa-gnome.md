@@ -11,6 +11,7 @@ about:
     - ocean currents
     - emergency response
 tool:
+  tier: 2
   form: web application (WebGNOME), part of the GNOME Suite
   group: Wildlife and oceans
   homepage: 'https://response.restoration.noaa.gov/oil-and-chemical-spills/oil-spills/response-tools/gnome.html'

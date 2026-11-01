@@ -13,6 +13,7 @@ about:
     - social simulation
     - scenario
 tool:
+  tier: 3
   form: open-source application
   group: Agents and system dynamics
   homepage: 'https://github.com/666ghj/MiroFish'

@@ -53,9 +53,9 @@ relations:
   - predicate: about
     target: terms/digital-twin
   - predicate: cites
-    target: engines/destination-earth
+    target: twins/destination-earth
   - predicate: cites
-    target: engines/nasa-earth-system-digital-twins
+    target: organizations/nasa-earth-system-digital-twins
   - predicate: cites
     target: engines/weathernext-nvidia-earth-2
   - predicate: answers
@@ -75,7 +75,7 @@ provenance:
   status: draft
 ---
 
-A digital twin of the Earth, as this paper defines it, is a digital representation of the Earth system across scales and domains, built to monitor it, forecast it and assess the consequences of human interventions, and to let users interact with it and question it.[^2] The European Commission's [Destination Earth](/engines/destination-earth/), [NASA's Earth System Digital Twin](/engines/nasa-earth-system-digital-twins/) and [NVIDIA's Earth-2](/engines/weathernext-nvidia-earth-2/) are the examples it names, and it says all three have a strong technological focus.[^2] The authors, 28 climate scientists, computer scientists and social scientists, mostly from Dutch and German universities and institutes, argue that this is not enough: people must be accounted for both inside the twin and outside it.[^2] The paper grew out of a Digital Twin Earth workshop at the Lorentz Center in Leiden in February 2023 and was published as a Perspective in August 2024.[^1,2]
+A digital twin of the Earth, as this paper defines it, is a digital representation of the Earth system across scales and domains, built to monitor it, forecast it and assess the consequences of human interventions, and to let users interact with it and question it.[^2] The European Commission's [Destination Earth](/twins/destination-earth/), [NASA's Earth System Digital Twin](/organizations/nasa-earth-system-digital-twins/) and [NVIDIA's Earth-2](/engines/weathernext-nvidia-earth-2/) are the examples it names, and it says all three have a strong technological focus.[^2] The authors, 28 climate scientists, computer scientists and social scientists, mostly from Dutch and German universities and institutes, argue that this is not enough: people must be accounted for both inside the twin and outside it.[^2] The paper grew out of a Digital Twin Earth workshop at the Lorentz Center in Leiden in February 2023 and was published as a Perspective in August 2024.[^1,2]
 
 They start with how climate information reaches people now. Global climate models are run under storylines of future society and emissions; their output cascades down into regional and sectoral models, gathering uncertainty at each step. The authors say it can take up to a decade for knowledge to flow from that scientific base into action.[^2] Many climate services involve users only at the last link of that chain.[^2] A twin, they argue, could reverse the flow, starting from what people need and value and letting them shape what information is generated in the first place.[^2] They also note that models still do not simulate clouds, convection and the boundary layer directly, so systematic biases persist. Raising resolution helps, but moderate gains can multiply computing cost by orders of magnitude, and machine learning is being used to correct coarser models more cheaply.[^2]
 

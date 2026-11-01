@@ -17,6 +17,7 @@ about:
     - scenarios
     - Python
 tool:
+  tier: 2
   form: open-source modelling framework (Python and R, GAMS solver)
   group: Energy and utilities
   homepage: 'https://docs.messageix.org/'

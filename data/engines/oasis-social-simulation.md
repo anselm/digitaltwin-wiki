@@ -13,6 +13,7 @@ about:
     - recommendation systems
     - CAMEL-AI
 tool:
+  tier: 3
   form: open-source Python package
   group: People and populations
   homepage: 'https://github.com/camel-ai/oasis'

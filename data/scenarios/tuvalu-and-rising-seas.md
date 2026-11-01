@@ -28,7 +28,7 @@ relations:
   - predicate: example_of
     target: questions/flooding
   - predicate: needs
-    target: engines/coastsat
+    target: capture/coastsat
 provenance:
   origin: agent
   sources:
@@ -84,4 +84,4 @@ Sea level, tides and storm waves meet the reef, which supplies the sand and grav
 
 ## Where to start
 
-The government's [2026 submission to the UN](https://sdgs.un.org/sites/default/files/2026-02/Tuvalu.pdf) sets out what it sees happening and what it wants. The Funafuti study by Kench and colleagues maps shoreline position at 29 islands in six snapshots from 1897 to 2013,[^8] a baseline that [CoastSat](/engines/coastsat/) could extend with Landsat imagery and Sentinel-2 imagery from [Copernicus](/data-sources/copernicus-data-space/). Waves, sand and reef can be modelled with a coastal model such as [Delft3D](/engines/deltares-delft3d/). The [use case on flooding](/questions/flooding/) lists more tools.
+The government's [2026 submission to the UN](https://sdgs.un.org/sites/default/files/2026-02/Tuvalu.pdf) sets out what it sees happening and what it wants. The Funafuti study by Kench and colleagues maps shoreline position at 29 islands in six snapshots from 1897 to 2013,[^8] a baseline that [CoastSat](/capture/coastsat/) could extend with Landsat imagery and Sentinel-2 imagery from [Copernicus](/data-sources/copernicus-data-space/). Waves, sand and reef can be modelled with a coastal model such as [Delft3D](/engines/deltares-delft3d/). The [use case on flooding](/questions/flooding/) lists more tools.

@@ -15,6 +15,7 @@ about:
     - inundation
     - coastal
 tool:
+  tier: 1
   homepage: 'https://water.noaa.gov/about/nwm'
   form: operational hydrologic forecast model
   group: Water and flooding

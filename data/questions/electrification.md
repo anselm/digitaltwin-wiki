@@ -27,7 +27,7 @@ The local wires and substations were built for other loads. Utilities, cities an
 
 **Energy system models** represent generation, storage and transmission as a network and find the cheapest way to meet demand hour by hour under given constraints, over years of investment. They answer the mix question. **Network models** represent the physical wires, poles and transformers of a distribution system and answer the where-and-when question for a particular street or substation. The two are often run separately and rarely talk to each other.
 
-On this site, [PyPSA](/engines/pypsa-pypsa-eur/) is an open energy system model, and PyPSA-Eur its ready-made model of Europe. [Neara](/engines/neara/) is a commercial network model built from asset and spatial data. The [UK National Digital Twin Programme](/engines/uk-ndtp/) is a national programme to connect infrastructure data across sectors.
+On this site, [PyPSA](/engines/pypsa-pypsa-eur/) is an open energy system model, and PyPSA-Eur its ready-made model of Europe. [Neara](/engines/neara/) is a commercial network model built from asset and spatial data. The [UK National Digital Twin Programme](/organizations/uk-ndtp/) is a national programme to connect infrastructure data across sectors.
 
 ## What you need
 

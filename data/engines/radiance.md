@@ -12,6 +12,7 @@ about:
     - glare
     - open source
 tool:
+  tier: 1
   form: Open-source lighting simulation
   group: Sensory landscape
   homepage: 'https://www.radiance-online.org/'

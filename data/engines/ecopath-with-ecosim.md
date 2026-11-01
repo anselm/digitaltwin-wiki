@@ -12,6 +12,7 @@ about:
     - ecosystem model
     - contaminants
 tool:
+  tier: 1
   form: desktop modelling suite
   group: Wildlife and oceans
   homepage: 'https://ecopath.org/'

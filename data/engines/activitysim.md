@@ -13,6 +13,7 @@ about:
     - synthetic population
     - Python
 tool:
+  tier: 2
   form: open-source Python framework
   group: People and populations
   homepage: 'https://activitysim.github.io/activitysim/v1.6.0/'

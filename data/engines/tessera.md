@@ -12,6 +12,7 @@ about:
     - sentinel
     - land cover
 tool:
+  tier: 3
   form: open model and open embeddings dataset
   group: Earth observation and AI
   homepage: 'https://geotessera.org/'

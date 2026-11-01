@@ -11,6 +11,7 @@ about:
     - transport demand
     - Java
 tool:
+  tier: 1
   form: Open simulation framework
   group: Transport and crowds
   homepage: 'https://matsim.org/'

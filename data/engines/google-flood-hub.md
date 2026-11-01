@@ -14,6 +14,7 @@ about:
     - warning
     - inundation
 tool:
+  tier: 2
   homepage: 'https://sites.research.google/floods/'
   form: hosted forecast service
   group: Water and flooding

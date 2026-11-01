@@ -12,6 +12,7 @@ about:
     - energy markets
     - complexity economics
 tool:
+  tier: 3
   form: commercial simulation models and platform
   group: Agents and system dynamics
   homepage: 'https://www.macrocosm.group/'

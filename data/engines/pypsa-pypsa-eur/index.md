@@ -12,6 +12,7 @@ about:
     - power grid
     - open source
 tool:
+  tier: 1
   form: Open energy-system models
   group: Energy and utilities
   homepage: 'https://pypsa.org/'

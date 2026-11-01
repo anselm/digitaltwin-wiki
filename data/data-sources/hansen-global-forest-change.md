@@ -36,7 +36,7 @@ domains:
   - climate
 relations:
   - predicate: part_of
-    target: engines/google-earth-engine
+    target: platforms/google-earth-engine
     note: in the Earth Engine data catalogue as UMD/hansen/global_forest_change_2025_v1_13
   - predicate: contributes_to
     target: data-sources/global-nature-watch
@@ -74,6 +74,6 @@ Only the loss year and the last composite are updated each year.[^1]
 
 The makers describe the limits. Changes in the Landsat sensors, in the number of images each year and in the algorithm mean that years are not strictly comparable.[^1] Loss from 2011 onward has been reprocessed with newer methods, while earlier years have not.[^1] A full validation with Landsat 8 data has not been done.[^1] They call the maps a relative indicator of trends, suggest smoothing them over time, for example with a three-year moving average, and say forest area should not be estimated by counting pixels; instead the maps can guide a statistical sample.[^1] A version 2.0 reprocessing of the whole record is planned with no date set.[^1]
 
-The data are licensed CC BY 4.0, free for any use including commercial, with the display credit "Source: Hansen/UMD/Google/USGS/NASA".[^1] Tiles can be downloaded as GeoTIFFs, and the whole set is also an asset in the [Google Earth Engine](/engines/google-earth-engine/) catalogue, where it can be analysed in place; the makers provide an introductory tutorial.[^1,2] They ask users to register so they can keep them informed of updates.[^1]
+The data are licensed CC BY 4.0, free for any use including commercial, with the display credit "Source: Hansen/UMD/Google/USGS/NASA".[^1] Tiles can be downloaded as GeoTIFFs, and the whole set is also an asset in the [Google Earth Engine](/platforms/google-earth-engine/) catalogue, where it can be analysed in place; the makers provide an introductory tutorial.[^1,2] They ask users to register so they can keep them informed of updates.[^1]
 
 For someone modelling a place, the maps give a year-by-year record since 2001 of where tree cover was lost, at about 30 m, starting from the tree cover of 2000.[^1] The updated method detects some kinds of loss better: fire in boreal forests, smallholder rotation clearing in the tropics, selective logging and the clearing of short-cycle plantations.[^1] Comparing one year with another needs their warnings in mind.[^1]

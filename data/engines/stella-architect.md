@@ -13,6 +13,7 @@ about:
     - interactive simulation
     - teaching
 tool:
+  tier: 2
   form: commercial desktop modelling software
   group: Agents and system dynamics
   homepage: 'https://iseesystems.com/store/products/stella-architect.aspx'

@@ -12,6 +12,7 @@ about:
     - Python
     - stocks and flows
 tool:
+  tier: 2
   form: open-source Python library
   group: Agents and system dynamics
   homepage: 'https://pysd.readthedocs.io/'

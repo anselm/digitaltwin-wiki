@@ -54,4 +54,4 @@ Ship movements and how long each hull sat at anchor; water temperature and salin
 
 ## Where to start
 
-The authors plan to model ship routes, the chance of fouling for each vessel, and whether species survive the voyage, to find the highest-risk ports.[^1] They recommend settlement plates (panels left in the water and checked for what grows) at high-risk ports, and fast warnings to port authorities and regional biosecurity networks.[^1] For traffic through the strait itself, [Portolan](/engines/portolan/) shows ships a day from IMF PortWatch's satellite ship-tracking.
+The authors plan to model ship routes, the chance of fouling for each vessel, and whether species survive the voyage, to find the highest-risk ports.[^1] They recommend settlement plates (panels left in the water and checked for what grows) at high-risk ports, and fast warnings to port authorities and regional biosecurity networks.[^1] For traffic through the strait itself, [Portolan](/presentation/portolan/) shows ships a day from IMF PortWatch's satellite ship-tracking.

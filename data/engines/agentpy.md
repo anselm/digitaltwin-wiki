@@ -14,6 +14,7 @@ about:
     - sensitivity analysis
     - simulation framework
 tool:
+  tier: 4
   form: open-source Python library
   group: Agents and system dynamics
   homepage: 'https://agentpy.readthedocs.io/'

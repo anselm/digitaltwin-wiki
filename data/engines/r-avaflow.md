@@ -13,6 +13,7 @@ about:
     - simulation
     - grass gis
 tool:
+  tier: 2
   form: open-source simulation tool
   group: Wildfire and risk
   homepage: 'https://www.landslidemodels.org/r.avaflow/'

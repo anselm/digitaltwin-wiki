@@ -12,6 +12,7 @@ about:
     - Python
     - large-scale simulation
 tool:
+  tier: 2
   form: open-source C++ and Python library
   group: Agents and system dynamics
   homepage: 'https://flamegpu.com/'

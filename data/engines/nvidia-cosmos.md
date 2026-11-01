@@ -13,6 +13,7 @@ about:
     - robotics
     - video generation
 tool:
+  tier: 3
   form: foundation models and tooling
   group: 3D cities and mapping
   homepage: 'https://www.nvidia.com/en-us/ai/cosmos/'

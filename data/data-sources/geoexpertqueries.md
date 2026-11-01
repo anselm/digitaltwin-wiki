@@ -49,7 +49,7 @@ domains:
   - places
 relations:
   - predicate: about
-    target: engines/google-earth-ai-geospatial-reasoning-agent
+    target: platforms/google-earth-ai-geospatial-reasoning-agent
     note: evaluates (source_claim; exact implementation not independently tested)
 ---
 It is one of two Geospatial Reasoning Benchmarks released with Google Research's technical report on the Google Earth AI Geospatial Reasoning Agent (arXiv 2610.15750, submitted 11 October 2026).[^1,2,3] Each problem is of the kind a GIS analyst meets in practice.[^1,3] Three independent geospatial experts wrote and cross-verified each problem, and each is paired with a consensus reference workflow.[^1,3]

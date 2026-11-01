@@ -16,6 +16,7 @@ about:
     - economics
     - cost-benefit
 tool:
+  tier: 2
   form: research model (GAMS and Excel)
   group: Weather and climate
   homepage: 'https://yale.box.com/s/whlqcr7gtzdm4nxnrfhvap2hlzebuvvm'

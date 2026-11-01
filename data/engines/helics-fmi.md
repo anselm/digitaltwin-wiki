@@ -11,6 +11,7 @@ about:
     - interoperability
     - standards
 tool:
+  tier: 2
   form: Co-simulation framework and standard
   group: Research infrastructure
   homepage: 'https://helics.org/'

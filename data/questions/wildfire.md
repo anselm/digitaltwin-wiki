@@ -27,7 +27,7 @@ Communities, utilities and agencies in fire country ask it to learn where they a
 
 **Fire spread models** simulate the fire front across the landscape from fuel, terrain and weather. They are mature, and fire agencies run them operationally. **Risk models** run many spread simulations under many weather days and combine the results with where assets are, producing maps of likelihood and exposure. Both depend on the fuel map, which holds most of the uncertainty. Lidar, laser scanning that measures the shape of vegetation from the air, is producing new fuel data that is changing that.
 
-On this site, [Technosylva](/engines/technosylva/), [FireVision](/engines/firevision-opalai/) and [FLAIM](/engines/flaim-earthdaily-fire-likelihood-ai-model/) are commercial services used by agencies, utilities and insurers. The [CTrees 3D fuels model](/data-sources/ctrees-3d-fuels-model/) is an open lidar-derived fuel dataset for fire models to read. Open spread engines exist and are not yet on this site.
+On this site, [Technosylva](/engines/technosylva/), [FireVision](/capture/firevision-opalai/) and [FLAIM](/engines/flaim-earthdaily-fire-likelihood-ai-model/) are commercial services used by agencies, utilities and insurers. The [CTrees 3D fuels model](/data-sources/ctrees-3d-fuels-model/) is an open lidar-derived fuel dataset for fire models to read. Open spread engines exist and are not yet on this site.
 
 ## What you need
 

@@ -27,7 +27,7 @@ A council or a classroom has several ideas on the table. People want to see the 
 
 These models are built for a room full of people. Some are **simulators** of a whole system, simple enough to run in a browser and change in real time, so that a group can try a combination and watch the result move. Some are **negotiation tools** that hold alternative spatial plans side by side so that people can mark what they support and see where they agree.
 
-On this site, [En-ROADS](/engines/en-roads/) is Climate Interactive's climate simulator, built for workshops and moved by sliders in a browser. [Geodesignhub](/engines/geodesignhub/) organises spatial proposals and the negotiation among their authors. [Bay Layers](/twins/bay-layers/) is a browser scene that shows how a place is built from shared layers. Agreeing on those layers is the first step for a group.
+On this site, [En-ROADS](/engines/en-roads/) is Climate Interactive's climate simulator, built for workshops and moved by sliders in a browser. [Geodesignhub](/communication/geodesignhub/) organises spatial proposals and the negotiation among their authors. [Bay Layers](/twins/bay-layers/) is a browser scene that shows how a place is built from shared layers. Agreeing on those layers is the first step for a group.
 
 ## What you need
 

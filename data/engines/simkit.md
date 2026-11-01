@@ -12,6 +12,7 @@ about:
     - Java
     - queues
 tool:
+  tier: 4
   form: open-source Java library
   group: Agents and system dynamics
   homepage: 'https://github.com/ahbuss/Simkit'

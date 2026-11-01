@@ -13,6 +13,7 @@ about:
     - synthetic respondents
     - Microsoft
 tool:
+  tier: 3
   form: open-source Python library
   group: People and populations
   homepage: 'https://github.com/microsoft/TinyTroupe'

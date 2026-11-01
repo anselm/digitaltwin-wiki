@@ -13,6 +13,7 @@ about:
     - census
     - Julia
 tool:
+  tier: 3
   form: open-source research code (Python, Julia, R)
   group: People and populations
   homepage: 'https://github.com/CDDEP-DC/GREASYPOP-CO'

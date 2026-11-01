@@ -12,6 +12,7 @@ about:
     - microdata
     - R
 tool:
+  tier: 2
   form: open-source R package (CRAN)
   group: People and populations
   homepage: 'https://github.com/statistikat/simPop'

@@ -12,6 +12,7 @@ about:
     - LLM agents
     - commercial
 tool:
+  tier: 3
   form: commercial hosted service
   group: People and populations
   homepage: 'https://www.simile.com/'

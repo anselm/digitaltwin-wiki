@@ -21,7 +21,7 @@ domains:
   - people
 relations:
   - predicate: needs
-    target: engines/cyfi
+    target: capture/cyfi
 provenance:
   origin: agent
   sources:
@@ -53,4 +53,4 @@ River flow and how it moves through the lagoon; water temperature and nutrients;
 
 ## Where to start
 
-The Oregon State team's 73-page report sets out the designs and models.[^1] For tracking blooms from space, [CyFi](/engines/cyfi/) estimates cyanobacteria density in small lakes and reservoirs from Sentinel-2 imagery.
+The Oregon State team's 73-page report sets out the designs and models.[^1] For tracking blooms from space, [CyFi](/capture/cyfi/) estimates cyanobacteria density in small lakes and reservoirs from Sentinel-2 imagery.

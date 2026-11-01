@@ -14,6 +14,7 @@ about:
     - Smallville
     - Stanford
 tool:
+  tier: 4
   form: open-source research code
   group: People and populations
   homepage: 'https://github.com/joonspk-research/generative_agents'

@@ -10,6 +10,7 @@ about:
     - energy modelling
     - retrofit
 tool:
+  tier: 2
   form: Commercial modeling platform
   group: Energy and utilities
   homepage: 'https://www.iesve.com/digital-twins'

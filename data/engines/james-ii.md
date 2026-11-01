@@ -12,6 +12,7 @@ about:
     - discrete-event
     - research software
 tool:
+  tier: 4
   form: open-source Java framework
   group: Agents and system dynamics
   homepage: 'http://web.archive.org/web/20210302145559/http://jamesii.informatik.uni-rostock.de/jamesii.org/'

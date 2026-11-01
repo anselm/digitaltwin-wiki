@@ -12,6 +12,7 @@ about:
     - satellite
     - ai model
 tool:
+  tier: 4
   homepage: 'https://arxiv.org/abs/2609.03210'
   form: research model
   group: Weather and climate

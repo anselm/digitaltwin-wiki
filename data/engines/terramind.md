@@ -12,6 +12,7 @@ about:
     - sentinel
     - generative
 tool:
+  tier: 3
   form: open model
   group: Earth observation and AI
   homepage: 'https://ibm.github.io/terramind/'

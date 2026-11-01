@@ -12,6 +12,7 @@ about:
     - global temperature
     - Python
 tool:
+  tier: 2
   form: open-source Python research model
   group: Weather and climate
   homepage: 'https://docs.fairmodel.net/'

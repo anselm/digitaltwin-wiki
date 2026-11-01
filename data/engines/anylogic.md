@@ -11,6 +11,7 @@ about:
     - pedestrians
     - traffic
 tool:
+  tier: 1
   form: Commercial modeling environment
   group: Agents and system dynamics
   homepage: 'https://www.anylogic.com/'

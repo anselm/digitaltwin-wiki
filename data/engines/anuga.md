@@ -12,6 +12,7 @@ about:
     - shallow water
     - python
 tool:
+  tier: 2
   form: open-source hydrodynamic solver (Python with C extensions)
   group: Water and flooding
   homepage: 'https://anuga.readthedocs.io/en/latest/'

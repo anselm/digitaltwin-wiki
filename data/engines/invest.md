@@ -11,6 +11,7 @@ about:
     - natural capital
     - conservation
 tool:
+  tier: 1
   form: Open ecosystem-service models
   group: Ecosystems and land
   homepage: 'https://naturalcapitalalliance.stanford.edu/software'

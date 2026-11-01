@@ -69,7 +69,7 @@ relations:
   - predicate: needs
     target: ontologies/gbfs
   - predicate: needs
-    target: engines/osrm
+    target: platforms/osrm
 provenance:
   origin: agent
   sources:
@@ -90,7 +90,7 @@ It runs in the browser on your own machine and starts without any API keys. The 
 - forecast wind from [GFS](/data-sources/noaa-gfs/) or [ECMWF Open Data](/data-sources/ecmwf-open-data/), radar and cloud, and recent satellite imagery from [GIBS](/data-sources/nasa-gibs/)
 - public traffic cameras, and licence-plate reader locations tagged in [OpenStreetMap](/data-sources/openstreetmap-osm/)
 - street-level photos from [Mapillary](/data-sources/mapillary/), [Panoramax](/data-sources/panoramax/) and [KartaView](/data-sources/kartaview/)
-- live transit vehicles from [GTFS Realtime](/ontologies/gtfs/) feeds, bikeshare stations from [GBFS](/ontologies/gbfs/), and routes from [OSRM](/engines/osrm/)
+- live transit vehicles from [GTFS Realtime](/ontologies/gtfs/) feeds, bikeshare stations from [GBFS](/ontologies/gbfs/), and routes from [OSRM](/platforms/osrm/)
 - road traffic, simulated along real roads from aggregate data
 
 Each layer is its own module, so adding a city's own feed means writing one more. Voice control runs through OpenAI's realtime API, and keys that must stay private go through a small server-side proxy.

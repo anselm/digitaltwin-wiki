@@ -16,6 +16,7 @@ about:
     - global
     - R package
 tool:
+  tier: 4
   form: research model, C# and C++ code with an R package
   group: Ecosystems and land
   homepage: 'https://madingley.github.io/'

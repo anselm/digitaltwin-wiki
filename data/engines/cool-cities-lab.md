@@ -15,6 +15,7 @@ about:
     - shade
     - thermal comfort
 tool:
+  tier: 3
   form: hosted web platform with an open data API
   group: Weather and climate
   homepage: 'https://coolcities.wri.org/'

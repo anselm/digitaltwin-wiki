@@ -84,6 +84,13 @@ export function load({ params }) {
       const groups = [...scales, [undefined, 'Other']].map(([k, label]) => ({ label, items: items.filter((_, i) => (scales.some(([s]) => s === kids[i].scenario.scale) ? kids[i].scenario.scale : undefined) === k) })).filter((g) => g.items.length)
       return { ...base, items, groups }
     }
+    // Engines are shelved by how much use they are to someone choosing one (tool.tier, set from evidence in devlog/20261101-engines-by-standing.md); within a tier, tools on the same subject sit together.
+    if (kids.length && kids.every((c) => c.tool?.tier)) {
+      const tiers = [[1, 'Widely used'], [2, 'Specialist'], [3, 'New or unproven'], [4, 'Research, dormant or closed']]
+      const order = (i) => String(kids[i].tool.group || '') + ' ' + items[i].label
+      const groups = tiers.map(([t, label]) => ({ label, items: items.filter((_, i) => kids[i].tool.tier === t).sort((a, b) => order(items.indexOf(a)).localeCompare(order(items.indexOf(b)))) })).filter((g) => g.items.length)
+      return { ...base, items, groups }
+    }
     // A shelf groups itself when every entry names a group of its own (tool.group or about.group), or when it is long and most do.
     const own = kids.every((c) => c.tool?.group || c.about?.group)
     const grouped = own || (items.length > 12 && items.filter((i) => i.group).length > items.length / 2)

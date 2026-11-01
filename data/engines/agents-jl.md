@@ -13,6 +13,7 @@ about:
     - simulation framework
     - OpenStreetMap
 tool:
+  tier: 2
   form: open-source Julia library
   group: Agents and system dynamics
   homepage: 'https://juliadynamics.github.io/Agents.jl/stable/'
