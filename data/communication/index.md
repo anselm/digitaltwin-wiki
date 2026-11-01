@@ -14,7 +14,7 @@ provenance:
   reviewed_by: 'Claude, from a conversation with Anselm on what the stack leaves out'
   status: draft
 ---
-A model can be right and still change nothing, because the people who live with its answer never meet it, or meet it as a chart they cannot question. This shelf is the step after [presentation](/presentation/): not drawing a result, but getting it to the people it concerns in a form they can use.
+A model can be right and still change nothing, because the people who live with its answer never meet it, or meet it as a chart they cannot question. This shelf is about getting a result to the people it concerns in a form they can use.
 
 There are two halves to it. One is showing: local graphics a weather presenter can put on air, a single number made to mean something in one town, an animation that makes a slow change visible. The tools for this have changed quickly, and making motion graphics no longer takes a studio.
 

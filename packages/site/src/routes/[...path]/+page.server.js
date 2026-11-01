@@ -84,11 +84,14 @@ export function load({ params }) {
       const groups = [...scales, [undefined, 'Other']].map(([k, label]) => ({ label, items: items.filter((_, i) => (scales.some(([s]) => s === kids[i].scenario.scale) ? kids[i].scenario.scale : undefined) === k) })).filter((g) => g.items.length)
       return { ...base, items, groups }
     }
-    // Engines are shelved by how much use they are to someone choosing one (tool.tier, set from evidence in devlog/20261101-engines-by-standing.md); within a tier, tools on the same subject sit together.
-    if (kids.length && kids.every((c) => c.tool?.tier)) {
-      const tiers = [[1, 'Widely used'], [2, 'Specialist'], [3, 'New or unproven'], [4, 'Research, dormant or closed']]
-      const order = (i) => String(kids[i].tool.group || '') + ' ' + items[i].label
-      const groups = tiers.map(([t, label]) => ({ label, items: items.filter((_, i) => kids[i].tool.tier === t).sort((a, b) => order(items.indexOf(a)).localeCompare(order(items.indexOf(b)))) })).filter((g) => g.items.length)
+    // Engines and twins are shelved by standing (tool.tier or twin.tier, set from evidence in devlog/20261101-engines-by-standing.md); within a tier, entries on the same subject sit together.
+    const tierOf = (c) => c.tool?.tier || c.twin?.tier
+    if (kids.length && kids.every(tierOf)) {
+      const tiers = kids.every((c) => c.twin)
+        ? [[1, 'Running and relied on'], [2, 'Running'], [3, 'Pilot or prototype'], [4, 'Ended, dormant or other']]
+        : [[1, 'Widely used'], [2, 'Specialist'], [3, 'New or unproven'], [4, 'Research, dormant or closed']]
+      const order = (i) => String(kids[i].tool?.group || kids[i].twin?.scale || '') + ' ' + items[i].label
+      const groups = tiers.map(([t, label]) => ({ label, items: items.filter((_, i) => tierOf(kids[i]) === t).sort((a, b) => order(items.indexOf(a)).localeCompare(order(items.indexOf(b)))) })).filter((g) => g.items.length)
       return { ...base, items, groups }
     }
     // A shelf groups itself when every entry names a group of its own (tool.group or about.group), or when it is long and most do.

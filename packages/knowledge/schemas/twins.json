@@ -12,7 +12,7 @@
     "article":      { "folder": "posts",        "fields": ["url", "published", "publisher", "authors"] },
     "guide":        { "folder": "guides",       "fields": ["stage", "audience"] },
     "term":         { "folder": "terms",        "fields": ["aka"] },
-    "twin":         { "folder": "twins",        "fields": ["place", "sector", "scale", "operational", "homepage"] },
+    "twin":         { "folder": "twins",        "fields": ["place", "sector", "scale", "operational", "tier", "homepage"] },
     "question":     { "folder": "questions",    "fields": [] },
     "scenario":     { "folder": "scenarios",    "fields": ["place", "since", "scale"] },
     "everyday":     { "folder": "everyday",     "fields": ["asked_by", "answered_by"] },
