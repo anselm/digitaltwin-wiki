@@ -11,6 +11,7 @@ about:
     - cascading failure
     - UK
 twin:
+  tier: 3
   place: 'United Kingdom'
   operational: 'pilot'
   homepage: 'https://cp.catapult.org.uk/project/climate-resilience-demonstrator-credo/'

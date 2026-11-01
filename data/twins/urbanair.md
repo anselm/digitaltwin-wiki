@@ -13,6 +13,7 @@ about:
     - Horizon Europe
     - Europe
 twin:
+  tier: 3
   place: 'Antwerp, Barcelona, Paris, Bristol and Rotterdam'
   scale: city
   operational: research

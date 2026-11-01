@@ -13,6 +13,7 @@ about:
     - biodiversity
     - French Polynesia
 twin:
+  tier: 4
   place: 'Moorea and Tetiaroa, French Polynesia'
   scale: island
   operational: research

@@ -54,3 +54,17 @@ because it simulates robots, not places.
 
 The bands are judgements and say so on the shelf page; a tier is a
 field in each entry, changed by hand when the evidence changes.
+
+## Twins, the same way (2026-11-01)
+
+Anselm: "Leave those two in twins - twins also could be sorted by
+quality." An agent gathered evidence for all 26 (live or not, who relies
+on it, what is open, end dates); table in `20261101-twins-by-standing.tsv`.
+Bands: Running and relied on 3 (Chesapeake CAST, the NSW Spatial Digital
+Twin, the Tees Valley traffic twin), Running 9, Pilot or prototype 6,
+Ended, dormant or other 8. Soft calls between bands 1 and 2: eReefs (its
+near-real-time runs paused since January 2024), Destination Earth,
+Virtual Singapore, Zürich, Boston, 3D Amsterdam. He also said shelf pages
+should not editorialise or describe the site's wider structure ("we may
+insert or remove layers"), so the shelf intros now describe only their
+own shelf.

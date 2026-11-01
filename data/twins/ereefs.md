@@ -12,6 +12,7 @@ about:
     - open data
     - Australia
 twin:
+  tier: 2
   place: 'Great Barrier Reef, Australia'
   scale: reef
   operational: operational

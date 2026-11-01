@@ -13,6 +13,7 @@ about:
     - open platform
     - Europe
 twin:
+  tier: 3
   place: 'European seas and the global ocean'
   scale: ocean
   operational: pilot

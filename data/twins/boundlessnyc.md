@@ -16,6 +16,7 @@ about:
     - synthetic data
     - open source
 twin:
+  tier: 3
   place: New York City
   scale: city
   operational: 'yes'

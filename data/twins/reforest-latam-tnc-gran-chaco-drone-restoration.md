@@ -13,6 +13,7 @@ about:
     - argentina
     - native trees
 twin:
+  tier: 4
   place: 'Gran Chaco, Argentina'
   operational: 'pilot'
   homepage: 'https://blog.nature.org/2026/08/17/reforesting-the-gran-chaco-with-drones/'

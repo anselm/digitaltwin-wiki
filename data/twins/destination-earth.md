@@ -14,6 +14,7 @@ about:
     - weather
     - supercomputing
 twin:
+  tier: 2
   place: 'Earth'
   scale: 'planet'
   operational: 'operational'

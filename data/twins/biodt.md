@@ -15,6 +15,7 @@ about:
     - Europe
     - prototype
 twin:
+  tier: 4
   place: 'Europe'
   operational: 'research'
   homepage: 'https://biodt.eu/'

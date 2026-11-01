@@ -14,6 +14,7 @@ about:
     - planning
 domains: [places]
 twin:
+  tier: 2
   place: Singapore
   scale: city-state
   operational: 'yes'

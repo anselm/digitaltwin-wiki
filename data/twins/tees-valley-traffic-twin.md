@@ -13,6 +13,7 @@ about:
     - real-time
     - Tees Valley
 twin:
+  tier: 1
   place: 'Tees Valley (Teesside, Darlington and Hartlepool), UK'
   scale: region
   operational: operational

@@ -14,6 +14,7 @@ about:
     - statehood
     - Pacific
 twin:
+  tier: 3
   place: Tuvalu
   scale: nation
   operational: in development

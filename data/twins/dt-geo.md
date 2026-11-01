@@ -15,6 +15,7 @@ about:
     - early warning
     - Europe
 twin:
+  tier: 4
   place: 'thirteen site demonstrators in Europe, Chile and Japan'
   operational: 'research'
   homepage: 'https://dtgeo.eu/'

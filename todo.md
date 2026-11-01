@@ -154,3 +154,5 @@ TESSERA was missing because the wiki grew from the survey, the LinkedIn scrape, 
 ## From Mike Liebhold (2026-10-26)
 
 - Systems Change Lab, forests and land (https://systemschangelab.org/forests-and-land): being drafted as data/data-sources/systems-change-lab.md.
+- Chesapeake CAST: the entry calls Phase 6 version 8.5.1 the model of record; Bay Program pages read on 2026-11-01 give 7.14.3 and 7.12.1 (perhaps watershed-model versus CAST numbering). Check against the sources and correct.
+- WANSEC links OpenFOAM and ParaView, which neither project page names (from the LinkedIn import); its Antigua and Barbuda part was declared complete on 26 August 2026 with no model published. Recheck the entry.

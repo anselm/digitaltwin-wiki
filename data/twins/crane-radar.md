@@ -15,6 +15,7 @@ about:
     - forecasting
     - Netherlands
 twin:
+  tier: 2
   place: 'The Netherlands, Belgium and Luxembourg, with parts of northern France and northwest Germany'
   scale: region
   operational: operational

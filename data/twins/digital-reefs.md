@@ -13,6 +13,7 @@ about:
     - conservation
     - reef management
 twin:
+  tier: 4
   scale: 'reef'
   operational: 'research'
   homepage: 'https://digitalreefs.org/'

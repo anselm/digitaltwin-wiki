@@ -11,6 +11,7 @@ about:
     - open data
     - SketchUp
 twin:
+  tier: 2
   place: 'Boston, Massachusetts, United States'
   scale: city
   operational: operational

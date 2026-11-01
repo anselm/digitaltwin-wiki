@@ -13,6 +13,7 @@ about:
     - civic
 domains: [places, energy]
 twin:
+  tier: 2
   place: 'Helsinki, Finland; Bologna, Italy'
   scale: city
   operational: 'Helsinki yes; Bologna in development'

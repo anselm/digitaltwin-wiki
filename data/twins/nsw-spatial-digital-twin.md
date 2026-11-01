@@ -13,6 +13,7 @@ about:
     - spatial data
     - collaboration portal
 twin:
+  tier: 1
   place: 'New South Wales, Australia'
   scale: region
   operational: operational

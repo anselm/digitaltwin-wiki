@@ -12,6 +12,7 @@ about:
     - scenario planning
     - United States
 twin:
+  tier: 1
   place: 'Chesapeake Bay watershed, United States'
   scale: region
   operational: operational

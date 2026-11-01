@@ -10,6 +10,7 @@ about:
     - Unity
     - Netherlands3D
 twin:
+  tier: 2
   place: 'Amsterdam, Netherlands'
   scale: city
   operational: operational

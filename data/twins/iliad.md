@@ -11,6 +11,7 @@ about:
     - Horizon 2020
     - training
 twin:
+  tier: 4
   place: 'Ocean; an EU project with many partners, no single site named on the pages read'
   scale: ocean
   operational: research

@@ -12,6 +12,7 @@ about:
     - 3D Tiles
     - CityGML
 twin:
+  tier: 2
   place: 'Rotterdam, Netherlands'
   scale: city
   operational: operational

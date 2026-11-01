@@ -14,6 +14,7 @@ about:
     - caribbean
     - elkhorn
 twin:
+  tier: 4
   place: 'Jamaica, Barbados, and Antigua and Barbuda'
   operational: 'research'
   homepage: 'https://www.mona.uwi.edu/mori/research-spotlight/wave-attenuation-natural-solutions-elkhorn-coral-wansec'

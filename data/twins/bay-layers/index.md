@@ -12,6 +12,7 @@ domains:
   - water
   - ecology
 twin:
+  tier: 4
   place: San Francisco Bay
   scale: Bay Area
   operational: false

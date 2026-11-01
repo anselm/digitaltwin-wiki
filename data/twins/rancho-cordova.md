@@ -13,6 +13,7 @@ about:
     - traffic simulation
     - robotics
 twin:
+  tier: 3
   place: 'Rancho Cordova, California, USA'
   scale: city
   operational: operational

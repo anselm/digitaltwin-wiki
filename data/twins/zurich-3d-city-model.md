@@ -10,6 +10,7 @@ about:
     - CityGML
     - LoD2
 twin:
+  tier: 2
   place: 'Zürich, Switzerland'
   scale: city
   operational: operational
