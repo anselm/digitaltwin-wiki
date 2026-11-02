@@ -1,5 +1,7 @@
 ---
 about:
+  depiction: articles/mansfield-solodoch-globalization-and-the-hinterland.jpg
+  depiction_credit: 'Figure 2 of the paper: revealed comparative advantage in agriculture by country, 1995 (top) and 2015 (bottom), from red (below 0.5) to dark green (above 3). Mansfield and Solodoch 2026, CC BY 4.0.'
   label: 'Globalization and the hinterland'
   description: >-
     Whether country people turn against trade depends on whether their own
@@ -61,4 +63,4 @@ County data show what NAFTA did on the ground. In rural counties with competitiv
 
 For someone modelling how a rural place will react to a trade deal or a change in what its land can grow, the useful finding is that the response can be predicted from something measurable: whether the local farms can compete. A person's own job and income predict it less well. Comparative advantage can also shift, and the paper names climate change as one cause. Whether climate shocks, new trade agreements or the rules of the green transition provoke the same reaction is a question they leave open.[^1]
 
-The survey compilation, the regional measures and the code are published on the journal's Dataverse.[^2] The paper is open access under CC BY 4.0.
+The survey compilation, the regional measures and the code are published on the journal's Dataverse.[^2] The paper is open access under CC BY 4.0, so its Figure 2 can be shown above. It maps each country's advantage in farm exports in 1995 and 2015: China moved from advantage to disadvantage, while Brazil, Ukraine and Zambia gained.[^1]
