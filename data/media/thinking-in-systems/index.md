@@ -17,6 +17,9 @@ book:
   year: 2008
   isbn: '9781603580557'
   url: 'https://openlibrary.org/works/OL3737036W'
+relations:
+  - predicate: made_by
+    target: people/donella-meadows
 provenance:
   origin: agent
   sources:
@@ -29,7 +32,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Meadows, one of the authors of The Limits to Growth, wrote this short book to bring systems thinking out of the computer and into ordinary reasoning. The opening chapters cover the basics of stocks, flows and feedback, then a zoo of common system types and why systems work as well as they do. Later chapters work through system traps and opportunities. The book ends with leverage points, the places to intervene in a system, and with living in a world of systems.
+[Meadows](/people/donella-meadows/), one of the authors of The Limits to Growth, wrote this short book to bring systems thinking out of the computer and into ordinary reasoning. The opening chapters cover the basics of stocks, flows and feedback, then a zoo of common system types and why systems work as well as they do. Later chapters work through system traps and opportunities. The book ends with leverage points, the places to intervene in a system, and with living in a world of systems.
 
 Meadows died before the book was finished. Diana Wright of the Sustainability Institute completed and edited it from her draft manuscript, and it was published in 2008.
 

@@ -18,6 +18,9 @@ book:
 domains:
   - places
   - people
+relations:
+  - predicate: made_by
+    target: people/jay-forrester
 provenance:
   origin: agent
   sources:
@@ -32,6 +35,6 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Forrester applied the system dynamics method developed at MIT to a city. System dynamics describes a system as stocks, such as people or houses, that rise and fall through flows and feedback loops. The model treats an urban area as a closed system linking population, housing and industry. It runs a city through growth, maturity and decline over long periods, then tests the remedies proposed at the time against the model. Many of the results ran against accepted policy. Those results made the book controversial and started a research programme that reached into government urban policy.
+[Forrester](/people/jay-forrester/) applied the system dynamics method developed at MIT to a city. System dynamics describes a system as stocks, such as people or houses, that rise and fall through flows and feedback loops. The model treats an urban area as a closed system linking population, housing and industry. It runs a city through growth, maturity and decline over long periods, then tests the remedies proposed at the time against the model. Many of the results ran against accepted policy. Those results made the book controversial and started a research programme that reached into government urban policy.
 
 It is the first whole-city computer model and the one most later efforts react to. The book states a system's boundary, stocks and rates explicitly, and tests policies inside the model before anyone tries them outside. Its conclusions are a case of a model's assumptions deciding the outcome.

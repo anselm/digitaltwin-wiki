@@ -40,7 +40,7 @@ provenance:
   status: draft
 ---
 
-The National Academies Press published the report in 2024;[^5] its highlights sheet is dated December 2023.[^4] The Department of Defense, the Department of Energy, the National Institutes of Health and the National Science Foundation sponsored the study.[^1,4] Karen E. Willcox of the University of Texas at Austin chaired a committee of sixteen.[^3] Members included the climate modeller James L. Kinter, Ruby Leung, chief scientist of the Energy Exascale Earth System Model, and Xinyue Ye of Texas A&M, who works on geospatial AI and smart cities.[^1,3] The study's brief called for three public workshops: on biomedicine, on Earth and environmental systems, and on engineering.[^1]
+The National Academies Press published the report in 2024;[^5] its highlights sheet is dated December 2023.[^4] The Department of Defense, the Department of Energy, the National Institutes of Health and the National Science Foundation sponsored the study.[^1,4] [Karen E. Willcox](/people/karen-willcox/) of the University of Texas at Austin chaired a committee of sixteen.[^3] Members included the climate modeller James L. Kinter, Ruby Leung, chief scientist of the Energy Exascale Earth System Model, and Xinyue Ye of Texas A&M, who works on geospatial AI and smart cities.[^1,3] The study's brief called for three public workshops: on biomedicine, on Earth and environmental systems, and on engineering.[^1]
 
 The committee adapted its definition from a 2020 position paper of the American Institute of Aeronautics and Astronautics:[^2,4]
 

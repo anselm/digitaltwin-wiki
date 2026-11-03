@@ -18,6 +18,9 @@ book:
   url: 'https://openlibrary.org/works/OL20186750W'
 domains:
   - places
+relations:
+  - predicate: made_by
+    target: people/michael-batty
 provenance:
   origin: agent
   sources:
@@ -30,7 +33,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Batty describes cities as organism-like systems that grow out of countless individual and collective decisions, not from any plan. He argues that no set of economic or mechanical laws can forecast cities.
+[Batty](/people/michael-batty/) describes cities as organism-like systems that grow out of countless individual and collective decisions, not from any plan. He argues that no set of economic or mechanical laws can forecast cities.
 
 The book is about the processes that produce change more than about physical form. It covers:
 

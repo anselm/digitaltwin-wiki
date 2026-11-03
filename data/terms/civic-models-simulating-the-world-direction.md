@@ -74,7 +74,7 @@ Such a model covers some part of the world, a watershed, a city's zoning or a ri
 
 - Philip Meyer's precision journalism
 - the World3 model behind Limits to Growth
-- Buckminster Fuller's World Game
+- [Buckminster Fuller](/people/buckminster-fuller/)'s World Game
 - Climate Interactive's C-ROADS and En-ROADS
 - participatory modelling of watersheds and fisheries
 - SimCity

@@ -22,6 +22,11 @@ book:
 domains:
   - places
   - mobility
+relations:
+  - predicate: made_by
+    target: people/michael-goodchild
+  - predicate: made_by
+    target: people/michael-batty
 provenance:
   origin: agent
   sources:

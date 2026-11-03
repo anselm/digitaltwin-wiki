@@ -39,7 +39,7 @@ Live models drift from the question they were built for, and begin to be asked t
 
 The users change, the operators change, the people affected stay. Tell them, once a year, what the model is doing with their place and their data. That is the [privacy note](/guides/protect-people-s-privacy/) kept current.
 
-An ontology (the agreed vocabulary of things and relations a model uses) is part of what drifts. Jessica Talisman argues that a vocabulary starts to drift on the day it is deployed, and that maintenance is the project, not a phase at its end. The review of [The Ontology Pipeline](/ontologies/the-ontology-pipeline/) covers her argument.
+An ontology (the agreed vocabulary of things and relations a model uses) is part of what drifts. [Jessica Talisman](/people/jessica-talisman/) argues that a vocabulary starts to drift on the day it is deployed, and that maintenance is the project, not a phase at its end. The review of [The Ontology Pipeline](/ontologies/the-ontology-pipeline/) covers her argument.
 
 ## This site
 

@@ -19,6 +19,8 @@ book:
 domains:
   - people
 relations:
+  - predicate: made_by
+    target: people/wendell-bell
   - predicate: about
     target: terms/foresight-and-anticipation
 provenance:
@@ -41,10 +43,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Wendell Bell (1924 to 2019) was a professor of sociology at Yale, where he chaired the sociology department, and worked as a futurist for over forty years.[^5] Foundations of Futures Studies: Human Science for a New Era is his two-volume account of the field, published by Transaction Publishers of New Brunswick; Open Library's records date the first edition to 1996 and 1997.[^1][^2] The first volume is subtitled History, Purposes, and Knowledge and the second Values, Objectivity, and the Good Society.[^3][^4]
+[Wendell Bell](/people/wendell-bell/) (1924 to 2019) was a professor of sociology at Yale, where he chaired the sociology department, and worked as a futurist for over forty years.[^5] Foundations of Futures Studies: Human Science for a New Era is his two-volume account of the field, published by Transaction Publishers of New Brunswick; Open Library's records date the first edition to 1996 and 1997.[^1][^2] The first volume is subtitled History, Purposes, and Knowledge and the second Values, Objectivity, and the Good Society.[^3][^4]
 
 The publisher describes futures studies as "a new field of inquiry involving systematic and explicit thinking about alternative futures".[^4] The first volume's six chapters cover the field as a new area of inquiry, its purposes, its assumptions, whether it is an art or a science, an epistemology "from positivism to critical realism", and methods and exemplars of futures research.[^1][^4] The description lists Bell's five purposes: to show that futures studies exists as an identifiable field, to provide a basic text for core courses, to "futurize" the thinking of specialists in other disciplines, to improve the field, and to give ordinary people and leaders tools to create better futures.[^4]
 
 In 2008 the Association of Professional Futurists named the two volumes among the ten most important futures studies books, and in 2005 the World Futures Studies Federation gave Bell a lifetime achievement award.[^5] Wikipedia's history of the field places the work among the 1990s attempts to give futures studies a coherent framework.[^6]
 
-A reader coming to futures work from modelling will find here a sociologist's case for how claims about the future can be judged, set out as chapters on assumptions, epistemology and method.[^4] Its chapter "Is Futures Studies an Art or a Science?" takes up the question that Bertrand de Jouvenel answered with [The Art of Conjecture](/media/the-art-of-conjecture/).[^1][^4]
+A reader coming to futures work from modelling will find here a sociologist's case for how claims about the future can be judged, set out as chapters on assumptions, epistemology and method.[^4] Its chapter "Is Futures Studies an Art or a Science?" takes up the question that [Bertrand de Jouvenel](/people/bertrand-de-jouvenel/) answered with [The Art of Conjecture](/media/the-art-of-conjecture/).[^1][^4]

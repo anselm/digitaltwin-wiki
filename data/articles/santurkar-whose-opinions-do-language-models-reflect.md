@@ -30,6 +30,9 @@ open:
   participation: unknown
   licence: unknown
   note: Code is public at github.com/tatsu-lab/opinions_qa with no licence stated; the OpinionQA dataset is linked from there on CodaLab.
+relations:
+  - predicate: made_by
+    target: people/percy-liang
 provenance:
   origin: agent
   sources:

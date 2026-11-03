@@ -41,6 +41,13 @@ open:
   api: unknown
   participation: open
   note: The 2003 charter is free to read in JASSS. Cormas, the agent-based platform its authors pointed to, is under the MIT licence.
+relations:
+  - predicate: made_by
+    target: people/michel-etienne
+  - predicate: made_by
+    target: people/olivier-barreteau
+  - predicate: made_by
+    target: people/francois-bousquet
 provenance:
   origin: agent
   sources:
@@ -63,7 +70,7 @@ provenance:
 ---
 Companion modelling, ComMod for short (in French, modélisation d'accompagnement), is a way of building a model of how people share a renewable resource, such as land, water or forest, together with the people concerned.[^1,2] The main tools are role-playing games and agent-based models, computer simulations in which each farmer, herder or household is a separate actor with its own rules.[^1,2] In practice a researcher draws up a first model of how the place works, puts it in front of the people concerned through simulations or role-playing games, and revises or rebuilds it from what they say and do.[^1] The cycle of field work, modelling, simulation and field work again repeats, and leaves a family of models rather than one finished one.[^1]
 
-The approach was set out in 2003 as a charter in the Journal of Artificial Societies and Social Simulation.[^1,3] Its twelve signatories came from CIRAD, Cemagref, INRA, the Tour du Valat and the IFB.[^1] Among them were the CIRAD modellers François Bousquet and Christophe Le Page, the Cemagref water scientist Olivier Barreteau and the INRA plant ecologist Michel Etienne.[^1] A French version was finalised in 2004, and a shorter text for a wider audience in 2013.[^3] The charter calls it a scientific stance rather than a modelling handbook, and the model "merely an intermediary object" for shared thinking.[^1]
+The approach was set out in 2003 as a charter in the Journal of Artificial Societies and Social Simulation.[^1,3] Its twelve signatories came from CIRAD, Cemagref, INRA, the Tour du Valat and the IFB.[^1] Among them were the CIRAD modellers [François Bousquet](/people/francois-bousquet/) and Christophe Le Page, the Cemagref water scientist [Olivier Barreteau](/people/olivier-barreteau/) and the INRA plant ecologist [Michel Etienne](/people/michel-etienne/).[^1] A French version was finalised in 2004, and a shorter text for a wider audience in 2013.[^3] The charter calls it a scientific stance rather than a modelling handbook, and the model "merely an intermediary object" for shared thinking.[^1]
 
 The charter gives it two uses. One is to understand a system: researchers and local people learn together, and the model seeks "a mutual recognition of everyone representation" of the problem rather than simplifying what people know.[^1] The other is to support a collective decision, by making each party's points of view and criteria explicit.[^1] Here the charter says the aim is not the best solution but a better process, and that the scientific view is one among others.[^1] Every assumption behind the model is meant to be discarded after each round in the field, which is to say put up for refutation.[^1]
 

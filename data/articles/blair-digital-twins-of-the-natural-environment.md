@@ -23,6 +23,8 @@ article:
 domains:
   - ecology
 relations:
+  - predicate: made_by
+    target: people/gordon-blair
   - predicate: about
     target: terms/digital-twin
   - predicate: cites
@@ -42,7 +44,7 @@ provenance:
   status: draft
 ---
 
-Gordon Blair is a professor of distributed systems at Lancaster University and co-director of the Centre of Excellence in Environmental Data Science, a joint initiative of Lancaster and the UK Centre for Ecology & Hydrology.[^2] He wrote this short opinion piece after several workshops on twins of the natural environment, as his attempt to make sense of what he heard.[^2] It is open under CC BY 4.0.[^2]
+[Gordon Blair](/people/gordon-blair/) is a professor of distributed systems at Lancaster University and co-director of the Centre of Excellence in Environmental Data Science, a joint initiative of Lancaster and the UK Centre for Ecology & Hydrology.[^2] He wrote this short opinion piece after several workshops on twins of the natural environment, as his attempt to make sense of what he heard.[^2] It is open under CC BY 4.0.[^2]
 
 He starts with why, which he says the debate usually skips in favour of what and how.[^2] His case rests on two changes. Environmental science is being asked big questions about a complex system under pressure from climate change, so it is becoming more integrative and cross-disciplinary. At the same time it has far more data than before, from remote sensing, instruments on and below the ground, citizen science and mining the web, and needs tools to make sense of that messy data.[^2] He names the planned investment in this area, citing Bauer and colleagues' paper "A digital twin of Earth for the green transition" and the European Commission's [Destination Earth](/twins/destination-earth/).[^2]
 
@@ -64,6 +66,6 @@ He says these depend on open data and open science, and that he is more confiden
 
 He calls the whole a possible moonshot for environmental science, and warns that a half-built twin falls back into familiar practice, a better process model or a better data model.[^2]
 
-**Scale and place.** His closing worry is a rush to the most glamorous examples, such as a new generation of Earth system models.[^2] He asks for room at global, national, regional, local and hyper-local scales, and expects some of the most exciting work at the local end, where one reasons about place.[^2] He links this to Keith Beven's idea of "models of everywhere", which they revisited together in a 2019 paper.[^2]
+**Scale and place.** His closing worry is a rush to the most glamorous examples, such as a new generation of Earth system models.[^2] He asks for room at global, national, regional, local and hyper-local scales, and expects some of the most exciting work at the local end, where one reasons about place.[^2] He links this to [Keith Beven](/people/keith-beven/)'s idea of "models of everywhere", which they revisited together in a 2019 paper.[^2]
 
 Someone planning a model of a watershed or a town can put Blair's two questions to the plan: does it do more than a model would, and more than data assimilation would? He expects integration and interoperability to be harder in practice than they look, and harder than finding the computing power.[^2] The 2026 paper [Digital twins as a tool for ecosystem research](/articles/digital-twins-for-ecosystem-research/) takes up the jam sandwich and works through the building blocks least familiar to ecologists.[^3] The National Academies report [Foundational Research Gaps and Future Directions for Digital Twins](/articles/nasem-digital-twins-research-gaps/) covers data assimilation and model-data hybrids from the mathematical side.

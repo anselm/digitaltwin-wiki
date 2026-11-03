@@ -23,6 +23,9 @@ article:
     - W. Weaver
 domains:
   - people
+relations:
+  - predicate: made_by
+    target: people/warren-weaver
 provenance:
   origin: agent
   sources:
@@ -36,7 +39,7 @@ provenance:
   status: draft
 ---
 
-Warren Weaver wrote this short essay in 1948, from the Rockefeller Foundation in New York, three years after a war in which he had headed the US Applied Mathematics Panel.[^1] In the same years he was writing, with Claude Shannon, *The Mathematical Theory of Communication* (University of Illinois Press, 1949), the book that founded information theory.[^1,2] The essay asks what science is good for, and answers by sorting the problems science has taken on into three kinds.[^1]
+[Warren Weaver](/people/warren-weaver/) wrote this short essay in 1948, from the Rockefeller Foundation in New York, three years after a war in which he had headed the US Applied Mathematics Panel.[^1] In the same years he was writing, with Claude Shannon, *The Mathematical Theory of Communication* (University of Illinois Press, 1949), the book that founded information theory.[^1,2] The essay asks what science is good for, and answers by sorting the problems science has taken on into three kinds.[^1]
 
 **Problems of simplicity.** From the seventeenth to the nineteenth century, physics learned to handle problems with two variables, or three or four: one quantity depending mainly on another. That gave the telephone, the car and the hydroelectric plant. Living things rarely allow it; in them, dozens of quantities change at once, in subtly connected ways.[^1]
 

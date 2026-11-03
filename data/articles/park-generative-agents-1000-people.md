@@ -38,6 +38,12 @@ open:
   licence: MIT (the code repository)
   note: Interview transcripts are held in a restricted-access "agent bank"; aggregated survey responses are open. The GitHub repository was last pushed in November 2024.
 relations:
+  - predicate: made_by
+    target: people/michael-bernstein
+  - predicate: made_by
+    target: people/joon-sung-park
+  - predicate: made_by
+    target: people/percy-liang
   - predicate: cites
     target: articles/argyle-out-of-one-many-silicon-samples
   - predicate: cites
@@ -58,7 +64,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed (numbers from the June 2026 revision unless marked as the 2024 version)'
   status: draft
 ---
-Most simulated respondents are built from a few demographic facts: age, sex, party, state. This study, led by Joon Sung Park and Michael S. Bernstein at Stanford University with colleagues at Northwestern, the University of Washington, Google DeepMind and Sciences Po, built each agent from much more: a two-hour interview with the real person it stands for.[^1] A survey firm recruited 1,052 Americans; an AI interviewer, speaking aloud, took each through the American Voices Project interview schedule, and each also answered surveys and took part in experiments.[^1] GPT-4o then answered new questions in the voice of each person, given their transcript.[^1] The paper was posted in November 2024 as "Generative Agent Simulations of 1,000 People" and revised in June 2026 under a new title, "LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals".[^1,2]
+Most simulated respondents are built from a few demographic facts: age, sex, party, state. This study, led by [Joon Sung Park](/people/joon-sung-park/) and [Michael S. Bernstein](/people/michael-bernstein/) at Stanford University with colleagues at Northwestern, the University of Washington, Google DeepMind and Sciences Po, built each agent from much more: a two-hour interview with the real person it stands for.[^1] A survey firm recruited 1,052 Americans; an AI interviewer, speaking aloud, took each through the American Voices Project interview schedule, and each also answered surveys and took part in experiments.[^1] GPT-4o then answered new questions in the voice of each person, given their transcript.[^1] The paper was posted in November 2024 as "Generative Agent Simulations of 1,000 People" and revised in June 2026 under a new title, "LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals".[^1,2]
 
 The yardstick is the person. Each participant retook the same surveys two weeks later and matched their own earlier answers 79.5% of the time on the General Social Survey, a long-running US survey of attitudes.[^1] Interview agents matched 65.7%, which is 83% of what the person managed. Agents built from survey answers reached 82%, agents with both 86%, and agents given demographics alone 74%.[^1] (The 2024 version reported 85% for interview agents.)[^2] For the Big Five personality test the interview agents reached 80% of the people's own consistency.[^1] In five classic social-science experiments, the agents' effects pointed the same way as the participants' and were highly correlated with them (r from 0.91 to 0.99), but larger.[^1] In economic games played for real money, no kind of agent did significantly better than the demographics-only agents.[^1]
 

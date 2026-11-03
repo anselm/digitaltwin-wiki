@@ -25,6 +25,12 @@ open:
 domains:
   - people
 relations:
+  - predicate: made_by
+    target: people/michael-bernstein
+  - predicate: made_by
+    target: people/joon-sung-park
+  - predicate: made_by
+    target: people/percy-liang
   - predicate: built_on
     target: engines/generative-agents
   - predicate: alternative_to
@@ -41,7 +47,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Simile sells simulations of people. Its site says its simulations show "how and why customers, employees, or populations respond to change", such as a new product concept, a price or a message.[^1] The founders are Joon Sung Park (chief executive), who led the Stanford research on [generative agents](/engines/generative-agents/), Michael Bernstein (chief data officer) and Percy Liang (chief scientist), all from Stanford.[^1] The site announces "our Series B: $200M funding at a $2B valuation".[^1]
+Simile sells simulations of people. Its site says its simulations show "how and why customers, employees, or populations respond to change", such as a new product concept, a price or a message.[^1] The founders are [Joon Sung Park](/people/joon-sung-park/) (chief executive), who led the Stanford research on [generative agents](/engines/generative-agents/), [Michael Bernstein](/people/michael-bernstein/) (chief data officer) and [Percy Liang](/people/percy-liang/) (chief scientist), all from Stanford.[^1] The site announces "our Series B: $200M funding at a $2B valuation".[^1]
 
 By the company's account, each simulated population starts from real people.[^1] Simile's algorithms design large studies daily, and the company combines the responses with its own datasets of human behaviour to train its models.[^1] It says it validates against real people weekly, with over 7,000 evaluations across subpopulations and real enterprise use cases, and that these feed a confidence model that tags every result with a predicted accuracy level.[^1] It says it re-collects data when it detects that the world has drifted from the model.[^1] Customers can bring their own data, such as loyalty data, balance histories or telemetry.[^1]
 

@@ -22,6 +22,8 @@ book:
   isbn: '9798898161392'
   url: 'https://www.ontologypipeline.com/bookpage'
 relations:
+  - predicate: made_by
+    target: people/jessica-talisman
   - predicate: cites
     target: terms/ontology
 provenance:
@@ -65,7 +67,7 @@ The book also covers SKOS taxonomies, thesauri, RDF, OWL, SHACL and SPARQL, the 
 5. Ontology: formal classes, properties and rules, started from competency questions.
 6. Knowledge graph: the stages brought together and queried.
 
-Talisman holds that the order cannot be skipped. A taxonomy built on an undefined vocabulary is not sound, and a knowledge graph built without the stages beneath it will not reason reliably. She first published the framework [as a post](https://jessicatalisman.substack.com/p/the-ontology-pipeline) in 2025, drawing on library and information science and the Semantic Web. She says it was codified from implementations at six institutions over ten years.
+[Talisman](/people/jessica-talisman/) holds that the order cannot be skipped. A taxonomy built on an undefined vocabulary is not sound, and a knowledge graph built without the stages beneath it will not reason reliably. She first published the framework [as a post](https://jessicatalisman.substack.com/p/the-ontology-pipeline) in 2025, drawing on library and information science and the Semantic Web. She says it was codified from implementations at six institutions over ten years.
 
 A [2026 refresh](https://moderndata101.substack.com/p/the-ontology-pipeline-refresh), on Modern Data 101 and [on her own newsletter](https://jessicatalisman.substack.com/p/the-ontology-pipeline-refreshed), keeps the stages and adds two disciplines around them. Governance keeps an ontology coherent as the organisation changes. In AI partnership, a model surfaces candidate terms, flags inconsistencies and runs tests while a person keeps the modelling judgement. The refresh also takes the field to task: AI-generated taxonomies sold as strategy, the word ontology attached to product category trees, and too few people who know the method as well as the vocabulary.
 

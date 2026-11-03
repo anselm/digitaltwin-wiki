@@ -24,6 +24,10 @@ open:
   participation: open
   licence: CC0-1.0
 relations:
+  - predicate: made_by
+    target: people/vi-hart
+  - predicate: made_by
+    target: people/nicky-case
   - predicate: cites
     target: communication/explorable-explanations
 provenance:
@@ -40,10 +44,10 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Parable of the Polygons is a "playable post" by Vi Hart and Nicky Case, listed among Case's projects for 2014.[^2,3] It runs in a web page and is a short story told through a series of small simulations of a town of triangles and squares.[^1]
+Parable of the Polygons is a "playable post" by [Vi Hart](/people/vi-hart/) and [Nicky Case](/people/nicky-case/), listed among Case's projects for 2014.[^2,3] It runs in a web page and is a short story told through a series of small simulations of a town of triangles and squares.[^1]
 
 Each shape wants to move if fewer than a third of its neighbours share its shape.[^1] At first the reader drags each unhappy shape to an empty spot by hand until nobody is unhappy, and the town ends up sharply divided even though every shape would be content in a mixed neighbourhood.[^1] Later panels move the shapes automatically and add a graph of how segregated the town is over time.[^1] A slider sets the shapes' bias, so the reader can lower it to zero; in a town that starts segregated, nothing changes.[^1] Another setting gives the shapes a small wish for variety, and then the town mixes again.[^1] A large sandbox at the end lets the reader set both values freely.[^1]
 
-The simulation is based on Thomas Schelling's 1971 paper "Dynamic Models of Segregation".[^1] Hart and Case write that what they added was showing how a small demand for diversity can undo the segregation.[^1] They note that real life is more nuanced and link to W.A.V. Clark's 1991 test of the Schelling model against real data.[^1] They say the post was inspired by Bret Victor's [Explorable Explanations](/communication/explorable-explanations/) and by Ian Bogost's idea of procedural rhetoric.[^1] The page links translations into more than fifteen languages and versions others built from it, and the playable post is dedicated to the public domain under CC0, with the makers inviting people to use it in classrooms, make adaptations or modify the source code.[^1,2]
+The simulation is based on [Thomas Schelling](/people/thomas-schelling/)'s 1971 paper "Dynamic Models of Segregation".[^1] Hart and Case write that what they added was showing how a small demand for diversity can undo the segregation.[^1] They note that real life is more nuanced and link to W.A.V. Clark's 1991 test of the Schelling model against real data.[^1] They say the post was inspired by [Bret Victor](/people/bret-victor/)'s [Explorable Explanations](/communication/explorable-explanations/) and by Ian Bogost's idea of procedural rhetoric.[^1] The page links translations into more than fifteen languages and versions others built from it, and the playable post is dedicated to the public domain under CC0, with the makers inviting people to use it in classrooms, make adaptations or modify the source code.[^1,2]
 
 Here a published model of how neighbourhoods sort is small enough that a reader with no background can run it by hand. The result for the town is one no single shape asked for.

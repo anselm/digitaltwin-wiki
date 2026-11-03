@@ -20,6 +20,8 @@ book:
 domains:
   - people
 relations:
+  - predicate: made_by
+    target: people/alvin-toffler
   - predicate: about
     target: terms/foresight-and-anticipation
 provenance:
@@ -44,11 +46,11 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Future Shock is a 1970 book by Alvin Toffler, written together with his wife, Heidi Toffler.[^3] Random House published it in New York that year, and The Bodley Head in London.[^1][^2] It grew out of an article, "The Future as a Way of Life", in the Summer 1965 issue of Horizon magazine, and the Tofflers spent five years on the research.[^3][^4]
+Future Shock is a 1970 book by [Alvin Toffler](/people/alvin-toffler/), written together with his wife, Heidi Toffler.[^3] Random House published it in New York that year, and The Bodley Head in London.[^1][^2] It grew out of an article, "The Future as a Way of Life", in the Summer 1965 issue of Horizon magazine, and the Tofflers spent five years on the research.[^3][^4]
 
 Toffler defined future shock as the state of people and whole societies faced with "too much change in too short a period of time".[^3] He argued that a new force, which he called "the accelerative thrust", had entered history, and that people, organisations and societies were unprepared for it.[^5] Most of the book follows that theme through different areas of life.[^5] He described the change as a move from industrial to "super-industrial" society, and the book popularised the term "information overload".[^3]
 
-The last part, "Strategies for Survival", has four chapters: on coping, on education, on taming technology, and on "the strategy of social futurism".[^5] The final chapter calls for social indicators that measure social and cultural goals alongside economic ones, for futurist staff in every department of government, local or national, and for a world futures data bank.[^5] On this Toffler built what he called "anticipatory democracy": "a continuing plebiscite on the future", simulations, and "social futures assemblies" to widen participation in social decisions.[^5] Clement Bezold, who later edited a book on the idea, says Toffler argued that representative government was the political technology of the industrial era and that new forms were needed to cope with an overload of decisions he called political future shock.[^6] David Guston, writing after Toffler's death in 2016, reads "anticipatory" there as long-term forecasting, especially computer models of economic, demographic and other trends, and "democracy" as town-hall meetings that give citizens some control over their lives.[^7]
+The last part, "Strategies for Survival", has four chapters: on coping, on education, on taming technology, and on "the strategy of social futurism".[^5] The final chapter calls for social indicators that measure social and cultural goals alongside economic ones, for futurist staff in every department of government, local or national, and for a world futures data bank.[^5] On this Toffler built what he called "anticipatory democracy": "a continuing plebiscite on the future", simulations, and "social futures assemblies" to widen participation in social decisions.[^5] [Clement Bezold](/people/clement-bezold/), who later edited a book on the idea, says Toffler argued that representative government was the political technology of the industrial era and that new forms were needed to cope with an overload of decisions he called political future shock.[^6] David Guston, writing after Toffler's death in 2016, reads "anticipatory" there as long-term forecasting, especially computer models of economic, demographic and other trends, and "democracy" as town-hall meetings that give citizens some control over their lives.[^7]
 
 The book sold more than 6 million copies within five years and was widely translated, and a documentary based on it, narrated by Orson Welles, followed in 1972.[^3] Richard Slaughter, writing thirty years on, counts it as one source of the ideas that led to futures studies as a field, and faults it for treating change as an outside force acting on "shocked" individuals while overlooking the institutions that produce the change.[^5] Toffler died in 2016.[^4]
 

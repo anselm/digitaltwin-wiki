@@ -33,6 +33,12 @@ open:
 domains:
   - people
 relations:
+  - predicate: made_by
+    target: people/michael-bernstein
+  - predicate: made_by
+    target: people/joon-sung-park
+  - predicate: made_by
+    target: people/percy-liang
   - predicate: alternative_to
     target: engines/concordia
   - predicate: alternative_to
@@ -55,7 +61,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Generative agents are software characters driven by a large language model (LLM), the kind of model behind ChatGPT. Joon Sung Park, Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang and Michael S. Bernstein described them in a 2023 paper presented at UIST '23, an ACM conference on user interfaces.[^1,2] Each agent keeps a running record of what it has seen, written in plain language.[^2] It periodically sums those memories up into higher-level reflections and draws on both to plan its day.[^2] In the paper's demonstration, 25 agents live in Smallville, a town styled after The Sims.[^2] Told only that one of them wants to throw a Valentine's Day party, the others spread invitations over two days, ask each other out and turn up at the right time.[^2]
+Generative agents are software characters driven by a large language model (LLM), the kind of model behind ChatGPT. [Joon Sung Park](/people/joon-sung-park/), Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, [Percy Liang](/people/percy-liang/) and [Michael S. Bernstein](/people/michael-bernstein/) described them in a 2023 paper presented at UIST '23, an ACM conference on user interfaces.[^1,2] Each agent keeps a running record of what it has seen, written in plain language.[^2] It periodically sums those memories up into higher-level reflections and draws on both to plan its day.[^2] In the paper's demonstration, 25 agents live in Smallville, a town styled after The Sims.[^2] Told only that one of them wants to throw a Valentine's Day party, the others spread invitations over two days, ask each other out and turn up at the right time.[^2]
 
 The code for that town is public on GitHub.[^1] It runs as two programs on your own machine: a Django web server that draws the map, and a Python simulation server that calls OpenAI's API.[^1] Each game step stands for ten seconds of town time.[^1] You can start from a three-agent or a 25-agent town, load your own histories for the characters, and replay a saved run in the browser.[^1] Renaming the characters or adding more than the map holds means editing the map in the Tiled map editor.[^1] The authors warn that runs could be costly, as of early 2023, and that the API can hang at its hourly rate limit.[^1] Nothing has been committed since August 2023, so it is a fixed research artefact, not a maintained tool.[^1]
 

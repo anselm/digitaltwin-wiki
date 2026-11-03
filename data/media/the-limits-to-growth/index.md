@@ -20,6 +20,9 @@ book:
 domains:
   - people
   - food
+relations:
+  - predicate: made_by
+    target: people/donella-meadows
 provenance:
   origin: agent
   sources:

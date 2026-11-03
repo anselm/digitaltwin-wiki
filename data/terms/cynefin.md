@@ -20,6 +20,8 @@ term:
     - Cynefin framework
     - Cynefin domains
 relations:
+  - predicate: made_by
+    target: people/dave-snowden
   - predicate: cites
     target: terms/foresight-and-anticipation
 domains:
@@ -54,7 +56,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Cynefin, created by Dave Snowden, helps people tell what kind of problem space they are in so they can decide how to act.[^1] Its wiki calls it "a decision support framework, not a method or model", resting on the view that there are few if any context-free solutions but many valid context-specific ones.[^1] The word is Welsh and is pronounced kuh-nev-in.[^3] Cynthia Kurtz and Snowden wrote that its literal translation, habitat or place, fails to do it justice, and that it is better understood as the place of our multiple affiliations: the cultural, religious, geographic and tribal roots that shape each of us.[^4]
+Cynefin, created by [Dave Snowden](/people/dave-snowden/), helps people tell what kind of problem space they are in so they can decide how to act.[^1] Its wiki calls it "a decision support framework, not a method or model", resting on the view that there are few if any context-free solutions but many valid context-specific ones.[^1] The word is Welsh and is pronounced kuh-nev-in.[^3] Cynthia Kurtz and Snowden wrote that its literal translation, habitat or place, fails to do it justice, and that it is better understood as the place of our multiple affiliations: the cultural, religious, geographic and tribal roots that shape each of us.[^4]
 
 ## Origin
 

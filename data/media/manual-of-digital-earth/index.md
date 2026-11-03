@@ -20,6 +20,9 @@ book:
 domains:
   - places
   - climate
+relations:
+  - predicate: made_by
+    target: people/michael-goodchild
 provenance:
   origin: agent
   sources:

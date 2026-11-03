@@ -26,6 +26,9 @@ open:
 domains:
   - people
   - energy
+relations:
+  - predicate: made_by
+    target: people/doyne-farmer
 provenance:
   origin: agent
   sources:
@@ -54,7 +57,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed; claims about the models are the company''s own, and the 2022 paper was read as its abstract only'
   status: draft
 ---
-Macrocosm builds agent-based models of the economy: simulations in which each firm, household, bank and government is represented on its own, with its own constraints and rules, and figures such as output, prices and employment come out of their interactions instead of being assumed.[^1,3] This approach is known as complexity economics.[^3] It was founded in 2023 to turn into products more than a decade of work by researchers at Oxford's Institute for New Economic Thinking, and it is a public benefit corporation.[^2] Doyne Farmer is its founder and chief scientist.[^2]
+Macrocosm builds agent-based models of the economy: simulations in which each firm, household, bank and government is represented on its own, with its own constraints and rules, and figures such as output, prices and employment come out of their interactions instead of being assumed.[^1,3] This approach is known as complexity economics.[^3] It was founded in 2023 to turn into products more than a decade of work by researchers at Oxford's Institute for New Economic Thinking, and it is a public benefit corporation.[^2] [Doyne Farmer](/people/doyne-farmer/) is its founder and chief scientist.[^2]
 
 It offers three simulators.[^1] The supply-chain simulator takes a shock such as an earthquake, a pandemic or a tariff and traces it week by week along supply links, giving output losses by firm, sector, country or region.[^6] As an example the company has published a scenario of a 15-week closure of the Strait of Hormuz across 80 countries and 49 sectors.[^6] The energy simulator represents generators, transmission lines and market participants, so a user can shut down a plant or add a battery and follow the effect on dispatch, prices and investment.[^5] The macroeconomic simulator forecasts GDP, inflation, employment and movement of workers between occupations from simulated firm and household behaviour, and is aimed at central banks, asset managers and policymakers.[^7]
 

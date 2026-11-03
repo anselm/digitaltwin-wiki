@@ -33,6 +33,8 @@ domains:
   - fire
   - ecology
 relations:
+  - predicate: made_by
+    target: people/johan-rockstrom
   - predicate: cites
     target: engines/en-roads
   - predicate: about

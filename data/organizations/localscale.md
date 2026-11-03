@@ -48,4 +48,4 @@ LocalScale works on resilient local economies through technology, science and re
 
 LocalScale names third-generation blockchain technology as the basis for transparency in these economies.
 
-The site offers a playbook, a bioregion explorer, a research section, a developer API and an organic seed-exchange project. A FundingHub was added in March 2026. Membership is free. Corporate and non-profit partners are listed, and Eduard Müller, Rieki Gordon and Kate Raworth are named as mentors or inspirations. There is no simulation, model or digital twin. The site's articles run from October 2025 to June 2026.
+The site offers a playbook, a bioregion explorer, a research section, a developer API and an organic seed-exchange project. A FundingHub was added in March 2026. Membership is free. Corporate and non-profit partners are listed, and Eduard Müller, Rieki Gordon and [Kate Raworth](/people/kate-raworth/) are named as mentors or inspirations. There is no simulation, model or digital twin. The site's articles run from October 2025 to June 2026.

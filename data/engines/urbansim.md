@@ -39,7 +39,7 @@ provenance:
 ---
 The model is used to analyse how land-use policies and infrastructure investments shape cities and regions.[^2] Its centre is the real-estate market and the transport system.[^2] Household and firm location, development and prices come from discrete choice models (statistical models of how people choose among options) at block, parcel or zone level.[^2]
 
-The research behind the model ran for more than a decade, led by Paul Waddell, Professor of City and Regional Planning at the University of California, Berkeley.[^2] The National Science Foundation and US metropolitan planning organisations funded that work.[^2] UrbanSim Inc., in Seattle, now sells it as a product.[^1,2]
+The research behind the model ran for more than a decade, led by [Paul Waddell](/people/paul-waddell/), Professor of City and Regional Planning at the University of California, Berkeley.[^2] The National Science Foundation and US metropolitan planning organisations funded that work.[^2] UrbanSim Inc., in Seattle, now sells it as a product.[^1,2]
 
 The main uses are forecasting land use 10 to 40 years ahead as input to a regional travel model, and testing the effects of transport investments, pricing, zoning changes, environmental constraints, macroeconomic shifts and major development projects.[^2] UrbanSim's documentation names 21 regions where it has been in operational use: 17 in the US and four abroad.[^2] The list includes San Francisco, Seattle and Paris.[^2]
 

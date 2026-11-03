@@ -23,6 +23,11 @@ domains:
   - places
   - people
   - mobility
+relations:
+  - predicate: made_by
+    target: people/alison-heppenstall
+  - predicate: made_by
+    target: people/andrew-crooks
 provenance:
   origin: agent
   sources:

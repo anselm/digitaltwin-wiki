@@ -18,6 +18,8 @@ book:
 domains:
   - people
 relations:
+  - predicate: made_by
+    target: people/bertrand-de-jouvenel
   - predicate: about
     target: terms/foresight-and-anticipation
 provenance:
@@ -44,7 +46,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Bertrand de Jouvenel (1903 to 1987) was a French philosopher and political economist.[^8] L'Art de la conjecture was published in Monaco by Éditions du Rocher in 1964.[^3] Nikita Lary's English translation, The Art of Conjecture, came out in 1967 from Basic Books in New York, at 307 pages, and from Weidenfeld and Nicolson.[^1][^2] A reissue appeared in 2012 and is now published by Routledge.[^4]
+[Bertrand de Jouvenel](/people/bertrand-de-jouvenel/) (1903 to 1987) was a French philosopher and political economist.[^8] L'Art de la conjecture was published in Monaco by Éditions du Rocher in 1964.[^3] Nikita Lary's English translation, The Art of Conjecture, came out in 1967 from Basic Books in New York, at 307 pages, and from Weidenfeld and Nicolson.[^1][^2] A reissue appeared in 2012 and is now published by Routledge.[^4]
 
 The book draws on the work of Futuribles, which began in 1960 at de Jouvenel's instigation with funding from the Ford Foundation.[^3] It started as an international committee of about a dozen intellectuals from several countries and disciplines, whose aim was to remedy the lack of rigorous thinking about the future inside and outside government.[^3] Between 1960 and 1965 the committee published some fifty essays in the bulletins of SEDEIS, a French society for economic, industrial and social studies, and held conferences in Geneva, Paris and New Haven.[^3] The word "futuribles" is de Jouvenel's coinage from futurs and possibles, possible futures, partly borrowed from the Latin of scholastic theology.[^6][^7]
 

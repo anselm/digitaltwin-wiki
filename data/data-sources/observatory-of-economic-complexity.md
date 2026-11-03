@@ -30,6 +30,8 @@ open:
 domains:
   - people
 relations:
+  - predicate: made_by
+    target: people/cesar-hidalgo
   - predicate: alternative_to
     target: data-sources/un-comtrade
 provenance:
@@ -52,7 +54,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed; prices as shown on the plans page on 26 October 2026'
   status: draft
 ---
-The Observatory of Economic Complexity (OEC) is a website for visualising and distributing data on where economic activities happen and how they change, drawing data from many sources.[^1] It began in MIT's Collective Learning group, formerly the Macro Connections group, as Alex Simoes's 2012 master's thesis supervised by César Hidalgo.[^1] It was spun out of MIT as an open-source project in 2012 and is now designed and built by the company Datawheel.[^1] Version 5.0, launched in the summer of 2021, added subnational data for regions and provinces in more than 30 countries and introduced paid subscriptions.[^1] The OEC asks to be cited through the 2011 paper by Simoes and Hidalgo, "The Economic Complexity Observatory: An Analytical Tool for Understanding the Dynamics of Economic Development".[^1]
+The Observatory of Economic Complexity (OEC) is a website for visualising and distributing data on where economic activities happen and how they change, drawing data from many sources.[^1] It began in MIT's Collective Learning group, formerly the Macro Connections group, as Alex Simoes's 2012 master's thesis supervised by [César Hidalgo](/people/cesar-hidalgo/).[^1] It was spun out of MIT as an open-source project in 2012 and is now designed and built by the company Datawheel.[^1] Version 5.0, launched in the summer of 2021, added subnational data for regions and provinces in more than 30 countries and introduced paid subscriptions.[^1] The OEC asks to be cited through the 2011 paper by Simoes and Hidalgo, "The Economic Complexity Observatory: An Analytical Tool for Understanding the Dynamics of Economic Development".[^1]
 
 The site is built around profile pages, with charts such as treemaps, networks, scatter plots and maps, and complexity rankings country by country and product by product.[^1,4] The free international datasets include trade classified by SITC revision 2 from 1962 to 2018 and by each revision of the Harmonized System from 1992 to 2022, with complexity indicators, the World Bank's development indicators and tariffs from WITS.[^5] Its HS 1992 trade table runs from 1995 to 2024.[^6] Some countries' own customs records add monthly and regional detail.[^1,6]
 

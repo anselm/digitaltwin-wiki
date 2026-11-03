@@ -19,6 +19,10 @@ book:
 domains:
   - people
 relations:
+  - predicate: made_by
+    target: people/clement-bezold
+  - predicate: made_by
+    target: people/alvin-toffler
   - predicate: about
     target: terms/foresight-and-anticipation
 provenance:
@@ -49,7 +53,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Anticipatory Democracy: People in the Politics of the Future is a collection edited by Clement Bezold, with an introduction by Alvin Toffler, published by Random House in 1978 and in paperback by Vintage the same year.[^1][^2] Bezold writes that a few years after [Future Shock](/media/future-shock/), Toffler asked him to edit a book reviewing experiments in looking ahead and involving the public.[^3] Toffler's introduction defines anticipatory democracy as "a process for combining citizen participation with future consciousness".[^3]
+Anticipatory Democracy: People in the Politics of the Future is a collection edited by [Clement Bezold](/people/clement-bezold/), with an introduction by [Alvin Toffler](/people/alvin-toffler/), published by Random House in 1978 and in paperback by Vintage the same year.[^1][^2] Bezold writes that a few years after [Future Shock](/media/future-shock/), Toffler asked him to edit a book reviewing experiments in looking ahead and involving the public.[^3] Toffler's introduction defines anticipatory democracy as "a process for combining citizen participation with future consciousness".[^3]
 
 A 1980 review in the Indian Journal of Public Administration traces the book to a committee on anticipatory democracy that Toffler formed in 1975 to spread anticipatory-democracy groups.[^4] The committee had over fifty futurists, professional planners and future-oriented citizens, and most of the book's contributors belonged to it.[^4] Bezold, a political scientist with a doctorate from the University of Florida, founded the Institute for Alternative Futures in Alexandria, Virginia, in 1977 to encourage anticipatory democracy.[^5]
 

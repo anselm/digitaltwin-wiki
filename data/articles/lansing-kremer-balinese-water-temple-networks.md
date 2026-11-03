@@ -34,6 +34,11 @@ open:
   participation: unknown
   licence: unknown
   note: The paper is behind a paywall; the abstract is public.
+relations:
+  - predicate: made_by
+    target: people/james-kremer
+  - predicate: made_by
+    target: people/stephen-lansing
 provenance:
   origin: agent
   sources:
@@ -56,7 +61,7 @@ provenance:
   reviewed_by: "Claude, from the paper's abstract and Lansing's own account of the model in Perfect Order (2006) as quoted by John Baez; the publisher refused a request for the full text, so the paper itself was not read"
   status: draft
 ---
-Balinese rice farmers belong to irrigation groups called subaks, and the subaks along a river meet in water temples that set when each one plants.[^2,7] In this paper the anthropologist J. Stephen Lansing and the systems ecologist James N. Kremer built a computer model to ask what the temples do for the ecology of the rice terraces.[^1,2,7] The abstract's answer is that the temple networks shape the "adaptive landscape" the farmers work in, and may be one of a class of complex adaptive systems that evolved to manage farming.[^1]
+Balinese rice farmers belong to irrigation groups called subaks, and the subaks along a river meet in water temples that set when each one plants.[^2,7] In this paper the anthropologist [J. Stephen Lansing](/people/stephen-lansing/) and the systems ecologist [James N. Kremer](/people/james-kremer/) built a computer model to ask what the temples do for the ecology of the rice terraces.[^1,2,7] The abstract's answer is that the temple networks shape the "adaptive landscape" the farmers work in, and may be one of a class of complex adaptive systems that evolved to manage farming.[^1]
 
 The trade-off the model captures is between water and pests. A subak upstream that takes water when it likes leaves less for the subaks below.[^2] But if many neighbouring subaks plant and then leave their fields fallow and flooded at the same time, the rice pests lose their habitat across a large block and their numbers fall. Each subak's choice changes both the water and the pests for its neighbours.[^2]
 

@@ -18,6 +18,9 @@ book:
   url: 'https://openlibrary.org/works/OL15315933W'
 domains:
   - climate
+relations:
+  - predicate: made_by
+    target: people/paul-edwards
 provenance:
   origin: agent
   sources:
@@ -30,7 +33,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Edwards answers the claim that climate science is only simulation by showing that there is no global data without models. Even satellite observations pass through data models before they say anything about the planet as a whole. The book traces how scientists learned to measure the atmosphere, reconstructed its past from scattered and inconsistent records, and came to project its future. Edwards treats the whole as a single knowledge infrastructure.
+[Edwards](/people/paul-edwards/) answers the claim that climate science is only simulation by showing that there is no global data without models. Even satellite observations pass through data models before they say anything about the planet as a whole. The book traces how scientists learned to measure the atmosphere, reconstructed its past from scattered and inconsistent records, and came to project its future. Edwards treats the whole as a single knowledge infrastructure.
 
 The book is about the relation between a model and the data it claims to represent. Edwards argues that observation and simulation cannot be separated, and that the work happens in the infrastructure joining the two. That holds for a twin of a watershed as much as for one of the climate.
 

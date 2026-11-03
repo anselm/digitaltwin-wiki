@@ -16,6 +16,8 @@ book:
   isbn: '008031158X'
   url: 'https://openlibrary.org/books/OL20968923M'
 relations:
+  - predicate: made_by
+    target: people/robert-rosen
   - predicate: about
     target: terms/foresight-and-anticipation
 provenance:
@@ -44,7 +46,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Robert Rosen (1934 to 1998) was an American theoretical biologist and professor of biophysics at Dalhousie University in Halifax, Nova Scotia.[^7] Anticipatory Systems: Philosophical, Mathematical and Methodological Foundations was published by Pergamon in Oxford in 1985, as the first volume of the IFSR International Series on Systems Science and Engineering.[^4] Rosen writes that its first ideas came in 1972, when he was a visiting fellow at the Center for the Study of Democratic Institutions in Santa Barbara, California.[^3]
+[Robert Rosen](/people/robert-rosen/) (1934 to 1998) was an American theoretical biologist and professor of biophysics at Dalhousie University in Halifax, Nova Scotia.[^7] Anticipatory Systems: Philosophical, Mathematical and Methodological Foundations was published by Pergamon in Oxford in 1985, as the first volume of the IFSR International Series on Systems Science and Engineering.[^4] Rosen writes that its first ideas came in 1972, when he was a visiting fellow at the Center for the Study of Democratic Institutions in Santa Barbara, California.[^3]
 
 The book defines an anticipatory system as "a system containing a predictive model of itself and/or of its environment, which allows it to change state at an instant in accord with the model's predictions pertaining to a later instant".[^2] In plain words, the system carries a working model of itself or its surroundings, the model runs ahead of events, and the system acts now on what the model says will happen later.[^2][^6] In a 1997 interview Rosen set this against cybernetic control, which corrects a deviation from a desired behaviour once it appears; anticipation instead uses "a predictive model of the system you're trying to control" to generate the control in advance.[^6] He added that something in such a system has to run "faster than real time", or it is not anticipating anything.[^6]
 

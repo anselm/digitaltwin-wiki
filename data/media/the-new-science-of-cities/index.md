@@ -20,6 +20,9 @@ domains:
   - places
   - mobility
   - people
+relations:
+  - predicate: made_by
+    target: people/michael-batty
 provenance:
   origin: agent
   sources:
@@ -32,7 +35,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Batty builds the case from complexity theory, urban economics and transport theory. The book works through city size, internal structure, transport routes and location. It then presents models in order of growing elaboration: simple random processes first, land-use and transport models last. Land-use and transport models estimate where people live and work and how they travel between the two. The closing chapters turn to design and decision models for cities that do not yet exist, and treat urban design as something a group of people does together.
+[Batty](/people/michael-batty/) builds the case from complexity theory, urban economics and transport theory. The book works through city size, internal structure, transport routes and location. It then presents models in order of growing elaboration: simple random processes first, land-use and transport models last. Land-use and transport models estimate where people live and work and how they travel between the two. The closing chapters turn to design and decision models for cities that do not yet exist, and treat urban design as something a group of people does together.
 
 Most urban simulation rests on this theory. It covers which quantities a model should carry, which interactions matter, and why a model of a city has to represent its movements and connections.
 

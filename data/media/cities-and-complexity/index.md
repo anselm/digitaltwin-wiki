@@ -18,6 +18,9 @@ book:
   url: 'https://openlibrary.org/works/OL5040453W'
 domains:
   - places
+relations:
+  - predicate: made_by
+    target: people/michael-batty
 provenance:
   origin: agent
   sources:
@@ -30,7 +33,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Batty places urban dynamics inside complexity theory and shows, with worked models, how many simple interacting processes add up to the organised whole of a city. He argues that planning has been moving from top-down control to bottom-up explanation. Bottom-up processes, in his account, have outcomes that cannot be predicted in detail. Fractal geometry (shapes that repeat at many scales) and nonlinear dynamics are the tools he finds suited to such processes.
+[Batty](/people/michael-batty/) places urban dynamics inside complexity theory and shows, with worked models, how many simple interacting processes add up to the organised whole of a city. He argues that planning has been moving from top-down control to bottom-up explanation. Bottom-up processes, in his account, have outcomes that cannot be predicted in detail. Fractal geometry (shapes that repeat at many scales) and nonlinear dynamics are the tools he finds suited to such processes.
 
 The early chapters build cities from cellular automata: grids of simple cells whose change comes from local rules. Later chapters move to agents, individual actors each following their own rules, and to the fractal structure of urban form. Most place-scale simulations draw on this family of methods. The book gives the reasoning for why they fit cities and what they cannot be expected to deliver. The paperback appeared in 2007.
 

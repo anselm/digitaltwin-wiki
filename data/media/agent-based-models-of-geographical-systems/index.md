@@ -22,6 +22,13 @@ book:
 domains:
   - places
   - people
+relations:
+  - predicate: made_by
+    target: people/alison-heppenstall
+  - predicate: made_by
+    target: people/andrew-crooks
+  - predicate: made_by
+    target: people/michael-batty
 provenance:
   origin: agent
   sources:

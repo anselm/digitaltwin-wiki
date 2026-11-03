@@ -19,6 +19,9 @@ book:
 domains:
   - places
   - people
+relations:
+  - predicate: made_by
+    target: people/james-c-scott
 provenance:
   origin: agent
   sources:
@@ -31,7 +34,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Scott examines a series of large, often well-meant plans that went badly: Soviet collectivisation, villagisation in Tanzania, the design of Brasília, the Great Leap Forward and agricultural modernisation in the tropics. He argues that they share a pattern:
+[Scott](/people/james-c-scott/) examines a series of large, often well-meant plans that went badly: Soviet collectivisation, villagisation in Tanzania, the design of Brasília, the Great Leap Forward and agricultural modernisation in the tropics. He argues that they share a pattern:
 
 - a state trying to make nature and society legible, or readable from above, through simplified schemes
 - a high-modernist faith that science can improve every part of life

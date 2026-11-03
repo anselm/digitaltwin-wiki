@@ -30,6 +30,8 @@ open:
 domains:
   - climate
 relations:
+  - predicate: made_by
+    target: people/william-nordhaus
   - predicate: built_on
     target: engines/fair-climate-model
 provenance:
@@ -51,7 +53,7 @@ provenance:
     williamnordhaus.com, did not respond
   status: draft
 ---
-The Dynamic Integrated model of Climate and the Economy (DICE) is an integrated assessment model.[^2,3] In one model it runs from economic activity to emissions, through the carbon cycle and climate, to damages and back to policy.[^2,3] William Nordhaus of Yale built it; the original was published at Yale in 1992.[^2,4] It has been revised several times, and the latest version, DICE-2023, is described by Lint Barrage and William Nordhaus in the Proceedings of the National Academy of Sciences, March 2024.[^1,3] A regional version, RICE, divides the world into regions; its current version was developed by Zili Yang.[^1,3]
+The Dynamic Integrated model of Climate and the Economy (DICE) is an integrated assessment model.[^2,3] In one model it runs from economic activity to emissions, through the carbon cycle and climate, to damages and back to policy.[^2,3] [William Nordhaus](/people/william-nordhaus/) of Yale built it; the original was published at Yale in 1992.[^2,4] It has been revised several times, and the latest version, DICE-2023, is described by Lint Barrage and William Nordhaus in the Proceedings of the National Academy of Sciences, March 2024.[^1,3] A regional version, RICE, divides the world into regions; its current version was developed by Zili Yang.[^1,3]
 
 The core is a model of economic growth (the Ramsey model) in which society can give up some consumption today to cut emissions and so be better off later through damages avoided.[^3] It is built mainly to find the best policy: it chooses the path of emissions cuts that maximises economic well-being over time, though it can also score a given policy.[^3] Damages grow with the square of the rise in global temperature since pre-industrial times.[^3] The 2023 review of studies puts them at 1.6% of world output at 3 °C of warming, though those studies leave out many impacts, such as biodiversity loss, ocean acidification and extreme events.[^3] For its carbon cycle the 2023 version uses DFAIR, adapted from the [FAIR](/engines/fair-climate-model/) impulse-response model.[^3] Emission cuts can deepen by at most 12 percentage points in each five-year period, and every scenario assumes all countries take part with one harmonised carbon price, an assumption the paper calls highly optimistic.[^3]
 
