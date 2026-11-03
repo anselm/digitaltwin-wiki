@@ -30,12 +30,14 @@ provenance:
       url: 'https://www.santafe.edu/events/digital-twins-for-complex-systems-theory-and-algorithms-2026'
     - title: 'Building better digital twins (SFI news, 22 October 2026)'
       url: 'https://www.santafe.edu/news-center/news/building-better-digital-twins'
+    - title: 'Karen E. Willcox (Oden Institute directory)'
+      url: 'https://oden.utexas.edu/people/directory/Karen-Willcox/'
   created: '2026-10-23'
   reviewed: '2026-10-23'
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-A working group at the Santa Fe Institute (SFI) met for three days at the end of September 2026 to work on the theory and algorithms of digital twins and on applying them to complex systems. It was closed to the public. Two of the three organisers are professors at the University of Texas at Austin: Karen Willcox in aerospace engineering, who is also an SFI external professor, and Omar Ghattas in mechanical engineering and geological sciences. The third, Bart van Bloemen Waanders, is a computational scientist at Sandia National Laboratories. SFI's news story names the other participants' fields as aerospace and structural engineering, disaster response and applied mathematics, and names one speaker, Caroline Chung of the MD Anderson Cancer Center, who works on twins of cancer patients.
+A working group at the Santa Fe Institute (SFI) met for three days at the end of September 2026 to work on the theory and algorithms of digital twins and on applying them to complex systems. It was closed to the public. Two of the three organisers are professors at the University of Texas at Austin: Karen Willcox, who directs the university's Oden Institute for Computational Engineering and Sciences and is also an SFI external professor and science board member, and Omar Ghattas in mechanical engineering and geological sciences. The third, Bart van Bloemen Waanders, is a computational scientist at Sandia National Laboratories. SFI's news story names the other participants' fields as aerospace and structural engineering, disaster response and applied mathematics, and names one speaker, Caroline Chung of the MD Anderson Cancer Center, who works on twins of cancer patients.
 
 The event page uses the strict definition: a digital twin is "a computational model or set of coupled models that evolves over time", and data flows both ways between the model and the thing it models. It credits the [National Academies' 2024 report](/articles/nasem-digital-twins-research-gaps/) with pulling the field together around three kinds of mathematics. Data assimilation folds new observations into a running model. Optimal control picks the actions that steer a system. Uncertainty quantification says how far to trust the answer.
 
