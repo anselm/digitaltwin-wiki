@@ -6,6 +6,7 @@ about:
     experiments on language models and simulated respondents with set traits,
     with tools to send the same survey to real people for comparison.
   tags:
+    - twins of people
     - synthetic respondents
     - survey
     - LLM agents

@@ -7,6 +7,7 @@ about:
     strategy before committing; it publishes its own accuracy benchmark against
     published surveys.
   tags:
+    - twins of people
     - simulated people
     - synthetic respondents
     - market research

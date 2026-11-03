@@ -6,6 +6,7 @@ about:
     personalities, beliefs and jobs using a language model, for simulated
     focus groups, interviews and market surveys.
   tags:
+    - twins of people
     - LLM agents
     - personas
     - focus groups

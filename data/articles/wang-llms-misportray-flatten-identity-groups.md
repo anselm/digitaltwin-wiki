@@ -6,6 +6,7 @@ about:
     and 3,200 people in 16 identities, a model speaking as a group
     sounds like outsiders imitating it and gives too narrow a range.
   tags:
+    - twins of people
     - synthetic respondents
     - identity
     - minorities

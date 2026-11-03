@@ -6,6 +6,7 @@ about:
     respondents' average feelings toward 11 groups but gave too little
     spread, wrong regression results and shifting answers.
   tags:
+    - twins of people
     - synthetic respondents
     - surveys
     - public opinion

@@ -6,6 +6,7 @@ about:
     sells simulations of how customers, employees or populations would respond
     to a change, from models it says are trained on data about real people.
   tags:
+    - twins of people
     - simulated people
     - synthetic respondents
     - market research

@@ -6,6 +6,7 @@ about:
     the census, run through their days, and given a voice by language
     models, with what the evidence says about each layer.
   tags:
+    - twins of people
     - synthetic population
     - agent-based models
     - language-model agents

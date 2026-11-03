@@ -6,6 +6,7 @@ about:
     survey of risk, patience, trust and generosity for 67,201 people in 74
     countries, explaining about 1% of individual variation.
   tags:
+    - twins of people
     - synthetic respondents
     - cross-national
     - economic preferences

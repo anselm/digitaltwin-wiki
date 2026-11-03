@@ -6,6 +6,7 @@ about:
     with single people, and simulated populations built from the census or
     from language models.
   tags:
+    - twins of people
     - human digital twin
     - patient digital twin
     - virtual human twin

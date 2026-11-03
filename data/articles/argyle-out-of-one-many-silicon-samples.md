@@ -6,6 +6,7 @@ about:
     given the backgrounds of real US election survey respondents, reproduced
     the overall pattern of their vote choice and attitudes.
   tags:
+    - twins of people
     - silicon samples
     - synthetic respondents
     - language models

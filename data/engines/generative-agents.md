@@ -7,6 +7,7 @@ about:
     2024 follow-up repository builds agents from interviews and survey answers
     and lets researchers put questions to them.
   tags:
+    - twins of people
     - LLM agents
     - simulated people
     - social simulation

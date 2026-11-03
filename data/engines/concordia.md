@@ -6,6 +6,7 @@ about:
     language-model characters act and a "game master", borrowed from tabletop
     role-playing games, decides what their actions do.
   tags:
+    - twins of people
     - LLM agents
     - generative agent-based model
     - social simulation

@@ -6,6 +6,7 @@ about:
     totals and mixes match the census, letting a model hold everyone without
     holding anyone's real records.
   tags:
+    - twins of people
     - population synthesis
     - census
     - agent-based models

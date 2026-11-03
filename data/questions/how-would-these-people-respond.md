@@ -4,6 +4,8 @@ about:
   description: >-
     Who lives here, what would a change do to their days, and how would they
     react to it, before anyone tries it on the real place?
+  tags:
+    - twins of people
 question: {}
 domains:
   - people

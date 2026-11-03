@@ -6,6 +6,7 @@ about:
     thousands of language-model members, so a designer could see what it
     might turn into before anyone joined.
   tags:
+    - twins of people
     - simulated people
     - LLM agents
     - prototyping

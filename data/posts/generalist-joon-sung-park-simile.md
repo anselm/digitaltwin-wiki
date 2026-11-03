@@ -6,6 +6,7 @@ about:
     simulating real people with language models, from Schelling's model to
     pricing tests for CVS Health.
   tags:
+    - twins of people
     - simulated people
     - podcast
     - interview

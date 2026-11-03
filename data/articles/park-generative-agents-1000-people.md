@@ -6,6 +6,7 @@ about:
     interviews with 1,052 Americans predicted their survey answers at 83% of
     the people's own two-week retest consistency.
   tags:
+    - twins of people
     - generative agents
     - interviews
     - synthetic respondents

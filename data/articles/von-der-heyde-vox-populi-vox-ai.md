@@ -6,6 +6,7 @@ about:
     German Longitudinal Election Study, matched their reported vote 46% of
     the time and leaned toward the Greens and the Left.
   tags:
+    - twins of people
     - elections
     - Germany
     - synthetic respondents

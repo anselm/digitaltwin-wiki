@@ -7,6 +7,7 @@ about:
     10,000 agents, and version 2 adds AI assistants that design and run the
     experiments.
   tags:
+    - twins of people
     - LLM agents
     - social simulation
     - urban
