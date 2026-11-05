@@ -13,6 +13,7 @@ about:
     - time series
     - foundation model
 article:
+  tier: 2
   url: 'https://doi.org/10.1038/s41467-026-73610-2'
   published: '2026-05-26'
   publisher: Nature Communications (Nature Publishing Group)

@@ -14,6 +14,7 @@ about:
     - language models
     - Global Preference Survey
 article:
+  tier: 2
   url: 'https://doi.org/10.1038/s41562-026-02611-4'
   published: '2026-10-12'
   publisher: Nature Human Behaviour

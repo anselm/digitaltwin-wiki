@@ -16,6 +16,7 @@ about:
     - computing
     - paper
 article:
+  tier: 1
   url: 'https://fernandonogueiracosta.wordpress.com/wp-content/uploads/2015/08/warren-weaver-science-and-complexity-1948.pdf'
   published: '1948'
   publisher: 'American Scientist (reprinted in Emergence: Complexity and Organization, 2004)'

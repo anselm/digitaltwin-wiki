@@ -18,6 +18,7 @@ about:
     - monitoring
     - report
 article:
+  tier: 2
   url: 'https://doi.org/10.4060/ce2114en'
   published: '2026-10-29'
   publisher: FAO, UNEP and Secretariat of the Convention on Biological Diversity (Rome)

@@ -14,6 +14,7 @@ about:
     - CIRAD
     - Cormas
 article:
+  tier: 1
   url: 'https://www.jasss.org/6/2/1.html'
   published: '2003-03-31'
   publisher: Journal of Artificial Societies and Social Simulation

@@ -12,6 +12,7 @@ about:
     - interview
     - commercial
 article:
+  tier: 3
   url: 'https://www.generalist.com/p/a-portrait-of-eight-billion-people'
   published: '2026-11-03'
   publisher: The Generalist (podcast and newsletter)

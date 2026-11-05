@@ -13,6 +13,7 @@ about:
     - sea ice
     - marine heatwaves
 article:
+  tier: 3
   url: 'https://marine.copernicus.eu/news/understanding-our-ocean-iii-predicting-ocean'
   published: '2026-05-29'
   publisher: Copernicus Marine Service (Mercator Ocean International)

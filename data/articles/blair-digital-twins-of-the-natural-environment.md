@@ -15,6 +15,7 @@ about:
     - definition
     - paper
 article:
+  tier: 2
   url: 'https://doi.org/10.1016/j.patter.2021.100359'
   published: '2021-10-08'
   publisher: Patterns (Cell Press)

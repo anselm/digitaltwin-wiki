@@ -17,6 +17,7 @@ about:
     - definition
     - paper
 article:
+  tier: 2
   url: 'https://doi.org/10.12688/f1000research.137262.1'
   published: '2023-08-10'
   publisher: F1000Research

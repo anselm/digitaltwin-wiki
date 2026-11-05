@@ -17,6 +17,7 @@ about:
     - definition
     - paper
 article:
+  tier: 2
   url: 'https://doi.org/10.1016/j.tree.2026.04.016'
   published: '2026-08'
   publisher: Trends in Ecology & Evolution (Cell Press)

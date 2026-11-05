@@ -13,7 +13,8 @@ about:
     - product lifecycle management
     - national digital twin
     - city
-article: {}
+article:
+  tier: 3
 domains:
   - places
 relations:

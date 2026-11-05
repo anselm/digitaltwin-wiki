@@ -14,6 +14,7 @@ about:
     - nowcasting
     - paper
 article:
+  tier: 3
   url: 'https://arxiv.org/abs/2610.05699'
   published: '2026-10-17'
   publisher: arXiv (preprint, cs.LG)

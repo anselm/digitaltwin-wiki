@@ -13,6 +13,7 @@ about:
     - food prices
     - climate change
 article:
+  tier: 2
   url: 'https://doi.org/10.1088/1748-9326/aeae54'
   published: '2026-10-08'
   publisher: Environmental Research Letters (IOP Publishing)

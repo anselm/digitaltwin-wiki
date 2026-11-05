@@ -14,6 +14,7 @@ about:
     - bias
     - research ethics
 article:
+  tier: 1
   url: 'https://doi.org/10.1038/s42256-025-00986-z'
   published: '2025-02-17'
   publisher: Nature Machine Intelligence

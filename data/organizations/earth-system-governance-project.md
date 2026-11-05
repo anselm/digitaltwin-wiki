@@ -11,6 +11,7 @@ about:
     - social science
     - environmental law
     - research network
+    - neighbouring field
 organization:
   form: network
   homepage: 'https://www.earthsystemgovernance.org/'

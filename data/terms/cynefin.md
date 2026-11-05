@@ -13,6 +13,7 @@ about:
     - uncertainty
     - safe-to-fail
     - Dave Snowden
+    - neighbouring field
   depiction: terms/cynefin.jpg
   depiction_credit: 'The Cynefin framework, redrawn in 2022 from earlier artwork. Tom@thomasbcox.com, Wikimedia Commons, CC BY-SA 4.0.'
 term:

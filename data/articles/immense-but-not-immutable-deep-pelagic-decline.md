@@ -15,6 +15,7 @@ about:
     - regime shift
     - Allee effect
 article:
+  tier: 2
   url: 'https://doi.org/10.1073/pnas.2616554123'
   published: '2026-10-19'
   publisher: Proceedings of the National Academy of Sciences

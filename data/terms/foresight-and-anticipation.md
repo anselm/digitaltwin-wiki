@@ -13,6 +13,7 @@ about:
     - forecasting
     - anticipatory democracy
     - futures literacy
+    - neighbouring field
 term:
   aka:
     - futures studies

@@ -13,6 +13,7 @@ about:
     - degradation
     - report
 article:
+  tier: 3
   url: 'https://primaryforestsandclimate.org/publications/forests-2030-protecting-restoring-ecosystem-integrity/'
   published: '2026-10'
   publisher: Wild Heritage and Griffith University

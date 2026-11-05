@@ -18,6 +18,7 @@ about:
     - public opinion
     - paper
 article:
+  tier: 2
   url: 'https://doi.org/10.1017/S0003055426102111'
   published: '2026-10-29'
   publisher: American Political Science Review (Cambridge University Press)

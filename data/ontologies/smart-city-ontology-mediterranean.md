@@ -14,6 +14,7 @@ about:
     - urban planning
     - paper
 article:
+  tier: 3
   url: 'https://doi.org/10.4018/IJEPR.2019100102'
   published: '2019'
   publisher: International Journal of E-Planning Research (IGI Global)

@@ -65,6 +65,13 @@ export function load({ params }) {
     const staged = kids.every((c) => c.guide?.stage !== undefined)
     const mixed = new Set(kids.map((c) => store.kindsOf(c)[0])).size > 1
     const items = (staged ? [...kids].sort((a, b) => a.guide.stage - b.guide.stage) : kids).map((c) => ({ ...card(c), chips: chips(c), group: c.tool?.group || c.about?.group || (mixed ? plural(kindLabel(store.kindsOf(c)[0] || 'entry')).replace(/^./, (ch) => ch.toUpperCase()) : null) }))
+    // Articles are shelved by standing (article.tier, set from evidence in devlog/20261104-articles-by-standing.md); within a band, newest first.
+    if (kids.length && kids.every((c) => c.article) && kids.some((c) => c.article.tier)) {
+      const bands = [[1, 'Essential'], [2, 'Solid'], [3, 'Of note'], [4, 'Marginal'], [undefined, 'Not yet scored']]
+      const newest = (a, b) => String(kids[items.indexOf(b)].article.published || '').localeCompare(String(kids[items.indexOf(a)].article.published || ''))
+      const groups = bands.map(([t, label]) => ({ label, items: items.filter((_, i) => kids[i].article.tier === t).sort(newest) })).filter((g) => g.items.length)
+      return { ...base, items, groups }
+    }
     // News reads newest first, by the date each story was published.
     if (kids.length && kids.every((c) => c.article?.published)) {
       const by = [...kids].sort((a, b) => String(b.article.published).localeCompare(String(a.article.published)))

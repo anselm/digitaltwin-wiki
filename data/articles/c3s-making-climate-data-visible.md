@@ -12,6 +12,7 @@ about:
     - communication
     - Copernicus
 article:
+  tier: 3
   url: 'https://climate.copernicus.eu/c3s-behind-scenes-making-climate-data-visible'
   published: '2026-09-23'
   publisher: Copernicus Climate Change Service (ECMWF)

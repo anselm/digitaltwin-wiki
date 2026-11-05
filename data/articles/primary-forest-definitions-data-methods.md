@@ -13,6 +13,7 @@ about:
     - FAO
     - forest reporting
 article:
+  tier: 2
   url: 'https://doi.org/10.25904/1912/4510'
   published: '2021-03'
   publisher: Griffith University (Griffith Climate Action Beacon)

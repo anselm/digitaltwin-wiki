@@ -12,7 +12,8 @@ about:
     - ecology
     - trade
     - examples
-article: {}
+article:
+  tier: 3
 domains:
   - water
   - ecology

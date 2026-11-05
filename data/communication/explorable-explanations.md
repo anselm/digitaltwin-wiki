@@ -14,6 +14,7 @@ about:
     - scenario modelling
     - Bret Victor
 article:
+  tier: 2
   url: 'https://worrydream.com/ExplorableExplanations/'
   published: '2011-03-10'
   publisher: worrydream.com

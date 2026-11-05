@@ -14,6 +14,7 @@ about:
     - research agenda
     - paper
 article:
+  tier: 1
   url: 'https://doi.org/10.1073/pnas.1710231115'
   published: '2018-01-30'
   publisher: Proceedings of the National Academy of Sciences (PNAS)

@@ -13,6 +13,7 @@ about:
     - tipping points
     - governance
 article:
+  tier: 4
   url: 'https://www.linkedin.com/pulse/green-movements-incrementalism-just-ecologically-wrong-wlodek-bogucki-eldue/'
   published: '2026-10-24'
   publisher: LinkedIn

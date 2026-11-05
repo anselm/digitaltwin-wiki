@@ -13,6 +13,7 @@ about:
     - online communities
     - paper
 article:
+  tier: 2
   url: 'https://doi.org/10.1145/3526113.3545616'
   published: '2022-10-28'
   publisher: UIST 2022 (ACM Symposium on User Interface Software and Technology)

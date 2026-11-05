@@ -11,6 +11,7 @@ about:
     - calibration
     - ISSM
 article:
+  tier: 2
   url: 'https://doi.org/10.1038/s41467-026-77976-1'
   published: '2026-10-12'
   publisher: Nature Communications

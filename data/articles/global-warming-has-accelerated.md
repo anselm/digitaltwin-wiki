@@ -14,6 +14,7 @@ about:
     - statistics
     - paper
 article:
+  tier: 2
   url: 'https://doi.org/10.1029/2025GL118804'
   published: '2026-03-06'
   publisher: Geophysical Research Letters (AGU)

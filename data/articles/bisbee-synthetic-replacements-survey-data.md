@@ -14,6 +14,7 @@ about:
     - reproducibility
     - elections
 article:
+  tier: 2
   url: 'https://doi.org/10.1017/pan.2024.5'
   published: '2024-05-17'
   publisher: Political Analysis (Cambridge University Press)

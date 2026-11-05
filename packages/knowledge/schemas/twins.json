@@ -9,7 +9,7 @@
     "podcast":      { "folder": "media",        "fields": ["url", "hosts"] },
     "video":        { "folder": "media",        "fields": ["url", "channel"] },
     "website":      { "folder": "sites",        "fields": ["url", "kind"] },
-    "article":      { "folder": "posts",        "fields": ["url", "published", "publisher", "authors"] },
+    "article":      { "folder": "posts",        "fields": ["url", "published", "publisher", "authors", "tier"] },
     "guide":        { "folder": "guides",       "fields": ["stage", "audience"] },
     "term":         { "folder": "terms",        "fields": ["aka"] },
     "twin":         { "folder": "twins",        "fields": ["place", "sector", "scale", "operational", "tier", "homepage"] },

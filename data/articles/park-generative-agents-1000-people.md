@@ -14,6 +14,7 @@ about:
     - simulation of individuals
     - language models
 article:
+  tier: 2
   url: 'https://arxiv.org/abs/2411.10109'
   published: '2024-11-15'
   publisher: arXiv (preprint; revised 2026-06-28)

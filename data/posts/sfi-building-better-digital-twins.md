@@ -14,6 +14,7 @@ about:
     - verification and validation
     - Santa Fe Institute
 article:
+  tier: 3
   url: 'https://www.santafe.edu/news-center/news/building-better-digital-twins'
   published: '2026-10-22'
   publisher: Santa Fe Institute

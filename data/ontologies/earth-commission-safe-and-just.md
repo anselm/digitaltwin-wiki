@@ -15,6 +15,7 @@ about:
     - freshwater
     - biodiversity
 article:
+  tier: 1
   url: 'https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(24)00042-1/fulltext'
   published: '2024'
   publisher: The Lancet Planetary Health

@@ -10,6 +10,7 @@ about:
     - vocabulary
     - systems thinking
     - worldviews
+    - neighbouring field
 term:
   aka:
     - meta-crisis

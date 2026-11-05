@@ -15,6 +15,7 @@ about:
     - open science
     - paper
 article:
+  tier: 2
   url: 'https://doi.org/10.1038/s43247-024-01626-x'
   published: '2024-08-27'
   publisher: Communications Earth & Environment (Nature Portfolio)

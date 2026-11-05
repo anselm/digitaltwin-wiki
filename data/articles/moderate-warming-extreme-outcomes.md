@@ -11,6 +11,7 @@ about:
     - risk assessment
     - drought
 article:
+  tier: 2
   url: 'https://doi.org/10.1038/s41586-026-10237-9'
   published: '2026-03-25'
   publisher: Nature

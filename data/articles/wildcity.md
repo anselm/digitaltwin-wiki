@@ -13,6 +13,7 @@ about:
     - neural rendering
     - spatial intelligence
 article:
+  tier: 2
   url: 'https://doi.org/10.48550/arXiv.2607.06838'
   published: '2026-07-07'
   publisher: arXiv (accepted at ECCV 2026)

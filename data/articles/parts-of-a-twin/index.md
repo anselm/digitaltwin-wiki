@@ -10,7 +10,8 @@ about:
     - overview
     - ontology
     - presentation
-article: {}
+article:
+  tier: 2
 relations:
   - predicate: about
     target: terms/digital-twin

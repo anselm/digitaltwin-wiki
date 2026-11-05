@@ -19,6 +19,7 @@ about:
     - Global Atmosphere Watch
     - report
 article:
+  tier: 1
   url: 'https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22'
   published: '2026-10-27'
   publisher: World Meteorological Organization (Geneva)

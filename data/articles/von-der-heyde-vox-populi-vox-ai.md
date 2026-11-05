@@ -14,6 +14,7 @@ about:
     - language models
     - public opinion
 article:
+  tier: 2
   url: 'https://doi.org/10.1177/08944393251337014'
   published: '2025-04-26'
   publisher: Social Science Computer Review (SAGE)

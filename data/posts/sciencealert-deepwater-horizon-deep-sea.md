@@ -11,6 +11,7 @@ about:
     - deep sea
     - Gulf of Mexico
 article:
+  tier: 3
   url: 'https://www.sciencealert.com/16-years-after-deepwater-horizon-spill-deep-sea-life-in-the-gulf-of-mexico-shows-no-sign-of-recovery'
   published: '2026-10-23'
   publisher: ScienceAlert

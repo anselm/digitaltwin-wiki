@@ -13,6 +13,7 @@ about:
     - mapping
     - resolution
 article:
+  tier: 3
   url: 'https://columbiainsight.org/why-no-one-knows-how-much-old-growth-forest-we-have-left/'
   published: '2024-04-18'
   publisher: Columbia Insight

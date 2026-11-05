@@ -10,7 +10,8 @@ about:
     - foundation model
     - satellite
     - comparison
-article: {}
+article:
+  tier: 2
 domains:
   - places
   - ecology

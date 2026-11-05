@@ -13,6 +13,7 @@ about:
     - social-ecological
     - paper
 article:
+  tier: 2
   url: 'https://esd.copernicus.org/articles/12/1115/2021/'
   published: '2021-11-12'
   publisher: Earth System Dynamics

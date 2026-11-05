@@ -16,6 +16,7 @@ about:
     - Green Revolution
     - self-organization
 article:
+  tier: 1
   url: 'https://doi.org/10.1525/aa.1993.95.1.02a00050'
   published: '1993-03'
   publisher: American Anthropologist (Wiley)

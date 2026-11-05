@@ -12,6 +12,7 @@ about:
     - remote sensing
     - review
 article:
+  tier: 2
   url: 'https://doi.org/10.1016/j.jag.2023.103300'
   published: '2023-04-28'
   publisher: International Journal of Applied Earth Observation and Geoinformation (Elsevier)

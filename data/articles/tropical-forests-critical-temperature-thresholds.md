@@ -13,6 +13,7 @@ about:
     - species distribution
     - carbon sink
 article:
+  tier: 2
   url: 'https://doi.org/10.1073/pnas.2528622123'
   published: '2026-07-06'
   publisher: Proceedings of the National Academy of Sciences

@@ -13,6 +13,7 @@ about:
     - surrogate models
     - National Academies
 article:
+  tier: 1
   url: 'https://doi.org/10.17226/26894'
   published: '2024'
   publisher: The National Academies Press

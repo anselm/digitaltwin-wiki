@@ -23,6 +23,7 @@ about:
     - extreme heat
     - report
 article:
+  tier: 2
   url: 'https://www.climateassessment.ca.gov/research/statewide-summary/'
   published: '2026-10'
   publisher: California Governor's Office of Land Use and Climate Innovation

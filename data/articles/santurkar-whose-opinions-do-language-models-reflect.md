@@ -11,6 +11,7 @@ about:
     - demographic groups
     - benchmark
 article:
+  tier: 2
   url: 'https://proceedings.mlr.press/v202/santurkar23a.html'
   published: '2023'
   publisher: Proceedings of the 40th International Conference on Machine Learning (PMLR 202)

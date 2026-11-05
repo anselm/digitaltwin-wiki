@@ -12,6 +12,7 @@ about:
     - attribution
     - extreme water levels
 article:
+  tier: 2
   url: 'https://doi.org/10.1126/sciadv.adz3595'
   published: '2026-06'
   publisher: Science Advances

@@ -13,6 +13,7 @@ about:
     - populations
     - statistics
 article:
+  tier: 3
   url: 'https://ourworldindata.org/2026-lpi-update'
   published: '2026-10-08'
   publisher: Our World in Data

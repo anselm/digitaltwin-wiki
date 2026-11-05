@@ -11,6 +11,7 @@ about:
     - deep learning
     - coastal
 article:
+  tier: 3
   url: 'https://doi.org/10.1371/journal.pone.0357346'
   published: '2026-09-15'
   publisher: PLOS One (Public Library of Science)

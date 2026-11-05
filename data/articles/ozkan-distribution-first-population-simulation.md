@@ -13,6 +13,7 @@ about:
     - elections
     - calibration
 article:
+  tier: 3
   url: 'https://arxiv.org/abs/2607.18310'
   published: '2026-07-17'
   publisher: arXiv (preprint)

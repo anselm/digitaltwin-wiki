@@ -12,7 +12,8 @@ about:
     - language-model agents
     - polling
     - simulation
-article: {}
+article:
+  tier: 2
 domains:
   - people
 relations:

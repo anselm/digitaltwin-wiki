@@ -14,6 +14,7 @@ about:
     - surveys
     - elections
 article:
+  tier: 1
   url: 'https://doi.org/10.1017/pan.2023.2'
   published: '2023-02-21'
   publisher: Political Analysis (Cambridge University Press)

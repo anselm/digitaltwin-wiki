@@ -12,6 +12,7 @@ about:
     - report
     - tipping points
 article:
+  tier: 2
   url: 'https://doi.org/10.1093/biosci/biag125'
   published: '2026-10-14'
   publisher: BioScience (Oxford University Press)
