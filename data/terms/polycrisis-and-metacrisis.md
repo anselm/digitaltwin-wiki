@@ -35,6 +35,7 @@ provenance:
   reviewed: '2026-11-04'
   reviewed_by: 'Claude, from the full text of the white paper and the Meadows essay; Anselm asked whether the paper held anything for the wiki'
   status: draft
+  unlinked: 'It explains words some readers arrive with, and the field it describes is philosophy, outside the wiki''s range (2026-11-04).'
 ---
 
 Readers who come to modelling from writing about the state of the world will meet two words, polycrisis and metacrisis. Both name the many crises of the present taken together. They differ in what they say lies underneath.

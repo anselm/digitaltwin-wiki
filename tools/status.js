@@ -52,8 +52,8 @@ for (const e of store.all) {
   if (!desc) issues.push('no description'); else if (desc.length > 200) issues.push(`description ${desc.length} chars`)
   if (per100 > 25) issues.push(`prose tells ${per100} per 100 sentences`)
   if (age != null && age > 180) issues.push(`last read ${age} days ago`)
-  if (!links) issues.push('nothing links here')
-  rows.push({ id: e.id, url: `/${e.id}/`, label: e.about?.label || e.id, shelf: e.id.split('/')[0], status, origin: p.origin || '', score, links, words, sources, cited, tells: per100, issues })
+  if (!links && !p.unlinked) issues.push('nothing links here')
+  rows.push({ id: e.id, url: `/${e.id}/`, label: e.about?.label || e.id, shelf: e.id.split('/')[0], status, origin: p.origin || '', score, links, words, sources, cited, tells: per100, issues, unlinked: p.unlinked || '' })
 }
 
 const shelves = {}
@@ -70,7 +70,8 @@ const result = {
   // Not yet public but nearly there: the quickest promotions.
   ready: [...open].sort((a, b) => b.score - a.score || b.links - a.links).slice(0, 30),
   mature: [...rows].sort((a, b) => b.score - a.score || b.links - a.links).slice(0, 20),
-  orphans: rows.filter((r) => !r.links).map((r) => ({ url: r.url, label: r.label })).slice(0, 60),
+  // Every entry nothing points to, with provenance.unlinked where someone chose to leave it so; the deliberate ones last.
+  orphans: rows.filter((r) => !r.links).map((r) => ({ url: r.url, label: r.label, shelf: r.shelf, note: r.unlinked })).sort((a, b) => !!a.note - !!b.note || a.shelf.localeCompare(b.shelf) || a.label.localeCompare(b.label)),
   orphanCount: rows.filter((r) => !r.links).length
 }
 fs.writeFileSync(path.join(out, 'status.json'), JSON.stringify(result))

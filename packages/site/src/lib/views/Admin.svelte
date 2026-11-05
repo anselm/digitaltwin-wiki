@@ -30,8 +30,10 @@
   {@render list('Most mature', 'The pages furthest along.', s.mature)}
 
   <h2 class="text-xl mt-10">Nothing links here</h2>
-  <p class="text-sm text-muted">{s.orphanCount} entries no other page points to{s.orphanCount > s.orphans.length ? `; the first ${s.orphans.length}` : ''}.</p>
-  <p class="text-sm mt-2">{#each s.orphans as o, i}<a href={o.url}>{o.label}</a>{i < s.orphans.length - 1 ? ' · ' : ''}{/each}</p>
+  <p class="text-sm text-muted">{s.orphanCount} entries no other page points to. Those left unlinked on purpose come last, with the reason.</p>
+  <ul class="mt-3 space-y-1">
+    {#each s.orphans as o}<li class="text-sm"><a href={o.url}>{o.label}</a> <span class="text-muted">· {o.shelf}</span>{#if o.note}<br /><span class="text-muted">{o.note}</span>{/if}</li>{/each}
+  </ul>
 {/if}
 
 {#if data.todo}

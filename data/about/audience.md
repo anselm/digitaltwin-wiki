@@ -55,8 +55,7 @@ welcome and the detail they need is here, one layer down on every page.
 - It does not rank tools by popularity.
 - It is about software, data and methods for modelling places. Philosophy
   of worldviews and of the world's crises is outside it, except where it
-  changes how a model is built or used; [Polycrisis and
-  metacrisis](/terms/polycrisis-and-metacrisis/) says what those words mean.
+  changes how a model is built or used.
 - It does not speak for the field. It is a reference that people in the
   field are invited to correct.
 

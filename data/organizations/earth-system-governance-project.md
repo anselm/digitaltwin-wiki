@@ -34,6 +34,7 @@ provenance:
   reviewed: '2026-11-04'
   reviewed_by: 'Claude, from the sources listed; the data directory list itself was not opened'
   status: draft
+  unlinked: 'A real and active research network, but it studies governance and builds no models, outside the wiki''s range (2026-11-04).'
 ---
 
 The Earth System Governance Project is a research network of scholars from the social sciences, the humanities and interdisciplinary fields. It studies governance in its own definition: the formal and informal rules, rule-making systems and networks of actors, from local to global, that steer societies towards preventing, mitigating and adapting to environmental change.[^1,2] It began in January 2009 under the International Human Dimensions Programme on Global Environmental Change, and its office has been at Uppsala University in Sweden since 2025.[^4]
