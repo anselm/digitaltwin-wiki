@@ -66,10 +66,12 @@ export function load({ params }) {
     const mixed = new Set(kids.map((c) => store.kindsOf(c)[0])).size > 1
     const items = (staged ? [...kids].sort((a, b) => a.guide.stage - b.guide.stage) : kids).map((c) => ({ ...card(c), chips: chips(c), group: c.tool?.group || c.about?.group || (mixed ? plural(kindLabel(store.kindsOf(c)[0] || 'entry')).replace(/^./, (ch) => ch.toUpperCase()) : null) }))
     // Articles are shelved by standing (article.tier, set from evidence in devlog/20261104-articles-by-standing.md); within a band, newest first.
-    if (kids.length && kids.every((c) => c.article) && kids.some((c) => c.article.tier)) {
+    // Anything on the shelf that is not an article (a guide) comes first, under its own kind.
+    if (kids.some((c) => c.article?.tier)) {
       const bands = [[1, 'Essential'], [2, 'Solid'], [3, 'Of note'], [4, 'Marginal'], [undefined, 'Not yet scored']]
       const newest = (a, b) => String(kids[items.indexOf(b)].article.published || '').localeCompare(String(kids[items.indexOf(a)].article.published || ''))
-      const groups = bands.map(([t, label]) => ({ label, items: items.filter((_, i) => kids[i].article.tier === t).sort(newest) })).filter((g) => g.items.length)
+      const others = [...new Set(kids.filter((c) => !c.article).map((c) => store.kindsOf(c)[0] || 'entry'))].map((k) => ({ label: plural(kindLabel(k)).replace(/^./, (ch) => ch.toUpperCase()), items: items.filter((_, i) => !kids[i].article && (store.kindsOf(kids[i])[0] || 'entry') === k) }))
+      const groups = [...others, ...bands.map(([t, label]) => ({ label, items: items.filter((_, i) => kids[i].article && kids[i].article.tier === t).sort(newest) }))].filter((g) => g.items.length)
       return { ...base, items, groups }
     }
     // News reads newest first, by the date each story was published.
