@@ -5,7 +5,7 @@ about:
   view: tagged
 section:
   order: 96
-  nav: true
+  nav: false
   area: theory
   tag: neighbouring field
 provenance:
