@@ -22,6 +22,9 @@ open:
   data: partly
   api: unknown
   participation: unknown
+relations:
+  - predicate: made_by
+    target: organizations/nature-data-lab
 provenance:
   origin: agent
   sources:
@@ -50,7 +53,7 @@ domains:
   - ecology
   - places
 ---
-The Global Safety Net is an open scientific project of One Earth and Nature Data Lab.[^1] Collaborators include The Nature Conservancy, IIASA and ESA.[^1] Version 3, launched on 23 September 2026, is the first meant to be refreshed every year.[^2,3] It maps Areas of Importance for Biodiversity and Ecosystem Services across the world's lands and inland waters.[^2,3] The map combines thirteen datasets, then removes land converted to intensive human use according to The Nature Conservancy's Human Modification time series.[^2,3] Geospatial computation runs on Google Earth Engine. The UK firm Octophin built the web application.[^2,3]
+The Global Safety Net is an open scientific project of One Earth and the [Nature Data Lab](/organizations/nature-data-lab/).[^1] Collaborators include The Nature Conservancy, IIASA and ESA.[^1] Version 3, launched on 23 September 2026, is the first meant to be refreshed every year.[^2,3] It maps Areas of Importance for Biodiversity and Ecosystem Services across the world's lands and inland waters.[^2,3] The map combines thirteen datasets, then removes land converted to intensive human use according to The Nature Conservancy's Human Modification time series.[^2,3] Geospatial computation runs on Google Earth Engine. The UK firm Octophin built the web application.[^2,3]
 
 The viewer has three views:[^2,3]
 
