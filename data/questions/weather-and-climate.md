@@ -23,6 +23,8 @@ These two questions are answered by different models at different scales. Planni
 - **The projection**: how temperature, rain, sea level and extremes shift over the coming decades under a given emissions path. Climate models answer it on a coarse grid. The work in a local study is bringing the result down to your place.
 - **The local picture**: how hot a particular street gets on a summer afternoon. Buildings, trees and surfaces matter there as much as the regional climate. That is urban microclimate modelling, the scale of most neighbourhood questions.
 
+A fourth question sometimes hides behind the second: whether the climate could be steered on purpose, by reflecting sunlight or removing carbon, and what that would do locally. That is [Cooling the planet](/questions/cooling-the-planet/).
+
 ## What kind of model answers it
 
 Weather and climate models solve the physics of the atmosphere on a grid, while the newest learn from decades of past weather instead and run far faster. [AIFS](/engines/aifs/) from ECMWF and [Aurora](/engines/aurora/) from Microsoft Research are two that are open. [Destination Earth](/twins/destination-earth/) is the European programme building climate and extremes twins at continental scale. [WeatherNext and NVIDIA Earth-2](/engines/weathernext-nvidia-earth-2/) are two commercial routes to the same kind of forecast.

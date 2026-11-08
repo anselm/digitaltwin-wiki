@@ -34,6 +34,8 @@ domains:
 relations:
   - predicate: part_of
     target: data-sources/cmip6
+  - predicate: answers
+    target: questions/cooling-the-planet
   - predicate: about
     target: terms/geoengineering
 provenance:
