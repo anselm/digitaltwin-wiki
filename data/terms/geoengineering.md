@@ -23,6 +23,8 @@ term:
     - SRM
 relations:
   - predicate: cites
+    target: terms/earth-system-model
+  - predicate: cites
     target: engines/cesm
   - predicate: cites
     target: data-sources/glens-and-arise-sai
@@ -169,7 +171,7 @@ Global averages hide the differences that matter for a place. In idealised studi
 
 Stratospheric aerosols have never been deployed, so, as Kravitz and MacMartin put it in 2020, most conclusions about their climatic effects come from models and, to a limited degree, from natural analogues.[^18] The Royal Society's 2025 briefing says the primary evidence comes from computer-based climate models, a subset of the same models used in the IPCC's projections, supported to an extent by analogues such as volcanic eruptions and sulfur dioxide from shipping.[^19] Those models form a chain from the scale of a single spray plume to the globe, and each link has its own tools.
 
-**Earth system models and their ensembles.** The GeoMIP experiments run in the models that also produce the climate projections. [CESM](/engines/cesm/) with its WACCM atmosphere, which reaches into the thermosphere, is behind the two large American ensembles. GLENS ran twenty members of one scenario from 2020 to 2099 because, in its authors' words, the ensemble "increases the ability to distinguish between forced changes and changes due to climate variability".[^21] ARISE-SAI ran ten, its authors noting that the large internal variability of the climate means that evaluating risks and impacts requires large ensembles.[^22] Both are described under [GLENS and ARISE-SAI](/data-sources/glens-and-arise-sai/).
+**[Earth system models](/terms/earth-system-model/) and their ensembles.** The GeoMIP experiments run in the models that also produce the climate projections. [CESM](/engines/cesm/) with its WACCM atmosphere, which reaches into the thermosphere, is behind the two large American ensembles. GLENS ran twenty members of one scenario from 2020 to 2099 because, in its authors' words, the ensemble "increases the ability to distinguish between forced changes and changes due to climate variability".[^21] ARISE-SAI ran ten, its authors noting that the large internal variability of the climate means that evaluating risks and impacts requires large ensembles.[^22] Both are described under [GLENS and ARISE-SAI](/data-sources/glens-and-arise-sai/).
 
 **Cloud-scale models for marine cloud brightening.** Whether a ship's spray brightens a cloud is decided at scales of metres, below anything a global model resolves. Studies of it use large eddy simulation. Chun and colleagues ran a 50 m horizontal grid with layers as thin as 5 m through the cloud, and found brightening ten to a hundred times more effective in clean, drizzling clouds than in polluted ones.[^23] McMichael and colleagues showed in 2026 that the global models' assumption of an instantly spread plume could overestimate the cooling by 10 to 200 percent.[^24] A 2024 statement of the research needed describes the chain: parcel models for how particles grow into droplets, large eddy and cloud-resolving models for the cloud, and both informing the global models.[^25] The first protocol for comparing the climate models' answers, also from 2024, found that cloud responses to the same injections differ substantially between models, with CESM2's clouds much more susceptible than the others.[^26]
 
