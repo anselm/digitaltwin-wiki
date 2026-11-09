@@ -28,3 +28,16 @@ Four background agents did the source work (term draft; CESM and E3SM; GLENS, AR
 - No pictures on the term, CESM or E3SM; UCAR's image terms need permission and E3SM states none.
 - The Degrees Initiative, the CarbonPlan downscaled dataset and CIDER could each carry an entry of their own.
 - The Planet AI app entry rests on Planet's launch post and press; Reddit blocks reading the AMA it came from.
+
+## Later the same day
+
+Anselm clarified that the word that struck him was ESM, not geoengineering, and sent a run of links. Each got the one-line verdict first (tool, dataset or method, or none), then entries for what qualified:
+
+- `terms/earth-system-model`, from the IPCC glossary, the CMIP6 design paper, Flato 2011, Deser 2020 and the Bretherton committee record.
+- `twins/dangermond-preserve-digital-twin`, from the team's Frontiers paper, Geo Week and the ArcNews text he pasted (Esri's servers refuse scripted reads).
+- Conservation International and One Earth: the organisations are advocacy, their tools are not. `engines/trends-earth`, `platforms/wildlife-insights`, `data-sources/irrecoverable-carbon`, `data-sources/one-earth-bioregions`, plus short org pages for both.
+- NASA Earth Observatory: no entry (a magazine; NEO was decommissioned September 2026).
+- Articles: `bedrinana-romano-blue-whales-vessel-traffic` (Solid), `parks-fire-deficit-north-american-forests` (Solid), `gohr-biosphere-reserves-ecosystem-functions` (Of note). Nature's pages read fine with a browser user agent through curl.
+- A student's unreleased FloodAI app for Nepal: not indexable, but its parts are. `data-sources/fabdem`, `data-sources/google-open-buildings`, `data-sources/dynamic-world`, `engines/hec-ras` (7.0.2, October 2026; free, not open source, per HEC's own terms).
+
+Four more background agents did the source work for these; the main session checked each report, removed one guessed tier and one stretched relation, and linked the entries to one another. Tiers on the new articles are the main session's judgement by the 4 November rubric; the twin and HEC-RAS carry no tier.
