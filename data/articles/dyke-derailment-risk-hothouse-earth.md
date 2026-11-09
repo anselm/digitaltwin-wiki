@@ -34,6 +34,8 @@ relations:
     target: terms/tipping-points
   - predicate: cites
     target: terms/earth-system-model
+  - predicate: cites
+    target: terms/polycrisis-and-metacrisis
 provenance:
   origin: agent
   sources:
@@ -50,7 +52,9 @@ In 2018 Will Steffen and colleagues drew the Earth system as a ball on a landsca
 
 ## The argument
 
-They call the gap derailment risk: the possibility that escalating Earth system disruption weakens the social, political and economic conditions needed to sustain mitigation, adaptation and restoration.[^1] The capacity to act is broken into three kinds of agency. Work agency is the energy, materials and infrastructure to build, remove carbon and restore ecosystems. Economic agency is the finance to direct at that work. Political agency is the ability to allocate the funds and pass the laws.[^1] Each is exposed to the climate it is meant to fix. The paper's standing example is the fiscal "doom loop" already visible in low-income countries: a disaster forces emergency borrowing, debt service crowds out climate investment, exposure to the next shock grows.[^1] Climate risk is already lowering sovereign credit ratings, and tropical cyclones are leaving debt burdens that constrain budgets for decades.[^1]
+They call the gap derailment risk: the possibility that escalating Earth system disruption weakens the social, political and economic conditions needed to sustain mitigation, adaptation and restoration.[^1] The capacity to act is broken into three kinds of agency. Work agency is the energy, materials and infrastructure to build, remove carbon and restore ecosystems. Economic agency is the finance to direct at that work. Political agency is the ability to allocate the funds and pass the laws.[^1] Each is exposed to the climate it is meant to fix. The paper's standing example is the fiscal "doom loop" already visible in low-income countries: a disaster forces emergency borrowing, debt service crowds out climate investment, exposure to the next shock grows.[^1] Climate risk is already lowering sovereign credit ratings, and tropical cyclones are leaving debt burdens that constrain budgets for decades.[^1] The authors say this risk is under-theorised and under-addressed in the literature on Earth system governance, the field the [Earth System Governance Project](/organizations/earth-system-governance-project/) organises.[^1]
+
+The word [polycrisis](/terms/polycrisis-and-metacrisis/) is one of the paper's keywords, and it is used in the technical sense of Lawrence and colleagues' 2024 framework: crises entangled by common stresses, domino effects and inter-systemic feedbacks. Derailment risks are a class of polycrisis dynamics, the ones that reduce the ability to deal with climate-driven impacts and their drivers.[^1]
 
 The authors redraw the landscape with two axes instead of one: global temperature and governance effectiveness. Social feedback is not a second state variable but a parameter that deforms the landscape. As governance degrades, the Hothouse basin deepens and the threshold moves closer, so there are two thresholds, the purely biophysical one of 2018 and an earlier one that the coupled system can cross with less warming.[^1] The deformation is not symmetric: trust and institutions are easier to destroy than to rebuild, so stewardship applied before social destabilisation is worth more than the same effort after.[^1] Stabilising loops exist too. Extreme weather has at times raised political will, and in Europe climate impacts have sometimes moved votes towards decarbonisation.[^1] The question is which kind of loop dominates.
 
