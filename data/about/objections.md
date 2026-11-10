@@ -1,5 +1,7 @@
 ---
 about:
+  depiction: about/objections-esri.jpg
+  depiction_credit: '"Simulate and predict outcomes", on Esri''s digital-twin page, 10 November 2026. The words every objection on this page starts from.'
   label: Objections people raise
   description: >-
     The objections this site meets when it argues for models of places that
@@ -45,6 +47,8 @@ A note on method. The honest test of the proposition would be to build the model
 
 There is a class of viewers of public geodata that look like digital twins and are twins of the present, not the future. [God's Eye View](/presentation/gods-eye-view/) is a 2026 example: live aircraft, ships, satellites, fires and wind on a photorealistic globe, open source, and by its maker's own description "a spy satellite simulator in your browser, except the data is real."[^1] It is a fine way to see what is, and with work, what was. It has no predictive power, and does not claim any. What this site is after is a forward causal model: the best available data, the behaviour of each part of a system integrated step by step through time, to say what the near future is likely to hold.
 
+![God's Eye View's own site: "A spy-satellite simulator in your browser. Except the data is real." Live flights, ships, orbits and quakes, and no forecast of any of them.](/about/objections-gods-eye.jpg)
+
 The objection is rarely about the tool. It means the premise has not been communicated. A viewer of what is and a model of what comes next look the same on screen and are different things. "Digital twin" does not help here, and there is an argument for a better term; see below.
 
 ## "Just use Esri"
@@ -52,6 +56,8 @@ The objection is rarely about the tool. It means the premise has not been commun
 Every vendor implies it has an oracle. This objection is harder to answer because the space is noisy, the desire for modelling is real, and there is good narrow modelling of single layers. What this wiki wants is whole-system models, and to argue that carefully takes some drilling down.
 
 Esri's digital-twin page says: "Time aware GIS-based digital twins go beyond 3D models as they reflect change over time, showing historic, current, and future states."[^2] It says "future states". It does not simulate them. Its heading "Simulate and predict outcomes" is followed by layered data: noise, solar radiation, building information.[^2] Esri's scenario products say what they do. ArcGIS Urban evaluates "multiple zoning, land-use, and development scenarios with 3D visualizations and urban analytics", and CityEngine generates versions of a 3D model "to show planned changes."[^3,4] A future state is the city with the proposed buildings in it. That is useful, and a plan rendered and counted is not a forecast.
+
+![ArcGIS Urban in its own words: "evaluate the impacts of multiple zoning, land-use, and development scenarios with 3D visualizations and urban analytics."](/about/objections-urban.jpg)
 
 Where [ArcGIS](/platforms/esri-arcgis/) does simulate, it simulates one layer. ArcGIS Pro's flood simulation, with the Advanced licence, sends an elevation surface to the GPU, adds rain to each cell and moves the water by the shallow water equations, and renders depth, speed and flow rate in 3D.[^10] That is a real simulation of water over terrain. Everything else in the scene, the ground, the buildings, the dam walls, is terrain to it; nothing responds. No bank fails, no farm is abandoned the next year, no vote changes. One dimension, done well.
 
@@ -96,6 +102,8 @@ SimCity was not too complicated. Wikipedia is not too complicated. [Cities: Skyl
 ## "There will never be an ask-a-question tool for lay people"
 
 Interfaces are moving to conversation, and we expect most of them to arrive there soon. The interface is not the thesis. It is a distraction from the claim that there is merit in tools that help ordinary people model the future of their homes. [Planet's AI app](/platforms/planet-ai-app/) already puts a chat box over a satellite archive, and that team evidently believes there is an audience. [FutureSearch](https://futuresearch.ai/app/conversations/share/034ad371-15ba-4a2a-a158-3a29b6e1702d) answers questions about the future with a language model and a published forecasting track record.[^9] This site disagrees with that approach at root: a forecast should come from a model of the system, not from a model of text. But it shows the appetite for asking the future a question in plain words.
+
+![A shared FutureSearch conversation: "what is a good place to move the family estate to for the year 2100", answered with inflation-adjusted value and uninhabitable days per candidate region, each with a probability range. A language model's forecast, not a model of any of the places.](/about/objections-futuresearch.jpg)
 
 ## "It is the wrong word"
 
