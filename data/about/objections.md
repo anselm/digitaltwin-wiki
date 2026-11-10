@@ -87,7 +87,7 @@ The second is compute. Weather, the one layer with the whole pipeline, shows wha
 
 The third is the one that changes the labour. A whole-system model is not one equation but thousands of artifacts: parameters, couplings, schemas, units, data pipelines, the relationships between a well and an aquifer and a pasture and a lease. Assembling and maintaining that set by hand is close to inhuman, which is why so few have been built and why they are rarely kept alive. Language models can now take part in building them: generating the components, the glue between simulators ([ModelingToolkit](/engines/modelingtoolkit/), [HELICS and FMI](/engines/helics-fmi/)), the tests and the documentation, and reading the papers and data catalogues that feed them. The ecologists who wrote [Digital twins as a tool for ecosystem research](/articles/digital-twins-for-ecosystem-research/) call this use "promising but in its infancy", which is the right note. This site is itself a small example: its entries are drafted by agents from sources and checked by a person. What is generated still has to be validated, and the answer to "you can't validate it" below applies to every line a model writes.
 
-So the honest form of the objection is not that it is too hard. It is that it has not been done, and that the tools for doing it arrived in the last few years. Those are different claims, and the second is an invitation.
+So the honest form of the objection is not that it is too hard. It is that it has not been done, and that the tools for doing it arrived in the last few years. Those are different claims, and the second is an invitation. And hard is not a reason. Doing hard things is close to the point of work, and of a life; the easy things are done. Let's not give up.
 
 ## "Just use Google Earth Engine"
 
@@ -132,3 +132,7 @@ It does. FEMA's [National Risk Index](/data-sources/fema-national-risk-index/) c
 ## "A language model will just make it up"
 
 It will, if asked to. That is why this site keeps apart computing a future and hallucinating one. A language model can be the interface, the planner, or a character in an agent-based model ([Generative Agents](/engines/generative-agents/), [Concordia](/engines/concordia/)). The water, the heat, the money and the population are computed, step by step, from rules that can be read.
+
+## "No." (And then nothing.)
+
+The commonest objection has no content. It is a list of reasons the idea will not work, and no idea in its place. That is the one answer this page cannot give for you. So, a question back: if you do not like what is proposed here, what do you propose? The problem the models are for does not go away when the models are refused. A town still has to decide about the terminal, the dam, the burn, the zoning; a coast still has to choose where to hold the line; the river still floods. Without a model those decisions get made by whoever holds the only one, or by nobody. The honest alternatives are few: keep deciding by rhetoric and incumbency; trust the vendor's oracle; wait for a national laboratory to notice your watershed; or build the thing, badly at first, in the open, and check it against what happens. If there is a fifth, say what it is. An objection with a proposal attached is a contribution, and the [contributors](/about/contributors/) page is where it goes.
