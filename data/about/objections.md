@@ -36,7 +36,7 @@ provenance:
       url: 'https://heigit.org/?p=42595'
   created: '2026-11-10'
   reviewed: '2026-11-10'
-  reviewed_by: 'Anselm wrote the objections and the first answers on 10 November 2026. Claude tidied the wording, read each source, moved the "future states" sentence from ArcNews to Esri''s overview page where it actually appears, replaced the Grand Coulee grizzly example with what the cited chapter records (salmon), added the flood simulation tool, the editor counts and the last four questions; the "too hard" answer is Anselm''s argument of 10 November, filled out from the site''s own entries.'
+  reviewed_by: 'Anselm wrote the objections and the first answers on 10 November 2026. Claude tidied the wording, read each source, moved the "future states" sentence from ArcNews to Esri''s overview page where it actually appears, replaced the Grand Coulee grizzly example with what the cited chapter records (salmon), added the flood simulation tool, the editor counts and the last four questions; the "too hard to write" answer is Anselm''s argument of 10 November, filled out from the site''s own entries.'
   status: draft
 ---
 This wiki is more than a shelf of tools. It takes a position: that models of places which run forward in time are worth building, that ordinary people are among their users, and that what such models show is a civic good. Put that position to a room and the first response is often a reason it cannot work. This page collects those reasons. Many are easy to answer, and answering them is worth the trouble, because the aim is to clear them fast and reach the objections that have merit.
@@ -75,11 +75,11 @@ Palantir, Esri, many corporations and governments may well hold forward models o
 
 Why can't we, the people, run those scenarios? Why do the costs always sit outside the liabilities, as externalities? Civic modelling is a challenge to power. It is political, for better or worse. And the secrecy objection concedes the point: if the models are worth hiding, they are worth having.
 
-Then the real difficulty, which is not about Esri. A coupled forward model of a whole place is hard. The abiotic realm alone: irradiance, geophysics, volumetric climate, hydrology, ocean heat, carbon, erosion. Then life, with its enormous effects from microbes upward, then animals, forests. Then the built landscape, people, land-use law and policy. To compute any chunk of that forward, rather than guess it, is not trivial. That does not invalidate the merit of doing so. The [Earth system model](/terms/earth-system-model/) entry is where that work stands for the planet as a whole.
+## "It is too hard to write"
 
-## "It is simply too hard"
+This one is true, or was. A coupled forward model of a whole place is hard to write. The abiotic realm alone: irradiance, geophysics, volumetric climate, hydrology, ocean heat, carbon, erosion. Then life, with its enormous effects from microbes upward, then animals, forests. Then the built landscape, people, land-use law and policy. To compute any chunk of that forward, rather than guess it, is not trivial, and fifty years ago it was out of reach for anyone outside a national laboratory. The [Earth system model](/terms/earth-system-model/) entry is where that work stands for the planet as a whole.
 
-It was. The answer above concedes it: a coupled forward model of a place is hard, and fifty years ago it was out of reach for anyone outside a national laboratory. Three things have changed, and they have changed recently.
+It is becoming possible, and for reasons that can be named. Three things have changed, and they have changed recently.
 
 The first is sensing. Fifty years ago the data to model a place did not exist. Now Landsat's record of every piece of land runs back five decades, and the [Hansen maps](/data-sources/hansen-global-forest-change/) read tree cover and the year of its loss from it at 30 metres for the whole planet. [Dynamic World](/data-sources/dynamic-world/) classifies every Sentinel-2 scene since 2015 at 10 metres. [TESSERA](/engines/tessera/) compresses a year of radar and optical imagery into 128 numbers for every 10 metre square of land, free to download. [Open Buildings](/data-sources/google-open-buildings/) has 1.8 billion footprints; [FABDEM](/data-sources/fabdem/) is the ground with the forests and buildings removed. At the Dangermond Preserve, 41 wells report every fifteen minutes and the camera traps name their own species.[^5] The environmental movement itself rests on measurement: the ozone hole was a measurement before it was a treaty, and the carbon dioxide curve on the [vitals](/vitals/) page is the argument in one line. A model of a place used to begin with a survey that nobody could afford. It now begins with a download.
 
@@ -87,7 +87,7 @@ The second is compute. Weather, the one layer with the whole pipeline, shows wha
 
 The third is the one that changes the labour. A whole-system model is not one equation but thousands of artifacts: parameters, couplings, schemas, units, data pipelines, the relationships between a well and an aquifer and a pasture and a lease. Assembling and maintaining that set by hand is close to inhuman, which is why so few have been built and why they are rarely kept alive. Language models can now take part in building them: generating the components, the glue between simulators ([ModelingToolkit](/engines/modelingtoolkit/), [HELICS and FMI](/engines/helics-fmi/)), the tests and the documentation, and reading the papers and data catalogues that feed them. The ecologists who wrote [Digital twins as a tool for ecosystem research](/articles/digital-twins-for-ecosystem-research/) call this use "promising but in its infancy", which is the right note. This site is itself a small example: its entries are drafted by agents from sources and checked by a person. What is generated still has to be validated, and the answer to "you can't validate it" below applies to every line a model writes.
 
-So the honest form of the objection is not that it is too hard. It is that it has not been done, and that the tools for doing it arrived in the last few years. Those are different claims, and the second is an invitation. And hard is not a reason. Doing hard things is close to the point of work, and of a life; the easy things are done. Let's not give up.
+So the honest form of the objection is not that it is too hard to write. It is that it has not been written, and that the tools for writing it arrived in the last few years. Those are different claims, and the second is an invitation. And hard is not a reason. Doing hard things is close to the point of work, and of a life; the easy things are done. Let's not give up.
 
 ## "Just use Google Earth Engine"
 
@@ -107,7 +107,7 @@ Almost nothing is worth doing before it is done. Vanishingly few people ever ope
 
 "Public" here does not mean everyone. It means the rare people in the public who feel the motivation and make the investment. The number is known for the two best civic tools of the age. English Wikipedia had about 39,000 editors who made five or more edits in September 2026, and about 5,000 who made a hundred or more.[^11] OpenStreetMap has around 50,000 active mappers a month, and almost 2.4 million people have ever contributed.[^12] Against the populations that read those projects, that is of the order of one to ten in a hundred thousand. Those few are enough: they wrote the encyclopaedia and drew the map. A model of a place needs the same one in a hundred thousand, and the rest of the town reads what they make.
 
-## "It is too complicated"
+## "It is too complicated to use"
 
 SimCity was not too complicated. Wikipedia is not too complicated. [Cities: Skylines](https://en.wikipedia.org/wiki/Cities:_Skylines), the natural successor to SimCity, has a large following.[^8] A tiny fraction of the people who read Wikipedia ever edit it, and that is more than zero. Playful experiences of serious models can be built, and the [communication](/communication/) shelf collects ways to put a model in front of people who will never open one.
 
