@@ -37,7 +37,7 @@ provenance:
   created: '2026-11-10'
   reviewed: '2026-11-10'
   reviewed_by: 'Anselm wrote the objections and the first answers on 10 November 2026. Claude tidied the wording, read each source, moved the "future states" sentence from ArcNews to Esri''s overview page where it actually appears, replaced the Grand Coulee grizzly example with what the cited chapter records (salmon), added the flood simulation tool, the editor counts and the last four questions; the plain framing of the whole thing as a science tool, a lens in daily professional use, is Anselm''s of 10 November, added to the introduction and to three answers; the "too hard to write" answer is Anselm''s argument of 10 November, filled out from the site''s own entries.'
-  status: draft
+  status: public
 ---
 This wiki is more than a shelf of tools. It takes a position: that models of places which run forward in time are worth building, that ordinary people are among their users, and that what such models show is a civic good. Put that position to a room and the first response is often a reason it cannot work. This page collects those reasons. Many are easy to answer, and answering them is worth the trouble, because the aim is to clear them fast and reach the objections that have merit.
 
