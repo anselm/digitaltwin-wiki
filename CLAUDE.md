@@ -36,6 +36,66 @@ Three things Anselm said on 2026-10-18 that shape every choice here:
 - Devlog: `devlog/` (dated entries; read the tail first).
 - Deploy: see `project.toml`.
 
+## Voice and style (Anselm, 2026-11-11)
+
+The public statement is `data/about/style.md` (/about/style/), with its
+sources; the research and reasoning are in `devlog/20261111-voice-and-style.md`.
+These rules apply to every sentence written into `data/`, by person or agent.
+What prompted them: Anselm read "answered so the easy ones can be set aside
+and the hard ones reached" and "One thing belongs before all of them, because
+it is plainer than anything that follows" as patronising and editorialising.
+"It's not the core point per se but the grandiloquence of the phrasing."
+
+The voice: a reference written by people who use the tools. Dry, specific,
+level with the reader, the same pitch for a flood as for a file format. The
+reader is an equal and draws the conclusion. Entries describe and take no
+side. The few position pages on the About shelf state the site's view once,
+give evidence, and concede what is true in the opposing case.
+
+Stays out:
+
+1. Announcements: a sentence that says what the next will do ("A note on
+   method.", "One thing belongs before", "Three replies.", "What follows").
+   Delete it and say the thing.
+2. Grades in advance: "the plain answer", "the honest form", "the hardest
+   objection", "the real question", "the best test case".
+3. Verdict words: notably, clearly, of course, essentially, ultimately,
+   indeed, importantly, simply, really, actually, honest.
+4. Directions to the reader: "note that", "it is worth", "we must", "let's".
+   Guides may use the imperative for their steps.
+5. Rhetorical questions, except the questions people bring on use-case pages.
+6. Closing morals: no kicker fragment ("One dimension, done well."), no
+   maxim, no sentence restating the paragraph. End on the last fact.
+7. Foils: "X, not Y", "not just X but Y", "Y rather than X", "It is not X.
+   It is Y." Say what the thing is. Keep a contrast only when a named party
+   holds the other view.
+8. The page describing itself or the site speaking as a character ("This
+   page collects", "this site says so plainly", "what this wiki wants").
+9. Rhythm for its own sake: em-dashes, triplets for cadence, runs of
+   sentences opening on It/This/That, equal-length sentences.
+10. Polemic: charged nouns for motives (oracle, shadows, power), telling the
+    reader how to feel, a closing call to action.
+
+Goes in:
+
+11. A claim that could be false in every sentence. Negate it; if nobody
+    would assert the opposite, cut it.
+12. The figure, year, place and unit instead of an adjective.
+13. Who says so: measured, modelled, claimed by the maker, or guessed.
+    Unknown is written as unknown. Only sources that were opened are cited.
+14. Uncertainty once, where it applies. No blanket hedging.
+15. One argument, once. A reason is not the conclusion reworded.
+16. Metaphor only with the literal claim beside it.
+
+Sentences: subject then verb soon, the action in the verb; known
+information first, the new fact last; short words; active voice; a
+technical term explained at first use; nothing over 45 words.
+
+When editing a page for voice, keep every fact, number, link, footnote and
+source, and keep Anselm's positions and his specifics; cut the wrapping.
+`node tools/tells.js --file <f>` counts these shapes; it is a census, and a
+quoted example or a real list of three is not a fault.
+
 ## Tools, and when to run them
 
 Policy (Anselm, 2026-10-23): the site keeps a set of rerunnable tools, and
