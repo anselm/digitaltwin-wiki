@@ -43,6 +43,12 @@ This wiki is more than a shelf of tools. It takes a position: that models of pla
 
 A note on method. The honest test of the proposition would be to build the models and compare what happened, and that is what the rest of the site is for. At this level the only tool is argument. People tend to oppose a new idea, and a question often does more than a counter-claim. But a few points are worth pushing back on directly, so that the deeper challenges can be found.
 
+## "You are proposing one model of everything"
+
+No. There is no single model proposed here, no one toolchain, and no lone plan with a solution attached. The proposition is smaller and wider than that. Building predictive models of places is useful, so there should be many of them, written by many parties, for different needs, with different tools, and with no need for a consensus on method before anyone starts. The weather has a dozen models and is better for it; the [GeoMIP](/data-sources/geomip/) experiments exist because the models disagree. Nothing here asks for agreement on tools. The [Engines](/engines/) shelf lists more than a hundred and favours none, and the tools for making separate models talk to each other, [HELICS and FMI](/engines/helics-fmi/), are there because the expected future is plural.
+
+The thesis is only this. Get beyond static data and static description, beyond the idea that once a thing has been described it has been solved. Engineering has had numerical models of finite systems for decades: a bridge, a wing, a reactor is simulated before it is built, and the tooling for that, the solvers, the meshes, the tests against the measured thing, is ordinary. Apply that kind of tooling to ecosystems and to large coupled systems of people and places. It is an argument for a class of work, not for any one piece of it.
+
 ## "Just use God's Eye View"
 
 There is a class of viewers of public geodata that look like digital twins and are twins of the present, not the future. [God's Eye View](/presentation/gods-eye-view/) is a 2026 example: live aircraft, ships, satellites, fires and wind on a photorealistic globe, open source, and by its maker's own description "a spy satellite simulator in your browser, except the data is real."[^1] It is a fine way to see what is, and with work, what was. It has no predictive power, and does not claim any. What this site is after is a forward causal model: the best available data, the behaviour of each part of a system integrated step by step through time, to say what the near future is likely to hold.
