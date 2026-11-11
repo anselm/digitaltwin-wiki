@@ -36,12 +36,14 @@ provenance:
       url: 'https://heigit.org/?p=42595'
   created: '2026-11-10'
   reviewed: '2026-11-10'
-  reviewed_by: 'Anselm wrote the objections and the first answers on 10 November 2026. Claude tidied the wording, read each source, moved the "future states" sentence from ArcNews to Esri''s overview page where it actually appears, replaced the Grand Coulee grizzly example with what the cited chapter records (salmon), added the flood simulation tool, the editor counts and the last four questions; the "too hard to write" answer is Anselm''s argument of 10 November, filled out from the site''s own entries.'
+  reviewed_by: 'Anselm wrote the objections and the first answers on 10 November 2026. Claude tidied the wording, read each source, moved the "future states" sentence from ArcNews to Esri''s overview page where it actually appears, replaced the Grand Coulee grizzly example with what the cited chapter records (salmon), added the flood simulation tool, the editor counts and the last four questions; the plain framing of the whole thing as a science tool, a lens in daily professional use, is Anselm''s of 10 November, added to the introduction and to three answers; the "too hard to write" answer is Anselm''s argument of 10 November, filled out from the site''s own entries.'
   status: draft
 ---
 This wiki is more than a shelf of tools. It takes a position: that models of places which run forward in time are worth building, that ordinary people are among their users, and that what such models show is a civic good. Put that position to a room and the first response is often a reason it cannot work. This page collects those reasons. Many are easy to answer, and answering them is worth the trouble, because the aim is to clear them fast and reach the objections that have merit.
 
 A note on method. The honest test of the proposition would be to build the models and compare what happened, and that is what the rest of the site is for. At this level the only tool is argument. People tend to oppose a new idea, and a question often does more than a counter-claim. But a few points are worth pushing back on directly, so that the deeper challenges can be found.
+
+One thing belongs before all of them, because it is plainer than anything that follows. Underneath the argument this is a science tool. Earth observation, a process model, a forecast: a lens on a place, and not a big deal. River engineers run [HEC-RAS](/engines/hec-ras/) to draw a flood map. Coastal agencies run [Delft3D](/engines/deltares-delft3d/) before sand is moved. Transport planners run [MATSim](/engines/matsim/) before a lane is changed, and fisheries scientists run [Ecopath](/engines/ecopath-with-ecosim/) before a quota is argued. The weather forecast is a model run, several times a day. People use tools of this kind every working day, mostly not lay people, and have for decades. The tools sit below most of the discourse on this page. Whether they are useless or too complicated is answered quietly by the people already using them. What is argued here is only who else should have them and what they could show.
 
 ## "You are proposing one model of everything"
 
@@ -121,11 +123,15 @@ Closer, in a different way. [Google Earth AI](/engines/google-earth-ai/) is a fa
 
 ## "Nobody will use it. Lay people don't care."
 
+The plain answer is that these tools are in use now. The flood engineer, the fisheries scientist and the transport planner are the users, and they are not the public. The objection is about lay people, and about them the answer is a number.
+
 Almost nothing is worth doing before it is done. Vanishingly few people ever operated a printing press.
 
 "Public" here does not mean everyone. It means the rare people in the public who feel the motivation and make the investment. The number is known for the two best civic tools of the age. English Wikipedia had about 39,000 editors who made five or more edits in September 2026, and about 5,000 who made a hundred or more.[^11] OpenStreetMap has around 50,000 active mappers a month, and almost 2.4 million people have ever contributed.[^12] Against the populations that read those projects, that is of the order of one to ten in a hundred thousand. Those few are enough: they wrote the encyclopaedia and drew the map. A model of a place needs the same one in a hundred thousand, and the rest of the town reads what they make.
 
 ## "It is too complicated to use"
+
+For whom? HEC-RAS is complicated, and a profession uses it. The objection means too complicated for lay people, which is a design problem rather than a verdict, and the plainest answer is that the tools are already used; the question is only how far the interface can be opened.
 
 SimCity was not too complicated. Wikipedia is not too complicated. [Cities: Skylines](https://en.wikipedia.org/wiki/Cities:_Skylines), the natural successor to SimCity, has a large following.[^8] A tiny fraction of the people who read Wikipedia ever edit it, and that is more than zero. Playful experiences of serious models can be built, and the [communication](/communication/) shelf collects ways to put a model in front of people who will never open one.
 
@@ -153,7 +159,7 @@ It will, if asked to. That is why this site keeps apart computing a future and h
 
 ## "Everything is fine. There is nothing to model."
 
-This is the hardest one to argue with, because there is no argument in it to take hold of. Nothing is wrong, the tools we have are enough, the solutions lie elsewhere, and this is a waste of time. Two answers.
+This is the hardest one to argue with, because there is no argument in it to take hold of. Nothing is wrong, the tools we have are enough, the solutions lie elsewhere, and this is a waste of time. The dry reply is that a science tool does not need a crisis. Rivers were modelled before anyone worried about the climate, because a town wanted to know where the water goes. Beyond that, two answers.
 
 The first is the record. The [IPCC](/organizations/ipcc/)'s assessments set out knock-on effects of carbon dioxide across water, food, heat and the sea; the annual [state of the climate report](/articles/2026-state-of-the-climate-report/) had seven of sixteen planetary vital signs at record extremes in 2026; and the [vitals](/vitals/) page on this site shows the measurements moving as you read. Whoever says there is nothing to worry about is arguing with the instruments, not with this page.
 
