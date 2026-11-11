@@ -34,9 +34,11 @@ provenance:
       url: 'https://wikimedia.org/api/rest_v1/metrics/editors/aggregate/en.wikipedia/user/all-page-types/5..24-edits/monthly/2026090100/2026100100'
     - title: 'HeiGIT, New User Statistics in ohsomeNow (7 May 2026)'
       url: 'https://heigit.org/?p=42595'
+    - title: 'Carroll et al., The CARE Principles for Indigenous Data Governance (Data Science Journal 19, 43, 2020)'
+      url: 'https://datascience.codata.org/articles/10.5334/dsj-2020-043'
   created: '2026-11-10'
   reviewed: '2026-11-10'
-  reviewed_by: 'Anselm wrote the objections and the first answers on 10 November 2026. Claude tidied the wording, read each source, moved the "future states" sentence from ArcNews to Esri''s overview page where it actually appears, replaced the Grand Coulee grizzly example with what the cited chapter records (salmon), added the flood simulation tool, the editor counts and the last four questions; the plain framing of the whole thing as a science tool, a lens in daily professional use, is Anselm''s of 10 November, added to the introduction and to three answers; the "too hard to write" answer is Anselm''s argument of 10 November, filled out from the site''s own entries.'
+  reviewed_by: 'Anselm wrote the objections and the first answers on 10 November 2026. Claude tidied the wording, read each source, moved the "future states" sentence from ArcNews to Esri''s overview page where it actually appears, replaced the Grand Coulee grizzly example with what the cited chapter records (salmon), added the flood simulation tool, the editor counts and the last four questions; the plain framing of the whole thing as a science tool, a lens in daily professional use, is Anselm''s of 10 November, added to the introduction and to three answers; the objection that people tied to the land will not trust the data to be respected, and its concession, are Anselm''s of 10 November; the "too hard to write" answer is Anselm''s argument of 10 November, filled out from the site''s own entries.'
   status: public
 ---
 This wiki is more than a shelf of tools. It takes a position: that models of places which run forward in time are worth building, that ordinary people are among their users, and that what such models show is a civic good. Put that position to a room and the first response is often a reason it cannot work. This page collects those reasons. Many are easy to answer, and answering them is worth the trouble, because the aim is to clear them fast and reach the objections that have merit.
@@ -152,6 +154,12 @@ Partly true, and the strongest objection on this page. A model that predicts man
 ## "The data will disappear"
 
 It does. FEMA's [National Risk Index](/data-sources/fema-national-risk-index/) closed in December 2025. NASA Earth Observations was decommissioned in September 2026. A twin built on a feed inherits the feed's politics. [Keep it alive](/guides/keep-it-alive/) says a model that lives on needs an owner, a feed, a check and a budget, in writing. The Dangermond team's warning is the best on record: foundations before features, and their groundwater monitoring alone costs $16,000 a year.[^5]
+
+## "The people who know the land will not trust you with what they know"
+
+This one is right, and the page does not argue with it. Indigenous communities and others tied to a place do not trust platforms whose owners hold contracts with oil, mining and industry. The company that holds the data can disclose it. Knowledge of a sacred site or a hunting ground, put into such a system, is knowledge the extractive industries on the same client list would pay for. The fear is of betrayal, not of the tool, and it is well founded. This is a high-risk area. As a society we do not yet understand the grey space between private and public, and a data service of the kind proposed here sits in that space.
+
+What follows from the concession. People must be able to run their own models without sharing their data, and most of the engines on this site allow it: they are desktop or open-source software that computes on whatever is on the machine and sends nothing anywhere. The model of a place can belong to the people of the place, with the knowledge held where they hold it. The CARE principles for Indigenous data governance are collective benefit, authority to control, responsibility and ethics. They were written because "mainstream values related to research and data are often inconsistent with Indigenous cultures and collective rights".[^13] Authority to control is the one a model builder has to design for first. [Protect people's privacy](/guides/protect-people-s-privacy/) is the site's own guide on what not to collect. The objection stands as a condition on any of this being worth doing.
 
 ## "A language model will just make it up"
 
