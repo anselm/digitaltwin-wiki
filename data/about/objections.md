@@ -49,6 +49,8 @@ No. There is no single model proposed here, no one toolchain, and no lone plan w
 
 The thesis is only this. Get beyond static data and static description, beyond the idea that once a thing has been described it has been solved. Engineering has had numerical models of finite systems for decades: a bridge, a wing, a reactor is simulated before it is built, and the tooling for that, the solvers, the meshes, the tests against the measured thing, is ordinary. Apply that kind of tooling to ecosystems and to large coupled systems of people and places. It is an argument for a class of work, not for any one piece of it.
 
+The picture to hold is a patchwork quilt, much like the internet. Everyone will be making models of their own problems, and they already are: a reef, a watershed, a city's traffic, an island's people, each by the people who needed it, in whatever tools they had. This site collects the ones that exist, on the [Notable twins](/twins/) shelf and the shelves beside it, and its only agenda is to encourage the practice.
+
 ## "Just use God's Eye View"
 
 There is a class of viewers of public geodata that look like digital twins and are twins of the present, not the future. [God's Eye View](/presentation/gods-eye-view/) is a 2026 example: live aircraft, ships, satellites, fires and wind on a photorealistic globe, open source, and by its maker's own description "a spy satellite simulator in your browser, except the data is real."[^1] It is a fine way to see what is, and with work, what was. It has no predictive power, and does not claim any. What this site is after is a forward causal model: the best available data, the behaviour of each part of a system integrated step by step through time, to say what the near future is likely to hold.
