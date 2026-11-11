@@ -52,7 +52,7 @@ The work is done by researchers and software developers at NIOO-KNAW, NIOZ, the 
 It works in three ways: bringing together the researchers who study different parts of the same ecosystem, a portal to find data, models and tools for those communities (including old datasets), and a virtual research environment where they can be reused and connected.[^1] Inside that environment, a virtual lab gathers the data, models and analysis tools for one ecosystem, and a twin is assembled in the lab, updated with measurements from the real place, and used for experiments and scenarios on the computer.[^3] The models can be process-based, written from how the system works, or data-driven, from statistics or machine learning; both are to be made findable, accessible, interoperable and reusable (FAIR).[^3] LTER-LIFE is to be an open-source infrastructure: users can run its assets on their own machines or in the cloud through its partner SURF, and workflows and data used in projects get a persistent identifier and are stored by DANS-KNAW and SURF.[^3] The lab environment it uses is [NaaVRE](/platforms/naavre/), which it is developing further for building twins.[^4]
 
 LTER-LIFE is building its services step by step, and several can already be tried, some at an early stage.[^4]
-- **NatureDataCube**, geodata for Dutch nature areas through one API (below).[^4]
+- **NatureDataCube**, geodata for Dutch nature areas through one API.[^4]
 - **NaaVRE**, the virtual lab environment.[^4]
 - **The LTER Data Registry**, to register and find ecological data collected on the Veluwe and IJsselmeer LTSER platforms (long-term research sites).[^4]
 - **The Waddenregister**, Datahuis Wadden's search engine for Wadden Sea data and metadata.[^4]

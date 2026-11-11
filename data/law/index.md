@@ -16,4 +16,4 @@ provenance:
 ---
 Much of what a place looks like was decided on paper first. A field stays a field because it is zoned for one house per acre. A creek bank stays wild because it is a regulated wetland. A house with a government-backed mortgage inside a mapped flood zone must carry flood insurance that its neighbour across the line need not. A model of what could happen in a place has to carry these rules alongside the terrain. The [rules layer](/terms/rules-layer/) describes the kinds.
 
-This shelf holds the sources where those rules can be read as data rather than as documents. Most are from the United States so far. Most rules are still published as text, change over time, and are argued over, so every layer here is a snapshot of something contested.
+The sources here are where those rules can be read as data. Most are from the United States so far. Most rules are still published as text, change over time, and are argued over, so every layer here is a snapshot of something contested.

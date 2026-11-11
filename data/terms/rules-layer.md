@@ -4,7 +4,7 @@ about:
   description: >-
     The laws and legal designations laid over land and water that decide what
     may happen in a place: zoning, parcels, permits, environmental review,
-    protected areas, flood zones and water rights
+    protected areas, flood zones and water rights.
   tags:
     - law
     - land use

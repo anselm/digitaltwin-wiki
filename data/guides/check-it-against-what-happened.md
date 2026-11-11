@@ -38,7 +38,7 @@ Store the event, the inputs and the comparison with the model. When the model is
 
 ## What the public can do
 
-Published models can be checked by anyone with the record. Fire perimeters, flood extents and traffic counts are often public, and a reporter or a resident with an hour can ask the question this guide asks.
+Published models can be checked by anyone with the record. Fire perimeters, flood extents and traffic counts are often public, and a reporter or a resident with an hour can make the same check.
 
 ## Next
 

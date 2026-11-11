@@ -82,7 +82,7 @@ provenance:
   status: draft
 ---
 
-Ecology has a problem with prediction. To say how one lake or heath will respond to a heat wave, a new dyke or a restoration plan, it has to become a predictive science, and three things hold it back. It cannot yet combine the effects of several stressors at once. It struggles to link biodiversity to nutrient cycles and other ecosystem traits. And it rarely runs scenarios from local data across a whole ecosystem.[^1] The fourteen authors, ecologists, modellers and computer scientists from Dutch institutes who all work in the [LTER-LIFE](/organizations/lter-life/) research infrastructure, propose digital twins as the way through.[^1,3]
+To say how one lake or heath will respond to a heat wave, a new dyke or a restoration plan, ecology has to become a predictive science, and three things hold it back. It cannot yet combine the effects of several stressors at once. It struggles to link biodiversity to nutrient cycles and other ecosystem traits. And it rarely runs scenarios from local data across a whole ecosystem.[^1] The fourteen authors, ecologists, modellers and computer scientists from Dutch institutes who all work in the [LTER-LIFE](/organizations/lter-life/) research infrastructure, propose digital twins as the way through.[^1,3]
 
 They name five traits. A twin could have all of them but need not:[^1]
 
@@ -93,8 +93,6 @@ They name five traits. A twin could have all of them but need not:[^1]
 5. Forecasts and scenarios: short-term forecasts, long-term projections, or nowcasts that fill gaps in what was measured.
 
 The picture above is their Figure 1. One real ecosystem has one twin, and on the twin three scenarios, such as three planned interventions, are played forward.[^1]
-
-Four choices in the paper shape what gets built.
 
 **Specific, but not from scratch each time.** "Ecosystem-specific" does not mean a new twin for every wetland. The authors borrow the industrial idea of a prototype twin, a blueprint tailored to each instance, and cite a conference paper that modelled many unique wetlands in parallel this way. Nor does a twin have to cover a whole landscape. It can be the entire Wadden Sea, or the soil microbes of the Veluwe.[^1]
 
@@ -126,12 +124,12 @@ Some run process models. Others run statistical or machine-learning ones. None c
 
 For building one, the authors take [G. S. Blair](/people/gordon-blair/)'s "jam sandwich" from [a 2021 paper](/articles/blair-digital-twins-of-the-natural-environment/). The bread is the plumbing: data and models integrated and reused in one place, interoperable, able to scale. The jam is data science and AI, joining process and data models, and handling feedback and complexity.[^1] The authors dwell on the parts least familiar to ecologists. One is the virtual lab. Another is FAIR data (findable, accessible, interoperable and reusable), because ecological data still sit in mixed formats with thin metadata and sometimes no way to download them. The third is large language models that pull biodiversity facts, traits and metadata out of text, which they call promising but in their infancy.[^1]
 
-The open questions at the end are among the most useful parts of the paper.[^1]
+The paper ends on open questions.[^1]
 - **What exactly is the physical thing?** Ecosystems are loosely defined, and a twin needs a boundary.
 - **How do you train a twin of a slow place?** Some species breed once a year, so a twin of one depends on long runs of legacy data, much of it scattered and without metadata.
 - **How do you check a twin?** One that predicts many properties at once rests on many models fitted to many sources. The authors ask whether that takes living labs, where human pressure is deliberately varied, or back-casting at sites with long records.
 - **How do policymakers use the scenarios?** They will need interfaces they can work with directly.
 
-The closing message: the label matters less than the five traits. Call it a digital twin or call it a model, so long as data, models and people are integrated around one real place.[^1] That is close to how this wiki uses the term (see [What is a digital twin?](/terms/digital-twin/)). [Destination Earth](/twins/destination-earth/) appears in the paper as a twin of the whole planet, the far end of the same idea. The paper is open under CC BY 4.0, so its figure can be shown here.[^1]
+The closing message: the label matters less than the five traits. Call it a digital twin or call it a model, so long as data, models and people are integrated around one real place.[^1] The term is used in much the same way at [What is a digital twin?](/terms/digital-twin/). [Destination Earth](/twins/destination-earth/) appears in the paper as a twin of the whole planet, the far end of the same idea. The paper is open under CC BY 4.0, so its figure can be shown here.[^1]
 
-The paper's own sources make a good reading list, and several are on this wiki. On what a twin is: [Blair](/articles/blair-digital-twins-of-the-natural-environment/), [de Koning and colleagues](/articles/de-koning-digital-twins-model-data-fusion/), [Metcalfe and colleagues' maturity levels](/articles/metcalfe-digital-twin-maturity-levels/), and [Hazeleger and colleagues on Earth twins](/articles/hazeleger-digital-twins-of-the-earth/). On forecasting: [Dietze and colleagues](/articles/dietze-near-term-ecological-forecasting/). On the parts: the [Madingley](/engines/madingley/) ecosystem model, [Movebank](/data-sources/movebank/) animal tracks and [EMODnet](/data-sources/emodnet/) marine data.[^1]
+Several of the paper's sources have entries. On what a twin is: [Blair](/articles/blair-digital-twins-of-the-natural-environment/), [de Koning and colleagues](/articles/de-koning-digital-twins-model-data-fusion/), [Metcalfe and colleagues' maturity levels](/articles/metcalfe-digital-twin-maturity-levels/), and [Hazeleger and colleagues on Earth twins](/articles/hazeleger-digital-twins-of-the-earth/). On forecasting: [Dietze and colleagues](/articles/dietze-near-term-ecological-forecasting/). On the parts: the [Madingley](/engines/madingley/) ecosystem model, [Movebank](/data-sources/movebank/) animal tracks and [EMODnet](/data-sources/emodnet/) marine data.[^1]

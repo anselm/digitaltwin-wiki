@@ -55,9 +55,9 @@ The Ecological Forecasting Initiative is an international grassroots consortium 
 
 EFI is organised in working groups on theory, cyberinfrastructure, methods and tools, forecasting standards, translation into actionable science, social science, partners and knowledge transfer, diversity and inclusion, and education, with regional chapters in Africa, Asia, Canada, Europe and Oceania.[^2] It runs a webinar series on statistical methods with the Ecological Society of America's statistical ecology section, and holds conferences; the 2026 one was in Toronto and the 2027 one is set for Minneapolis.[^2] Membership is open to people who sign up to its shared values and operating principles.[^1] Since February 2026 EFI has been a fiscally sponsored project of the nonprofit Ecologistics, Inc., which lets it hold a bank account, take donations and lead grant proposals.[^8]
 
-Its most practical offering for outsiders is a set of forecasting challenges. Each publishes a stream of observations, takes forecasts from anyone, checks them against EFI's metadata standards, scores them when the data come in, catalogues them and shows them on a dashboard. EFI offers the same setup to people who want to run a challenge on their own data.[^3] Five are open:[^2,3]
+EFI runs a set of forecasting challenges. Each publishes a stream of observations, takes forecasts from anyone, checks them against EFI's metadata standards, scores them when the data come in, catalogues them and shows them on a dashboard. EFI offers the same setup to people who want to run a challenge on their own data.[^3] Five are open:[^2,3]
 
-- the NEON challenge, described below;
+- the NEON challenge;
 - a river chlorophyll challenge with the US Geological Survey, aimed at harmful algal blooms and water quality;
 - the Virginia Ecoforecast Reservoir Analysis, with 11 freshwater variables and over 11 years of data from two reservoirs;
 - a spatial challenge on how vegetation recovers after wildfire, forecasting leaf area seen by the MODIS satellite instrument;

@@ -156,3 +156,56 @@ TESSERA was missing because the wiki grew from the survey, the LinkedIn scrape, 
 - Systems Change Lab, forests and land (https://systemschangelab.org/forests-and-land): being drafted as data/data-sources/systems-change-lab.md.
 - Chesapeake CAST: the entry calls Phase 6 version 8.5.1 the model of record; Bay Program pages read on 2026-11-01 give 7.14.3 and 7.12.1 (perhaps watershed-model versus CAST numbering). Check against the sources and correct.
 - WANSEC links OpenFOAM and ParaView, which neither project page names (from the LinkedIn import); its Antigua and Barbuda part was declared complete on 26 August 2026 with no model published. Recheck the entry.
+
+## Facts and wording flagged in the voice pass (2026-11-11, devlog/20261111-voice-and-style.md)
+
+The agents that revised the prose opened no sources. These are things they noticed while reading and did not change. Each needs its source opened before it is fixed.
+
+Going stale:
+
+- scenarios/sacramento-san-joaquin-delta-and-smelt: the State Water Board meeting of 28 and 29 October 2026 is written in the present tense ("deciding this month"), with no outcome.
+- scenarios/jones-act-fuel-waiver: the waiver runs to 15 November 2026; "$100 to $110 million over the waiver's eight months" needs a tense change after that date.
+- scenarios/san-joaquin-valley-groundwater: "73 statewide so far in 2026, 30% fewer than by this time last year" has no as-of date.
+- presentation/vu-city-clara: the app's public release in June 2026 and the CLARA-web launch in September 2026 are written as plans; "Noise is to follow" repeats "noise maps in autumn 2026".
+- terms/biohabitats-nature-first-data-center-framework: "developed Nature First over the past year" is a relative date; the page gives 1 September 2026 for publication.
+
+Possibly wrong, or contradicted by another entry:
+
+- questions/after-an-oil-spill: "more than 2,000 net samples over thirteen years"; the article entry has thirteen years, 46 stations and 134 full-depth samples, and no 2,000 figure. The funders named (NOAA Research, the Gulf of Mexico Research Initiative) are in neither the article entry nor the GRIIDC entry. The page asks for a pre-spill baseline, and the article entry says the Gulf study's baseline is a 2011 campaign begun three months after the well was sealed.
+- questions/cooling-the-planet: Pinatubo "about half a degree for the next year or two"; terms/geoengineering cites NASA for about 0.6 °C over the next 15 months.
+- articles/places-with-a-question: "the only item on this list whose model exists and is published" against the closing paragraph ("The lagoon, the forest and the trade view already have their model") and the Ross Island entry ("The team ran one"). "The mean critical temperature was 46.1 degrees" has no unit. Source 9 (the Meat Institute web page) is linked in the text and never footnoted.
+- everyday/can-this-home-be-insured-against-fire: "A regulation enforced on 13 December 2024" may mean "in force"; check sources 6 and 7. "From 2020 to 2023 the Department counted about 115,000 fewer of those than FAIR Plan policies" does not say whether it is a total or one year.
+- everyday/what-will-grow-here: "warming about 40 percent more than mean winter minimum temperatures, moving at an average of 21.4 km a decade": the speed presumably belongs to the hardiness zones, and the sentence gives it to the coldest night.
+- everyday/how-hot-does-it-get: "14 more days a year above 93.15°F": confirm the threshold against the Climate Local page.
+- scenarios/grand-kankakee-marsh: wildfowl shooting "famous across the country" cites markers 2, 3 and 21, and 2 and 3 are hydrology reports.
+- guides/put-it-in-front-of-its-users: "The last step is getting its answer into the room"; the guide is stage 8 of 9.
+- stories/a-flooded-substation: the body writes CReDO and the caption CReDo; twins/credo uses CReDO in its label.
+- articles/earth-embeddings-compared: "Four questions decide between seven of them" and the description's "Seven open sources"; the comparison table has six rows.
+
+Unsourced, stated as fact:
+
+- terms/tipping-points: the paragraph from "A lake tips at a phosphorus load" to "tearing is harder to see in a society than in a lake" has no footnote.
+- terms/ecosystem-integrity: "A model of a forest therefore needs more than area and carbon stock" does not follow from the paragraph on the Convention on Biological Diversity above it.
+- questions/wildfire: "Your state or national fire agency has already published a hazard map."
+- guides/talk-to-the-people-affected: "Many models have been fed by a logbook."
+- articles/synthetic-people: "checked forecasts are rarer".
+- flows/so-you-want-a-digital-twin: "most people leave the path before the last one".
+- ontologies/ontology-monster: "Most knowledge graphs begin with a schema and fit the world to the schema."
+- about/faq: "Lansing writes that consultants evaluating the Asian Development Bank's irrigation project later acknowledged its conclusions" has no footnote and no Lansing source in the page's list. "Most systems bend for a long time and then change all at once" is a generalisation with no source.
+- vitals/index: "according to a 2022 review in Science" has no entry in the page's sources.
+- media/growing-artificial-societies: "Every twin that populates a place with individual actors descends from Sugarscape." media/the-weather-machine: "the oldest operational digital twin of a place". media/agent-based-modelling-and-geographical-information-systems: "steps most twin projects skip".
+- questions/after-a-closure: "Traffic models come in two sizes" leaves out mesoscopic and macroscopic models. The agent that flagged it said this was a guess.
+- organizations/coastal-assembly: the body has no footnote markers. "ninety feet of new beach in six months" and "It was established in 2017" are unsourced in the text, and "Nothing needs running or maintaining afterwards" reads as the maker's claim stated as fact.
+- events/planetary-berlin-governing-hydrological-continuities: no footnote markers in the body.
+- data-sources/satlas: "On the day this entry was written the offshore series ran to July 2026" gives no date.
+
+Wording:
+
+- terms/digital-twins-of-people: "Its examples run from organs to diseases", and only a heart example follows.
+- terms/digital-twin: "This guide is about large-scale systems" where the rest of the page says "this wiki".
+- scenarios/solar-salmon-pen-huar-norte: "The Norwegian company" is ambiguous. scenarios/bangladesh-rice-and-fertiliser: the body opens "The 7% is...", which depends on the description above it.
+- everyday/will-this-property-flood: "rain that overwhelms drains, rivers, tides and storm surge" can be read as rain overwhelming rivers and tides.
+- The heading "What you are really asking" is on all 13 question pages and in README.md. "Really" is on the list of verdict words in the style rules. It needs one decision and one pass. Anselm's call.
+- People entries that end "On the wiki he is..." or "He appears in the entries on..." (jay-forrester, doyne-farmer, johan-rockstrom, clement-bezold), and "On this site" and "the picture above" in several articles, were left as a linking convention. The style rules as written would cut them. Anselm's call.
+- The catalogue shelves were revised only where the linter had a hit, 155 entries. A reading pass over the rest has not been done; `node tools/tells.js --tell announcement` and the other tuned rows are the place to start.
+- ontologies/ontology-monster, stories/computational-journalism-colorado-river-interactive, terms/civic-models-simulating-the-world-direction and terms/natural-general-intelligence-ngi name Anselm as maker or author. Left as attribution.

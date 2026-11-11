@@ -22,7 +22,7 @@ provenance:
 ---
 A spill has a first week and a long tail. In the first week the question is where the slick will be tomorrow, and responders answer it with trajectory models. The long tail is where models of places are thin. Sixteen years after Deepwater Horizon, a [study of the Gulf of Mexico's midwater](/articles/immense-but-not-immutable-deep-pelagic-decline/) found its fish, krill and squid down 60 to 85% and not recovering, a loss nobody saw from the surface. The Gulf's deep-diving whales fell further than the models of the spill's damage had predicted.
 
-The people who carry the long tail are concrete: a fisheries council setting catch limits, a coastal town whose charter boats and processors depend on those fish, a trustee or agency deciding where restoration money goes, a court or an insurer weighing damage.
+The people who carry the long tail are a fisheries council setting catch limits, a coastal town whose charter boats and processors depend on those fish, a trustee or agency deciding where restoration money goes, and a court or an insurer weighing damage.
 
 ## What you are really asking
 
@@ -30,7 +30,7 @@ The people who carry the long tail are concrete: a fisheries council setting cat
 - **What did it reach?** Which habitats and which animals, at which depths, and through what: the oil, the dispersant, or the two together.
 - **Is it recovering, and how would we know?** This needs a baseline from before, and counting that continues after the news has moved on.
 - **What carries over?** Fewer prey in the midwater may mean thinner whales, smaller fish catches and less carbon carried down by the animals that migrate each night. Each of these is a separate claim to test.
-- **What would have changed the outcome?** A different response, a faster cap, less dispersant, a closed fishery. The counterfactual is where a model earns its keep, and where it is least certain.
+- **What would have changed the outcome?** A different response, a faster cap, less dispersant, a closed fishery. The counterfactual is where a model is most useful and least certain.
 
 ## What kind of model answers it
 

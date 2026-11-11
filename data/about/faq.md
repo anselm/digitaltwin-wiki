@@ -2,7 +2,7 @@
 about:
   label: Questions people ask
   description: >-
-    Plain answers to what a digital twin is for, from people who have asked:
+    Answers to what a digital twin is for, from people who have asked:
     rehearsal, a shared picture, the hidden landscape, and who holds the model.
   pinned: 2
 provenance:
@@ -22,7 +22,7 @@ provenance:
 ---
 ## What is a digital twin for?
 
-A digital twin is a model of a place that can be checked against the place itself. People build one to answer a question they cannot answer by standing in the street. Four uses come up again and again.
+A digital twin is a model of a place that can be checked against the place itself. People build one to answer a question they cannot answer by standing in the street.
 
 - **Rehearsal.** You can flood a model a hundred times, or move a road, before anyone does it for real. [eReefs](/twins/ereefs/) simulates the water, sediment and chemistry of the Great Barrier Reef from the river catchments out to the open ocean.
 - **One picture for everyone.** Arguments about a place usually happen with each person holding a different map in their head. A shared model puts the same map and the same numbers in front of all of them. [Virtual Singapore](/twins/virtual-singapore/) was built so that agencies could run their analyses on one model of the city.
@@ -35,7 +35,7 @@ A perfect copy would be no use. In Lewis Carroll's *Sylvie and Bruno Concluded*,
 
 ## Don't people already know what is needed?
 
-Often they do, and the best example is a model that proved it. Bali's rice farmers have long shared their water through subaks, irrigation groups whose water temples set when each one plants. In the 1970s farmers were pushed to plant new rice as often as they could, outside the temple schedule, and the new system was overwhelmed by pests.[^3] The anthropologist [J. Stephen Lansing](/people/stephen-lansing/) and the ecologist [James Kremer](/people/james-kremer/) built a [computer model of 172 subaks](/articles/lansing-kremer-balinese-water-temple-networks/), and it found the temple schedules gave the best harvests of any it tried.[^3] Lansing writes that consultants evaluating the Asian Development Bank's irrigation project later acknowledged its conclusions. The farmers already knew. The model made what they knew visible to the people who had power over them. The [Bali scenario](/scenarios/bali-subak-water-temples/) asks what a model would show now, as terraces are sold for villas.
+Often they do, and in one case a model proved it. Bali's rice farmers have long shared their water through subaks, irrigation groups whose water temples set when each one plants. In the 1970s farmers were pushed to plant new rice as often as they could, outside the temple schedule, and the new system was overwhelmed by pests.[^3] The anthropologist [J. Stephen Lansing](/people/stephen-lansing/) and the ecologist [James Kremer](/people/james-kremer/) built a [computer model of 172 subaks](/articles/lansing-kremer-balinese-water-temple-networks/), and it found the temple schedules gave the best harvests of any it tried.[^3] Lansing writes that consultants evaluating the Asian Development Bank's irrigation project later acknowledged its conclusions. The model made what the farmers already knew visible to the people who had power over them. The [Bali scenario](/scenarios/bali-subak-water-temples/) asks what a model would show now, as terraces are sold for villas.
 
 ## Isn't more data the problem? We need to connect with each other.
 
@@ -43,7 +43,7 @@ Both are needed. Elinor Ostrom studied commons that lasted, among them irrigatio
 
 ## Who holds the model?
 
-It matters more than anything else on this page. Many detailed models of places belong to the companies and agencies that work in them, and the people who live there rarely see them. A model is a public good when the people it concerns can see it, question it and run it themselves. That is why every engine, twin and data source here carries a note on what in it is open: the source, the data, and who can take part.
+Many detailed models of places belong to the companies and agencies that work in them, and the people who live there rarely see them. A model is a public good when the people it concerns can see it, question it and run it themselves. That is why every engine, twin and data source here carries a note on what in it is open: the source, the data, and who can take part.
 
 ## Can a model show what a forest is worth?
 
@@ -51,7 +51,7 @@ It can show what an ordinary price leaves out. A forest cleared for cattle shows
 
 ## Has a model ever changed anything?
 
-The clearest case is the ozone layer. In 1974 Mario Molina and Sherwood Rowland proposed that CFCs could destroy ozone high in the atmosphere.[^4] In 1985 Joseph Farman's team reported the ozone over Antarctica falling each spring.[^4] Controls on the chemicals took effect in 1989, ozone levels levelled off by the mid-1990s, and a 2023 United Nations assessment expects the layer over Antarctica to be back at 1980 levels around 2066.[^4] A model and a measurement together made an invisible harm undeniable and its cause nameable. Harms whose costs are spread thin and come late, like carbon, soil and species loss, have been much harder.
+Yes, in the case of the ozone layer. In 1974 Mario Molina and Sherwood Rowland proposed that CFCs could destroy ozone high in the atmosphere.[^4] In 1985 Joseph Farman's team reported the ozone over Antarctica falling each spring.[^4] Controls on the chemicals took effect in 1989, ozone levels levelled off by the mid-1990s, and a 2023 United Nations assessment expects the layer over Antarctica to be back at 1980 levels around 2066.[^4] A model and a measurement together made an invisible harm undeniable and its cause nameable. Harms whose costs are spread thin and come late, like carbon, soil and species loss, have been much harder.
 
 ## Can my town or neighbourhood have one?
 

@@ -14,7 +14,7 @@ provenance:
     on this site; not yet read by Anselm
   status: draft
 ---
-People who live with a place know where the water came up in 2019, which exit people use in practice, why the bus is late. No dataset holds that. They are also the people the decision will affect. Talking to them first makes the model better and the result usable. Skipping them is a common way for a good model to be ignored.
+People who live with a place know where the water came up in 2019, which exit people use in practice and why the bus is late. No dataset holds that. They are also the people the decision will affect. Talking to them first makes the model better. Skipping them is a common way for a good model to be ignored.
 
 ## Who
 
@@ -28,7 +28,7 @@ People who live with a place know where the water came up in 2019, which exit pe
 - What happened last time? Where, when, how bad? Ask for photos.
 - What would you want to know? Their question may be sharper than yours.
 - What would you do differently if you knew? This is the decision, from their side.
-- What do you already measure or write down? Many a model has been fed by a logbook.
+- What do you already measure or write down? Many models have been fed by a logbook.
 - What should we not get wrong? Each answer is a test the model must pass.
 
 ## How

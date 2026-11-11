@@ -55,4 +55,4 @@ The design borrows from tabletop role-playing games.[^1,2] Characters say in pla
 
 You install it with pip and write Python, or use a graphical editor and command-line interface that come with it.[^1] It needs any LLM API that can generate text, plus a text embedder for searching memory. Results depend on the model chosen.[^1] Tutorials include a notebook that runs in Colab and a recorded lecture.[^1] The authors list social science, AI safety and ethics, economics, synthetic data and testing real services with simulated users among its uses.[^1,2] Version 2.4.0 came out in March 2026,[^3] and commits continued into October 2026.[^4]
 
-Concordia is a toolkit, not a model of any population. It has no census data, map or calibrated behaviour built in. Whoever builds a simulation with it has to show that the characters stand for real people. Licence Apache-2.0.[^1]
+Concordia is a toolkit with no census data, map or calibrated behaviour built in. Whoever builds a simulation with it has to show that the characters stand for real people. Licence Apache-2.0.[^1]

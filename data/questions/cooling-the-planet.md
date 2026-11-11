@@ -14,7 +14,7 @@ provenance:
   reviewed_by: 'Claude, from the entries linked on this page'
   status: draft
 ---
-No one can run this experiment on the planet, so the model is the only laboratory. That makes it the purest case of a what-if. A change is made in a world where it cannot be tried first, and the question is what follows.
+No one can run this experiment on the planet, so the model is the only laboratory for asking what would follow.
 
 ## What you are really asking
 

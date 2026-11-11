@@ -15,4 +15,4 @@ provenance:
   reviewed_by: 'Claude, from a conversation with Anselm'
   status: draft
 ---
-Places are full of people, and many questions put to a model of a place are about them. The entries here model the people themselves. [Digital twins of people](/terms/digital-twins-of-people/) sets out the three kinds, and [Synthetic people](/articles/synthetic-people/) goes through the evidence.
+Many questions put to a model of a place are about the people in it. The entries here model the people themselves. [Digital twins of people](/terms/digital-twins-of-people/) sets out the three kinds, and [Synthetic people](/articles/synthetic-people/) goes through the evidence.

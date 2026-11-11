@@ -66,7 +66,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed; heat.gov refused direct requests and was read through the Wayback Machine'
   status: draft
 ---
-How hot does it get here? A weather forecast gives one number for a whole city. The heat on one street can be well above that reading. It depends on the regional climate first. Then it depends on what is close by: shade, grass or asphalt, tall buildings that block the wind, and the humidity. Over years it also depends on how often the hottest days come.
+A weather forecast gives one number for a whole city. The heat on one street can be well above that reading. It depends on the regional climate first. Then it depends on what is close by: shade, grass or asphalt, tall buildings that block the wind, and the humidity. Over years it also depends on how often the hottest days come.
 
 ## Who asks, and who they ask today
 
@@ -90,7 +90,7 @@ Tree cover and shade come from layers such as [High Resolution Canopy Height Map
 
 **Listing sites.** Zillow showed First Street's heat data on for-sale listings from September 2024, along with flood, wildfire, wind and air quality, and replaced the scores with a link to First Street in November 2025; TechCrunch reported that Realtor.com, Redfin and Homes.com still showed First Street data.[^10,11]
 
-**Climate Central's** [Climate Local](/communication/climate-local/) pages are free and count the change in extremely hot days since 1970, city by city. For Birmingham, Alabama, that is 14 more days a year above 93.15°F, a threshold set as hotter than 95% of local days in 1991 to 2020, from NOAA data.[^12] They describe a city, not a street.
+**Climate Central's** [Climate Local](/communication/climate-local/) pages are free and count the change in extremely hot days since 1970 for each city as a whole. For Birmingham, Alabama, that is 14 more days a year above 93.15°F, a threshold set as hotter than 95% of local days in 1991 to 2020, from NOAA data.[^12]
 
 ## What a small look ahead adds
 

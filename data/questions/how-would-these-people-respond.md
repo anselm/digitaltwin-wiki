@@ -26,7 +26,7 @@ A city wants to move a bus line, close a street, raise a parking charge, or plan
 ## What you are really asking
 
 - **Who is here?** How many people, in which households, of what ages and incomes, where. This is the part a model can get right, because the census counts it.
-- **What will the change do to their days?** Who loses a bus, who gains a commute, who is exposed to the outbreak. A model of daily life can answer this, if it has been checked against how people actually move.
+- **What will the change do to their days?** Who loses a bus, who gains a commute, who is exposed to the outbreak. A model of daily life can answer this, if it has been checked against how people move.
 - **How will they react?** Who switches mode, moves house, gets vaccinated, complains, votes. This is the hardest part, and the newest tools aim at it.
 - **Who bears the cost?** The same change lands differently on different groups. A model that only reports averages hides that.
 

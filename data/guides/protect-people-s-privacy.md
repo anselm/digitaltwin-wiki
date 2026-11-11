@@ -26,7 +26,7 @@ Combine records to the coarsest unit that still answers the question: a block, a
 
 ## Watch the small cells
 
-A count of one is a person. Suppress or merge cells below a threshold, and remember that a map with several small layers can identify someone no single layer does.
+A count of one is a person. Suppress or merge cells below a threshold. A map with several small layers can identify someone no single layer does.
 
 ## Synthetic populations
 

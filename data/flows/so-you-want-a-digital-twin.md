@@ -1,7 +1,7 @@
 ---
 about:
   label: So you want to make a digital twin?
-  description: Five questions. Most people get off before the last one.
+  description: Five yes-or-no questions; most people leave the path before the last one.
 flow:
   start: You have a place in mind
   steps:

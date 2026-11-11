@@ -19,7 +19,7 @@ Someone wants to know what a change of use does to the stream below, the species
 
 ## What you are really asking
 
-Land is where the systems meet. Change the cover and you change how rain runs off, what lives there, what is stored in the soil and trees, and what the land yields. So the question splits by what you care about, and most people care about two or three at once:
+Change the cover of a piece of land and you change how rain runs off, what lives there, what is stored in the soil and trees, and what the land yields. So the question splits by what you care about, and most people care about two or three at once:
 
 - **Water**: runoff, erosion, what reaches the stream.
 - **Habitat**: which species lose or gain, and whether the pieces still connect.
@@ -41,7 +41,7 @@ On this site: [InVEST](/engines/invest/) for ecosystem services, [DSSAT](/engine
 
 ## In real places
 
-Some places where the question is being asked now. In Indonesia, fires set or spread on drained peat send haze across the region in dry years: see [Land and peat fires in Indonesia](/scenarios/indonesia-land-and-peat-fires/). In the Philippines, bamboo is being planted on Mindanao's uplands while engineered lumber and carbon credits change what it is worth: see [Bamboo as a land use](/scenarios/bamboo-as-a-land-use-philippines/). On Bali, rice terraces run by water temples are giving way to building: see [Bali's subak](/scenarios/bali-subak-water-temples/). Other [scenarios](/scenarios/) work through land and water together.
+In Indonesia, fires set or spread on drained peat send haze across the region in dry years: see [Land and peat fires in Indonesia](/scenarios/indonesia-land-and-peat-fires/). In the Philippines, bamboo is being planted on Mindanao's uplands while engineered lumber and carbon credits change what it is worth: see [Bamboo as a land use](/scenarios/bamboo-as-a-land-use-philippines/). On Bali, rice terraces run by water temples are giving way to building: see [Bali's subak](/scenarios/bali-subak-water-temples/). Other [scenarios](/scenarios/) work through land and water together.
 
 ## If a mandate sent you
 

@@ -63,7 +63,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-Someone standing in a yard wants to know what to plant there: which shrubs will live through the winter, when it is safe to put out tomatoes, whether the ground will drain. The answer turns on a few things about that one spot. How cold the coldest night of the year usually gets. When the last spring frost and first autumn frost fall, and so how long the season is. What the soil is. How much sun reaches the bed, and how much rain arrives and when.
+Someone standing in a yard wants to know what to plant there: which shrubs will live through the winter, when it is safe to put out tomatoes, whether the ground will drain. The answer turns on how cold the coldest night of the year usually gets at that spot, and on when the last spring frost and first autumn frost fall, which sets how long the season is. It also turns on what the soil is, how much sun reaches the bed, and how much rain arrives and when.
 
 ## Who asks, and who they ask today
 
@@ -75,7 +75,7 @@ Home gardeners, people who have just bought a house, community gardens and lands
 
 **Frost dates and season length.** NOAA's National Centers for Environmental Information publish the U.S. Climate Normals for 1991 to 2020, from more than 7,300 stations reporting temperature and more than 15,000 reporting precipitation, recalculated every ten years.[^6] They include growing season length for several temperature thresholds and growing degree days.[^6] NOAA's Climate.gov map of the last spring freeze uses them: its date is the day after which the chance of 32°F or colder falls below 50 percent, and the Normals also give the 10 to 40 percent dates for gardeners who want less risk.[^7]
 
-**Soil.** The Soil Survey Geographic Database (SSURGO) from USDA's Natural Resources Conservation Service holds a century of soil mapping by the National Cooperative Soil Survey, made by walking the land and testing samples, at scales from 1:12,000 to 1:63,360.[^4] Each map unit lists its soils and properties such as available water capacity, soil reaction (pH) and flooding frequency.[^4] Web Soil Survey shows it for any area a person draws, and NRCS says it covers more than 95 percent of the nation's counties.[^5] At the scale of one garden bed it is a starting point, not a measurement of that bed.
+**Soil.** The Soil Survey Geographic Database (SSURGO) from USDA's Natural Resources Conservation Service holds a century of soil mapping by the National Cooperative Soil Survey, made by walking the land and testing samples, at scales from 1:12,000 to 1:63,360.[^4] Each map unit lists its soils and properties such as available water capacity, soil reaction (pH) and flooding frequency.[^4] Web Soil Survey shows it for any area a person draws, and NRCS says it covers more than 95 percent of the nation's counties.[^5] For one garden bed it is a starting point: the survey did not measure that bed.
 
 **Rain.** The same Climate Normals give typical monthly precipitation for the nearest station.[^6]
 
@@ -89,7 +89,7 @@ GrowVeg's Garden Planner says it builds sowing, planting and harvest calendars f
 
 ## What a small look ahead adds
 
-A zone lookup gives the climate of the last thirty years, but a tree planted now will live through the next thirty. Parker and Abatzoglou (Environmental Research Letters, 2016) projected the coldest night of the year for 2041 to 2070 with 20 downscaled climate models, mainly under a high-emissions scenario. They found it warming about 40 percent more than mean winter minimum temperatures, moving at an average of 21.4 km a decade, with widespread shifts in hardiness zones.[^11] A model of one garden could show which zone it will likely be in when a fruit tree reaches bearing age, how the frost dates shift, and whether a dry month in summer is becoming drier, using the same soil and sun. A crop model such as [DSSAT](/engines/dssat/) runs that kind of question for farm crops from daily weather, soil and management.[^12] The USDA notes that changes between editions of its map are not reliable evidence of warming.[^2] A look ahead should come from the projections themselves.
+A zone lookup gives the climate of the last thirty years, but a tree planted now will live through the next thirty. Parker and Abatzoglou (Environmental Research Letters, 2016) projected the coldest night of the year for 2041 to 2070 with 20 downscaled climate models, mainly under a high-emissions scenario. They found it warming about 40 percent more than mean winter minimum temperatures, moving at an average of 21.4 km a decade, with widespread shifts in hardiness zones.[^11] A model of one garden could show which zone it will likely be in when a fruit tree reaches bearing age, how the frost dates shift, and whether a dry month in summer is becoming drier, using the same soil and sun. A crop model such as [DSSAT](/engines/dssat/) runs that kind of question for farm crops from daily weather, soil and management.[^12] A look ahead should come from the projections, since the USDA notes that changes between editions of its map are not reliable evidence of warming.[^2]
 
 ## Layers it shares
 

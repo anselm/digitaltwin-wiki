@@ -72,7 +72,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed; fema.gov, gao.gov and earth.gov refused direct requests and were read through Wayback Machine copies'
   status: draft
 ---
-Will this house flood? In the United States the first answer is a line on a federal map: inside the line, a lender may require flood insurance; outside it, FEMA still recommends flood insurance, though a lender may not require any.[^5] The fuller answer turns on more than the line. It depends on rain that overwhelms drains, rivers, tides and storm surge, on the height of the ground and the house, on what has been built nearby, and on how all of that changes over the thirty years of a mortgage.
+In the United States the first answer to whether a house will flood is a line on a federal map. Inside the line, a lender may require flood insurance; outside it, FEMA still recommends flood insurance, though a lender may not require any.[^5] The fuller answer depends on rain that overwhelms drains, rivers, tides and storm surge, on the height of the ground and the house, on what has been built nearby, and on how all of that changes over the thirty years of a mortgage.
 
 ## Who asks, and who they ask today
 
@@ -100,7 +100,7 @@ Water models that work at the scale of rivers and streets are set out under [Flo
 
 ## What a small look ahead adds
 
-A flood map and a score each give one answer, for now or for one future year. A model of the place can run the same house through the rain, river and tide records of the last decades and through the rainfall and sea level expected over the mortgage, and show how often water would reach the ground floor in each. It can also test what the owner or the town could change: raising the house, a drain that is cleared or enlarged, a new development upstream. The question then becomes which changes would keep this house dry, and for how long.
+A flood map and a score each give one answer, for now or for one future year. A model of the place can run the same house through the rain, river and tide records of the last decades and through the rainfall and sea level expected over the mortgage, and show how often water would reach the ground floor in each. It can also test what the owner or the town could change: raising the house, a drain that is cleared or enlarged, a new development upstream. It can show which changes would keep this house dry, and for how long.
 
 ## Layers it shares
 

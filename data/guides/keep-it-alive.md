@@ -14,11 +14,11 @@ provenance:
     on this site; not yet read by Anselm
   status: draft
 ---
-A model answers a question and the question is decided. Then the model sits. Whether to keep it is a decision of its own, and the answer is usually no.
+Once a model has answered its question and the question is decided, the model sits. Whether to keep it is a decision of its own, and the answer is usually no.
 
 ## Retire it well
 
-Publish the inputs, the outputs, the check and the sources, with a date. Write one page saying what question it answered and what it should not be used for. Then stop. A model that is archived with its data is worth more than one that limps on unmaintained and is trusted by mistake.
+Publish the inputs, the outputs, the check and the sources, with a date. Write one page saying what question it answered and what it should not be used for. Then stop. A model that is archived with its data is worth more than one that runs on unmaintained and is trusted by mistake.
 
 ## If it lives
 
@@ -37,10 +37,10 @@ Live models drift from the question they were built for, and begin to be asked t
 
 ## Keep the people
 
-The users change, the operators change, the people affected stay. Tell them, once a year, what the model is doing with their place and their data. That is the [privacy note](/guides/protect-people-s-privacy/) kept current.
+The users and the operators change, and the people affected stay. Tell them, once a year, what the model is doing with their place and their data. That is the [privacy note](/guides/protect-people-s-privacy/) kept current.
 
 An ontology (the agreed vocabulary of things and relations a model uses) is part of what drifts. [Jessica Talisman](/people/jessica-talisman/) argues that a vocabulary starts to drift on the day it is deployed, and that maintenance is the project, not a phase at its end. The review of [The Ontology Pipeline](/ontologies/the-ontology-pipeline/) covers her argument.
 
 ## This site
 
-The same rule applies here. Entries carry a date and a source, so a reader can see when each was last checked. Nothing is promoted from draft until a person has read its sources.
+Entries on this site carry a date and a source, so a reader can see when each was last checked. Nothing is promoted from draft until a person has read its sources.

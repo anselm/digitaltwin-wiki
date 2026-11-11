@@ -13,9 +13,8 @@ provenance:
 ---
 # Who this is for, and what it is trying to do
 
-This page is the guide's statement of intent. Every other page can be checked
-against it. If a page fails these aims, that is a fault in the page, and we
-would like to hear about it.
+Every other page of the guide can be checked against this audience and these
+aims.
 
 ## Who it is for
 
@@ -36,9 +35,9 @@ welcome and the detail they need is here, one layer down on every page.
 
 ## What it is trying to do
 
-1. **Help people see their own place better.** Local understanding is the
-   point. The technology is a means.
-2. **Answer "so you want to make a digital twin?" honestly**, including when
+1. **Help people see their own place better.** The technology is a means to
+   local understanding.
+2. **Answer "so you want to make a digital twin?"**, including when
    the answer is that a map, a spreadsheet or someone else's model will do.
 3. **Collect the tools, data and methods in one place**, described evenly,
    with what each costs and what it takes to use.
@@ -56,8 +55,8 @@ welcome and the detail they need is here, one layer down on every page.
 - It is about software, data and methods for modelling places. Philosophy
   of worldviews and of the world's crises is outside it, except where it
   changes how a model is built or used.
-- It does not speak for the field. It is a reference that people in the
-  field are invited to correct.
+- It does not speak for the field, and people in the field are invited to
+  correct it.
 
 ## How it is kept
 

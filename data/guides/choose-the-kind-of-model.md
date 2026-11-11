@@ -14,7 +14,7 @@ provenance:
     on this site; not yet read by Anselm
   status: draft
 ---
-"Digital twin" covers several different things. Before choosing software, decide which kind of model your question needs. The question pages on this site do this for common questions; this is the general rule.
+"Digital twin" covers several different things. Before choosing software, decide which kind of model your question needs. The question pages on this site do this for common questions.
 
 ## The kinds
 
@@ -34,7 +34,7 @@ provenance:
 5. If you have a lot of past outcomes and want a forecast, it is statistical.
 6. Only make it live if someone will act on it every day.
 
-Many projects chain two: an agent-based transport model feeding a land-use model, or a weather forecast feeding a flood model. Chain two only when the question needs both.
+Many projects chain two: an agent-based transport model feeding a land-use model, or a weather forecast feeding a flood model.
 
 ## Then the product
 

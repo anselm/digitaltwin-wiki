@@ -37,7 +37,7 @@ provenance:
   status: draft
 ---
 
-Readers who come to modelling from writing about the state of the world will meet two words, polycrisis and metacrisis. Both name the many crises of the present taken together. They differ in what they say lies underneath.
+Polycrisis and metacrisis both name the many crises of the present taken together. They differ in what they say lies underneath.
 
 **Polycrisis** comes from Edgar Morin and Anne Brigitte Kern's 1999 book *Homeland Earth*: "There is no single vital problem, but many vital problems, and it is this complex intersolidarity of problems, antagonisms, crises, uncontrolled processes, and the general crisis of the planet that constitutes the number one vital problem." In current use it means a cluster of global risks whose combined effect exceeds the sum of the parts. The word was taken up at the World Economic Forum in Davos in 2023.[^1]
 
@@ -45,7 +45,7 @@ Readers who come to modelling from writing about the state of the world will mee
 
 The metacrisis conversation is mostly philosophical, carried in essays, podcasts and small institutes outside universities. A 2025 white paper from the Institute of Applied Metatheory calls this scene the "liminal web" and lists its schools: Perspectiva, the Consilience Project, Game B, metamodernism, integral theory, critical realism and Nora Bateson's Warm Data, with others. The paper maps these schools by worldview and lineage. It contains no data and no models, and treats technical and engineering responses as one worldview among several.[^1]
 
-Where the two traditions meet:
+Where metacrisis writing and the modelling of places meet:
 
 - **A test for a model.** The white paper borrows from Roger Walsh what he calls the Single Focus Fallacy: one issue matters most, one cause explains everything, or one fix solves it.[^1] A model of a place can fail the same way, by reducing a watershed or a city to a single variable.
 - **Whole-system models already exist.** The Club of Rome, which the white paper cites among earlier big-picture thinkers, commissioned [The Limits to Growth](/media/the-limits-to-growth/) in 1972, a computer model of population, industry, food, resources and pollution interacting.

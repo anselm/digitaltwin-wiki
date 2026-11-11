@@ -102,7 +102,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-A digital twin of people is a model that stands in for human beings: one patient's body, one person's views, or the residents of a whole region. Most of this wiki is about models of places. Places are full of people, and many questions put to a model of a place are about them: who lives here, and [how would these people respond](/questions/how-would-these-people-respond/) to a change? Twins of people come in three kinds, which grew up in separate fields.
+A digital twin of people is a model that stands in for human beings: one patient's body, one person's views, or the residents of a whole region. Most of this wiki is about models of places, and many questions put to a model of a place are about the people in it: who lives here, and [how would these people respond](/questions/how-would-these-people-respond/) to a change? Twins of people come in three kinds, which grew up in separate fields.
 
 ## A twin of one body
 

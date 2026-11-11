@@ -46,7 +46,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed (figures from the March 2023 arXiv version)'
   status: draft
 ---
-Before asking whether a language model can play a voter, it helps to know whose views it voices when nobody tells it whom to play. This paper measured that. Its authors are at Stanford University, with Faisal Ladhak at Columbia University,[^2] and it was published at the International Conference on Machine Learning in July 2023.[^1]
+This paper measured whose views a language model voices when nobody tells it whom to play. Its authors are at Stanford University, with Faisal Ladhak at Columbia University,[^2] and it was published at the International Conference on Machine Learning in July 2023.[^1]
 
 They built a test set, OpinionQA, from 15 waves of the Pew Research Center's American Trends Panel: 1,498 multiple-choice questions on topics from abortion to automation, each with the answers of thousands of real respondents.[^2] From those answers they worked out how each of 60 demographic groups split on each question, and compared that split with the probabilities nine language models from OpenAI and AI21 Labs gave to the same options.[^2]
 

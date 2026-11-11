@@ -35,7 +35,7 @@ provenance:
   status: draft
 ---
 
-The report appeared in 2024. The inventory covered federal land.[^1] An executive order from the Biden administration in April 2022 directed it, and the agency completed it in April 2023.[^1] It was meant to support a plan to leave older trees standing as carbon stores.[^1] The maps show the forest but not the trees. They give one classification per "fireshed" of about 250,000 acres.[^1] As the conservation director of Oregon Wild puts it in the piece, they give a total picture of the volume but cannot identify any particular stand of old growth anywhere.[^1]
+The report appeared in 2024. The inventory covered federal land.[^1] An executive order from the Biden administration in April 2022 directed it, and the agency completed it in April 2023.[^1] It was meant to support a plan to leave older trees standing as carbon stores.[^1] The maps give one classification per "fireshed" of about 250,000 acres.[^1] As the conservation director of Oregon Wild puts it in the piece, they give a total picture of the volume but cannot identify any particular stand of old growth anywhere.[^1]
 
 The inventory rests on the Forest Inventory and Analysis program, a long-running set of about 355,000 field plots across the country. Each is around two and a half acres, spaced roughly one per 6,000 acres of forest.[^1] A retired Forest Service scientist now at the Woodwell Climate Research Center says those plots are adequate for a state or a group of national forests. For a typical old-growth stand they are too sparse.[^1]
 
