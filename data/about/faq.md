@@ -17,7 +17,7 @@ provenance:
     - title: 'Ozone depletion (Wikipedia)'
       url: 'https://en.wikipedia.org/wiki/Ozone_depletion'
   reviewed: '2026-10-24'
-  reviewed_by: 'machine draft by Claude from a conversation with Anselm (devlog/20261024-what-is-it-for.md); not yet rewritten by him'
+  reviewed_by: 'machine draft by Claude from a conversation with Anselm (devlog/20261024-what-is-it-for.md); not yet rewritten by him; the question "Is any of this new?" was added by Claude on 12 November 2026 at Anselm''s request, from the site''s own entries'
   status: proposed
 ---
 ## What is a digital twin for?
@@ -52,6 +52,10 @@ It can show what an ordinary price leaves out. A forest cleared for cattle shows
 ## Has a model ever changed anything?
 
 Yes, in the case of the ozone layer. In 1974 Mario Molina and Sherwood Rowland proposed that CFCs could destroy ozone high in the atmosphere.[^4] In 1985 Joseph Farman's team reported the ozone over Antarctica falling each spring.[^4] Controls on the chemicals took effect in 1989, ozone levels levelled off by the mid-1990s, and a 2023 United Nations assessment expects the layer over Antarctica to be back at 1980 levels around 2066.[^4] A model and a measurement together made an invisible harm undeniable and its cause nameable. Harms whose costs are spread thin and come late, like carbon, soil and species loss, have been much harder.
+
+## Is any of this new?
+
+The parts are old. Flood models, traffic models, fishery models and the weather forecast are in daily use. Models of whole systems go back to the 1970s: [The Limits to Growth](/media/the-limits-to-growth/) ran the world's population, industry, food, resources and pollution as one system in 1972. Those early models treated the world, or a city, as a single unit. Models of real, named places came later, and each covers part of its place: the water of a reef, or the households and traffic of a city. A model of one place with its water, wildlife, buildings and people acting on each other was the aim set for the island of [Moorea](/twins/moorea-idea/) in 2013. No model collected here does that yet. The [objections](/about/objections/) page has the longer answer.
 
 ## Can my town or neighbourhood have one?
 
