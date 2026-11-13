@@ -22,7 +22,7 @@ provenance:
 ---
 ## What is a digital twin for?
 
-A digital twin is a model of a place that can be checked against the place itself. People build one to answer a question they cannot answer by standing in the street.
+A digital twin is a model of a place that can be checked against the place itself. People build one to answer a question they cannot answer by standing in the street. Four uses come up again and again.
 
 - **Rehearsal.** You can flood a model a hundred times, or move a road, before anyone does it for real. [eReefs](/twins/ereefs/) simulates the water, sediment and chemistry of the Great Barrier Reef from the river catchments out to the open ocean.
 - **One picture for everyone.** Arguments about a place usually happen with each person holding a different map in their head. A shared model puts the same map and the same numbers in front of all of them. [Virtual Singapore](/twins/virtual-singapore/) was built so that agencies could run their analyses on one model of the city.

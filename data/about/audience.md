@@ -13,8 +13,9 @@ provenance:
 ---
 # Who this is for, and what it is trying to do
 
-Every other page of the guide can be checked against this audience and these
-aims.
+This page is the guide's statement of intent. Every other page can be checked
+against it. If a page fails these aims, that is a fault in the page, and we
+would like to hear about it.
 
 ## Who it is for
 
@@ -37,7 +38,7 @@ welcome and the detail they need is here, one layer down on every page.
 
 1. **Help people see their own place better.** The technology is a means to
    local understanding.
-2. **Answer "so you want to make a digital twin?"**, including when
+2. **Answer "so you want to make a digital twin?" honestly**, including when
    the answer is that a map, a spreadsheet or someone else's model will do.
 3. **Collect the tools, data and methods in one place**, described evenly,
    with what each costs and what it takes to use.

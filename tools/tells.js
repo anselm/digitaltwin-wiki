@@ -4,7 +4,7 @@
 // (devlog/20261020-prose-tells.md): eight agents each with one lens, a merge, then one agent per
 // candidate shape measuring it over data/ and judging whether it is a tell or ordinary English.
 // The voice rows (announcement to aphorism-close) came on 2026-11-11 from Anselm's reading of the objections
-// page and the research in devlog/20261111-voice-and-style.md; the public statement is /about/style/.
+// page and the research in devlog/20261111-voice-and-style.md; those rules were withdrawn on 2026-11-12, so the voice rows count shapes the current guidance allows.
 // Usage: node tools/tells.js                 census over data/**/*.md, worst files first
 //        node tools/tells.js --file <path>   every hit in one file, with the sentence
 //        node tools/tells.js --tell <name>   every hit of one tell across the site

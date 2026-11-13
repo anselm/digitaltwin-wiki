@@ -30,7 +30,7 @@ The people who carry the long tail are a fisheries council setting catch limits,
 - **What did it reach?** Which habitats and which animals, at which depths, and through what: the oil, the dispersant, or the two together.
 - **Is it recovering, and how would we know?** This needs a baseline from before, and counting that continues after the news has moved on.
 - **What carries over?** Fewer prey in the midwater may mean thinner whales, smaller fish catches and less carbon carried down by the animals that migrate each night. Each of these is a separate claim to test.
-- **What would have changed the outcome?** A different response, a faster cap, less dispersant, a closed fishery. The counterfactual is where a model is most useful and least certain.
+- **What would have changed the outcome?** A different response, a faster cap, less dispersant, a closed fishery. The counterfactual is where a model earns its keep, and where it is least certain.
 
 ## What kind of model answers it
 

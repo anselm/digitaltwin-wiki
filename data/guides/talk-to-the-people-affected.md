@@ -14,7 +14,7 @@ provenance:
     on this site; not yet read by Anselm
   status: draft
 ---
-People who live with a place know where the water came up in 2019, which exit people use in practice and why the bus is late. No dataset holds that. They are also the people the decision will affect. Talking to them first makes the model better. Skipping them is a common way for a good model to be ignored.
+People who live with a place know where the water came up in 2019, which exit people use in practice and why the bus is late. No dataset holds that. They are also the people the decision will affect. Talking to them first makes the model better and the result usable. Skipping them is a common way for a good model to be ignored.
 
 ## Who
 

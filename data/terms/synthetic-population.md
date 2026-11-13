@@ -30,7 +30,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed and the entries linked here'
   status: draft
 ---
-A census publishes tables: how many households of each size live in each area, how many people of each age, how many work, how many own a car. It does not publish the people. A synthetic population fills that gap with invented households and residents whose counts, added up area by area, match the tables.
+A census publishes tables: how many households of each size live in each area, how many people of each age, how many work, how many own a car. It does not publish the people. A synthetic population fills that gap with invented households and residents whose counts, added up area by area, match the tables. No one in it is real, but the place as a whole looks right.
 
 The usual recipe starts from a small anonymised sample of real records, such as the census microdata sample or a travel survey, and copies and reweights those records until they match the totals for each area. [PopulationSim](/engines/populationsim/) and [simPop](/engines/simpop/) work this way. Some open populations come ready-made, such as the [synthetic population of Canada](/data-sources/synthetic-population-canada/) and the [Synthetic Population Catalyst](/engines/synthetic-population-catalyst/) for Great Britain.
 

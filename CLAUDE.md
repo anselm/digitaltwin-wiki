@@ -47,10 +47,11 @@ describe and take no side. The few position pages on the About shelf state
 the site's view once, give evidence, and concede what is true in the opposing
 case.
 
-`data/about/style.md` (/about/style/) and `tools/tells.js` were written on
-2026-11-11, before the guidance was consolidated. They are not the standard.
-The tell counter still runs inside `npm run after` and the status page as a
-census. Anselm will revisit both.
+`data/about/style.md` (/about/style/) is a short public description of that
+voice and holds no rules (reduced 2026-11-12). `tools/tells.js` was written
+before the guidance was consolidated and is not the standard. It still runs
+inside `npm run after` and the status page as a census, and its voice rows
+flag sentences the current guidance allows. Anselm will revisit it.
 
 ## Tools, and when to run them
 

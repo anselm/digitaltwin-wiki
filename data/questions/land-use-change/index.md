@@ -19,7 +19,7 @@ Someone wants to know what a change of use does to the stream below, the species
 
 ## What you are really asking
 
-Change the cover of a piece of land and you change how rain runs off, what lives there, what is stored in the soil and trees, and what the land yields. So the question splits by what you care about, and most people care about two or three at once:
+Land is where the systems meet. Change the cover and you change how rain runs off, what lives there, what is stored in the soil and trees, and what the land yields. So the question splits by what you care about, and most people care about two or three at once:
 
 - **Water**: runoff, erosion, what reaches the stream.
 - **Habitat**: which species lose or gain, and whether the pieces still connect.

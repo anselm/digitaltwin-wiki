@@ -18,7 +18,7 @@ Once a model has answered its question and the question is decided, the model si
 
 ## Retire it well
 
-Publish the inputs, the outputs, the check and the sources, with a date. Write one page saying what question it answered and what it should not be used for. Then stop. A model that is archived with its data is worth more than one that runs on unmaintained and is trusted by mistake.
+Publish the inputs, the outputs, the check and the sources, with a date. Write one page saying what question it answered and what it should not be used for. Then stop. A model that is archived with its data is worth more than one that limps on unmaintained and is trusted by mistake.
 
 ## If it lives
 

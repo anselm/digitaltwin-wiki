@@ -11,7 +11,7 @@ provenance:
 ---
 [Anselm Hook](https://hook.org) started the site in October 2026 and decides what is promoted from draft to public.
 
-Entries are drafted by software agents and by people. Each entry records its own provenance, which is the credit for that entry: who wrote it, from which pages, and when it was last read against them.
+Entries are drafted by software agents and by people. Each entry records its own provenance: who wrote it, from which pages, and when it was last read against them. That record is the credit for a given entry. This page lists the people who have contributed across the site.
 
 ## People
 

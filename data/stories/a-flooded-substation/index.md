@@ -24,7 +24,7 @@ provenance:
   reviewed_by: 'wording by Claude, compressed from the survey; to be rewritten'
   status: proposed
 ---
-A flooded electricity asset can affect water pumping or communications. CReDO examines climate hazards and dependencies between networks. Its September 2026 MVP showcase presents this approach to resilience planning; a final platform release is planned for 2028.
+A flooded electricity asset can affect water pumping or communications, so the consequence extends beyond the damaged asset. CReDO examines climate hazards and dependencies between networks. Its September 2026 MVP showcase presents this approach to resilience planning; a final platform release is planned for 2028.
 
 ![How infrastructure failures propagate: a flood scenario feeding electricity, water and telecom networks, their service consequences, and the protective measures compared.](/stories/a-flooded-substation/coupling.svg)
 

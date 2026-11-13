@@ -25,7 +25,7 @@ Put three parts in writing, agreed by the person who will use the answer:
 2. **The decision it informs.** "…so that we can choose which three culverts to replace this year."
 3. **Who acts, and when.** "The engineering manager, before the budget is set in March."
 
-If the question has no decision behind it, it is research or curiosity. Both are cheaper than a model built as if for a decision.
+If the question has no decision behind it, it is research or curiosity. Both are fine, and both are cheaper than a model that pretends to be for a decision.
 
 ## Split it
 
@@ -33,11 +33,11 @@ Most questions are two or three. "Will more trees cool the neighbourhood and wha
 
 ## Decide what good enough looks like
 
-Before you build, say what answer would change the decision: "If the model shows fewer than two streets flooding, we do nothing." A model that cannot tell those two cases apart is not worth building. The same sentence gives the project a point at which to stop.
+Before you build, say what answer would change the decision: "If the model shows fewer than two streets flooding, we do nothing." A model that cannot tell those two cases apart is not worth building, however beautiful. This is also the sentence that stops a project growing forever.
 
 ## Find out who already answered it
 
-Someone has usually modelled a place like yours. Look in [digital twins](/twins/) on this site, and ask your regional agency or the nearest university department. Their model may be reusable, and their mistakes cost you nothing to learn from.
+Someone has usually modelled a place like yours. Look in [digital twins](/twins/) on this site, and ask your regional agency or the nearest university department. Their model may be reusable, and their mistakes are free.
 
 ## Write it where people will see it
 

@@ -16,8 +16,8 @@ provenance:
 ---
 A model can be right and still change nothing, because the people who live with its answer never meet it, or meet it as a chart they cannot question. The entries here are ways of getting a result to the people it concerns in a form they can use.
 
-One half is showing: local graphics a weather presenter can put on air, a single number made to mean something in one town, an animation that makes a slow change visible. The tools for this have changed quickly, and making motion graphics no longer takes a studio.
+There are two halves to it. One is showing: local graphics a weather presenter can put on air, a single number made to mean something in one town, an animation that makes a slow change visible. The tools for this have changed quickly, and making motion graphics no longer takes a studio.
 
 The other half is playing, and there is much less of it. Here the reader is handed the levers: they set the emissions path and watch the temperature move, draw their own guess before seeing the data, or take a role in a meeting where the model is the table everyone is arguing over. [Bret Victor](/people/bret-victor/) called these explorable explanations. Journalists have built them, so have games, and so have researchers who run a model with the people whose land it describes. Most are still one-off pieces. A tool that lets anyone play with a real scenario of their own place, with real data underneath, is mostly still to be built.
 
-The [scenarios](/scenarios/) are where both halves get tested: each one names who needs an answer.
+The [scenarios](/scenarios/) are where both halves get tested: each one names who needs an answer, and an answer that never reaches them has not been given.
