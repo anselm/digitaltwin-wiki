@@ -4,6 +4,11 @@ about:
   description: 'A dated record of the site, newest first.'
 provenance:
   origin: agent
+  sources:
+    - title: 'The repository''s dated devlog'
+      url: 'https://github.com/anselm/digitaltwin-wiki/tree/main/devlog'
+    - title: 'The repository''s commit history'
+      url: 'https://github.com/anselm/digitaltwin-wiki/commits/main'
   created: '2026-10-18'
   reviewed: '2026-10-18'
   reviewed_by: 'Claude, from the devlog and the git history; not yet read by Anselm'
