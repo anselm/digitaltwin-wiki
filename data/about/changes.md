@@ -7,7 +7,7 @@ provenance:
   created: '2026-10-18'
   reviewed: '2026-10-18'
   reviewed_by: 'Claude, from the devlog and the git history; not yet read by Anselm'
-  status: draft
+  status: public
 ---
 A short record of how the site has changed, newest first. The full reasoning behind each step is in the repository's dated devlog.
 
