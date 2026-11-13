@@ -1,5 +1,4 @@
-// Shape tells of machine prose across the wiki's entries. The heckler (~/projects/2027/heckler) matches
-// stock phrases; this looks for shapes: where a sentence ends, how a list closes, how consecutive
+// Shape tells of machine prose across the wiki's entries. This looks for shapes: where a sentence ends, how a list closes, how consecutive
 // sentences begin, what the first and last sentences of an entry do. It is a census, not a verdict:
 // a human reads the hits. Most rows came from an adversarial reading of every entry on 2026-10-20
 // (devlog/20261020-prose-tells.md): eight agents each with one lens, a merge, then one agent per

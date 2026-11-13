@@ -36,12 +36,12 @@ Three things Anselm said on 2026-10-18 that shape every choice here:
 - Devlog: `devlog/` (dated entries; read the tail first).
 - Deploy: see `project.toml`.
 
-## Voice and style (Anselm, 2026-11-11)
+## Voice
 
-Before writing or editing any page, read the section of this name in
-`CLAUDE.md` (the rule list) and `data/about/style.md` (the public statement,
-with sources). `node tools/tells.js --file <f>` counts the shapes the rules
-name. `CLAUDE.md` is the current orientation file; this one is an older copy.
+Writing guidance comes from the harness writing skill
+(`~/projects/2026/harness/claude/skills/writing-style/SKILL.md`). See the
+section of this name in `CLAUDE.md`, which is the current orientation file;
+this one is an older copy.
 
 ## Project-specific facts
 
