@@ -52,9 +52,11 @@ and every figure are all still present. No source was opened. The page grew
 from about 3,900 words of body to about 5,900.
 
 **Style page** (`data/about/style.md`). Reduced from twenty-one rules with
-thirteen sources to seven short paragraphs: who the reader is, what an entry
-does, what a position page does, and one paragraph saying the rules existed
-for a day and why they went. Status is still `proposed`.
+thirteen sources to six short paragraphs: who the reader is, what an entry
+does and what a position page does. Anselm then asked that it say nothing of
+the withdrawn rules ("This is evergreen. Style focuses just on wiki voice"),
+so that paragraph is gone; the history stays in the change record. Status is
+still `proposed`.
 
 **The 11 November pass** (commit 07722fb, 76 files). Four agents each took a
 quarter of the 73 entries other than objections, style and changes. For each
