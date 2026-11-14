@@ -22,6 +22,11 @@ One list for the project, kept current. Decisions and reasoning live in
   Anselm will circle back with one.
 - Climate Shift Index: how a regional, daily attribution figure belongs in
   the wiki (a Vitals layer, a twin layer, or only the Communication entry).
+- Objections page at a more precise register (exact terms, consequences
+  stated, terms of art glossed), after the one-paragraph sample he preferred
+  on 13 November (`devlog/20261114-register-and-data-justice.md`).
+- Data justice: where Dencik and colleagues' 2019 introduction and
+  Monmonier's How to Lie with Maps belong, if anywhere (same devlog entry).
 - Search Console and structured data (schema.org) now that indexing is
   open; semantic search later, if plain Pagefind proves too literal.
 - Wikipedia's references, triaged in `inbox/`: Gemini Principles, Virtual
