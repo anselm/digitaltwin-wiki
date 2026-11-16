@@ -22,3 +22,9 @@ After reading the report on the article he wrote:
 > You make a good point that a 'theory of change' analysis could gauge reader sentiment before and after interacting with one of the simulations we provide. The entire point of 'simulation based thinking' is that models have impact on people. People are the 'change agents' in our world. The proposition of digital twins is that they have impact on human behavior.
 
 Claude's reading of what this changes: the effect of a model on the people who use it is the claim the whole site rests on, so it is inside the scope and not a neighbouring field. Neither `devlog/20261015-principles.md` nor any entry states this claim or a theory of change (searched 16 November). Nothing has been changed on the strength of this reading; what to do with it is his call.
+
+Later the same day he widened it:
+
+> So this observation about eco paralysis itself may be an edge case but more broadly there are questions of confidence, efficaciousness, real world utility of any digital twin. A twin can be used by software as a predictive control system - in a sense a fancy thermometer - a dynamic response system in real time to drive software decisions automatically - a farm may have a digital twin which drives watering schedules - but it can also be used as a tool for debate to make arguments and inspire [engagement] and participation.
+
+(The bracketed word is Claude's guess at a mistyped one.) Two uses, then: a twin that software acts on automatically, and a twin that people argue with. Each needs its own test of whether it worked.
