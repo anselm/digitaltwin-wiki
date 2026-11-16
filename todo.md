@@ -27,6 +27,9 @@ One list for the project, kept current. Decisions and reasoning live in
   on 13 November (`devlog/20261114-register-and-data-justice.md`).
 - Data justice: where Dencik and colleagues' 2019 introduction and
   Monmonier's How to Lie with Maps belong, if anywhere (same devlog entry).
+- Read the six draft pages on learned models and the term "world model"
+  (article, term, GenCast, NeuralGCM, CorrDiff, ACE2) and say whether they
+  go public (`devlog/20261115-learned-models-and-world-models.md`).
 - Search Console and structured data (schema.org) now that indexing is
   open; semantic search later, if plain Pagefind proves too literal.
 - Wikipedia's references, triaged in `inbox/`: Gemini Principles, Virtual

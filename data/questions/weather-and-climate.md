@@ -27,7 +27,7 @@ A fourth question sometimes hides behind the second: whether the climate could b
 
 ## What kind of model answers it
 
-Weather and climate models solve the physics of the atmosphere on a grid, while the newest learn from decades of past weather instead and run far faster. [AIFS](/engines/aifs/) from ECMWF and [Aurora](/engines/aurora/) from Microsoft Research are two that are open. [Destination Earth](/twins/destination-earth/) is the European programme building climate and extremes twins at continental scale. [WeatherNext and NVIDIA Earth-2](/engines/weathernext-nvidia-earth-2/) are two commercial routes to the same kind of forecast.
+Weather and climate models solve the physics of the atmosphere on a grid, while the newest learn from decades of past weather instead and run far faster. [AIFS](/engines/aifs/) from ECMWF and [Aurora](/engines/aurora/) from Microsoft Research are two that are open. [Destination Earth](/twins/destination-earth/) is the European programme building climate and extremes twins at continental scale. [WeatherNext and NVIDIA Earth-2](/engines/weathernext-nvidia-earth-2/) are two commercial routes to the same kind of forecast. [GraphCast and GenCast](/engines/gencast/) are the published research models behind the first of them, and [NeuralGCM](/engines/neuralgcm/) keeps the physics of large-scale motion and learns the remainder. [Learned models of the Earth, and what they are trained on](/articles/learned-models-of-the-earth/) explains how such models are made and where they fail.
 
 For the street-level question, [friGIS](/engines/frigis/) is a hosted tool that pairs a microclimate model with a planning editor for trees, surfaces and water. Open tools exist for the same job and are not yet on this site.
 

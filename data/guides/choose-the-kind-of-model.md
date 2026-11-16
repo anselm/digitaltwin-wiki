@@ -22,7 +22,7 @@ provenance:
 - **A physical model.** Water, air, fire or electricity moving under physical laws across terrain or a network. Answers "what happens to this flow if we change that?" Flood, microclimate, fire spread and power flow models are of this kind.
 - **An agent-based model.** Many individuals (people, vehicles or animals), each following simple rules, and the pattern that emerges. Answers "what do people do, together, under this change?" Transport, crowds and land-use models are of this kind.
 - **A system dynamics model.** Stocks and flows, with feedback: population, money, carbon, water in a reservoir. Answers "how does the whole system move over years?" Policy simulators that run in a browser are usually of this kind.
-- **A statistical or learned model.** Patterns found in past data and projected forward. Answers "given what we have seen, what is likely?" Weather forecasting and prediction from satellite signals are increasingly of this kind.
+- **A statistical or learned model.** Patterns found in past data and projected forward. Answers "given what we have seen, what is likely?" Weather forecasting and prediction from satellite signals are increasingly of this kind. Such a model needs a long, consistent record of the thing it predicts, and it has no evidence about changes that the record does not contain. [Learned models of the Earth, and what they are trained on](/articles/learned-models-of-the-earth/) explains what that requires.
 - **A live model.** Any of the above, fed continuously by sensors and compared with the real thing. The word "twin" strictly means this, and it is the rarest and most expensive.
 
 ## How to choose
@@ -35,6 +35,10 @@ provenance:
 6. Only make it live if someone will act on it every day.
 
 Many projects chain two: an agent-based transport model feeding a land-use model, or a weather forecast feeding a flood model. Chain two only when the question needs both.
+
+A learned model is also combined with a physical one in a different way: as a fast copy of it for running many scenarios, as a source of finer local detail, or in place of one process that is too complicated to write as equations. The article linked above describes these arrangements.
+
+Generated video scenes sold as "world models" are not among the kinds listed here. They are not tied to a real place and do not report quantities that can be measured; see [World model](/terms/world-model/).
 
 ## Then the product
 
