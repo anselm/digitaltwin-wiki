@@ -35,7 +35,10 @@ One list for the project, kept current. Decisions and reasoning live in
   shelf on what is known about audience response, the survey scales
   entered as instruments a builder can use to test their own piece, and
   a paragraph in the guide on putting a model in front of its users. No
-  shelf of psychology papers. Not started; his call.
+  shelf of psychology papers. The article is drafted
+  (articles/how-people-respond-to-what-a-model-shows, 16 November,
+  `devlog/20261116-human-factors-article.md`) and awaits his reading;
+  the instrument entry is not started.
 - Read the six draft pages on learned models and the term "world model"
   (article, term, GenCast, NeuralGCM, CorrDiff, ACE2) and say whether they
   go public (`devlog/20261115-learned-models-and-world-models.md`).

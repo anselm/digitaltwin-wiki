@@ -32,6 +32,8 @@ Where the question is one people argue over, give them the controls: a browser p
 
 Sit with the users the first few times. Note where they hesitate, what they ask, what they ignore. Fix the output before fixing the model; the most common failure is a correct answer nobody could read.
 
+Ask them afterwards what they think can be done. A clear picture of a risk does not reliably move people to act, and in one study a map of residents' own flood risk lowered their concern. [How people respond to what a model shows them](/articles/how-people-respond-to-what-a-model-shows/) collects the studies, with a questionnaire you can reuse.
+
 ## Publish what you can
 
 A model whose outputs, inputs and sources are public can be checked, reused and cited. [Bay Layers](/twins/bay-layers/) on this site publishes its source; the [digital twins](/twins/) section marks which projects run and which are open.

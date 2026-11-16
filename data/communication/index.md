@@ -21,3 +21,5 @@ There are two halves to it. One is showing: local graphics a weather presenter c
 The other half is playing, and there is much less of it. Here the reader is handed the levers: they set the emissions path and watch the temperature move, draw their own guess before seeing the data, or take a role in a meeting where the model is the table everyone is arguing over. [Bret Victor](/people/bret-victor/) called these explorable explanations. Journalists have built them, so have games, and so have researchers who run a model with the people whose land it describes. Most are still one-off pieces. A tool that lets anyone play with a real scenario of their own place, with real data underneath, is mostly still to be built.
 
 The [scenarios](/scenarios/) are where both halves get tested: each one names who needs an answer, and an answer that never reaches them has not been given.
+
+Whether a piece moves the people who see it, or leaves them feeling that nothing can be done, is a separate question that can be measured. [How people respond to what a model shows them](/articles/how-people-respond-to-what-a-model-shows/) collects the studies.
