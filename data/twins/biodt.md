@@ -2,10 +2,9 @@
 about:
   label: BioDT (Biodiversity Digital Twin)
   description: >-
-    European research project, coordinated by CSC in Finland, that built ten
-    prototype biodiversity models on the LUMI supercomputer, covering forests,
-    grasslands, honey bees, bird migration, wild boar disease, invasive plants,
-    crop wild relatives and genetic diversity.
+    European research project that built ten prototype biodiversity models on
+    the LUMI supercomputer, among them forests, grasslands, honey bees, bird
+    monitoring, wild boar disease and invasive plants.
   tags:
     - biodiversity
     - species distribution
@@ -88,9 +87,13 @@ provenance:
       url: 'https://app.biodt.eu/'
     - title: Biodiversity Digital Twin for Advanced Modelling, Simulation and Prediction Capabilities | BioDT | CORDIS
       url: 'https://cordis.europa.eu/project/id/101057437'
+    - title: 'Developing Prototype Digital Twins for biodiversity conservation and management: achievements, challenges and perspectives (Lecarpentier and others, Research Ideas and Outcomes 10: e133474, 2024)'
+      url: 'https://doi.org/10.3897/rio.10.e133474'
+    - title: 'FAIR digital twins for biodiversity: enabling data, model, and workflow integration (Islam and others, npj Biodiversity, 2026)'
+      url: 'https://doi.org/10.1038/s44185-025-00116-3'
   created: '2026-10-20'
-  reviewed: '2026-10-20'
-  reviewed_by: 'Claude, from the sources listed'
+  reviewed: '2026-11-16'
+  reviewed_by: 'Claude, from the sources listed; the two papers were read in full on 16 November 2026'
   status: draft
 
 ---
@@ -104,6 +107,10 @@ The ten prototypes fall into four groups.[^3]
 - **Genetically detected biodiversity.** Crop wild relatives maps where stress-tolerant wild relatives of crops grow, from GBIF and other occurrence repositories.[^10] A second tool helps choose where to sample environmental DNA next; environmental DNA is the genetic material organisms shed into soil and water.[^11] A third computes phylogenetic diversity, a measure of how much evolutionary history a set of species spans, from GBIF occurrences and the Open Tree of Life.[^12]
 - **Species interactions.** One twin models African swine fever spread in European wild boar.[^8] Another models honey bee colonies across Germany with the BEEHAVE model, land-cover data and daily weather.[^9]
 - **Species of policy concern.** Projected invasion levels of alien plants across Europe's habitats under current and future climate.[^13]
+
+Four of the ten prototypes rest on mechanistic models, which simulate the processes themselves: grassland, forest, wildlife disease and honey bees. The project's own overview says each of those models took at least a decade to develop.[^21] The others use correlative methods such as species distribution models, which relate where a species has been recorded to the conditions there.[^21] The overview is plain about what the mechanistic models can do. Because ecological systems are only partly understood and controlled experiments are usually not possible, the models "remain uncertain, making absolute predictions impossible", and are used "to rank scenarios or gradually improve understanding".[^21] It also says the hybrid of statistical and process-based models that the project had hoped for "will not be possible in BioDT".[^21]
+
+A later paper by project members describes the grassland prototype as built on the GRASSMIND model and calibrated against observations from 17 long-term research sites across Europe, and the forest prototype as giving long-term projections of forest biodiversity under alternative management and climate scenarios.[^22] It reports that the crop wild relatives prototype was chosen for a pilot inside Destination Earth, and that the web interfaces are now hosted by LifeWatch ERIC.[^22] Among the difficulties it lists are data that had to be joined by hand, terms that different fields define differently, and the work of keeping a twin running, which it says often takes more effort than building it.[^22]
 
 The twins run on a shared platform built from the LEXIS workflow system, Puhuri for login, HEAppE for supercomputer jobs and iRODS for data staging. It can be deployed at LUMI and IT4Innovations.[^14] The platform is built so that each twin can be described as a FAIR digital object, FAIR meaning findable, accessible, interoperable and reusable.[^14]
 
