@@ -67,3 +67,14 @@ Three papers are cited from abstract or record only and marked so. The
 search summary's claims about XPLANE's Bay Area presence and about GBN and
 causal loop diagrams were not used. No entries were made for the firms
 themselves; Stamen, GreenInfo and scenario planning are the candidates.
+
+## Also the same day: a review of environmental DNA
+
+Anselm sent a paper Mike Liebhold had passed on (Yoon and others,
+Biosensors 15(8):494, 2025, a review of environmental DNA monitoring) and
+said it "reminds me a bit of craig ventor", linking the Venter Institute's
+Global Ocean Sampling page. Written as articles/yoon-environmental-dna-
+monitoring-review (draft, tier 3), with the expedition as a closing section.
+The paper's sections on soil, sediment, groundwater and other water bodies
+were not read, and the entry says so. The wiki had no entry on eDNA as a
+method; this is the first, and a term entry may be wanted later.
