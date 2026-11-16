@@ -50,12 +50,24 @@ provenance:
       url: 'https://doi.org/10.1177/1046878119890643'
   created: '2026-11-16'
   reviewed: '2026-11-16'
-  reviewed_by: 'Claude, from the sources listed; four papers were read in full, five from their abstracts only and one through its authors'' summary, as marked; not yet read by Anselm'
+  reviewed_by: 'Claude, from the sources listed; four papers were read in full, five from their abstracts only and one through its authors'' summary, as marked; the section on which models the evidence is about follows a distinction Anselm drew in conversation; not yet read by Anselm'
   status: draft
 ---
 A flood map, a warming chart or a simulated fire season is usually published on the assumption that people who see a risk clearly will act on it. Researchers who have measured what people feel and intend after seeing such things report a less dependable result. Some people become more willing to act. Some withdraw, and in one study residents shown their own house inside a projected flood zone came away less worried than residents shown nothing.[^7]
 
 This article collects what ten studies measured. Only four of them put a map or a model in front of people. The rest are surveys of how people feel about climate change and experiments with written messages, and they are included because they are the evidence most often cited when someone says a model's output is too frightening or not frightening enough.
+
+## Which models this evidence is about
+
+A model of a place is built to change what happens there, and it can do so by two routes. In the first, software acts on the model's output without a person deciding each time. A farm's model of its soil moisture can set the watering schedule, in the way a thermostat acts on a thermometer. A model used like this is tested every time it acts: its prediction is compared with what the sensors report next, and the result (water used, crop yield) is compared with running without it. The [guide to checking a model against what happened](/guides/check-it-against-what-happened/) covers that test.
+
+In the second route, people look at the output and then argue, vote, buy, build or move. Here the model works only through what those people come to believe and decide, and that is much harder to test. Every study in this article concerns the second route. A single model could serve both. A flood model, for example, could close a barrier automatically and also be shown at a public meeting.
+
+Two other differences between models bear on how people respond, and the studies cover them unevenly.
+
+The first is how soon the answer is needed. Some questions are slow, such as whether it is safe to build on a floodplain or in a forest that burns. Some are fast, such as where to place sandbags tonight or where to send fire crews in the next hour. All of the studies below are about slow questions: sea level in 2100, the climate over a lifetime. None tested a warning or a live map during an emergency. The one finding that touches the difference is from the fear-appeal research, where frightening messages worked better when they recommended a single action than when they recommended a repeated one.[^4]
+
+The second is the area a model covers: a neighbourhood, a watershed or region, or the whole planet. Here the studies disagree in a way that matters. In the 63-country experiment, the message that most strengthened belief in climate change was the one that made it feel close to the reader in place and time.[^6] In the flood map study, the closest possible picture, the reader's own house, lowered their concern.[^7]
 
 ## Eco-paralysis
 
@@ -119,4 +131,4 @@ The questionnaires are available to anyone who wants to measure this for their o
 
 ## What is not known
 
-Almost every outcome above is something a person said they would do. Only the tree-planting task measured effort actually spent, and it gave the most discouraging result. The samples are mostly from the United States and Europe, with the 63-country experiment as the exception. No study here follows people for more than the length of a session, so nothing is known from them about whether paralysis or resolve lasts. And none examines the setting this wiki is mostly about, in which a council, a utility or a neighbourhood group is shown a model of its own place and has to decide something.
+Almost every outcome above is something a person said they would do. Only the tree-planting task measured effort actually spent, and it gave the most discouraging result. The samples are mostly from the United States and Europe, with the 63-country experiment as the exception. No study here follows people for more than the length of a session, so nothing is known from them about whether paralysis or resolve lasts. None concerns a fast question, where a person must act on a model's output within hours. And none examines the setting this wiki is mostly about, in which a council, a utility or a neighbourhood group is shown a model of its own place and has to decide something.

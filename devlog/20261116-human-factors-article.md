@@ -28,3 +28,5 @@ Later the same day he widened it:
 > So this observation about eco paralysis itself may be an edge case but more broadly there are questions of confidence, efficaciousness, real world utility of any digital twin. A twin can be used by software as a predictive control system - in a sense a fancy thermometer - a dynamic response system in real time to drive software decisions automatically - a farm may have a digital twin which drives watering schedules - but it can also be used as a tool for debate to make arguments and inspire [engagement] and participation.
 
 (The bracketed word is Claude's guess at a mistyped one.) Two uses, then: a twin that software acts on automatically, and a twin that people argue with. Each needs its own test of whether it worked.
+
+He then added two axes, slow against fast and local, bioregional or global, suggested a chart of example twins on them with role as a possible third, and said of all of this: "I'd just incorporate them into your one article if useful." Done as the section "Which models this evidence is about", written without naming him; the chart is logged in `todo.md` and not started.
