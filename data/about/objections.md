@@ -8,6 +8,9 @@ about:
     in time, grouped by kind, each with a reply. Several are conceded.
 provenance:
   origin: human
+  by:
+    - Anselm Hook
+    - Claude (AI)
   sources:
     - title: 'Bilawal Sidhu, I Open Sourced God''s Eye View (Map the World, 25 August 2026)'
       url: 'https://www.spatialintelligence.ai/p/i-open-sourced-gods-eye-view'

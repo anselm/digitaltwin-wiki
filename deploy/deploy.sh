@@ -27,6 +27,9 @@ ln -s "$ROOT/node_modules" "$BUILD/node_modules"
 DIRTY="$(cd "$ROOT" && git status --porcelain -- data | grep -v ' data/vitals/' || true)"
 [ -n "$DIRTY" ] && printf '  not deployed (uncommitted):\n%s\n' "$DIRTY"
 
+# The archive has no git history, so the first-written and last-changed dates are read from the repository here.
+( cd "$ROOT" && node tools/dates.js "$BUILD/packages/site/static" )
+
 echo "› checking corpus and building site from HEAD (showing: $SHOW)"
 ( cd "$BUILD" && npm run -s build )
 

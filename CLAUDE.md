@@ -68,6 +68,7 @@ before committing. The tell count is a census, not a gate. Every tool is in
 - `node tools/tells.js [--file f]`: a census of machine-prose tells, site-wide or for one entry. Not the standard for prose; see Voice above.
 - `npm run share`: preview cards for every page and Vitals series, sitemap.xml, robots.txt; reports pages that will share poorly (`SHARE_REPORT=1` lists them). The build runs it.
 - `npm run vitals`: refetch the Vitals series. The deploy runs it.
+- `node tools/dates.js`: when each entry was first written and last changed, from the git history; every page shows them under its title with who worked on it. The build and the deploy run it. Who worked on a page follows from `provenance.origin` and `provenance.author`, or is named outright in `provenance.by`.
 - `node tools/fetch-depictions.js`: a picture for entries without one, from the maker's own page.
 - `node tools/coverage.js`: someone else's list against our entries.
 - `node tools/scan.js`: new items from known sources into `inbox/`.

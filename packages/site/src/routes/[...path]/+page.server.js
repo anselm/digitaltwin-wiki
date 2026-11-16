@@ -19,6 +19,24 @@ function ago(d) {
   if (days < 365) return `${Math.round(days / 30)} months ago`
   return `${Math.round(days / 365)} years ago`
 }
+// When an entry was first written and last changed (tools/dates.js, from the git history), and who worked on it.
+const dates = fs.existsSync('static/dates.json') ? JSON.parse(fs.readFileSync('static/dates.json', 'utf8')) : {}
+const day = (d) => (d ? new Date(`${String(d).slice(0, 10)}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }) : '')
+// provenance.by names the people and models outright; otherwise it follows from the author and the origin.
+function workedOn(p = {}) {
+  if (p.by) return [].concat(p.by).join(', ')
+  if (p.author) return p.author
+  if (p.origin === 'agent' || p.origin === 'machine') return 'Claude (AI)'
+  if (p.origin === 'survey') return 'Anselm Hook (survey draft), Claude (AI)'
+  if (p.origin === 'human') return 'Anselm Hook'
+  return ''
+}
+function stamp(e) {
+  const d = dates[e.id] || {}
+  const made = String(e.provenance?.created || '').slice(0, 10)
+  const created = made && (!d.created || made < d.created) ? made : d.created
+  return { by: workedOn(e.provenance), created: day(created), changed: d.changed && d.changed !== created ? day(d.changed) : '' }
+}
 const kindLabel = (k) => ({ datasource: 'data source', twin: 'digital twin', video: 'video channel' })[k] || k
 const plural = (k) => ({ story: 'stories', 'data source': 'data sources' })[k] || `${k}s`
 
@@ -135,5 +153,5 @@ export function load({ params }) {
   // prose and flow: the entry itself, its kind fields, relations and provenance
   const kinds = store.kindsOf(e).map((k) => ({ label: kindLabel(k), fields: Object.entries(e[k] || {}).filter(([f, v]) => v !== undefined && v !== null && v !== '' && !['steps', 'start', 'end', 'order'].includes(f)).map(([f, v]) => ({ field: f.replace(/_/g, ' '), value: Array.isArray(v) ? v.join(', ') : String(v), url: /^(https?:|\/)/.test(String(v)) ? String(v) : null })) }))  // a root-relative value, such as a file kept beside the entry, links too
   return { ...base, kinds, chips: chips(e), open: e.open || null, related: store.related(id).map((g) => ({ label: g.label, items: g.items.map((i) => ({ ...card(i.entity), note: i.note })) })),
-    provenance: e.provenance || {}, flow: e.flow || null, depiction: e.about.depiction ? (/^https?:/.test(e.about.depiction) ? e.about.depiction : `/${e.dir ? e.dir + '/' : ''}${e.about.depiction}`) : null, depictionCredit: e.about.depiction_credit || '' }
+    stamp: stamp(e), provenance: e.provenance || {}, flow: e.flow || null, depiction: e.about.depiction ? (/^https?:/.test(e.about.depiction) ? e.about.depiction : `/${e.dir ? e.dir + '/' : ''}${e.about.depiction}`) : null, depictionCredit: e.about.depiction_credit || '' }
 }
