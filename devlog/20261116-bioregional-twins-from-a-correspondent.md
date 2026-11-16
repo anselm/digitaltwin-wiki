@@ -37,3 +37,33 @@ opening line on "grand challenges", which Anselm pointed to. The event, the
 SFI story and Karen Willcox were already in the wiki. He asked that Clement
 Bezold's Anticipatory Democracy be tracked; it has been an entry since
 2 November (media/anticipatory-democracy), with Bezold's own page.
+
+## Later the same day: a history article on web mapping
+
+Anselm raised the Bay Area mapping and design firms of the early 2000s
+(Stamen, GreenInfo, The Grove, Global Business Network, the Institute for
+the Future, Shaping San Francisco, XPLANE, from a search summary he pasted)
+and asked whether that period is relevant now. He means to approach some of
+those people, many of them friends, about funding a non-profit. Asked
+whether to draft a history article, he said:
+
+"sure go ahead and add that article - it's reasonable to have posts like
+this i feel - helps contextualize a history of the movement. it's worth
+noting that back in those days we were all fairly excited to have
+participatory maps _at all_ - it was novel. i myself co-led the wherecamp
+conferences for several years - it was a frothy and fun time. what has
+happened more recently now is the possibility not just of maps or
+visualizations or even some analysis and simple prediction of single layers
+(fire, hydrology) but just now a possibility of brute force whole system
+models to predict future outcomes - the vision that simcity had ... we
+imagined such things were possible in the past, but now there is a phase
+transition to them being actually possible."
+
+Written: articles/what-web-mapping-did-to-gis (draft, tier 3). It names him
+as a WhereCamp co-founder from his own about page, quotes the first remark
+above, and attributes the "phase transition" argument to him while keeping
+the wiki's standing concession that no whole-place model is known to run.
+Three papers are cited from abstract or record only and marked so. The
+search summary's claims about XPLANE's Bay Area presence and about GBN and
+causal loop diagrams were not used. No entries were made for the firms
+themselves; Stamen, GreenInfo and scenario planning are the candidates.
