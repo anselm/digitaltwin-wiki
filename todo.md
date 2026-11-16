@@ -27,6 +27,15 @@ One list for the project, kept current. Decisions and reasoning live in
   on 13 November (`devlog/20261114-register-and-data-justice.md`).
 - Data justice: where Dencik and colleagues' 2019 introduction and
   Monmonier's How to Lie with Maps belong, if anywhere (same devlog entry).
+- Human factors (Anselm, 2026-11-16, with Suldovsky, Vaala and Lapierre
+  2026, Climate 14:211, https://doi.org/10.3390/cli14100211, read in
+  full): whether the wiki should track what a model's presentation does
+  to the people who see it, eco-paralysis being his example. Claude's
+  recommendation: yes, kept narrow. One article on the Communication
+  shelf on what is known about audience response, the survey scales
+  entered as instruments a builder can use to test their own piece, and
+  a paragraph in the guide on putting a model in front of its users. No
+  shelf of psychology papers. Not started; his call.
 - Read the six draft pages on learned models and the term "world model"
   (article, term, GenCast, NeuralGCM, CorrDiff, ACE2) and say whether they
   go public (`devlog/20261115-learned-models-and-world-models.md`).
