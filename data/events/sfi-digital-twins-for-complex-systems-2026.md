@@ -2,10 +2,9 @@
 about:
   label: 'Digital Twins for Complex Systems: Theory and Algorithms'
   description: >-
-    A closed three-day working group at the Santa Fe Institute, 28 to 30
-    September 2026, on the mathematics and algorithms behind digital twins
-    and how to apply them to complex systems; organised by Karen Willcox,
-    Omar Ghattas and Bart van Bloemen Waanders.
+    A closed working group at the Santa Fe Institute, 28 to 30 September
+    2026, on the mathematics and algorithms behind digital twins and how to
+    apply them to complex systems.
   tags:
     - working group
     - complex systems
