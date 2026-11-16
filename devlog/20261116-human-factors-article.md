@@ -14,3 +14,11 @@ Decisions and limits:
 - van Dijk and colleagues 2026 on an inverted-U relation between anxiety and action is cited by Suldovsky but has no open abstract, so it is not used.
 - The survey scales are not entered as separate entries. The article points to the appendix where they are printed. An instrument entry is still open if he wants it.
 - Not started: any shelf or tag for human factors. The article carries the tag `human factors` and sits in the People and Climate domains.
+
+## Anselm's response, same day
+
+After reading the report on the article he wrote:
+
+> You make a good point that a 'theory of change' analysis could gauge reader sentiment before and after interacting with one of the simulations we provide. The entire point of 'simulation based thinking' is that models have impact on people. People are the 'change agents' in our world. The proposition of digital twins is that they have impact on human behavior.
+
+Claude's reading of what this changes: the effect of a model on the people who use it is the claim the whole site rests on, so it is inside the scope and not a neighbouring field. Neither `devlog/20261015-principles.md` nor any entry states this claim or a theory of change (searched 16 November). Nothing has been changed on the strength of this reading; what to do with it is his call.
