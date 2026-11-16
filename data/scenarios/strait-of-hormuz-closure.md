@@ -14,6 +14,8 @@ about:
     - chokepoint
     - Iran
 scenario:
+  pace: fast
+  role: both
   place: Strait of Hormuz, between the Persian/Arabian Gulf and the Gulf of Oman
   since: '2026'
   scale: world

@@ -15,6 +15,9 @@ about:
     - early warning
     - Europe
 twin:
+  pace: both
+  role: operations
+  reach: bioregion
   tier: 4
   place: 'thirteen site demonstrators in Europe, Chile and Japan'
   operational: 'research'

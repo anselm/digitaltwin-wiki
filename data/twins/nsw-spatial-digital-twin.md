@@ -13,6 +13,9 @@ about:
     - spatial data
     - collaboration portal
 twin:
+  pace: both
+  role: both
+  reach: bioregion
   tier: 1
   place: 'New South Wales, Australia'
   scale: region

@@ -12,6 +12,8 @@ about:
     - river restoration
     - swimming
 scenario:
+  pace: slow
+  role: argument
   place: Ross Island lagoon, Willamette River, Portland, Oregon
   since: '1926'
   scale: community

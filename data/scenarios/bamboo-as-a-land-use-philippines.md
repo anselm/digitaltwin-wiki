@@ -15,6 +15,8 @@ about:
     - carbon credits
     - engineered bamboo
 scenario:
+  pace: slow
+  role: operations
   place: Bukidnon and neighbouring provinces of Northern Mindanao, Philippines
   since: '2010'
   scale: bioregion

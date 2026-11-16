@@ -14,6 +14,9 @@ about:
     - weather
     - supercomputing
 twin:
+  pace: both
+  role: both
+  reach: world
   tier: 2
   place: 'Earth'
   scale: 'planet'

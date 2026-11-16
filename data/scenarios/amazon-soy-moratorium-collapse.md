@@ -13,6 +13,8 @@ about:
     - Brazil
     - supply chains
 scenario:
+  pace: slow
+  role: argument
   place: Brazilian Amazon, soy-producing states including Mato Grosso
   since: '2006'
   scale: world

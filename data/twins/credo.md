@@ -11,6 +11,9 @@ about:
     - cascading failure
     - UK
 twin:
+  pace: slow
+  role: argument
+  reach: bioregion
   tier: 3
   place: 'United Kingdom'
   operational: 'pilot'

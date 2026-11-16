@@ -16,6 +16,8 @@ about:
     - subsidence
     - Delta Conveyance Project
 scenario:
+  pace: both
+  role: both
   place: Sacramento-San Joaquin Delta, California, United States
   since: '2025'
   scale: bioregion

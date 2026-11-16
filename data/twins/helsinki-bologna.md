@@ -13,6 +13,9 @@ about:
     - civic
 domains: [places, energy]
 twin:
+  pace: slow
+  role: argument
+  reach: community
   tier: 2
   place: 'Helsinki, Finland; Bologna, Italy'
   scale: city

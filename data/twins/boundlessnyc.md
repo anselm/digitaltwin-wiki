@@ -16,6 +16,9 @@ about:
     - synthetic data
     - open source
 twin:
+  pace: slow
+  role: operations
+  reach: community
   tier: 3
   place: New York City
   scale: city

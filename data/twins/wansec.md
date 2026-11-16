@@ -14,6 +14,9 @@ about:
     - caribbean
     - elkhorn
 twin:
+  pace: slow
+  role: argument
+  reach: bioregion
   tier: 4
   place: 'Jamaica, Barbados, and Antigua and Barbuda'
   operational: 'research'

@@ -11,6 +11,9 @@ about:
     - open data
     - SketchUp
 twin:
+  pace: slow
+  role: argument
+  reach: community
   tier: 2
   place: 'Boston, Massachusetts, United States'
   scale: city

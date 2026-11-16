@@ -12,6 +12,8 @@ about:
     - whales
     - fisheries
 scenario:
+  pace: slow
+  role: argument
   place: Gulf of Mexico, open water of the northern and eastern Gulf
   since: '2010'
   scale: bioregion

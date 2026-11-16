@@ -13,6 +13,9 @@ about:
     - biodiversity
     - French Polynesia
 twin:
+  pace: slow
+  role: argument
+  reach: community
   tier: 4
   place: 'Moorea and Tetiaroa, French Polynesia'
   scale: island

@@ -12,6 +12,9 @@ domains:
   - water
   - ecology
 twin:
+  pace: slow
+  role: argument
+  reach: bioregion
   tier: 4
   place: San Francisco Bay
   scale: Bay Area

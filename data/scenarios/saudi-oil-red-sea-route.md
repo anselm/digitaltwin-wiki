@@ -13,6 +13,8 @@ about:
     - oil
     - shipping
 scenario:
+  pace: fast
+  role: operations
   place: Southern Red Sea and the Bab el-Mandab strait, off Yemen
   since: '2026'
   scale: world

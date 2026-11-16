@@ -13,6 +13,8 @@ about:
     - ports
     - Strait of Hormuz
 scenario:
+  pace: fast
+  role: operations
   place: Persian/Arabian Gulf and Gulf of Oman, and the ports these ships sail to next
   since: '2026'
   scale: world

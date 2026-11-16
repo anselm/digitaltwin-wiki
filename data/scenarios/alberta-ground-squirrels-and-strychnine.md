@@ -13,6 +13,8 @@ about:
     - Alberta
     - burrowing owl
 scenario:
+  pace: slow
+  role: argument
   place: Prairie and parkland farmland of Alberta and Saskatchewan
   since: '2020'
   scale: bioregion

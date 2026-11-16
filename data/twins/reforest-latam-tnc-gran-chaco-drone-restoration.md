@@ -13,6 +13,9 @@ about:
     - argentina
     - native trees
 twin:
+  pace: slow
+  role: operations
+  reach: community
   tier: 4
   place: 'Gran Chaco, Argentina'
   operational: 'pilot'

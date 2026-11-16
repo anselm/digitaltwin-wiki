@@ -12,6 +12,8 @@ about:
     - lake ice
     - algal blooms
 scenario:
+  pace: slow
+  role: argument
   place: Great Lakes basin, United States and Canada
   since: '2008'
   scale: bioregion

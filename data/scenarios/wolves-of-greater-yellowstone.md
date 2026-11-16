@@ -15,6 +15,8 @@ about:
     - livestock
     - trophic cascade
 scenario:
+  pace: slow
+  role: argument
   place: Greater Yellowstone, the park and the neighbouring parts of Montana, Wyoming and Idaho
   since: '1995'
   scale: bioregion

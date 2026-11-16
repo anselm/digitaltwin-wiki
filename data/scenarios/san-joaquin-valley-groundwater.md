@@ -14,6 +14,8 @@ about:
     - fallowing
     - agriculture
 scenario:
+  pace: slow
+  role: argument
   place: San Joaquin Valley, California (the Tulare Lake, Tule, Kern, Kaweah, Chowchilla, Delta-Mendota and Pleasant Valley subbasins)
   since: '2014'
   scale: bioregion

@@ -14,6 +14,8 @@ about:
     - migration
     - groundwater
 scenario:
+  pace: slow
+  role: argument
   place: Tuvalu, centred on Fogafale islet, Funafuti Atoll
   since: '2023'
   scale: community

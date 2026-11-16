@@ -13,6 +13,9 @@ about:
     - conservation
     - reef management
 twin:
+  pace: slow
+  role: argument
+  reach: community
   tier: 4
   scale: 'reef'
   operational: 'research'

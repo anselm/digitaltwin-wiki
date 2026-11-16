@@ -13,6 +13,9 @@ about:
     - open platform
     - Europe
 twin:
+  pace: both
+  role: both
+  reach: world
   tier: 3
   place: 'European seas and the global ocean'
   scale: ocean

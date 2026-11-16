@@ -39,12 +39,11 @@ One list for the project, kept current. Decisions and reasoning live in
   (articles/how-people-respond-to-what-a-model-shows, 16 November,
   `devlog/20261116-human-factors-article.md`) and awaits his reading;
   the instrument entry is not started.
-- A chart of example twins on two axes (Anselm, 2026-11-16): how soon the
-  answer is needed (slow planning to fast response) against the area
-  covered (local, bioregional, global), with a possible third dimension
-  for role (acted on by software, or used in argument). The Notable
-  twins entries already carry `twin.scale`; speed and role would be two
-  new fields to fill in for 27 entries. Not started; his call.
+- Pace, reach and role (Anselm, 2026-11-16): every notable twin and
+  scenario is scored and each shelf shows a chart by pace and area
+  (`devlog/20261116-pace-reach-role.md`). The scores are Claude's first
+  pass from the descriptions and want his correction. Still open: ranking
+  or a confidence score, and a place to collect candidate topics.
 - Read the six draft pages on learned models and the term "world model"
   (article, term, GenCast, NeuralGCM, CorrDiff, ACE2) and say whether they
   go public (`devlog/20261115-learned-models-and-world-models.md`).

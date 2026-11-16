@@ -17,6 +17,8 @@ about:
     - tourism
     - World Heritage
 scenario:
+  pace: slow
+  role: both
   place: Bali, Indonesia, the island's irrigated rice terraces and the watersheds that feed them
   since: '2012'
   scale: bioregion

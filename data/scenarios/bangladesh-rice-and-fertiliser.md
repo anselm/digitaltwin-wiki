@@ -12,6 +12,8 @@ about:
     - food security
     - Strait of Hormuz
 scenario:
+  pace: slow
+  role: argument
   place: Bangladesh, and the fertiliser route through the Strait of Hormuz
   since: '2026'
   scale: world

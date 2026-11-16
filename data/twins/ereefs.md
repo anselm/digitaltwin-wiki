@@ -12,6 +12,9 @@ about:
     - open data
     - Australia
 twin:
+  pace: both
+  role: both
+  reach: bioregion
   tier: 2
   place: 'Great Barrier Reef, Australia'
   scale: reef

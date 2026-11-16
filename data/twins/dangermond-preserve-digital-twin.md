@@ -19,6 +19,9 @@ about:
     - ArcGIS
     - California
 twin:
+  pace: both
+  role: operations
+  reach: community
   place: 'Jack and Laura Dangermond Preserve, Point Conception, Santa Barbara County, California'
   scale: landscape
   operational: operational

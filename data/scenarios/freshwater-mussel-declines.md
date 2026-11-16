@@ -12,6 +12,8 @@ about:
     - endangered species
     - rivers
 scenario:
+  pace: slow
+  role: argument
   place: Rivers and streams of the southeastern United States, among them Kentucky's Rockcastle River and Horse Lick Creek and Virginia's Clinch River
   since: '1990s'
   scale: bioregion

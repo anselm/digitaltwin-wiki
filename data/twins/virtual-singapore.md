@@ -14,6 +14,9 @@ about:
     - planning
 domains: [places]
 twin:
+  pace: slow
+  role: both
+  reach: community
   tier: 2
   place: Singapore
   scale: city-state

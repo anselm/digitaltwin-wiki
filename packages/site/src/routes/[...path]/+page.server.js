@@ -105,11 +105,21 @@ export function load({ params }) {
       const groups = [{ label: 'Upcoming', items: pick((c) => when(c) >= today, 1) }, { label: 'Past', items: pick((c) => when(c) && when(c) < today, -1) }, { label: 'Undated', items: pick((c) => !when(c), 1) }].filter((g) => g.items.length)
       return { ...base, items, groups }
     }
+    // Twins and scenarios are also laid out on two axes: how soon the answer is needed (pace) against the area covered
+    // (twin.reach, scenario.scale), with the role of the model as a mark. Set per entry; devlog/20261116-pace-reach-role.md.
+    const grid = (block, hypothetical) => {
+      const reach = [['community', 'Local'], ['bioregion', 'Bioregional'], ['world', 'Global']], pace = [['slow', 'Slow: seasons to decades'], ['both', 'Slow and fast'], ['fast', 'Fast: hours to weeks']]
+      const mark = { operations: '●', argument: '○', both: '◐' }
+      const at = (c) => block(c).reach || block(c).scale
+      if (!kids.every((c) => block(c)?.pace && reach.some(([r]) => r === at(c)))) return null
+      return { cols: reach.map(([, l]) => l), legend: hypothetical ? '● a model here would run something  ○ it would be used to argue a case  ◐ both' : '● used to run something  ○ used to argue a case  ◐ both',
+        rows: pace.map(([pk, label]) => ({ label, cells: reach.map(([rk]) => kids.map((c, i) => ({ c, i })).filter(({ c }) => block(c).pace === pk && at(c) === rk).map(({ c, i }) => ({ url: items[i].url, label: items[i].label, mark: mark[block(c).role] || '' }))) })).filter((r) => r.cells.some((x) => x.length)) }
+    }
     // Scenarios run along a continuum of scale, so they are shelved world first, then bioregion, then community.
     if (kids.length && kids.every((c) => c.scenario)) {
       const scales = [['world', 'World scale'], ['bioregion', 'Bioregional'], ['community', 'Local community']]
       const groups = [...scales, [undefined, 'Other']].map(([k, label]) => ({ label, items: items.filter((_, i) => (scales.some(([s]) => s === kids[i].scenario.scale) ? kids[i].scenario.scale : undefined) === k) })).filter((g) => g.items.length)
-      return { ...base, items, groups }
+      return { ...base, items, groups, grid: grid((c) => c.scenario, true) }
     }
     // Engines and twins are shelved by standing (tool.tier or twin.tier, set from evidence in devlog/20261101-engines-by-standing.md); within a tier, entries on the same subject sit together.
     const tierOf = (c) => c.tool?.tier || c.twin?.tier
@@ -119,13 +129,13 @@ export function load({ params }) {
         : [[1, 'Widely used'], [2, 'Specialist'], [3, 'New or unproven'], [4, 'Research, dormant or closed']]
       const order = (i) => String(kids[i].tool?.group || kids[i].twin?.scale || '') + ' ' + items[i].label
       const groups = tiers.map(([t, label]) => ({ label, items: items.filter((_, i) => tierOf(kids[i]) === t).sort((a, b) => order(items.indexOf(a)).localeCompare(order(items.indexOf(b)))) })).filter((g) => g.items.length)
-      return { ...base, items, groups }
+      return { ...base, items, groups, grid: kids.every((c) => c.twin) ? grid((c) => c.twin, false) : null }
     }
     // A shelf groups itself when every entry names a group of its own (tool.group or about.group), or when it is long and most do.
     const own = kids.every((c) => c.tool?.group || c.about?.group)
     const grouped = own || (items.length > 12 && items.filter((i) => i.group).length > items.length / 2)
     const groups = grouped ? [...new Set(items.map((i) => i.group || 'Other'))].sort((a, b) => (a === 'Other') - (b === 'Other') || a.localeCompare(b)).map((g) => ({ label: g, items: items.filter((i) => (i.group || 'Other') === g) })) : null
-    return { ...base, items, groups }
+    return { ...base, items, groups, grid: kids.length && kids.every((c) => c.twin) ? grid((c) => c.twin, false) : null }
   }
   if (view === 'news') {
     const month = (d) => { const [y, m] = String(d).split('-'); return m ? new Date(Date.UTC(+y, +m - 1, 1)).toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' }) : y }

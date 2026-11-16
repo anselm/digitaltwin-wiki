@@ -12,6 +12,9 @@ about:
     - 3D Tiles
     - CityGML
 twin:
+  pace: slow
+  role: argument
+  reach: community
   tier: 2
   place: 'Rotterdam, Netherlands'
   scale: city

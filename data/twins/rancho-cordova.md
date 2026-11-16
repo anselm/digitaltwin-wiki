@@ -13,6 +13,9 @@ about:
     - traffic simulation
     - robotics
 twin:
+  pace: slow
+  role: operations
+  reach: community
   tier: 3
   place: 'Rancho Cordova, California, USA'
   scale: city

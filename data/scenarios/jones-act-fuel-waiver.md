@@ -12,6 +12,8 @@ about:
     - Puerto Rico
     - West Coast
 scenario:
+  pace: fast
+  role: argument
   place: US coastal shipping lanes from the Gulf Coast to the West Coast, the East Coast and Puerto Rico
   since: '2026'
   scale: world

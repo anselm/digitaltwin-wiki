@@ -12,6 +12,8 @@ about:
     - Montana
     - rewilding
 scenario:
+  pace: slow
+  role: argument
   place: Flying D Ranch, between the Gallatin and Madison rivers south of Bozeman, Montana
   since: '1989'
   scale: community

@@ -20,6 +20,8 @@ about:
     - wetland restoration
     - historical reconstruction
 scenario:
+  pace: slow
+  role: argument
   place: The Kankakee River basin in northwest Indiana and northeast Illinois, from South Bend to Momence and the river below
   since: '1886'
   scale: bioregion

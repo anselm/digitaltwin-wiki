@@ -15,6 +15,9 @@ about:
     - forecasting
     - Netherlands
 twin:
+  pace: fast
+  role: operations
+  reach: bioregion
   tier: 2
   place: 'The Netherlands, Belgium and Luxembourg, with parts of northern France and northwest Germany'
   scale: region

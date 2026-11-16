@@ -12,6 +12,8 @@ about:
     - drought
     - agriculture
 scenario:
+  pace: slow
+  role: argument
   place: Lower Rio Grande in New Mexico, from Caballo Reservoir to the Texas state line (Hatch, Mesilla Valley, Las Cruces)
   since: '2026'
   scale: bioregion

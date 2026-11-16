@@ -13,6 +13,8 @@ about:
     - wetlands
     - Argentina
 scenario:
+  pace: slow
+  role: argument
   place: Iberá wetlands, Corrientes, and other Argentine national parks made from Tompkins land
   since: '1990s'
   scale: bioregion

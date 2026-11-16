@@ -13,6 +13,8 @@ about:
     - Saudi Arabia
     - downscaling
 scenario:
+  pace: slow
+  role: both
   place: Arabian Peninsula, with Saudi Arabia, the UAE and Bahrain as the cases
   since: '2024'
   scale: bioregion

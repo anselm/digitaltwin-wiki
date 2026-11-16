@@ -14,6 +14,8 @@ about:
     - Rajasthan
     - commons
 scenario:
+  pace: slow
+  role: argument
   place: Alwar district, Rajasthan, India; Gopalpura and the villages of the Arvari River catchment, which rises in Thanagazi tehsil
   since: '1985'
   scale: community

@@ -10,6 +10,9 @@ about:
     - Unity
     - Netherlands3D
 twin:
+  pace: slow
+  role: argument
+  reach: community
   tier: 2
   place: 'Amsterdam, Netherlands'
   scale: city

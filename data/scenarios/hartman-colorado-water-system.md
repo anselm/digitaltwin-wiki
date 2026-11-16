@@ -12,6 +12,8 @@ about:
     - local government
     - Colorado
 scenario:
+  pace: slow
+  role: argument
   place: Hartman, Prowers County, south-eastern Colorado
   since: '2025'
   scale: community

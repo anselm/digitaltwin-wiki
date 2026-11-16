@@ -14,6 +14,9 @@ about:
     - statehood
     - Pacific
 twin:
+  pace: slow
+  role: argument
+  reach: community
   tier: 3
   place: Tuvalu
   scale: nation

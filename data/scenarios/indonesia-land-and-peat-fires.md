@@ -14,6 +14,8 @@ about:
     - oil palm
     - air quality
 scenario:
+  pace: both
+  role: both
   place: Indonesia's peatlands in Sumatra and Kalimantan, and the countries downwind
   since: '2015'
   scale: bioregion

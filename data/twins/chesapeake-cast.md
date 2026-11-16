@@ -12,6 +12,9 @@ about:
     - scenario planning
     - United States
 twin:
+  pace: slow
+  role: both
+  reach: bioregion
   tier: 1
   place: 'Chesapeake Bay watershed, United States'
   scale: region

@@ -14,6 +14,8 @@ about:
     - tribes
     - Columbia River Treaty
 scenario:
+  pace: slow
+  role: argument
   place: Upper Columbia River above Chief Joseph and Grand Coulee dams, Washington, Idaho and southern British Columbia
   since: '1941'
   scale: bioregion

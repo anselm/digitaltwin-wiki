@@ -10,6 +10,9 @@ about:
     - CityGML
     - LoD2
 twin:
+  pace: slow
+  role: argument
+  reach: community
   tier: 2
   place: 'Zürich, Switzerland'
   scale: city

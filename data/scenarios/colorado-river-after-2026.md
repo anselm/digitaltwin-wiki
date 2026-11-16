@@ -15,6 +15,8 @@ about:
     - hydropower
     - tribal water rights
 scenario:
+  pace: slow
+  role: argument
   place: Colorado River Basin, United States and Mexico
   since: '2026'
   scale: bioregion

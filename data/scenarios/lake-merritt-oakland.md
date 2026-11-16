@@ -14,6 +14,8 @@ about:
     - fish kill
     - tide gates
 scenario:
+  pace: both
+  role: both
   place: Lake Merritt and the Lake Merritt Channel, Oakland, California
   since: '2022'
   scale: community

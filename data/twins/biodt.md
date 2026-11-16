@@ -15,6 +15,9 @@ about:
     - Europe
     - prototype
 twin:
+  pace: slow
+  role: argument
+  reach: bioregion
   tier: 4
   place: 'Europe'
   operational: 'research'

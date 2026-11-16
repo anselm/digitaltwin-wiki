@@ -13,6 +13,9 @@ about:
     - real-time
     - Tees Valley
 twin:
+  pace: fast
+  role: operations
+  reach: bioregion
   tier: 1
   place: 'Tees Valley (Teesside, Darlington and Hartlepool), UK'
   scale: region

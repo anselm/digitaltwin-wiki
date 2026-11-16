@@ -13,6 +13,9 @@ about:
     - Horizon Europe
     - Europe
 twin:
+  pace: both
+  role: argument
+  reach: community
   tier: 3
   place: 'Antwerp, Barcelona, Paris, Bristol and Rotterdam'
   scale: city

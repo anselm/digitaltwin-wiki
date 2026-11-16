@@ -13,6 +13,8 @@ about:
     - Israel
     - biodiversity
 scenario:
+  pace: slow
+  role: argument
   place: Israel, from the Northern Negev loess plains to the Galilee and Golan
   since: 'early 20th century'
   scale: bioregion

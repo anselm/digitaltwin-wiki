@@ -11,6 +11,9 @@ about:
     - Horizon 2020
     - training
 twin:
+  pace: both
+  role: both
+  reach: world
   tier: 4
   place: 'Ocean; an EU project with many partners, no single site named on the pages read'
   scale: ocean
