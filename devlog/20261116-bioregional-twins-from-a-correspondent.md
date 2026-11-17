@@ -94,3 +94,53 @@ estimates from satellite observation; the smoke layer carries a five-day
 forecast, which is the predictive part. The data documentation was read
 through a summarising fetcher and the method papers were not read; the
 entry says so.
+
+## Also the same day: a search-engine conversation as fuel
+
+Anselm pasted a conversation with Google's AI mode ("here is a conversation
+with google that may have some useful fuel"). He had asked it for local
+issues a twin could model, for whole-system cases with knock-on effects and
+trade-offs between stakeholders, for tools that join agent-based models to
+physics, how much work a model takes, and whether any of the tools serve
+civic outreach or citizen participation.
+
+Checked against the wiki. Already present: GAMA, AnyLogic, NetLogo,
+UrbanSim, MATSim, SUMO, FMI (under HELICS), synthetic populations.
+Missing and now written as drafts, each from the maker's own pages:
+communication/mit-cityscope, engines/palm, engines/swat, engines/riverware.
+The GAMA entry gained the Hanoi HoanKiemAir project and NetLogo gained
+HubNet.
+
+What was not used, and why:
+
+- The effort figures (70 to 80 percent of the work in data preparation; two
+  to four weeks for a toy; six to eighteen months for a calibrated twin)
+  came with no source that states them. They read as plausible and are not
+  evidence. A sourced account of effort would be worth having.
+- "HubNet Web: citizens log in on their phones". The NetLogo manual says
+  HubNet is desktop clients only for now. HubNet Web exists as a separate
+  site; only its front page was read.
+- "Pareto frontier" as what such models produce: no source.
+
+Leads not followed:
+
+- Adade and de Vries, "A systematic review of digital twins' potential for
+  citizen participation and influence in land use agenda-setting", Discover
+  Sustainability 2025, doi 10.1007/s43621-025-01204-x. Springer refused the
+  script. From the search summary only: 34 articles, citizens take part by
+  supplying data or by using the twin, influence at agenda-setting is
+  limited. This bears directly on his last question and should be read.
+- Luo and others 2025, "Urban digital twins for citizen-centric planning"
+  (84 publications); "Local Digital Twins for Cities and Regions: The Way
+  Forward" (Springer 2025).
+- RiverWISE and the RiverWare Viewer, as a public face of a licensed model.
+
+The problem classes it listed, set against the Scenarios shelf. The shelf is
+real cases Anselm sends, so none were written as entries; these are the
+classes with no case yet: upzoning and infrastructure strain; congestion
+pricing and traffic displaced to the edge of the zone (HoanKiemAir is a
+worked example); seawall or managed retreat; a new park raising rents
+around it; electrification and winter peak load; prescribed burning against
+smoke; urban trees against water in dry cities; solar siting against
+habitat. The watershed class (farms, salmon, hydropower) is already well
+covered.

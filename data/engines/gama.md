@@ -32,12 +32,16 @@ provenance:
       url: 'https://gama-platform.org/'
     - title: GAMA
       url: 'https://gama-platform.org/wiki/Home'
-  reviewed: '2026-10-18'
-  reviewed_by: 'Claude, from the sources listed'
+    - title: Projects using GAMA
+      url: 'https://gama-platform.org/wiki/Projects'
+  reviewed: '2026-11-16'
+  reviewed_by: 'Claude, from the sources listed; the HoanKiemAir paper was not read, only the project page'
   status: draft
 ---
 An agent-based model simulates many individual actors, each following its own rules, and shows the patterns that emerge from their interactions. In GAMA the agents move through a geographic space.[^2] Models are written in GAML, an agent-oriented language that runs on Java.[^2] GAML is meant for people who are not computer scientists.[^2] The software ships with hundreds of example models and tutorials, and its developers have answered a mailing list since 2007.[^2] The reference paper is Taillandier et al., Geoinformatica 2019.[^2]
 
 Users build models for urban mobility, climate-change adaptation, epidemiology, evacuation planning and urban planning, as scientific simulations and also as scenario explorers, negotiation aids, serious games and communication tools.[^2] A model can load GIS data directly as the agents' environment: shapefiles, OpenStreetMap, grids, images, CSV and 3D files.[^2] Models can connect to databases and to R or Python, and run batch explorations and calibrations across their parameter space.[^2] Displays can be 2D or 3D with interactive panels, and plugins extend the software.[^2]
+
+The project's list of work done with GAMA includes HoanKiemAir, in Hanoi in 2019 and 2020. Its page says that closing streets to traffic is likely to push traffic into nearby neighbourhoods, and that because this "might appear counter-intuitive to most stakeholders" the team built an agent-based model of traffic and its air pollution to share the effects before the change was made.[^3] The paper's title calls it a tangible model.[^3] GAMA also runs agent-based modules for MIT's [CityScope](/communication/mit-cityscope/) tables.[^3]
 
 GAMA is free software under GPL v3, downloaded as a desktop application or built from source on GitHub.[^2] The current version is labelled 2025-06, and a GAMA Days online meeting is scheduled for 23-25 November 2026.[^1,2]
