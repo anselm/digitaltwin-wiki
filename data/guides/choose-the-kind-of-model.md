@@ -34,6 +34,8 @@ provenance:
 5. If you have a lot of past outcomes and want a forecast, it is statistical.
 6. Only make it live if someone will act on it every day.
 
+[Inside an engine](/articles/inside-an-engine/) sets out the techniques behind these kinds, with a diagram.
+
 Many projects chain two: an agent-based transport model feeding a land-use model, or a weather forecast feeding a flood model. Chain two only when the question needs both.
 
 A learned model is also combined with a physical one in a different way: as a fast copy of it for running many scenarios, as a source of finer local detail, or in place of one process that is too complicated to write as equations. The article linked above describes these arrangements.

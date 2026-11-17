@@ -144,3 +144,30 @@ around it; electrification and winter peak load; prescribed burning against
 smoke; urban trees against water in dry cities; solar siting against
 habitat. The watershed class (farms, salmon, hydropower) is already well
 covered.
+
+## Also the same day: GAMA, and a page on the parts of an engine
+
+Anselm on GAMA: "a fairly generic agent platform - and very similar to what
+want to see". The GAMA entry was extended from its GitHub organisation: the
+headless server, the Python and JavaScript clients, the Docker image, the
+reinforcement-learning wrappers. GAMA was not installed or run; whether it
+handles the agent counts he needs, and whether the JavaScript client works
+from a browser, is untested.
+
+He then wrote: "reinforcement learning sounds interesting - i didn't
+appreciate this is a technique - or that digital twin engines would be
+composed of a variety of techniques - drilling down into the stereotypical
+parts of digital twin engines seems useful- we could use a page with a
+diagram; for example there are cellular automata, and agent based models,
+presumably other componenets".
+
+Written as articles/inside-an-engine (draft, tier 3) with engine.svg, drawn
+by script in the style of the wiki's other diagrams. It sits under
+articles/parts-of-a-twin, which gives the four layers; this page opens the
+engine layer. The division (state and clock; six kinds of process; how an
+agent decides; coupling, assimilation, calibration, scenarios, search) is
+the wiki's own and the page says so. Only three outside sources were read
+for it; the rest rests on linked entries. A methods textbook should be
+checked against it before it is promoted. The wiki has no engine entry that
+is plainly a cellular automaton (a fire-spread or urban-growth one would
+fill that), and no term entries for the individual techniques.

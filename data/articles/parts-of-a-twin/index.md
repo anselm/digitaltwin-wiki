@@ -33,7 +33,7 @@ The shelves of the Technologies area follow these four layers in order.
 
 **Ontologies.** The step from data to knowledge. An ontology decides what the things are, which properties they carry, and how they relate. A building has a height and a use, a catchment drains through reaches, and an agent follows a rule. Every engine has an ontology, usually unstated, and joining two models is mostly the work of reconciling two ontologies. The [Ontologies](/ontologies/) shelf holds the standards, papers and tools for this layer. The term entry [Ontology](/terms/ontology/) says why the world has to be cut up at all, and a review of [The Ontology Pipeline](/ontologies/the-ontology-pipeline/) describes building one step by step.
 
-**Engines.** The simulations that move state forward in time: snow cover deepening, a fire crossing a forested ridge, traffic reassigning itself after a closure, a housing market responding to a zoning change. The [Engines](/engines/) shelf is the largest, arranged by the task a person is trying to do.
+**Engines.** The simulations that move state forward in time: snow cover deepening, a fire crossing a forested ridge, traffic reassigning itself after a closure, a housing market responding to a zoning change. The [Engines](/engines/) shelf is the largest, arranged by the task a person is trying to do. [Inside an engine](/articles/inside-an-engine/) takes this layer apart.
 
 **Presentation.** How a person sees what the model did: a globe, a map, a chart, a story, a before-and-after. Nothing is simulated in this layer, but it is where most people meet a model, and where a result becomes an argument or fails to. The [Presentation](/presentation/) shelf holds the libraries and viewers.
 
