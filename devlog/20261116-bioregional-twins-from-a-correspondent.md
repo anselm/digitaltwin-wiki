@@ -78,3 +78,19 @@ monitoring-review (draft, tier 3), with the expedition as a closing section.
 The paper's sections on soil, sediment, groundwater and other water bodies
 were not read, and the entry says so. The wiki had no entry on eDNA as a
 method; this is the first, and a term entry may be wanted later.
+
+## Also the same day: colour maps, and a fire emissions map
+
+Anselm sent colorcet.com with the remark "On presentation this is a detail
+but important". Written as presentation/colorcet (draft), with Peter
+Kovesi's own comparison image under CC BY 4.0. His paper is cited from its
+abstract only.
+
+Anselm then passed on a link from Howard Silverman, the Copernicus Fire
+Emissions Watch application, announced 29 and 30 July 2026. Written as
+data-sources/cams-fire-emissions-watch (draft). The Indonesia fires
+scenario already named it and now links to the entry. The emissions are
+estimates from satellite observation; the smoke layer carries a five-day
+forecast, which is the predictive part. The data documentation was read
+through a summarising fetcher and the method papers were not read; the
+entry says so.
