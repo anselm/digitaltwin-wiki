@@ -196,3 +196,71 @@ would belong beside the licences the wiki already discusses for data and
 models; and the GaiaOS open call, if it opens, is a place a twin project
 could be put forward. Planetir and Project Weave, named as partners, were
 not followed.
+
+## UrbanFootprint, read closely (2026-11-18)
+
+Howard Silverman brought https://urbanfootprint.com/ to Anselm, who wrote:
+"It seems to focus on resilience, not merely just simulate something. It
+seems to have some multi-domain or more whole-systems emphasis. It does
+appear to be proprietary. I would read this closely and evaluate - and try
+decide where and how we should reference it if it feels useful."
+
+Read: the front page, About, leadership, the three data foundation pages,
+Analyst, Explorer, Direct Data, the four solutions pages, the community
+resilience essay, the case studies for Duquesne Light, Envision Utah and
+Louisiana DCFS, the October 2025 parcel-data post, the Analysis Modules page
+of the product documentation, LightBox's press release, and the README of
+the open version 1.5 on GitHub. Not read: the other case studies, the blog
+beyond its first index page, the rest of the documentation, the SCAG
+technical summary a search turned up. The product was not used.
+
+What it turned out to be. The wiki already had it, sharing one entry with
+Climate X, an unrelated British company, since the October import. It is
+not a simulator. It is a parcel table for the whole United States with
+land use, people and hazard layers aligned to it, composite scoring on top
+(Duquesne Light ranks substations by the product of infrastructure,
+hazard, exposure and vulnerability criteria), and a set of sketch-planning
+modules that apply rates to a drawn land-use map. So Anselm's two
+impressions hold in a particular sense: it is multi-domain because the
+layers share one canvas, not because processes are coupled, and its
+resilience is a ranking of where to spend, not a model of recovery. Its
+own essay names social connectedness as a leading trait of a resilient
+community, and its data pages list nothing that measures that.
+
+Facts that matter for a reader: LightBox, a commercial real-estate data
+firm, bought it on 24 June 2025; the newest blog post is October 2025 and
+the newest item on the news page is from 2022; no prices; United States
+only; the Conservation module is California only with its method on
+request. The open ancestor, UrbanFootprint 1.5 (GPL-3.0, Calthorpe
+Analytics), last changed in June 2018.
+
+What was done. The shared entry was split, with no redirect, into
+engines/climate-x and engines/urbanfootprint. The new entry sits in Land
+use and housing beside UrbanSim, answers the housing and land use
+question, and says in a section marked as the wiki's reading that the
+modules have a state and no clock, linking to Inside an engine. It closes
+with what a reader who cannot buy it can take: the parcel canvas, the
+composite score (with the free FEMA National Risk Index as the open
+equivalent), and the Envision Utah sequence of five drawn futures, the
+same measures for each, and a survey answered by 10,000 people.
+
+Not done, and worth considering: the Envision Utah project as a story or
+a scenario of its own, from Envision Utah's pages and not only the
+vendor's; a term entry for sketch planning; entries for Peter Calthorpe
+and for the open version 1.5 if anyone gets it running; the composite
+score as a guide ("rank before you simulate").
+
+## PSI, looked at and not used (2026-11-18)
+
+Steve Coy, who is not yet a formal contributor, sent https://psi.inc/.
+Read: the front page, the vision page in part (the first 4,500 characters
+of about 9,000) and the research index. PSI, Physical Superintelligence,
+is a public benefit corporation that says it has raised over 58 million
+US dollars, led by Breakthrough Energy Ventures, to run automated physics
+research; its two listed results, from October and November 2026, are in
+quantum information theory. "Digital twins" appears once, as one of the
+gates a candidate result must pass. Nothing there is a model of a place
+or a tool for building one, so no entry. It bears on the wiki only at a
+distance: its claim that generation is cheap and verification is the
+bottleneck is the same point the wiki makes about calibration and
+checked forecasts.
