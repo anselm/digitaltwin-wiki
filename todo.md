@@ -6,6 +6,13 @@ One list for the project, kept current. Decisions and reasoning live in
 
 ## Anselm's
 
+- Vitals data files: commit them or stop tracking them (asked 2026-11-18,
+  deferred). Every deploy refetches the nine `data/vitals/*.json` series
+  and copies them into the build, so the live site is current either way,
+  but the files are tracked and show as modified after each deploy.
+  Options: a small separate commit after each deploy (by hand or as a step
+  in `deploy/deploy.sh`), which keeps a fallback for a fresh clone or a
+  failed fetch; or ignore them as build output and lose that fallback.
 - Read the ten use-case pages and nine guides for the first patron's ear;
   promote or send back.
 - Promote entries by section: engines first, then data sources, books,

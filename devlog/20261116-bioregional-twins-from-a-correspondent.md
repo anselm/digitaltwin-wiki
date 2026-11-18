@@ -171,3 +171,28 @@ for it; the rest rests on linked entries. A methods textbook should be
 checked against it before it is promoted. The wiki has no engine entry that
 is plainly a cellular automaton (a fire-spread or urban-growth one would
 fill that), and no term entries for the individual techniques.
+
+## Open Systems Foundation, looked at and not used (2026-11-18)
+
+Anselm asked whether anything at https://opensystems.foundation/ was worth
+plucking out. Read: the front page, About, Projects, Gaia Commons, GaiaOps,
+GaiaOS, OPAL, PASEOs and Resources, and the list of repositories under
+github.com/OSFadmin. Not read: the two PDFs (manifesto, culture), the
+strategic drivers page, and gaiacommons.net, which is a script-only page
+that returned no text to a plain fetch.
+
+It is a charitable foundation in Vaduz, Liechtenstein, whose subject is how
+regenerative groups organise: a coordination platform (GaiaOps, "in live
+build"), a licence under development (OPAL, after the Peer Production
+License), and a tiered scheme for organisations joining a commons (PASEO).
+Nothing on the pages read is a model, a data source, or a tool for
+describing a place. The nearest points are statements of intent: GaiaOS
+lists "ecological indicators, sensors, and bioregional data" as a future
+domain and names an open call to map existing projects, with no date and
+no published component. The three GitHub repositories are the websites.
+
+No entry written. Two things to keep in mind: OPAL, if it is published,
+would belong beside the licences the wiki already discusses for data and
+models; and the GaiaOS open call, if it opens, is a place a twin project
+could be put forward. Planetir and Project Weave, named as partners, were
+not followed.
