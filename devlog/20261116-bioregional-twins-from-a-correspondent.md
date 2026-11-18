@@ -264,3 +264,32 @@ or a tool for building one, so no entry. It bears on the wiki only at a
 distance: its claim that generation is cheap and verification is the
 bottleneck is the same point the wiki makes about calibration and
 checked forecasts.
+
+## SeaSketch (2026-11-18)
+
+A third link from Howard Silverman: https://www.seasketch.org/. Read: the
+front page (rendered in a headless browser, since it is a script-only
+page), five pages of the documentation (the introduction, whether it is
+free, sketch classes, surveys, offline support), the READMEs of
+seasketch/next and seasketch/geoprocessing with their dates and licences
+from the GitHub API, and a UC Santa Barbara news article of 7 March 2025.
+Not read: the case study pages, the geoprocessing documentation site, the
+terms of use, and any paper about it. The software was not used.
+
+Written as communication/seasketch (draft, group Playing), beside
+Geodesignhub and answering the combining-proposals question. It is open
+source (BSD 3-Clause), changed the day before the entry was written, and
+free to use hosted for educational and non-profit work. It is the closest
+thing found so far to what the wiki keeps describing in the abstract:
+the people affected draw the proposals and each proposal comes back with
+the same measures. Like UrbanFootprint its analysis is overlay with no
+clock, and the entry says so as the wiki's reading. The closing section
+suggests a simulation could sit behind a report in place of an overlay;
+that is an inference, marked as one, and no project doing it was found.
+
+Leads: Will McClintock as a person entry; MarineMap and the California
+Marine Life Protection Act process as a story of participation with a
+long record; the Maldives ocean use survey and the Azores network as
+cases; a peer-reviewed account of SeaSketch in use, which this entry
+lacks; Marxan, the reserve-selection tool often used with it, has no
+entry here.
