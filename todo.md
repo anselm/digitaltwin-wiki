@@ -6,6 +6,14 @@ One list for the project, kept current. Decisions and reasoning live in
 
 ## Anselm's
 
+- A watch list of things to model and track. On 2026-11-19, sending the
+  Nature Communications paper on fire risk to US structures, Anselm wrote
+  "I'm seeing things that I want to build models of and track in
+  general". The wiki has no place for that yet. Candidates: a page listing
+  such subjects, each with the measured series to watch and the simplest
+  model that could be built (the fire-risk entry ends with both); or new
+  Vitals series at national or regional scale (area burned, structures
+  lost). His to shape. First item: articles/fire-risk-to-us-structures-2060.
 - Vitals data files: commit them or stop tracking them (asked 2026-11-18,
   deferred). Every deploy refetches the nine `data/vitals/*.json` series
   and copies them into the build, so the live site is current either way,

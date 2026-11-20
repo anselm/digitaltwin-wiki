@@ -337,3 +337,40 @@ Terence Tao essay of 23 September 2026 on trust in AI for science, which
 the coda links; Tapio Schneider as a person entry; the ECMWF-led
 perspective (arXiv 2606.25076) calling for modular, tested, GPU-ready
 model codes.
+
+## Fire risk to US structures, and a wish for a watch list (2026-11-19)
+
+Anselm sent https://www.nature.com/articles/s41467-026-78904-z with the
+words "I'm seeing things that I want to build models of and track in
+general".
+
+The paper (Iglesias and others, Nature Communications, 3 November 2026,
+open access) was read in full except for part of the methods and all of
+the supplement. Written as articles/fire-risk-to-us-structures-2060
+(draft, tier 2), answering the wildfire question. The entry gives the
+construction (area burned times number of structures times past loss per
+area burned, each projected or held), the findings, the assumptions, and
+a four-step version for one county. It ties to the UrbanFootprint and
+FEMA National Risk Index entries as the same multiplication with time
+added.
+
+Three things found while reading, all stated in the entry: the text's
+burned-area totals (589 million hectares from 1985 to 2023; up to 1,059
+million in the West to 2060) exceed the land area of the contiguous
+United States; the West's projected loss range has a lower bound above
+the national one; and the Los Angeles comparison (16,000 structures as 7
+to 23 per cent of the national total) does not follow from the stated
+range. The code repository the paper cites returned 404 on 19 November
+and is not among the lead author's public repositories.
+
+On the wider remark. My reading, not his words: he wants the wiki, or
+something beside it, to hold a standing list of subjects worth modelling
+and worth watching, of which this is one. Vitals already tracks nine
+global series; nothing tracks regional ones, and nothing pairs a tracked
+series with "the simplest model you could build of this". The entry's
+last section does that pairing for fire. A todo item under his name
+records the wish and two shapes it could take. Nothing was built for it.
+
+Leads: HISDAC-US, MTBS and ICS-209-PLUS have no data-source entries and
+each deserves one; the Joseph and others wildfire model the paper relies
+on; Balch and others 2024 on fast fires.
