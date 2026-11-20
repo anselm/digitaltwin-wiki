@@ -293,3 +293,47 @@ long record; the Maldives ocean use survey and the Azores network as
 cases; a peer-reviewed account of SeaSketch in use, which this entry
 lacks; Marxan, the reserve-selection tool often used with it, has no
 entry here.
+
+## CliMA's Earth system model (2026-11-19)
+
+Anselm sent the coda of CliMA's series on the day it was published and
+asked how it fits:
+https://clima.caltech.edu/2026/11/19/coda-what-it-took-to-build-a-new-earth-system-model/
+
+Read, through the summarising fetcher because the site answered a direct
+download with "429 Too Many Requests": the coda, the opening post of 28
+July, the coupler post of 5 November and the atmosphere post of 29
+October. Also the GitHub organisation's repository list by API, and MIT's
+2018 announcement. Not read: the other nine posts of the thirteen, any of
+the linked papers (Yatunin and others 2026 on GPU throughput is the one
+that would give measured speed), and the documentation. Nothing was run.
+
+How it fits. It is a global model, so it is not a tool for a place, and
+the entry says so in its first paragraph. It earns an entry (engines/clima,
+draft, tier 2, Weather and climate, beside CESM and E3SM) for three
+reasons: it is the clearest public worked example of the layers that
+Inside an engine describes (solvers, a coupler exchanging conserved
+quantities, calibration with parameters in one place, learned closures
+inside a physical frame); its coda argues the physics-or-learning question
+that divides the wiki's other climate entries, and argues it from the
+need to answer counterfactuals, which is the wiki's own concern; and
+parts of it (Oceananigans with ClimaOcean, ClimaLand,
+EnsembleKalmanProcesses) are open and usable alone at regional scale.
+
+What the entry is careful about: the posts give no skill scores and no
+comparison with other models, the coupled model is not yet calibrated and
+drifts at coarse resolution, and the forecasting cost advantage is an
+estimate. Those are listed under "What has not been shown".
+
+The picture the depiction tool fetched from CliMA's site was a 192-pixel
+photograph of a storm from orbit, which shows nothing of the model, so
+the entry has no picture. A figure from one of the posts would be the
+right one if its licence allows.
+
+Leads: an entry for Oceananigans by itself, since it is the piece a
+coastal or estuary modeller would pick up; EnsembleKalmanProcesses and
+CalibrateEmulateSample as calibration tools for any expensive model; the
+Terence Tao essay of 23 September 2026 on trust in AI for science, which
+the coda links; Tapio Schneider as a person entry; the ECMWF-led
+perspective (arXiv 2606.25076) calling for modular, tested, GPU-ready
+model codes.

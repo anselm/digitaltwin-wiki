@@ -85,7 +85,7 @@ Reinforcement learning has a second use, described under search below.
 
 **Data assimilation.** Observations arrive while the model runs and are used to correct its state, so that it does not drift from the real place. This is the part that makes a model a twin in the strict sense. [Dietze on ecological forecasting](/articles/dietze-near-term-ecological-forecasting/) and the [National Academies report](/articles/nasem-digital-twins-research-gaps/) both explain it.
 
-**Calibration.** Before use, the model's adjustable numbers are tuned until it reproduces what was recorded. The guide [Check it against what happened](/guides/check-it-against-what-happened/) covers this.
+**Calibration.** Before use, the model's adjustable numbers are tuned until it reproduces what was recorded. The guide [Check it against what happened](/guides/check-it-against-what-happened/) covers this. The [CliMA Earth system model](/engines/clima/) keeps every adjustable number in one package so that a second package can calibrate them together.
 
 **Scenarios.** One run answers little. The model is run many times across the things that are uncertain or under someone's control, and the runs are compared. The [EMA Workbench](/engines/ema-workbench/) is a tool for exactly this.
 
