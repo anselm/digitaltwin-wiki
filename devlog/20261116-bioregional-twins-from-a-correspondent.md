@@ -415,3 +415,42 @@ Leads: the legibility mechanics (overlays, causal tooltips, agent
 inspection, history chronicle) as a guide for the Communication shelf;
 the "why did that happen" query over an event log as a pattern for public
 models; SimCity's history as a planning tool already has mentions here.
+
+## Anselm's own guide: reference it, do not copy it (2026-11-21)
+
+Anselm wrote a guide in the esim room, "How to write your own digital
+twin" (https://esimv1.exe.xyz/docs/guides/writing-a-digital-twin,
+revision 1, dated today), and asked whether the wiki should copy it or
+reference it. The Markdown file was read in full.
+
+Decision made here, his to reverse: reference. Reasons. A copy would be a
+second text to keep in step with a page that is at revision 1 and will
+change. The guide already follows the order of the wiki's nine guides and
+links to them, so a copy would put two versions of the same advice on one
+site. It says of itself that it cites no source and is experienced
+opinion, which is a different kind of page from a wiki entry. And until
+now his own work has stayed off the wiki unless cited
+(`devlog/20261024-stretching-and-tearing.md`); an entry that describes
+the page and says plainly who made it keeps that line visible.
+
+Done: articles/how-to-write-your-own-digital-twin (draft, tier 2, no
+picture), which states that the author maintains this wiki, and one
+sentence at the end of the Guides index pointing to it. The index is a
+public page of human origin; the sentence is mine and waits on his read.
+
+One risk in referencing: the address has a version in its host name
+(esimv1.exe.xyz). If the documentation moves, the entry's link breaks.
+
+What the guide has that the nine guides and the two engine articles do
+not, found by searching them for the words. These are leads for the
+wiki's own guides, not acted on:
+
+- simulator against replay, with the three tests (no mention here);
+- running faster than the event against slower for planning (the
+  Scenarios shelf has a pace field; no guide explains it);
+- the manifest, seeded randomness, accounts that must close, regression
+  runs (no mention in the guides or in Inside an engine);
+- several bottom lines not folded into an index, and stretching against
+  tearing (a devlog entry of 24 October; nothing public);
+- a section of instructions addressed to a language model. The wiki says
+  it is readable by people's models and has no such page.
