@@ -68,6 +68,8 @@ The state is everything the model holds about the place at one moment: the depth
 
 A **learned model** can stand in for any of the six. It is trained on past data, or on many runs of a slower model, and then gives an answer quickly. [Learned models of the Earth](/articles/learned-models-of-the-earth/) describes the arrangements and their limits.
 
+[The Grammar of Simulation](/articles/the-grammar-of-simulation/), a 2026 atlas of simulation games, arrives at nearly the same list from games: aggregate stocks, individual agents, fields on a grid, networks and continuous bodies.
+
 ## How an agent decides
 
 The decision rule inside an agent is a part of its own, and there are four common ways to supply it.

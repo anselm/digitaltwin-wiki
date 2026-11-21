@@ -374,3 +374,44 @@ records the wish and two shapes it could take. Nothing was built for it.
 Leads: HISDAC-US, MTBS and ICS-209-PLUS have no data-source entries and
 each deserves one; the Joseph and others wildfire model the paper relies
 on; Balch and others 2024 on fast fires.
+
+## Correction: the wiki does have a place for topics to model (2026-11-21)
+
+Anselm: "I thought we do have a section of topics to model? I was merely
+noting a topic of 'modeling large scale fire risks to structures being
+increased by mid century' as something worth simulating." He is right. It
+is the Scenarios shelf, and I had read his remark as a request for
+something new. The watch-list item is removed from todo.md and the
+subject is written as scenarios/us-structures-and-fire-to-2060, from the
+one paper. The remark two sections up that "the wiki has no place for
+that yet" is wrong. When he names a subject as worth modelling, it goes
+on the Scenarios shelf.
+
+## The Grammar of Simulation (2026-11-21)
+
+Anselm sent https://simgrammar.com/ as "fun": by looking at many
+simulations it finds a common grammar among them. Read: the front page,
+the README and LICENSE of the repository, and of the paper (version 0.8,
+4 November 2026, about 500 kB of markdown) the abstract and sections 2.1,
+2.5, 2.6, 4.1 and the start of 6. Not read: the family-by-family
+sections, the technique landscape, the opportunities, the book, the
+videos.
+
+Written as articles/the-grammar-of-simulation (draft, tier 2). It is
+about games, and the entry says so first. Its use here: its substrate
+list (stocks, agents, grid fields, networks, continuous bodies) is nearly
+the list in Inside an engine, made separately, and its layers for
+control, legibility and pacing are what the wiki's engine entries mostly
+lack. Inside an engine now has one sentence pointing to it. The entry
+reports the authors' own limits: one model rated nearly everything, a
+second model agreed poorly on some scales, no second person has coded.
+
+Worth noting for this wiki's own practice, and not acted on: their build
+fills every number in the prose from data and fails when an assertion
+attached to a sentence stops holding. This wiki's entries state numbers
+by hand.
+
+Leads: the legibility mechanics (overlays, causal tooltips, agent
+inspection, history chronicle) as a guide for the Communication shelf;
+the "why did that happen" query over an event log as a pattern for public
+models; SimCity's history as a planning tool already has mentions here.
