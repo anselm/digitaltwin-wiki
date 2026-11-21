@@ -454,3 +454,53 @@ wiki's own guides, not acted on:
   tearing (a devlog entry of 24 October; nothing public);
 - a section of instructions addressed to a language model. The wiki says
   it is readable by people's models and has no such page.
+
+## The guide is copied after all (2026-11-21, later)
+
+Anselm read the recommendation above and decided the other way: "we may
+need to copy the article over unfortunately, true it means we diverge but
+there is a chance my urls may change." His reason is the risk named
+above, the address.
+
+Done: articles/how-to-write-your-own-digital-twin now holds the whole
+text of revision 1 in place of the summary. A note in italics at the top
+says it is a copy, of which revision, who made the original, and what was
+changed. The changes: links to the wiki point within it; the four links
+to the esimv1 documentation carry the full address (they will break if
+that site moves, and nothing here can prevent it); five sentences that
+spoke of the wiki or the documentation from outside were reworded; the
+path of the plain Markdown file is the wiki's own. Provenance is
+`origin: human` with `by` naming Anselm Hook and Claude (AI), the form
+used on the Objections page. The sentence on the Guides index stays.
+
+The copy will fall behind the original. Nothing checks for that. When
+the original changes, the copy has to be made again by hand from the
+Markdown file, with the same replacements.
+
+The list above of what the wiki's own guides lack still stands as leads.
+
+## Maier and others on survey answers from language models (2026-11-21)
+
+Anselm sent the first page of "LLMs Reproduce Human Purchase Intent via
+Semantic Similarity Elicitation of Likert Ratings" (PyMC Labs and
+Colgate-Palmolive) as a nice paper for the twins-of-people side. Found
+as arXiv:2510.08338; version 3 of 27 October 2025 was read: the main
+text, the limitations, and appendices A.1, C.2 and D. Not read: the
+other appendices and most of the figures.
+
+Written as articles/maier-llms-reproduce-human-purchase-intent (draft,
+tier 2, tagged twins of people so it shows on that shelf), with the
+paper's Figure 1 as its picture under CC BY 4.0. It cites the Bisbee and
+Argyle entries, which the paper itself cites.
+
+What the entry is careful about. The headline figure, 90 per cent, is a
+share of the split-half agreement of the real panels, not a correlation.
+The run without demographic traits matched the shape of the answers best
+and ranked the products worst, so shape alone is a poor test. The
+reference sentences were tuned by hand on the same 57 surveys. The
+comparison is with stated intent, not purchases. The paper does not name
+the company whose surveys these are; the entry says only that two
+authors are at Colgate-Palmolive.
+
+Lead: Synthetic people (articles/synthetic-people) does not yet mention
+this paper; one sentence there on how the answer is asked for would fit.
