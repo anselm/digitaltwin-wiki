@@ -25,12 +25,15 @@ Land is where the systems meet. Change the cover and you change how rain runs of
 - **Habitat**: which species lose or gain, and whether the pieces still connect.
 - **Carbon**: what is stored and what is released.
 - **Food**: what the land can grow and how that changes with weather.
+- **Heat**: how hot the ground and the air get once fields and trees become roofs and paving.
 
 ## What kind of model answers it
 
 Models of **ecosystem services**, the benefits people get from land and nature such as clean water and stored carbon, take a land-cover map and estimate each of these for the current map and for an alternative. They are built to compare scenarios, not to forecast a number to the decimal, and their value is in showing which plan is better and where. Crop models go deeper on the food question, simulating growth under given weather, soil and management. Integrated assessment models connect land to energy, water and the economy at the scale of a region or the world, and suit a question about policy more than one about a single parcel.
 
 On this site: [InVEST](/engines/invest/) for ecosystem services, [DSSAT](/engines/dssat/) for crops, [GCAM](/engines/gcam/) for the regional and global scale, and [Earth Index](/capture/earth-genome-earth-index/) for finding features in satellite imagery.
+
+When the change is a city growing, heat joins the list. [Cool Cities Lab](/engines/cool-cities-lab/) estimates what trees, cool roofs and shade do to air temperature in a city, and [PALM](/engines/palm/) simulates air flow and heat street by street. A 2026 [review of 116 studies](/articles/almulhim-urbanization-land-cover-climate/) treats urban growth, the land it converts and the heat that follows as one loop.
 
 ## What you need
 

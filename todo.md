@@ -6,6 +6,12 @@ One list for the project, kept current. Decisions and reasoning live in
 
 ## Anselm's
 
+- Almulhim's review (`articles/almulhim-urbanization-land-cover-climate`,
+  draft, 2026-11-22): the journal, date and DOI were not found, so the entry
+  has no address. Send the link or the LinkedIn post. The cloud session
+  could not open nature.com, doi.org, sciencedirect.com or Crossref; allow
+  them in the environment if entries are to be written from papers there
+  (`devlog/20261122-almulhim-urban-land-climate.md`).
 - Vitals data files: commit them or stop tracking them (asked 2026-11-18,
   deferred). Every deploy refetches the nine `data/vitals/*.json` series
   and copies them into the build, so the live site is current either way,
