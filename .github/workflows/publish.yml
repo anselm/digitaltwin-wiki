@@ -1,0 +1,39 @@
+# Publish the wiki on every push to main: build the static site here and upload it to
+# Cloudflare Pages (project digitaltwins-wiki, which digitaltwins.wiki points at).
+# A session anywhere, including a Claude cloud session with no ssh, deploys by pushing.
+# Secrets: CLOUDFLARE_API_TOKEN (Account > Cloudflare Pages > Edit). The account id is not secret.
+name: Publish
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+concurrency:
+  group: publish
+  cancel-in-progress: true
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # tools/dates.js reads first-written and last-changed dates from the git history of data/
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Refresh the vitals series (the committed files stand in for any source that is down)
+        run: node tools/fetch-vitals.js || echo "vitals refresh failed; committed series kept"
+      - name: Build
+        run: npm run build
+        env:
+          SHOW: draft,proposed,public # what the live site has shown since launch: drafts included and marked
+      - name: Add the Pages headers and 404 page
+        run: cp deploy/pages/_headers deploy/pages/404.html packages/site/dist/
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 2605df43e600806f95b1b5c012d2acbd
+          command: pages deploy packages/site/dist --project-name=digitaltwins-wiki --branch=main --commit-dirty=true

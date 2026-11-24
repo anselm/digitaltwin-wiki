@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Check the corpus, build the site and rsync it to its exe.dev VM. This is a
+# Check the corpus, build the site and rsync it to its exe.dev VM. Since 2026-11-24 the
+# normal path is .github/workflows/publish.yml (push to main builds and uploads to
+# Cloudflare Pages); this script remains for the VM while it is kept as a fallback. This is a
 # manual deploy: updating GitHub does not change the live site.
 # SHOW picks which entries are shown. Staging shows proposed ones too.
 # Usage: deploy/deploy.sh <vm-name>         (default vm: digitaltwin)

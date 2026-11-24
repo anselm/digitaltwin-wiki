@@ -1,0 +1,16 @@
+# Cloudflare Pages headers; the same rules deploy/Caddyfile applied on the exe.dev VM.
+# Kept out of search: the machine copies and the to-do page.
+/m/*
+  X-Robots-Tag: noindex
+/*.json
+  X-Robots-Tag: noindex
+/todo
+  X-Robots-Tag: noindex
+/todo/*
+  X-Robots-Tag: noindex
+# SvelteKit fingerprints these, so they can be cached forever.
+/_app/immutable/*
+  Cache-Control: public, max-age=31536000, immutable
+# The machine-readable copies are plain text for people and assistants alike.
+/*.md
+  Content-Type: text/markdown; charset=utf-8
