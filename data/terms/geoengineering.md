@@ -131,6 +131,8 @@ provenance:
       url: 'https://www.pnnl.gov/publications/food-energy-water-implications-negative-emissions-technologies-15deg-c-future'
     - title: 'GCAM-CDR v1.0: enhancing the representation of carbon dioxide removal technologies and policies in an integrated assessment model (Morrow et al., Geoscientific Model Development 16, 1105-1118, 2023)'
       url: 'https://doi.org/10.5194/gmd-16-1105-2023'
+    - title: 'Accounting for Microbial–DOC Feedbacks Reveal Ecological Constraints on Artificial Upwelling for Atmospheric Carbon Dioxide Removal (Owusu et al., EGUsphere preprint, 6 November 2026, under review for Biogeosciences)'
+      url: 'https://egusphere.copernicus.org/preprints/2026/egusphere-2026-6818/egusphere-2026-6818.pdf'
   created: '2026-11-08'
   reviewed: '2026-11-08'
   reviewed_by: >-
@@ -184,6 +186,8 @@ Stratospheric aerosols have never been deployed, so, as Kravitz and MacMartin pu
 **Where the models disagree.** The six models that ran GeoMIP's G6 experiments needed considerably different amounts of sulfate for the same cooling, and the spread in regional temperature was larger with aerosols than with a dimmed sun. The authors traced it to how each model oxidises sulfur dioxide and grows the aerosol, how it carries the aerosol around the stratosphere, and its ozone chemistry.[^36] A three-model comparison of interactive aerosol schemes found the same, with the largest particles the most inconsistently treated.[^37] The IPCC lists microphysics, particle size, stratospheric dynamics and chemistry as the sources of uncertainty in the simulated cooling efficiency.[^20]
 
 **Carbon removal.** The carbon branch is modelled at two levels. At the Earth-system level, [CDRMIP](/data-sources/cdrmip/) brings full models, intermediate-complexity models and box models into one framework, because the full models are affordable only for the coming century while the questions about removal run for a thousand years.[^38] At the pathway level, integrated assessment models generate the removal scenarios.[^38] The IPCC's 2022 mitigation report found that removal is unavoidable if net zero is to be reached. In its pathways that hold 1.5 °C with little or no overshoot, bioenergy with capture and storage removes 30 to 780 gigatonnes of CO2 by 2100, and direct air capture up to 310. It classifies the warming of each pathway with two emulators, [MAGICC](/engines/magicc/) and [FaIR](/engines/fair-climate-model/).[^39] [GCAM](/engines/gcam/) is one pathway model with removal built in. A 2020 study used it to follow what direct air capture would demand in energy and water, and GCAM-CDR, from 2023, added enhanced weathering, ocean liming and more forms of direct air capture.[^40,41]
+
+Methods that work through marine life bring ecology into the carbon accounting. A 2026 preprint ran artificial upwelling, which pumps deep water to the surface to feed phytoplankton, in an Earth system model that represents the bacteria consuming dissolved organic carbon. Over a century the additional carbon taken up by the ocean ranged from about 82 billion tonnes to a loss of about 5, depending on whether phytoplankton or bacteria gained from the iron in the upwelled water.[^42] The wiki describes it under [Artificial upwelling and the bacteria that eat the gain](/articles/owusu-artificial-upwelling-microbial-doc/).
 
 ## Assessments
 

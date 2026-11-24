@@ -4,6 +4,8 @@ about:
   description: >-
     Could sunlight be reflected, or carbon pulled back out of the air, to hold
     warming down? And what would that do to the weather where I live?
+  tags:
+    - geoengineering
 question: {}
 domains:
   - climate
@@ -34,6 +36,8 @@ Aerosol in the stratosphere asks for a model whose atmosphere reaches well above
 Between the global model and your place sit two more layers: emulators trained on the big runs, which answer a new injection strategy in seconds, and downscaling, which brings a hundred-kilometre grid down to ten or less. The term's section on the rest of the stack names the current ones, with what their authors say they cannot do.
 
 The carbon branch has its own intercomparison, [CDRMIP](/data-sources/cdrmip/), whose experiments put carbon dioxide back into or take it out of a model's atmosphere and watch how far the climate reverses.
+
+Ocean methods add living things to the problem. A 2026 preprint on [artificial upwelling](/articles/owusu-artificial-upwelling-microbial-doc/), pumping deep water to the surface to feed plankton, found the ocean's extra uptake running from 82 billion tonnes of carbon in a century to a small loss, depending on whether plankton or bacteria got the benefit.
 
 ## What you need
 
