@@ -43,6 +43,8 @@ provenance:
       url: 'https://regimeshifts.netlify.app/rs22_common_pool_resource_harvesting.html'
     - title: 'What is the IPC? | FEWS NET'
       url: 'https://fews.net/about/integrated-phase-classification'
+    - title: 'Interpretable early warnings using machine learning in an online game-experiment (Falmagne, Stephenson and Levin, PNAS 123(1), e2503493122, 2026), full text at PubMed Central'
+      url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12773730/'
   created: '2026-10-24'
   reviewed: '2026-10-24'
   reviewed_by: 'Claude, from the sources listed'
@@ -67,6 +69,8 @@ Armstrong McKay and colleagues reviewed more than 220 papers published since 200
 ## What the signs cannot do
 
 The indicators can raise false alarms. Variance can rise because the knocks a system receives grow larger, not because it is weakening.[^2,3] Autocorrelation can rise for other physical reasons.[^3] They can also miss transitions.[^2] Slowing down only appears when the push is slower than the system's own recovery time, so its absence does not rule out a coming shift.[^2,3] Peter Ashwin and colleagues describe two kinds of tipping that need no change in a system's stability, so there is no reason to expect the slowing-down methods to warn of them.[^5] In noise-induced tipping, random fluctuations alone throw a system out of its state, with no change in its stability.[^5] Citing Ditlevsen and Johnsen, they call this kind intrinsically unpredictable.[^5] In rate-induced tipping, the conditions change too fast for the system to keep up, even if no single level of change would tip it.[^5] Records are often too short or too sparse.[^2] The methods need readings taken more often than the system's slowest recovery time, and many sampling schemes are designed to avoid the very autocorrelation the methods measure.[^2] The Atlantic overturning circulation has weakened by about 15% over 50 years, but that cannot yet be told apart from natural variability.[^4]
+
+A 2026 study tested the standard indicators where sudden shifts are plentiful: an online game in which communities drew and defended images on a shared canvas, and thousands of images were abruptly overwritten. A model trained on the system's own record caught half of the takeovers 20 minutes ahead with a false alarm rate of 3.6 per cent, far better than variance, autocorrelation or recovery rate used singly. Judged takeover by takeover, it still did no better than chance on about a quarter of them.[^10] The wiki describes it under [Early warnings learned from an online game](/articles/falmagne-early-warnings-r-place/).
 
 ## In societies and economies
 
