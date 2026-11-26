@@ -62,3 +62,51 @@ To look at:
 
 Not checked: how X, LinkedIn or Slack actually render a link, and whether
 Google has indexed the pages.
+
+## Done the same day: the page head
+
+Anselm: "we should have structured data, citation tags, published and
+modified dates"; on the home description, "we are specifically focused on
+digital twins of whole systems at the macro scale, predictive models,
+simulations"; and "i just want to at least try to be correct - we don't
+have to be fanatical about it."
+
+All of it is in the one page template
+(`packages/site/src/routes/[...path]/+page.svelte` and its
+`+page.server.js`), so no entry was edited apart from the home page.
+
+- **Dates.** `article:published_time` and `article:modified_time` on every
+  page but the home page, from the same dates the page shows (the earlier
+  of `provenance.created` and the first commit; the last commit).
+- **Structured data** (schema.org JSON-LD). The home page is a `WebSite`.
+  A shelf is a `CollectionPage`. Every other page is an `Article` with
+  headline, description, card image, dates, keywords from its tags,
+  publisher, and a `BreadcrumbList` back to the home page. Where the entry
+  describes an outside paper or report (`article.url`), that work is given
+  as the page's `citation` with its authors, date and publisher.
+- **Citation tags** (`citation_title`, `citation_author`,
+  `citation_publication_date`, `citation_online_date`,
+  `citation_publisher`, `citation_public_url`). They describe the wiki
+  page, never the paper it is about, so a reference manager cites the wiki
+  as the wiki.
+- **Authors.** People named in `provenance.by` or `provenance.author` are
+  the authors, with names marked "(AI)" left out. A page written by a
+  model alone is credited to the organisation "Digital Twins Wiki". This
+  is a choice; schema.org has no accepted way to name a model as author.
+- **Long descriptions.** The head now carries a shortened description:
+  whole sentences up to 200 characters, or else cut at a word with an
+  ellipsis. The page itself still shows the full description, and no entry
+  needed rewriting. 123 entries were over 200. `tools/share.js` still
+  reports them, and its note that search results cut them no longer holds.
+- **Home page.** A new optional field, `about.summary`, is used in the
+  head in place of the description when present. The home page keeps its
+  short description, which the sidebar shows as the tagline, and gains a
+  summary in Anselm's terms. The wording of the summary is Claude's.
+
+Checked on a local build: the JSON-LD parses on all 698 pages and no head
+description exceeds 205 characters. Not run through Google's Rich Results
+Test or schema.org's validator.
+
+Left as they are: the www address and the pages.dev address both serve
+the site; the canonical tag names digitaltwins.wiki. No `twitter:site`
+handle. Vitals series pages have no structured data.

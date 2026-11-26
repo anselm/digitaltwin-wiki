@@ -2,6 +2,10 @@
 about:
   label: Digital Twins Wiki
   description: Cities, infrastructure, populations and ecosystems
+  summary: >-
+    A free, open reference to digital twins of whole systems at the macro
+    scale: predictive models and simulations of cities, watersheds, regions
+    and ecosystems, and the tools and data behind them.
   aliases:
     - "Decision models for watersheds, cities, and bioregions"
   view: home

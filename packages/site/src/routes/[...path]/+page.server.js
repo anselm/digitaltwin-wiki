@@ -37,6 +37,32 @@ function stamp(e) {
   const created = made && (!d.created || made < d.created) ? made : d.created
   return { by: workedOn(e.provenance), created: day(created), changed: d.changed && d.changed !== created ? day(d.changed) : '' }
 }
+// The same two dates as ISO days, for the page head (structured data, article:published_time, citation tags).
+function isoStamp(e) {
+  const d = dates[e.id] || {}
+  const made = String(e.provenance?.created || '').slice(0, 10)
+  const published = made && (!d.created || made < d.created) ? made : d.created || ''
+  return { published, modified: d.changed || published }
+}
+// A description short enough for a search result or a card: whole sentences up to about 200 characters, else cut at a word.
+function brief(text, max = 200) {
+  const t = String(text || '').replace(/\s+/g, ' ').trim()
+  if (t.length <= max) return t
+  const head = t.slice(0, max + 1)
+  const stop = Math.max(head.lastIndexOf('. '), head.lastIndexOf('? '))
+  if (stop >= 90) return head.slice(0, stop + 1)
+  return head.slice(0, head.lastIndexOf(' ')).replace(/[\s,;:.]+$/, '') + '…'
+}
+// What the page head says about the page beyond its title: dates, who wrote it, where it sits, and the work it describes if it describes one.
+function headOf(e, id, view) {
+  // People named on the page are its authors; a page written by a model alone is credited to the wiki.
+  const named = e.provenance?.by ? [].concat(e.provenance.by).join(', ').split(/,\s*/) : e.provenance?.origin === 'human' ? [e.provenance.author || 'Anselm Hook'] : []
+  const people = named.map((n) => n.trim()).filter((n) => n && !/\(AI\)/.test(n))
+  const shelf = id.includes('/') ? store.get(id.split('/')[0]) : null
+  const a = e.article
+  const work = a?.url && !String(a.url).startsWith('/') ? { url: a.url, authors: a.authors || [], published: a.published ? String(a.published).slice(0, 10) : '', publisher: a.publisher || '' } : null
+  return { ...isoStamp(e), people, kind: view === 'home' ? 'home' : e.section ? 'shelf' : 'page', shelf: shelf ? { label: shelf.about.label, url: `/${shelf.id}/` } : null, work }
+}
 const kindLabel = (k) => ({ datasource: 'data source', twin: 'digital twin', video: 'video channel' })[k] || k
 const plural = (k) => ({ story: 'stories', 'data source': 'data sources' })[k] || `${k}s`
 
@@ -50,12 +76,12 @@ export function load({ params }) {
     if (!v) error(404, 'No such series')
     const r = v.preliminary || v.latest
     const description = v.kind === 'thresholds' ? `Global warming is ${r.value} °C; ${r.date} of the tipping elements in Armstrong McKay et al. (2022). Each bar runs from the minimum to the maximum estimated threshold.` : r ? `${r.value} ${v.unit} on ${r.date}${v.preliminary ? ' (preliminary)' : ''}${r.anomaly != null ? `, ${r.anomaly > 0 ? '+' : ''}${r.anomaly} ${v.unit} against ${v.baselineName}` : ''}. ${v.source.split(',')[0]}, refreshed at every deploy.` : v.source
-    return { view: 'vitals', id, label: v.title, description, content: '', status: 'public', tags: [], single: true, vitals: [v], dims: { W, H, P }, share: share(id, `vitals/${series}`, `${v.title}: a chart of the series with the latest reading`) }
+    return { view: 'vitals', id, label: v.title, description, brief: brief(description), content: '', status: 'public', tags: [], single: true, vitals: [v], dims: { W, H, P }, share: share(id, `vitals/${series}`, `${v.title}: a chart of the series with the latest reading`) }
   }
   if (!e) error(404, 'No such entry')
   if (e.redirect) return { view: 'redirect', to: `/${e.redirect.to}` }
   const view = viewOf(e)
-  const base = { view, id, label: e.about.label, description: e.about.description || '', content: html(e.content), status: e.provenance?.status || 'draft', tags: e.about.tags || [], share: share(id, id || 'index', `${e.about.label}: the page's title and summary`) }
+  const base = { view, id, label: e.about.label, description: e.about.description || '', brief: brief(e.about.summary || e.about.description), head: headOf(e, id, view), content: html(e.content), status: e.provenance?.status || 'draft', tags: e.about.tags || [], share: share(id, id || 'index', `${e.about.label}: the page's title and summary`) }
   const domains = domainCards()
   const chips = (e) => (e.domains || []).map((d) => domains.find((x) => x.short === d)).filter(Boolean)
   const line = (e) => ({ ...card(e), chips: chips(e), ago: ago(e.provenance?.updated || e.provenance?.created) })
