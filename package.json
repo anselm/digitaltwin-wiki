@@ -19,6 +19,7 @@
     "share": "node tools/share.js",
     "after": "node tools/after-edit.js",
     "status": "node tools/status.js",
+    "build:pages": "deploy/pages-build.sh",
     "build": "npm run check && npm run machine && node tools/dates.js && npm run share && node tools/status.js && npm --workspace packages/site run build && pagefind --site packages/site/dist --output-subdir pagefind --quiet"
   },
   "devDependencies": {

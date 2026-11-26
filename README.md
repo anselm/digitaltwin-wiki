@@ -163,7 +163,7 @@ SHOW=public,proposed npm run build   # what production shows
 node tools/scan.js   # poll the sources into inbox/<date>.md
 ```
 
-Deploy is manual: `deploy/deploy.sh <vm>`, see `project.toml`.
+Deploy is manual: `deploy/deploy.sh <vm>`, see `project.toml`. For a host that builds from GitHub, such as Cloudflare Pages, `deploy/pages-build.sh` (`npm run build:pages`) does the same build and leaves the site in `packages/site/dist`.
 
 ## Contributing
 
