@@ -24,13 +24,9 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: Refresh the vitals series (the committed files stand in for any source that is down)
-        run: node tools/fetch-vitals.js || echo "vitals refresh failed; committed series kept"
-      - name: Build
-        run: npm run build
-        env:
-          SHOW: draft,proposed,public # what the live site has shown since launch: drafts included and marked
-      - name: Add the Pages headers and 404 page
+      - name: Build (deploy/pages-build.sh, the room's script; drafts shown and marked, as live since launch)
+        run: npm run build:pages
+      - name: Add the full Pages headers and the 404 page (pages-build.sh writes a shorter _headers; this replaces it)
         run: cp deploy/pages/_headers deploy/pages/404.html packages/site/dist/
       - uses: cloudflare/wrangler-action@v3
         with:
