@@ -56,3 +56,28 @@ worked example here.
    and the custom domain is attached to the project. The VM stays a week as a
    fallback, then stops.
 4. `deploy/deploy.sh` and the Caddyfile remain for the VM until then.
+
+## Done, 26 November 2026 (the manager, canada1)
+
+Anselm widened the existing DNS token in the Cloudflare dashboard with an
+Account policy for Cloudflare Pages Edit (the dashboard's token editor needs
+a separate Account policy for that; a Zone policy cannot hold it). From
+canada1: the token went into the repo as the secret `CLOUDFLARE_API_TOKEN`,
+the workflow was pushed, the first run built in GitHub and failed only
+because wrangler does not create a missing project, so the project
+`digitaltwins-wiki` was created through the API and the step rerun: 3,760
+files uploaded. Checked on digitaltwins-wiki.pages.dev: 687 entities, the
+markdown content type and noindex on the machine copies, noindex on the
+to-do page, immutable caching on the fingerprinted bundles, "Not in the
+guide." on a miss, vitals refreshed from inside the runner. Then both DNS
+records (apex and www) were repointed to the Pages project as proxied
+CNAMEs and the custom domains attached; the site answered 522 for about
+thirty seconds while Pages validated the names, then 200 on both. The
+workflow now builds with the room's `deploy/pages-build.sh` and replaces its
+shorter `_headers` with `deploy/pages/_headers`.
+
+Not carried over: the HSTS header exe.dev's front end sent. Setting it for
+the zone needs a dashboard change under SSL/TLS, Edge Certificates, or a
+token with zone settings rights; HTTPS itself is enforced by the proxy. The
+exe.dev VM `digitaltwin` still runs the old copy as a fallback and is to be
+stopped after 3 December 2026.

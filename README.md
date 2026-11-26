@@ -1,7 +1,7 @@
 # Digital Twins Wiki
 
 A free, open, evergreen reference for people who want to understand a place
-by modelling it: a city, a watershed, a coast, a region. Staging is at
+by modelling it: a city, a watershed, a coast, a region. The site is at
 https://digitaltwins.wiki. The repository is the site: every entry is a
 markdown file, the site is built from them, and anyone, person or agent, can
 propose a change by pull request.

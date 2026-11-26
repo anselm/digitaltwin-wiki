@@ -72,7 +72,7 @@ before committing. The tell count is a census, not a gate. Every tool is in
 - `node tools/fetch-depictions.js`: a picture for entries without one, from the maker's own page.
 - `node tools/coverage.js`: someone else's list against our entries.
 - `node tools/scan.js`: new items from known sources into `inbox/`.
-- `deploy/deploy.sh`: builds from the last commit only, so uncommitted drafts never go live.
+- `deploy/pages-build.sh`: what the publish workflow runs; `deploy/deploy.sh` is the old rsync to the exe.dev VM, kept until the VM is stopped.
 
 Status and priorities are shown at `/todo/` (in the New group of the
 navigation, kept out of search); open items live in `todo.md`, which
@@ -99,7 +99,7 @@ This repo is worked on in Claude Code cloud sessions, where the harness at
 `~/projects/2026/harness` does not exist. The house skills are installed into
 `.claude/skills/` at session start by the environment's setup script from the
 public repo github.com/anselm/house-skills (gitignored here; the harness stays
-the source). Start sessions in the cloud environment named `digitaltwin-wiki` (made 2026-11-24: open network, skills and `npm ci` in its setup script); deploy does not run from the container. Durable thinking goes in dated `devlog/` entries. Never invent a
+the source). Start sessions in the cloud environment named `digitaltwin-wiki` (made 2026-11-24: open network, skills and `npm ci` in its setup script); a push to main publishes the site: `.github/workflows/publish.yml` builds it and uploads it to Cloudflare Pages, which has served digitaltwins.wiki since 2026-11-26, so no ssh is needed anywhere. Durable thinking goes in dated `devlog/` entries. Never invent a
 fact, date, URL or title; say "I guessed" when you guessed. Commit often; a
 push is a deploy on several of Anselm's sites, so push only when he says.
 Keys are not in the repo: in the cloud they are network secrets on the
