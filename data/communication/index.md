@@ -22,4 +22,4 @@ The other half is playing, and there is much less of it. Here the reader is hand
 
 The [scenarios](/scenarios/) are where both halves get tested: each one names who needs an answer, and an answer that never reaches them has not been given.
 
-Whether a piece moves the people who see it, or leaves them feeling that nothing can be done, is a separate question that can be measured. [How people respond to what a model shows them](/articles/how-people-respond-to-what-a-model-shows/) collects the studies.
+Whether a piece moves the people who see it, or leaves them feeling that nothing can be done, is a separate question that can be measured. [How people respond to what a model shows them](/articles/people/how-people-respond-to-what-a-model-shows/) collects the studies.

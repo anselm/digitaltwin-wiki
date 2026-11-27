@@ -27,13 +27,13 @@ Someone wants to know what a new road, runway, lit car park or fence would do to
 
 Noise and light propagate in ways that are well understood. **Propagation models** map them from their sources across terrain and buildings. The harder half is the effect: what a given level does to a species or a neighbourhood. Field studies answer that, and the physics of propagation does not. Agent-based models simulate many individual animals moving by simple rules, and are used to ask what a barrier or a corridor does to where animals can go.
 
-On this site: [CadnaA](/engines/sensory-landscape/cadnaa/) for noise, [Radiance](/engines/sensory-landscape/radiance/) for light, [GRAL](/engines/sensory-landscape/gral/) for odour and pollutant dispersion, [Circuitscape](/engines/ecosystems-and-land/circuitscape/) for habitat connectivity and barriers, and [Walk Score](/data-sources/walk-score/) for how a place reads on foot. Each entry says what is open and what is not. [A frog chorus](/stories/a-frog-chorus/) is a short story of what one such study found. [Blue Corridors](/data-sources/blue-corridors-bluecorridors-org/) is the ocean version: a map of whale migration routes with the threats laid alongside.
+On this site: [CadnaA](/engines/sensory-landscape/cadnaa/) for noise, [Radiance](/engines/sensory-landscape/radiance/) for light, [GRAL](/engines/sensory-landscape/gral/) for odour and pollutant dispersion, [Circuitscape](/engines/ecosystems-and-land/circuitscape/) for habitat connectivity and barriers, and [Walk Score](/data-sources/mobility/walk-score/) for how a place reads on foot. Each entry says what is open and what is not. [A frog chorus](/stories/a-frog-chorus/) is a short story of what one such study found. [Blue Corridors](/data-sources/ecology/blue-corridors-bluecorridors-org/) is the ocean version: a map of whale migration routes with the threats laid alongside.
 
 ## What you need
 
 - The sources: where the road, the runway and the lights are, and their schedule.
 - Terrain and buildings.
-- Who and what is there: residents, and species records such as [iNaturalist](/data-sources/inaturalist/) observations.
+- Who and what is there: residents, and species records such as [iNaturalist](/data-sources/ecology/inaturalist/) observations.
 - Measurements: a sound meter on a few nights is cheap and is the check on any model.
 
 ## Without a model

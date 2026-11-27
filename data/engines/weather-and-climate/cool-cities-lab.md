@@ -70,4 +70,4 @@ WRI lists the limits: global datasets can be less accurate than local ones, scen
 
 Cool Cities Lab covers 28 cities, and its thermal comfort layers usually cover one neighbourhood per city.[^1,3] Cities can be added through a request form.[^1,3] The changelog records data updates in June and July 2026.[^3]
 
-[friGIS](/engines/weather-and-climate/frigis/) is a closed-source hosted tool for urban heat at district scale. The [NYC Tree Genus Map](/data-sources/cornell-nyc-individual-tree-map/) is a data source for one city's trees.
+[friGIS](/engines/weather-and-climate/frigis/) is a closed-source hosted tool for urban heat at district scale. The [NYC Tree Genus Map](/data-sources/ecology/cornell-nyc-individual-tree-map/) is a data source for one city's trees.

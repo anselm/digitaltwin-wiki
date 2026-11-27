@@ -32,13 +32,13 @@ domains:
   - water
 relations:
   - predicate: needs
-    target: data-sources/climate-reanalyzer
+    target: data-sources/climate/climate-reanalyzer
   - predicate: needs
-    target: data-sources/noaa-gml-co2-trends
+    target: data-sources/climate/noaa-gml-co2-trends
   - predicate: needs
-    target: data-sources/nsidc-sea-ice-index
+    target: data-sources/climate/nsidc-sea-ice-index
   - predicate: about
-    target: articles/2026-state-of-the-climate-report
+    target: articles/climate/2026-state-of-the-climate-report
     note: the idea of a short list of planetary vital signs
 provenance:
   origin: agent
@@ -67,6 +67,6 @@ Three quantities change too slowly to read that way and are drawn across the who
 
 None of these charts can show where a system tips. The chart after global temperature comes nearest. It marks the warming at which each of sixteen [tipping elements](/terms/tipping-points/) is estimated to tip, according to a 2022 review in Science, with today's warming drawn across it.
 
-Any model of a place runs inside these numbers. The idea of watching a short list of planetary vital signs follows the annual [state of the climate report](/articles/2026-state-of-the-climate-report/) in BioScience, which tracks sixteen.
+Any model of a place runs inside these numbers. The idea of watching a short list of planetary vital signs follows the annual [state of the climate report](/articles/climate/2026-state-of-the-climate-report/) in BioScience, which tracks sixteen.
 
 Each series is also published as JSON beside this page, with its source, licence, fetch date and a hash of the raw download, for other models to read.

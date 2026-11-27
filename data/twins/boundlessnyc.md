@@ -66,7 +66,7 @@ domains:
   - mobility
 relations:
   - predicate: needs
-    target: data-sources/openstreetmap-osm
+    target: data-sources/places/openstreetmap-osm
     note: uses data (source_claim; exact implementation not independently tested)
 ---
 The city is compiled from public records:[^1,2]

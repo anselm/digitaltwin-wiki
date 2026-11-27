@@ -12,7 +12,7 @@ domains:
   - mobility
 relations:
   - predicate: cites
-    target: articles/synthetic-people
+    target: articles/people/synthetic-people
 provenance:
   origin: agent
   reviewed: '2026-10-23'
@@ -34,7 +34,7 @@ A city wants to move a bus line, close a street, raise a parking charge, or plan
 
 **A [synthetic population](/terms/synthetic-population/)** gives the model its residents, built to match the census. **Agent models of daily life** move them through work, school, shops and contacts: [ActivitySim](/engines/people-and-populations/activitysim/) and [MATSim](/engines/transport-and-crowds/matsim/) for travel, [Covasim](/engines/people-and-populations/covasim-starsim/) and [JUNE](/engines/people-and-populations/june/) for disease, [Mesa](/engines/people-and-populations/mesa/) and [NetLogo](/engines/people-and-populations/netlogo/) to build your own. **Language-model agents** give each resident a voice, so you can ask them questions or let them talk to each other: [Concordia](/engines/people-and-populations/concordia/), [TinyTroupe](/engines/people-and-populations/tinytroupe/) and [EDSL](/engines/people-and-populations/edsl/) are open; companies such as [Simile](/engines/people-and-populations/simile/) and [Aaru](/engines/people-and-populations/aaru/) sell it as a service.
 
-The first two are mature and used in public decisions. The third is not. Studies find that simulated respondents get the average answer of familiar groups roughly right and get the spread, minorities, other countries and new questions wrong. [Synthetic people](/articles/synthetic-people/) sets out the evidence.
+The first two are mature and used in public decisions. The third is not. Studies find that simulated respondents get the average answer of familiar groups roughly right and get the spread, minorities, other countries and new questions wrong. [Synthetic people](/articles/people/synthetic-people/) sets out the evidence.
 
 ## What you need
 

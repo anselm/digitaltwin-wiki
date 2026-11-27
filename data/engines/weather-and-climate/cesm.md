@@ -39,9 +39,9 @@ relations:
   - predicate: cites
     target: terms/geoengineering
   - predicate: cites
-    target: data-sources/geomip
+    target: data-sources/climate/geomip
   - predicate: cites
-    target: data-sources/cmip6
+    target: data-sources/climate/cmip6
   - predicate: answers
     target: questions/weather-and-climate
   - predicate: answers
@@ -89,7 +89,7 @@ The Community Earth System Model (CESM) is a fully coupled global Earth system m
 
 ## CESM2
 
-The current production release is CESM 2.1.5; CESM 2.2.2 is the development release, and the project says the 2.2 series is not scientifically supported, so science should continue to use 2.1.[^2] CESM2 was described by Danabasoglu and co-authors in 2020.[^8] They evaluated it at 1° resolution with two atmospheres, a low-top one reaching 40 km and a high-top one reaching 130 km.[^8] Its equilibrium climate sensitivity of 5.1 to 5.3 °C is higher than CESM1's, mainly because of changes to cloud microphysics and boundary layer parameters.[^8] Its output went to [CMIP6](/data-sources/cmip6/).[^8] The component models are CAM 6.0 for the atmosphere, CLM 5.0 for land, CISM 2.1 for land ice, POP for the ocean and CICE for sea ice.[^2]
+The current production release is CESM 2.1.5; CESM 2.2.2 is the development release, and the project says the 2.2 series is not scientifically supported, so science should continue to use 2.1.[^2] CESM2 was described by Danabasoglu and co-authors in 2020.[^8] They evaluated it at 1° resolution with two atmospheres, a low-top one reaching 40 km and a high-top one reaching 130 km.[^8] Its equilibrium climate sensitivity of 5.1 to 5.3 °C is higher than CESM1's, mainly because of changes to cloud microphysics and boundary layer parameters.[^8] Its output went to [CMIP6](/data-sources/climate/cmip6/).[^8] The component models are CAM 6.0 for the atmosphere, CLM 5.0 for land, CISM 2.1 for land ice, POP for the ocean and CICE for sea ice.[^2]
 
 ## WACCM
 
@@ -101,7 +101,7 @@ The Geoengineering Large Ensemble (GLENS) used CESM1 with WACCM as its atmospher
 
 ARISE-SAI (Assessing Responses and Impacts of Solar intervention on the Earth system with Stratospheric Aerosol Injection) used CESM2 with WACCM6.[^11] Its main set, ARISE-SAI-1.5, begins injection in 2035 under the SSP2-4.5 scenario, at a midpoint altitude of 21.6 km and at 15° S, 15° N, 30° S and 30° N.[^11] The same kind of controller as in GLENS aims to keep global mean surface air temperature near 1.5 °C above the preindustrial value.[^11] Two further sets vary the design: one delays the start to 2045, and one starting in 2034 aims at 1.0 °C; a ten-member SSP2-4.5 reference set has no intervention.[^11] Output is NetCDF, one variable per file, with monthly CMIP6-style fields for the atmosphere, land, ocean and sea ice and higher-frequency atmospheric output; it is held at the NSF NCAR Geoscience Data Exchange and in the AWS Open Data registry.[^11] The overview paper is Richter and co-authors in Geoscientific Model Development, 2022; the project was supported by NSF NCAR and by SilverLining's Safe Climate Research Initiative, and computed on the Cheyenne supercomputer.[^11]
 
-CESM2-WACCM is also one of the eight models with [GeoMIP](/data-sources/geomip/) output in the CMIP6 archive: on 8 November 2026 the CEDA index of the Earth System Grid Federation listed its datasets for the G1, G6solar, G6sulfur and G7cirrus experiments.[^12]
+CESM2-WACCM is also one of the eight models with [GeoMIP](/data-sources/climate/geomip/) output in the CMIP6 archive: on 8 November 2026 the CEDA index of the Earth System Grid Federation listed its datasets for the G1, G6solar, G6sulfur and G7cirrus experiments.[^12]
 
 ## Code, licence and running
 

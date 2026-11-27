@@ -502,7 +502,7 @@ computing, or the budget for running a service. Each deserves its own page.
   terminology and articles. It describes itself as pre-alpha, and most entries are drafts
   not yet checked against their sources. Its nine [guides](/guides/) follow much the same order of work as this
   page, from naming the question to keeping the model alive.
-- [The Grammar of Simulation](/articles/the-grammar-of-simulation/)
+- [The Grammar of Simulation](/articles/people/the-grammar-of-simulation/)
   is the wiki's account of an atlas by Yohei Nakajima, Pedro Lucca and Shrey Kothari
   (version 0.8, 4 November 2026) that breaks 179 simulation games into 199 mechanics and
   reads each game through six layers: substrate, dynamics, coupling, control, legibility,

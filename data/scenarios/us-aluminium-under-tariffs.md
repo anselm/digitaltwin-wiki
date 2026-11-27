@@ -24,11 +24,11 @@ relations:
   - predicate: needs
     target: presentation/portolan
   - predicate: needs
-    target: data-sources/un-comtrade
+    target: data-sources/people/un-comtrade
   - predicate: needs
-    target: data-sources/usgs-mineral-commodity-summaries
+    target: data-sources/people/usgs-mineral-commodity-summaries
   - predicate: needs
-    target: data-sources/gtap
+    target: data-sources/people/gtap
 provenance:
   origin: agent
   sources:

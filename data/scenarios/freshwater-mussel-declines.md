@@ -22,7 +22,7 @@ domains:
   - ecology
 relations:
   - predicate: needs
-    target: data-sources/usgs-water-data
+    target: data-sources/water/usgs-water-data
 provenance:
   origin: agent
   sources:
@@ -54,4 +54,4 @@ River flow, temperature and sediment; algae and bacteria that mussels and clams 
 
 ## Where to start
 
-The 13-state stream study led by Wendell Haag of the US Forest Service holds mussel counts, algae, sediment, water chemistry and fish and insect surveys for about 90 streams; it is still being analysed.[^1] Stream observations for US rivers are in [USGS Water Data](/data-sources/usgs-water-data/).
+The 13-state stream study led by Wendell Haag of the US Forest Service holds mussel counts, algae, sediment, water chemistry and fish and insect surveys for about 90 streams; it is still being analysed.[^1] Stream observations for US rivers are in [USGS Water Data](/data-sources/water/usgs-water-data/).

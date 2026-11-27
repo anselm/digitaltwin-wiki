@@ -25,9 +25,9 @@ relations:
   - predicate: example_of
     target: questions/after-an-oil-spill
   - predicate: cites
-    target: articles/immense-but-not-immutable-deep-pelagic-decline
+    target: articles/water/immense-but-not-immutable-deep-pelagic-decline
   - predicate: needs
-    target: data-sources/griidc
+    target: data-sources/water/griidc
 provenance:
   origin: agent
   sources:
@@ -40,7 +40,7 @@ provenance:
   reviewed_by: 'Claude, from the entries linked here and the paper they rest on'
   status: draft
 ---
-In 2010 the Deepwater Horizon well released 4.0 to 4.9 million barrels of oil into the Gulf of Mexico over 87 days, 1,500 metres down, and 770,000 gallons of dispersant were injected at the wellhead.[^1,2] A [thirteen-year study](/articles/immense-but-not-immutable-deep-pelagic-decline/) of the open water below the surface found its fishes, krill, shrimps and small squid fell 60 to 85% within three and a half years and have stayed down.[^1] The Gulf's deep-diving whales have fallen too, by more than the models of the spill's damage predicted.[^1]
+In 2010 the Deepwater Horizon well released 4.0 to 4.9 million barrels of oil into the Gulf of Mexico over 87 days, 1,500 metres down, and 770,000 gallons of dispersant were injected at the wellhead.[^1,2] A [thirteen-year study](/articles/water/immense-but-not-immutable-deep-pelagic-decline/) of the open water below the surface found its fishes, krill, shrimps and small squid fell 60 to 85% within three and a half years and have stayed down.[^1] The Gulf's deep-diving whales have fallen too, by more than the models of the spill's damage predicted.[^1]
 
 ## Who needs an answer
 
@@ -61,4 +61,4 @@ Oil and dispersant moving with deep currents and resettling from the sea floor; 
 
 ## Where to start
 
-The study's counts, net sensor logs, echosounder files and genetic data are public in [GRIIDC](/data-sources/griidc/).[^1] A food-web model such as [Ecopath with Ecosim](/engines/wildlife-and-oceans/ecopath-with-ecosim/) can take them; the [use case on oil spills](/questions/after-an-oil-spill/) lists the rest.
+The study's counts, net sensor logs, echosounder files and genetic data are public in [GRIIDC](/data-sources/water/griidc/).[^1] A food-web model such as [Ecopath with Ecosim](/engines/wildlife-and-oceans/ecopath-with-ecosim/) can take them; the [use case on oil spills](/questions/after-an-oil-spill/) lists the rest.

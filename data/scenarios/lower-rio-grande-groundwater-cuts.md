@@ -26,7 +26,7 @@ relations:
   - predicate: example_of
     target: questions/land-use-change
   - predicate: needs
-    target: data-sources/usgs-water-data
+    target: data-sources/water/usgs-water-data
 provenance:
   origin: agent
   sources:
@@ -63,4 +63,4 @@ Snowpack in Colorado and northern New Mexico; reservoir storage and releases; an
 
 ## Where to start
 
-Stream and groundwater observations are in [USGS Water Data](/data-sources/usgs-water-data/). For the wider basin, a 2025 paper in Discover Water led by Brian Richter found that 52% of water consumption across the Rio Grande basin, in the United States and Mexico, is depleting reservoirs, aquifers and river flows.[^1]
+Stream and groundwater observations are in [USGS Water Data](/data-sources/water/usgs-water-data/). For the wider basin, a 2025 paper in Discover Water led by Brian Richter found that 52% of water consumption across the Rio Grande basin, in the United States and Mexico, is depleting reservoirs, aquifers and river flows.[^1]

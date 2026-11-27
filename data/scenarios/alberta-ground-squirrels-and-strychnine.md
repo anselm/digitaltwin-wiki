@@ -56,4 +56,4 @@ Ground squirrel numbers, breeding and hibernation; crop and pasture losses; hawk
 
 ## Where to start
 
-The Alberta government page sets out the squirrel's life cycle: one litter of 6 to 8 a year and hibernation of more than 210 days.[^1] It also gives an integrated control plan with spring surveys, record keeping, raptor platforms and kestrel boxes; a hawk pair takes 300 to 500 squirrels a season.[^1] Species sightings across the province are on [iNaturalist](/data-sources/inaturalist/).
+The Alberta government page sets out the squirrel's life cycle: one litter of 6 to 8 a year and hibernation of more than 210 days.[^1] It also gives an integrated control plan with spring surveys, record keeping, raptor platforms and kestrel boxes; a hawk pair takes 300 to 500 squirrels a season.[^1] Species sightings across the province are on [iNaturalist](/data-sources/ecology/inaturalist/).

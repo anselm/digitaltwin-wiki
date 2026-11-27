@@ -33,7 +33,7 @@ relations:
   - predicate: cites
     target: terms/natural-general-intelligence-ngi
   - predicate: cites
-    target: articles/learned-models-of-the-earth
+    target: articles/climate/learned-models-of-the-earth
 domains:
   - places
   - climate
@@ -75,7 +75,7 @@ Their main stated use is as practice environments for robots and software agents
 
 ## Loosely, any model of the world
 
-The phrase is also used informally for a model of the actual Earth or of a real place: an [Earth system model](/terms/earth-system-model/), a digital twin of a city, or the "nature model" proposed under [Natural General Intelligence](/terms/natural-general-intelligence-ngi/). Models learned from data do exist in this sense, most successfully for weather. They are trained on decades of measured and reconstructed states of the atmosphere, they are tied to real coordinates, and they report physical quantities that can be scored against what happened. [Learned models of the Earth, and what they are trained on](/articles/learned-models-of-the-earth/) describes how they are built and where they fail.
+The phrase is also used informally for a model of the actual Earth or of a real place: an [Earth system model](/terms/earth-system-model/), a digital twin of a city, or the "nature model" proposed under [Natural General Intelligence](/terms/natural-general-intelligence-ngi/). Models learned from data do exist in this sense, most successfully for weather. They are trained on decades of measured and reconstructed states of the atmosphere, they are tied to real coordinates, and they report physical quantities that can be scored against what happened. [Learned models of the Earth, and what they are trained on](/articles/climate/learned-models-of-the-earth/) describes how they are built and where they fail.
 
 ## Telling them apart
 

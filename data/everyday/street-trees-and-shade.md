@@ -29,9 +29,9 @@ domains:
   - places
 relations:
   - predicate: needs
-    target: data-sources/high-resolution-canopy-height
+    target: data-sources/ecology/high-resolution-canopy-height
   - predicate: needs
-    target: data-sources/cornell-nyc-individual-tree-map
+    target: data-sources/ecology/cornell-nyc-individual-tree-map
   - predicate: needs
     target: engines/weather-and-climate/cool-cities-lab
 provenance:
@@ -78,7 +78,7 @@ Residents ask when a street feels hot or a tree is about to be removed. City for
 
 ## What answers it
 
-**How much canopy.** The USDA Forest Service publishes Tree Canopy Cover maps at 30 metres for the conterminous United States, coastal Alaska, Hawaii, Puerto Rico and the US Virgin Islands, for every year from 1985 to 2025, from Landsat and Sentinel-2.[^6] They are made in two versions: a Science product with a standard error on every pixel, and an NLCD version cleaned for mapping.[^6] Thirty metres is coarser than a single street tree, so finer maps help. Meta and the World Resources Institute's [High Resolution Canopy Height Maps](/data-sources/high-resolution-canopy-height/) give tree heights from half-metre imagery.[^12,13] Google's Environmental Insights Explorer estimates canopy across city regions from aerial imagery with machine learning.[^7] Some cities have tree-by-tree maps, such as the [NYC Tree Genus Map](/data-sources/cornell-nyc-individual-tree-map/).[^14]
+**How much canopy.** The USDA Forest Service publishes Tree Canopy Cover maps at 30 metres for the conterminous United States, coastal Alaska, Hawaii, Puerto Rico and the US Virgin Islands, for every year from 1985 to 2025, from Landsat and Sentinel-2.[^6] They are made in two versions: a Science product with a standard error on every pixel, and an NLCD version cleaned for mapping.[^6] Thirty metres is coarser than a single street tree, so finer maps help. Meta and the World Resources Institute's [High Resolution Canopy Height Maps](/data-sources/ecology/high-resolution-canopy-height/) give tree heights from half-metre imagery.[^12,13] Google's Environmental Insights Explorer estimates canopy across city regions from aerial imagery with machine learning.[^7] Some cities have tree-by-tree maps, such as the [NYC Tree Genus Map](/data-sources/ecology/cornell-nyc-individual-tree-map/).[^14]
 
 **What the trees do.** The USDA Forest Service's i-Tree tools are free.[^1] Since 2006 they have been run as a partnership with the Davey Tree Expert Company, the Arbor Day Foundation, American Forests and others.[^1] Until December 2025 they were funded mainly by the Forest Service and Davey in equal shares.[^1,4] MyTree and i-Tree Design assess single trees, and Design adds building interactions and forecasts.[^2] i-Tree Eco, a Windows program, takes field data from single trees, full inventories or sample plots, with local hourly weather and air pollution.[^2,3] From these it estimates pollution removal, carbon, avoided runoff, effects on building energy, and UV.[^3] i-Tree Canopy estimates land cover by random points on aerial imagery, and i-Tree Landscape joins canopy with census maps to find planting priorities.[^2] In December 2025 i-Tree said a new Forest Service IT policy had halted the cooperative agreement with Davey that paid for i-Tree.[^4] In May 2026 it reported one-time funding from CAL FIRE and the Forest Service's International Programs and Trade team for outreach and user support, while hosting and maintenance funding was still lapsed.[^4] It has promised at least six months' warning before any core tool goes offline.[^4]
 

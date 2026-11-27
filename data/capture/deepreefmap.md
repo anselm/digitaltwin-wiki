@@ -56,7 +56,7 @@ domains:
   - water
 relations:
   - predicate: needs
-    target: data-sources/coralscapes-coralscapesv2
+    target: data-sources/ecology/coralscapes-coralscapesv2
     note: uses dataset (source_claim; exact implementation not independently tested)
   - predicate: built_on
     target: capture/vggt

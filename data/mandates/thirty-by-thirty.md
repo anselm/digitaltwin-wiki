@@ -25,7 +25,7 @@ relations:
     target: questions/land-use-change
     note: which land counts, where the gaps are, and what a change of use does to coverage
   - predicate: measured_with
-    target: data-sources/protected-planet
+    target: data-sources/ecology/protected-planet
 provenance:
   origin: agent
   sources:

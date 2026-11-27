@@ -37,13 +37,13 @@ relations:
   - predicate: example_of
     target: questions/land-use-change
   - predicate: needs
-    target: data-sources/usgs-water-data
+    target: data-sources/water/usgs-water-data
   - predicate: needs
     target: law/national-wetlands-inventory
   - predicate: needs
     target: law/fema-national-flood-hazard-layer
   - predicate: needs
-    target: data-sources/ebird
+    target: data-sources/ecology/ebird
 provenance:
   origin: agent
   sources:
@@ -205,8 +205,8 @@ Rain falls on sandy outwash that feeds the river through the ground: base flow i
 
 ## Where to start
 
-A team led by Samniqueka Halsey digitized the Public Land Survey notes for the marsh, made about the 1830s, in a dataset published by the University of Notre Dame on ScienceBase.[^10] The data holds a pre-settlement land cover layer for the basin's counties in Indiana and Illinois and a layer of streams, drains, rapids and springs.[^10] It also marks trails, homesteads, mills, roads, Indian settlements and mounds that the surveyors noted.[^10] The USGS gage at Momence has daily discharge from 1905 and annual peaks from 1915; Shelby's daily record starts in 1923 and Davis's in 1925.[^8] Davis and Shelby measure nitrate continuously.[^6,7] All are in [USGS Water Data](/data-sources/usgs-water-data/). The Shelby regression models estimate daily sediment, nitrogen and phosphorus loads from the continuous sensors.[^6] For the 2019 work plan the engineers built a new two-dimensional hydraulic model of the river.[^4] Today's wetlands are in the [National Wetlands Inventory](/law/national-wetlands-inventory/), and FEMA's flood zones in the [National Flood Hazard Layer](/law/fema-national-flood-hazard-layer/). The general question is under [flooding](/questions/flooding/).
+A team led by Samniqueka Halsey digitized the Public Land Survey notes for the marsh, made about the 1830s, in a dataset published by the University of Notre Dame on ScienceBase.[^10] The data holds a pre-settlement land cover layer for the basin's counties in Indiana and Illinois and a layer of streams, drains, rapids and springs.[^10] It also marks trails, homesteads, mills, roads, Indian settlements and mounds that the surveyors noted.[^10] The USGS gage at Momence has daily discharge from 1905 and annual peaks from 1915; Shelby's daily record starts in 1923 and Davis's in 1925.[^8] Davis and Shelby measure nitrate continuously.[^6,7] All are in [USGS Water Data](/data-sources/water/usgs-water-data/). The Shelby regression models estimate daily sediment, nitrogen and phosphorus loads from the continuous sensors.[^6] For the 2019 work plan the engineers built a new two-dimensional hydraulic model of the river.[^4] Today's wetlands are in the [National Wetlands Inventory](/law/national-wetlands-inventory/), and FEMA's flood zones in the [National Flood Hazard Layer](/law/fema-national-flood-hazard-layer/). The general question is under [flooding](/questions/flooding/).
 
-For the birds, the historical baseline is Butler's 1897 catalogue and Thompson's 1888 list, with their dated observations at English Lake, Water Valley and Kouts.[^19,20] Today's distribution and weekly abundance are in [eBird](/data-sources/ebird/), whose Status and Trends models estimate relative abundance for every week of the year.[^32] The state's weekly crane counts at Jasper-Pulaski run each autumn.[^27] The Christmas Bird Count, begun on Christmas Day 1900 and now held each year between 14 December and 5 January, has recorded wintering cranes in Indiana every year since 1983.[^26,33] The North American Breeding Bird Survey has counted birds along roadside routes, mainly in June, since 1966.[^34]
+For the birds, the historical baseline is Butler's 1897 catalogue and Thompson's 1888 list, with their dated observations at English Lake, Water Valley and Kouts.[^19,20] Today's distribution and weekly abundance are in [eBird](/data-sources/ecology/ebird/), whose Status and Trends models estimate relative abundance for every week of the year.[^32] The state's weekly crane counts at Jasper-Pulaski run each autumn.[^27] The Christmas Bird Count, begun on Christmas Day 1900 and now held each year between 14 December and 5 January, has recorded wintering cranes in Indiana every year since 1983.[^26,33] The North American Breeding Bird Survey has counted birds along roadside routes, mainly in June, since 1966.[^34]
 
 The picture is a detail of Samuel Augustus Mitchell's 1849 map of Indiana, from the Library of Congress and in the public domain. The marsh is drawn along the Kankakee and Yellow rivers, with Beaver Lake to the south.[^17]

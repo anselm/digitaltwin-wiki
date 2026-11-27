@@ -23,23 +23,23 @@ term:
     - digital twin of a person
 relations:
   - predicate: cites
-    target: articles/synthetic-people
+    target: articles/people/synthetic-people
   - predicate: cites
     target: articles/nasem-digital-twins-research-gaps
   - predicate: cites
-    target: articles/park-generative-agents-1000-people
+    target: articles/people/park-generative-agents-1000-people
   - predicate: cites
-    target: articles/argyle-out-of-one-many-silicon-samples
+    target: articles/people/argyle-out-of-one-many-silicon-samples
   - predicate: cites
-    target: articles/bisbee-synthetic-replacements-survey-data
+    target: articles/people/bisbee-synthetic-replacements-survey-data
   - predicate: cites
-    target: articles/wang-llms-misportray-flatten-identity-groups
+    target: articles/people/wang-llms-misportray-flatten-identity-groups
   - predicate: cites
-    target: articles/llms-weak-proxies-economic-preferences-74-countries
+    target: articles/people/llms-weak-proxies-economic-preferences-74-countries
   - predicate: cites
-    target: articles/von-der-heyde-vox-populi-vox-ai
+    target: articles/people/von-der-heyde-vox-populi-vox-ai
   - predicate: cites
-    target: articles/planetary-geospatial-foundation-models-public-health
+    target: articles/people/planetary-geospatial-foundation-models-public-health
   - predicate: cites
     target: posts/sfi-building-better-digital-twins
 domains:
@@ -112,13 +112,13 @@ The US National Academies' 2024 report on [research gaps for digital twins](/art
 
 ## A twin of one person's views
 
-A newer strand models what a person thinks and says. [Joon Sung Park](/people/joon-sung-park/), [Michael Bernstein](/people/michael-bernstein/) and colleagues interviewed 1,052 Americans for two hours each and gave a language model each transcript. Speaking as each person, the model matched their answers on the General Social Survey 83% as well as the people matched their own answers when they retook it two weeks later ([Park and colleagues](/articles/park-generative-agents-1000-people/)).[^7] For the participants' privacy, those agents are not public.[^8] The same group's earlier work used invented characters. In 2022, [Social Simulacra](/articles/park-social-simulacra/) used them to populate prototypes of social computing systems.[^10] In 2023, [Generative Agents](/engines/people-and-populations/generative-agents/) put 25 of them in a small simulated town.[^9] Park now runs [Simile](/engines/people-and-populations/simile/), whose work The Generalist describes as creating digital twins of real people and simulating how they might react ([the interview](/posts/generalist-joon-sung-park-simile/)).[^11]
+A newer strand models what a person thinks and says. [Joon Sung Park](/people/joon-sung-park/), [Michael Bernstein](/people/michael-bernstein/) and colleagues interviewed 1,052 Americans for two hours each and gave a language model each transcript. Speaking as each person, the model matched their answers on the General Social Survey 83% as well as the people matched their own answers when they retook it two weeks later ([Park and colleagues](/articles/people/park-generative-agents-1000-people/)).[^7] For the participants' privacy, those agents are not public.[^8] The same group's earlier work used invented characters. In 2022, [Social Simulacra](/articles/people/park-social-simulacra/) used them to populate prototypes of social computing systems.[^10] In 2023, [Generative Agents](/engines/people-and-populations/generative-agents/) put 25 of them in a small simulated town.[^9] Park now runs [Simile](/engines/people-and-populations/simile/), whose work The Generalist describes as creating digital twins of real people and simulating how they might react ([the interview](/posts/generalist-joon-sung-park-simile/)).[^11]
 
 ## Twins of a population
 
 At the scale of a city or a country, modellers build stand-ins for everyone. A [synthetic population](/terms/synthetic-population/) is a set of invented households and residents, expanded from a sample of real records until it matches census totals area by area, which travel models then move through their days.[^12] Modelling a society as many individuals following simple rules is older. [Thomas Schelling](/people/thomas-schelling/), in papers of 1969 and 1971, showed that mild preferences about the colour of one's neighbours can lead to complete segregation, moving pennies and dimes on graph paper.[^13] [Joshua Epstein](/people/joshua-epstein/) and [Robert Axtell](/people/robert-axtell/)'s book Growing Artificial Societies, in Axtell's words, was an early statement that social science can be done with software agents.[^14]
 
-Language models gave the residents a voice. Given short backstories drawn from real survey respondents, GPT-3's predicted presidential votes correlated with the votes those people reported at 0.90 to 0.94 ([Argyle and colleagues](/articles/argyle-out-of-one-many-silicon-samples/)).[^15] Later tests found less. Asked how partisans feel about the other side, ChatGPT gave answers with about half the spread of real ones ([Bisbee and colleagues](/articles/bisbee-synthetic-replacements-survey-data/)).[^16] Models speaking as a group often sounded more like outsiders imitating it than like its members, and gave less varied answers than real members did ([Wang and colleagues](/articles/wang-llms-misportray-flatten-identity-groups/)).[^17] In Germany, 46% of individual vote predictions matched ([von der Heyde and colleagues](/articles/von-der-heyde-vox-populi-vox-ai/)).[^18] Across 74 countries the predictions explained 1.3% of the variation between individuals ([Chen and colleagues](/articles/llms-weak-proxies-economic-preferences-74-countries/)).[^19] Libraries such as [Concordia](/engines/people-and-populations/concordia/), [TinyTroupe](/engines/people-and-populations/tinytroupe/), [AgentSociety](/engines/people-and-populations/agentsociety/) and [EDSL](/engines/people-and-populations/edsl/), and companies such as [Aaru](/engines/people-and-populations/aaru/), build populations of this kind.[^20,21,22,23,24] [Synthetic people](/articles/synthetic-people/) sets out the evidence layer by layer. Models can also describe people only through the places they live: a 2026 study of Google's place summaries for public health found that, for postpartum depression, most of the predictive signal lay within places rather than between them ([the study](/articles/planetary-geospatial-foundation-models-public-health/)).[^25]
+Language models gave the residents a voice. Given short backstories drawn from real survey respondents, GPT-3's predicted presidential votes correlated with the votes those people reported at 0.90 to 0.94 ([Argyle and colleagues](/articles/people/argyle-out-of-one-many-silicon-samples/)).[^15] Later tests found less. Asked how partisans feel about the other side, ChatGPT gave answers with about half the spread of real ones ([Bisbee and colleagues](/articles/people/bisbee-synthetic-replacements-survey-data/)).[^16] Models speaking as a group often sounded more like outsiders imitating it than like its members, and gave less varied answers than real members did ([Wang and colleagues](/articles/people/wang-llms-misportray-flatten-identity-groups/)).[^17] In Germany, 46% of individual vote predictions matched ([von der Heyde and colleagues](/articles/people/von-der-heyde-vox-populi-vox-ai/)).[^18] Across 74 countries the predictions explained 1.3% of the variation between individuals ([Chen and colleagues](/articles/people/llms-weak-proxies-economic-preferences-74-countries/)).[^19] Libraries such as [Concordia](/engines/people-and-populations/concordia/), [TinyTroupe](/engines/people-and-populations/tinytroupe/), [AgentSociety](/engines/people-and-populations/agentsociety/) and [EDSL](/engines/people-and-populations/edsl/), and companies such as [Aaru](/engines/people-and-populations/aaru/), build populations of this kind.[^20,21,22,23,24] [Synthetic people](/articles/people/synthetic-people/) sets out the evidence layer by layer. Models can also describe people only through the places they live: a 2026 study of Google's place summaries for public health found that, for postpartum depression, most of the predictive signal lay within places rather than between them ([the study](/articles/people/planetary-geospatial-foundation-models-public-health/)).[^25]
 
 ## How a twin of people differs
 

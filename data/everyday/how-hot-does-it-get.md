@@ -29,7 +29,7 @@ relations:
   - predicate: example_of
     target: questions/weather-and-climate
   - predicate: needs
-    target: data-sources/high-resolution-canopy-height
+    target: data-sources/ecology/high-resolution-canopy-height
 provenance:
   origin: agent
   sources:
@@ -82,7 +82,7 @@ People choosing where to live ask it, as do families of older people, outdoor wo
 
 **Community heat mapping.** Since 2017 NOAA has funded CAPA Strategies, a private company, to run Heat Watch campaigns in more than 80 U.S. communities.[^2] Volunteers fix sensors to their cars and drive set routes, recording temperature and humidity with GPS positions.[^2] CAPA combines those readings with satellite imagery by machine learning into maps of air temperature and heat index, and writes a report on how heat is spread across the city in the morning, afternoon and evening.[^2] The data and reports can be downloaded from Heat.gov.[^2] The method is described by Shandas and colleagues in Climate (2019): in Baltimore, Richmond and Washington, D.C., air temperatures on hot days differed by up to 10°C between the coolest and warmest places at the same time, driven mainly by the landscape.[^3]
 
-Tree cover and shade come from layers such as [High Resolution Canopy Height Maps](/data-sources/high-resolution-canopy-height/). The [Cool Cities Lab](/engines/weather-and-climate/cool-cities-lab/) from the World Resources Institute puts air temperature, land surface temperature and shade side by side and models the cooling from trees and cool roofs, at neighbourhood scale rather than for single sites.[^13,14]
+Tree cover and shade come from layers such as [High Resolution Canopy Height Maps](/data-sources/ecology/high-resolution-canopy-height/). The [Cool Cities Lab](/engines/weather-and-climate/cool-cities-lab/) from the World Resources Institute puts air temperature, land surface temperature and shade side by side and models the cooling from trees and cool roofs, at neighbourhood scale rather than for single sites.[^13,14]
 
 ## Who sells an answer
 

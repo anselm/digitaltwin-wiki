@@ -58,4 +58,4 @@ Forest clearing and where it happens; soy prices, farm expansion and the trade r
 
 ## Where to start
 
-The study is "The rise and fall of the Amazon Soy Moratorium" in Science, 2026 (doi:10.1126/science.aeg5368).[^1] Forest loss alerts and maps are published by [Global Nature Watch](/data-sources/global-nature-watch/). The [land-use use case](/questions/land-use-change/) describes the kinds of model that fit.
+The study is "The rise and fall of the Amazon Soy Moratorium" in Science, 2026 (doi:10.1126/science.aeg5368).[^1] Forest loss alerts and maps are published by [Global Nature Watch](/data-sources/ecology/global-nature-watch/). The [land-use use case](/questions/land-use-change/) describes the kinds of model that fit.

@@ -29,7 +29,7 @@ open:
   licence: AGPL-3.0
 relations:
   - predicate: built_on
-    target: data-sources/census-apis
+    target: data-sources/people/census-apis
     note: downloads American Community Survey and PUMS tables through the Census API
 provenance:
   origin: agent

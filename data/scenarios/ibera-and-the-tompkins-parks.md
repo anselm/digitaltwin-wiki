@@ -60,4 +60,4 @@ Wetland water and the land around it; plants recovering after grazing and loggin
 
 ## Where to start
 
-The parks' boundaries are recorded by governments in [Protected Planet](/data-sources/protected-planet/). Species sightings in the wetlands can be gathered from [iNaturalist](/data-sources/inaturalist/), and landscape connectivity for wide-ranging animals is what [Circuitscape](/engines/ecosystems-and-land/circuitscape/) is built for.
+The parks' boundaries are recorded by governments in [Protected Planet](/data-sources/ecology/protected-planet/). Species sightings in the wetlands can be gathered from [iNaturalist](/data-sources/ecology/inaturalist/), and landscape connectivity for wide-ranging animals is what [Circuitscape](/engines/ecosystems-and-land/circuitscape/) is built for.

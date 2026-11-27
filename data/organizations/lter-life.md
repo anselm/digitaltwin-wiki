@@ -72,4 +72,4 @@ Its collections are:[^5]
 
 Weather and groundwater are in development.[^5] A free token is needed, and the data are under CC BY-NC-SA, free for non-commercial use.[^5] An R package and a Shiny interface for it are on GitHub.[^6]
 
-The group's view of what a twin of an ecosystem is, and how to build one, is set out in [Digital twins as a tool for ecosystem research](/articles/digital-twins-for-ecosystem-research/), whose authors all belong to LTER-LIFE.[^7] For someone modelling a place in the Netherlands, NatureDataCube is a ready source of site-level data. Outside the Netherlands, the FAIR checklist and the hands-on guide to FAIR ecological data apply to any ecological dataset.[^4]
+The group's view of what a twin of an ecosystem is, and how to build one, is set out in [Digital twins as a tool for ecosystem research](/articles/ecology/digital-twins-for-ecosystem-research/), whose authors all belong to LTER-LIFE.[^7] For someone modelling a place in the Netherlands, NatureDataCube is a ready source of site-level data. Outside the Netherlands, the FAIR checklist and the hands-on guide to FAIR ecological data apply to any ecological dataset.[^4]

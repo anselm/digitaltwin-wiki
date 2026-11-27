@@ -22,7 +22,7 @@ domains:
   - water
 relations:
   - predicate: cites
-    target: articles/dietze-near-term-ecological-forecasting
+    target: articles/ecology/dietze-near-term-ecological-forecasting
 provenance:
   origin: agent
   sources:
@@ -51,7 +51,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed, all EFI''s own pages; its founding year is not stated on them and is left out'
   status: draft
 ---
-The Ecological Forecasting Initiative is an international grassroots consortium that builds and supports an interdisciplinary community of practice around near-term ecological forecasts, meaning forecasts from a day to a decade ahead.[^1] It takes its definition of ecological forecasting from a 2001 paper by Clark and colleagues: predicting the state of ecosystems, ecosystem services and natural capital, with fully specified uncertainties.[^1] Its stated goal is to find out whether nature is predictable. It argues that this cannot come from forecasting one thing well, only from forecasting many processes in many places and looking for patterns in what makes some more predictable than others, which takes a community.[^1] Its mission page illustrates the near-term forecasting cycle from [Dietze et al. 2018](/articles/dietze-near-term-ecological-forecasting/).[^1]
+The Ecological Forecasting Initiative is an international grassroots consortium that builds and supports an interdisciplinary community of practice around near-term ecological forecasts, meaning forecasts from a day to a decade ahead.[^1] It takes its definition of ecological forecasting from a 2001 paper by Clark and colleagues: predicting the state of ecosystems, ecosystem services and natural capital, with fully specified uncertainties.[^1] Its stated goal is to find out whether nature is predictable. It argues that this cannot come from forecasting one thing well, only from forecasting many processes in many places and looking for patterns in what makes some more predictable than others, which takes a community.[^1] Its mission page illustrates the near-term forecasting cycle from [Dietze et al. 2018](/articles/ecology/dietze-near-term-ecological-forecasting/).[^1]
 
 EFI is organised in working groups on theory, cyberinfrastructure, methods and tools, forecasting standards, translation into actionable science, social science, partners and knowledge transfer, diversity and inclusion, and education, with regional chapters in Africa, Asia, Canada, Europe and Oceania.[^2] It runs a webinar series on statistical methods with the Ecological Society of America's statistical ecology section, and holds conferences; the 2026 one was in Toronto and the 2027 one is set for Minneapolis.[^2] Membership is open to people who sign up to its shared values and operating principles.[^1] Since February 2026 EFI has been a fiscally sponsored project of the nonprofit Ecologistics, Inc., which lets it hold a bank account, take donations and lead grant proposals.[^8]
 

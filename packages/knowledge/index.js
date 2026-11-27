@@ -132,6 +132,12 @@ export class Store {
         if (!predicates[r.predicate]) p(e.id, 'error', `undeclared predicate "${r.predicate}"`)
         if (!this.byId.has(r.target)) p(e.id, 'error', `relation target "${r.target}" does not exist`)
       }
+      // An entry in a subfolder of a shelf should belong there: the folder is named for its tool.group, or for a domain it lists.
+      const up = e.id.split('/')
+      if (up.length === 3 && this.byId.get(up.slice(0, 2).join('/'))?.section && !e.section) {
+        const slug = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+        if (e.tool?.group ? slug(e.tool.group) !== up[1] : this.byId.has(`domains/${up[1]}`) && !(e.domains || []).includes(up[1])) p(e.id, 'warn', `filed in the subfolder "${up[1]}" but ${e.tool?.group ? `its tool.group is "${e.tool.group}"` : `does not list the domain "${up[1]}"`}`)
+      }
       for (const d of e.domains || []) if (!this.byId.has(`domains/${d}`)) p(e.id, 'error', `domain "${d}" has no entity at domains/${d}`)
       if (e.redirect && !this.byId.has(e.redirect.to)) p(e.id, 'error', `redirect to missing entity "${e.redirect.to}"`)
       // Inline citations [^n] must name a source the entry lists (provenance.sources, counted from 1).

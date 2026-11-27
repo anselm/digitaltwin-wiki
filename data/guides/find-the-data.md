@@ -19,10 +19,10 @@ A model of a place is a set of layers and some rules about how they interact. Th
 ## The layers almost every model needs
 
 - **The ground.** Heights, from lidar (laser scanning, usually from aircraft) or a national terrain dataset. Your national mapping agency or geological survey usually publishes one.
-- **What is on it.** Roads, buildings, land use, water. [OpenStreetMap](/data-sources/openstreetmap-osm/) is the open base most models start from; check it block by block where it matters.
-- **Who is there.** Population and households. In the United States, the [Census APIs](/data-sources/census-apis/); elsewhere, the national statistics office.
-- **What is happening.** Observations over time: river gauges such as the [USGS water data](/data-sources/usgs-water-data/), weather stations, traffic counts, satellite imagery from [Copernicus](/data-sources/copernicus-data-space/).
-- **What people have seen.** Species records such as [iNaturalist](/data-sources/inaturalist/), photographs, logbooks, complaints.
+- **What is on it.** Roads, buildings, land use, water. [OpenStreetMap](/data-sources/places/openstreetmap-osm/) is the open base most models start from; check it block by block where it matters.
+- **Who is there.** Population and households. In the United States, the [Census APIs](/data-sources/people/census-apis/); elsewhere, the national statistics office.
+- **What is happening.** Observations over time: river gauges such as the [USGS water data](/data-sources/water/usgs-water-data/), weather stations, traffic counts, satellite imagery from [Copernicus](/data-sources/places/copernicus-data-space/).
+- **What people have seen.** Species records such as [iNaturalist](/data-sources/ecology/inaturalist/), photographs, logbooks, complaints.
 
 The [data](/data-sources/) section on this site lists sources with what they cover and how to get them, and each [question page](/questions/) says which layers its question needs.
 

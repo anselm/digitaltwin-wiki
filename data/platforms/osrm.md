@@ -35,7 +35,7 @@ open:
     use; heavier work runs its own instance.
 relations:
   - predicate: built_on
-    target: data-sources/openstreetmap-osm
+    target: data-sources/places/openstreetmap-osm
 provenance:
   origin: agent
   sources:
@@ -55,7 +55,7 @@ provenance:
   status: draft
 
 ---
-OSRM, the Open Source Routing Machine, is a routing engine written in C++ that finds shortest paths in road networks built from [OpenStreetMap](/data-sources/openstreetmap-osm/) data.[^1,2] Profiles for car, bicycle and walking come with it and can be customised.[^1] Routes across a continent-sized network take milliseconds, by the project's account.[^1] It is free and open source under the two-clause BSD licence and is maintained by its community.[^1,2] The paper to cite is Luxen and Vetter, "Real-time routing with OpenStreetMap data", from the 2011 ACM SIGSPATIAL conference.[^2] Version 26.10.0 was released on 1 October 2026.[^3]
+OSRM, the Open Source Routing Machine, is a routing engine written in C++ that finds shortest paths in road networks built from [OpenStreetMap](/data-sources/places/openstreetmap-osm/) data.[^1,2] Profiles for car, bicycle and walking come with it and can be customised.[^1] Routes across a continent-sized network take milliseconds, by the project's account.[^1] It is free and open source under the two-clause BSD licence and is maintained by its community.[^1,2] The paper to cite is Luxen and Vetter, "Real-time routing with OpenStreetMap data", from the 2011 ACM SIGSPATIAL conference.[^2] Version 26.10.0 was released on 1 October 2026.[^3]
 
 Six services are reached through an HTTP API, a C++ library, and Node.js and Python bindings.[^2] Nearest snaps a point to the street network, route finds the fastest route between points, and table gives travel times or distances between every pair of a set of points.[^2] Match fits a noisy GPS trace to the roads, trip solves the travelling salesman problem with a greedy heuristic, and tile serves vector tiles carrying routing data.[^2] To run your own, you download an OpenStreetMap extract, for example from Geofabrik, prepare it with a profile and serve it with osrm-routed; Docker images are provided.[^2] Preparation can be slow: a 550.7 MB extract of Mexico took about 30 minutes to extract.[^2]
 

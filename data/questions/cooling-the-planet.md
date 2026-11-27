@@ -29,20 +29,20 @@ No one can run this experiment on the planet, so the model is the only laborator
 
 ## What kind of model answers it
 
-The sunlight branch is run in the [Earth system models](/terms/earth-system-model/) that also produce the climate projections, under the shared experiments of [GeoMIP](/data-sources/geomip/). The first of those, G1, offset a quadrupling of carbon dioxide with a uniform dimming of the sun; twelve models ran it, and all agreed that one dimming could not restore temperature and rainfall at the same time. The protocol for the current round holds the world at 1.5 °C above preindustrial with aerosol or brighter clouds from 2035, and one run stops the aerosol at the end of 2084 to see what follows.
+The sunlight branch is run in the [Earth system models](/terms/earth-system-model/) that also produce the climate projections, under the shared experiments of [GeoMIP](/data-sources/climate/geomip/). The first of those, G1, offset a quadrupling of carbon dioxide with a uniform dimming of the sun; twelve models ran it, and all agreed that one dimming could not restore temperature and rainfall at the same time. The protocol for the current round holds the world at 1.5 °C above preindustrial with aerosol or brighter clouds from 2035, and one run stops the aerosol at the end of 2084 to see what follows.
 
-Aerosol in the stratosphere asks for a model whose atmosphere reaches well above it. NCAR's [CESM](/engines/weather-and-climate/cesm/) with its WACCM atmosphere, which extends from the surface to the thermosphere, is the model behind the two large American ensembles, [GLENS and ARISE-SAI](/data-sources/glens-and-arise-sai/). ARISE-SAI is free to download without an account. Because a single run cannot tell the effect of the intervention from a run of hot or cold years, the main studies are ensembles: the same model run many times from slightly different starts.
+Aerosol in the stratosphere asks for a model whose atmosphere reaches well above it. NCAR's [CESM](/engines/weather-and-climate/cesm/) with its WACCM atmosphere, which extends from the surface to the thermosphere, is the model behind the two large American ensembles, [GLENS and ARISE-SAI](/data-sources/climate/glens-and-arise-sai/). ARISE-SAI is free to download without an account. Because a single run cannot tell the effect of the intervention from a run of hot or cold years, the main studies are ensembles: the same model run many times from slightly different starts.
 
 Between the global model and your place sit two more layers: emulators trained on the big runs, which answer a new injection strategy in seconds, and downscaling, which brings a hundred-kilometre grid down to ten or less. The term's section on the rest of the stack names the current ones, with what their authors say they cannot do.
 
-The carbon branch has its own intercomparison, [CDRMIP](/data-sources/cdrmip/), whose experiments put carbon dioxide back into or take it out of a model's atmosphere and watch how far the climate reverses.
+The carbon branch has its own intercomparison, [CDRMIP](/data-sources/climate/cdrmip/), whose experiments put carbon dioxide back into or take it out of a model's atmosphere and watch how far the climate reverses.
 
-Ocean methods add living things to the problem. A 2026 preprint on [artificial upwelling](/articles/owusu-artificial-upwelling-microbial-doc/), pumping deep water to the surface to feed plankton, found the ocean's extra uptake running from 82 billion tonnes of carbon in a century to a small loss, depending on whether plankton or bacteria got the benefit.
+Ocean methods add living things to the problem. A 2026 preprint on [artificial upwelling](/articles/climate/owusu-artificial-upwelling-microbial-doc/), pumping deep water to the surface to feed plankton, found the ocean's extra uptake running from 82 billion tonnes of carbon in a century to a small loss, depending on whether plankton or bacteria got the benefit.
 
 ## What you need
 
-- An ensemble, if the question is local: [ARISE-SAI](/data-sources/glens-and-arise-sai/) has ten members of each run, so the year-to-year noise can be measured against the signal.
-- The GeoMIP output itself, which is free through the same Earth System Grid Federation portals as [CMIP6](/data-sources/cmip6/), in the same netCDF files. In November 2026 the archive held four experiments from eight models.
+- An ensemble, if the question is local: [ARISE-SAI](/data-sources/climate/glens-and-arise-sai/) has ten members of each run, so the year-to-year noise can be measured against the signal.
+- The GeoMIP output itself, which is free through the same Earth System Grid Federation portals as [CMIP6](/data-sources/climate/cmip6/), in the same netCDF files. In November 2026 the archive held four experiments from eight models.
 - The experiment's own baseline. Every GeoMIP run is defined against a scenario without intervention, and the signal is the difference between the two, taken over your region.
 - More than one model. Where the models disagree about your region, that disagreement is the finding.
 - Your region's climate projection without intervention, so the result has something to be compared with. [Weather and climate](/questions/weather-and-climate/) covers where to find it.
@@ -53,4 +53,4 @@ The nearest thing to a real experiment is a large volcanic eruption. Mount Pinat
 
 ## Next
 
-Read [Geoengineering](/terms/geoengineering/). Then read the GeoMIP protocol paper linked from [GeoMIP](/data-sources/geomip/); it defines each experiment exactly.
+Read [Geoengineering](/terms/geoengineering/). Then read the GeoMIP protocol paper linked from [GeoMIP](/data-sources/climate/geomip/); it defines each experiment exactly.

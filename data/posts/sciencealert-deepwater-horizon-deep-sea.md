@@ -22,7 +22,7 @@ domains:
   - ecology
 relations:
   - predicate: about
-    target: articles/immense-but-not-immutable-deep-pelagic-decline
+    target: articles/water/immense-but-not-immutable-deep-pelagic-decline
 provenance:
   origin: agent
   sources:
@@ -33,7 +33,7 @@ provenance:
   reviewed_by: 'Claude, from the source listed, checked against the full paper'
   status: draft
 ---
-Jess Cockerill's story for ScienceAlert reports the [PNAS study](/articles/immense-but-not-immutable-deep-pelagic-decline/) that found the Gulf of Mexico's midwater animals down by around 60% since the Deepwater Horizon spill of 2010. It recalls the spill's scale: 87 days before the well was capped, with about 7.7 billion standard cubic feet of gas released along with the oil, and about 770,000 gallons of the dispersant Corexit 9500A injected near the wellhead. It points to a 2014 study that found oil and dispersant together more toxic to zooplankton than oil alone.
+Jess Cockerill's story for ScienceAlert reports the [PNAS study](/articles/water/immense-but-not-immutable-deep-pelagic-decline/) that found the Gulf of Mexico's midwater animals down by around 60% since the Deepwater Horizon spill of 2010. It recalls the spill's scale: 87 days before the well was capped, with about 7.7 billion standard cubic feet of gas released along with the oil, and about 770,000 gallons of the dispersant Corexit 9500A injected near the wellhead. It points to a 2014 study that found oil and dispersant together more toxic to zooplankton than oil alone.
 
 The story also picks up two consequences the paper discusses without measuring them itself: reports of thin whales and of sperm whales roaming instead of foraging, which would fit a loss of the squid and fish they eat, and the carbon that the nightly migrants carry into the deep, which fewer migrants would carry less of.
 

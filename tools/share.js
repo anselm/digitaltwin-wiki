@@ -54,7 +54,7 @@ ${text(['digitaltwins.wiki' + (e.url === '/' ? '' : e.url.replace(/\/$/, ''))], 
   if (!e.description) issues.push('no description')
   else if (d.cut) issues.push(`description cut on the card (${e.description.length} chars)`)
   if (t.cut) issues.push(`title cut on the card (${e.label.length} chars)`)
-  if (e.description && e.description.length > 200) issues.push(`description over 200 chars, search results cut it`)
+  if (e.description && e.description.length > 200) issues.push(`description over 200 chars, shortened in the page head`)
   if (!img) issues.push('no picture')
   if (issues.length) report.push([e.url, issues])
 }

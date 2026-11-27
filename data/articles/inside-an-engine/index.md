@@ -66,9 +66,9 @@ The state is everything the model holds about the place at one moment: the depth
 
 **Discrete events.** The model is a list of things that happen in turn: a patient arrives, a bed frees up, a ship docks. It suits queues, schedules and logistics. [Simkit](/engines/agents-and-system-dynamics/simkit/) is one toolkit, and [AnyLogic](/engines/agents-and-system-dynamics/anylogic/) combines this method with the previous two in one model.
 
-A **learned model** can stand in for any of the six. It is trained on past data, or on many runs of a slower model, and then gives an answer quickly. [Learned models of the Earth](/articles/learned-models-of-the-earth/) describes the arrangements and their limits.
+A **learned model** can stand in for any of the six. It is trained on past data, or on many runs of a slower model, and then gives an answer quickly. [Learned models of the Earth](/articles/climate/learned-models-of-the-earth/) describes the arrangements and their limits.
 
-[The Grammar of Simulation](/articles/the-grammar-of-simulation/), a 2026 atlas of simulation games, arrives at nearly the same list from games: aggregate stocks, individual agents, fields on a grid, networks and continuous bodies.
+[The Grammar of Simulation](/articles/people/the-grammar-of-simulation/), a 2026 atlas of simulation games, arrives at nearly the same list from games: aggregate stocks, individual agents, fields on a grid, networks and continuous bodies.
 
 ## How an agent decides
 
@@ -77,7 +77,7 @@ The decision rule inside an agent is a part of its own, and there are four commo
 - **Fixed rules.** If the road is blocked, take the next one. Simple to write and to explain.
 - **Choice models.** The agent weighs options by cost, time and preference, with weights estimated from surveys. Transport and land-use models such as [ActivitySim](/engines/people-and-populations/activitysim/) and [UrbanSim](/engines/land-use-and-housing/urbansim/) do this.
 - **Learned policies.** The agent's behaviour is found by reinforcement learning. The Gymnasium documentation describes this as learning by trial and error: an agent tries actions, receives rewards, and gradually improves.[^1] The simulation serves as the practice ground. GAMA publishes wrappers that present any of its models to learning algorithms in the two standard forms, one for a single learner and one for many.[^2]
-- **Language models.** The agent is given a description of a person and asked what that person would do. [Generative Agents](/engines/people-and-populations/generative-agents/) is the best-known research code, and [Synthetic people](/articles/synthetic-people/) covers what is known about how far the answers can be trusted.
+- **Language models.** The agent is given a description of a person and asked what that person would do. [Generative Agents](/engines/people-and-populations/generative-agents/) is the best-known research code, and [Synthetic people](/articles/people/synthetic-people/) covers what is known about how far the answers can be trusted.
 
 Reinforcement learning has a second use, described under search below.
 
@@ -85,7 +85,7 @@ Reinforcement learning has a second use, described under search below.
 
 **Coupling.** Two models exchange state as they run: the flood model tells the power model which substations are under water. [HELICS and FMI](/engines/research-infrastructure/helics-fmi/) are two ways of doing it, and the story of [a flooded substation](/stories/a-flooded-substation/) shows why it matters. Some engines couple parts internally; PALM's urban components include a multi-agent system of residents inside an air-flow model.[^3]
 
-**Data assimilation.** Observations arrive while the model runs and are used to correct its state, so that it does not drift from the real place. This is the part that makes a model a twin in the strict sense. [Dietze on ecological forecasting](/articles/dietze-near-term-ecological-forecasting/) and the [National Academies report](/articles/nasem-digital-twins-research-gaps/) both explain it.
+**Data assimilation.** Observations arrive while the model runs and are used to correct its state, so that it does not drift from the real place. This is the part that makes a model a twin in the strict sense. [Dietze on ecological forecasting](/articles/ecology/dietze-near-term-ecological-forecasting/) and the [National Academies report](/articles/nasem-digital-twins-research-gaps/) both explain it.
 
 **Calibration.** Before use, the model's adjustable numbers are tuned until it reproduces what was recorded. The guide [Check it against what happened](/guides/check-it-against-what-happened/) covers this. The [CliMA Earth system model](/engines/weather-and-climate/clima/) keeps every adjustable number in one package so that a second package can calibrate them together.
 

@@ -10,7 +10,7 @@ about:
     - foundation model
     - world model
     - planetary
-    - observation
+    - Earth observation
 term:
   aka:
     - NGI
@@ -19,7 +19,7 @@ relations:
   - predicate: cites
     target: terms/world-model
   - predicate: cites
-    target: articles/learned-models-of-the-earth
+    target: articles/climate/learned-models-of-the-earth
 provenance:
   origin: agent
   sources:
@@ -62,4 +62,4 @@ The essay calls this a general-purpose "nature model", broader than a weather mo
 
 Hook reads it as a what-if tool. A user changes an assumption, such as restoring a wetland or giving a river more room, and runs the model forward to see what follows. He leaves open questions about civic access, compute cost, data ownership and validation. The essay invites people to get in touch and contribute.
 
-[Learned models of the Earth, and what they are trained on](/articles/learned-models-of-the-earth/) describes what the cited precedents were trained on and where they fail. [World model](/terms/world-model/) separates a proposal of this kind from the video generators that share the name.
+[Learned models of the Earth, and what they are trained on](/articles/climate/learned-models-of-the-earth/) describes what the cited precedents were trained on and where they fail. [World model](/terms/world-model/) separates a proposal of this kind from the video generators that share the name.

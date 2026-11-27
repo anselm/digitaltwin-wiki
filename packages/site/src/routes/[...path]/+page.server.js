@@ -58,10 +58,12 @@ function headOf(e, id, view) {
   // People named on the page are its authors; a page written by a model alone is credited to the wiki.
   const named = e.provenance?.by ? [].concat(e.provenance.by).join(', ').split(/,\s*/) : e.provenance?.origin === 'human' ? [e.provenance.author || 'Anselm Hook'] : []
   const people = named.map((n) => n.trim()).filter((n) => n && !/\(AI\)/.test(n))
-  const shelf = id.includes('/') ? store.get(id.split('/')[0]) : null
+  // The trail from the home page: the shelf, then the subfolder if the entry sits in one.
+  const parts = id.split('/')
+  const trail = parts.slice(0, -1).map((_, i) => store.get(parts.slice(0, i + 1).join('/'))).filter((p) => p?.section).map((p) => ({ label: p.about.label, url: `/${p.id}/` }))
   const a = e.article
   const work = a?.url && !String(a.url).startsWith('/') ? { url: a.url, authors: a.authors || [], published: a.published ? String(a.published).slice(0, 10) : '', publisher: a.publisher || '' } : null
-  return { ...isoStamp(e), people, kind: view === 'home' ? 'home' : e.section ? 'shelf' : 'page', shelf: shelf ? { label: shelf.about.label, url: `/${shelf.id}/` } : null, work }
+  return { ...isoStamp(e), people, kind: view === 'home' ? 'home' : e.section ? 'shelf' : 'page', trail, work }
 }
 const kindLabel = (k) => ({ datasource: 'data source', twin: 'digital twin', video: 'video channel' })[k] || k
 const plural = (k) => ({ story: 'stories', 'data source': 'data sources' })[k] || `${k}s`
@@ -109,10 +111,11 @@ export function load({ params }) {
     // The shelf still lists every entry beneath it, and names its subfolders above the list.
     const folders = store.children(id).filter((c) => c.section)
     const kids = (folders.length ? store.descendants(id).filter((c) => !c.section) : store.children(id)).filter((c) => !c.redirect)
+    const folderOf = (c) => folders.find((f) => c.id.startsWith(f.id + '/'))?.about.label || (folders.length ? 'General' : null)
     base.folders = folders.map((f) => ({ label: f.about.label, url: card(f).url, count: store.descendants(f.id).filter((d) => !d.redirect && !d.section).length }))
     const staged = kids.every((c) => c.guide?.stage !== undefined)
     const mixed = new Set(kids.map((c) => store.kindsOf(c)[0])).size > 1
-    const items = (staged ? [...kids].sort((a, b) => a.guide.stage - b.guide.stage) : kids).map((c) => ({ ...card(c), chips: chips(c), group: c.tool?.group || c.about?.group || (mixed ? plural(kindLabel(store.kindsOf(c)[0] || 'entry')).replace(/^./, (ch) => ch.toUpperCase()) : null) }))
+    const items = (staged ? [...kids].sort((a, b) => a.guide.stage - b.guide.stage) : kids).map((c) => ({ ...card(c), chips: chips(c), group: c.tool?.group || c.about?.group || folderOf(c) || (mixed ? plural(kindLabel(store.kindsOf(c)[0] || 'entry')).replace(/^./, (ch) => ch.toUpperCase()) : null) }))
     // Articles are shelved by standing (article.tier, set from evidence in devlog/20261104-articles-by-standing.md); within a band, newest first.
     // Anything on the shelf that is not an article (a guide) comes first, under its own kind.
     if (kids.some((c) => c.article?.tier)) {
@@ -181,6 +184,13 @@ export function load({ params }) {
     const groups = {}
     for (const it of store.find({ tag: e.section.tag }).filter((x) => x.id !== id)) { const k = store.kindsOf(it)[0] || 'entry'; (groups[k] ||= []).push({ ...card(it), chips: chips(it) }) }
     const rank = (k) => (order.indexOf(k) + 1 || order.length + 1)
+    // A tagged shelf made up wholly of dated pieces (Observations) reads newest first, by the year each was published.
+    const tagged = store.find({ tag: e.section.tag }).filter((x) => x.id !== id)
+    if (tagged.length && tagged.every((x) => x.article?.published)) {
+      const by = [...tagged].sort((a, b) => String(b.article.published).localeCompare(String(a.article.published)))
+      const years = [...new Set(by.map((x) => String(x.article.published).slice(0, 4)))]
+      return { ...base, groups: years.map((y) => ({ label: y, items: by.filter((x) => String(x.article.published).slice(0, 4) === y).map((x) => ({ ...card(x), chips: chips(x) })) })) }
+    }
     return { ...base, groups: Object.entries(groups).sort(([a], [b]) => rank(a) - rank(b)).map(([k, items]) => ({ label: plural(kindLabel(k)).replace(/^./, (ch) => ch.toUpperCase()), items })) }
   }
   if (view === 'domain') {

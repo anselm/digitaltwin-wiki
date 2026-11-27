@@ -60,4 +60,4 @@ Rainfall and runoff on dry ground; which plants and animals open land supports a
 
 ## Where to start
 
-The SPNI report sets out criteria for assessing planting programmes and lists its underlying studies, among them work on the Northern Negev loess plains and the Yatir Forest.[^2] [iNaturalist](/data-sources/inaturalist/) holds species sightings across the country, and the [wildfire use case](/questions/wildfire/) covers fire models.
+The SPNI report sets out criteria for assessing planting programmes and lists its underlying studies, among them work on the Northern Negev loess plains and the Yatir Forest.[^2] [iNaturalist](/data-sources/ecology/inaturalist/) holds species sightings across the country, and the [wildfire use case](/questions/wildfire/) covers fire models.

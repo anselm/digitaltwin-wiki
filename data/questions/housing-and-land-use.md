@@ -30,8 +30,8 @@ On this site, [UrbanSim](/engines/land-use-and-housing/urbansim/) is an open mod
 ## What you need
 
 - Parcels and zoning, from the city.
-- Where people and jobs are now: in the United States, the [Census APIs](/data-sources/census-apis/).
-- The street and transit network, usually starting from [OpenStreetMap](/data-sources/openstreetmap-osm/).
+- Where people and jobs are now: in the United States, the [Census APIs](/data-sources/people/census-apis/).
+- The street and transit network, usually starting from [OpenStreetMap](/data-sources/places/openstreetmap-osm/).
 - A written description of each scenario, agreed with the people who will argue about the results.
 
 ## Without a model

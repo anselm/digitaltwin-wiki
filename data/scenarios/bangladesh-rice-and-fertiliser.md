@@ -25,7 +25,7 @@ relations:
   - predicate: needs
     target: engines/ecosystems-and-land/dssat
   - predicate: needs
-    target: data-sources/faostat
+    target: data-sources/food/faostat
 provenance:
   origin: agent
   sources:

@@ -25,11 +25,11 @@ domains:
   - places
 relations:
   - predicate: needs
-    target: data-sources/walk-score
+    target: data-sources/mobility/walk-score
   - predicate: needs
-    target: data-sources/openstreetmap-osm
+    target: data-sources/places/openstreetmap-osm
   - predicate: needs
-    target: data-sources/census-apis
+    target: data-sources/people/census-apis
 provenance:
   origin: agent
   sources:
@@ -70,15 +70,15 @@ People choosing where to rent or buy ask this question, as do people who cannot 
 
 ## What answers it
 
-**Destinations within reach.** The score most people see is [Walk Score](/data-sources/walk-score/), which rates an address from 0 to 100 by walking routes to nearby amenities, giving full points within a five-minute walk and none beyond thirty, with adjustments for population density, block length and intersection density.[^1] Its [methodology page](https://www.walkscore.com/methodology.shtml) attaches a plain reading to each band: 90 to 100 means "daily errands do not require a car" and 70 to 89 that most can be done on foot. From 25 to 49 most errands require a car, and below 25 almost all do.[^1] The page gives neither its weights nor its list of amenity categories.[^1]
+**Destinations within reach.** The score most people see is [Walk Score](/data-sources/mobility/walk-score/), which rates an address from 0 to 100 by walking routes to nearby amenities, giving full points within a five-minute walk and none beyond thirty, with adjustments for population density, block length and intersection density.[^1] Its [methodology page](https://www.walkscore.com/methodology.shtml) attaches a plain reading to each band: 90 to 100 means "daily errands do not require a car" and 70 to 89 that most can be done on foot. From 25 to 49 most errands require a car, and below 25 almost all do.[^1] The page gives neither its weights nor its list of amenity categories.[^1]
 
 **Is the score right?** Duncan and colleagues tested Walk Score against measures computed independently with GIS, for 733 home addresses in four US metropolitan areas (*International Journal of Environmental Research and Public Health*, 2011).[^7] They found many significant moderate correlations with measures such as the density of shops and of intersections, stronger at a 1,600-metre network buffer than at 400 or 800 metres, and concluded that it is a valid measure of certain aspects of walkability.[^7] They also listed what it leaves out: crime, the look of the streets, traffic, hills, and barriers such as highways and water.[^7] It did not weigh the size of destinations such as parks or how often they are used. At the time, it measured straight-line rather than walking distances.[^7]
 
 **A public index.** The US EPA's National Walkability Index scores every census block group in the country from 1 to 20.[^3,4] It ranks each block group into twenty equal groups on four measures from EPA's Smart Location Database: intersection density, distance from the population centre to the nearest transit stop, the mix of employment types, and the mix of jobs and occupied housing.[^4] Intersections and transit each weigh a third, and the two mix measures a sixth each.[^4] The equal thirds follow Ewing and Cervero's 2010 meta-analysis, which found the effects of the three on walking similar in size.[^4] Scores above 15.25 are "most walkable" and below 5.76 "least walkable".[^4] It ranks block groups against the whole country, as the [2021 methodology](https://www.epa.gov/sites/default/files/2021-06/documents/national_walkability_index_methodology_and_user_guide_june2021.pdf) sets out; [EPA's Smart Location Mapping page](https://www.epa.gov/smartgrowth/smart-location-mapping) says the downloadable data and a how-to document let users build an index for a smaller set instead, such as a state, metropolitan area or city.[^2,4] That page offers the data for download, in an interactive map and through web services.[^2] Block groups vary in size, from an acre or two in a dense city to thousands of acres in the country, so one score can cover very different addresses.[^4]
 
-**Transit.** Transit agencies publish routes, stops, timetables and fares in the [General Transit Feed Specification](https://gtfs.org/) (GTFS), an open standard maintained by MobilityData, and live vehicle locations, arrival times and service alerts in its Realtime companion.[^5] More than 10,000 agencies in over 100 countries use it, by gtfs.org's count, and MobilityData's [Mobility Database](https://mobilitydatabase.org/) catalogues more than 6,000 GTFS, GTFS Realtime and GBFS feeds from over 100 countries, with a REST API.[^5,6] With the street network from [OpenStreetMap](/data-sources/openstreetmap-osm/), these feeds let anyone compute which places can be reached from an address in, say, 30 minutes at 8 a.m. on a weekday, which is closer to the question than a count of nearby stops.
+**Transit.** Transit agencies publish routes, stops, timetables and fares in the [General Transit Feed Specification](https://gtfs.org/) (GTFS), an open standard maintained by MobilityData, and live vehicle locations, arrival times and service alerts in its Realtime companion.[^5] More than 10,000 agencies in over 100 countries use it, by gtfs.org's count, and MobilityData's [Mobility Database](https://mobilitydatabase.org/) catalogues more than 6,000 GTFS, GTFS Realtime and GBFS feeds from over 100 countries, with a REST API.[^5,6] With the street network from [OpenStreetMap](/data-sources/places/openstreetmap-osm/), these feeds let anyone compute which places can be reached from an address in, say, 30 minutes at 8 a.m. on a weekday, which is closer to the question than a count of nearby stops.
 
-**Who lives there.** The Census Bureau's American Community Survey asks about the vehicles each household has and how people get to work, and its data are served through the [Census APIs](/data-sources/census-apis/).[^8,9,10]
+**Who lives there.** The Census Bureau's American Community Survey asks about the vehicles each household has and how people get to work, and its data are served through the [Census APIs](/data-sources/people/census-apis/).[^8,9,10]
 
 ## Who sells an answer
 

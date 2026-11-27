@@ -31,7 +31,7 @@ relations:
   - predicate: example_of
     target: questions/flooding
   - predicate: cites
-    target: articles/climate-central-extreme-water-levels
+    target: articles/water/climate-central-extreme-water-levels
 provenance:
   origin: agent
   sources:

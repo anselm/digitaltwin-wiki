@@ -24,7 +24,7 @@ open:
   licence: 'Apache 2.0 (code)'
 relations:
   - predicate: needs
-    target: data-sources/era5
+    target: data-sources/climate/era5
   - predicate: alternative_to
     target: engines/weather-and-climate/neuralgcm
 provenance:
@@ -43,7 +43,7 @@ domains:
 ---
 An emulator is a learned model trained to reproduce the behaviour of another model, or of a record, at much lower cost. ACE2 is "a 450M-parameter autoregressive machine learning emulator" of the global atmosphere, working at 1 degree with eight vertical layers and a six-hour time step.[^1] It is made by the climate modelling group at the Allen Institute for AI (Ai2).[^2]
 
-There are two trained versions.[^1] ACE2-ERA5 was trained on the [ERA5](/data-sources/era5/) reanalysis from 1940 onward. ACE2-SHiELD was trained on output from SHiELD, a physics-based atmosphere model from the US Geophysical Fluid Dynamics Laboratory, which had been run with observed sea surface temperatures and greenhouse gases for 1940 to 2021. In both, the user prescribes sea surface temperature, sea ice, carbon dioxide and incoming sunlight, and the emulator computes how the atmosphere responds.[^1]
+There are two trained versions.[^1] ACE2-ERA5 was trained on the [ERA5](/data-sources/climate/era5/) reanalysis from 1940 onward. ACE2-SHiELD was trained on output from SHiELD, a physics-based atmosphere model from the US Geophysical Fluid Dynamics Laboratory, which had been run with observed sea surface temperatures and greenhouse gases for 1940 to 2021. In both, the user prescribes sea surface temperature, sea ice, carbon dioxide and incoming sunlight, and the emulator computes how the atmosphere responds.[^1]
 
 The authors report that ACE2 "can be stepped forward stably for arbitrarily many steps" and runs at "about 1500 simulated years per wall clock day".[^1] It reproduces the atmosphere's response to El Niño and the global temperature trend of the past eighty years, and it produces tropical cyclones.[^1] It is built to conserve dry air mass and moisture exactly.[^1]
 
@@ -56,4 +56,4 @@ The paper states these limits:[^1]
 
 The code is the `fme` Python package, installed with pip and licensed under Apache 2.0, and pretrained checkpoints are on Hugging Face under `allenai`.[^2] The repository page does not state a licence for the checkpoints.[^2] The same repository holds the group's other models, among them ACE2-SOM, SamudrACE and HiRO-ACE.[^2]
 
-[Learned models of the Earth, and what they are trained on](/articles/learned-models-of-the-earth/) uses ACE2 as its example of emulation and of the limits of learning from a single historical record.
+[Learned models of the Earth, and what they are trained on](/articles/climate/learned-models-of-the-earth/) uses ACE2 as its example of emulation and of the limits of learning from a single historical record.

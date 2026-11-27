@@ -51,7 +51,7 @@ domains:
   - water
 relations:
   - predicate: example_of
-    target: data-sources/emergentbiome
+    target: data-sources/ecology/emergentbiome
     note: >-
       application of (source_claim; exact implementation not independently
       tested)

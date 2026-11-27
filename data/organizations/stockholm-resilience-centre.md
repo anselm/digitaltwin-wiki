@@ -42,4 +42,4 @@ Its best-known work is the planetary boundaries framework. A planetary boundary 
 
 The centre's page reports that several regions, nations and cities have used the framework to assess their global environmental impact; its example is the 2020 report Planetary Boundaries New Zealand, which places that country's footprint against the safe limits.[^2] For someone modelling a place, that is the main use: a set of global limits against which a city's or region's share of pressure can be measured.
 
-The centre also leads the [Regime Shifts DataBase](/data-sources/regime-shifts-database/), a review of documented cases in which a social-ecological system has shifted abruptly from one state to another.[^3] Such shifts are what this site calls [tipping points](/terms/tipping-points/).
+The centre also leads the [Regime Shifts DataBase](/data-sources/ecology/regime-shifts-database/), a review of documented cases in which a social-ecological system has shifted abruptly from one state to another.[^3] Such shifts are what this site calls [tipping points](/terms/tipping-points/).

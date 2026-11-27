@@ -20,9 +20,9 @@ domains:
   - climate
 relations:
   - predicate: cites
-    target: data-sources/global-safety-net-v3-gsn3
+    target: data-sources/ecology/global-safety-net-v3-gsn3
   - predicate: cites
-    target: data-sources/one-earth-bioregions
+    target: data-sources/ecology/one-earth-bioregions
   - predicate: cites
     target: organizations/nature-data-lab
 provenance:
@@ -57,8 +57,8 @@ One Earth calls itself a global network of climate strategists and storytellers,
 
 Under Winters, One Earth built a Solutions Framework of 75 pathways across energy transition, nature conservation and regenerative agriculture.[^2] Its published work includes:
 
-- The [One Earth Bioregions Framework](/data-sources/one-earth-bioregions/) of 185 bioregions in 14 realms, built from the 2017 ecoregions. The Navigator is the web map that shows them with their species, ecoregions, projects and stories.[^4]
-- The [Global Safety Net](/data-sources/global-safety-net-v3-gsn3/), which One Earth describes as the blueprint of priority lands and oceans to protect and restore.[^1]
+- The [One Earth Bioregions Framework](/data-sources/ecology/one-earth-bioregions/) of 185 bioregions in 14 realms, built from the 2017 ecoregions. The Navigator is the web map that shows them with their species, ecoregions, projects and stories.[^4]
+- The [Global Safety Net](/data-sources/ecology/global-safety-net-v3-gsn3/), which One Earth describes as the blueprint of priority lands and oceans to protect and restore.[^1]
 - A climate model it funded, published by Springer as Achieving the Paris Climate Agreement Goals. It came from a two-year collaboration with 17 scientists at the University of Technology Sydney, two institutes of the German Aerospace Center (DLR) and the University of Melbourne's Climate & Energy College, and gives a path to the Paris targets with existing technologies and natural climate solutions.[^5] The book, edited by Sven Teske, appeared in 2019, open access under CC BY 4.0. Its subtitle is Global and Regional 100% Renewable Energy Scenarios with Non-energy GHG Pathways for +1.5°C and +2°C. A second volume on net-zero sectoral pathways for the finance industry followed in 2022 under the same licence.[^6,7]
 - The Climate Finance Tracker, led by Vibrant Data Labs and housed at One Earth, which maps grants and investments in climate mitigation and adaptation. Its code is open source, its climate themes are drawn from how grantees describe their own work with natural language processing from Primer, and its data partners include Crunchbase and Candid.[^8]
 

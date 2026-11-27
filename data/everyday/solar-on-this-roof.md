@@ -25,9 +25,9 @@ domains:
   - places
 relations:
   - predicate: needs
-    target: data-sources/us-energy-data
+    target: data-sources/energy/us-energy-data
   - predicate: needs
-    target: data-sources/high-resolution-canopy-height
+    target: data-sources/ecology/high-resolution-canopy-height
 provenance:
   origin: agent
   sources:
@@ -94,11 +94,11 @@ Homeowners ask, and so do people deciding whether to buy a house and owners of s
 
 **Output.** [PVWatts](https://pvwatts.nlr.gov/), from the same lab, estimates what a grid-connected system would produce.[^1] A user gives a location, the system's size, the panel type, losses, the tilt and the compass direction the panels face, and whether they sit on the roof or on a rack; the [API](https://developer.nlr.gov/docs/solar/pvwatts/v8/) returns yearly AC output in kWh and a capacity factor.[^2] By default it uses a typical meteorological year from the NSRDB, and the calculator gives a range based on 30 years of weather at the site.[^1,2] Predictions carry many assumptions and uncertainties, the lab says, and better panels are not told apart from worse ones.[^1,4] The site is represented only through the inputs, so shade from nearby buildings and trees has to be entered as a percentage loss.[^1,4]
 
-**Shade and roof shape.** This is what PVWatts leaves to the user and what an installer measures on the roof.[^4,14] It needs a 3D model of the roof and of the trees and buildings around it, from aerial imagery or lidar. Tree heights are also mapped from satellite images, as in [High Resolution Canopy Height Maps](/data-sources/high-resolution-canopy-height/).[^23]
+**Shade and roof shape.** This is what PVWatts leaves to the user and what an installer measures on the roof.[^4,14] It needs a 3D model of the roof and of the trees and buildings around it, from aerial imagery or lidar. Tree heights are also mapped from satellite images, as in [High Resolution Canopy Height Maps](/data-sources/ecology/high-resolution-canopy-height/).[^23]
 
 **Wear.** Panels lose output each year. Jordan and Kurtz's review in *Progress in Photovoltaics* gathered nearly 2,000 measured degradation rates from 40 years of field tests and found a median of 0.5% a year.[^20]
 
-**Prices and rules.** What a kilowatt-hour sent to the grid earns is set by each state and utility. DSIRE, established in 1995 and operated by the NC Clean Energy Technology Center at NC State University, tracks these policies and incentives across the United States.[^15] Its May 2026 map of net metering for investor-owned utilities counts, in its key, 28 states, DC and four territories whose utilities offer net metering, 16 states with net billing or some other payment for exported power, and one with none.[^17] A label on the same map says 27 states.[^17] A companion map sorts states by what an exported kilowatt-hour earns: the full retail rate (true net metering), a time-of-use retail rate, something between retail and the utility's avoided cost, or only the avoided or wholesale cost.[^16,18] California is one example of a change: the [California Public Utilities Commission](https://www.cpuc.ca.gov/nbt) adopted a Net Billing Tariff in December 2022 as the successor to its earlier net metering, for customers who applied to connect on or after 15 April 2023.[^19] State electricity prices are charted in [US Energy Data](/data-sources/us-energy-data/).[^22]
+**Prices and rules.** What a kilowatt-hour sent to the grid earns is set by each state and utility. DSIRE, established in 1995 and operated by the NC Clean Energy Technology Center at NC State University, tracks these policies and incentives across the United States.[^15] Its May 2026 map of net metering for investor-owned utilities counts, in its key, 28 states, DC and four territories whose utilities offer net metering, 16 states with net billing or some other payment for exported power, and one with none.[^17] A label on the same map says 27 states.[^17] A companion map sorts states by what an exported kilowatt-hour earns: the full retail rate (true net metering), a time-of-use retail rate, something between retail and the utility's avoided cost, or only the avoided or wholesale cost.[^16,18] California is one example of a change: the [California Public Utilities Commission](https://www.cpuc.ca.gov/nbt) adopted a Net Billing Tariff in December 2022 as the successor to its earlier net metering, for customers who applied to connect on or after 15 April 2023.[^19] State electricity prices are charted in [US Energy Data](/data-sources/energy/us-energy-data/).[^22]
 
 ## Who sells an answer
 

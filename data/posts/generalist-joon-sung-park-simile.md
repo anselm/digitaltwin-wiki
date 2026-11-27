@@ -28,7 +28,7 @@ relations:
   - predicate: cites
     target: engines/people-and-populations/generative-agents
   - predicate: cites
-    target: articles/park-social-simulacra
+    target: articles/people/park-social-simulacra
 provenance:
   origin: agent
   sources:
@@ -43,4 +43,4 @@ Mario Gabriele's interview with [Joon Sung Park](/people/joon-sung-park/), co-fo
 
 Park opens on science fiction: advanced civilisations there tend to have two pillars of progress, some form of AGI and a simulation, and he was "always more drawn to the idea of simulation".[^1] He names Asimov's Foundation series and its psychohistory as a core inspiration for Simile, in the sense of giving a simulator a desired end state and working backwards to the path there.[^1] By Gabriele's account, Park's long-run aim is to give Simile a wicked problem such as climate change and have it simulate many possible paths so the best one can be found.[^1]
 
-The episode's chapters include the step from [Schelling's](/people/thomas-schelling/) agent-based models to AI simulations, the ethical questions simulation raises, how Simile gathers its data, public and hidden data and how it collects them, gaining trust, use cases from legal strategy to finding a partner, SimReddit (the tool from Park's [Social Simulacra](/articles/park-social-simulacra/) paper), and a surprising result from a simulation about electric vehicles.[^1] Asked who wins when outcomes become predictable, Park points to point of view, proprietary data and compute as where an edge might remain.[^1] The resources listed with the episode include the [generative agents](/engines/people-and-populations/generative-agents/) paper and the Stanford report On the Opportunities and Risks of Foundation Models.[^1]
+The episode's chapters include the step from [Schelling's](/people/thomas-schelling/) agent-based models to AI simulations, the ethical questions simulation raises, how Simile gathers its data, public and hidden data and how it collects them, gaining trust, use cases from legal strategy to finding a partner, SimReddit (the tool from Park's [Social Simulacra](/articles/people/park-social-simulacra/) paper), and a surprising result from a simulation about electric vehicles.[^1] Asked who wins when outcomes become predictable, Park points to point of view, proprietary data and compute as where an edge might remain.[^1] The resources listed with the episode include the [generative agents](/engines/people-and-populations/generative-agents/) paper and the Stanford report On the Opportunities and Risks of Foundation Models.[^1]

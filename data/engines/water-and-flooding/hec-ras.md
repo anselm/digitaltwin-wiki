@@ -37,13 +37,13 @@ relations:
     target: questions/flooding
     note: where river or rain water goes over a terrain, and how deep and fast
   - predicate: needs
-    target: data-sources/fabdem
+    target: data-sources/places/fabdem
     note: a bare-earth terrain model is the first input to a 2D model; FABDEM is one where no lidar exists
   - predicate: needs
-    target: data-sources/copernicus-dem
+    target: data-sources/places/copernicus-dem
     note: a global terrain alternative, as a surface model
   - predicate: needs
-    target: data-sources/dynamic-world
+    target: data-sources/places/dynamic-world
     note: a land cover layer to map to Manning's n and percent impervious
   - predicate: alternative_to
     target: engines/water-and-flooding/noaa-national-water-model
@@ -90,4 +90,4 @@ Version 7.0.2 was released on 20 October 2026 as a bug-fix release for 7.0 and 7
 
 Anyone may download and use the software without charge; HEC gives no user support outside the Corps but responds to documented program errors.[^2,6] Its terms grant the right to install, use, copy and distribute the software, while all copies remain HEC's property and may not be modified, decompiled or reverse engineered; it is supplied as is.[^5] HEC's policy generally discourages distributing source code and decides case by case, so HEC-RAS is free rather than open source.[^6]
 
-For someone modelling a place, HEC-RAS is the engineer's standard route from a terrain model, a land cover layer and inflows or rain to a map of where water goes and how deep.[^4,7,8] Where lidar is missing, [FABDEM](/data-sources/fabdem/) supplies a bare-earth terrain at 30 m and [Dynamic World](/data-sources/dynamic-world/) a land cover layer to map to roughness; HEC-HMS or a forecast such as the [National Water Model](/engines/water-and-flooding/noaa-national-water-model/) gives the flows at the upstream edge.
+For someone modelling a place, HEC-RAS is the engineer's standard route from a terrain model, a land cover layer and inflows or rain to a map of where water goes and how deep.[^4,7,8] Where lidar is missing, [FABDEM](/data-sources/places/fabdem/) supplies a bare-earth terrain at 30 m and [Dynamic World](/data-sources/places/dynamic-world/) a land cover layer to map to roughness; HEC-HMS or a forecast such as the [National Water Model](/engines/water-and-flooding/noaa-national-water-model/) gives the flows at the upstream edge.

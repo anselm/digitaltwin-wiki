@@ -27,7 +27,7 @@ tool:
 domains: [places]
 relations:
   - predicate: built_on
-    target: data-sources/openstreetmap-osm
+    target: data-sources/places/openstreetmap-osm
     note: geographic data credited to OpenStreetMap contributors (ODbL)
 provenance:
   origin: agent

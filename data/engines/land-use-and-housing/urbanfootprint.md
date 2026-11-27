@@ -114,5 +114,5 @@ An earlier version is open. UrbanFootprint 1.5, from Calthorpe Analytics, is on 
 The data is for the United States only, and the service is priced for organisations. Three things can be taken from it without a subscription.
 
 - **The canvas:** one table with a row for each parcel, and every other dataset joined to it before any analysis starts. Most of the work in a model of a place is this alignment.
-- **The composite score:** multiplying hazard by exposure by vulnerability to rank assets or neighbourhoods needs no simulation. The [FEMA National Risk Index](/data-sources/fema-national-risk-index/) publishes scores of this kind for every county and census tract in the United States at no charge.
+- **The composite score:** multiplying hazard by exposure by vulnerability to rank assets or neighbourhoods needs no simulation. The [FEMA National Risk Index](/data-sources/places/fema-national-risk-index/) publishes scores of this kind for every county and census tract in the United States at no charge.
 - **The Envision Utah sequence:** a few drawn futures, the same measures computed for each, and a public vote.

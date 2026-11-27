@@ -26,13 +26,13 @@ relations:
   - predicate: cites
     target: engines/weather-and-climate/e3sm
   - predicate: cites
-    target: data-sources/cmip6
+    target: data-sources/climate/cmip6
   - predicate: cites
-    target: data-sources/geomip
+    target: data-sources/climate/geomip
   - predicate: cites
-    target: data-sources/cdrmip
+    target: data-sources/climate/cdrmip
   - predicate: cites
-    target: data-sources/glens-and-arise-sai
+    target: data-sources/climate/glens-and-arise-sai
   - predicate: cites
     target: terms/geoengineering
 domains:
@@ -71,13 +71,13 @@ NASA's Advisory Council set up an Earth System Sciences Committee in 1983 to loo
 
 ## The spectrum
 
-Earth system models sit at the expensive end of a range. Claussen and colleagues gave the middle its name in 2002: Earth system models of intermediate complexity, or EMICs, which the IPCC glossary describes as representing climate processes at lower resolution or in a simpler, more idealised way.[^1,4] Below them are box models and emulators.[^1] The range is used on purpose: [CDRMIP](/data-sources/cdrmip/) brings full models, EMICs and box models into one framework because the full models are affordable only for the coming century while questions about carbon removal run for a thousand years.[^8]
+Earth system models sit at the expensive end of a range. Claussen and colleagues gave the middle its name in 2002: Earth system models of intermediate complexity, or EMICs, which the IPCC glossary describes as representing climate processes at lower resolution or in a simpler, more idealised way.[^1,4] Below them are box models and emulators.[^1] The range is used on purpose: [CDRMIP](/data-sources/climate/cdrmip/) brings full models, EMICs and box models into one framework because the full models are affordable only for the coming century while questions about carbon removal run for a thousand years.[^8]
 
-On this site, NCAR's [CESM](/engines/weather-and-climate/cesm/) and the Department of Energy's [E3SM](/engines/weather-and-climate/e3sm/) are the two American Earth system models with entries of their own; the eight models with [GeoMIP](/data-sources/geomip/) output, among them UKESM1, CanESM5 and CNRM-ESM2-1, carry the label in their names. [CMIP6](/data-sources/cmip6/) is where their output is shared.
+On this site, NCAR's [CESM](/engines/weather-and-climate/cesm/) and the Department of Energy's [E3SM](/engines/weather-and-climate/e3sm/) are the two American Earth system models with entries of their own; the eight models with [GeoMIP](/data-sources/climate/geomip/) output, among them UKESM1, CanESM5 and CNRM-ESM2-1, carry the label in their names. [CMIP6](/data-sources/climate/cmip6/) is where their output is shared.
 
 ## Ensembles
 
-A single run of an Earth system model mixes the response to a forcing with the model's own weather, so the models are run in ensembles. The IPCC glossary distinguishes three kinds. Ensembles of the same model from different initial conditions characterise the uncertainty from internal variability; multi-model ensembles add the effect of differences between models; and perturbed-parameter ensembles vary a single model's parameters systematically to measure the uncertainty inside it.[^1] Clara Deser and colleagues reviewed the initial-condition large ensembles in 2020: a collection made with seven Earth system models, under historical and future forcing, which separates uncertainty due to internal variability from uncertainty due to model differences. Internal variability, they write, "imposes irreducible limits on the accuracy of climate change projections, especially at regional and decadal scales".[^5] The two ensembles of [stratospheric aerosol injection](/terms/geoengineering/), [GLENS and ARISE-SAI](/data-sources/glens-and-arise-sai/), are of this kind.
+A single run of an Earth system model mixes the response to a forcing with the model's own weather, so the models are run in ensembles. The IPCC glossary distinguishes three kinds. Ensembles of the same model from different initial conditions characterise the uncertainty from internal variability; multi-model ensembles add the effect of differences between models; and perturbed-parameter ensembles vary a single model's parameters systematically to measure the uncertainty inside it.[^1] Clara Deser and colleagues reviewed the initial-condition large ensembles in 2020: a collection made with seven Earth system models, under historical and future forcing, which separates uncertainty due to internal variability from uncertainty due to model differences. Internal variability, they write, "imposes irreducible limits on the accuracy of climate change projections, especially at regional and decadal scales".[^5] The two ensembles of [stratospheric aerosol injection](/terms/geoengineering/), [GLENS and ARISE-SAI](/data-sources/climate/glens-and-arise-sai/), are of this kind.
 
 ## For a model of a place
 

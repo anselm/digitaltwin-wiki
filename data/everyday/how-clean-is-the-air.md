@@ -30,7 +30,7 @@ relations:
   - predicate: needs
     target: engines/sensory-landscape/gral
   - predicate: needs
-    target: data-sources/openstreetmap-osm
+    target: data-sources/places/openstreetmap-osm
 provenance:
   origin: agent
   sources:
@@ -85,7 +85,7 @@ People choosing a home or a school ask, and so do parents, people with heart or 
 
 **Street-level variation.** Apte and colleagues fitted Google Street View cars with fast-response instruments and drove every street in a 30 km² area of Oakland, California, repeatedly. Their maps of annual daytime nitric oxide, nitrogen dioxide and black carbon at a 30-metre scale showed stable patterns, with levels varying up to five to eight times within a single city block because of local sources.[^12] Fixed monitors miss variation at that scale, and it is the scale of a front door.
 
-**Models for one street.** A dispersion model such as [GRAL](/engines/sensory-landscape/gral/) computes how pollution from roads and other sources spreads between buildings, from traffic, weather and street geometry, which can come from [OpenStreetMap](/data-sources/openstreetmap-osm/).[^14] [UrbanAIR](/twins/urbanair/) is a research project bringing Destination Earth forecasts down to street level for air quality in European cities.[^15]
+**Models for one street.** A dispersion model such as [GRAL](/engines/sensory-landscape/gral/) computes how pollution from roads and other sources spreads between buildings, from traffic, weather and street geometry, which can come from [OpenStreetMap](/data-sources/places/openstreetmap-osm/).[^14] [UrbanAIR](/twins/urbanair/) is a research project bringing Destination Earth forecasts down to street level for air quality in European cities.[^15]
 
 ## Who sells an answer
 

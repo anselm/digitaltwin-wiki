@@ -49,7 +49,7 @@ Each parcel records its owner, its manager, its designation (a wilderness area, 
 - 3: protection from conversion over most of the area, with logging, mining or off-road vehicles allowed, as in national forests and BLM land[^1]
 - 4: no known mandate or easement against conversion, as in private, developed or farmed land[^1]
 
-An IUCN category and a World Database on Protected Areas site code link each record to the global inventory behind [Protected Planet](/data-sources/protected-planet/).[^1,3]
+An IUCN category and a World Database on Protected Areas site code link each record to the global inventory behind [Protected Planet](/data-sources/ecology/protected-planet/).[^1,3]
 
 For a model of a place, PAD-US says who owns and manages the open land and how strongly it is protected.[^1] Across agency lines it is the public-land part of the [rules layer](/terms/rules-layer/). The overview lists uses from biodiversity planning and climate corridors to siting energy projects and planning parks.[^1] It is a compilation, so for one agency's land, for data that changes often, or for any use with a regulatory outcome, the authoritative agency data and field surveys should be checked.[^1] Comparing two versions to find changes in protection is discouraged, since many differences come from better agency GIS rather than land changing hands.[^2]
 

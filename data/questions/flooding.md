@@ -45,7 +45,7 @@ The output is depth and extent, usually for a handful of storm sizes. The same m
 
 - Ground heights for your area, and the drainage network if a utility holds it.
 - Records of past floods: photos, insurance claims, the high-water marks people remember. They are how you check a model, and [checking it](/guides/check-it-against-what-happened/) is the step people skip.
-- River and rain gauges. In the United States, start with the [USGS water data](/data-sources/usgs-water-data/).
+- River and rain gauges. In the United States, start with the [USGS water data](/data-sources/water/usgs-water-data/).
 
 ## Without a model
 

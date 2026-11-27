@@ -28,7 +28,7 @@ domains:
   - ecology
 relations:
   - predicate: needs
-    target: data-sources/inaturalist
+    target: data-sources/ecology/inaturalist
   - predicate: needs
     target: engines/ecosystems-and-land/dssat
 provenance:
@@ -81,7 +81,7 @@ Home gardeners, people who have just bought a house, community gardens and lands
 
 **Sun and shade.** The hours of sun on one bed can be worked out from building and tree heights and the sun's path, as rooftop solar services already do. Google's Environmental Insights Explorer, for example, estimates the solar potential of buildings from sunshine exposure, weather patterns and roof dimensions.[^10]
 
-**What already grows nearby.** Plants that neighbours have recorded on [iNaturalist](/data-sources/inaturalist/) show what survives in the surrounding streets.
+**What already grows nearby.** Plants that neighbours have recorded on [iNaturalist](/data-sources/ecology/inaturalist/) show what survives in the surrounding streets.
 
 ## Who sells an answer
 

@@ -30,7 +30,7 @@ relations:
   - predicate: example_of
     target: questions/wildfire
   - predicate: needs
-    target: data-sources/global-nature-watch
+    target: data-sources/ecology/global-nature-watch
 provenance:
   origin: agent
   sources:
@@ -102,7 +102,7 @@ Rain and drought set by El Niño; drainage canals that lower the water table in 
 
 ## Where to start
 
-The forestry ministry's SiPongi platform publishes hotspots from NASA's Terra and Aqua satellites and official burned-area figures.[^2,10] Copernicus's [Fire Emissions Watch](/data-sources/cams-fire-emissions-watch/) gives fire emissions.[^10] Gaveau and colleagues mapped burn scars from Sentinel-2 images in Google Earth Engine,[^2] and [Copernicus Data Space](/data-sources/copernicus-data-space/) serves satellite observations. [Global Nature Watch](/data-sources/global-nature-watch/), formerly Global Forest Watch, carries tree cover loss, and WRI counted Indonesia's 2019 fire alerts on its fires site.[^3] Koplitz and colleagues combined the adjoint of the GEOS-Chem chemical transport model with emissions from the Global Fire Assimilation System to trace downwind smoke back to the provinces it came from, and described it as a way to assess exposure in near real time.[^1] The [use case on land use](/questions/land-use-change/) and the one on [wildfire](/questions/wildfire/) list more.
+The forestry ministry's SiPongi platform publishes hotspots from NASA's Terra and Aqua satellites and official burned-area figures.[^2,10] Copernicus's [Fire Emissions Watch](/data-sources/fire/cams-fire-emissions-watch/) gives fire emissions.[^10] Gaveau and colleagues mapped burn scars from Sentinel-2 images in Google Earth Engine,[^2] and [Copernicus Data Space](/data-sources/places/copernicus-data-space/) serves satellite observations. [Global Nature Watch](/data-sources/ecology/global-nature-watch/), formerly Global Forest Watch, carries tree cover loss, and WRI counted Indonesia's 2019 fire alerts on its fires site.[^3] Koplitz and colleagues combined the adjoint of the GEOS-Chem chemical transport model with emissions from the Global Fire Assimilation System to trace downwind smoke back to the provinces it came from, and described it as a way to assess exposure in near real time.[^1] The [use case on land use](/questions/land-use-change/) and the one on [wildfire](/questions/wildfire/) list more.
 
 The policy levers a model would need to represent:
 

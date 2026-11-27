@@ -19,7 +19,7 @@ term:
     - forest ecosystem integrity
 relations:
   - predicate: cites
-    target: articles/primary-forest-definitions-data-methods
+    target: articles/ecology/primary-forest-definitions-data-methods
 domains:
   - ecology
   - climate

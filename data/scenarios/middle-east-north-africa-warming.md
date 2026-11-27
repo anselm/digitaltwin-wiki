@@ -26,7 +26,7 @@ relations:
   - predicate: example_of
     target: questions/weather-and-climate
   - predicate: needs
-    target: data-sources/climate-reanalyzer
+    target: data-sources/climate/climate-reanalyzer
 provenance:
   origin: agent
   sources:
@@ -71,4 +71,4 @@ The regional climate sets the background, and it differs between the hot inland 
 
 ## Where to start
 
-The [study](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JD041625) is open access and gives the downscaled projections for the region; its authors are at KAUST.[^1] Daily air temperature from ERA5 can be followed on [Climate Reanalyzer](/data-sources/climate-reanalyzer/). The [use case on weather and climate](/questions/weather-and-climate/) separates the regional climate from the heat on a single street.
+The [study](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JD041625) is open access and gives the downscaled projections for the region; its authors are at KAUST.[^1] Daily air temperature from ERA5 can be followed on [Climate Reanalyzer](/data-sources/climate/climate-reanalyzer/). The [use case on weather and climate](/questions/weather-and-climate/) separates the regional climate from the heat on a single street.

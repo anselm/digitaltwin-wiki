@@ -34,7 +34,7 @@
       if (h.work.publisher) w.publisher = { '@type': 'Organization', name: h.work.publisher }
       page.citation = w
     }
-    const trail = [{ name: NAME, url: SITE + '/' }, ...(h.shelf ? [{ name: h.shelf.label, url: SITE + h.shelf.url }] : []), { name: data.label, url }]
+    const trail = [{ name: NAME, url: SITE + '/' }, ...h.trail.map((t) => ({ name: t.label, url: SITE + t.url })), { name: data.label, url }]
     const crumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: trail.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t.name, item: t.url })) }
     return [page, crumbs]
   })

@@ -28,7 +28,7 @@ relations:
   - predicate: example_of
     target: questions/land-use-change
   - predicate: needs
-    target: data-sources/usgs-water-data
+    target: data-sources/water/usgs-water-data
 provenance:
   origin: agent
   sources:
@@ -96,4 +96,4 @@ Surface water arrives in some years and not others, and pumping makes up the dif
 
 ## Where to start
 
-The Department of Water Resources publishes InSAR measurements of ground movement for more than 200 of the state's groundwater basins on 100-metre points, from Sentinel-1 radar processed by TRE Altamira and checked against GPS stations, updated quarterly.[^13,14] Its dataset page still describes the record as running to April 2022, but the April 2026 update report extends it to 1 April 2026.[^13,14] The Dry Well Reporting System publishes each household report with its location and, where given, the well's depth.[^15,16] Stream and groundwater observations are in [USGS Water Data](/data-sources/usgs-water-data/), and the USGS has measured aquifer compaction with extensometers on the valley floor since the 1960s.[^12] The [use case on land use](/questions/land-use-change/) covers what changes when farmland changes use.
+The Department of Water Resources publishes InSAR measurements of ground movement for more than 200 of the state's groundwater basins on 100-metre points, from Sentinel-1 radar processed by TRE Altamira and checked against GPS stations, updated quarterly.[^13,14] Its dataset page still describes the record as running to April 2022, but the April 2026 update report extends it to 1 April 2026.[^13,14] The Dry Well Reporting System publishes each household report with its location and, where given, the well's depth.[^15,16] Stream and groundwater observations are in [USGS Water Data](/data-sources/water/usgs-water-data/), and the USGS has measured aquifer compaction with extensometers on the valley floor since the 1960s.[^12] The [use case on land use](/questions/land-use-change/) covers what changes when farmland changes use.

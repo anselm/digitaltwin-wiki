@@ -31,39 +31,39 @@ relations:
   - predicate: built_on
     target: presentation/cesiumjs
   - predicate: needs
-    target: data-sources/google-photorealistic-3d-tiles
+    target: data-sources/places/google-photorealistic-3d-tiles
   - predicate: needs
-    target: data-sources/opensky-network
+    target: data-sources/mobility/opensky-network
   - predicate: needs
-    target: data-sources/aisstream
+    target: data-sources/mobility/aisstream
   - predicate: needs
-    target: data-sources/usgs-earthquake-catalog
+    target: data-sources/places/usgs-earthquake-catalog
   - predicate: needs
-    target: data-sources/nasa-firms
+    target: data-sources/fire/nasa-firms
   - predicate: needs
-    target: data-sources/nifc-wfigs
+    target: data-sources/fire/nifc-wfigs
   - predicate: needs
-    target: data-sources/nhc-tropical-cyclone-advisories
+    target: data-sources/climate/nhc-tropical-cyclone-advisories
   - predicate: needs
-    target: data-sources/noaa-gfs
+    target: data-sources/climate/noaa-gfs
   - predicate: needs
-    target: data-sources/ecmwf-open-data
+    target: data-sources/climate/ecmwf-open-data
   - predicate: needs
-    target: data-sources/nasa-gibs
+    target: data-sources/climate/nasa-gibs
   - predicate: needs
-    target: data-sources/openstreetmap-osm
+    target: data-sources/places/openstreetmap-osm
   - predicate: needs
-    target: data-sources/mapillary
+    target: data-sources/places/mapillary
   - predicate: needs
-    target: data-sources/panoramax
+    target: data-sources/places/panoramax
   - predicate: needs
-    target: data-sources/kartaview
+    target: data-sources/places/kartaview
   - predicate: needs
-    target: data-sources/overture-maps
+    target: data-sources/places/overture-maps
   - predicate: needs
-    target: data-sources/gdelt
+    target: data-sources/people/gdelt
   - predicate: needs
-    target: data-sources/open-meteo
+    target: data-sources/climate/open-meteo
   - predicate: needs
     target: ontologies/gtfs
   - predicate: needs
@@ -82,14 +82,14 @@ provenance:
 ---
 God's Eye View grew out of a video series of the same name, earlier called WorldView, in which a 3D globe tracks live aircraft and ships in the look of a military operations room. The code was opened in 2026 under the MIT licence. The maintainers are Bilawal Sidhu and Sameh Khamis at Halfpixel.
 
-It runs in the browser on your own machine and starts without any API keys. The planet is [Google Photorealistic 3D Tiles](/data-sources/google-photorealistic-3d-tiles/) drawn with [CesiumJS](/presentation/cesiumjs/), in plain JavaScript with no framework. Layers include:
+It runs in the browser on your own machine and starts without any API keys. The planet is [Google Photorealistic 3D Tiles](/data-sources/places/google-photorealistic-3d-tiles/) drawn with [CesiumJS](/presentation/cesiumjs/), in plain JavaScript with no framework. Layers include:
 
-- aircraft from [OpenSky](/data-sources/opensky-network/) and ships from [AISStream](/data-sources/aisstream/)
+- aircraft from [OpenSky](/data-sources/mobility/opensky-network/) and ships from [AISStream](/data-sources/mobility/aisstream/)
 - satellites placed from their published orbital elements
-- earthquakes from the [USGS catalogue](/data-sources/usgs-earthquake-catalog/), fires from [FIRMS](/data-sources/nasa-firms/) and [WFIGS](/data-sources/nifc-wfigs/), and [cyclone advisories](/data-sources/nhc-tropical-cyclone-advisories/)
-- forecast wind from [GFS](/data-sources/noaa-gfs/) or [ECMWF Open Data](/data-sources/ecmwf-open-data/), radar and cloud, and recent satellite imagery from [GIBS](/data-sources/nasa-gibs/)
-- public traffic cameras, and licence-plate reader locations tagged in [OpenStreetMap](/data-sources/openstreetmap-osm/)
-- street-level photos from [Mapillary](/data-sources/mapillary/), [Panoramax](/data-sources/panoramax/) and [KartaView](/data-sources/kartaview/)
+- earthquakes from the [USGS catalogue](/data-sources/places/usgs-earthquake-catalog/), fires from [FIRMS](/data-sources/fire/nasa-firms/) and [WFIGS](/data-sources/fire/nifc-wfigs/), and [cyclone advisories](/data-sources/climate/nhc-tropical-cyclone-advisories/)
+- forecast wind from [GFS](/data-sources/climate/noaa-gfs/) or [ECMWF Open Data](/data-sources/climate/ecmwf-open-data/), radar and cloud, and recent satellite imagery from [GIBS](/data-sources/climate/nasa-gibs/)
+- public traffic cameras, and licence-plate reader locations tagged in [OpenStreetMap](/data-sources/places/openstreetmap-osm/)
+- street-level photos from [Mapillary](/data-sources/places/mapillary/), [Panoramax](/data-sources/places/panoramax/) and [KartaView](/data-sources/places/kartaview/)
 - live transit vehicles from [GTFS Realtime](/ontologies/gtfs/) feeds, bikeshare stations from [GBFS](/ontologies/gbfs/), and routes from [OSRM](/platforms/osrm/)
 - road traffic, simulated along real roads from aggregate data
 

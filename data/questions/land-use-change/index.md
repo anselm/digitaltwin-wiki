@@ -33,13 +33,13 @@ Models of **ecosystem services**, the benefits people get from land and nature s
 
 On this site: [InVEST](/engines/ecosystems-and-land/invest/) for ecosystem services, [DSSAT](/engines/ecosystems-and-land/dssat/) for crops, [GCAM](/engines/ecosystems-and-land/gcam/) for the regional and global scale, and [Earth Index](/capture/earth-genome-earth-index/) for finding features in satellite imagery.
 
-When the change is a city growing, heat joins the list. [Cool Cities Lab](/engines/weather-and-climate/cool-cities-lab/) estimates what trees, cool roofs and shade do to air temperature in a city, and [PALM](/engines/weather-and-climate/palm/) simulates air flow and heat street by street. A 2026 [review of 116 studies](/articles/almulhim-urbanization-land-cover-climate/) treats urban growth, the land it converts and the heat that follows as one loop.
+When the change is a city growing, heat joins the list. [Cool Cities Lab](/engines/weather-and-climate/cool-cities-lab/) estimates what trees, cool roofs and shade do to air temperature in a city, and [PALM](/engines/weather-and-climate/palm/) simulates air flow and heat street by street. A 2026 [review of 116 studies](/articles/places/almulhim-urbanization-land-cover-climate/) treats urban growth, the land it converts and the heat that follows as one loop.
 
 ## What you need
 
-- A land-cover map now and under each plan. Satellite data from [Copernicus](/data-sources/copernicus-data-space/) is free. The plan is yours to draw.
+- A land-cover map now and under each plan. Satellite data from [Copernicus](/data-sources/places/copernicus-data-space/) is free. The plan is yours to draw.
 - Terrain and soils.
-- Species records: [iNaturalist](/data-sources/inaturalist/) holds observations people have made in your area.
+- Species records: [iNaturalist](/data-sources/ecology/inaturalist/) holds observations people have made in your area.
 - What the land yields now, from the people who farm it.
 
 ## In real places
@@ -48,7 +48,7 @@ In Indonesia, fires set or spread on drained peat send haze across the region in
 
 ## If a mandate sent you
 
-The [30 by 30 target](/mandates/thirty-by-thirty/) makes this a counting question first: which land counts as conserved, where the gaps by habitat are, and what a change of use would do to coverage and connectivity. [Protected Planet](/data-sources/protected-planet/) is the record it is measured against.
+The [30 by 30 target](/mandates/thirty-by-thirty/) makes this a counting question first: which land counts as conserved, where the gaps by habitat are, and what a change of use would do to coverage and connectivity. [Protected Planet](/data-sources/ecology/protected-planet/) is the record it is measured against.
 
 ## Without a model
 
