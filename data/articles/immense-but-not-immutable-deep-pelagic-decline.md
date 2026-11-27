@@ -6,6 +6,7 @@ about:
     genetics in the Gulf of Mexico found fish, krill and squid down 60 to 85%
     after the Deepwater Horizon spill, with no recovery.
   tags:
+    - observation
     - Deepwater Horizon
     - oil spill
     - deep sea

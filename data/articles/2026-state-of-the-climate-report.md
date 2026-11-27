@@ -6,6 +6,7 @@ about:
     Christopher Wolf and colleagues in BioScience; in 2026 seven of the
     sixteen are at record extremes.
   tags:
+    - observation
     - climate
     - vital signs
     - indicators

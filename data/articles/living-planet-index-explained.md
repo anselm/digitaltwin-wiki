@@ -6,6 +6,7 @@ about:
     2026 Living Planet Index measures, and on the wildlife populations behind
     its average.
   tags:
+    - observation
     - biodiversity
     - wildlife
     - index

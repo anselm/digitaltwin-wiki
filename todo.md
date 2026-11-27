@@ -6,6 +6,11 @@ One list for the project, kept current. Decisions and reasoning live in
 
 ## Anselm's
 
+- Observations shelf (draft, 2026-11-27): accept, rename or remove; and
+  whether observations should carry structured fields (quantity, baseline,
+  period, region, driver) so a model can read them
+  (`devlog/20261127-observations-shelf.md`). The water paper's entry is from
+  the abstract only; the full text is paywalled.
 - Almulhim's review (`articles/almulhim-urbanization-land-cover-climate`,
   draft, 2026-11-22): the journal, date and DOI were not found, so the entry
   has no address. Send the link or the LinkedIn post. The cloud session

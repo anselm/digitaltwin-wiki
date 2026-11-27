@@ -10,6 +10,7 @@ about:
   aliases:
     - "Restoration progress report: Nature's comeback"
   tags:
+    - observation
     - ecosystem restoration
     - Target 2
     - UN Decade on Ecosystem Restoration

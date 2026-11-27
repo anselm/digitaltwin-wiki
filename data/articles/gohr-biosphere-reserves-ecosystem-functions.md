@@ -6,6 +6,7 @@ about:
     compared inside and outside 119 UNESCO biosphere reserves: only 18 scored
     higher on all of them inside.
   tags:
+    - observation
     - protected areas
     - biosphere reserves
     - UNESCO

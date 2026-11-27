@@ -6,6 +6,7 @@ about:
     the rise in extreme water levels at 519 tide gauges worldwide is due to
     human-caused sea level rise.
   tags:
+    - observation
     - sea level rise
     - coastal flooding
     - tide gauge

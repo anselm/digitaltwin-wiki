@@ -7,6 +7,7 @@ about:
     volcanoes and the sun out of five global temperature records; what is
     left shows warming speeding up since about 2015.
   tags:
+    - observation
     - climate
     - global temperature
     - acceleration

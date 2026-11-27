@@ -6,6 +6,7 @@ about:
     record year, burned only the historical average share of forest, and that
     what is unprecedented is how severely it burns.
   tags:
+    - observation
     - wildfire
     - fire history
     - tree rings

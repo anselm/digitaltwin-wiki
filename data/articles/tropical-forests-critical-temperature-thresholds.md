@@ -6,6 +6,7 @@ about:
     maps for 208 tropical tree species show forests nearing the critical
     temperature for photosynthesis.
   tags:
+    - observation
     - tropical forests
     - heat
     - photosynthesis

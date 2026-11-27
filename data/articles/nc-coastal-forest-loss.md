@@ -4,6 +4,7 @@ about:
   description: >-
     A 2026 PLOS One paper that uses convolutional neural networks on Landsat and Sentinel-2 imagery to map 37 years of forest loss to ghost forest and marsh on the North Carolina coastal plain.
   tags:
+    - observation
     - ghost forests
     - sea level rise
     - land cover

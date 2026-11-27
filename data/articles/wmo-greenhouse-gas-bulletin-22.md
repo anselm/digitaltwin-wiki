@@ -11,6 +11,7 @@ about:
     - 'The State of Greenhouse Gases in the Atmosphere Using Global Observations up to December 2025'
     - GHG Bulletin 22
   tags:
+    - observation
     - carbon dioxide
     - methane
     - nitrous oxide
