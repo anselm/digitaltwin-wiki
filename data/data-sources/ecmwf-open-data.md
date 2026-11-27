@@ -34,7 +34,7 @@ domains:
   - climate
 relations:
   - predicate: built_on
-    target: engines/aifs
+    target: engines/weather-and-climate/aifs
     note: forecasts from the AIFS machine-learning model are published here as they are produced
   - predicate: alternative_to
     target: data-sources/noaa-gfs
@@ -55,7 +55,7 @@ provenance:
   reviewed_by: 'Claude, from the sources listed'
   status: draft
 ---
-ECMWF Open Data is the part of the real-time forecasts of the European Centre for Medium-Range Weather Forecasts (ECMWF) that anyone can download free of charge.[^1,2] It is a subset of ECMWF's full catalogue of real-time products, drawn from its medium-range forecasts.[^1] Two models feed it: the Integrated Forecasting System (IFS), ECMWF's physics-based model, and the [AIFS](/engines/aifs/), its machine-learning model.[^1] Both come as a single forecast and as an ensemble, a set of forecasts started from slightly different conditions whose spread shows how certain the forecast is.[^1]
+ECMWF Open Data is the part of the real-time forecasts of the European Centre for Medium-Range Weather Forecasts (ECMWF) that anyone can download free of charge.[^1,2] It is a subset of ECMWF's full catalogue of real-time products, drawn from its medium-range forecasts.[^1] Two models feed it: the Integrated Forecasting System (IFS), ECMWF's physics-based model, and the [AIFS](/engines/weather-and-climate/aifs/), its machine-learning model.[^1] Both come as a single forecast and as an ensemble, a set of forecasts started from slightly different conditions whose spread shows how certain the forecast is.[^1]
 
 The IFS fields cover pressure, temperature, humidity and wind at 14 pressure levels from 1000 to 10 hPa.[^1] At the surface they give wind at 10 m and 100 m, gusts, 2 m temperature and dew point, cloud cover, precipitation and its type, snow, runoff, soil water and temperature in four layers, and radiation.[^1] They also include sea surface height, sea ice thickness and ocean currents, and from the wave model significant wave height, period and direction.[^1] From the ensemble come means, spreads and probabilities, such as the chance of more than 20 mm of rain in a day or of gusts above 25 m/s, and tropical cyclone tracks.[^1] The AIFS single forecast and ensemble carry a similar atmospheric set, with soil in two layers rather than four, plus waves, cyclone tracks and, for the ensemble, means and probabilities.[^1] A seasonal sea surface temperature product was listed as not yet available in October 2026.[^1]
 

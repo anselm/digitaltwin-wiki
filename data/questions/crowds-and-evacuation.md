@@ -27,7 +27,7 @@ Someone is designing a concourse, planning an event, or writing an evacuation pl
 
 An **agent-based pedestrian model** simulates each person separately, with a goal, a walking speed and simple rules for avoiding others. Thousands of these together make the crowd, and the model shows bottlenecks that a floor plan hides. For a city-scale evacuation, by car as well as on foot, the same idea runs on the road network, and the hard part is the assumption about when people decide to leave.
 
-On this site, [AnyLogic](/engines/anylogic/) is commercial simulation software with pedestrian and transport libraries. [GAMA](/engines/gama/) is open software for spatial agent-based models, including evacuation.
+On this site, [AnyLogic](/engines/agents-and-system-dynamics/anylogic/) is commercial simulation software with pedestrian and transport libraries. [GAMA](/engines/agents-and-system-dynamics/gama/) is open software for spatial agent-based models, including evacuation.
 
 ## What you need
 

@@ -23,7 +23,7 @@ domains:
   - people
 relations:
   - predicate: needs
-    target: engines/dssat
+    target: engines/ecosystems-and-land/dssat
   - predicate: needs
     target: data-sources/faostat
 provenance:
@@ -59,4 +59,4 @@ Shipping through a disrupted strait; fertiliser supply and price; how a rice cro
 
 ## Where to start
 
-NASA Harvest's Harvest2Market, built with support from the Famine Early Warning Systems Network (FEWS NET), puts crop conditions, trade relationships and food-security indicators side by side, and draws on the GEOGLAM Crop Monitor's monthly assessments of crop conditions worldwide.[^1] Bangladesh is the worked example its team demonstrated at the Center for Strategic and International Studies' AI for Food Security Forum.[^1] A crop model such as [DSSAT](/engines/dssat/) can estimate how yield responds to fertiliser.
+NASA Harvest's Harvest2Market, built with support from the Famine Early Warning Systems Network (FEWS NET), puts crop conditions, trade relationships and food-security indicators side by side, and draws on the GEOGLAM Crop Monitor's monthly assessments of crop conditions worldwide.[^1] Bangladesh is the worked example its team demonstrated at the Center for Strategic and International Studies' AI for Food Security Forum.[^1] A crop model such as [DSSAT](/engines/ecosystems-and-land/dssat/) can estimate how yield responds to fertiliser.

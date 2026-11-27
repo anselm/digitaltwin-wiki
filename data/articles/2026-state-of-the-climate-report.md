@@ -38,7 +38,7 @@ relations:
   - predicate: made_by
     target: people/johan-rockstrom
   - predicate: cites
-    target: engines/en-roads
+    target: engines/participation-and-learning/en-roads
   - predicate: about
     target: terms/tipping-points
   - predicate: answers
@@ -82,4 +82,4 @@ The paper reads the rate of warming as accelerating: about 0.05 °C a decade fro
 
 Two tables are of most use to someone modelling a place. Table 1 lists nineteen extreme weather events from September 2025 to July 2026, with links in the supplement to the ClimaMeter attribution analysis of each; among them, Hurricane Melissa (95 deaths, over US$12 billion in damage), the November 2025 floods in Sumatra (708 deaths) and the June 2026 European heatwave (about 14,000 excess deaths on a preliminary estimate).[^1] Table 2 pairs eight threats (extreme heat, flooding, wildfire, drought, sea-level rise, food system instability, storms and grid failure, freshwater shortage) with "fast-track" adaptation responses and their side benefits: urban trees and reflective roofs for heat, wetland restoration and permeable surfaces for floods, prescribed burns and defensible space for fire, mangroves and living shorelines for the coast, microgrids and batteries for the grid.[^1] The authors expect these measures to work less well as warming grows.[^1]
 
-Among interactive tools for understanding climate solutions, the paper names [En-ROADS](/engines/en-roads/), where a user combines policies, technologies and social changes and sees the effect on warming, and the Drawdown Explorer, which assesses individual solutions for effectiveness, scale, side benefits and risks.[^1] The data are public; the paper itself is under the publisher's standard terms, so its figures are not reproduced here.[^1] The [Vitals](/vitals/) page of this wiki keeps a smaller set of running series from open daily and weekly feeds.
+Among interactive tools for understanding climate solutions, the paper names [En-ROADS](/engines/participation-and-learning/en-roads/), where a user combines policies, technologies and social changes and sees the effect on warming, and the Drawdown Explorer, which assesses individual solutions for effectiveness, scale, side benefits and risks.[^1] The data are public; the paper itself is under the publisher's standard terms, so its figures are not reproduced here.[^1] The [Vitals](/vitals/) page of this wiki keeps a smaller set of running series from open daily and weekly feeds.

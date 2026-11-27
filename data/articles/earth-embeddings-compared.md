@@ -17,17 +17,17 @@ domains:
   - ecology
 relations:
   - predicate: about
-    target: engines/tessera
+    target: engines/earth-observation-and-ai/tessera
   - predicate: about
-    target: engines/alphaearth-prithvi
+    target: engines/earth-observation-and-ai/alphaearth-prithvi
   - predicate: about
-    target: engines/clay
+    target: engines/earth-observation-and-ai/clay
   - predicate: about
-    target: engines/olmoearth
+    target: engines/earth-observation-and-ai/olmoearth
   - predicate: about
-    target: engines/terramind
+    target: engines/earth-observation-and-ai/terramind
   - predicate: about
-    target: engines/satclip
+    target: engines/earth-observation-and-ai/satclip
   - predicate: about
     target: data-sources/major-tom
 provenance:
@@ -76,9 +76,9 @@ provenance:
 ---
 An embedding is a list of numbers that a trained model gives to a piece of the Earth, chosen so that places that look alike get similar lists. With embeddings in hand, mapping crops or finding every quarry in a region comes down to labelling some examples and training a small classifier, which TESSERA's makers say runs on an ordinary CPU.[^2] Several groups now publish open models that make embeddings, and some publish the numbers already computed.[^1,2,3] Four questions decide between seven of them.
 
-**Do you want the numbers ready-made, or will you run a model?** Ready-made is far easier. [TESSERA](/engines/tessera/) publishes yearly embeddings for the whole land surface from 2017 to 2025 under CC0, free to download.[^2] Google's [AlphaEarth](/engines/alphaearth-prithvi/) publishes yearly embeddings inside Earth Engine.[^3] The company lgnd.ai publishes monthly [Clay](/engines/clay/) embeddings of Sentinel-2 for the world from January 2017 to April 2026,[^11] and Clay has embedded the US NAIP aerial archive from 2010 to 2021.[^12] Ai2 publishes yearly [OlmoEarth](/engines/olmoearth/) embeddings on Source Cooperative, worldwide for 2023 to 2025 and for some countries back to 2017, with the earlier years still being computed.[^1] [TerraMind](/engines/terramind/) has to be run on imagery you choose.[^6,13]
+**Do you want the numbers ready-made, or will you run a model?** Ready-made is far easier. [TESSERA](/engines/earth-observation-and-ai/tessera/) publishes yearly embeddings for the whole land surface from 2017 to 2025 under CC0, free to download.[^2] Google's [AlphaEarth](/engines/earth-observation-and-ai/alphaearth-prithvi/) publishes yearly embeddings inside Earth Engine.[^3] The company lgnd.ai publishes monthly [Clay](/engines/earth-observation-and-ai/clay/) embeddings of Sentinel-2 for the world from January 2017 to April 2026,[^11] and Clay has embedded the US NAIP aerial archive from 2010 to 2021.[^12] Ai2 publishes yearly [OlmoEarth](/engines/earth-observation-and-ai/olmoearth/) embeddings on Source Cooperative, worldwide for 2023 to 2025 and for some countries back to 2017, with the earlier years still being computed.[^1] [TerraMind](/engines/earth-observation-and-ai/terramind/) has to be run on imagery you choose.[^6,13]
 
-**What does one embedding describe?** TESSERA, AlphaEarth and OlmoEarth's published set give one per 10 metre square.[^1,2,3] Clay and TerraMind give one per patch of pixels, so the ground each covers depends on the imagery and the settings, and so does OlmoEarth when you run it yourself.[^1,10,14] [SatCLIP](/engines/satclip/) is different in kind: it takes a longitude and latitude, needs no image at all, and describes the broad character of a region, so it suits regional questions such as temperature or population density rather than one field.[^7,15]
+**What does one embedding describe?** TESSERA, AlphaEarth and OlmoEarth's published set give one per 10 metre square.[^1,2,3] Clay and TerraMind give one per patch of pixels, so the ground each covers depends on the imagery and the settings, and so does OlmoEarth when you run it yourself.[^1,10,14] [SatCLIP](/engines/earth-observation-and-ai/satclip/) is different in kind: it takes a longitude and latitude, needs no image at all, and describes the broad character of a region, so it suits regional questions such as temperature or population density rather than one field.[^7,15]
 
 **One moment or a whole year?** TESSERA folds a year of radar and optical passes into each embedding, so a field that greens and browns is told apart from evergreen forest.[^2] AlphaEarth is also annual.[^3] Clay describes one place at one time, so seasons come from comparing dates.[^4] OlmoEarth reads a time series of monthly mosaics, and its published set is one embedding per year.[^1] TerraMind reads a single date unless wrapped for time series.[^6]
 

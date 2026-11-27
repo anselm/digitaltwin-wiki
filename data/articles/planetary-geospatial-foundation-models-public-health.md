@@ -30,7 +30,7 @@ domains:
   - people
 relations:
   - predicate: cites
-    target: engines/population-dynamics-foundations-pdfm
+    target: engines/earth-observation-and-ai/population-dynamics-foundations-pdfm
 provenance:
   origin: agent
   sources:
@@ -42,7 +42,7 @@ provenance:
   status: draft
 ---
 
-Health data run late and stop at borders. Deaths from heart disease in a US county are published one to two years after the fact, censuses are refreshed every few years, and a country's vaccination records end at its border.[^1] This paper asks whether a ready-made numerical summary of each place can fill some of those gaps. The summary comes from Google's [Population Dynamics Foundation Model](/engines/population-dynamics-foundations-pdfm/) (PDFM). For every county or postal area it compresses aggregated web searches, the density and busyness of 1,192 kinds of places such as pharmacies and clinics, weather and air quality into a list of 330 numbers, an embedding, that health researchers can add to the models they already use.[^1] The paper is a preprint on arXiv. Version 2 is dated 17 October 2026. Twenty-two of the thirty-eight authors are at Google, with partners at NYU, Mount Sinai, Boston Children's Hospital, Oxford, the University of Washington, two Mexican universities and the WHO's Africa office.[^1]
+Health data run late and stop at borders. Deaths from heart disease in a US county are published one to two years after the fact, censuses are refreshed every few years, and a country's vaccination records end at its border.[^1] This paper asks whether a ready-made numerical summary of each place can fill some of those gaps. The summary comes from Google's [Population Dynamics Foundation Model](/engines/earth-observation-and-ai/population-dynamics-foundations-pdfm/) (PDFM). For every county or postal area it compresses aggregated web searches, the density and busyness of 1,192 kinds of places such as pharmacies and clinics, weather and air quality into a list of 330 numbers, an embedding, that health researchers can add to the models they already use.[^1] The paper is a preprint on arXiv. Version 2 is dated 17 October 2026. Twenty-two of the thirty-eight authors are at Google, with partners at NYU, Mount Sinai, Boston Children's Hospital, Oxford, the University of Washington, two Mexican universities and the WHO's Africa office.[^1]
 
 There are five case studies, which the paper presents as independent evaluations by its health research partners:[^1]
 - **Measles vaccination on the US-Canada border.** Adding the embeddings of Canadian postal areas within 150 km raised the share of variation explained in the vaccination rates of the 146 US border counties from 0.159 to 0.216. That is a relative gain of about 36%, though still a small share overall. In 24 counties, home to about 2.5 million people, the predicted rate moved by 5 points or more. The Canadian areas that mattered most were in southern Ontario, southern Quebec and southwestern British Columbia.
@@ -55,4 +55,4 @@ The conclusion is less sweeping than the title. The embeddings help most where t
 
 For dengue the embeddings helped at one month; for cholera at four and eight weeks. The authors suggest that, in both, recent case counts had stopped predicting much by then, while the seasonal and weather changes that govern longer horizons had not yet set in.[^1] A summary of place, on this evidence, helps where records are thin and the next month matters. It does little where individual information is what counts: the postpartum study found most of the predictive signal, and the largest gaps between groups, within places rather than between them.[^1]
 
-The method described here differs from the [PDFM entry](/engines/population-dynamics-foundations-pdfm/)'s account of the first version, a graph neural network over neighbouring areas. In this paper each location is processed on its own by an encoder trained to rebuild its own inputs, with set blocks of the 330 numbers for searches, places and environment. For the Congo, where data were too thin for that, a simpler compression to 200 numbers was used.[^1]
+The method described here differs from the [PDFM entry](/engines/earth-observation-and-ai/population-dynamics-foundations-pdfm/)'s account of the first version, a graph neural network over neighbouring areas. In this paper each location is processed on its own by an encoder trained to rebuild its own inputs, with set blocks of the 330 numbers for searches, places and environment. For the Congo, where data were too thin for that, a simpler compression to 200 numbers was used.[^1]

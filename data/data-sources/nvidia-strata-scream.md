@@ -48,4 +48,4 @@ The data is for training and evaluating machine-learning emulators, fast models 
 
 The sdecadal store holds 2,017 timesteps at 10-minute spacing and 29 variables.[^1] The grid is cubed-sphere ne1024pg2,[^1] which divides the globe into six square faces like a cube's. It has 25,165,824 columns about 4.9 km across, with 32 vertical levels.[^1] The card names the simulation F20TR-SCREAMv1.[^1] The whole store is 36.8 TB.[^1] It is licensed CC BY 4.0, and the card says it may be used commercially and non-commercially.[^1]
 
-NVIDIA's own AI weather models are described under [WeatherNext and NVIDIA Earth-2](/engines/weathernext-nvidia-earth-2/).
+NVIDIA's own AI weather models are described under [WeatherNext and NVIDIA Earth-2](/engines/weather-and-climate/weathernext-nvidia-earth-2/).

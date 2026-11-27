@@ -23,6 +23,9 @@
     {/each}
   </section>
 {/if}
+{#if data.folders?.length}
+  <nav class="mt-4 text-sm flex flex-wrap gap-x-3 gap-y-1"><span class="text-muted">By subject:</span>{#each data.folders as f}<a href={f.url} class="hover:text-accent whitespace-nowrap">{f.label} <span class="tabular text-muted">{f.count}</span></a>{/each}</nav>
+{/if}
 {#if data.groups}
   <nav class="mt-4 text-sm flex flex-wrap gap-x-3 gap-y-1">{#each data.groups as g}<a href="#{g.label.toLowerCase().replace(/[^a-z0-9]+/g, '-')}" class="text-muted hover:text-accent whitespace-nowrap">{g.label} <span class="tabular">{g.items.length}</span></a>{/each}</nav>
   {#each data.groups as g}

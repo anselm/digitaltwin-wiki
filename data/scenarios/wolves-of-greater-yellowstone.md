@@ -29,9 +29,9 @@ relations:
   - predicate: example_of
     target: questions/land-use-change
   - predicate: needs
-    target: engines/netlogo
+    target: engines/people-and-populations/netlogo
   - predicate: needs
-    target: engines/circuitscape
+    target: engines/ecosystems-and-land/circuitscape
 provenance:
   origin: agent
   sources:
@@ -95,4 +95,4 @@ Predators hunting elk and bison. Elk moving between summer range in the park and
 
 ## Where to start
 
-The park's annual wolf reports give pack counts, territories, kills and deaths, with population counts back to 1995, and Montana's annual reports give statewide estimates, harvest and livestock losses, with current and past harvest reports linked from the state's wolf page.[^1,4,5] Wyoming publishes the same kind of annual report.[^6] The willow height data behind both sides of the cascade argument come from the long-term plots of Hobbs and Cooper.[^11] An agent-based tool such as [NetLogo](/engines/netlogo/) can hold packs and hunters on either side of the boundary. [Circuitscape](/engines/circuitscape/) can map the routes dispersing wolves take out of the park. The [use case on ecosystems and land management](/questions/land-use-change/) lists other tools.
+The park's annual wolf reports give pack counts, territories, kills and deaths, with population counts back to 1995, and Montana's annual reports give statewide estimates, harvest and livestock losses, with current and past harvest reports linked from the state's wolf page.[^1,4,5] Wyoming publishes the same kind of annual report.[^6] The willow height data behind both sides of the cascade argument come from the long-term plots of Hobbs and Cooper.[^11] An agent-based tool such as [NetLogo](/engines/people-and-populations/netlogo/) can hold packs and hunters on either side of the boundary. [Circuitscape](/engines/ecosystems-and-land/circuitscape/) can map the routes dispersing wolves take out of the park. The [use case on ecosystems and land management](/questions/land-use-change/) lists other tools.

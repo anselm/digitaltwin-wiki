@@ -61,4 +61,4 @@ Oil and dispersant moving with deep currents and resettling from the sea floor; 
 
 ## Where to start
 
-The study's counts, net sensor logs, echosounder files and genetic data are public in [GRIIDC](/data-sources/griidc/).[^1] A food-web model such as [Ecopath with Ecosim](/engines/ecopath-with-ecosim/) can take them; the [use case on oil spills](/questions/after-an-oil-spill/) lists the rest.
+The study's counts, net sensor logs, echosounder files and genetic data are public in [GRIIDC](/data-sources/griidc/).[^1] A food-web model such as [Ecopath with Ecosim](/engines/wildlife-and-oceans/ecopath-with-ecosim/) can take them; the [use case on oil spills](/questions/after-an-oil-spill/) lists the rest.

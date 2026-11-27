@@ -25,7 +25,7 @@ Land use and travel are coupled. People choose where to live partly by how they 
 
 An **urban simulation** model represents households, jobs, buildings and land parcels and lets them change year by year under rules about development and location choice. It is usually run beside a transport model so that travel times feed back into where people choose to live. The outputs are maps of development and population by year under each scenario. They are only as good as the assumptions about how people and developers behave, and a model should state those assumptions.
 
-On this site, [UrbanSim](/engines/urbansim/) is an open model of this kind, and [Urbanly CityCompass](/engines/urbanly-citycompass/) a hosted one.
+On this site, [UrbanSim](/engines/land-use-and-housing/urbansim/) is an open model of this kind, and [Urbanly CityCompass](/engines/land-use-and-housing/urbanly-citycompass/) a hosted one.
 
 ## What you need
 

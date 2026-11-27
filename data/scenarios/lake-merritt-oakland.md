@@ -27,7 +27,7 @@ relations:
   - predicate: needs
     target: data-sources/inaturalist
   - predicate: needs
-    target: engines/deltares-delft3d
+    target: engines/water-and-flooding/deltares-delft3d
 provenance:
   origin: agent
   sources:
@@ -88,4 +88,4 @@ Tides and gate operation in the channel.[^9] Rain and storm drains, which can la
 
 ## Where to start
 
-The City and the Lake Merritt Institute have run three continuous monitoring stations since 2023, measuring oxygen, temperature and salinity at surface and bottom.[^7] Their readings are published through the City's LakeTech dashboard.[^6] The Water Board ran two more from June to October 2024 and posts its nutrient data as a spreadsheet beside its reports.[^6,7,9] Dead fish have been logged on [iNaturalist](/data-sources/inaturalist/), where the California Department of Fish and Wildlife set up an SF Bay Harmful Algae Bloom 2023 project for such reports.[^3] A coastal flow and water-quality model such as [Delft3D](/engines/deltares-delft3d/) could take the channel, the gates and the lake together.
+The City and the Lake Merritt Institute have run three continuous monitoring stations since 2023, measuring oxygen, temperature and salinity at surface and bottom.[^7] Their readings are published through the City's LakeTech dashboard.[^6] The Water Board ran two more from June to October 2024 and posts its nutrient data as a spreadsheet beside its reports.[^6,7,9] Dead fish have been logged on [iNaturalist](/data-sources/inaturalist/), where the California Department of Fish and Wildlife set up an SF Bay Harmful Algae Bloom 2023 project for such reports.[^3] A coastal flow and water-quality model such as [Delft3D](/engines/water-and-flooding/deltares-delft3d/) could take the channel, the gates and the lake together.

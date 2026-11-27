@@ -27,7 +27,7 @@ A bridge is closing for repairs, a street is becoming a bike lane, a stadium is 
 
 Traffic models come in two sizes. A **microscopic** model moves individual vehicles, buses and pedestrians along a street network, second by second. It suits a closure, a junction or a signal plan. An **agent-based transport** model gives every person in a region a daily plan and lets each one choose routes and modes. It suits questions about where demand goes across a whole city.
 
-On this site, [Eclipse SUMO](/engines/eclipse-sumo/) is the open microscopic engine and [MATSim](/engines/matsim/) the open agent-based one; [Aimsun](/engines/aimsun/) and [Replica](/engines/replica/) are commercial products in the same space. All of them start from a street network, most often [OpenStreetMap](/data-sources/openstreetmap-osm/).
+On this site, [Eclipse SUMO](/engines/transport-and-crowds/eclipse-sumo/) is the open microscopic engine and [MATSim](/engines/transport-and-crowds/matsim/) the open agent-based one; [Aimsun](/engines/transport-and-crowds/aimsun/) and [Replica](/engines/transport-and-crowds/replica/) are commercial products in the same space. All of them start from a street network, most often [OpenStreetMap](/data-sources/openstreetmap-osm/).
 
 ## What you need
 

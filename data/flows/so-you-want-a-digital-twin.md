@@ -23,13 +23,13 @@ flow:
         question often needs less.
     - ask: Is there a free tool for this kind of question?
       'yes': Use it today
-      to: /engines/en-roads
+      to: /engines/participation-and-learning/en-roads
       note: >-
         En-ROADS runs in a browser: move the sliders for climate policies and
         see the modeled effect.
     - ask: 'Have data, and someone who can code a little?'
       'yes': Adapt an open model
-      to: /engines/invest
+      to: /engines/ecosystems-and-land/invest
       note: InVEST is a suite of open models that can be set up for a new place.
   end:
     label: 'Build one, or have it built'

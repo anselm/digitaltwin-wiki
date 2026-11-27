@@ -32,7 +32,7 @@ open:
   note: The probabilities are not calibrated, so a user picks a threshold to suit the purpose.
 relations:
   - predicate: built_on
-    target: engines/alphaearth-prithvi
+    target: engines/earth-observation-and-ai/alphaearth-prithvi
 provenance:
   origin: agent
   sources:
@@ -49,7 +49,7 @@ provenance:
 ---
 Most global forest maps show only whether a place has trees.[^1] ForTy shows what kind of forest it is. For every 10 metre square of land it gives a probability for six classes, following the FAO's definitions: primary forest with no visible sign of human disturbance; naturally regenerating forest, growing back after logging or fire; planted forest, managed over long cycles; plantation forest, the fast single-species tree farms; tree crops and agroforestry, such as oil palm, rubber, cocoa and fruit; and other land.[^1,2]
 
-The map was made by Google DeepMind and Google Research with the World Resources Institute and IIASA.[^1,3] It builds on Google's earlier Natural Forests of the World 2020 map, which split natural forest from other tree cover.[^1] The model learned from about 1.7 million labelled locations, drawn from expert surveys, national and regional datasets, and reviews of hard places, and it reads [AlphaEarth](/engines/alphaearth-prithvi/) embeddings as a main input.[^1,3] Two trained experts checked each of more than 9,000 random sites; the post reports the right forest type 90% of the time and forest against non-forest 95% of the time.[^1]
+The map was made by Google DeepMind and Google Research with the World Resources Institute and IIASA.[^1,3] It builds on Google's earlier Natural Forests of the World 2020 map, which split natural forest from other tree cover.[^1] The model learned from about 1.7 million labelled locations, drawn from expert surveys, national and regional datasets, and reviews of hard places, and it reads [AlphaEarth](/engines/earth-observation-and-ai/alphaearth-prithvi/) embeddings as a main input.[^1,3] Two trained experts checked each of more than 9,000 random sites; the post reports the right forest type 90% of the time and forest against non-forest 95% of the time.[^1]
 
 The 2020 map is meant as a baseline for the EU deforestation regulation, which asks whether coffee, cocoa, palm oil and wood came from land cleared after 2020.[^1] The early yearly series for 2017 to 2025 shows changes the tree-cover maps miss, such as a natural forest logged and replanted as a plantation.[^1]
 

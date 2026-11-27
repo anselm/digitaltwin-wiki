@@ -1,6 +1,6 @@
 // Fetch a depiction for entries that have none, from the maker's own page: the page's og:image
 // (or twitter:image; for a GitHub page the owner's avatar), resized to fit a square and saved beside the entry as
-// data/<section>/<slug>.jpg, with about.depiction set to '<section>/<slug>.jpg'.
+// data/<folder>/<slug>.jpg beside the entry, with about.depiction set to '<folder>/<slug>.jpg'.
 // Only kinds whose homepage is the maker's own are touched (tool, datasource, twin, organization,
 // book, podcast, video); articles are skipped because a news page's image is the story's photo,
 // not the thing's. Nothing is fetched for an entry that already has a depiction.
@@ -45,7 +45,7 @@ const metaFirst = (html, prop) => {
 const results = []
 let i = 0
 async function one(e) {
-  const url = homepageOf(e), slug = e.id.split('/').pop(), section = e.file.split('/')[0]
+  const url = homepageOf(e), slug = e.id.split('/').pop(), section = path.dirname(e.file)
   const dst = path.join('data', section, `${slug}.jpg`)
   try {
     const host = new URL(url).hostname

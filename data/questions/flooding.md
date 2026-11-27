@@ -39,7 +39,7 @@ A flood model moves water over a surface. It needs four inputs:
 
 The output is depth and extent, usually for a handful of storm sizes. The same model, run with a change in the ground or the pipes, gives the comparison that answers question two.
 
-[ANUGA](/engines/anuga/) is an open solver from Geoscience Australia, and [Hydrata](/engines/hydrata/) runs ANUGA in a browser, so a model can be drawn without installing anything. [Delft3D](/engines/deltares-delft3d/), from Deltares, covers rivers, estuaries and coasts. For forecasts, [Google Flood Hub](/engines/google-flood-hub/) publishes free daily forecasts for river basins in over 150 countries.
+[ANUGA](/engines/water-and-flooding/anuga/) is an open solver from Geoscience Australia, and [Hydrata](/engines/water-and-flooding/hydrata/) runs ANUGA in a browser, so a model can be drawn without installing anything. [Delft3D](/engines/water-and-flooding/deltares-delft3d/), from Deltares, covers rivers, estuaries and coasts. For forecasts, [Google Flood Hub](/engines/water-and-flooding/google-flood-hub/) publishes free daily forecasts for river basins in over 150 countries.
 
 ## What you need before any of that
 

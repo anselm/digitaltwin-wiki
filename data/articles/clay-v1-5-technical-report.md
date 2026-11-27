@@ -42,15 +42,15 @@ open:
   note: The repository holds the manuscript, the evaluation code and the result files. Third-party datasets and model weights keep their own licences and are not redistributed in it. Errors are reported as GitHub issues.
 relations:
   - predicate: about
-    target: engines/clay
+    target: engines/earth-observation-and-ai/clay
   - predicate: about
     target: articles/earth-embeddings-compared
   - predicate: cites
-    target: engines/olmoearth
+    target: engines/earth-observation-and-ai/olmoearth
   - predicate: cites
-    target: engines/tessera
+    target: engines/earth-observation-and-ai/tessera
   - predicate: cites
-    target: engines/alphaearth-prithvi
+    target: engines/earth-observation-and-ai/alphaearth-prithvi
 provenance:
   origin: agent
   sources:
@@ -63,7 +63,7 @@ provenance:
   reviewed_by: 'Claude, from the manuscript in the repository at commit 371c5ea: all five sections, Tables 1 and 2 and their notes, and the funding statement. The reference list, REPRODUCING.md, the fact-source ledger and the experiment folders were not read, and nothing was re-run. Anselm sent the repository.'
   status: draft
 ---
-[Clay](/engines/clay/) is an open model that turns a square of satellite or aerial imagery into a list of 1,024 numbers, an embedding, that can be searched or fed to a small classifier. Version 1.5 was released in November 2024 with no paper describing it.[^1] This report, posted two years later by nine of the people who built and used it, is that paper. It says how the model was made and tests it against the models that have appeared since. On most of the tests it does not come first, and the report says so.[^1]
+[Clay](/engines/earth-observation-and-ai/clay/) is an open model that turns a square of satellite or aerial imagery into a list of 1,024 numbers, an embedding, that can be searched or fed to a small classifier. Version 1.5 was released in November 2024 with no paper describing it.[^1] This report, posted two years later by nine of the people who built and used it, is that paper. It says how the model was made and tests it against the models that have appeared since. On most of the tests it does not come first, and the report says so.[^1]
 
 It is worth reading for two reasons beyond Clay itself. It ends with practical advice on using embeddings from any such model. And the repository carries the code and the result file behind every number, with a ledger that maps each claim to its source.[^2]
 
@@ -90,7 +90,7 @@ The pattern, in the report's own account:[^1]
 - **Ordinary colour photographs from the air.** General-purpose vision models do better. Clay reaches 92 to 98 per cent of the best.
 - **Anything that depends on the seasons.** Models that read a year of passes do clearly better at telling crops and land cover apart. On Canadian crop types Clay reaches 65 to 68 per cent of the best, and on European land cover 55 per cent. The report's explanation is that one overpass cannot separate cover types that differ only in how they change through a growing season.
 
-Its recommendation follows from that. Use Clay when the work needs one permissively licensed model, or inputs the others cannot take: an unfamiliar instrument, sub-metre imagery with bands beyond red, green and blue, or an incomplete set of bands. For crops and seasonal change, use a model built on many dates or a set of annual embeddings such as [TESSERA](/engines/tessera/) or [AlphaEarth](/engines/alphaearth-prithvi/). For colour scenes, use a general vision model.[^1]
+Its recommendation follows from that. Use Clay when the work needs one permissively licensed model, or inputs the others cannot take: an unfamiliar instrument, sub-metre imagery with bands beyond red, green and blue, or an incomplete set of bands. For crops and seasonal change, use a model built on many dates or a set of annual embeddings such as [TESSERA](/engines/earth-observation-and-ai/tessera/) or [AlphaEarth](/engines/earth-observation-and-ai/alphaearth-prithvi/). For colour scenes, use a general vision model.[^1]
 
 ## Four lessons on using embeddings
 

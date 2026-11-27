@@ -21,15 +21,15 @@ relations:
   - predicate: about
     target: articles/parts-of-a-twin
   - predicate: cites
-    target: engines/gama
+    target: engines/agents-and-system-dynamics/gama
   - predicate: cites
-    target: engines/palm
+    target: engines/weather-and-climate/palm
   - predicate: cites
-    target: engines/anylogic
+    target: engines/agents-and-system-dynamics/anylogic
   - predicate: cites
-    target: engines/helics-fmi
+    target: engines/research-infrastructure/helics-fmi
   - predicate: cites
-    target: engines/ema-workbench
+    target: engines/agents-and-system-dynamics/ema-workbench
 provenance:
   origin: agent
   sources:
@@ -54,17 +54,17 @@ The state is everything the model holds about the place at one moment: the depth
 
 ## Six ways of changing the state
 
-**Physical solvers.** The movement of water, air, heat or fire is written as equations and solved on a grid or mesh. [HEC-RAS](/engines/hec-ras/) does this for rivers and floods, [PALM](/engines/palm/) for air in streets, [OpenFOAM](/engines/openfoam/) for flow in general. They are usually the most expensive parts to run.
+**Physical solvers.** The movement of water, air, heat or fire is written as equations and solved on a grid or mesh. [HEC-RAS](/engines/water-and-flooding/hec-ras/) does this for rivers and floods, [PALM](/engines/weather-and-climate/palm/) for air in streets, [OpenFOAM](/engines/agents-and-system-dynamics/openfoam/) for flow in general. They are usually the most expensive parts to run.
 
 **Cellular automata.** Space is a grid, and each cell changes according to a rule about its neighbours: a burning cell ignites the next, a built-up cell makes its neighbours more likely to be built on. There are no equations of motion, so they are cheap, and the rules have to be fitted to what was observed. Michael Batty's [Cities and Complexity](/media/cities-and-complexity/) builds cities this way.
 
-**Network flow.** Many things move through links and nodes: traffic on roads, water in pipes, power on lines. The model works out how flow divides across the network. [SUMO](/engines/eclipse-sumo/) and [PyPSA](/engines/pypsa-pypsa-eur/) are examples for traffic and for power.
+**Network flow.** Many things move through links and nodes: traffic on roads, water in pipes, power on lines. The model works out how flow divides across the network. [SUMO](/engines/transport-and-crowds/eclipse-sumo/) and [PyPSA](/engines/energy-and-utilities/pypsa-pypsa-eur/) are examples for traffic and for power.
 
-**Agent-based models.** Individuals, such as people, vehicles, households, firms or animals, each hold their own state and decide what to do. The pattern is whatever emerges. [GAMA](/engines/gama/), [MATSim](/engines/matsim/), [Mesa](/engines/mesa/) and [NetLogo](/engines/netlogo/) are engines of this kind, and the agents usually start from a [synthetic population](/terms/synthetic-population/).
+**Agent-based models.** Individuals, such as people, vehicles, households, firms or animals, each hold their own state and decide what to do. The pattern is whatever emerges. [GAMA](/engines/agents-and-system-dynamics/gama/), [MATSim](/engines/transport-and-crowds/matsim/), [Mesa](/engines/people-and-populations/mesa/) and [NetLogo](/engines/people-and-populations/netlogo/) are engines of this kind, and the agents usually start from a [synthetic population](/terms/synthetic-population/).
 
-**Stocks and flows.** Called system dynamics. The model holds a few totals, such as population, housing or water in a reservoir, that fill and drain at rates which depend on each other. It has no map and runs in moments. [Vensim](/engines/vensim/) and [En-ROADS](/engines/en-roads/) work this way.
+**Stocks and flows.** Called system dynamics. The model holds a few totals, such as population, housing or water in a reservoir, that fill and drain at rates which depend on each other. It has no map and runs in moments. [Vensim](/engines/agents-and-system-dynamics/vensim/) and [En-ROADS](/engines/participation-and-learning/en-roads/) work this way.
 
-**Discrete events.** The model is a list of things that happen in turn: a patient arrives, a bed frees up, a ship docks. It suits queues, schedules and logistics. [Simkit](/engines/simkit/) is one toolkit, and [AnyLogic](/engines/anylogic/) combines this method with the previous two in one model.
+**Discrete events.** The model is a list of things that happen in turn: a patient arrives, a bed frees up, a ship docks. It suits queues, schedules and logistics. [Simkit](/engines/agents-and-system-dynamics/simkit/) is one toolkit, and [AnyLogic](/engines/agents-and-system-dynamics/anylogic/) combines this method with the previous two in one model.
 
 A **learned model** can stand in for any of the six. It is trained on past data, or on many runs of a slower model, and then gives an answer quickly. [Learned models of the Earth](/articles/learned-models-of-the-earth/) describes the arrangements and their limits.
 
@@ -75,21 +75,21 @@ A **learned model** can stand in for any of the six. It is trained on past data,
 The decision rule inside an agent is a part of its own, and there are four common ways to supply it.
 
 - **Fixed rules.** If the road is blocked, take the next one. Simple to write and to explain.
-- **Choice models.** The agent weighs options by cost, time and preference, with weights estimated from surveys. Transport and land-use models such as [ActivitySim](/engines/activitysim/) and [UrbanSim](/engines/urbansim/) do this.
+- **Choice models.** The agent weighs options by cost, time and preference, with weights estimated from surveys. Transport and land-use models such as [ActivitySim](/engines/people-and-populations/activitysim/) and [UrbanSim](/engines/land-use-and-housing/urbansim/) do this.
 - **Learned policies.** The agent's behaviour is found by reinforcement learning. The Gymnasium documentation describes this as learning by trial and error: an agent tries actions, receives rewards, and gradually improves.[^1] The simulation serves as the practice ground. GAMA publishes wrappers that present any of its models to learning algorithms in the two standard forms, one for a single learner and one for many.[^2]
-- **Language models.** The agent is given a description of a person and asked what that person would do. [Generative Agents](/engines/generative-agents/) is the best-known research code, and [Synthetic people](/articles/synthetic-people/) covers what is known about how far the answers can be trusted.
+- **Language models.** The agent is given a description of a person and asked what that person would do. [Generative Agents](/engines/people-and-populations/generative-agents/) is the best-known research code, and [Synthetic people](/articles/synthetic-people/) covers what is known about how far the answers can be trusted.
 
 Reinforcement learning has a second use, described under search below.
 
 ## What is wrapped around a run
 
-**Coupling.** Two models exchange state as they run: the flood model tells the power model which substations are under water. [HELICS and FMI](/engines/helics-fmi/) are two ways of doing it, and the story of [a flooded substation](/stories/a-flooded-substation/) shows why it matters. Some engines couple parts internally; PALM's urban components include a multi-agent system of residents inside an air-flow model.[^3]
+**Coupling.** Two models exchange state as they run: the flood model tells the power model which substations are under water. [HELICS and FMI](/engines/research-infrastructure/helics-fmi/) are two ways of doing it, and the story of [a flooded substation](/stories/a-flooded-substation/) shows why it matters. Some engines couple parts internally; PALM's urban components include a multi-agent system of residents inside an air-flow model.[^3]
 
 **Data assimilation.** Observations arrive while the model runs and are used to correct its state, so that it does not drift from the real place. This is the part that makes a model a twin in the strict sense. [Dietze on ecological forecasting](/articles/dietze-near-term-ecological-forecasting/) and the [National Academies report](/articles/nasem-digital-twins-research-gaps/) both explain it.
 
-**Calibration.** Before use, the model's adjustable numbers are tuned until it reproduces what was recorded. The guide [Check it against what happened](/guides/check-it-against-what-happened/) covers this. The [CliMA Earth system model](/engines/clima/) keeps every adjustable number in one package so that a second package can calibrate them together.
+**Calibration.** Before use, the model's adjustable numbers are tuned until it reproduces what was recorded. The guide [Check it against what happened](/guides/check-it-against-what-happened/) covers this. The [CliMA Earth system model](/engines/weather-and-climate/clima/) keeps every adjustable number in one package so that a second package can calibrate them together.
 
-**Scenarios.** One run answers little. The model is run many times across the things that are uncertain or under someone's control, and the runs are compared. The [EMA Workbench](/engines/ema-workbench/) is a tool for exactly this.
+**Scenarios.** One run answers little. The model is run many times across the things that are uncertain or under someone's control, and the runs are compared. The [EMA Workbench](/engines/agents-and-system-dynamics/ema-workbench/) is a tool for exactly this.
 
 **Search.** A program looks for the inputs that give the best outcome, where a person would otherwise try scenarios by hand. Optimisation does this when the problem can be written as costs and constraints, as PyPSA does for an energy system. Reinforcement learning does it when the answer is a rule for acting over time, such as when to release water from a reservoir, and it learns that rule by operating the simulation many times.[^1] Whatever it finds is only as good as the simulation it practised in.
 

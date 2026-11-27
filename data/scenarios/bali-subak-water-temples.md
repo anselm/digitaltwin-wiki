@@ -36,7 +36,7 @@ relations:
   - predicate: needs
     target: data-sources/copernicus-data-space
   - predicate: needs
-    target: engines/netlogo
+    target: engines/people-and-populations/netlogo
 provenance:
   origin: agent
   sources:
@@ -85,4 +85,4 @@ Rain on the volcanoes and their crater lakes feeds springs and rivers. Canals di
 
 ## Where to start
 
-The classic model of the problem is [Lansing and Kremer's simulation](/articles/lansing-kremer-balinese-water-temple-networks/) of 172 subaks between two rivers, coupling water, crops and pests. It could be rebuilt in an agent-based tool such as [NetLogo](/engines/netlogo/). The 2017 PNAS follow-up matched the subaks' planting patterns against multispectral satellite images, donated by DigitalGlobe;[^9] [Copernicus Data Space](/data-sources/copernicus-data-space/) is a free source of such images. BPS Bali publishes rice field area, harvested area and production each year.[^4,5] UNESCO's state of conservation reports, issued in 2014, 2015 and every two years since, track what the province and Indonesia have done.[^1] The general question is under [land use change](/questions/land-use-change/).
+The classic model of the problem is [Lansing and Kremer's simulation](/articles/lansing-kremer-balinese-water-temple-networks/) of 172 subaks between two rivers, coupling water, crops and pests. It could be rebuilt in an agent-based tool such as [NetLogo](/engines/people-and-populations/netlogo/). The 2017 PNAS follow-up matched the subaks' planting patterns against multispectral satellite images, donated by DigitalGlobe;[^9] [Copernicus Data Space](/data-sources/copernicus-data-space/) is a free source of such images. BPS Bali publishes rice field area, harvested area and production each year.[^4,5] UNESCO's state of conservation reports, issued in 2014, 2015 and every two years since, track what the province and Indonesia have done.[^1] The general question is under [land use change](/questions/land-use-change/).

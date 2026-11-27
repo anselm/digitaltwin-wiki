@@ -23,11 +23,11 @@ relations:
   - predicate: cites
     target: people/jay-forrester
   - predicate: cites
-    target: engines/nvidia-cosmos
+    target: engines/3d-cities-and-mapping/nvidia-cosmos
   - predicate: cites
-    target: engines/odyssey-3
+    target: engines/3d-cities-and-mapping/odyssey-3
   - predicate: cites
-    target: engines/world-labs-atlas
+    target: engines/3d-cities-and-mapping/world-labs-atlas
   - predicate: cites
     target: terms/earth-system-model
   - predicate: cites
@@ -63,7 +63,7 @@ In 1971 [Jay Forrester](/people/jay-forrester/) published [World Dynamics](/medi
 
 In machine learning the phrase dates from a 2018 paper of that title by David Ha and Jürgen Schmidhuber.[^1] They trained a neural network to predict what a simple video game would show next, and then trained a second, small network to play the game entirely inside the first network's predictions, which they called its "dream".[^1] The paper opens with a sentence from Forrester, "The image of the world around us, which we carry in our head, is just a model", so the borrowing of the phrase was deliberate.[^2] The "world" in this sense is whatever environment the software agent acts in. In the paper it was a car-racing game and a level of the game Doom.[^2]
 
-The current products that carry the name descend from this. Google DeepMind describes world models as "AI systems that can use their understanding of the world to simulate aspects of it", and its Genie 3 generates an explorable scene from a written prompt, at 24 frames per second, that stays consistent for a few minutes.[^3] [NVIDIA Cosmos](/engines/nvidia-cosmos/), [Odyssey-3](/engines/odyssey-3/) and [World Labs' Atlas](/engines/world-labs-atlas/) are of this kind. Runway's essay on the subject holds that "video models trained at sufficient scale become world models", and calls them "learned approximators of physics".[^4]
+The current products that carry the name descend from this. Google DeepMind describes world models as "AI systems that can use their understanding of the world to simulate aspects of it", and its Genie 3 generates an explorable scene from a written prompt, at 24 frames per second, that stays consistent for a few minutes.[^3] [NVIDIA Cosmos](/engines/3d-cities-and-mapping/nvidia-cosmos/), [Odyssey-3](/engines/3d-cities-and-mapping/odyssey-3/) and [World Labs' Atlas](/engines/3d-cities-and-mapping/world-labs-atlas/) are of this kind. Runway's essay on the subject holds that "video models trained at sufficient scale become world models", and calls them "learned approximators of physics".[^4]
 
 Three features distinguish a model of this kind:
 

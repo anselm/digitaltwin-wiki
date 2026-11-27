@@ -43,11 +43,11 @@ relations:
   - predicate: about
     target: articles/synthetic-people
   - predicate: cites
-    target: engines/agentsociety
+    target: engines/people-and-populations/agentsociety
   - predicate: cites
-    target: engines/oasis-social-simulation
+    target: engines/people-and-populations/oasis-social-simulation
   - predicate: cites
-    target: engines/generative-agents
+    target: engines/people-and-populations/generative-agents
 provenance:
   origin: agent
   sources:
@@ -116,4 +116,4 @@ The checks in the sections read are of two kinds.
 
 The World Values Survey data are public.[^1] The paper refers to "the released framework" but this entry found no address for code in the text that was read. The arXiv record carries arXiv's standard distribution licence, which does not grant reuse of the figures.[^2]
 
-On this wiki, [Synthetic people](/articles/synthetic-people/) goes through the evidence on how far a language model's answers match those of the people it is given as a profile, which is the question this paper leaves open. [AgentSociety](/engines/agentsociety/) and [OASIS](/engines/oasis-social-simulation/) are two of the earlier systems the paper sets itself against.
+On this wiki, [Synthetic people](/articles/synthetic-people/) goes through the evidence on how far a language model's answers match those of the people it is given as a profile, which is the question this paper leaves open. [AgentSociety](/engines/people-and-populations/agentsociety/) and [OASIS](/engines/people-and-populations/oasis-social-simulation/) are two of the earlier systems the paper sets itself against.

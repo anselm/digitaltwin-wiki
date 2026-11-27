@@ -22,9 +22,9 @@ term:
     - EMIC
 relations:
   - predicate: cites
-    target: engines/cesm
+    target: engines/weather-and-climate/cesm
   - predicate: cites
-    target: engines/e3sm
+    target: engines/weather-and-climate/e3sm
   - predicate: cites
     target: data-sources/cmip6
   - predicate: cites
@@ -73,7 +73,7 @@ NASA's Advisory Council set up an Earth System Sciences Committee in 1983 to loo
 
 Earth system models sit at the expensive end of a range. Claussen and colleagues gave the middle its name in 2002: Earth system models of intermediate complexity, or EMICs, which the IPCC glossary describes as representing climate processes at lower resolution or in a simpler, more idealised way.[^1,4] Below them are box models and emulators.[^1] The range is used on purpose: [CDRMIP](/data-sources/cdrmip/) brings full models, EMICs and box models into one framework because the full models are affordable only for the coming century while questions about carbon removal run for a thousand years.[^8]
 
-On this site, NCAR's [CESM](/engines/cesm/) and the Department of Energy's [E3SM](/engines/e3sm/) are the two American Earth system models with entries of their own; the eight models with [GeoMIP](/data-sources/geomip/) output, among them UKESM1, CanESM5 and CNRM-ESM2-1, carry the label in their names. [CMIP6](/data-sources/cmip6/) is where their output is shared.
+On this site, NCAR's [CESM](/engines/weather-and-climate/cesm/) and the Department of Energy's [E3SM](/engines/weather-and-climate/e3sm/) are the two American Earth system models with entries of their own; the eight models with [GeoMIP](/data-sources/geomip/) output, among them UKESM1, CanESM5 and CNRM-ESM2-1, carry the label in their names. [CMIP6](/data-sources/cmip6/) is where their output is shared.
 
 ## Ensembles
 

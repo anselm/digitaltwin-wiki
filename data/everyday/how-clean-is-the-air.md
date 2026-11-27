@@ -28,7 +28,7 @@ domains:
   - fire
 relations:
   - predicate: needs
-    target: engines/gral
+    target: engines/sensory-landscape/gral
   - predicate: needs
     target: data-sources/openstreetmap-osm
 provenance:
@@ -85,7 +85,7 @@ People choosing a home or a school ask, and so do parents, people with heart or 
 
 **Street-level variation.** Apte and colleagues fitted Google Street View cars with fast-response instruments and drove every street in a 30 km² area of Oakland, California, repeatedly. Their maps of annual daytime nitric oxide, nitrogen dioxide and black carbon at a 30-metre scale showed stable patterns, with levels varying up to five to eight times within a single city block because of local sources.[^12] Fixed monitors miss variation at that scale, and it is the scale of a front door.
 
-**Models for one street.** A dispersion model such as [GRAL](/engines/gral/) computes how pollution from roads and other sources spreads between buildings, from traffic, weather and street geometry, which can come from [OpenStreetMap](/data-sources/openstreetmap-osm/).[^14] [UrbanAIR](/twins/urbanair/) is a research project bringing Destination Earth forecasts down to street level for air quality in European cities.[^15]
+**Models for one street.** A dispersion model such as [GRAL](/engines/sensory-landscape/gral/) computes how pollution from roads and other sources spreads between buildings, from traffic, weather and street geometry, which can come from [OpenStreetMap](/data-sources/openstreetmap-osm/).[^14] [UrbanAIR](/twins/urbanair/) is a research project bringing Destination Earth forecasts down to street level for air quality in European cities.[^15]
 
 ## Who sells an answer
 
@@ -95,7 +95,7 @@ Google's Air Quality API, part of Google Maps Platform, says it gives hourly air
 
 ## What a small look ahead adds
 
-A lookup says how the air was. A model can say how it will be on this street. Smoke from a distant fire can give a clean street its worst air of the year. A model that knows the fire season, the fuel and the wind can say how many smoke days a household should plan for, and when a filter or a closed window matters; the [wildfire](/questions/wildfire/) question covers the fire side. Traffic change works the same way at a smaller scale. A new bus lane, a truck route, a moved school drop-off or a fleet that goes electric would each change the street's nitrogen dioxide and black carbon. A street-scale model can show which side of the road and which floor gains or loses. Forecast models such as [Aurora](/engines/aurora/) already include air pollution, and a corrected sensor on the street gives a model a way to check itself.
+A lookup says how the air was. A model can say how it will be on this street. Smoke from a distant fire can give a clean street its worst air of the year. A model that knows the fire season, the fuel and the wind can say how many smoke days a household should plan for, and when a filter or a closed window matters; the [wildfire](/questions/wildfire/) question covers the fire side. Traffic change works the same way at a smaller scale. A new bus lane, a truck route, a moved school drop-off or a fleet that goes electric would each change the street's nitrogen dioxide and black carbon. A street-scale model can show which side of the road and which floor gains or loses. Forecast models such as [Aurora](/engines/weather-and-climate/aurora/) already include air pollution, and a corrected sensor on the street gives a model a way to check itself.
 
 ## Layers it shares
 

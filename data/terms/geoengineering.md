@@ -25,17 +25,17 @@ relations:
   - predicate: cites
     target: terms/earth-system-model
   - predicate: cites
-    target: engines/cesm
+    target: engines/weather-and-climate/cesm
   - predicate: cites
     target: data-sources/glens-and-arise-sai
   - predicate: cites
     target: data-sources/cdrmip
   - predicate: cites
-    target: engines/gcam
+    target: engines/ecosystems-and-land/gcam
   - predicate: cites
-    target: engines/magicc
+    target: engines/weather-and-climate/magicc
   - predicate: cites
-    target: engines/fair-climate-model
+    target: engines/weather-and-climate/fair-climate-model
   - predicate: cites
     target: data-sources/geomip
   - predicate: cites
@@ -173,7 +173,7 @@ Global averages hide the differences that matter for a place. In idealised studi
 
 Stratospheric aerosols have never been deployed, so, as Kravitz and MacMartin put it in 2020, most conclusions about their climatic effects come from models and, to a limited degree, from natural analogues.[^18] The Royal Society's 2025 briefing says the primary evidence comes from computer-based climate models, a subset of the same models used in the IPCC's projections, supported to an extent by analogues such as volcanic eruptions and sulfur dioxide from shipping.[^19] Those models form a chain from the scale of a single spray plume to the globe, and each link has its own tools.
 
-**[Earth system models](/terms/earth-system-model/) and their ensembles.** The GeoMIP experiments run in the models that also produce the climate projections. [CESM](/engines/cesm/) with its WACCM atmosphere, which reaches into the thermosphere, is behind the two large American ensembles. GLENS ran twenty members of one scenario from 2020 to 2099 because, in its authors' words, the ensemble "increases the ability to distinguish between forced changes and changes due to climate variability".[^21] ARISE-SAI ran ten, its authors noting that the large internal variability of the climate means that evaluating risks and impacts requires large ensembles.[^22] Both are described under [GLENS and ARISE-SAI](/data-sources/glens-and-arise-sai/).
+**[Earth system models](/terms/earth-system-model/) and their ensembles.** The GeoMIP experiments run in the models that also produce the climate projections. [CESM](/engines/weather-and-climate/cesm/) with its WACCM atmosphere, which reaches into the thermosphere, is behind the two large American ensembles. GLENS ran twenty members of one scenario from 2020 to 2099 because, in its authors' words, the ensemble "increases the ability to distinguish between forced changes and changes due to climate variability".[^21] ARISE-SAI ran ten, its authors noting that the large internal variability of the climate means that evaluating risks and impacts requires large ensembles.[^22] Both are described under [GLENS and ARISE-SAI](/data-sources/glens-and-arise-sai/).
 
 **Cloud-scale models for marine cloud brightening.** Whether a ship's spray brightens a cloud is decided at scales of metres, below anything a global model resolves. Studies of it use large eddy simulation. Chun and colleagues ran a 50 m horizontal grid with layers as thin as 5 m through the cloud, and found brightening ten to a hundred times more effective in clean, drizzling clouds than in polluted ones.[^23] McMichael and colleagues showed in 2026 that the global models' assumption of an instantly spread plume could overestimate the cooling by 10 to 200 percent.[^24] A 2024 statement of the research needed describes the chain: parcel models for how particles grow into droplets, large eddy and cloud-resolving models for the cloud, and both informing the global models.[^25] The first protocol for comparing the climate models' answers, also from 2024, found that cloud responses to the same injections differ substantially between models, with CESM2's clouds much more susceptible than the others.[^26]
 
@@ -185,7 +185,7 @@ Stratospheric aerosols have never been deployed, so, as Kravitz and MacMartin pu
 
 **Where the models disagree.** The six models that ran GeoMIP's G6 experiments needed considerably different amounts of sulfate for the same cooling, and the spread in regional temperature was larger with aerosols than with a dimmed sun. The authors traced it to how each model oxidises sulfur dioxide and grows the aerosol, how it carries the aerosol around the stratosphere, and its ozone chemistry.[^36] A three-model comparison of interactive aerosol schemes found the same, with the largest particles the most inconsistently treated.[^37] The IPCC lists microphysics, particle size, stratospheric dynamics and chemistry as the sources of uncertainty in the simulated cooling efficiency.[^20]
 
-**Carbon removal.** The carbon branch is modelled at two levels. At the Earth-system level, [CDRMIP](/data-sources/cdrmip/) brings full models, intermediate-complexity models and box models into one framework, because the full models are affordable only for the coming century while the questions about removal run for a thousand years.[^38] At the pathway level, integrated assessment models generate the removal scenarios.[^38] The IPCC's 2022 mitigation report found that removal is unavoidable if net zero is to be reached. In its pathways that hold 1.5 °C with little or no overshoot, bioenergy with capture and storage removes 30 to 780 gigatonnes of CO2 by 2100, and direct air capture up to 310. It classifies the warming of each pathway with two emulators, [MAGICC](/engines/magicc/) and [FaIR](/engines/fair-climate-model/).[^39] [GCAM](/engines/gcam/) is one pathway model with removal built in. A 2020 study used it to follow what direct air capture would demand in energy and water, and GCAM-CDR, from 2023, added enhanced weathering, ocean liming and more forms of direct air capture.[^40,41]
+**Carbon removal.** The carbon branch is modelled at two levels. At the Earth-system level, [CDRMIP](/data-sources/cdrmip/) brings full models, intermediate-complexity models and box models into one framework, because the full models are affordable only for the coming century while the questions about removal run for a thousand years.[^38] At the pathway level, integrated assessment models generate the removal scenarios.[^38] The IPCC's 2022 mitigation report found that removal is unavoidable if net zero is to be reached. In its pathways that hold 1.5 °C with little or no overshoot, bioenergy with capture and storage removes 30 to 780 gigatonnes of CO2 by 2100, and direct air capture up to 310. It classifies the warming of each pathway with two emulators, [MAGICC](/engines/weather-and-climate/magicc/) and [FaIR](/engines/weather-and-climate/fair-climate-model/).[^39] [GCAM](/engines/ecosystems-and-land/gcam/) is one pathway model with removal built in. A 2020 study used it to follow what direct air capture would demand in energy and water, and GCAM-CDR, from 2023, added enhanced weathering, ocean liming and more forms of direct air capture.[^40,41]
 
 Methods that work through marine life bring ecology into the carbon accounting. A 2026 preprint ran artificial upwelling, which pumps deep water to the surface to feed phytoplankton, in an Earth system model that represents the bacteria consuming dissolved organic carbon. Over a century the additional carbon taken up by the ocean ranged from about 82 billion tonnes to a loss of about 5, depending on whether phytoplankton or bacteria gained from the iron in the upwelled water.[^42] The wiki describes it under [Artificial upwelling and the bacteria that eat the gain](/articles/owusu-artificial-upwelling-microbial-doc/).
 

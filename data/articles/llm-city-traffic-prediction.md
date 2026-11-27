@@ -53,4 +53,4 @@ The authors report lower error than conventional deep-learning models and other 
 
 The PyTorch code and eight of the datasets are on Zenodo at https://doi.org/10.5281/zenodo.19503648.[^1] Those eight are the Beijing, Hangzhou and Shanghai metro, PEMS03, PEMS04, PEMS08, bike-sharing and taxi sets. The Nanning metro, Beijing bus and high-speed railway data are withheld under confidentiality agreements, with processed example samples in the same repository.[^1] The article is open access under CC BY-NC-ND 4.0.[^1]
 
-The method forecasts flows on a transport network, a step upstream of simulators such as [MATSim](/engines/matsim/) that need demand as input.
+The method forecasts flows on a transport network, a step upstream of simulators such as [MATSim](/engines/transport-and-crowds/matsim/) that need demand as input.

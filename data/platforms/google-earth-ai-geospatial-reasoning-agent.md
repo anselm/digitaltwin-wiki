@@ -70,20 +70,20 @@ domains:
   - energy
 relations:
   - predicate: part_of
-    target: engines/google-earth-ai
+    target: engines/earth-observation-and-ai/google-earth-ai
     note: component of (source_claim; exact implementation not independently tested)
   - predicate: built_on
-    target: engines/weathernext-nvidia-earth-2
+    target: engines/weather-and-climate/weathernext-nvidia-earth-2
     note: >-
       uses component (source_claim; exact implementation not independently
       tested)
   - predicate: built_on
-    target: engines/alphaearth-prithvi
+    target: engines/earth-observation-and-ai/alphaearth-prithvi
     note: >-
       uses component (source_claim; exact implementation not independently
       tested)
   - predicate: built_on
-    target: engines/population-dynamics-foundations-pdfm
+    target: engines/earth-observation-and-ai/population-dynamics-foundations-pdfm
     note: >-
       uses component (source_claim; exact implementation not independently
       tested)

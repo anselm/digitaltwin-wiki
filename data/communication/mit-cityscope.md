@@ -33,10 +33,10 @@ relations:
   - predicate: answers
     target: questions/housing-and-land-use
   - predicate: built_on
-    target: engines/gama
+    target: engines/agents-and-system-dynamics/gama
     note: one of its simulation modules runs agent-based models in GAMA
   - predicate: built_on
-    target: engines/eclipse-sumo
+    target: engines/transport-and-crowds/eclipse-sumo
     note: one of its modules runs traffic simulation in SUMO
 provenance:
   origin: agent
@@ -64,7 +64,7 @@ CityScope is a set of tools from the City Science group at the MIT Media Lab for
 
 A camera reads the grid of blocks. The scanning program, CityScoPy, captures and sends the arrangement of "uniquely tagged" bricks, each standing for a land use.[^4] When someone swaps a block, the new arrangement goes to a central server, CityIO, which holds the state of the table and passes it to every other part of the system.[^1]
 
-Analysis modules listen for changes and send back indicators.[^3] The documentation gives three kinds: numbers, shown in a chart beside the table, such as density, diversity and proximity; map layers drawn on the table; and agent-based simulations shown as a moving layer.[^3] The modules it lists cover urban indicators, mobility simulation, noise, agent-based models run in [GAMA](/engines/gama/), and traffic run in [SUMO](/engines/eclipse-sumo/).[^1] It says the modules "are developed by experts in each evaluation field".[^1]
+Analysis modules listen for changes and send back indicators.[^3] The documentation gives three kinds: numbers, shown in a chart beside the table, such as density, diversity and proximity; map layers drawn on the table; and agent-based simulations shown as a moving layer.[^3] The modules it lists cover urban indicators, mobility simulation, noise, agent-based models run in [GAMA](/engines/agents-and-system-dynamics/gama/), and traffic run in [SUMO](/engines/transport-and-crowds/eclipse-sumo/).[^1] It says the modules "are developed by experts in each evaluation field".[^1]
 
 A web front end, CityScopeJS, shows the same project in a browser, so a table is not required.[^1]
 

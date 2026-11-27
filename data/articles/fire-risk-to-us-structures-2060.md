@@ -58,7 +58,7 @@ The authors use the Intergovernmental Panel on Climate Change's definition of ri
 - **Exposure, as number of structures:** a gridded record of buildings from property tax assessments, HISDAC-US, in cells of 250 m, gives private structures from 1945 to 2020. A statistical trend fitted to each ecoregion carries the count forward to 2060.[^1]
 - **Vulnerability, as past loss per area burned:** for 2000 to 2023 the authors divide the share of an ecoregion's structures that fire damaged or destroyed by the share of its area that burned. They call the result the Exposure-Adjusted Structure Loss Index, EASLI, and hold it constant to 2060.[^1]
 
-Most earlier assessments, the authors say, set a changing fire hazard against a fixed snapshot of buildings.[^1] Projecting both is the paper's stated advance. The [FEMA National Risk Index](/data-sources/fema-national-risk-index/) and the composite scores in [UrbanFootprint](/engines/urbanfootprint/) multiply the same three kinds of quantity for the present day. This paper adds time to them.
+Most earlier assessments, the authors say, set a changing fire hazard against a fixed snapshot of buildings.[^1] Projecting both is the paper's stated advance. The [FEMA National Risk Index](/data-sources/fema-national-risk-index/) and the composite scores in [UrbanFootprint](/engines/land-use-and-housing/urbanfootprint/) multiply the same three kinds of quantity for the present day. This paper adds time to them.
 
 ## What it found
 

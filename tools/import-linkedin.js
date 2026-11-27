@@ -45,7 +45,7 @@ const predMap = { component_of: 'part_of', uses_component: 'built_on', uses_solv
 const slug = (s) => { const t = s.toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').replace(/-+/g, '-'); return t.length <= 60 ? t : t.slice(0, 60).replace(/-[^-]*$/, '') }
 // Catalogue records that are hand-written entries already: the import component and any new
 // sources are added to the existing entry, nothing else is touched. DT071 is this wiki itself.
-const merge = { DT004: 'engines/urbanly-citycompass', DT015: 'engines/alphaearth-prithvi', DT017: 'engines/weathernext-nvidia-earth-2', DT086: 'engines/world-labs-atlas' }
+const merge = { DT004: 'engines/land-use-and-housing/urbanly-citycompass', DT015: 'engines/earth-observation-and-ai/alphaearth-prithvi', DT017: 'engines/weather-and-climate/weathernext-nvidia-earth-2', DT086: 'engines/3d-cities-and-mapping/world-labs-atlas' }
 // Pruned after the 2026-10-17 rewrite (off-topic or no readable source) or moved to another folder and kind; see devlog.
 const skip = new Set(['DT071', 'DT105', 'DT112', 'DT107', 'DT090', 'DT089', 'DT096', 'DT063', 'DT088', 'DT091', 'DT118', 'DT106', 'DT108', 'DT085', 'DT111', 'DT110', 'DT113', 'DT115', 'DT008', 'DT101', 'DT031', 'DT007', 'DT009', 'DT028', 'DT098', 'DT097', 'DT099', 'DT025', 'DT119', 'DT032', 'DT092', 'DT100', 'DT103', 'DT104', 'DT053', 'DT109', 'DT120', 'DT114', 'DT102', 'DT035', 'DT005', 'DT045', 'DT073', 'DT013', 'DT014', 'DT003', 'DT002', 'DT064'])
 const human = (s) => s.replace(/_/g, ' ')

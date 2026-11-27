@@ -1,0 +1,80 @@
+---
+about:
+  label: Clay
+  description: >-
+    Open Earth observation foundation model, now a program of Renaissance
+    Philanthropy: it turns satellite or aerial imagery with any number of
+    bands, along with its place and date, into 1,024-number embeddings.
+  tags:
+    - satellite
+    - foundation model
+    - embeddings
+    - sentinel
+    - land cover
+tool:
+  tier: 3
+  form: open model
+  group: Earth observation and AI
+  homepage: 'https://clay-foundation.github.io/model/'
+  licence: Apache-2.0 (code and weights); CC-BY-4.0 (documentation); ODC-BY (v0 embeddings); CC-BY (v1.5 embedding sets)
+  cost: free
+domains:
+  - places
+  - ecology
+open:
+  source: open
+  data: open
+  api: unknown
+  participation: open
+  licence: Apache-2.0; embeddings ODC-BY (v0) or CC-BY (v1.5)
+  note: Source Cooperative holds precomputed embeddings for the v0 training data, for the whole NAIP archive (2010 to 2021) from v1.5, and for Sentinel-2 worldwide, one per month from January 2017 to April 2026, from v1.5 via lgnd.ai; for other imagery you run the model yourself.
+relations:
+  - predicate: alternative_to
+    target: engines/earth-observation-and-ai/tessera
+  - predicate: alternative_to
+    target: engines/earth-observation-and-ai/alphaearth-prithvi
+provenance:
+  origin: agent
+  sources:
+    - title: 'Clay Foundation Model (documentation home)'
+      url: 'https://clay-foundation.github.io/model/'
+    - title: 'Clay-foundation/model (README)'
+      url: 'https://github.com/Clay-foundation/model'
+    - title: 'Model release notes (Clay v1.5 specification)'
+      url: 'https://clay-foundation.github.io/model/release-notes/specification.html'
+    - title: 'Training Data'
+      url: 'https://clay-foundation.github.io/model/release-notes/data_sampling.html'
+    - title: 'Explore embedding space of CLAY Encoder for different sensors'
+      url: 'https://clay-foundation.github.io/model/tutorials/embeddings.html'
+    - title: 'made-with-clay/Clay (Hugging Face model card)'
+      url: 'https://huggingface.co/made-with-clay/Clay'
+    - title: 'Clay Model v0 Embeddings (Source Cooperative)'
+      url: 'https://source.coop/clay/clay-model-v0-embeddings'
+    - title: 'NAIP data embedded with Clay v1.5 (rev2) (Source Cooperative)'
+      url: 'https://source.coop/clay/clay-v1-5-naip-2'
+    - title: 'LGND Embeddings (Source Cooperative)'
+      url: 'https://source.coop/clay/lgnd-embeddings'
+    - title: 'Clay v1.5: An Open Sensor-Agnostic Earth Observation Foundation Model (Sánchez-Andrade Nuño and others, manuscript at commit 371c5ea, 26 November 2026)'
+      url: 'https://github.com/Clay-foundation/clay-v1.5-paper/blob/371c5eaaa32aeecefbbb44db51418b1bc5a334c7/DRAFT.md'
+  created: '2026-10-21'
+  reviewed: '2026-10-21'
+  reviewed_by: 'Claude, from the sources listed; the technical report was added on 26 November 2026'
+  status: draft
+---
+Clay reads a square of satellite or aerial imagery together with where and when it was taken, and returns an embedding: a list of 1,024 numbers that summarises what is on the ground in that square at that moment.[^1,8] Squares that look alike to the model get similar numbers, so the embeddings can be searched by similarity or fed to small classifiers.[^1,9] The model is a vision transformer, the same family of network used for photographs, trained without labels by hiding three quarters of each image and learning to fill it back in.[^1,3]
+
+Versions v0 to v1.5 were a fiscally sponsored project of the non-profit Radiant Earth; Clay is now a program of Renaissance Philanthropy.[^1] The current release, v1.5, came out in November 2024.[^10] The model's release notes give its training data as 70 million image chips chosen to cover the world's land cover types; the technical report its makers published in November 2026 counts 72.1 million.[^3,4,10] Its sources were Sentinel-2, Sentinel-1 radar, Landsat 8 and 9 and MODIS worldwide, plus NAIP aerial photos of the USA and LINZ aerial photos of New Zealand, with ground detail from under half a metre to 500 metres per pixel.[^4] Instead of a fixed sensor, the model is told the wavelength of each band, so it accepts any number of bands from many kinds of sensor.[^3] The documentation credits Prithvi among the models whose design it drew on.[^3,4]
+
+The code installs as a Python package from GitHub and the v1.5 weights download from Hugging Face; the encoder alone is 1.25 GB.[^1,3] It has three main uses:[^1]
+
+- finding features such as surface mines, aquaculture or feedlots by similarity[^1]
+- training a small model on the embeddings to classify crop type or land cover, estimate biomass, or detect change such as deforestation, wildfire, flooding or new building[^1]
+- using Clay as the backbone of a larger model[^1,6]
+
+Each embedding describes one place at one time, so following a place through the seasons means comparing embeddings from several dates.[^3] Some are already computed and published on Source Cooperative.[^7,8,9] Clay used v1.5 to embed the whole NAIP aerial archive of the USA from 2010 to 2021.[^8] The company lgnd.ai publishes monthly v1.5 embeddings of Sentinel-2 worldwide from January 2017 to April 2026, under CC BY 4.0.[^9] Embeddings for all the training data of the older v0 model are there too, under ODC-BY.[^1,7]
+
+## Where it is strong and where it is not
+
+In November 2026 its makers published a [technical report](/articles/clay-v1-5-technical-report/) that tests v1.5 on 43 benchmarks against models released since.[^10] Clay leads on two segmentation tasks with sub-metre aerial imagery, and comes within 91 to 94 per cent of the best satellite model on an instrument it never saw in training. General-purpose vision models do better on ordinary colour scenes. Models that read a year of passes do clearly better on crops and seasonal land cover.[^10] The report recommends Clay where the imagery is from an unusual sensor, is sub-metre with extra bands, or has bands missing, and a multi-date model or annual embeddings for anything that depends on the seasons.[^10]
+
+Code and weights are under Apache 2.0 and the documentation under CC-BY 4.0.[^1,2] The weights carried a licence with restrictions on use until May 2025.[^10] The training data covered only land and coastal water, left out the poles, open ocean and night-time scenes, did not set out to include extreme events, and had at most six dates per location.[^3]

@@ -92,7 +92,7 @@ export function load({ params }) {
     const figure = b ? { src: e.figure.src, full: e.figure.full || null, repo: e.figure.repo || null, posters: e.figure.posters || null, credit: e.figure.credit || '', url: card(b).url, label: b.about.label, poster: b.about.depiction ? `/${b.dir ? b.dir + '/' : ''}${b.about.depiction}` : null } : null
     return { ...base, aliases: e.about.aliases || [], figure,
       recent: store.recent(12).filter((r) => r.id && !r.section && !('domain' in r)).slice(0, 8).map(line),
-      sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), area: s.section.area || 'resources', count: s.about.view === 'recent' ? 0 : s.about.view === 'news' ? news().length : s.about.view === 'tagged' ? store.find({ tag: s.section.tag }).length : store.descendants(s.id).filter((d) => !d.redirect).length })),
+      sections: store.children('').filter((s) => s.section && s.section.nav !== false).sort((a, b) => a.section.order - b.section.order).map((s) => ({ ...card(s), area: s.section.area || 'resources', count: s.about.view === 'recent' ? 0 : s.about.view === 'news' ? news().length : s.about.view === 'tagged' ? store.find({ tag: s.section.tag }).length : store.descendants(s.id).filter((d) => !d.redirect && !d.section).length })),
       areas: [['new', 'New'], ['practice', 'Practice'], ['technologies', 'Technologies'], ['theory', 'Theory'], ['resources', 'Resources']],
       domains: domains.map((d) => ({ ...d, count: store.find({ domain: d.short }).length })) }
   }
@@ -105,7 +105,11 @@ export function load({ params }) {
   if (view === 'vitals') return { ...base, vitals: charts(e.vitals?.series || []), dims: { W, H, P } }
   if (view === 'list') {
     // Guides read in stage order; engines are shelved by the task a guest is trying to do (tool.group).
-    const kids = store.children(id).filter((c) => !c.redirect)
+    // A large shelf is split on disk into subfolders, each with a page of its own (an index.md carrying `section`).
+    // The shelf still lists every entry beneath it, and names its subfolders above the list.
+    const folders = store.children(id).filter((c) => c.section)
+    const kids = (folders.length ? store.descendants(id).filter((c) => !c.section) : store.children(id)).filter((c) => !c.redirect)
+    base.folders = folders.map((f) => ({ label: f.about.label, url: card(f).url, count: store.descendants(f.id).filter((d) => !d.redirect && !d.section).length }))
     const staged = kids.every((c) => c.guide?.stage !== undefined)
     const mixed = new Set(kids.map((c) => store.kindsOf(c)[0])).size > 1
     const items = (staged ? [...kids].sort((a, b) => a.guide.stage - b.guide.stage) : kids).map((c) => ({ ...card(c), chips: chips(c), group: c.tool?.group || c.about?.group || (mixed ? plural(kindLabel(store.kindsOf(c)[0] || 'entry')).replace(/^./, (ch) => ch.toUpperCase()) : null) }))

@@ -140,6 +140,22 @@ find. Promotion to proposed or public is Anselm's, per entry or in batches.
 Nothing invented: no fact, date, url, author or title that a source did not
 state; "I guessed" when guessing.
 
+## Large folders are split into subfolders (Anselm, 2026-11-27)
+
+"As a general policy lets break up large folders into sub folders. This
+is actually generally true even for most pages - where we have already
+found that we can sub-group large collections." Addresses move with the
+files and links are rewritten, with no redirects: "don't worry about
+moving urls around - the site is still draft - we are still settling."
+Entry files are not given date prefixes; that pattern is the devlog's.
+
+How it works: a subfolder holds its entries and an `index.md` with
+`section: { nav: false }`, which gives the subfolder a page of its own.
+The parent shelf still lists every entry beneath it, with its usual
+grouping, and names its subfolders above the list. A subfolder is named
+for a grouping the entries already carry. The first shelf done is Engines,
+by `tool.group`; see `20261127-subfolders.md`.
+
 ## Where thinking goes (2026-10-18)
 
 In dated `devlog/` entries, never in a `meta/`, `docs/` or capitalised root

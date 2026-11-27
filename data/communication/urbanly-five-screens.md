@@ -27,7 +27,7 @@ open:
     behind them, CityCompass, is a paid product.
 relations:
   - predicate: built_on
-    target: engines/urbanly-citycompass
+    target: engines/land-use-and-housing/urbanly-citycompass
   - predicate: cites
     target: communication/explorable-explanations
 provenance:
@@ -54,4 +54,4 @@ Each screen asks one question and sets one target, and the reader moves things o
 
 A sixth screen asks nothing. It pulls back to the whole district and shows everything the reader changed standing together: the schools, the extended line, the blocks painted with jobs, the new homes and the trees.[^1]
 
-Each screen is one question a resident might ask, with one number to beat and one thing to move, and the cost of a choice shows up on the next screen, where jobs become traffic and upzoning meets what developers will build. The tradition is the [explorable explanation](/communication/explorable-explanations/), here used to sell a working planning model, [CityCompass](/engines/urbanly-citycompass/). Urbanly says its simulation models have been deployed in more than 50 public agencies across five continents.[^1]
+Each screen is one question a resident might ask, with one number to beat and one thing to move, and the cost of a choice shows up on the next screen, where jobs become traffic and upzoning meets what developers will build. The tradition is the [explorable explanation](/communication/explorable-explanations/), here used to sell a working planning model, [CityCompass](/engines/land-use-and-housing/urbanly-citycompass/). Urbanly says its simulation models have been deployed in more than 50 public agencies across five continents.[^1]

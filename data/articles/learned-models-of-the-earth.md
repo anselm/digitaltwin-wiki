@@ -18,21 +18,21 @@ domains:
   - places
 relations:
   - predicate: about
-    target: engines/gencast
+    target: engines/weather-and-climate/gencast
   - predicate: about
-    target: engines/corrdiff
+    target: engines/weather-and-climate/corrdiff
   - predicate: about
-    target: engines/neuralgcm
+    target: engines/weather-and-climate/neuralgcm
   - predicate: about
-    target: engines/ace2
+    target: engines/weather-and-climate/ace2
   - predicate: about
     target: data-sources/era5
   - predicate: cites
     target: terms/world-model
   - predicate: cites
-    target: engines/aurora
+    target: engines/weather-and-climate/aurora
   - predicate: cites
-    target: engines/google-flood-hub
+    target: engines/water-and-flooding/google-flood-hub
   - predicate: cites
     target: terms/natural-general-intelligence-ngi
 provenance:
@@ -85,9 +85,9 @@ GenCast was trained on forty years of [ERA5](/data-sources/era5/), from 1979 to 
 
 The same holds for the other models described here:
 
-- **[CorrDiff](/engines/corrdiff/)**, from NVIDIA, uses diffusion to turn a 25 km picture of the weather over Taiwan into a 2 km one. Its 2 km training targets are four years of output from a regional physics model run by Taiwan's Central Weather Administration.[^3]
-- **[ACE2](/engines/ace2/)**, from the Allen Institute for AI, was trained in one version on ERA5 and in another on eighty years of output from a physics-based atmosphere model, SHiELD.[^6]
-- **[NeuralGCM](/engines/neuralgcm/)**, from Google Research, was trained on ERA5.[^5]
+- **[CorrDiff](/engines/weather-and-climate/corrdiff/)**, from NVIDIA, uses diffusion to turn a 25 km picture of the weather over Taiwan into a 2 km one. Its 2 km training targets are four years of output from a regional physics model run by Taiwan's Central Weather Administration.[^3]
+- **[ACE2](/engines/weather-and-climate/ace2/)**, from the Allen Institute for AI, was trained in one version on ERA5 and in another on eighty years of output from a physics-based atmosphere model, SHiELD.[^6]
+- **[NeuralGCM](/engines/weather-and-climate/neuralgcm/)**, from Google Research, was trained on ERA5.[^5]
 
 So "learned from data" here means, in most cases, learned from the products of physics-based models. The learned model is a fast statistical copy of what those models produce. This is useful, because the copy runs far faster than the original, but it means the learned model inherits its teacher's range and its teacher's errors. GenCast's authors left precipitation out of their main results because they did not trust ERA5's precipitation.[^2]
 
@@ -121,7 +121,7 @@ The global atmosphere is the most favourable case there is for learning a model 
 
 - **One short history.** A learned model needs many examples of the system changing. A given estuary or city has one history, measured at a few points, and often only for a decade or two.
 - **Interventions.** The questions asked of a model of a place are usually about a change that has not been made: a seawall, a rezoning, a restored wetland. ACE2's difficulty in separating carbon dioxide from sea temperature is the same problem in a simpler setting. Where the record contains no comparable intervention, a model learned from the record alone has nothing to go on.
-- **Transfer between places can substitute for history, where the places are alike.** Google's flood model was trained on river gauges around the world, and Nearing and colleagues report that it forecasts extreme floods on rivers with no gauge five days ahead about as reliably as the Copernicus GloFAS system, which is physics-based, does on the day itself.[^9] This works because the many gauged rivers supply the examples that one river cannot. The [Flood Hub](/engines/google-flood-hub/) entry describes the service built on it.
+- **Transfer between places can substitute for history, where the places are alike.** Google's flood model was trained on river gauges around the world, and Nearing and colleagues report that it forecasts extreme floods on rivers with no gauge five days ahead about as reliably as the Copernicus GloFAS system, which is physics-based, does on the day itself.[^9] This works because the many gauged rivers supply the examples that one river cannot. The [Flood Hub](/engines/water-and-flooding/google-flood-hub/) entry describes the service built on it.
 
 ## How the two approaches are being combined
 
@@ -130,7 +130,7 @@ Four arrangements are in use. In each of them a physics-based model supplies som
 1. **Emulation.** A physics model is run many times and a learned model is trained to reproduce its output. ACE2 trained on SHiELD is an example, and it simulates about 1,500 years per day of computing.[^6] An emulator makes it affordable to run the thousands of scenarios that exploring an uncertain future requires. It is only as good as the model it copies, and only within the range of runs it was shown.
 2. **Downscaling.** A coarse forecast from any source is given local detail by a model trained on a few years of expensive high-resolution simulation. CorrDiff's authors report that it is at least 22 times faster than the regional physics model it learned from.[^3]
 3. **Hybrid models.** The equations that are well understood are kept as equations, and neural networks are trained to stand in for the processes that are too small or too complicated to resolve. NeuralGCM solves the equations of large-scale atmospheric motion directly and learns the effects of clouds, radiation and precipitation.[^5] Its makers still warn that its response to a 4 degree rise in sea temperature "diverges from expectations", and its documentation says the user must supply sea surface temperature and sea ice from elsewhere.[^5,12] Shen and colleagues review the same idea for hydrology and other Earth sciences under the name differentiable modelling, and report preliminary evidence that such models extrapolate better and need less training data than purely learned ones.[^11]
-4. **Pretraining and adaptation.** A large model is trained on global data and then adjusted to a particular task with a much smaller dataset. [Aurora](/engines/aurora/) was adapted in this way to air pollution and ocean waves.
+4. **Pretraining and adaptation.** A large model is trained on global data and then adjusted to a particular task with a much smaller dataset. [Aurora](/engines/weather-and-climate/aurora/) was adapted in this way to air pollution and ocean waves.
 
 The proposal described under [Natural General Intelligence](/terms/natural-general-intelligence-ngi/) belongs with the third arrangement: it asks for a model learned directly from observations of the Earth that also obeys known physics.
 

@@ -42,7 +42,7 @@ relations:
   - predicate: cites
     target: data-sources/geomip
   - predicate: built_on
-    target: engines/cesm
+    target: engines/weather-and-climate/cesm
 provenance:
   origin: agent
   sources:
@@ -80,7 +80,7 @@ provenance:
     licence statement, so the licence given is the registry's and UCAR's
   status: draft
 ---
-These are two sets of climate model runs from the National Center for Atmospheric Research in which sulphur dioxide is injected into the stratosphere to hold the planet's temperature down, the method the [Geoengineering](/terms/geoengineering/) term describes as stratospheric aerosol injection. Both use the [Community Earth System Model](/engines/cesm/) with the Whole Atmosphere Community Climate Model as its atmosphere, and both are large ensembles: the same experiment run many times from slightly different starting states.[^1,4] They are single-model studies, unlike [GeoMIP](/data-sources/geomip/), where many models run one protocol, and the ARISE protocol is written so that other models can repeat it.[^5]
+These are two sets of climate model runs from the National Center for Atmospheric Research in which sulphur dioxide is injected into the stratosphere to hold the planet's temperature down, the method the [Geoengineering](/terms/geoengineering/) term describes as stratospheric aerosol injection. Both use the [Community Earth System Model](/engines/weather-and-climate/cesm/) with the Whole Atmosphere Community Climate Model as its atmosphere, and both are large ensembles: the same experiment run many times from slightly different starting states.[^1,4] They are single-model studies, unlike [GeoMIP](/data-sources/geomip/), where many models run one protocol, and the ARISE protocol is written so that other models can repeat it.[^5]
 
 ## Why an ensemble
 

@@ -54,7 +54,7 @@ domains:
   - climate
 relations:
   - predicate: needs
-    target: engines/google-flood-hub
+    target: engines/water-and-flooding/google-flood-hub
     note: >-
       imports forecasts from (source_claim; exact implementation not
       independently tested)

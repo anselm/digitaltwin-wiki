@@ -58,7 +58,7 @@ PIK's stated mission is to advance interdisciplinary research on climate impacts
 
 Several of PIK's models are useful to someone modelling a place, at different scales:
 
-- [REMIND](/engines/remind-model/) is its integrated assessment model of the world's economy and energy system under climate targets.
+- [REMIND](/engines/energy-and-utilities/remind-model/) is its integrated assessment model of the world's economy and energy system under climate targets.
 - MAgPIE allocates land use across the globe on a grid of half a degree, choosing patterns that meet food and bioenergy demand in ten world regions at least cost and stepping forward ten years at a time.[^3]
 - LPJmL simulates vegetation and the flows of carbon and water for natural and farmed land, typically on about 67,000 half-degree cells, and supplies MAgPIE with potential crop yields and water limits. Its source code is published under the AGPLv3 licence at github.com/PIK-LPJmL/LPJmL.[^3,4]
 - SWIM is closest to the scale of a single place. It models a river basin at a daily time step, splitting it into subbasins and then hydrotopes, and gives river flow, crop yields and nutrient loads from commonly available climate, land use and soil data. It was built to study climate and land-use change at the regional scale where adaptation happens, has been applied in Europe, Africa and Central Asia, and is maintained on PIK's GitLab with set-up through a GRASS GIS interface.[^5]

@@ -44,7 +44,7 @@ relations:
   - predicate: cites
     target: twins/biodt
   - predicate: cites
-    target: engines/invest
+    target: engines/ecosystems-and-land/invest
   - predicate: cites
     target: twins/destination-earth
   - predicate: cites
@@ -66,7 +66,7 @@ relations:
   - predicate: cites
     target: data-sources/emodnet
   - predicate: cites
-    target: engines/madingley
+    target: engines/ecosystems-and-land/madingley
 provenance:
   origin: agent
   sources:
@@ -118,7 +118,7 @@ Most of the work closest to twins does not use the word. The authors searched Sc
 - three shallow lakes in France;
 - woody encroachment in Kruger National Park;
 - methane from a peatland in northern Minnesota;
-- two studies built on [InVEST](/engines/invest/), one in Rasht County in Iran and one across four eastern German states.
+- two studies built on [InVEST](/engines/ecosystems-and-land/invest/), one in Rasht County in Iran and one across four eastern German states.
 
 Some run process models. Others run statistical or machine-learning ones. None combines a process-based model with a big-data model. Most are silent on how often their data are refreshed.[^1]
 
@@ -132,4 +132,4 @@ The paper ends on open questions.[^1]
 
 The closing message: the label matters less than the five traits. Call it a digital twin or call it a model, so long as data, models and people are integrated around one real place.[^1] That is close to how this wiki uses the term (see [What is a digital twin?](/terms/digital-twin/)). [Destination Earth](/twins/destination-earth/) appears in the paper as a twin of the whole planet, the far end of the same idea. The paper is open under CC BY 4.0, so its figure can be shown here.[^1]
 
-Several of the paper's own sources have entries on this wiki. On what a twin is: [Blair](/articles/blair-digital-twins-of-the-natural-environment/), [de Koning and colleagues](/articles/de-koning-digital-twins-model-data-fusion/), [Metcalfe and colleagues' maturity levels](/articles/metcalfe-digital-twin-maturity-levels/), and [Hazeleger and colleagues on Earth twins](/articles/hazeleger-digital-twins-of-the-earth/). On forecasting: [Dietze and colleagues](/articles/dietze-near-term-ecological-forecasting/). On the parts: the [Madingley](/engines/madingley/) ecosystem model, [Movebank](/data-sources/movebank/) animal tracks and [EMODnet](/data-sources/emodnet/) marine data.[^1]
+Several of the paper's own sources have entries on this wiki. On what a twin is: [Blair](/articles/blair-digital-twins-of-the-natural-environment/), [de Koning and colleagues](/articles/de-koning-digital-twins-model-data-fusion/), [Metcalfe and colleagues' maturity levels](/articles/metcalfe-digital-twin-maturity-levels/), and [Hazeleger and colleagues on Earth twins](/articles/hazeleger-digital-twins-of-the-earth/). On forecasting: [Dietze and colleagues](/articles/dietze-near-term-ecological-forecasting/). On the parts: the [Madingley](/engines/ecosystems-and-land/madingley/) ecosystem model, [Movebank](/data-sources/movebank/) animal tracks and [EMODnet](/data-sources/emodnet/) marine data.[^1]

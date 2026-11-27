@@ -27,7 +27,7 @@ domains:
   - mobility
 relations:
   - predicate: needs
-    target: engines/cadnaa
+    target: engines/sensory-landscape/cadnaa
   - predicate: needs
     target: data-sources/openstreetmap-osm
 provenance:
@@ -72,7 +72,7 @@ People buying or renting a home ask, and so do parents, light sleepers, and neig
 
 **Health guidelines.** The WHO Regional Office for Europe's Environmental Noise Guidelines (2018) say what level is too much, source by source. They strongly recommend keeping road traffic noise below 53 dB Lden and 45 dB Lnight, railway noise below 54 dB Lden and 44 dB Lnight, and aircraft noise below 45 dB Lden and 40 dB Lnight.[^6] For wind turbines they conditionally recommend below 45 dB Lden and make no night recommendation, and for all leisure noise combined, reducing the yearly average to 70 dB LAeq,24h.[^6] With them, a map reading becomes a plain answer: above or below the level linked to harm to health or sleep.
 
-**Models for one street.** Commercial noise software such as [CadnaA](/engines/cadnaa/) computes levels building by building from traffic, rail and aircraft inputs, with buildings and terrain.[^10] Road geometry can come from [OpenStreetMap](/data-sources/openstreetmap-osm/).[^10] A measurement at the window remains the check on any model.
+**Models for one street.** Commercial noise software such as [CadnaA](/engines/sensory-landscape/cadnaa/) computes levels building by building from traffic, rail and aircraft inputs, with buildings and terrain.[^10] Road geometry can come from [OpenStreetMap](/data-sources/openstreetmap-osm/).[^10] A measurement at the window remains the check on any model.
 
 ## Who sells an answer
 

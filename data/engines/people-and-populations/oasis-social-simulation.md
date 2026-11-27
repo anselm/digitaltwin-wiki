@@ -1,0 +1,58 @@
+---
+about:
+  label: OASIS (Open Agent Social Interaction Simulations)
+  description: >-
+    Open-source simulator from CAMEL-AI of social media platforms like X and
+    Reddit, populated by up to a million language-model users who post,
+    follow and repost under a recommendation algorithm.
+  tags:
+    - LLM agents
+    - social media
+    - misinformation
+    - polarization
+    - recommendation systems
+    - CAMEL-AI
+tool:
+  tier: 3
+  form: open-source Python package
+  group: People and populations
+  homepage: 'https://github.com/camel-ai/oasis'
+  licence: Apache-2.0
+  cost: 'free software; LLM calls are paid per token'
+open:
+  source: open
+  data: open
+  api: unknown
+  participation: open
+  licence: Apache-2.0
+  note: A dataset is published on Hugging Face; documentation at docs.oasis.camel-ai.org.
+domains:
+  - people
+relations:
+  - predicate: alternative_to
+    target: engines/people-and-populations/agentsociety
+  - predicate: alternative_to
+    target: engines/agents-and-system-dynamics/mirofish
+provenance:
+  origin: agent
+  sources:
+    - title: 'camel-ai/oasis (README)'
+      url: 'https://github.com/camel-ai/oasis'
+    - title: 'OASIS: Open Agent Social Interaction Simulations with One Million Agents (arXiv abstract)'
+      url: 'https://arxiv.org/abs/2411.11581'
+    - title: '666ghj/MiroFish (README)'
+      url: 'https://github.com/666ghj/MiroFish'
+    - title: 'camel-ai/oasis (GitHub API repository record: created and last pushed dates)'
+      url: 'https://api.github.com/repos/camel-ai/oasis'
+  created: '2026-10-23'
+  reviewed: '2026-10-23'
+  reviewed_by: 'Claude, from the sources listed'
+  status: draft
+---
+OASIS imitates a social media platform and fills it with simulated users, each driven by a large language model (LLM).[^1] It is built for studying how things spread online: information, group polarization, where opinions in a group drift to extremes, and herd behaviour.[^1] It comes from the open-source CAMEL-AI project, and its 2024 paper has 23 authors, Ziyi Yang first and Jing Shao last.[^1,2]
+
+The simulated platform has the parts that shape real ones.[^1,2] Users have profiles and a follow graph that changes as they act.[^2] Users can take 23 actions, including posting, commenting, reposting, quoting, following, muting and reporting a post.[^1] Each user's feed is chosen by a recommendation system, either by interest or by a "hot score" of popularity.[^1,2] Versions modelled on X and on Reddit are included.[^1,2] The authors report that it reproduces information spreading, polarization and herd effects on both, and that larger simulated crowds produced stronger group dynamics and more varied opinions.[^2]
+
+You install it with pip as camel-oasis, supply a file of user profiles and a model, and step the simulation forward in Python; results go to a database.[^1] It works with OpenAI models and others through the CAMEL framework.[^1] The README gives a cost reference: 100 users for one step used about 336,000 input tokens on Alibaba's Qwen-turbo model.[^1] Cost grows with users, steps and the share of users active each step, so a million-user run is a large undertaking.[^1] Since 2025 a researcher can also interview a simulated user mid-run.[^1]
+
+The README lists follow-on research built on OASIS, on collusion, fraud and marketplaces,[^1] and [MiroFish](/engines/agents-and-system-dynamics/mirofish/) uses it as its simulation layer.[^3] The repository was created in November 2024 and was still being updated in October 2026.[^4] Each study has to test for itself how closely the simulated users behave like people on a real platform. Licence Apache-2.0.[^1]

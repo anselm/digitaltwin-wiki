@@ -35,7 +35,7 @@ domains:
   - mobility
 relations:
   - predicate: built_on
-    target: engines/aimsun
+    target: engines/transport-and-crowds/aimsun
   - predicate: answers
     target: questions/after-a-closure
 provenance:

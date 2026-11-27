@@ -30,4 +30,4 @@ Uri Wilensky is the Lorraine H. Morton Professor of Learning Sciences, Computer 
 
 He first developed NetLogo in 1999.[^2] His lab maintains it, and his page calls it the most widely used agent-based modelling software, with hundreds of thousands of users in research and education. He has published more than 300 articles and more than 500 agent-based models.[^1] His theory of "restructurations" holds that representing knowledge in computational media changes how people think and learn: students can make sense of a complex system by building and exploring a model in which agents follow simple rules and large patterns emerge.[^2] With William Rand he wrote *An Introduction to Agent-Based Modeling* (MIT Press, 2015).[^1] His awards include the 2016 ISDDE prize for excellence in design, for NetLogo, and the 2025 Yidan Prize for education research, and he is a fellow of the National Academy of Education and the American Academy of Arts and Sciences.[^1]
 
-He is the maker of [NetLogo](/engines/netlogo/).
+He is the maker of [NetLogo](/engines/people-and-populations/netlogo/).

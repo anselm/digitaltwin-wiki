@@ -36,4 +36,4 @@ As a graduate student at Santa Cruz he and Norman Packard formed Eudaemonic Ente
 
 His later work at Oxford includes forecasts of technological progress from Wright's law, which ties falling costs to cumulative production, and a model with which his group predicted the effect of COVID-19 on the UK economy.[^1] He founded Macrocosm, where he is chief scientist, to scale these methods up into a simulator of the economy in which every company is present.[^1] Wikipedia quotes his aim: "We want to do for economic planning what Google maps did for traffic planning".[^1] His book Making Sense of Chaos: A Better Economics for a Better World was published by Allen Lane in April 2024.[^1]
 
-On the wiki he is the founder of [Macrocosm](/engines/macrocosm/).
+On the wiki he is the founder of [Macrocosm](/engines/agents-and-system-dynamics/macrocosm/).

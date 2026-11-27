@@ -65,4 +65,4 @@ Sunlight and weather over a southern Chilean site through the year. The electric
 
 ## Where to start
 
-The figures above come from the companies' announcements, through AKVA group's own page.[^1] An energy system model such as [PyPSA](/engines/pypsa-pypsa-eur/) can size generation and storage against an hourly load; the [use case on electrification](/questions/electrification/) lists what else such a model needs.
+The figures above come from the companies' announcements, through AKVA group's own page.[^1] An energy system model such as [PyPSA](/engines/energy-and-utilities/pypsa-pypsa-eur/) can size generation and storage against an hourly load; the [use case on electrification](/questions/electrification/) lists what else such a model needs.

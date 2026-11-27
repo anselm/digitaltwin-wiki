@@ -10,7 +10,7 @@ domains:
   - mobility
 relations:
   - predicate: tells
-    target: engines/aimsun
+    target: engines/transport-and-crowds/aimsun
 provenance:
   origin: survey
   sources:

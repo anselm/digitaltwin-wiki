@@ -31,4 +31,4 @@ Michael Bernstein teaches computer science at Stanford University, where he is a
 
 With Joon Sung Park, Percy Liang and others he built Social Simulacra, "creating populated prototypes for social computing systems" (UIST 2022), and generative agents, simulations he describes as the highest-cited research in the history of UIST.[^1] He is a co-founder of Simile, where he is chief data officer.[^1,3]
 
-On the wiki he is an author of [Generative Agents](/engines/generative-agents/) and of [Generative Agent Simulations of 1,000 People](/articles/park-generative-agents-1000-people/), and a founder of [Simile](/engines/simile/).
+On the wiki he is an author of [Generative Agents](/engines/people-and-populations/generative-agents/) and of [Generative Agent Simulations of 1,000 People](/articles/park-generative-agents-1000-people/), and a founder of [Simile](/engines/people-and-populations/simile/).

@@ -89,9 +89,9 @@ A systematic review reports what the studies it selected found. Its conclusions 
 
 This section is the wiki's reading, not the paper's. The loop can be built for one city in four parts, and the wiki has an entry for a tool or a dataset at each.
 
-1. **Where the city grows.** An urban simulation such as [UrbanSim](/engines/urbansim/) places homes and jobs year by year under zoning and transport. The paper cites Gao and O'Neill for the importance of spatially explicit modelling of land use for urban and climate policy.[^1]
+1. **Where the city grows.** An urban simulation such as [UrbanSim](/engines/land-use-and-housing/urbansim/) places homes and jobs year by year under zoning and transport. The paper cites Gao and O'Neill for the importance of spatially explicit modelling of land use for urban and climate policy.[^1]
 2. **What the ground becomes.** A land cover map for each year, observed or simulated: [Dynamic World](/data-sources/dynamic-world/) anywhere, the [National Land Cover Database](/data-sources/nlcd/) in the United States, which also records paved surface.
-3. **What that does to heat and water.** The relationship between cover and temperature is what the reviewed studies measure. [Cool Cities Lab](/engines/cool-cities-lab/) estimates what trees, cool roofs and shade do to air temperature in a city, and [PALM](/engines/palm/) simulates air flow and heat street by street.
+3. **What that does to heat and water.** The relationship between cover and temperature is what the reviewed studies measure. [Cool Cities Lab](/engines/weather-and-climate/cool-cities-lab/) estimates what trees, cool roofs and shade do to air temperature in a city, and [PALM](/engines/weather-and-climate/palm/) simulates air flow and heat street by street.
 4. **What planning changes.** The three levers the paper names, integrated land-use planning, compact development and greening, are changed inputs to the first and second parts.
 
 The third step in the paper's loop, the effect of heat and flooding on where people later build, is the part no tool on this wiki supplies. The [land management question page](/questions/land-use-change/) covers the same change of cover for water, habitat, carbon and food.

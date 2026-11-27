@@ -55,7 +55,7 @@ domains:
   - water
 relations:
   - predicate: built_on
-    target: engines/openfoam
+    target: engines/agents-and-system-dynamics/openfoam
     note: uses solver (source_claim; exact implementation not independently tested)
   - predicate: built_on
     target: presentation/paraview

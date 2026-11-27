@@ -31,9 +31,9 @@ Land is where the systems meet. Change the cover and you change how rain runs of
 
 Models of **ecosystem services**, the benefits people get from land and nature such as clean water and stored carbon, take a land-cover map and estimate each of these for the current map and for an alternative. They are built to compare scenarios, not to forecast a number to the decimal, and their value is in showing which plan is better and where. Crop models go deeper on the food question, simulating growth under given weather, soil and management. Integrated assessment models connect land to energy, water and the economy at the scale of a region or the world, and suit a question about policy more than one about a single parcel.
 
-On this site: [InVEST](/engines/invest/) for ecosystem services, [DSSAT](/engines/dssat/) for crops, [GCAM](/engines/gcam/) for the regional and global scale, and [Earth Index](/capture/earth-genome-earth-index/) for finding features in satellite imagery.
+On this site: [InVEST](/engines/ecosystems-and-land/invest/) for ecosystem services, [DSSAT](/engines/ecosystems-and-land/dssat/) for crops, [GCAM](/engines/ecosystems-and-land/gcam/) for the regional and global scale, and [Earth Index](/capture/earth-genome-earth-index/) for finding features in satellite imagery.
 
-When the change is a city growing, heat joins the list. [Cool Cities Lab](/engines/cool-cities-lab/) estimates what trees, cool roofs and shade do to air temperature in a city, and [PALM](/engines/palm/) simulates air flow and heat street by street. A 2026 [review of 116 studies](/articles/almulhim-urbanization-land-cover-climate/) treats urban growth, the land it converts and the heat that follows as one loop.
+When the change is a city growing, heat joins the list. [Cool Cities Lab](/engines/weather-and-climate/cool-cities-lab/) estimates what trees, cool roofs and shade do to air temperature in a city, and [PALM](/engines/weather-and-climate/palm/) simulates air flow and heat street by street. A 2026 [review of 116 studies](/articles/almulhim-urbanization-land-cover-climate/) treats urban growth, the land it converts and the heat that follows as one loop.
 
 ## What you need
 

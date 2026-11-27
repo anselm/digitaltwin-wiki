@@ -61,4 +61,4 @@ Inflow, evaporation and outflow through the St. Lawrence; winter ice, which slow
 
 ## Where to start
 
-NOAA's Great Lakes Environmental Research Laboratory keeps the ice cover records back to 1973,[^1] and the EPA's Great Lakes pages give the basin's physical figures.[^3] The [NOAA National Water Model](/engines/noaa-national-water-model/) simulates streamflow in US rivers, including those that feed the lakes.
+NOAA's Great Lakes Environmental Research Laboratory keeps the ice cover records back to 1973,[^1] and the EPA's Great Lakes pages give the basin's physical figures.[^3] The [NOAA National Water Model](/engines/water-and-flooding/noaa-national-water-model/) simulates streamflow in US rivers, including those that feed the lakes.
